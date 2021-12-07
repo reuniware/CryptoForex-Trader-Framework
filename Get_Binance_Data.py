@@ -1,4 +1,5 @@
 # https://python-binance.readthedocs.io/en/latest/
+# https://www.youtube.com/watch?v=_gNIWHh539A
 
 import pandas as pd
 from binance.client import Client
