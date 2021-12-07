@@ -1,6 +1,9 @@
 # Python Binance API doc : https://python-binance.readthedocs.io/en/latest/
 # Original work (Crypto Robot) : https://www.youtube.com/watch?v=_gNIWHh539A
 # Binance fees : https://www.binance.com/en/fee/schedule
+# STRATEGY : 
+# WHEN CLOSE PRICE GETS OVER KIJUN SEN : BUY
+# WHEN CLOSE PRICE GETS UNDER KIJUN SEN : SELL
 
 import pandas as pd
 from binance.client import Client
