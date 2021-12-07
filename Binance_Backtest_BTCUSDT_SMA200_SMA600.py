@@ -1,5 +1,5 @@
-# https://python-binance.readthedocs.io/en/latest/
-# https://www.youtube.com/watch?v=_gNIWHh539A
+# Python Binance API doc : https://python-binance.readthedocs.io/en/latest/
+# Original work (Crypto Robot) : https://www.youtube.com/watch?v=_gNIWHh539A
 # Binance fees : https://www.binance.com/en/fee/schedule
 
 import pandas as pd
