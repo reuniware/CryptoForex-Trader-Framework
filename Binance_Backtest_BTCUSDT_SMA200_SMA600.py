@@ -52,13 +52,13 @@ lastIndex = df.first_valid_index()      # https://pandas.pydata.org/docs/referen
 for index, row in df.iterrows():
     if df['SMA200'][lastIndex] > df['SMA600'][lastIndex] and usdt > 10:
         btc = usdt / df['close'][index]
-        btc = btc - 0.007 * btc
+        btc = btc - 0.0075 * btc
         usdt = 0
         print("Buy BTC at", df['close'][index], '$ the', index)
 
     if df['SMA200'][lastIndex] < df['SMA600'][lastIndex] and btc > 0.0001:
         usdt = btc * df['close'][index]
-        usdt = usdt - 0.007 * usdt
+        usdt = usdt - 0.0075 * usdt
         btc = 0
         print("Sell BTC at", df['close'][index], '$ the', index)
 
