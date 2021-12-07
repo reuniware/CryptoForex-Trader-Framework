@@ -64,7 +64,7 @@ for index, row in df.iterrows():
 
     lastIndex = index
 
-finalResult = usdt + btc * df['close'].iloc[-1]
+finalResult = usdt + btc * df['close'].iloc[-1]     # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iloc.html
 print("Final result", finalResult, "USDT")
 
 
