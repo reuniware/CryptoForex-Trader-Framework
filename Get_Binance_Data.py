@@ -6,9 +6,7 @@ import ta
 
 klinesT = Client().get_historical_klines("BTCUSDT", Client.KLINE_INTERVAL_15MINUTE, "01 December 2021")
 
-df = pd.DataFrame(klinesT,
-                  columns=['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av', 'trades',
-                           'tb_base_av', 'tb_quote_av', 'ignore'])
+df = pd.DataFrame(klinesT, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av', 'trades', 'tb_base_av', 'tb_quote_av', 'ignore'])
 
 # [[
 #    1499040000000,      // Open time
@@ -36,5 +34,8 @@ df['close'] = pd.to_numeric(df['close'])
 df['high'] = pd.to_numeric(df['high'])
 df['low'] = pd.to_numeric(df['low'])
 df['open'] = pd.to_numeric(df['open'])
+
+df = df.set_index(df['timestamp'])
+df.index = pd.to_datetime(df.index, unit='ms')
 
 print(df)
