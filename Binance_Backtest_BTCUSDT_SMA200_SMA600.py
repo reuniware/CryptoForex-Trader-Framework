@@ -68,5 +68,6 @@ for index, row in df.iterrows():
 finalResult = usdt + btc * df['close'].iloc[-1]     # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iloc.html
 print("Final result", finalResult, "USDT")
 
-
+buyAndHoldResult = (1000 / df['close'].iloc[0]) * df['close'].iloc[-1]
+print("Buy and hold result", buyAndHoldResult, "USDT")
 
