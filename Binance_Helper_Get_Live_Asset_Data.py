@@ -40,8 +40,9 @@ twm.start()
 
 
 def handle_socket_message(msg):
+    # print(msg)
     close_price = msg['k']['c']
-    dt = msg['k']['t']
+    dt = msg['E']
     print(pd.to_datetime(dt, unit='ms'), symbolToTrade + 'USDT' + ' :', close_price)
 
 
@@ -51,7 +52,7 @@ twm.join()
 
 
 # SAMPLE OUTPUT
-# C:\Users\InvestDataSystems\PycharmProjects\OceanicTradingBot\venv\Scripts\python.exe C:/Users/InvestDataSystems/PycharmProjects/OceanicTradingBot/main3.py
+# C:\Users\InvestDataSystems\PycharmProjects\OceanicTradingBot\venv\Scripts\python.exe C:/Users/InvestDataSystems/PycharmProjects/OceanicTradingBot/main4.py
 # BNB 1000.00000000 0.00000000
 # BTC 1.00000000 0.00000000
 # BUSD 10000.00000000 0.00000000
@@ -62,8 +63,20 @@ twm.join()
 # XRP 50000.00000000 0.00000000
 # Available USDT =  9965.44896000
 # Available  XRP  =  50000.00000000
-# 2021-12-08 11:50:00 XRPUSDT : 0.81090000
-# 2021-12-08 11:50:00 XRPUSDT : 0.81070000
-# 2021-12-08 11:50:00 XRPUSDT : 0.81030000
-# 2021-12-08 11:50:00 XRPUSDT : 0.81040000
-# 2021-12-08 11:50:00 XRPUSDT : 0.81020000
+# 2021-12-08 12:00:23.896000 XRPUSDT : 0.81310000
+# 2021-12-08 12:00:26.685000 XRPUSDT : 0.81350000
+# 2021-12-08 12:00:28.921000 XRPUSDT : 0.81360000
+# 2021-12-08 12:00:31.320000 XRPUSDT : 0.81370000
+# 2021-12-08 12:00:33.947000 XRPUSDT : 0.81370000
+# 2021-12-08 12:00:36.556000 XRPUSDT : 0.81370000
+# 2021-12-08 12:00:45.434000 XRPUSDT : 0.81380000
+# 2021-12-08 12:00:48.010000 XRPUSDT : 0.81390000
+# 2021-12-08 12:00:59.950000 XRPUSDT : 0.81400000
+# 2021-12-08 12:01:02.043000 XRPUSDT : 0.81430000
+# 2021-12-08 12:01:04.018000 XRPUSDT : 0.81440000
+# 2021-12-08 12:01:06.062000 XRPUSDT : 0.81500000
+# 2021-12-08 12:01:08.146000 XRPUSDT : 0.81520000
+# 2021-12-08 12:01:10.537000 XRPUSDT : 0.81540000
+# 2021-12-08 12:01:12.591000 XRPUSDT : 0.81510000
+# 
+# Process finished with exit code -1
