@@ -1,4 +1,4 @@
-# Python Binance API doc : https://python-binance.readthedocs.io/en/latest/
+# Python Binance API doc : https://python-binance.readthedocs.io/en/latest/ (pip install python-binance)
 # Binance fees : https://www.binance.com/en/fee/schedule
 # Binance Testnet : https://testnet.binance.vision/key/generate
 
