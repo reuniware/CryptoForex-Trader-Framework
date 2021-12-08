@@ -7,11 +7,11 @@
 import pandas as pd
 from binance import Client, ThreadedWebsocketManager
 
-real_api_key = "5PzRa7wBNIt0GZfapNj5wSqPS3FAoLB1t9M88j38KlzbiaGxxA2QqlcFYRNvPEF1"
-real_secret_key = "fk8GsZdB30IslG8l4ZvT0I242qaLZKDnleHUWY6RD5DO9Hsk0rxDwSDX5sCG6NrX"
+real_api_key = "replace me"
+real_secret_key = "replace me"
 
-testnet_api_key = "32UfNm4xuKfx5EWsLxyfFGd7avlHWIO7zG5Td2bdh8X3pVxGyblozwaT2gn60hOi"
-testnet_secret_key = "hCMoG94cRKroYRYOIp652D3UcpdxSLBEJ05A9tLizULOfND3GhnRy5Wy48SjkdlH"
+testnet_api_key = "replace me"
+testnet_secret_key = "replace me"
 
 # client = Client(testnet_api_key, testnet_secret_key, testnet=True)
 client = Client(real_api_key, real_secret_key)
