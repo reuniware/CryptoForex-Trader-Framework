@@ -48,3 +48,22 @@ def handle_socket_message(msg):
 twm.start_kline_socket(callback=handle_socket_message, symbol=symbolToTrade + 'USDT')
 
 twm.join()
+
+
+# SAMPLE OUTPUT
+# C:\Users\InvestDataSystems\PycharmProjects\OceanicTradingBot\venv\Scripts\python.exe C:/Users/InvestDataSystems/PycharmProjects/OceanicTradingBot/main3.py
+# BNB 1000.00000000 0.00000000
+# BTC 1.00000000 0.00000000
+# BUSD 10000.00000000 0.00000000
+# ETH 100.00000000 0.00000000
+# LTC 500.00000000 0.00000000
+# TRX 500000.00000000 0.00000000
+# USDT 9965.44896000 0.00000000
+# XRP 50000.00000000 0.00000000
+# Available USDT =  9965.44896000
+# Available  XRP  =  50000.00000000
+# 2021-12-08 11:50:00 XRPUSDT : 0.81090000
+# 2021-12-08 11:50:00 XRPUSDT : 0.81070000
+# 2021-12-08 11:50:00 XRPUSDT : 0.81030000
+# 2021-12-08 11:50:00 XRPUSDT : 0.81040000
+# 2021-12-08 11:50:00 XRPUSDT : 0.81020000
