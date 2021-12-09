@@ -1,5 +1,5 @@
 # Binance-API-Work
-Experimental research around Binance API (mainly Python)
+Experimental research around Binance API and FTX API (mainly Python)
 
 Error ciso8601 compilation try (Windows) :
 
