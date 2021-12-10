@@ -1,4 +1,3 @@
-D:\PycharmProjects\oceanicTradingBot\venv\Scripts\python.exe D:/PycharmProjects/oceanicTradingBot/main.py
 2021-12-10 23:17:04.518562 0 BTC-MOVE-1210             2.86%             init price= 350.0             current price= 360.0             scan time= 0:00:01.295075
 2021-12-10 23:17:04.518562 1 PUNDIX-PERP               0.42%             init price= 1.193             current price= 1.198             scan time= 0:00:01.295075
 2021-12-10 23:17:04.518562 2 ALPHA/USD                 0.15%             init price= 0.74705           current price= 0.7482            scan time= 0:00:01.295075
