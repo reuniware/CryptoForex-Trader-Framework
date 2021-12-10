@@ -34,7 +34,7 @@ def my_thread(name):
             if symbol in symbolInfo:
                 previous_price = symbolInfo[symbol]
                 evol = price/previous_price
-                if evol != 1:
+                if evol != 1:                           # this only shows moving assets (remove this condition if you need non moving assets)
                     print(symbol, "evol = ", evol)
 
             symbolInfo[symbol] = price
