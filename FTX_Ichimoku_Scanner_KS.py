@@ -20,61 +20,81 @@ client = ftx.FtxClient(
 # result = client.get_balances()
 # print(result)
 
-markets = requests.get('https://ftx.com/api/markets').json()
-df = pd.DataFrame(markets['result'])
-df.set_index('name')
-for index, row in df.iterrows():
-    symbol = row['name']
-    # print(symbol)
-    # print("scanning", symbol)
+stop_thread = False
 
-    data = client.get_historical_data(
-        market_name=symbol,
-        resolution=60 * 60 * 4,  # 60min * 60sec = 3600 sec
-        limit=10000,
-        start_time=float(round(time.time())) - 150 * 3600,  # 1000*3600 for resolution=3600*24 (daily)
-        end_time=float(round(time.time())))
 
-    dframe = pd.DataFrame(data)
+def my_thread(name):
+    global client
+    while not stop_thread:
 
-    # dframe['time'] = pd.to_datetime(dframe['time'], unit='ms')
+        f = open("results.txt", "a")
 
-    # print(dframe)
-    try:
-        dframe['ICH_SSA'] = ta.trend.ichimoku_a(dframe['high'], dframe['low'])
-        dframe['ICH_SSB'] = ta.trend.ichimoku_b(dframe['high'], dframe['low'])
-        dframe['ICH_KS'] = ta.trend.ichimoku_base_line(dframe['high'], dframe['low'])
-        dframe['ICH_TS'] = ta.trend.ichimoku_conversion_line(dframe['high'], dframe['low'])
-        dframe['ICH_CS'] = dframe['close'].shift(-26)
+        markets = requests.get('https://ftx.com/api/markets').json()
+        df = pd.DataFrame(markets['result'])
+        df.set_index('name')
+        for index, row in df.iterrows():
+            symbol = row['name']
+            # print(symbol)
+            # print("scanning", symbol)
 
-    except KeyError as err:
-        print(err)
-        continue
+            data = client.get_historical_data(
+                market_name=symbol,
+                resolution=60 * 60 * 4,  # 60min * 60sec = 3600 sec
+                limit=10000,
+                start_time=float(round(time.time())) - 150 * 3600,  # 1000*3600 for resolution=3600*24 (daily)
+                end_time=float(round(time.time())))
 
-    for indexdf, rowdf in dframe.iterrows():
-        open = rowdf['open']
-        high = rowdf['high']
-        low = rowdf['low']
-        close = rowdf['close']
-        ssa = rowdf['ICH_SSA']
-        ssb = rowdf['ICH_SSB']
-        ks = rowdf['ICH_KS']
-        ts = rowdf['ICH_TS']
-        cs = rowdf['ICH_CS']
-        timestamp = pd.to_datetime(rowdf['time'], unit='ms')
+            dframe = pd.DataFrame(data)
 
-        data_hour = timestamp.hour
-        data_day = timestamp.day
-        data_month = timestamp.month
-        data_year = timestamp.year
+            # dframe['time'] = pd.to_datetime(dframe['time'], unit='ms')
 
-        now = datetime.now() - timedelta(hours=8)
-        now_hour = now.hour
-        now_day = now.day
-        now_month = now.month
-        now_year = now.year
+            # print(dframe)
+            try:
+                dframe['ICH_SSA'] = ta.trend.ichimoku_a(dframe['high'], dframe['low'])
+                dframe['ICH_SSB'] = ta.trend.ichimoku_b(dframe['high'], dframe['low'])
+                dframe['ICH_KS'] = ta.trend.ichimoku_base_line(dframe['high'], dframe['low'])
+                dframe['ICH_TS'] = ta.trend.ichimoku_conversion_line(dframe['high'], dframe['low'])
+                dframe['ICH_CS'] = dframe['close'].shift(-26)
 
-        if data_day == now_day and data_month == now_month and data_year == now_year and (data_hour >= now_hour):
-            if open < ks < close:
-                print(timestamp, symbol, "O", open, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs)
+            except KeyError as err:
+                print(err)
+                continue
 
+            for indexdf, rowdf in dframe.iterrows():
+                openp = rowdf['open']
+                high = rowdf['high']
+                low = rowdf['low']
+                close = rowdf['close']
+                ssa = rowdf['ICH_SSA']
+                ssb = rowdf['ICH_SSB']
+                ks = rowdf['ICH_KS']
+                ts = rowdf['ICH_TS']
+                cs = rowdf['ICH_CS']
+                timestamp = pd.to_datetime(rowdf['time'], unit='ms')
+
+                data_hour = timestamp.hour
+                data_day = timestamp.day
+                data_month = timestamp.month
+                data_year = timestamp.year
+
+                now = datetime.now() - timedelta(hours=4)
+                now_hour = now.hour
+                now_day = now.day
+                now_month = now.month
+                now_year = now.year
+
+                if data_day == now_day and data_month == now_month and data_year == now_year and (data_hour >= now_hour):
+                    if openp < ks < close:
+                        print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs)
+                        strn = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(ssa) + " SSB=" + str(ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs)
+                        f = open("results.txt", "a")
+                        f.write(strn + '\n')
+                        f.close()
+
+        f = open("results.txt", "a")
+        f.write(100 * '*' + '\n')
+        f.close()
+
+
+x = threading.Thread(target=my_thread, args=(1,))
+x.start()
