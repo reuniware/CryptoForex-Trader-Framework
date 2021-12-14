@@ -15,7 +15,7 @@ import math
 client = ftx.FtxClient(
     api_key='',
     api_secret='',
-    subaccount_name='TrixStrategy'
+    subaccount_name='IchimokuScanner'
 )
 
 # result = client.get_balances()
@@ -43,7 +43,7 @@ def my_thread(name):
 
             data = client.get_historical_data(
                 market_name=symbol,
-                resolution=60 * 15,  # 60min * 60sec = 3600 sec
+                resolution=60 * 60,  # 60min * 60sec = 3600 sec
                 limit=10000,
                 start_time=float(round(time.time())) - 2000 * 3600,  # 1000*3600 for resolution=3600*24 (daily)
                 end_time=float(round(time.time())))
@@ -74,6 +74,7 @@ def my_thread(name):
                 ks = rowdf['ICH_KS']
                 ts = rowdf['ICH_TS']
                 cs = rowdf['ICH_CS']
+                #cs = dframe['ICH_CS']
                 timestamp = pd.to_datetime(rowdf['time'], unit='ms')
 
                 data_hour = timestamp.hour
@@ -81,7 +82,7 @@ def my_thread(name):
                 data_month = timestamp.month
                 data_year = timestamp.year
 
-                now = datetime.now() - timedelta(hours=4)
+                now = datetime.now() - timedelta(hours=2)
                 now_hour = now.hour
                 now_day = now.day
                 now_month = now.month
@@ -93,11 +94,24 @@ def my_thread(name):
                 # if math.isnan(ssb):
                 #     print(symbol, "ssb is null")
 
-                if data_day == now_day and data_month == now_month and data_year == now_year and (data_hour >= now_hour):
-                    if openp < ssb < close:
+                evol = round(((close - openp) / openp) * 100, 4)
+
+                scan = True
+
+                if scan:
+                    if data_day == now_day and data_month == now_month and data_year == now_year and (data_hour >= now_hour):
+                        if openp < ssb < close:
+                            print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol)
+                            strn = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(ssa) + " SSB=" + str(
+                                ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " EVOL%=" + str(evol)
+                            f = open("results.txt", "a")
+                            f.write(strn + '\n')
+                            f.close()
+                else:
+                    if data_day == now_day and data_month == now_month and data_year == now_year and (data_hour >= now_hour):
                         print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs)
                         strn = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(ssa) + " SSB=" + str(
-                            ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs)
+                            ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " EVOL%" + str(evol)
                         f = open("results.txt", "a")
                         f.write(strn + '\n')
                         f.close()
