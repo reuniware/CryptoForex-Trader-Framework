@@ -80,32 +80,35 @@ def my_thread(name):
                 ts = rowdf['ICH_TS']
                 # cs = rowdf['ICH_CS']
                 try:
-                    cs = dframe['ICH_CS'].iloc[-26-1]     # chikou span concernant bougie n en cours
-                    cs2 = dframe['ICH_CS'].iloc[-26-2]    # chikou span concernant bougie n-1
-                    ssbchikou = dframe['ICH_SSB'].iloc[-26-1+2]
-                    ssbchikou2 = dframe['ICH_SSB'].iloc[-26-2+2]
-                    ssbchikou3 = dframe['ICH_SSB'].iloc[-26-3+2]
+                    cs = dframe['ICH_CS'].iloc[-26 - 1]  # chikou span concernant bougie n en cours
+                    cs2 = dframe['ICH_CS'].iloc[-26 - 2]  # chikou span concernant bougie n-1
+                    ssbchikou = dframe['ICH_SSB'].iloc[-26 - 1 + 2]
+                    ssbchikou2 = dframe['ICH_SSB'].iloc[-26 - 2 + 2]
+                    ssbchikou3 = dframe['ICH_SSB'].iloc[-26 - 3 + 2]
                     closechikou = dframe['close'].iloc[-26]
-                    closechikou2 = dframe['close'].iloc[-26-1]
-                    kijunchikou = dframe['ICH_KS'].iloc[-26-1+1]
-                    kijunchikou2 = dframe['ICH_KS'].iloc[-26-2+1]
-                    kijunchikou3 = dframe['ICH_KS'].iloc[-26-3+1]
-                    tenkanchikou = dframe['ICH_TS'].iloc[-26-1+1]
-                    tenkanchikou2 = dframe['ICH_TS'].iloc[-26-2+1]
-                    tenkanchikou3 = dframe['ICH_TS'].iloc[-26-3+1]
+                    closechikou2 = dframe['close'].iloc[-26 - 1]
+                    kijunchikou = dframe['ICH_KS'].iloc[-26 - 1 + 1]
+                    kijunchikou2 = dframe['ICH_KS'].iloc[-26 - 2 + 1]
+                    kijunchikou3 = dframe['ICH_KS'].iloc[-26 - 3 + 1]
+                    tenkanchikou = dframe['ICH_TS'].iloc[-26 - 1 + 1]
+                    tenkanchikou2 = dframe['ICH_TS'].iloc[-26 - 2 + 1]
+                    tenkanchikou3 = dframe['ICH_TS'].iloc[-26 - 3 + 1]
+                    ssachikou = dframe['ICH_SSA'].iloc[-26 - 1 + 2]
+                    ssachikou2 = dframe['ICH_SSA'].iloc[-26 - 2 + 2]
+                    ssachikou3 = dframe['ICH_SSA'].iloc[-26 - 3 + 2]
 
                 except IndexError as error:
                     # print(symbol + " EXCEPTION " + str(error))
                     fe = open("errors.txt", "a")
                     fe.write(symbol + " EXCEPTION " + str(error) + '\n')
                     fe.close()
-                    quit(0)
+                    # quit(0)
                     continue
 
                 timestamp = pd.to_datetime(rowdf['time'], unit='ms')
-                
+
                 # To check the values of Ichimoku data (use TradingView with Ichimoku Cloud to compare them)
-                # print(str(timestamp) + " " + symbol + " closecs=" + str(closechikou) + " closecs2=" + str(closechikou2) + " CS=" + str(cs) + " CS2=" + str(cs2) + " SSBCS=" + str(ssbchikou) + " SSBCS2=" + str(ssbchikou2) + " SSBCS3=" + str(ssbchikou3) + " KSCS=" + str(kijunchikou)+ " KSCS2=" + str(kijunchikou2)+ " KSCS3=" + str(kijunchikou3) + " TSCS=" + str(tenkanchikou)+ " TSCS2=" + str(tenkanchikou2)+ " TSCS3=" + str(tenkanchikou3))
+                # print(str(timestamp) + " " + symbol + " closecs=" + str(closechikou) + " closecs2=" + str(closechikou2) + " CS=" + str(cs) + " CS2=" + str(cs2) + " SSBCS=" + str(ssbchikou) + " SSBCS2=" + str(ssbchikou2) + " SSBCS3=" + str(ssbchikou3) + " KSCS=" + str(kijunchikou)+ " KSCS2=" + str(kijunchikou2)+ " KSCS3=" + str(kijunchikou3) + " TSCS=" + str(tenkanchikou)+ " TSCS2=" + str(tenkanchikou2)+ " TSCS3=" + str(tenkanchikou3) + " SSACS=" + str(ssachikou) + " SSACS2=" + str(ssachikou2) + " SSACS3=" + str(ssachikou3))
 
                 filename = "CS_" + symbol.replace('/', '_') + ".txt"
                 if os.path.exists(filename):
@@ -141,7 +144,7 @@ def my_thread(name):
                 if scan:
                     if data_day == now_day and data_month == now_month and data_year == now_year and (data_hour >= now_hour):
                         if openp < ssb < close:
-                            if cs>ssbchikou:
+                            if cs > ssbchikou:
                                 print("CS>SSBCHIKOU:")
                             print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol)
                             strn = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(
