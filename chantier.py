@@ -25,10 +25,11 @@ client = ftx.FtxClient(
 if os.path.exists("results.txt"):
     os.remove("results.txt")
 
-import glob, os
+if os.path.exists("errors.txt"):
+    os.remove("errors.txt")
 
-for f in glob.glob("CS_*.txt"):
-    os.remove(f)
+for fg in glob.glob("CS_*.txt"):
+    os.remove(fg)
 
 stop_thread = False
 
@@ -81,22 +82,30 @@ def my_thread(name):
                 ts = rowdf['ICH_TS']
                 # cs = rowdf['ICH_CS']
                 try:
-                    cs = dframe['ICH_CS'].iloc[-27]
-                except(IndexError("single positional indexer is out-of-bounds")):
+                    cs = dframe['ICH_CS'].iloc[-26-1]     # chikou span concernant bougie n en cours
+                    cs2 = dframe['ICH_CS'].iloc[-26-2]    # chikou span concernant bougie n-1
+                    ssbchikou = dframe['ICH_SSB'].iloc[-26-1+2]
+                    ssbchikou2 = dframe['ICH_SSB'].iloc[-26-2+2]
+                    ssbchikou3 = dframe['ICH_SSB'].iloc[-26-3+2]
+                    closechikou = dframe['close'].iloc[-26]
+                    closechikou2 = dframe['close'].iloc[-26-1]
+                except IndexError as error:
                     cs = 0
-                    print("EXCEPTION")
+                    print(symbol + " EXCEPTION " + str(error))
+                    fe = open("errors.txt", "a")
+                    fe.write(symbol + " EXCEPTION " + str(error) + '\n')
+                    fe.close()
+                    quit(0)
+                    continue
 
                 timestamp = pd.to_datetime(rowdf['time'], unit='ms')
 
-                print(str(timestamp) + " " + symbol + " " + str(cs))
+                # print(str(timestamp) + " " + symbol + " " + str(cs) + " " + str(cs2) + " " + str(ssbchikou) + " " + str(ssbchikou2) + " " + str(ssbchikou3))
+                print(str(timestamp) + " " + symbol + " closecs=" + str(closechikou) + " closecs2=" + str(closechikou2) + " " + str(cs) + " " + str(cs2) + " " + str(ssbchikou) + " " + str(ssbchikou2) + " " + str(ssbchikou3))
 
                 filename = "CS_" + symbol.replace('/', '_') + ".txt"
-                # if os.path.exists(filename):
-                #     os.remove(filename)
-
-                # fcs = open(filename, "a")
-                # fcs.write(str(timestamp) + " " + str(cs) + "\n")
-                # fcs.close()
+                if os.path.exists(filename):
+                    os.remove(filename)
 
                 # now_cs = datetime.now() - timedelta(hours=4 * 26)
                 # # print("now_cs=" + str(now_cs))
@@ -128,6 +137,8 @@ def my_thread(name):
                 if scan:
                     if data_day == now_day and data_month == now_month and data_year == now_year and (data_hour >= now_hour):
                         if openp < ssb < close:
+                            if cs>ssbchikou:
+                                print("CS>SSBCHIKOU:")
                             print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol)
                             strn = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(
                                 ssa) + " SSB=" + str(
