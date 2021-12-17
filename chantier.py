@@ -1,4 +1,4 @@
-import os
+import glob, os
 from datetime import datetime
 from datetime import timedelta
 
@@ -8,8 +8,6 @@ import requests
 import threading
 import time
 import ta
-import math
-import glob
 
 # import numpy as np
 
@@ -90,8 +88,7 @@ def my_thread(name):
                     closechikou = dframe['close'].iloc[-26]
                     closechikou2 = dframe['close'].iloc[-26-1]
                 except IndexError as error:
-                    cs = 0
-                    print(symbol + " EXCEPTION " + str(error))
+                    # print(symbol + " EXCEPTION " + str(error))
                     fe = open("errors.txt", "a")
                     fe.write(symbol + " EXCEPTION " + str(error) + '\n')
                     fe.close()
@@ -101,7 +98,7 @@ def my_thread(name):
                 timestamp = pd.to_datetime(rowdf['time'], unit='ms')
 
                 # print(str(timestamp) + " " + symbol + " " + str(cs) + " " + str(cs2) + " " + str(ssbchikou) + " " + str(ssbchikou2) + " " + str(ssbchikou3))
-                print(str(timestamp) + " " + symbol + " closecs=" + str(closechikou) + " closecs2=" + str(closechikou2) + " " + str(cs) + " " + str(cs2) + " " + str(ssbchikou) + " " + str(ssbchikou2) + " " + str(ssbchikou3))
+                # print(str(timestamp) + " " + symbol + " closecs=" + str(closechikou) + " closecs2=" + str(closechikou2) + " " + str(cs) + " " + str(cs2) + " " + str(ssbchikou) + " " + str(ssbchikou2) + " " + str(ssbchikou3))
 
                 filename = "CS_" + symbol.replace('/', '_') + ".txt"
                 if os.path.exists(filename):
