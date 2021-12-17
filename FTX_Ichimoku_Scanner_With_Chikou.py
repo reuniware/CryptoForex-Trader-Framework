@@ -87,18 +87,25 @@ def my_thread(name):
                     ssbchikou3 = dframe['ICH_SSB'].iloc[-26-3+2]
                     closechikou = dframe['close'].iloc[-26]
                     closechikou2 = dframe['close'].iloc[-26-1]
+                    kijunchikou = dframe['ICH_KS'].iloc[-26-1+1]
+                    kijunchikou2 = dframe['ICH_KS'].iloc[-26-2+1]
+                    kijunchikou3 = dframe['ICH_KS'].iloc[-26-3+1]
+                    tenkanchikou = dframe['ICH_TS'].iloc[-26-1+1]
+                    tenkanchikou2 = dframe['ICH_TS'].iloc[-26-2+1]
+                    tenkanchikou3 = dframe['ICH_TS'].iloc[-26-3+1]
+
                 except IndexError as error:
                     # print(symbol + " EXCEPTION " + str(error))
                     fe = open("errors.txt", "a")
                     fe.write(symbol + " EXCEPTION " + str(error) + '\n')
                     fe.close()
-                    # quit(0)
+                    quit(0)
                     continue
 
                 timestamp = pd.to_datetime(rowdf['time'], unit='ms')
-
-                # print(str(timestamp) + " " + symbol + " " + str(cs) + " " + str(cs2) + " " + str(ssbchikou) + " " + str(ssbchikou2) + " " + str(ssbchikou3))
-                # print(str(timestamp) + " " + symbol + " closecs=" + str(closechikou) + " closecs2=" + str(closechikou2) + " " + str(cs) + " " + str(cs2) + " " + str(ssbchikou) + " " + str(ssbchikou2) + " " + str(ssbchikou3))
+                
+                # To check the values of Ichimoku data (use TradingView with Ichimoku Cloud to compare them)
+                # print(str(timestamp) + " " + symbol + " closecs=" + str(closechikou) + " closecs2=" + str(closechikou2) + " CS=" + str(cs) + " CS2=" + str(cs2) + " SSBCS=" + str(ssbchikou) + " SSBCS2=" + str(ssbchikou2) + " SSBCS3=" + str(ssbchikou3) + " KSCS=" + str(kijunchikou)+ " KSCS2=" + str(kijunchikou2)+ " KSCS3=" + str(kijunchikou3) + " TSCS=" + str(tenkanchikou)+ " TSCS2=" + str(tenkanchikou2)+ " TSCS3=" + str(tenkanchikou3))
 
                 filename = "CS_" + symbol.replace('/', '_') + ".txt"
                 if os.path.exists(filename):
