@@ -95,7 +95,7 @@ def my_thread(name):
                     fe = open("errors.txt", "a")
                     fe.write(symbol + " EXCEPTION " + str(error) + '\n')
                     fe.close()
-                    quit(0)
+                    # quit(0)
                     continue
 
                 timestamp = pd.to_datetime(rowdf['time'], unit='ms')
