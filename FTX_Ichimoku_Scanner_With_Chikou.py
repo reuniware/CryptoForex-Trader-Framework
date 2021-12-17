@@ -144,8 +144,23 @@ def my_thread(name):
                 if scan:
                     if data_day == now_day and data_month == now_month and data_year == now_year and (data_hour >= now_hour):
                         if openp < ssb < close:
+                            csresults = ""
                             if cs > ssbchikou:
-                                print("CS>SSBCHIKOU:")
+                                csresults += "CS > SSBCHIKOU - "
+                            if cs > ssachikou:
+                                csresults += "CS > SSACHIKOU - "
+                            if cs > kijunchikou:
+                                csresults += "CS > KSCHIKOU - "
+                            if cs > tenkanchikou:
+                                csresults += "CS > TSCHIKOU - "
+                            if cs > closechikou:
+                                csresults += "CS > CLOSECHIKOU"
+                            if csresults != "":
+                                print(csresults)
+                                fr = open("results.txt", "a")
+                                fr.write(csresults + '\n')
+                                fr.close()
+
                             print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol)
                             strn = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(
                                 ssa) + " SSB=" + str(
