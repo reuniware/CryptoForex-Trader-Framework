@@ -1,3 +1,7 @@
+# Conditions
+# if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
+
+
 * CS > KSCHIKOU - * CS > TSCHIKOU - * CS > CLOSECHIKOU
 2021-12-18 04:00:00 AMC/USD O=29.0875 H=29.0975 L=29.0875 C=29.0975 SSA=26.318749999999998 SSB=28.247500000000002 KS=25.667499999999997 TS=27.29875 CS=29.0975 EVOL%=0.0344
 
