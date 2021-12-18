@@ -1,3 +1,6 @@
+# Conditions
+# if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
+
 * CS > SSACHIKOU - * CS > KSCHIKOU - * CS > TSCHIKOU - * CS > CLOSECHIKOU
 2021-12-18 08:00:00 AAVE-PERP O 192.89 H 196.41 L 191.05 C 195.69 SSA 170.01 SSB 180.785 KS 180.52499999999998 TS 182.215 CS 195.69 EVOL% 1.4516
 
