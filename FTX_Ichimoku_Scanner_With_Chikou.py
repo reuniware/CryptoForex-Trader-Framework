@@ -29,11 +29,14 @@ if os.path.exists("errors.txt"):
 for fg in glob.glob("CS_*.txt"):
     os.remove(fg)
 
+list_results = []
+results_count = 0
+
 stop_thread = False
 
 
 def my_thread(name):
-    global client
+    global client, list_results, results_count
     while not stop_thread:
 
         f = open("results.txt", "a")
@@ -43,8 +46,11 @@ def my_thread(name):
         df.set_index('name')
         for index, row in df.iterrows():
             symbol = row['name']
-            # print(symbol)
             # print("scanning", symbol)
+
+            # filtering symbols to scan here
+            # if not (symbol.endswith("/USD")):
+            #     continue
 
             data = client.get_historical_data(
                 market_name=symbol,
@@ -125,7 +131,7 @@ def my_thread(name):
                 data_month = timestamp.month
                 data_year = timestamp.year
 
-                now = datetime.now() - timedelta(hours=4)
+                now = datetime.now() - timedelta(hours=4 * 2)
                 now_hour = now.hour
                 now_day = now.day
                 now_month = now.month
@@ -143,31 +149,41 @@ def my_thread(name):
 
                 if scan:
                     if data_day == now_day and data_month == now_month and data_year == now_year and (data_hour >= now_hour):
-                        if openp < ssb < close:
+                        # if openp < ssb < close or openp > ssb and close > ssb:
+                        if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
                             csresults = ""
                             if cs > ssbchikou:
-                                csresults += "CS > SSBCHIKOU - "
+                                csresults += "* CS > SSBCHIKOU - "
                             if cs > ssachikou:
-                                csresults += "CS > SSACHIKOU - "
+                                csresults += "* CS > SSACHIKOU - "
                             if cs > kijunchikou:
-                                csresults += "CS > KSCHIKOU - "
+                                csresults += "* CS > KSCHIKOU - "
                             if cs > tenkanchikou:
-                                csresults += "CS > TSCHIKOU - "
+                                csresults += "* CS > TSCHIKOU - "
                             if cs > closechikou:
-                                csresults += "CS > CLOSECHIKOU"
-                            if csresults != "":
+                                csresults += "* CS > CLOSECHIKOU"
+                            # if csresults != "":
+                            #     print(csresults)
+                            #     fr = open("results.txt", "a")
+                            #     fr.write(csresults + '\n')
+                            #     fr.close()
+
+                            # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol)
+                            # print("")
+                            strn = str(timestamp) + " " + symbol + " SSA=" + str(ssa) + " SSB=" + str(
+                                ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol)
+
+                            if not (strn in list_results):
+                                results_count = results_count + 1
+                                list_results.append(strn)
                                 print(csresults)
+                                print(str(results_count) + " " + strn + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol) + "\n")
+
                                 fr = open("results.txt", "a")
                                 fr.write(csresults + '\n')
+                                fr.write(strn + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol) + '\n\n')
                                 fr.close()
 
-                            print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol)
-                            strn = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(
-                                ssa) + " SSB=" + str(
-                                ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " EVOL%=" + str(evol)
-                            fr = open("results.txt", "a")
-                            fr.write(strn + '\n')
-                            fr.close()
                 else:
                     if data_day == now_day and data_month == now_month and data_year == now_year and (data_hour >= now_hour):
                         print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs)
