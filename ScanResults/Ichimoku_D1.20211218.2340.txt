@@ -1,6 +1,19 @@
 # Conditions
 # if openp > ssb and close > ssb and openp > ssa and close > ssa: 
 
+# Conditions
+# if openp > ssb and close > ssb and openp > ssa and close > ssa and close > openp and openp > ks and openp > ts and close > ks and close > ts:
+
+# openp = prix ouverture bougie
+# close = prix clôture bougie
+# ssa/ssb/ts/ks = senkou span a/senkou span b/tenkan sen/kijun sen
+# CS = Chikou Span
+# SSACHIKOU = SSA au niveau de la CS
+# SSBCHIKOU = SSB au niveau de la CS
+# TSCHIKOU = Tenkan Sen au niveau de la CS
+# KSCHIKOU = Kijun Sen au niveau de la CS
+# CLOSECHIKOU = Prix clôture bougie au niveau de la CS
+
 * CS > SSBCHIKOU - * CS > SSACHIKOU - * CS > KSCHIKOU - * CS > TSCHIKOU - * CS > CLOSECHIKOU
 2021-12-17 00:00:00 AAPL-1231 SSA=154.52999999999997 SSB=146.12 KS=168.985 TS=175.735 O=171.67 H=173.53 L=169.23 C=171.73 CS=171.04 EVOL%=0.035
 
