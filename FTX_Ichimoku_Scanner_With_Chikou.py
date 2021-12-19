@@ -9,7 +9,7 @@ import threading
 import time
 import ta
 
-# import numpy as np
+# import numpy as npfrom binance.client import Client
 
 client = ftx.FtxClient(
     api_key='',
@@ -49,12 +49,26 @@ def my_thread(name):
             # print("scanning", symbol)
 
             # filtering symbols to scan here
-            # if not (symbol.endswith("/USD")):
+            if not (symbol.endswith("/USD")) and not (symbol.endswith('/USDT')):
+                continue
+
+            symbols_to_exclude = ["BEAR/USD", "BULL/USD", "HEDGE/USD", "HALF/USD", "BEAR/USDT", "BULL/USDT", "HEDGE/USDT", "HALF/USDT"]
+
+            go_to_next_symbol = False
+
+            for ste in symbols_to_exclude:
+                if symbol.endswith(ste):
+                    go_to_next_symbol = True
+
+            if go_to_next_symbol:
+                continue
+
+            # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
             data = client.get_historical_data(
                 market_name=symbol,
-                resolution=60 * 60 * 4,  # 60min * 60sec = 3600 sec
+                resolution=60 * 60,  # 60min * 60sec = 3600 sec
                 limit=10000,
                 start_time=float(round(time.time())) - 2000 * 3600,  # 1000*3600 for resolution=3600*24 (daily)
                 end_time=float(round(time.time())))
@@ -131,7 +145,7 @@ def my_thread(name):
                 data_month = timestamp.month
                 data_year = timestamp.year
 
-                now = datetime.now() - timedelta(hours=4 * 2)
+                now = datetime.now() - timedelta(hours=2)
                 now_hour = now.hour
                 now_day = now.day
                 now_month = now.month
@@ -150,7 +164,8 @@ def my_thread(name):
                 if scan:
                     if data_day == now_day and data_month == now_month and data_year == now_year and (data_hour >= now_hour):
                         # if openp < ssb < close or openp > ssb and close > ssb:
-                        if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
+                        # if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
+                        if openp < ssb and close > ssb: # and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
                             csresults = ""
                             if cs > ssbchikou:
                                 csresults += "* CS > SSBCHIKOU - "
