@@ -1,9 +1,6 @@
 # Conditions
 # if openp > ssb and close > ssb and openp > ssa and close > ssa: 
 
-# Conditions
-# if openp > ssb and close > ssb and openp > ssa and close > ssa and close > openp and openp > ks and openp > ts and close > ks and close > ts:
-
 # openp = prix ouverture bougie
 # close = prix clôture bougie
 # ssa/ssb/ts/ks = senkou span a/senkou span b/tenkan sen/kijun sen
