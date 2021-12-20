@@ -1,4 +1,4 @@
-import glob, os
+import os
 from datetime import datetime
 from datetime import timedelta
 
@@ -8,8 +8,11 @@ import requests
 import threading
 import time
 import ta
+import math
+import glob
+from enum import Enum
 
-# import numpy as npfrom binance.client import Client
+# import numpy as np
 
 client = ftx.FtxClient(
     api_key='',
@@ -29,6 +32,7 @@ if os.path.exists("errors.txt"):
 for fg in glob.glob("CS_*.txt"):
     os.remove(fg)
 
+
 list_results = []
 results_count = 0
 
@@ -46,13 +50,12 @@ def my_thread(name):
         df.set_index('name')
         for index, row in df.iterrows():
             symbol = row['name']
-            # print("scanning", symbol)
 
             # filtering symbols to scan here
             if not (symbol.endswith("/USD")) and not (symbol.endswith('/USDT')):
                 continue
 
-            symbols_to_exclude = ["BEAR/USD", "BULL/USD", "HEDGE/USD", "HALF/USD", "BEAR/USDT", "BULL/USDT", "HEDGE/USDT", "HALF/USDT"]
+            symbols_to_exclude = ["BEAR/USD", "BULL/USD", "HEDGE/USD", "HALF/USD", "BEAR/USDT", "BULL/USDT", "HEDGE/USDT", "HALF/USDT", "-PERP", "-1231", "BEAR2021/USD", "SHIT/USD"]
 
             go_to_next_symbol = False
 
@@ -63,14 +66,16 @@ def my_thread(name):
             if go_to_next_symbol:
                 continue
 
+            print("scanning", symbol)
+
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
             data = client.get_historical_data(
                 market_name=symbol,
-                resolution=60 * 60,  # 60min * 60sec = 3600 sec
+                resolution=60*60,  # 60min * 60sec = 3600 sec
                 limit=10000,
-                start_time=float(round(time.time())) - 2000 * 3600,  # 1000*3600 for resolution=3600*24 (daily)
+                start_time=float(round(time.time())) - 3600 * 3 * 15 * 2,#2000 * 3600,  # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
                 end_time=float(round(time.time())))
 
             dframe = pd.DataFrame(data)
@@ -118,7 +123,7 @@ def my_thread(name):
                     ssachikou3 = dframe['ICH_SSA'].iloc[-26 - 3 + 2]
 
                 except IndexError as error:
-                    # print(symbol + " EXCEPTION " + str(error))
+                    print(symbol + " EXCEPTION " + str(error))
                     fe = open("errors.txt", "a")
                     fe.write(symbol + " EXCEPTION " + str(error) + '\n')
                     fe.close()
@@ -129,6 +134,9 @@ def my_thread(name):
 
                 # To check the values of Ichimoku data (use TradingView with Ichimoku Cloud to compare them)
                 # print(str(timestamp) + " " + symbol + " closecs=" + str(closechikou) + " closecs2=" + str(closechikou2) + " CS=" + str(cs) + " CS2=" + str(cs2) + " SSBCS=" + str(ssbchikou) + " SSBCS2=" + str(ssbchikou2) + " SSBCS3=" + str(ssbchikou3) + " KSCS=" + str(kijunchikou)+ " KSCS2=" + str(kijunchikou2)+ " KSCS3=" + str(kijunchikou3) + " TSCS=" + str(tenkanchikou)+ " TSCS2=" + str(tenkanchikou2)+ " TSCS3=" + str(tenkanchikou3) + " SSACS=" + str(ssachikou) + " SSACS2=" + str(ssachikou2) + " SSACS3=" + str(ssachikou3))
+                if math.isnan(closechikou) or math.isnan(closechikou2) or math.isnan(cs) or math.isnan(cs2) or math.isnan(ssbchikou) or math.isnan(ssbchikou2) or math.isnan(ssbchikou3) or math.isnan(kijunchikou) or math.isnan(kijunchikou2) or math.isnan(kijunchikou3) or math.isnan(tenkanchikou) or math.isnan(tenkanchikou2) or math.isnan(tenkanchikou3) or math.isnan(ssachikou) or math.isnan(ssbchikou2) or math.isnan(ssachikou3):
+                    print(symbol + " THERE ARE NAN VALUES IN ICHIMOKU DATA")
+                    quit(0)
 
                 filename = "CS_" + symbol.replace('/', '_') + ".txt"
                 if os.path.exists(filename):
@@ -145,7 +153,7 @@ def my_thread(name):
                 data_month = timestamp.month
                 data_year = timestamp.year
 
-                now = datetime.now() - timedelta(hours=2)
+                now = datetime.now() - timedelta(hours=60*2)
                 now_hour = now.hour
                 now_day = now.day
                 now_month = now.month
@@ -165,7 +173,7 @@ def my_thread(name):
                     if data_day == now_day and data_month == now_month and data_year == now_year and (data_hour >= now_hour):
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
-                        if openp < ssb and close > ssb: # and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
+                        if openp > ssb and close > ssb and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
                             csresults = ""
                             if cs > ssbchikou:
                                 csresults += "* CS > SSBCHIKOU - "
@@ -186,7 +194,8 @@ def my_thread(name):
                             # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol)
                             # print("")
                             strn = str(timestamp) + " " + symbol + " SSA=" + str(ssa) + " SSB=" + str(
-                                ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol)
+                                ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " O=" + str(openp) + " H=" + str(high) + " L=" + str(
+                                low)  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol)
 
                             if not (strn in list_results):
                                 results_count = results_count + 1
