@@ -50,12 +50,13 @@ def my_thread(name):
         df.set_index('name')
         for index, row in df.iterrows():
             symbol = row['name']
+            symbol_type = row['type']
 
             # filtering symbols to scan here
             if not (symbol.endswith("/USD")) and not (symbol.endswith('/USDT')):
                 continue
 
-            symbols_to_exclude = ["BEAR/USD", "BULL/USD", "HEDGE/USD", "HALF/USD", "BEAR/USDT", "BULL/USDT", "HEDGE/USDT", "HALF/USDT", "-PERP", "-1231", "BEAR2021/USD", "SHIT/USD"]
+            symbols_to_exclude = ["BEAR/USD", "BULL/USD", "HEDGE/USD", "HALF/USD", "BEAR/USDT", "BULL/USDT", "HEDGE/USDT", "HALF/USDT", "-PERP", "-1231", "BEAR2021/USD", "SHIT/USD", "VOL/USD", "VOL/USDT"]
 
             go_to_next_symbol = False
 
@@ -66,16 +67,16 @@ def my_thread(name):
             if go_to_next_symbol:
                 continue
 
-            print("scanning", symbol)
+            print("scanning", symbol, symbol_type)
 
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
             data = client.get_historical_data(
                 market_name=symbol,
-                resolution=60*60,  # 60min * 60sec = 3600 sec
+                resolution=60*60*4,  # 60min * 60sec = 3600 sec
                 limit=10000,
-                start_time=float(round(time.time())) - 3600 * 3 * 15 * 2,#2000 * 3600,  # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
+                start_time=float(round(time.time())) - 2000 * 3600,  # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
                 end_time=float(round(time.time())))
 
             dframe = pd.DataFrame(data)
@@ -132,11 +133,19 @@ def my_thread(name):
 
                 timestamp = pd.to_datetime(rowdf['time'], unit='ms')
 
+                error_nan_values = False
                 # To check the values of Ichimoku data (use TradingView with Ichimoku Cloud to compare them)
                 # print(str(timestamp) + " " + symbol + " closecs=" + str(closechikou) + " closecs2=" + str(closechikou2) + " CS=" + str(cs) + " CS2=" + str(cs2) + " SSBCS=" + str(ssbchikou) + " SSBCS2=" + str(ssbchikou2) + " SSBCS3=" + str(ssbchikou3) + " KSCS=" + str(kijunchikou)+ " KSCS2=" + str(kijunchikou2)+ " KSCS3=" + str(kijunchikou3) + " TSCS=" + str(tenkanchikou)+ " TSCS2=" + str(tenkanchikou2)+ " TSCS3=" + str(tenkanchikou3) + " SSACS=" + str(ssachikou) + " SSACS2=" + str(ssachikou2) + " SSACS3=" + str(ssachikou3))
                 if math.isnan(closechikou) or math.isnan(closechikou2) or math.isnan(cs) or math.isnan(cs2) or math.isnan(ssbchikou) or math.isnan(ssbchikou2) or math.isnan(ssbchikou3) or math.isnan(kijunchikou) or math.isnan(kijunchikou2) or math.isnan(kijunchikou3) or math.isnan(tenkanchikou) or math.isnan(tenkanchikou2) or math.isnan(tenkanchikou3) or math.isnan(ssachikou) or math.isnan(ssbchikou2) or math.isnan(ssachikou3):
                     print(symbol + " THERE ARE NAN VALUES IN ICHIMOKU DATA")
-                    quit(0)
+                    fe = open("errors.txt", "a")
+                    fe.write(symbol + " THERE ARE NAN VALUES IN ICHIMOKU DATA" + '\n')
+                    fe.close()
+                    error_nan_values = True
+                    #quit(0)
+
+                if error_nan_values:
+                    continue
 
                 filename = "CS_" + symbol.replace('/', '_') + ".txt"
                 if os.path.exists(filename):
@@ -153,7 +162,7 @@ def my_thread(name):
                 data_month = timestamp.month
                 data_year = timestamp.year
 
-                now = datetime.now() - timedelta(hours=60*2)
+                now = datetime.now() - timedelta(hours=8)
                 now_hour = now.hour
                 now_day = now.day
                 now_month = now.month
