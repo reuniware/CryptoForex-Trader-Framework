@@ -1,4 +1,4 @@
-import os
+import glob, os
 from datetime import datetime
 from datetime import timedelta
 
@@ -9,10 +9,8 @@ import threading
 import time
 import ta
 import math
-import glob
-from enum import Enum
 
-# import numpy as np
+# import numpy as npfrom binance.client import Client
 
 client = ftx.FtxClient(
     api_key='',
@@ -32,7 +30,6 @@ if os.path.exists("errors.txt"):
 for fg in glob.glob("CS_*.txt"):
     os.remove(fg)
 
-
 list_results = []
 results_count = 0
 
@@ -44,6 +41,7 @@ def my_thread(name):
     while not stop_thread:
 
         f = open("results.txt", "a")
+        new_results_found = False
 
         markets = requests.get('https://ftx.com/api/markets').json()
         df = pd.DataFrame(markets['result'])
@@ -56,7 +54,8 @@ def my_thread(name):
             if not (symbol.endswith("/USD")) and not (symbol.endswith('/USDT')):
                 continue
 
-            symbols_to_exclude = ["BEAR/USD", "BULL/USD", "HEDGE/USD", "HALF/USD", "BEAR/USDT", "BULL/USDT", "HEDGE/USDT", "HALF/USDT", "-PERP", "-1231", "BEAR2021/USD", "SHIT/USD", "VOL/USD", "VOL/USDT"]
+            symbols_to_exclude = ["BEAR/USD", "BULL/USD", "HEDGE/USD", "HALF/USD", "BEAR/USDT", "BULL/USDT", "HEDGE/USDT", "HALF/USDT", "-PERP", "-1231", "BEAR2021/USD",
+                                  "SHIT/USD", "VOL/USD", "VOL/USDT"]
 
             go_to_next_symbol = False
 
@@ -74,9 +73,9 @@ def my_thread(name):
 
             data = client.get_historical_data(
                 market_name=symbol,
-                resolution=60*60*4,  # 60min * 60sec = 3600 sec
+                resolution=60 * 60 * 24,  # 60min * 60sec = 3600 sec
                 limit=10000,
-                start_time=float(round(time.time())) - 2000 * 3600,  # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
+                start_time=float(round(time.time())) - 2000 * 3600, # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
                 end_time=float(round(time.time())))
 
             dframe = pd.DataFrame(data)
@@ -136,13 +135,15 @@ def my_thread(name):
                 error_nan_values = False
                 # To check the values of Ichimoku data (use TradingView with Ichimoku Cloud to compare them)
                 # print(str(timestamp) + " " + symbol + " closecs=" + str(closechikou) + " closecs2=" + str(closechikou2) + " CS=" + str(cs) + " CS2=" + str(cs2) + " SSBCS=" + str(ssbchikou) + " SSBCS2=" + str(ssbchikou2) + " SSBCS3=" + str(ssbchikou3) + " KSCS=" + str(kijunchikou)+ " KSCS2=" + str(kijunchikou2)+ " KSCS3=" + str(kijunchikou3) + " TSCS=" + str(tenkanchikou)+ " TSCS2=" + str(tenkanchikou2)+ " TSCS3=" + str(tenkanchikou3) + " SSACS=" + str(ssachikou) + " SSACS2=" + str(ssachikou2) + " SSACS3=" + str(ssachikou3))
-                if math.isnan(closechikou) or math.isnan(closechikou2) or math.isnan(cs) or math.isnan(cs2) or math.isnan(ssbchikou) or math.isnan(ssbchikou2) or math.isnan(ssbchikou3) or math.isnan(kijunchikou) or math.isnan(kijunchikou2) or math.isnan(kijunchikou3) or math.isnan(tenkanchikou) or math.isnan(tenkanchikou2) or math.isnan(tenkanchikou3) or math.isnan(ssachikou) or math.isnan(ssbchikou2) or math.isnan(ssachikou3):
+                if math.isnan(closechikou) or math.isnan(closechikou2) or math.isnan(cs) or math.isnan(cs2) or math.isnan(ssbchikou) or math.isnan(ssbchikou2) or math.isnan(
+                        ssbchikou3) or math.isnan(kijunchikou) or math.isnan(kijunchikou2) or math.isnan(kijunchikou3) or math.isnan(tenkanchikou) or math.isnan(
+                    tenkanchikou2) or math.isnan(tenkanchikou3) or math.isnan(ssachikou) or math.isnan(ssbchikou2) or math.isnan(ssachikou3):
                     print(symbol + " THERE ARE NAN VALUES IN ICHIMOKU DATA")
                     fe = open("errors.txt", "a")
                     fe.write(symbol + " THERE ARE NAN VALUES IN ICHIMOKU DATA" + '\n')
                     fe.close()
                     error_nan_values = True
-                    #quit(0)
+                    # quit(0)
 
                 if error_nan_values:
                     continue
@@ -162,7 +163,7 @@ def my_thread(name):
                 data_month = timestamp.month
                 data_year = timestamp.year
 
-                now = datetime.now() - timedelta(hours=8)
+                now = datetime.now() - timedelta(hours=48)
                 now_hour = now.hour
                 now_day = now.day
                 now_month = now.month
@@ -179,7 +180,7 @@ def my_thread(name):
                 scan = True
 
                 if scan:
-                    if data_day == now_day and data_month == now_month and data_year == now_year and (data_hour >= now_hour):
+                    if data_day == now_day and data_month == now_month and data_year == now_year: # and (data_hour >= now_hour): # remove the last condition for scanning in daily timeframe (60*60*24)
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
                         if openp > ssb and close > ssb and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
@@ -207,6 +208,8 @@ def my_thread(name):
                                 low)  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol)
 
                             if not (strn in list_results):
+                                if not new_results_found:
+                                    new_results_found = True
                                 results_count = results_count + 1
                                 list_results.append(strn)
                                 print(csresults)
@@ -226,9 +229,10 @@ def my_thread(name):
                         fr.write(strn + '\n')
                         fr.close()
 
-        fr = open("results.txt", "a")
-        fr.write(100 * '*' + '\n')
-        fr.close()
+        if new_results_found:
+            fr = open("results.txt", "a")
+            fr.write(100 * '*' + '\n')
+            fr.close()
 
 
 x = threading.Thread(target=my_thread, args=(1,))
