@@ -1,4 +1,4 @@
-import glob, os
+import os
 from datetime import datetime
 from datetime import timedelta
 
@@ -9,8 +9,10 @@ import threading
 import time
 import ta
 import math
+import glob
+from enum import Enum
 
-# import numpy as npfrom binance.client import Client
+# import numpy as np
 
 client = ftx.FtxClient(
     api_key='',
@@ -73,9 +75,10 @@ def my_thread(name):
 
             data = client.get_historical_data(
                 market_name=symbol,
-                resolution=60 * 60 * 24,  # 60min * 60sec = 3600 sec
+                resolution=60 * 15,  # 60min * 60sec = 3600 sec
                 limit=10000,
-                start_time=float(round(time.time())) - 2000 * 3600, # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
+                start_time=float(round(time.time())) - 3 * 15 * 3600,
+                # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
                 end_time=float(round(time.time())))
 
             dframe = pd.DataFrame(data)
@@ -163,7 +166,7 @@ def my_thread(name):
                 data_month = timestamp.month
                 data_year = timestamp.year
 
-                now = datetime.now() - timedelta(hours=48)
+                now = datetime.now() - timedelta(hours=1)
                 now_hour = now.hour
                 now_day = now.day
                 now_month = now.month
@@ -180,10 +183,10 @@ def my_thread(name):
                 scan = True
 
                 if scan:
-                    if data_day == now_day and data_month == now_month and data_year == now_year: # and (data_hour >= now_hour): # remove the last condition for scanning in daily timeframe (60*60*24)
+                    if data_day == now_day and data_month == now_month and data_year == now_year and data_hour >= now_hour:  # remove the last condition for scanning in daily timeframe (60*60*24)
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
-                        if openp > ssb and close > ssb and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
+                        if openp < close and close / openp > 1.015:
                             csresults = ""
                             if cs > ssbchikou:
                                 csresults += "* CS > SSBCHIKOU - "
