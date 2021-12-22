@@ -78,7 +78,7 @@ def my_thread(name):
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
-            history_resolution = HISTORY_RESOLUTION_15MINUTE  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_4HOUR  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:
                 delta_time = 60 * 5
@@ -220,7 +220,7 @@ def my_thread(name):
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
-                        if close / openp > 1.015 and openp > ssb and close > ssb and openp > ssa and close > ssa and openp > ks and close > ks and openp > ts and close > ts:
+                        if close / openp > 1 and openp > ssb and close > ssb and openp > ssa and close > ssa and openp > ks and close > ks and openp > ts and close > ts:
                             cs_results = ""
                             if cs > ssbchikou:
                                 cs_results += "* CS > SSBCHIKOU - "
@@ -246,7 +246,7 @@ def my_thread(name):
                                     new_results_found = True
                                 results_count = results_count + 1
                                 list_results.append(str_result)
-                                print(cs_results)
+                                # print(cs_results)
                                 str_result = cs_results + "\n" + str(results_count) + " " + str_result + " C=" + str(close) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(evol)   # We add the data with variable parts
                                 print(str_result + "\n")
                                 log_to_results(str_result + "\n")
