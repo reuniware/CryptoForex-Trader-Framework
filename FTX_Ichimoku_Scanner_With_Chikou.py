@@ -220,7 +220,7 @@ def my_thread(name):
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
-                        if close / openp > 1 and openp > ssb and close > ssb and openp > ssa and close > ssa and openp > ks and close > ks and openp > ts and close > ts:
+                        if close / openp > 1.015 and openp > ssb and close > ssb and openp > ssa and close > ssa and openp > ks and close > ks and openp > ts and close > ts:
                             cs_results = ""
                             if cs > ssbchikou:
                                 cs_results += "* CS > SSBCHIKOU - "
@@ -232,8 +232,8 @@ def my_thread(name):
                                 cs_results += "* CS > TSCHIKOU - "
                             if cs > closechikou:
                                 cs_results += "* CS > CLOSECHIKOU"
-                            if cs_results != "":
-                                log_to_results(cs_results)
+                            # if cs_results != "":
+                            #     log_to_results(cs_results)
 
                             # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol)
                             # print("")
@@ -247,7 +247,7 @@ def my_thread(name):
                                 results_count = results_count + 1
                                 list_results.append(str_result)
                                 print(cs_results)
-                                str_result = str(results_count) + " " + str_result + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol)  # We add the data with variable parts
+                                str_result = cs_results + "\n" + str(results_count) + " " + str_result + " C=" + str(close) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(evol)   # We add the data with variable parts
                                 print(str_result + "\n")
                                 log_to_results(str_result + "\n")
 
@@ -255,7 +255,7 @@ def my_thread(name):
                     if result_ok:
                         print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs)
                         str_result = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(ssa) + " SSB=" + str(
-                            ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " EVOL%(t0)" + str(evol)
+                            ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " EVOL%(C/O)" + str(evol)
                         log_to_results(str_result)
 
         if new_results_found:
