@@ -32,11 +32,11 @@ for fg in glob.glob("CS_*.txt"):
     os.remove(fg)
 
 HISTORY_RESOLUTION_MINUTE = 60
-HISTORY_RESOLUTION_5MINUTE = 60*5
-HISTORY_RESOLUTION_15MINUTE = 60*15
-HISTORY_RESOLUTION_HOUR = 60*60
-HISTORY_RESOLUTION_4HOUR = 60*60*4
-HISTORY_RESOLUTION_DAY = 60*60*24
+HISTORY_RESOLUTION_5MINUTE = 60 * 5
+HISTORY_RESOLUTION_15MINUTE = 60 * 15
+HISTORY_RESOLUTION_HOUR = 60 * 60
+HISTORY_RESOLUTION_4HOUR = 60 * 60 * 4
+HISTORY_RESOLUTION_DAY = 60 * 60 * 24
 
 list_results = []
 results_count = 0
@@ -48,7 +48,6 @@ def my_thread(name):
     global client, list_results, results_count
     while not stop_thread:
 
-        f = open("results.txt", "a")
         new_results_found = False
 
         markets = requests.get('https://ftx.com/api/markets').json()
@@ -79,26 +78,26 @@ def my_thread(name):
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
-            history_resolution = HISTORY_RESOLUTION_15MINUTE        # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_15MINUTE  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:
-                delta_time = 60*5
+                delta_time = 60 * 5
             elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
-                delta_time = 60*5
+                delta_time = 60 * 5
             elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
-                delta_time = 60*60*15*3
+                delta_time = 60 * 60 * 15 * 3
             elif history_resolution == HISTORY_RESOLUTION_HOUR:
-                delta_time = 60*60*3*15*2
+                delta_time = 60 * 60 * 3 * 15 * 2
             elif history_resolution == HISTORY_RESOLUTION_4HOUR:
-                delta_time = 60*60*3*15*2*4
+                delta_time = 60 * 60 * 3 * 15 * 2 * 4
             elif history_resolution == HISTORY_RESOLUTION_DAY:
-                delta_time = 60*60*2000
+                delta_time = 60 * 60 * 2000
 
             data = client.get_historical_data(
                 market_name=symbol,
                 resolution=history_resolution,  # 60min * 60sec = 3600 sec
                 limit=10000,
-                start_time=float(round(time.time())) - delta_time,      # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
+                start_time=float(round(time.time())) - delta_time,  # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
                 end_time=float(round(time.time())))
 
             dframe = pd.DataFrame(data)
@@ -147,9 +146,7 @@ def my_thread(name):
 
                 except IndexError as error:
                     print(symbol + " EXCEPTION " + str(error))
-                    fe = open("errors.txt", "a")
-                    fe.write(symbol + " EXCEPTION " + str(error) + '\n')
-                    fe.close()
+                    log_to_errors(symbol + " EXCEPTION " + str(error) + '\n')
                     # quit(0)
                     continue
 
@@ -199,7 +196,7 @@ def my_thread(name):
                 elif history_resolution == HISTORY_RESOLUTION_DAY:
                     datetime_result_min = datetime.now() - timedelta(hours=24)
                 else:
-                    datetime_result_min = datetime.now() - timedelta(hours=1)       # We should never get here
+                    datetime_result_min = datetime.now() - timedelta(hours=1)  # We should never get here
 
                 datetime_result_min_hour = datetime_result_min.hour
                 datetime_result_min_day = datetime_result_min.day
@@ -216,12 +213,12 @@ def my_thread(name):
 
                 scan = True
 
-                if scan:
-                    if history_resolution == HISTORY_RESOLUTION_DAY:
-                        result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year   # for daily scan, we must not test the hours
-                    else:
-                        result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
+                if history_resolution == HISTORY_RESOLUTION_DAY:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year  # for daily scan, we must not test the hours
+                else:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
 
+                if scan:
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
@@ -239,9 +236,7 @@ def my_thread(name):
                                 csresults += "* CS > CLOSECHIKOU"
                             # if csresults != "":
                             #     print(csresults)
-                            #     fr = open("results.txt", "a")
-                            #     fr.write(csresults + '\n')
-                            #     fr.close()
+                            # log_to_results(csresults + '\n')
 
                             # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol)
                             # print("")
@@ -256,26 +251,30 @@ def my_thread(name):
                                 list_results.append(strn)
                                 print(csresults)
                                 print(str(results_count) + " " + strn + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol) + "\n")
-
-                                fr = open("results.txt", "a")
-                                fr.write(csresults + '\n')
-                                fr.write(strn + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol) + '\n\n')
-                                fr.close()
+                                log_to_results(strn + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol) + '\n\n')
 
                 else:
-                    if data_day == now_day and data_month == now_month and data_year == now_year and (data_hour >= now_hour):
+                    if result_ok:
                         print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs)
                         strn = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(ssa) + " SSB=" + str(
                             ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " EVOL%" + str(evol)
-                        fr = open("results.txt", "a")
-                        fr.write(strn + '\n')
-                        fr.close()
+                        log_to_results(strn + '\n')
 
         if new_results_found:
-            fr = open("results.txt", "a")
-            fr.write(100 * '*' + '\n')
-            fr.close()
+            log_to_results(100 * '*' + '\n')
 
 
 x = threading.Thread(target=my_thread, args=(1,))
 x.start()
+
+
+def log_to_results(str_to_log):
+    fr = open("results.txt", "a")
+    fr.write(str_to_log + '\n')
+    fr.close()
+
+
+def log_to_errors(str_to_log):
+    fr = open("errors.txt", "a")
+    fr.write(str_to_log + '\n')
+    fr.close()
