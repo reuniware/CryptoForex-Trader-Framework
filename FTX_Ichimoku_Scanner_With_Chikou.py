@@ -220,7 +220,7 @@ def my_thread(name):
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
-                        if close / openp > 1 and openp > ssb and close > ssb and openp > ssa and close > ssa:
+                        if close / openp > 1 and openp > ssb and close > ssb and openp > ssa and close > ssa and openp > ks and close > ks and openp > ts and close > ts:
                             cs_results = ""
                             if cs > ssbchikou:
                                 cs_results += "* CS > SSBCHIKOU - "
@@ -239,7 +239,7 @@ def my_thread(name):
                             # print("")
                             str_result = str(timestamp) + " " + symbol + " " + symbol_type + " SSA=" + str(ssa) + " SSB=" + str(
                                 ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " O=" + str(openp) + " H=" + str(high) + " L=" + str(
-                                low)  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol)
+                                low)  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol)     # We don't concatenate the variable parts (for comparisons in list_results)
 
                             if not (str_result in list_results):
                                 if not new_results_found:
@@ -247,8 +247,9 @@ def my_thread(name):
                                 results_count = results_count + 1
                                 list_results.append(str_result)
                                 print(cs_results)
-                                print(str(results_count) + " " + str_result + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol) + "\n")
-                                log_to_results(str_result + " C=" + str(close) + " CS=" + str(cs) + " EVOL%(t0)=" + str(evol) + '\n')
+                                str_result = str(results_count) + " " + str_result + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol)  # We add the data with variable parts
+                                print(str_result + "\n")
+                                log_to_results(str_result + "\n")
 
                 else:
                     if result_ok:
@@ -258,7 +259,7 @@ def my_thread(name):
                         log_to_results(str_result)
 
         if new_results_found:
-            log_to_results(100 * '*' + '\n')
+            log_to_results(100 * '*' + "\n")
 
 
 x = threading.Thread(target=my_thread, args=(1,))
@@ -267,11 +268,11 @@ x.start()
 
 def log_to_results(str_to_log):
     fr = open("results.txt", "a")
-    fr.write(str_to_log + '\n')
+    fr.write(str_to_log + "\n")
     fr.close()
 
 
 def log_to_errors(str_to_log):
     fr = open("errors.txt", "a")
-    fr.write(str_to_log + '\n')
+    fr.write(str_to_log + "\n")
     fr.close()
