@@ -159,9 +159,7 @@ def my_thread(name):
                         ssbchikou3) or math.isnan(kijunchikou) or math.isnan(kijunchikou2) or math.isnan(kijunchikou3) or math.isnan(tenkanchikou) or math.isnan(
                     tenkanchikou2) or math.isnan(tenkanchikou3) or math.isnan(ssachikou) or math.isnan(ssbchikou2) or math.isnan(ssachikou3):
                     print(symbol + " THERE ARE NAN VALUES IN ICHIMOKU DATA")
-                    fe = open("errors.txt", "a")
-                    fe.write(symbol + " THERE ARE NAN VALUES IN ICHIMOKU DATA" + '\n')
-                    fe.close()
+                    log_to_errors(symbol + " THERE ARE NAN VALUES IN ICHIMOKU DATA" + '\n')
                     error_nan_values = True
                     # quit(0)
 
@@ -240,7 +238,7 @@ def my_thread(name):
 
                             # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol)
                             # print("")
-                            strn = str(timestamp) + " " + symbol + " SSA=" + str(ssa) + " SSB=" + str(
+                            strn = str(timestamp) + " " + symbol + " " + symbol_type + " SSA=" + str(ssa) + " SSB=" + str(
                                 ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " O=" + str(openp) + " H=" + str(high) + " L=" + str(
                                 low)  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol)
 
