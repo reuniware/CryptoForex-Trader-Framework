@@ -64,11 +64,13 @@ def my_thread(name):
             symbols_to_exclude = ["BEAR/USD", "BULL/USD", "HEDGE/USD", "HALF/USD", "BEAR/USDT", "BULL/USDT", "HEDGE/USDT", "HALF/USDT", "-PERP", "-1231", "BEAR2021/USD",
                                   "SHIT/USD", "VOL/USD", "VOL/USDT"]
 
-            go_to_next_symbol = False
+            exclude_symbols = True
 
-            for ste in symbols_to_exclude:
-                if symbol.endswith(ste):
-                    go_to_next_symbol = True
+            go_to_next_symbol = False
+            if exclude_symbols:
+                for ste in symbols_to_exclude:
+                    if symbol.endswith(ste):
+                        go_to_next_symbol = True
 
             if go_to_next_symbol:
                 continue
@@ -78,7 +80,7 @@ def my_thread(name):
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
-            history_resolution = HISTORY_RESOLUTION_4HOUR  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_DAY  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:
                 delta_time = 60 * 5
