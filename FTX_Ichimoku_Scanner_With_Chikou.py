@@ -220,7 +220,7 @@ def my_thread(name):
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
-                        if close / openp > 1.010:
+                        if close / openp > 1.02:
                             csresults = ""
                             if cs > ssbchikou:
                                 csresults += "* CS > SSBCHIKOU - "
@@ -249,13 +249,13 @@ def my_thread(name):
                                 list_results.append(strn)
                                 print(csresults)
                                 print(str(results_count) + " " + strn + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol) + "\n")
-                                log_to_results(strn + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol) + '\n\n')
+                                log_to_results(strn + " C=" + str(close) + " CS=" + str(cs) + " EVOL%(t0)=" + str(evol) + '\n\n')
 
                 else:
                     if result_ok:
                         print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs)
                         strn = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(ssa) + " SSB=" + str(
-                            ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " EVOL%" + str(evol)
+                            ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " EVOL%(t0)" + str(evol)
                         log_to_results(strn + '\n')
 
         if new_results_found:
