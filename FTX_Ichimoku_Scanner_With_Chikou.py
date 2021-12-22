@@ -186,7 +186,21 @@ def my_thread(name):
                 data_month = timestamp.month
                 data_year = timestamp.year
 
-                datetime_result_min = datetime.now() - timedelta(hours=1)
+                if history_resolution == HISTORY_RESOLUTION_MINUTE:
+                    datetime_result_min = datetime.now() - timedelta(hours=1)
+                elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
+                    datetime_result_min = datetime.now() - timedelta(hours=1)
+                elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
+                    datetime_result_min = datetime.now() - timedelta(hours=1)
+                elif history_resolution == HISTORY_RESOLUTION_HOUR:
+                    datetime_result_min = datetime.now() - timedelta(hours=1)
+                elif history_resolution == HISTORY_RESOLUTION_4HOUR:
+                    datetime_result_min = datetime.now() - timedelta(hours=4)
+                elif history_resolution == HISTORY_RESOLUTION_DAY:
+                    datetime_result_min = datetime.now() - timedelta(hours=24)
+                else:
+                    datetime_result_min = datetime.now() - timedelta(hours=1)       # We should never get here
+
                 datetime_result_min_hour = datetime_result_min.hour
                 datetime_result_min_day = datetime_result_min.day
                 datetime_result_min_month = datetime_result_min.month
@@ -203,10 +217,11 @@ def my_thread(name):
                 scan = True
 
                 if scan:
-                    if history_resolution != HISTORY_RESOLUTION_DAY:
-                        result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
-                    else:
+                    if history_resolution == HISTORY_RESOLUTION_DAY:
                         result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year   # for daily scan, we must not test the hours
+                    else:
+                        result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
+
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
