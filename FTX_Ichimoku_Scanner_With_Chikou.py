@@ -10,7 +10,6 @@ import time
 import ta
 import math
 import glob
-from enum import Enum
 
 # import numpy as np
 
@@ -31,6 +30,13 @@ if os.path.exists("errors.txt"):
 
 for fg in glob.glob("CS_*.txt"):
     os.remove(fg)
+
+HISTORY_RESOLUTION_MINUTE = 60
+HISTORY_RESOLUTION_5MINUTE = 60*5
+HISTORY_RESOLUTION_15MINUTE = 60*15
+HISTORY_RESOLUTION_HOUR = 60*60
+HISTORY_RESOLUTION_4HOUR = 60*60*4
+HISTORY_RESOLUTION_DAY = 60*60*24
 
 list_results = []
 results_count = 0
@@ -73,12 +79,26 @@ def my_thread(name):
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
+            history_resolution = HISTORY_RESOLUTION_15MINUTE        # define the resolution used for the scan here
+            delta_time = 0
+            if history_resolution == HISTORY_RESOLUTION_MINUTE:
+                delta_time = 60*5
+            elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
+                delta_time = 60*5
+            elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
+                delta_time = 60*60*15*3
+            elif history_resolution == HISTORY_RESOLUTION_HOUR:
+                delta_time = 60*60*3*15*2
+            elif history_resolution == HISTORY_RESOLUTION_4HOUR:
+                delta_time = 60*60*3*15*2*4
+            elif history_resolution == HISTORY_RESOLUTION_DAY:
+                delta_time = 60*60*2000
+
             data = client.get_historical_data(
                 market_name=symbol,
-                resolution=60 * 15,  # 60min * 60sec = 3600 sec
+                resolution=history_resolution,  # 60min * 60sec = 3600 sec
                 limit=10000,
-                start_time=float(round(time.time())) - 3 * 15 * 3600,
-                # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
+                start_time=float(round(time.time())) - delta_time,      # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
                 end_time=float(round(time.time())))
 
             dframe = pd.DataFrame(data)
@@ -155,7 +175,7 @@ def my_thread(name):
                 if os.path.exists(filename):
                     os.remove(filename)
 
-                # now_cs = datetime.now() - timedelta(hours=4 * 26)
+                # now_cs = datetime.datetime_result_min() - timedelta(hours=4 * 26)
                 # # print("now_cs=" + str(now_cs))
                 # # quit(0)
                 # if timestamp.year == now_cs.year and timestamp.month == now_cs.year and timestamp.day == now_cs.day and timestamp.hour == now_cs.hour:
@@ -166,11 +186,11 @@ def my_thread(name):
                 data_month = timestamp.month
                 data_year = timestamp.year
 
-                now = datetime.now() - timedelta(hours=1)
-                now_hour = now.hour
-                now_day = now.day
-                now_month = now.month
-                now_year = now.year
+                datetime_result_min = datetime.now() - timedelta(hours=1)
+                datetime_result_min_hour = datetime_result_min.hour
+                datetime_result_min_day = datetime_result_min.day
+                datetime_result_min_month = datetime_result_min.month
+                datetime_result_min_year = datetime_result_min.year
 
                 # if math.isnan(ssa):
                 #     print(symbol, "ssa is null")
@@ -183,10 +203,14 @@ def my_thread(name):
                 scan = True
 
                 if scan:
-                    if data_day == now_day and data_month == now_month and data_year == now_year and data_hour >= now_hour:  # remove the last condition for scanning in daily timeframe (60*60*24)
+                    if history_resolution != HISTORY_RESOLUTION_DAY:
+                        result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
+                    else:
+                        result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year   # for daily scan, we must not test the hours
+                    if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
-                        if openp < close and close / openp > 1.015:
+                        if close / openp > 1.010:
                             csresults = ""
                             if cs > ssbchikou:
                                 csresults += "* CS > SSBCHIKOU - "
