@@ -1,4 +1,4 @@
-import os
+import glob, os
 from datetime import datetime
 from datetime import timedelta
 
@@ -9,9 +9,8 @@ import threading
 import time
 import ta
 import math
-import glob
 
-# import numpy as np
+# import numpy as npfrom binance.client import Client
 
 client = ftx.FtxClient(
     api_key='',
@@ -27,6 +26,12 @@ if os.path.exists("results.txt"):
 
 if os.path.exists("errors.txt"):
     os.remove("errors.txt")
+
+if os.path.exists("trades.txt"):
+    os.remove("trades.txt")
+
+if os.path.exists("evol.txt"):
+    os.remove("evol.txt")
 
 for fg in glob.glob("CS_*.txt"):
     os.remove(fg)
@@ -48,12 +53,16 @@ def my_thread(name):
     global client, list_results, results_count
     while not stop_thread:
 
+        dict_evol = {}
+
         new_results_found = False
 
         markets = requests.get('https://ftx.com/api/markets').json()
         df = pd.DataFrame(markets['result'])
         df.set_index('name')
+
         for index, row in df.iterrows():
+
             symbol = row['name']
             symbol_type = row['type']
 
@@ -80,12 +89,12 @@ def my_thread(name):
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
-            history_resolution = HISTORY_RESOLUTION_DAY  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_4HOUR  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:
                 delta_time = 60 * 5
             elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
-                delta_time = 60 * 5
+                delta_time = 60 * 5 * 100
             elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
                 delta_time = 60 * 60 * 15 * 3
             elif history_resolution == HISTORY_RESOLUTION_HOUR:
@@ -99,8 +108,13 @@ def my_thread(name):
                 market_name=symbol,
                 resolution=history_resolution,  # 60min * 60sec = 3600 sec
                 limit=10000,
-                start_time=float(round(time.time())) - delta_time,  # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
+                start_time=float(round(time.time())) - delta_time,
+                # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
                 end_time=float(round(time.time())))
+
+            # a = time.time()
+            # my_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(a))
+            # my_time_2 = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(a - delta_time))
 
             dframe = pd.DataFrame(data)
 
@@ -159,7 +173,7 @@ def my_thread(name):
                 # print(str(timestamp) + " " + symbol + " closecs=" + str(closechikou) + " closecs2=" + str(closechikou2) + " CS=" + str(cs) + " CS2=" + str(cs2) + " SSBCS=" + str(ssbchikou) + " SSBCS2=" + str(ssbchikou2) + " SSBCS3=" + str(ssbchikou3) + " KSCS=" + str(kijunchikou)+ " KSCS2=" + str(kijunchikou2)+ " KSCS3=" + str(kijunchikou3) + " TSCS=" + str(tenkanchikou)+ " TSCS2=" + str(tenkanchikou2)+ " TSCS3=" + str(tenkanchikou3) + " SSACS=" + str(ssachikou) + " SSACS2=" + str(ssachikou2) + " SSACS3=" + str(ssachikou3))
                 if math.isnan(closechikou) or math.isnan(closechikou2) or math.isnan(cs) or math.isnan(cs2) or math.isnan(ssbchikou) or math.isnan(ssbchikou2) or math.isnan(
                         ssbchikou3) or math.isnan(kijunchikou) or math.isnan(kijunchikou2) or math.isnan(kijunchikou3) or math.isnan(tenkanchikou) or math.isnan(
-                        tenkanchikou2) or math.isnan(tenkanchikou3) or math.isnan(ssachikou) or math.isnan(ssbchikou2) or math.isnan(ssachikou3):
+                    tenkanchikou2) or math.isnan(tenkanchikou3) or math.isnan(ssachikou) or math.isnan(ssbchikou2) or math.isnan(ssachikou3):
                     print(symbol + " THERE ARE NAN VALUES IN ICHIMOKU DATA")
                     log_to_errors(symbol + " THERE ARE NAN VALUES IN ICHIMOKU DATA" + '\n')
                     error_nan_values = True
@@ -178,6 +192,7 @@ def my_thread(name):
                 # if timestamp.year == now_cs.year and timestamp.month == now_cs.year and timestamp.day == now_cs.day and timestamp.hour == now_cs.hour:
                 #     print(str(cs))
 
+                data_minute = timestamp.minute
                 data_hour = timestamp.hour
                 data_day = timestamp.day
                 data_month = timestamp.month
@@ -186,7 +201,7 @@ def my_thread(name):
                 if history_resolution == HISTORY_RESOLUTION_MINUTE:
                     datetime_result_min = datetime.now() - timedelta(hours=1)
                 elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
-                    datetime_result_min = datetime.now() - timedelta(hours=1)
+                    datetime_result_min = datetime.now() - timedelta(minutes=15)
                 elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
                     datetime_result_min = datetime.now() - timedelta(hours=1)
                 elif history_resolution == HISTORY_RESOLUTION_HOUR:
@@ -198,6 +213,7 @@ def my_thread(name):
                 else:
                     datetime_result_min = datetime.now() - timedelta(hours=1)  # We should never get here
 
+                datetime_result_min_minute = datetime_result_min.minute
                 datetime_result_min_hour = datetime_result_min.hour
                 datetime_result_min_day = datetime_result_min.day
                 datetime_result_min_month = datetime_result_min.month
@@ -209,12 +225,15 @@ def my_thread(name):
                 # if math.isnan(ssb):
                 #     print(symbol, "ssb is null")
 
-                evol = round(((close - openp) / openp) * 100, 4)
+                evol_co = round(((close - openp) / openp) * 100, 4)
 
                 scan = True
 
                 if history_resolution == HISTORY_RESOLUTION_DAY:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year  # for daily scan, we must not test the hours
+                elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
+                    # print("comparing : " + str(data_hour) + " " + str(data_minute) + " to " + str(datetime_result_min_hour) + " " + str(datetime_result_min_minute))
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
                 else:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
 
@@ -222,7 +241,7 @@ def my_thread(name):
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
-                        if close / openp > 1 and openp > ssb and close > ssb and openp > ssa and close > ssa and openp > ks and close > ks and openp > ts and close > ts:
+                        if close > openp and openp > ssb and close > ssb and openp > ssa and close > ssa and openp > ks and close > ks and openp > ts and close > ts:
                             cs_results = ""
                             if cs > ssbchikou:
                                 cs_results += "* CS > SSBCHIKOU - "
@@ -237,11 +256,11 @@ def my_thread(name):
                             # if cs_results != "":
                             #     log_to_results(cs_results)
 
-                            # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol)
+                            # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol_co)
                             # print("")
                             str_result = str(timestamp) + " " + symbol + " " + symbol_type + " SSA=" + str(ssa) + " SSB=" + str(
                                 ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " O=" + str(openp) + " H=" + str(high) + " L=" + str(
-                                low)  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol)     # We don't concatenate the variable parts (for comparisons in list_results)
+                                low)  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol_co)     # We don't concatenate the variable parts (for comparisons in list_results)
 
                             if not (str_result in list_results):
                                 if not new_results_found:
@@ -249,19 +268,27 @@ def my_thread(name):
                                 results_count = results_count + 1
                                 list_results.append(str_result)
                                 # print(cs_results)
-                                str_result = cs_results + "\n" + str(results_count) + " " + str_result + " C=" + str(close) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(evol)   # We add the data with variable parts
+                                str_result = cs_results + "\n" + str(results_count) + " " + str_result + " C=" + str(close) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(
+                                    evol_co)  # We add the data with variable parts
                                 print(str_result + "\n")
                                 log_to_results(str_result + "\n")
 
+                                dict_evol[symbol] = evol_co
+
                 else:
-                    if result_ok:
-                        print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs)
-                        str_result = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(ssa) + " SSB=" + str(
-                            ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " EVOL%(C/O)" + str(evol)
-                        log_to_results(str_result)
+                    # if result_ok:
+                    print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs)
+                    str_result = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(
+                        ssa) + " SSB=" + str(
+                        ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " EVOL%(C/O)=" + str(evol_co)
+                    log_to_results(str_result)
 
         if new_results_found:
             log_to_results(100 * '*' + "\n")
+
+        new_dict = sorted(dict_evol.items(), key=lambda kv: (kv[1], kv[0]))
+        print(new_dict)
+        log_to_evol(str(new_dict))
 
 
 x = threading.Thread(target=my_thread, args=(1,))
@@ -276,5 +303,17 @@ def log_to_results(str_to_log):
 
 def log_to_errors(str_to_log):
     fr = open("errors.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def log_to_trades(str_to_log):
+    fr = open("trades.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def log_to_evol(str_to_log):
+    fr = open("evol.txt", "a")
     fr.write(str_to_log + "\n")
     fr.close()
