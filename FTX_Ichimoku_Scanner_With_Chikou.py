@@ -10,6 +10,31 @@ import time
 import ta
 import math
 
+
+def log_to_results(str_to_log):
+    fr = open("results.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def log_to_errors(str_to_log):
+    fr = open("errors.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def log_to_trades(str_to_log):
+    fr = open("trades.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def log_to_evol(str_to_log):
+    fr = open("evol.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
 # import numpy as npfrom binance.client import Client
 
 client = ftx.FtxClient(
@@ -51,6 +76,9 @@ stop_thread = False
 
 def my_thread(name):
     global client, list_results, results_count
+
+    log_to_evol(str(datetime.now()))
+
     while not stop_thread:
 
         dict_evol = {}
@@ -67,13 +95,16 @@ def my_thread(name):
             symbol_type = row['type']
 
             # filtering symbols to scan here
-            if not (symbol.endswith("/USD")) and not (symbol.endswith('/USDT')):
+            # if not (symbol.endswith("/USD")) and not (symbol.endswith('/USDT')):
+            #     continue
+
+            if not (symbol.endswith("-PERP")):
                 continue
 
             symbols_to_exclude = ["BEAR/USD", "BULL/USD", "HEDGE/USD", "HALF/USD", "BEAR/USDT", "BULL/USDT", "HEDGE/USDT", "HALF/USDT", "-PERP", "-1231", "BEAR2021/USD",
                                   "SHIT/USD", "VOL/USD", "VOL/USDT"]
 
-            exclude_symbols = True
+            exclude_symbols = False
 
             go_to_next_symbol = False
             if exclude_symbols:
@@ -89,11 +120,11 @@ def my_thread(name):
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
-            history_resolution = HISTORY_RESOLUTION_4HOUR  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_15MINUTE  # define the resolution used for the scan here
             delta_time = 0
-            if history_resolution == HISTORY_RESOLUTION_MINUTE:
+            if history_resolution == HISTORY_RESOLUTION_MINUTE:         # working with this resolution must be improved
                 delta_time = 60 * 5
-            elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
+            elif history_resolution == HISTORY_RESOLUTION_5MINUTE:      # working with this resolution must be improved
                 delta_time = 60 * 5 * 100
             elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
                 delta_time = 60 * 60 * 15 * 3
@@ -104,13 +135,17 @@ def my_thread(name):
             elif history_resolution == HISTORY_RESOLUTION_DAY:
                 delta_time = 60 * 60 * 2000
 
-            data = client.get_historical_data(
-                market_name=symbol,
-                resolution=history_resolution,  # 60min * 60sec = 3600 sec
-                limit=10000,
-                start_time=float(round(time.time())) - delta_time,
-                # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
-                end_time=float(round(time.time())))
+            try:
+                data = client.get_historical_data(
+                    market_name=symbol,
+                    resolution=history_resolution,  # 60min * 60sec = 3600 sec
+                    limit=10000,
+                    start_time=float(round(time.time())) - delta_time,
+                    # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
+                    end_time=float(round(time.time())))
+            except requests.exceptions.HTTPError:
+                print("Erreur tentative obtention données historiques pour " + symbol)
+                continue
 
             # a = time.time()
             # my_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(a))
@@ -240,8 +275,7 @@ def my_thread(name):
                 if scan:
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
-                        # if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
-                        if close > openp and openp > ssb and close > ssb and openp > ssa and close > ssa and openp > ks and close > ks and openp > ts and close > ts:
+                        if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
                             cs_results = ""
                             if cs > ssbchikou:
                                 cs_results += "* CS > SSBCHIKOU - "
@@ -287,33 +321,9 @@ def my_thread(name):
             log_to_results(100 * '*' + "\n")
 
         new_dict = sorted(dict_evol.items(), key=lambda kv: (kv[1], kv[0]))
-        print(new_dict)
-        log_to_evol(str(new_dict))
+        print(str(datetime.now()) + " " + str(new_dict))
+        log_to_evol(str(datetime.now()) + " " + str(new_dict))
 
 
 x = threading.Thread(target=my_thread, args=(1,))
 x.start()
-
-
-def log_to_results(str_to_log):
-    fr = open("results.txt", "a")
-    fr.write(str_to_log + "\n")
-    fr.close()
-
-
-def log_to_errors(str_to_log):
-    fr = open("errors.txt", "a")
-    fr.write(str_to_log + "\n")
-    fr.close()
-
-
-def log_to_trades(str_to_log):
-    fr = open("trades.txt", "a")
-    fr.write(str_to_log + "\n")
-    fr.close()
-
-
-def log_to_evol(str_to_log):
-    fr = open("evol.txt", "a")
-    fr.write(str_to_log + "\n")
-    fr.close()
