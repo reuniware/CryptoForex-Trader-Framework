@@ -120,11 +120,11 @@ def my_thread(name):
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
-            history_resolution = HISTORY_RESOLUTION_15MINUTE  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_HOUR  # define the resolution used for the scan here
             delta_time = 0
-            if history_resolution == HISTORY_RESOLUTION_MINUTE:         # working with this resolution must be improved
+            if history_resolution == HISTORY_RESOLUTION_MINUTE:
                 delta_time = 60 * 5
-            elif history_resolution == HISTORY_RESOLUTION_5MINUTE:      # working with this resolution must be improved
+            elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
                 delta_time = 60 * 5 * 100
             elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
                 delta_time = 60 * 60 * 15 * 3
@@ -144,7 +144,12 @@ def my_thread(name):
                     # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
                     end_time=float(round(time.time())))
             except requests.exceptions.HTTPError:
-                print("Erreur tentative obtention données historiques pour " + symbol)
+                print("Erreur (HTTPError) tentative obtention données historiques pour " + symbol)
+                log_to_errors("Erreur (HTTPError) tentative obtention données historiques pour " + symbol)
+                continue
+            except requests.exceptions.ConnectionError:
+                print("Erreur (ConnectionError) tentative obtention données historiques pour " + symbol)
+                log_to_errors("Erreur (ConnectionError) tentative obtention données historiques pour " + symbol)
                 continue
 
             # a = time.time()
@@ -275,7 +280,7 @@ def my_thread(name):
                 if scan:
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
-                        if openp > ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
+                        if openp < ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
                             cs_results = ""
                             if cs > ssbchikou:
                                 cs_results += "* CS > SSBCHIKOU - "
