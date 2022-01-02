@@ -157,6 +157,8 @@ def main_thread(name):
 
     previous_scoring = 0
 
+    important_btc_level = []
+
     while not stop_thread:
         # sorted_d = dict(sorted(dic_evol.items(), key=operator.itemgetter(1), reverse=True))
         # log_to_results(str(datetime.now()) + " (" + str(num_req) + ') EVOL CLOSE/OPEN : ' + str(sorted_d))
@@ -186,7 +188,10 @@ def main_thread(name):
 
         if level == 0:
             try:
-                log_to_results("Important BTC/USD level ? = " + str(dic_last_price["BTC/USD"]))
+                if important_btc_level.count(dic_last_price["BTC/USD"]) == 0:
+                    important_btc_level.append(dic_last_price["BTC/USD"])
+                    log_to_results("Important BTC/USD level ? = " + str(dic_last_price["BTC/USD"]))
+
             except:
                 pass
 
