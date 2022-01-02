@@ -78,6 +78,7 @@ stop_thread = False
 
 dic_evol = {}
 dic_timestamp = {}
+dic_last_price = {}
 
 num_req = 0
 
@@ -110,6 +111,8 @@ def scan_one(symbol):
             try:
                 close0 = dframe['close'].iloc[0]
                 open0 = dframe['open'].iloc[0]
+
+                dic_last_price[symbol] = close0
 
                 close_evol = close0 / open0
                 dic_evol[symbol] = close_evol
@@ -181,6 +184,12 @@ def main_thread(name):
         elif previous_scoring < 1 and final_scoring > 1:
             level = 0
 
+        if level == 0:
+            try:
+                log_to_results("Important BTC/USD level ? = " + str(dic_last_price["BTC/USD"]))
+            except:
+                pass
+
         previous_scoring = final_scoring
 
         # if scoring / len(dic_evol.values()) > 1:
@@ -196,6 +205,7 @@ def main_thread(name):
                 scoring = scoring + val
             if round(final_scoring, 16) != round(scoring, 16):
                 new_value_found = True
+
 
 x = threading.Thread(target=main_thread, args=(1,))
 x.start()
