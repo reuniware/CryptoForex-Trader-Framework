@@ -109,20 +109,26 @@ def scan_one(symbol):
     close0 = 0
     open0 = 0
     try:
+        # pd.set_option('display.max_columns', 10)
+        # pd.set_option('display.expand_frame_repr', False)
+        # print(dframe)
+
         close0 = dframe['close'].iloc[0]
         open0 = dframe['open'].iloc[0]
+        time0 = dframe['startTime'].iloc[0]
 
         close1 = dframe['close'].iloc[-1]
         open1 = dframe['open'].iloc[-1]
+        time1 = dframe['startTime'].iloc[-1]
 
         close2 = dframe['close'].iloc[-2]
         open2 = dframe['open'].iloc[-2]
+        time2 = dframe['startTime'].iloc[-2]
 
-        if close0 > open0 and close1 > open1 and close2 > open2:
+        if (close0 > open0) and (close1 > open1) and (close2 > open2):
             close_evol = close0 / open2
             dic_evol[symbol] = close_evol
 
-        # print(symbol + " " + str(close_evol))
     except BaseException as e:
         # log_to_errors(str(datetime.now()) + " " + symbol + " Exception (1) : " + format(e) + " : " + str(close0) + " " + str(open0))
         pass
@@ -148,7 +154,7 @@ def main_thread(name):
         symbol = row['name']
         symbol_type = row['type']
 
-        # if not symbol.endswith("-PERP"):
+        # if not symbol.endswith("LINA-PERP"):
         #     continue
 
         try:
