@@ -127,10 +127,11 @@ def scan_one(symbol):
 
         if (close0 > open0) and (close1 > open1) and (close2 > open2):
             close_evol = close0 / open2
-            dic_evol[symbol] = close_evol
+            if close_evol >= 1:
+                dic_evol[symbol] = close_evol
 
     except BaseException as e:
-        # log_to_errors(str(datetime.now()) + " " + symbol + " Exception (1) : " + format(e) + " : " + str(close0) + " " + str(open0))
+        log_to_errors(str(datetime.now()) + " " + symbol + " Exception (1) : " + format(e) + " : " + str(close0) + " " + str(open0))
         pass
 
         # except Exception as e:
