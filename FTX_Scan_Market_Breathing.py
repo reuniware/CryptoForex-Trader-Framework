@@ -120,11 +120,11 @@ def scan_one(symbol):
                 # if close_evol > 1.015:
                 #     print(symbol + " " + str(close_evol))
             except BaseException as e:
-                log_to_errors(str(datetime.now()) + " " + symbol + " Exception (1) : " + format(e) + " : " + str(close0) + " " + str(open0))
+                # log_to_errors(str(datetime.now()) + " " + symbol + " Exception (1) : " + format(e) + " : " + str(close0) + " " + str(open0))
                 continue
 
         except Exception as e:
-            log_to_errors(str(datetime.now()) + " " + symbol + " Exception (2) : " + str(e))
+            # log_to_errors(str(datetime.now()) + " " + symbol + " Exception (2) : " + str(e))
             continue
 
         finally:
@@ -157,7 +157,9 @@ def main_thread(name):
 
     previous_scoring = 0
 
+    important_symbol_level = []
     important_btc_level = []
+    important_matic_level = []
 
     while not stop_thread:
         # sorted_d = dict(sorted(dic_evol.items(), key=operator.itemgetter(1), reverse=True))
@@ -188,11 +190,26 @@ def main_thread(name):
 
         if level == 0:
             try:
+                change = ""
+                if previous_scoring > 1 and final_scoring < 1:
+                    change = " after going up to this level"
+                elif previous_scoring < 1 and final_scoring > 1:
+                    change = " after going down to this level"
+
                 if important_btc_level.count(dic_last_price["BTC/USD"]) == 0:
                     important_btc_level.append(dic_last_price["BTC/USD"])
-                    log_to_results("Important BTC/USD level ? = " + str(dic_last_price["BTC/USD"]))
+                    log_to_results("Important BTC/USD level ? = " + str(dic_last_price["BTC/USD"]) + " " + change)
 
-            except:
+                # if important_symbol_level.count(["BTC/USD"]):
+                #     important_symbol_level.append(["BTC/USDT", dic_last_price["BTC/USD"]])
+                #     log_to_results("Important BTC/USD level ? = " + str(dic_last_price["BTC/USD"]) + " " + change)
+
+                if important_matic_level.count(dic_last_price["MATIC-PERP"]) == 0:
+                    important_matic_level.append(dic_last_price["MATIC-PERP"])
+                    log_to_results("Important MATIC-PERP level ? = " + str(dic_last_price["MATIC-PERP"]) + " " + change)
+
+            except BaseException as e:
+                print(format(e))
                 pass
 
         previous_scoring = final_scoring
