@@ -1,3 +1,6 @@
+# An innovative way to measure the "breathing" of the markets with data from FTX.
+# by investdatasystems@yahoo.com
+
 import glob, os
 from datetime import datetime
 from datetime import timedelta
