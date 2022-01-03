@@ -39,10 +39,15 @@ def log_to_evol(str_to_log):
     fr.close()
 
 
-def log_to_file(str_file, str_to_log):
+def log_to_file_thread(str_file, str_to_log):
     fr = open(str_file, "a")
     fr.write(str_to_log + "\n")
     fr.close()
+
+
+def log_to_file(str_file, str_to_log):
+    ltf = threading.Thread(target=log_to_file_thread, args=(str_file, str_to_log))
+    ltf.start()
 
 
 # import numpy as npfrom binance.client import Client
@@ -191,29 +196,42 @@ def main_thread(name):
         elif previous_scoring < 1 and final_scoring > 1:
             level = 0
 
+        # Logging important levels detected here (when level = 0)
         if level == 0:
-            try:
-                change = ""
-                if previous_scoring > 1 and final_scoring < 1:
-                    change = " after going up to this level"
-                elif previous_scoring < 1 and final_scoring > 1:
-                    change = " after going down to this level"
+            # try:
+            change = ""
+            if previous_scoring > 1 and final_scoring < 1:
+                change = " after going up to this level"
+            elif previous_scoring < 1 and final_scoring > 1:
+                change = " after going down to this level"
 
-                if important_btc_level.count(dic_last_price["BTC/USD"]) == 0:
-                    important_btc_level.append(dic_last_price["BTC/USD"])
-                    log_to_results("Important BTC/USD level ? = " + str(dic_last_price["BTC/USD"]) + " " + change)
+            # # experimental
+            # dic_evol_copy = dic_evol.copy()
+            # for symbol in dic_evol_copy.keys():
+            #     symbol_exists_in_list = False
+            #     for a, b in important_symbol_level:
+            #         if a == symbol:
+            #             symbol_exists_in_list = True
+            #
+            #     if not symbol_exists_in_list:
+            #         important_symbol_level.append([symbol, dic_last_price[symbol]])
+            #         symbol_for_filename = str.replace(symbol, "/", "_").replace("-", "_")
+            #         log_to_file("scan_" + symbol_for_filename + ".txt", "Important " + symbol + " level ? = " + str(dic_last_price[symbol]) + " " + change)
+            #     else:
+            #         symbol_for_filename = str.replace(symbol, "/", "_").replace("-", "_")
+            #         log_to_file("scan_" + symbol_for_filename + ".txt", "Important " + symbol + " level ? = " + str(dic_last_price[symbol]) + " " + change)
 
-                # if important_symbol_level.count(["BTC/USD"]):
-                #     important_symbol_level.append(["BTC/USDT", dic_last_price["BTC/USD"]])
-                #     log_to_results("Important BTC/USD level ? = " + str(dic_last_price["BTC/USD"]) + " " + change)
+            if important_btc_level.count(dic_last_price["BTC/USD"]) == 0:
+                important_btc_level.append(dic_last_price["BTC/USD"])
+                log_to_results("Important BTC/USD level ? = " + str(dic_last_price["BTC/USD"]) + " " + change)
 
-                if important_matic_level.count(dic_last_price["MATIC-PERP"]) == 0:
-                    important_matic_level.append(dic_last_price["MATIC-PERP"])
-                    log_to_results("Important MATIC-PERP level ? = " + str(dic_last_price["MATIC-PERP"]) + " " + change)
+            if important_matic_level.count(dic_last_price["MATIC-PERP"]) == 0:
+                important_matic_level.append(dic_last_price["MATIC-PERP"])
+                log_to_results("Important MATIC-PERP level ? = " + str(dic_last_price["MATIC-PERP"]) + " " + change)
 
-            except BaseException as e:
-                print(format(e))
-                pass
+            # except BaseException as e:
+            #     print(format(e))
+            #     pass
 
         previous_scoring = final_scoring
 
@@ -226,10 +244,13 @@ def main_thread(name):
         new_value_found = False
         while not new_value_found:
             scoring = 0
-            for val in dic_evol.values():
-                scoring = scoring + val
-            if round(final_scoring, 16) != round(scoring, 16):
-                new_value_found = True
+            try:
+                for val in dic_evol.values():
+                    scoring = scoring + val
+                if round(final_scoring, 16) != round(scoring, 16):
+                    new_value_found = True
+            except:
+                pass
 
 
 x = threading.Thread(target=main_thread, args=(1,))
