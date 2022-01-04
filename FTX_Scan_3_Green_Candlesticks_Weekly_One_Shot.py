@@ -86,8 +86,9 @@ def scan_one(symbol):
     global num_req
     # print("scan one : " + symbol)
 
-    resolution = 60 * 60 * 24 * 7
-    delta_time = resolution * 4  # on travaille sur n bougies max (en comptant la bougie en cours de formation)
+    resolution = 60 * 60 * 24 * 7                  # set the resolution of one japanese candlestick here
+    nb_candlesticks = 3                        # set the number of backward japanese candlesticks to retrieve from FTX api
+    delta_time = resolution * nb_candlesticks
 
     # while not stop_thread:
     #     try:
@@ -97,8 +98,6 @@ def scan_one(symbol):
         limit=10000,
         start_time=float(round(time.time())) - delta_time,
         end_time=float(round(time.time())))
-
-    num_req = num_req + 1
 
     dframe = pd.DataFrame(data)
 
@@ -114,29 +113,25 @@ def scan_one(symbol):
 
         n = -1
 
-        close0 = dframe['close'].iloc[n]
-        open0 = dframe['open'].iloc[n]
-        time0 = dframe['startTime'].iloc[n]
+        closep = []
+        openp = []
+        lowp = []
+        highp = []
+        timep = []
 
-        close1 = dframe['close'].iloc[n-1]
-        open1 = dframe['open'].iloc[n-1]
-        time1 = dframe['startTime'].iloc[n-1]
+        for i in range(0, nb_candlesticks):
+            closep.append(dframe['close'].iloc[n - i])
+            openp.append(dframe['open'].iloc[n - i])
+            lowp.append(dframe['low'].iloc[n - i])
+            highp.append(dframe['high'].iloc[n - i])
+            timep.append(dframe['startTime'].iloc[n - i])
 
-        close2 = dframe['close'].iloc[n-2]
-        open2 = dframe['open'].iloc[n-2]
-        time2 = dframe['startTime'].iloc[n-2]
-
-        close3 = dframe['close'].iloc[n-3]
-        open3 = dframe['open'].iloc[n-3]
-        time3 = dframe['startTime'].iloc[n-3]
-
-        if (close0 > open0) and (close1 > open1) and (close2 > open2):
-            close_evol = close0 / open2
-            if close_evol >= 1:
-                dic_evol[symbol] = close_evol
-                list_results.append([time0, symbol, open0, close0])
-                list_results.append([time1, symbol, open1, close1])
-                list_results.append([time2, symbol, open2, close2])
+        # set the conditions to meet for the scanning of the japanese candlesticks here
+        if closep[0] > openp[0] and closep[1] > openp[1] and closep[2] > openp[2]:
+            close_evol = closep[0] / openp[0]
+            dic_evol[symbol] = close_evol
+            for i in range(0, nb_candlesticks):
+                list_results.append([timep[i], symbol, openp[i], closep[i], lowp[i]])
 
     except BaseException as e:
         log_to_errors(str(datetime.now()) + " " + symbol + " Exception (1) : " + format(e) + " : " + str(close0) + " " + str(open0))
@@ -163,6 +158,7 @@ def main_thread(name):
         symbol = row['name']
         symbol_type = row['type']
 
+        # filter for specific symbols here
         if not symbol.endswith("-PERP"):
             continue
 
@@ -182,9 +178,19 @@ def main_thread(name):
             log_to_results(str(datetime.now()) + " " + key + " " + str(value))
             print(str(datetime.now()) + " " + key + " " + str(value))
 
-            for t, symbol, o, c in list_results:
+            for t, symbol, o, c, l in list_results:
                 if symbol == key:
-                    print(10 * ' ', t, symbol, "O=" + str(o), "C=" + str(c))
+                    evol_close_open = round(((c - o) / c) * 100, 2)
+                    j_s = " " * (16 - len(str(symbol)))
+                    o = "{:.8f}".format(o)
+                    j_o = " " * (15 - len(str(o)))
+                    c = "{:.8f}".format(c)
+                    j_c = " " * (15 - len(str(c)))
+                    l = "{:.8f}".format(l)
+                    j_l = " " * (15 - len(str(l)))
+                    if evol_close_open > 0:
+                        evol_close_open = "+" + "{:.2f}".format(evol_close_open)
+                    print(10 * ' ', t, j_s + symbol, j_o, "O=", o, j_c, "C=", c, j_l, "L=" + l + "\t\t\t" + str(evol_close_open) + "%")
 
         print("All results written ok")
 
