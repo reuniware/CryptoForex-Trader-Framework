@@ -126,12 +126,20 @@ def scan_one(symbol):
             highp.append(dframe['high'].iloc[n - i])
             timep.append(dframe['startTime'].iloc[n - i])
 
+        result_ok = False
+        for i in range(0, nb_candlesticks):
+            if closep[i] > openp[i]:
+                result_ok = True
+            else:
+                result_ok = False
+                break
+
         # set the conditions to meet for the scanning of the japanese candlesticks here
-        if closep[0] > openp[0] and closep[1] > openp[1] and closep[2] > openp[2]:
+        if result_ok:
             close_evol = closep[0] / openp[0]
             dic_evol[symbol] = close_evol
             for i in range(0, nb_candlesticks):
-                list_results.append([timep[i], symbol, openp[i], closep[i], lowp[i]])
+                list_results.append([timep[i], symbol, openp[i], closep[i], lowp[i], highp[i]])
 
     except BaseException as e:
         log_to_errors(str(datetime.now()) + " " + symbol + " Exception (1) : " + format(e) + " : " + str(close0) + " " + str(open0))
@@ -159,7 +167,7 @@ def main_thread(name):
         symbol_type = row['type']
 
         # filter for specific symbols here
-        if not symbol.endswith("-PERP"):
+        if not symbol.endswith("/USD"):
             continue
 
         try:
@@ -178,7 +186,7 @@ def main_thread(name):
             log_to_results(str(datetime.now()) + " " + key + " " + str(value))
             print(str(datetime.now()) + " " + key + " " + str(value))
 
-            for t, symbol, o, c, l in list_results:
+            for t, symbol, o, c, l, h in list_results:
                 if symbol == key:
                     evol_close_open = round(((c - o) / c) * 100, 2)
                     j_s = " " * (16 - len(str(symbol)))
@@ -188,9 +196,11 @@ def main_thread(name):
                     j_c = " " * (15 - len(str(c)))
                     l = "{:.8f}".format(l)
                     j_l = " " * (15 - len(str(l)))
+                    h = "{:.8f}".format(h)
+                    j_h = " " * (15 - len(str(h)))
                     if evol_close_open > 0:
                         evol_close_open = "+" + "{:.2f}".format(evol_close_open)
-                    print(10 * ' ', t, j_s + symbol, j_o, "O=", o, j_c, "C=", c, j_l, "L=" + l + "\t\t\t" + str(evol_close_open) + "%")
+                    print(10 * ' ', t, j_s + symbol, j_o, "O=", o, j_c, "C=", c, j_l, "L=", l, j_h, "H=", h, "\t\t\t", str(evol_close_open) + "%")
 
         print("All results written ok")
 
