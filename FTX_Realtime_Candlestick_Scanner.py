@@ -88,8 +88,8 @@ def scan_one(symbol):
     global num_req
     # print("scan one : " + symbol)
 
-    resolution = 60                 # set the resolution of one japanese candlestick here
-    nb_candlesticks = 6                        # set the number of backward japanese candlesticks to retrieve from FTX api
+    resolution = 60 * 60                # set the resolution of one japanese candlestick here
+    nb_candlesticks = 3                        # set the number of backward japanese candlesticks to retrieve from FTX api
     delta_time = resolution * nb_candlesticks
 
     while not stop_thread:
@@ -163,7 +163,13 @@ def scan_one(symbol):
             symbol_filename = "scan_" + symbol_filename + ".txt"
             for i in range(0, nb_candlesticks):
                 list_results.append([timep[i], symbol, openp[i], closep[i], lowp[i], highp[i]])
-                log_to_file(symbol_filename, str(timep[i]) + " " + symbol + " O=" + str(round(openp[i], 8)) + " C=" + str(closep[i]) + " L=" + str(lowp[i]) + " H=" + str(highp[i]))
+
+                o = "{:.8f}".format(openp[i], 8)
+                c = "{:.8f}".format(closep[i], 8)
+                l = "{:.8f}".format(lowp[i], 8)
+                h = "{:.8f}".format(highp[i], 8)
+
+                log_to_file(symbol_filename, str(timep[i]) + " " + symbol + " O=" + o + " H=" + h + " L=" + l + " C=" + c)
             log_to_file(symbol_filename, "")
         time.sleep(5)
 
