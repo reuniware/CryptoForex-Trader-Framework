@@ -89,7 +89,7 @@ def scan_one(symbol):
     # print("scan one : " + symbol)
 
     resolution = 60                  # set the resolution of one japanese candlestick here
-    nb_candlesticks = 6                        # set the number of backward japanese candlesticks to retrieve from FTX api
+    nb_candlesticks = 5                        # set the number of backward japanese candlesticks to retrieve from FTX api
     delta_time = resolution * nb_candlesticks
 
     while not stop_thread:
@@ -127,12 +127,17 @@ def scan_one(symbol):
         if dframe.empty:
             continue
 
-        for i in range(0, nb_candlesticks):
-            closep.append(dframe['close'].iloc[n - i])
-            openp.append(dframe['open'].iloc[n - i])
-            lowp.append(dframe['low'].iloc[n - i])
-            highp.append(dframe['high'].iloc[n - i])
-            timep.append(dframe['startTime'].iloc[n - i])
+        try:
+            for i in range(0, nb_candlesticks):
+                closep.append(dframe['close'].iloc[n - i])
+                openp.append(dframe['open'].iloc[n - i])
+                lowp.append(dframe['low'].iloc[n - i])
+                highp.append(dframe['high'].iloc[n - i])
+                timep.append(dframe['startTime'].iloc[n - i])
+        except IndexError:
+            log_to_errors(str(datetime.now()) + " cannot get candlesticks data for " + symbol)
+            print(datetime.now(), "cannot get candlesticks data for", symbol)
+            break
 
         result_ok = False
         for i in range(0, nb_candlesticks):
