@@ -88,19 +88,26 @@ def scan_one(symbol):
     global num_req
     # print("scan one : " + symbol)
 
-    resolution = 60                  # set the resolution of one japanese candlestick here
-    nb_candlesticks = 5                        # set the number of backward japanese candlesticks to retrieve from FTX api
+    resolution = 60                 # set the resolution of one japanese candlestick here
+    nb_candlesticks = 6                        # set the number of backward japanese candlesticks to retrieve from FTX api
     delta_time = resolution * nb_candlesticks
 
     while not stop_thread:
         list_results.clear()
 
-        data = ftx_client.get_historical_data(
-            market_name=symbol,
-            resolution=resolution,
-            limit=10000,
-            start_time=float(round(time.time())) - delta_time,
-            end_time=float(round(time.time())))
+        try:
+            data = ftx_client.get_historical_data(
+                market_name=symbol,
+                resolution=resolution,
+                limit=10000,
+                start_time=float(round(time.time())) - delta_time,
+                end_time=float(round(time.time())))
+        except requests.exceptions.HTTPError:
+            log_to_errors(str(datetime.now()) + " HTTP Error for " + symbol)
+            print(datetime.now(), "HTTP Error for", symbol)
+            time.sleep(1)
+            break
+
 
         dframe = pd.DataFrame(data)
 
@@ -137,6 +144,7 @@ def scan_one(symbol):
         except IndexError:
             log_to_errors(str(datetime.now()) + " cannot get candlesticks data for " + symbol)
             print(datetime.now(), "cannot get candlesticks data for", symbol)
+            time.sleep(1)
             break
 
         result_ok = False
@@ -155,7 +163,7 @@ def scan_one(symbol):
             symbol_filename = "scan_" + symbol_filename + ".txt"
             for i in range(0, nb_candlesticks):
                 list_results.append([timep[i], symbol, openp[i], closep[i], lowp[i], highp[i]])
-                log_to_file(symbol_filename, str(timep[i]) + " " + symbol + " O=" + str(openp[i]) + " C=" + str(closep[i]) + " L=" + str(lowp[i]) + " H=" + str(highp[i]))
+                log_to_file(symbol_filename, str(timep[i]) + " " + symbol + " O=" + str(round(openp[i], 8)) + " C=" + str(closep[i]) + " L=" + str(lowp[i]) + " H=" + str(highp[i]))
             log_to_file(symbol_filename, "")
         time.sleep(5)
 
