@@ -79,7 +79,6 @@ stop_thread = False
 dic_evol = {}
 dic_timestamp = {}
 dic_last_price = {}
-
 num_req = 0
 
 
@@ -88,7 +87,7 @@ def scan_one(symbol):
     # print("scan one : " + symbol)
 
     resolution = 60 * 60 * 24 * 7
-    delta_time = resolution * 3  # on travaille sur n bougies max (en comptant la bougie en cours de formation)
+    delta_time = resolution * 4  # on travaille sur n bougies max (en comptant la bougie en cours de formation)
 
     # while not stop_thread:
     #     try:
@@ -125,10 +124,15 @@ def scan_one(symbol):
         open2 = dframe['open'].iloc[-2]
         time2 = dframe['startTime'].iloc[-2]
 
+        close3 = dframe['close'].iloc[-3]
+        open3 = dframe['open'].iloc[-3]
+        time3 = dframe['startTime'].iloc[-3]
+
         if (close0 > open0) and (close1 > open1) and (close2 > open2):
             close_evol = close0 / open2
             if close_evol >= 1:
                 dic_evol[symbol] = close_evol
+                list_results.append([time0, symbol, open0, close0])
 
     except BaseException as e:
         log_to_errors(str(datetime.now()) + " " + symbol + " Exception (1) : " + format(e) + " : " + str(close0) + " " + str(open0))
@@ -173,6 +177,10 @@ def main_thread(name):
         for key, value in sorted_d.items():
             log_to_results(str(datetime.now()) + " " + key + " " + str(value))
             print(str(datetime.now()) + " " + key + " " + str(value))
+
+            for t, symbol, o, c in list_results:
+                if symbol == key:
+                    print(10 * ' ', t, symbol, "O=" + str(o), "C=" + str(c))
 
         print("All results written ok")
 
