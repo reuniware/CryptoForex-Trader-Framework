@@ -133,6 +133,8 @@ def scan_one(symbol):
             if close_evol >= 1:
                 dic_evol[symbol] = close_evol
                 list_results.append([time0, symbol, open0, close0])
+                list_results.append([time1, symbol, open1, close1])
+                list_results.append([time2, symbol, open2, close2])
 
     except BaseException as e:
         log_to_errors(str(datetime.now()) + " " + symbol + " Exception (1) : " + format(e) + " : " + str(close0) + " " + str(open0))
