@@ -102,8 +102,8 @@ def scan_one(symbol):
 
     dframe = pd.DataFrame(data)
 
-    # dframe.reindex(index=dframe.index[::-1])
-    dframe = dframe.iloc[::-1]
+    dframe.reindex(index=dframe.index[::-1])
+    # dframe = dframe.iloc[::-1]
 
     close0 = 0
     open0 = 0
@@ -112,21 +112,23 @@ def scan_one(symbol):
         # pd.set_option('display.expand_frame_repr', False)
         # print(dframe)
 
-        close0 = dframe['close'].iloc[0]
-        open0 = dframe['open'].iloc[0]
-        time0 = dframe['startTime'].iloc[0]
+        n = -1
 
-        close1 = dframe['close'].iloc[-1]
-        open1 = dframe['open'].iloc[-1]
-        time1 = dframe['startTime'].iloc[-1]
+        close0 = dframe['close'].iloc[n]
+        open0 = dframe['open'].iloc[n]
+        time0 = dframe['startTime'].iloc[n]
 
-        close2 = dframe['close'].iloc[-2]
-        open2 = dframe['open'].iloc[-2]
-        time2 = dframe['startTime'].iloc[-2]
+        close1 = dframe['close'].iloc[n-1]
+        open1 = dframe['open'].iloc[n-1]
+        time1 = dframe['startTime'].iloc[n-1]
 
-        close3 = dframe['close'].iloc[-3]
-        open3 = dframe['open'].iloc[-3]
-        time3 = dframe['startTime'].iloc[-3]
+        close2 = dframe['close'].iloc[n-2]
+        open2 = dframe['open'].iloc[n-2]
+        time2 = dframe['startTime'].iloc[n-2]
+
+        close3 = dframe['close'].iloc[n-3]
+        open3 = dframe['open'].iloc[n-3]
+        time3 = dframe['startTime'].iloc[n-3]
 
         if (close0 > open0) and (close1 > open1) and (close2 > open2):
             close_evol = close0 / open2
@@ -161,8 +163,8 @@ def main_thread(name):
         symbol = row['name']
         symbol_type = row['type']
 
-        # if not symbol.endswith("LINA-PERP"):
-        #     continue
+        if not symbol.endswith("-PERP"):
+            continue
 
         try:
             y = threading.Thread(target=scan_one, args=(symbol,))
