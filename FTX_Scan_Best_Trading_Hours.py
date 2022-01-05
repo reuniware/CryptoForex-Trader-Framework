@@ -1,6 +1,5 @@
 # HIGHLY EXPERIMENTAL :) IT WILL PRODUCE ONE OUTPUT FILE PER TOKEN AND SHOW THE SUM(%) OF EVOLUTION PER HOUR
-
-# HIGHLY EXPERIMENTAL :)
+# YOU WILL DISCOVER AMAZING STUFF WITH THIS CODE !!!! AND MIGHT BE RICH THANKS TO IT !!!!
 
 import glob, os
 from datetime import datetime
@@ -91,7 +90,7 @@ def scan_one(symbol):
     # print("scan one : " + symbol)
 
     resolution = 60 * 60 * 1  # set the resolution of one japanese candlestick here
-    nb_candlesticks = 24 * 60  # set the number of backward japanese candlesticks to retrieve from FTX api
+    nb_candlesticks = 24 * 208  # set the number of backward japanese candlesticks to retrieve from FTX api
     delta_time = resolution * nb_candlesticks
 
     # while not stop_thread:
@@ -178,10 +177,10 @@ def scan_one(symbol):
             c = closep[i]
             evol_close_open = round(((c - o) / c) * 100, 2)
 
-            # o = "{:.8f}".format(openp[i], 8).replace('.', ',')
-            # c = "{:.8f}".format(closep[i], 8).replace('.', ',')
-            # l = "{:.8f}".format(lowp[i], 8).replace('.', ',')
-            # h = "{:.8f}".format(highp[i], 8).replace('.', ',')
+            o = "{:.8f}".format(openp[i], 8).replace('.', ',')
+            c = "{:.8f}".format(closep[i], 8).replace('.', ',')
+            l = "{:.8f}".format(lowp[i], 8).replace('.', ',')
+            h = "{:.8f}".format(highp[i], 8).replace('.', ',')
 
             # log_to_results(str(timep[i]) + " " + symbol + " O=" + o + " H=" + h + " L=" + l + " C=" + c + " " + str(evol_close_open))
 
@@ -196,11 +195,13 @@ def scan_one(symbol):
                         hour_evol["{:0>2d}".format(hour)] = evol_close_open
 
                     # print(str(timep[i]) + " " + symbol + " O=" + o + " H=" + h + " L=" + l + " C=" + c + " " + str(evol_close_open))
-                    # log_to_file(symbol_filename, str(timep[i]) + ";" + symbol + ";" + o + ";" + h + ";" + l + ";" + c + ";" + str(evol_close_open).replace('.', ','))
+
+                    # if symbol == "BTC/USD":
+                    log_to_file(symbol_filename, str(timep[i]) + ";" + symbol + ";" + o + ";" + h + ";" + l + ";" + c + ";" + str(evol_close_open).replace('.', ','))
 
         sorted_d = sorted(hour_evol.items(), key=operator.itemgetter(1), reverse=True)
         for key, val in sorted_d:
-            log_to_file(symbol_filename, key + " : " + str(val))
+            log_to_file(symbol_filename, key + "h : " + str(round(val, 8)))
 
         # log_to_file(symbol_filename, str(sorted_d))
 
