@@ -84,9 +84,11 @@ dic_timestamp = {}
 dic_last_price = {}
 num_req = 0
 
+best_hourly_evol = []
+
 
 def scan_one(symbol):
-    global num_req
+    global num_req, higher_hourly_evol
     # print("scan one : " + symbol)
 
     resolution = 60 * 60 * 1  # set the resolution of one japanese candlestick here
@@ -197,11 +199,16 @@ def scan_one(symbol):
                     # print(str(timep[i]) + " " + symbol + " O=" + o + " H=" + h + " L=" + l + " C=" + c + " " + str(evol_close_open))
 
                     # if symbol == "BTC/USD":
-                    log_to_file(symbol_filename, str(timep[i]) + ";" + symbol + ";" + o + ";" + h + ";" + l + ";" + c + ";" + str(evol_close_open).replace('.', ','))
+                    # log_to_file(symbol_filename, str(timep[i]) + ";" + symbol + ";" + o + ";" + h + ";" + l + ";" + c + ";" + str(evol_close_open).replace('.', ','))
 
         sorted_d = sorted(hour_evol.items(), key=operator.itemgetter(1), reverse=True)
         for key, val in sorted_d:
             log_to_file(symbol_filename, key + "h : " + str(round(val, 8)))
+
+        symbol_best_hour = sorted_d[0][0]
+        symbol_best_evol = sorted_d[0][1]
+
+        best_hourly_evol.append([symbol, symbol_best_hour, symbol_best_evol])
 
         # log_to_file(symbol_filename, str(sorted_d))
 
@@ -219,6 +226,8 @@ def main_thread(name):
     df = pd.DataFrame(markets['result'])
     df.set_index('name')
 
+    threads = []
+
     for index, row in df.iterrows():
         symbol = row['name']
         symbol_type = row['type']
@@ -228,52 +237,28 @@ def main_thread(name):
             continue
 
         try:
-            y = threading.Thread(target=scan_one, args=(symbol,))
-            y.start()
+            t = threading.Thread(target=scan_one, args=(symbol,))
+            threads.append(t)
+            t.start()
         except requests.exceptions.ConnectionError:
             continue
 
-    print("All threads started.")
+    print(str(datetime.now()) + " All threads started.")
+    log_to_results(str(datetime.now()) + " All threads started.")
 
-    # while not stop_thread:
-    #     sorted_d = dict(sorted(dic_evol.items(), key=operator.itemgetter(1), reverse=True))
-    #     # log_to_results(str(datetime.now()) + " (" + str(num_req) + ') EVOL CLOSE/OPEN : ' + str(sorted_d))
-    #     # print(str(datetime.now()) + " (" + str(num_req) + ') EVOL CLOSE/OPEN : ' + str(sorted_d))
-    #     for key, value in sorted_d.items():
-    #         log_to_results(str(datetime.now()) + " " + key + " " + str(value))
-    #         print(str(datetime.now()) + " " + key + " " + str(value))
-    #
-    #         for t, symbol, o, c, l, h in list_results:
-    #             if symbol == key:
-    #                 evol_close_open = round(((c - o) / c) * 100, 2)
-    #                 j_s = " " * (16 - len(str(symbol)))
-    #                 o = "{:.8f}".format(o)
-    #                 j_o = " " * (15 - len(str(o)))
-    #                 c = "{:.8f}".format(c)
-    #                 j_c = " " * (15 - len(str(c)))
-    #                 l = "{:.8f}".format(l)
-    #                 j_l = " " * (15 - len(str(l)))
-    #                 h = "{:.8f}".format(h)
-    #                 j_h = " " * (15 - len(str(h)))
-    #                 if evol_close_open > 0:
-    #                     evol_close_open = "+" + "{:.2f}".format(evol_close_open)
-    #
-    #                 show_details = False
-    #                 log_details = False
-    #
-    #                 if show_details:
-    #                     print(10 * ' ', t, j_s + symbol, j_o, "O=", o, j_c, "C=", c, j_l, "L=", l, j_h, "H=", h, "\t\t\t", str(evol_close_open) + "%")
-    #
-    #                 if log_details:
-    #                     log_to_results(t + j_s + symbol + j_o + "O=" + o + j_c + "C=" + c + j_l + "L=" + l + j_h + "H=" + h + "\t\t\t" + str(evol_close_open) + "%")
-    #
-    #     print("All results written ok")
-    #
-    #     time.sleep(1)
+    for tt in threads:
+        tt.join()
 
-    # stop_thread = True
+    print(str(datetime.now()) + " All threads finished.")
+    log_to_results(str(datetime.now()) + " All threads finished.")
 
-    time.sleep(10)
+    best_hourly_evol.sort(key=operator.itemgetter(2), reverse=True)
+    # log_to_results(str(best_hourly_evol))
+    for symbol, hour, value in best_hourly_evol:
+        justif = " " * (20 - len(symbol))
+        log_to_results(symbol + justif + " " + hour + "h" + (4 * " ") + str(round(value, 2)) + "%")
+
+    time.sleep(1)
 
     stop_thread = True
 
