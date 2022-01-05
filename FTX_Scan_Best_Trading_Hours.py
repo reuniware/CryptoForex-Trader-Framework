@@ -94,7 +94,7 @@ def scan_one(symbol):
     # print("scan one : " + symbol)
 
     resolution = 60 * 60 * 1  # set the resolution of one japanese candlestick here
-    nb_candlesticks = 24 * 208  # set the number of backward japanese candlesticks to retrieve from FTX api
+    nb_candlesticks = 24 * 300  # set the number of backward japanese candlesticks to retrieve from FTX api
     delta_time = resolution * nb_candlesticks
 
     # while not stop_thread:
@@ -126,6 +126,10 @@ def scan_one(symbol):
     except urllib3.exceptions.ProtocolError:
         log_to_errors(str(datetime.now()) + " ProtocolError for " + symbol)
         print(str(datetime.now()) + " ProtocolError for " + symbol)
+        time.sleep(1)
+    except requests.exceptions.ChunkedEncodingError:
+        log_to_errors(str(datetime.now()) + " ChunkedEncodingError for " + symbol)
+        print(str(datetime.now()) + " ChunkedEncodingError for " + symbol)
         time.sleep(1)
 
     dframe = pd.DataFrame(data)
@@ -256,8 +260,8 @@ def main_thread(name):
         symbol_type = row['type']
 
         # filter for specific symbols here
-        if symbol.endswith("/USD"):
-            continue
+        # if not symbol.endswith("/USD"):
+        #     continue
 
         try:
             t = threading.Thread(target=scan_one, args=(symbol,))
@@ -279,7 +283,8 @@ def main_thread(name):
     # log_to_results(str(best_hourly_evol))
     for symbol, hour, value, nb_candlesticks in best_hourly_evol:
         justif = " " * (20 - len(symbol))
-        log_to_results(symbol + justif + " " + hour + "h" + (4 * " ") + str(round(value, 2)) + "%" + (4 * " ") + "calculated on " + str(nb_candlesticks) + " candlesticks (" + str(round(nb_candlesticks/24, 2)) + " days)")
+        log_to_results(symbol + justif + " " + hour + "h" + (4 * " ") + str(round(value, 2)) + "%" + (4 * " ") + "calculated on " + str(nb_candlesticks) + " candlesticks (" + str(
+            round(nb_candlesticks / 24, 2)) + " days)")
 
     time.sleep(1)
 
