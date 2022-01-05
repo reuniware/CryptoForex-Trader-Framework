@@ -106,8 +106,12 @@ def scan_one(symbol):
             start_time=float(round(time.time())) - delta_time,
             end_time=float(round(time.time())))
     except requests.exceptions.HTTPError:
-        log_to_errors(str(datetime.now()) + " HTTP Error for " + symbol)
-        print(datetime.now(), "HTTP Error for", symbol)
+        log_to_errors(str(datetime.now()) + " HTTPError for " + symbol)
+        print(datetime.now(), "HTTPError for", symbol)
+        time.sleep(1)
+    except requests.exceptions.ConnectionError:
+        log_to_errors(str(datetime.now()) + " ConnectionError for " + symbol)
+        print(datetime.now(), "ConnectionError for", symbol)
         time.sleep(1)
 
     dframe = pd.DataFrame(data)
@@ -135,6 +139,7 @@ def scan_one(symbol):
     if dframe.empty:
         return
 
+    i = 0
     try:
         for i in range(0, nb_candlesticks):
             closep.append(dframe['close'].iloc[n - i])
@@ -143,13 +148,15 @@ def scan_one(symbol):
             highp.append(dframe['high'].iloc[n - i])
             timep.append(dframe['startTime'].iloc[n - i])
     except IndexError:
-        log_to_errors(str(datetime.now()) + " cannot get candlesticks data for " + symbol)
-        print(datetime.now(), "cannot get candlesticks data for", symbol)
-        time.sleep(1)
-        return
+        log_to_errors(str(datetime.now()) + " cannot get all candlesticks data for " + symbol + " : " + str(i) + " candlesticks have been retrieved instead of " + str(nb_candlesticks) + " = " + str(round(i/24, 2)) + " days instead of " + str(nb_candlesticks/24))
+        print(str(datetime.now()) + " cannot get all candlesticks data for " + symbol + " : " + str(i) + " candlesticks have been retrieved instead of " + str(nb_candlesticks) + " = " + str(round(i/24, 2)) + " days instead of " + str(nb_candlesticks/24))
+        # log_to_errors("i = " + str(i))
+        nb_candlesticks = i
+        # time.sleep(1)
+        pass
     except KeyError:
         log_to_errors(str(datetime.now()) + " cannot get candlesticks data for " + symbol)
-        print(datetime.now(), "cannot get candlesticks data for", symbol)
+        print(str(datetime.now()) + " cannot get candlesticks data for " + symbol)
         time.sleep(1)
         return
 
@@ -208,7 +215,7 @@ def scan_one(symbol):
         symbol_best_hour = sorted_d[0][0]
         symbol_best_evol = sorted_d[0][1]
 
-        best_hourly_evol.append([symbol, symbol_best_hour, symbol_best_evol])
+        best_hourly_evol.append([symbol, symbol_best_hour, symbol_best_evol, nb_candlesticks])
 
         # log_to_file(symbol_filename, str(sorted_d))
 
@@ -233,8 +240,8 @@ def main_thread(name):
         symbol_type = row['type']
 
         # filter for specific symbols here
-        if not symbol.endswith("/USD"):
-            continue
+        # if not symbol.endswith("/USD"):
+        #     continue
 
         try:
             t = threading.Thread(target=scan_one, args=(symbol,))
@@ -254,9 +261,9 @@ def main_thread(name):
 
     best_hourly_evol.sort(key=operator.itemgetter(2), reverse=True)
     # log_to_results(str(best_hourly_evol))
-    for symbol, hour, value in best_hourly_evol:
+    for symbol, hour, value, nb_candlesticks in best_hourly_evol:
         justif = " " * (20 - len(symbol))
-        log_to_results(symbol + justif + " " + hour + "h" + (4 * " ") + str(round(value, 2)) + "%")
+        log_to_results(symbol + justif + " " + hour + "h" + (4 * " ") + str(round(value, 2)) + "%" + (4 * " ") + "calculated on " + str(nb_candlesticks) + " candlesticks")
 
     time.sleep(1)
 
