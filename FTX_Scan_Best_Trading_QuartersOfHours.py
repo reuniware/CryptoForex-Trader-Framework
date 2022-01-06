@@ -104,7 +104,7 @@ def scan_one(symbol):
     # print("scan one : " + symbol)
 
     resolution = 60 * 15  # set the resolution of one japanese candlestick here
-    nb_candlesticks = 24 * 30 #24 * 5  # set the number of backward japanese candlesticks to retrieve from FTX api
+    nb_candlesticks = 24 * 2 #24 * 5  # set the number of backward japanese candlesticks to retrieve from FTX api
     delta_time = resolution * nb_candlesticks
 
     # while not stop_thread:
@@ -179,9 +179,9 @@ def scan_one(symbol):
     except IndexError:
         if show_if_cannot_get_all_candlesticks_data:
             log_to_errors(str(datetime.now()) + " cannot get all candlesticks data for " + symbol + " : " + str(i) + " candlesticks have been retrieved instead of " + str(
-                nb_candlesticks) + " = " + str(round(i / 15, 2)) + " * 15min instead of " + str(nb_candlesticks / 15))
+                nb_candlesticks) + " <=> " + str(round(i / 15, 2)) + " * 15min instead of " + str(nb_candlesticks / 15))
             print(str(datetime.now()) + " cannot get all candlesticks data for " + symbol + " : " + str(i) + " candlesticks have been retrieved instead of " + str(
-                nb_candlesticks) + " = " + str(round(i / 15, 2)) + " * 15min instead of " + str(nb_candlesticks / 15))
+                nb_candlesticks) + " <=> " + str(round(i / 15, 2)) + " * 15min instead of " + str(nb_candlesticks / 15))
             # log_to_errors("i = " + str(i))
         nb_candlesticks = i
         # time.sleep(1)
@@ -298,8 +298,8 @@ def main_thread(name):
     # log_to_results(str(best_hourly_evol))
     for symbol, hour, value, nb_candlesticks in best_minute_evol:
         justif = " " * (20 - len(symbol))
-        log_to_results(symbol + justif + " " + hour + (4 * " ") + str(round(value, 2)) + "%" + (4 * " ") + "calculated on " + str(nb_candlesticks) + " candlesticks (" + str(
-            round(nb_candlesticks / 15, 2)) + " * 15min)")
+        log_to_results(symbol + justif + " " + hour + (4 * " ") + str(round(value, 2)) + "%" + (4 * " ") + "calculated on " + str(nb_candlesticks) + " candlesticks <=> " + str(
+            round(nb_candlesticks * 15, 2)) + " * 15min <=> " + str(nb_candlesticks * 15) + " minutes <=> " + str((nb_candlesticks * 15)/60) + " hours <=> " + str((nb_candlesticks * 15)/60/24) + " days")
 
     time.sleep(1)
 
