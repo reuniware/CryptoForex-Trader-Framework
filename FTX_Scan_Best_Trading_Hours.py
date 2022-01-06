@@ -41,6 +41,12 @@ def log_to_evol(str_to_log):
     fr.close()
 
 
+def log_to_debug(str_to_log):
+    fr = open("debug.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
 def log_to_file(str_file, str_to_log):
     fr = open(str_file, "a")
     fr.write(str_to_log + "\n")
@@ -76,6 +82,9 @@ for fg in glob.glob("CS_*.txt"):
 for fg in glob.glob("scan_*.txt"):
     os.remove(fg)
 
+for fg in glob.glob("debug.txt"):
+    os.remove(fg)
+
 list_results = []
 results_count = 0
 
@@ -90,7 +99,7 @@ best_hourly_evol = []
 
 
 def scan_one(symbol):
-    global num_req, higher_hourly_evol
+    global num_req
     # print("scan one : " + symbol)
 
     resolution = 60 * 60 * 1  # set the resolution of one japanese candlestick here
@@ -157,6 +166,7 @@ def scan_one(symbol):
     if dframe.empty:
         return
 
+    show_if_cannot_get_all_candlesticks_data = True
     i = 0
     try:
         for i in range(0, nb_candlesticks):
@@ -166,11 +176,12 @@ def scan_one(symbol):
             highp.append(dframe['high'].iloc[n - i])
             timep.append(dframe['startTime'].iloc[n - i])
     except IndexError:
-        log_to_errors(str(datetime.now()) + " cannot get all candlesticks data for " + symbol + " : " + str(i) + " candlesticks have been retrieved instead of " + str(
-            nb_candlesticks) + " = " + str(round(i / 24, 2)) + " days instead of " + str(nb_candlesticks / 24))
-        print(str(datetime.now()) + " cannot get all candlesticks data for " + symbol + " : " + str(i) + " candlesticks have been retrieved instead of " + str(
-            nb_candlesticks) + " = " + str(round(i / 24, 2)) + " days instead of " + str(nb_candlesticks / 24))
-        # log_to_errors("i = " + str(i))
+        if show_if_cannot_get_all_candlesticks_data:
+            log_to_errors(str(datetime.now()) + " cannot get all candlesticks data for " + symbol + " : " + str(i) + " candlesticks have been retrieved instead of " + str(
+                nb_candlesticks) + " = " + str(round(i / 24, 2)) + " days instead of " + str(nb_candlesticks / 24))
+            print(str(datetime.now()) + " cannot get all candlesticks data for " + symbol + " : " + str(i) + " candlesticks have been retrieved instead of " + str(
+                nb_candlesticks) + " = " + str(round(i / 24, 2)) + " days instead of " + str(nb_candlesticks / 24))
+            # log_to_errors("i = " + str(i))
         nb_candlesticks = i
         # time.sleep(1)
         pass
@@ -263,6 +274,9 @@ def main_thread(name):
         # if not symbol.endswith("/USD"):
         #     continue
 
+        nb_threads = 0
+        max_threads = 10
+
         try:
             t = threading.Thread(target=scan_one, args=(symbol,))
             threads.append(t)
@@ -270,11 +284,11 @@ def main_thread(name):
         except requests.exceptions.ConnectionError:
             continue
 
-    print(str(datetime.now()) + " All threads started.")
-    log_to_results(str(datetime.now()) + " All threads started.")
-
     for tt in threads:
         tt.join()
+
+    print(str(datetime.now()) + " All threads started.")
+    log_to_results(str(datetime.now()) + " All threads started.")
 
     print(str(datetime.now()) + " All threads finished.")
     log_to_results(str(datetime.now()) + " All threads finished.")
