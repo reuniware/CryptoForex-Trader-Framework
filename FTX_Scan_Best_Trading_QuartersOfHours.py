@@ -104,7 +104,7 @@ def scan_one(symbol):
     # print("scan one : " + symbol)
 
     resolution = 60 * 15  # set the resolution of one japanese candlestick here
-    nb_candlesticks = 5010 #24 * 5  # set the number of backward japanese candlesticks to retrieve from FTX api
+    nb_candlesticks = 24 * 30 #24 * 5  # set the number of backward japanese candlesticks to retrieve from FTX api
     delta_time = resolution * nb_candlesticks
 
     # while not stop_thread:
@@ -114,7 +114,7 @@ def scan_one(symbol):
         data = ftx_client.get_historical_data(
             market_name=symbol,
             resolution=resolution,
-            limit=10000,
+            limit=20000,
             start_time=float(round(time.time())) - delta_time,
             end_time=float(round(time.time())))
     except requests.exceptions.HTTPError:
@@ -233,9 +233,9 @@ def scan_one(symbol):
                         if str(hour) + ":" + str(minute) in minute_evol.keys():
                             current_minute_evol = minute_evol[str(hour) + ":" + str(minute)]
                             new_minute_evol = current_minute_evol + evol_close_open
-                            minute_evol[str(hour) + ":" + str(minute)] = new_minute_evol
+                            minute_evol["{:0>2}".format(hour) + ":" + "{:0>2}".format(minute)] = new_minute_evol
                         else:
-                            minute_evol[str(hour) + ":" + str(minute)] = evol_close_open
+                            minute_evol["{:0>2}".format(hour) + ":" + "{:0>2}".format(minute)] = evol_close_open
 
                     # print(str(timep[i]) + " " + symbol + " O=" + o + " H=" + h + " L=" + l + " C=" + c + " " + str(evol_close_open))
 
@@ -244,7 +244,7 @@ def scan_one(symbol):
 
         sorted_d = sorted(minute_evol.items(), key=operator.itemgetter(1), reverse=True)
         for key, val in sorted_d:
-            log_to_file(symbol_filename, key + "h : " + str(round(val, 8)))
+            log_to_file(symbol_filename, key + " " + str(round(val, 8)))
 
         symbol_best_hour = sorted_d[0][0]
         symbol_best_evol = sorted_d[0][1]
@@ -298,8 +298,8 @@ def main_thread(name):
     # log_to_results(str(best_hourly_evol))
     for symbol, hour, value, nb_candlesticks in best_minute_evol:
         justif = " " * (20 - len(symbol))
-        log_to_results(symbol + justif + " " + hour + "h" + (4 * " ") + str(round(value, 2)) + "%" + (4 * " ") + "calculated on " + str(nb_candlesticks) + " candlesticks (" + str(
-            round(nb_candlesticks / 24, 2)) + " days)")
+        log_to_results(symbol + justif + " " + hour + (4 * " ") + str(round(value, 2)) + "%" + (4 * " ") + "calculated on " + str(nb_candlesticks) + " candlesticks (" + str(
+            round(nb_candlesticks / 15, 2)) + " * 15min)")
 
     time.sleep(1)
 
