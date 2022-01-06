@@ -104,7 +104,7 @@ def scan_one(symbol):
     # print("scan one : " + symbol)
 
     resolution = 60 * 1  # set the resolution of one japanese candlestick here
-    nb_candlesticks = 5000  # 24 * 5  # set the number of backward japanese candlesticks to retrieve from FTX api
+    nb_candlesticks = 120  # 24 * 5  # set the number of backward japanese candlesticks to retrieve from FTX api
     delta_time = resolution * nb_candlesticks
 
     # while not stop_thread:
@@ -306,7 +306,7 @@ def main_thread(name):
     for symbol, hour, value, nb_candlesticks in best_minute_evol:
         justif = " " * (20 - len(symbol))
         log_to_results(symbol + justif + " " + hour + (4 * " ") + str(round(value, 2)) + "%" + (4 * " ") + "calculated on " + str(nb_candlesticks) + " candlesticks <=> " + str(
-            round(nb_candlesticks, 2)) + " * 1min <=> " + str(nb_candlesticks * 15) + " minutes <=> " + str(nb_candlesticks / 60) + " hours <=> " + str(
+            round(nb_candlesticks, 2)) + " * 1min <=> " + str(nb_candlesticks) + " minutes <=> " + str(nb_candlesticks / 60) + " hours <=> " + str(
             nb_candlesticks / 60 / 24) + " days")
 
     time.sleep(1)
