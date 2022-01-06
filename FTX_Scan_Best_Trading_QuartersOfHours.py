@@ -104,7 +104,7 @@ def scan_one(symbol):
     # print("scan one : " + symbol)
 
     resolution = 60 * 15  # set the resolution of one japanese candlestick here
-    nb_candlesticks = 24 * 2 #24 * 5  # set the number of backward japanese candlesticks to retrieve from FTX api
+    nb_candlesticks = 5000 #24 * 5  # set the number of backward japanese candlesticks to retrieve from FTX api
     delta_time = resolution * nb_candlesticks
 
     # while not stop_thread:
