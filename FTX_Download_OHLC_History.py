@@ -46,8 +46,6 @@ def log_to_file(str_file, str_to_log):
     fr.close()
 
 
-# import numpy as npfrom binance.client import Client
-
 ftx_client = ftx.FtxClient(
     api_key='',
     api_secret='',
@@ -78,29 +76,17 @@ for fg in glob.glob("scan_*.txt"):
 for fg in glob.glob("debug.txt"):
     os.remove(fg)
 
-list_results = []
-results_count = 0
-
 stop_thread = False
 
-dic_evol = {}
-dic_timestamp = {}
-dic_last_price = {}
-num_req = 0
-
-best_hourly_evol = []
-best_minute_evol = []
-
 log_data_history_to_files = True  # This option is for logging data history to one file per symbol (eg. scan_ETH_USD.txt)
-log_scan_results_to_files = False  # This option if for logging the scan results to one file per symbol (eg. at the bottom of scan_ETH_USD.txt)
 
 
 def execute_code(symbol):
-    global num_req, log_data_history_to_files, log_scan_results_to_files
+    global log_data_history_to_files
     # print("scan one : " + symbol)
 
     resolution = 60 * 60 * 1  # set the resolution of one japanese candlestick here
-    max_block_of_5000_download = -1  # set to -1 for unlimited blocks (all data history)
+    max_block_of_5000_download = 1  # set to -1 for unlimited blocks (all data history)
 
     list_results.clear()
 
@@ -186,7 +172,7 @@ def main_thread(name):
 
     for index, row in df.iterrows():
         symbol = row['name']
-        symbol_type = row['type']
+        # symbol_type = row['type']
 
         # filter for specific symbols here
         # if not symbol == "ETH/USD":
