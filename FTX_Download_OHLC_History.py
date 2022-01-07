@@ -169,7 +169,7 @@ def main_thread(name):
         symbol_type = row['type']
 
         # filter for specific symbols here
-        if not symbol == "ETC/USD":
+        if not symbol == "ETH/USD":
             continue
 
         try:
