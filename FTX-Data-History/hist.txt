@@ -8,3 +8,4 @@ FTX Data history in H1 for all assets available on FTX (spot, futures...) until 
 - TODO : I might upload updated version of data (that will then be greater than 102 MB compressed and more than 1,1 GB uncompressed)
 
 InvestDataSystems@Yahoo.Com
+Feel free to contact me (I'm based in France, Paris)
