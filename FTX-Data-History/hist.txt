@@ -1,1 +1,10 @@
 
+Pour mon code de téléchargement des data FTX (jusqu'à aujourd'hui 16h UTC = 17h), pour tous les actifs et les historiques complets disponibles ça a commencé à 17:33 et terminé à 18:10 en utilisant 5 threads simultanés (1 par actif, 5 par 5 en gros). Ca a téléchargé 1133 Mo (1,1 Go) <=> 102 Mo en compressé.
+Fichier compressé avec toutes les données FTX en H1 : https://cloud.degoo.com/share/4PUNIN26wUJirhAbUl9_Jg 
+
+FTX Data history in H1 for all assets available on FTX (spot, futures...) until today (2022-01-07 16h UTC) :
+- You can download the zipped file here https://cloud.degoo.com/share/4PUNIN26wUJirhAbUl9_Jg 
+- Unzip the file and there will be one file per asset eg. scan_ADA_PERP, scan_BTC_USD etc...
+- You will need to parse each line (kind of JSON format per line)
+- TODO : I might export another version of all these files for easy integration into MS Excel or any
+
