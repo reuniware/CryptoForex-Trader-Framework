@@ -1,3 +1,6 @@
+# HIGHLY EXPERIMENTAL :) IT WILL PRODUCE ONE OUTPUT FILE PER TOKEN AND SHOW THE SUM(%) OF EVOLUTION PER HOUR
+# YOU WILL DISCOVER AMAZING STUFF WITH THIS CODE !!!! AND MIGHT BE RICH THANKS TO IT !!!!
+
 import glob, os
 from datetime import datetime
 from datetime import timedelta
@@ -100,15 +103,15 @@ def scan_one(symbol):
     global num_req
     # print("scan one : " + symbol)
 
-    resolution = 60 * 60 * 24  # set the resolution of one japanese candlestick here
+    resolution = 60 * 60 * 1  # set the resolution of one japanese candlestick here
     nb_candlesticks = 5000  # 24 * 5  # set the number of backward japanese candlesticks to retrieve from FTX api
     delta_time = resolution * nb_candlesticks
 
-    nb_iterations = int(nb_candlesticks / 5000)
-    reste = nb_candlesticks % 5000
-    print("nb iterations = " + str(nb_iterations))
-    print("reste = " + str(reste))
-    print(str(nb_candlesticks) + " modulo 5000 = " + str(nb_candlesticks % 5000))
+    # nb_iterations = int(nb_candlesticks / 5000)
+    # reste = nb_candlesticks % 5000
+    # print("nb iterations = " + str(nb_iterations))
+    # print("reste = " + str(reste))
+    # print(str(nb_candlesticks) + " modulo 5000 = " + str(nb_candlesticks % 5000))
 
     # while not stop_thread:
     list_results.clear()
@@ -117,23 +120,97 @@ def scan_one(symbol):
     converted_endtime = datetime.utcfromtimestamp(unixtime_endtime)
     print("current unix time = " + str(unixtime_endtime))
     print("converted_endtime = " + str(converted_endtime))
-    tosubtract = 60 * 60 * 24 * 5000
+    tosubtract = resolution * 5000 # 60 * 60 * 1 * 5000
     print("to substract in seconds = " + str(tosubtract))
     newunixtime_starttime = unixtime_endtime - tosubtract
     converted_starttime = datetime.utcfromtimestamp(newunixtime_starttime)
     print("new unix time = " + str(newunixtime_starttime))
-    print("new converted_endtime = " + str(converted_starttime))
+    print("new converted_starttime = " + str(converted_starttime))
 
     data = []
 
-    data2 = ftx_client.get_historical_data(
-        market_name=symbol,
-        resolution=resolution,
-        limit=1000000,
-        start_time=newunixtime_starttime,
-        end_time=unixtime_endtime)
+    end_of_data_reached = False
 
-    data.extend(data2)
+    while not end_of_data_reached:
+
+        data2 = ftx_client.get_historical_data(
+            market_name=symbol,
+            resolution=resolution,
+            limit=1000000,
+            start_time=newunixtime_starttime,
+            end_time=unixtime_endtime)
+
+        print("data2 size = " + str(len(data2)))
+        data.extend(data2)
+
+        unixtime_endtime = newunixtime_starttime
+        newunixtime_starttime = newunixtime_starttime - tosubtract
+
+        if len(data2) == 0:
+            end_of_data_reached = True
+
+
+    # data2 = ftx_client.get_historical_data(
+    #     market_name=symbol,
+    #     resolution=resolution,
+    #     limit=1000000,
+    #     start_time=newunixtime_starttime,
+    #     end_time=unixtime_endtime)
+    #
+    # print("data2 size = " + str(len(data2)))
+    # data.extend(data2)
+    #
+    # unixtime_endtime = newunixtime_starttime
+    # newunixtime_starttime = newunixtime_starttime - tosubtract
+    #
+    # data2 = ftx_client.get_historical_data(
+    #     market_name=symbol,
+    #     resolution=resolution,
+    #     limit=1000000,
+    #     start_time=newunixtime_starttime,
+    #     end_time=unixtime_endtime)
+    #
+    # print("data2 size = " + str(len(data2)))
+    # data.extend(data2)
+    #
+    # unixtime_endtime = newunixtime_starttime
+    # newunixtime_starttime = newunixtime_starttime - tosubtract
+    #
+    # data2 = ftx_client.get_historical_data(
+    #     market_name=symbol,
+    #     resolution=resolution,
+    #     limit=1000000,
+    #     start_time=newunixtime_starttime,
+    #     end_time=unixtime_endtime)
+    #
+    # print("data2 size = " + str(len(data2)))
+    # data.extend(data2)
+    #
+    # unixtime_endtime = newunixtime_starttime
+    # newunixtime_starttime = newunixtime_starttime - tosubtract
+    #
+    # data2 = ftx_client.get_historical_data(
+    #     market_name=symbol,
+    #     resolution=resolution,
+    #     limit=1000000,
+    #     start_time=newunixtime_starttime,
+    #     end_time=unixtime_endtime)
+    #
+    # print("data2 size = " + str(len(data2)))
+    # data.extend(data2)
+    #
+    # unixtime_endtime = newunixtime_starttime
+    # newunixtime_starttime = newunixtime_starttime - tosubtract
+    #
+    # data2 = ftx_client.get_historical_data(
+    #     market_name=symbol,
+    #     resolution=resolution,
+    #     limit=1000000,
+    #     start_time=newunixtime_starttime,
+    #     end_time=unixtime_endtime)
+    #
+    # print("data2 size = " + str(len(data2)))
+    # data.extend(data2)
 
     data.sort(key=lambda x: pd.to_datetime(x['startTime']))
 
@@ -163,8 +240,8 @@ def main_thread(name):
         symbol_type = row['type']
 
         # filter for specific symbols here
-        # if not symbol == "ETH/USD":
-        #     continue
+        if not symbol == "ETH/USD":
+            continue
 
         try:
             t = threading.Thread(target=scan_one, args=(symbol,))
