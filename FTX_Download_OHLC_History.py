@@ -1,17 +1,13 @@
+# Number of threads running simultaneously is controlled with the variable maxthreads :)
+
 import glob, os
 from datetime import datetime
-from datetime import timedelta
 
 import ftx
 import pandas as pd
 import requests
 import threading
 import time
-import ta
-import math
-import operator
-
-import urllib3
 
 
 def log_to_results(str_to_log):
@@ -95,25 +91,29 @@ num_req = 0
 best_hourly_evol = []
 best_minute_evol = []
 
+log_data_history_to_files = True  # This option is for logging data history to one file per symbol (eg. scan_ETH_USD.txt)
+log_scan_results_to_files = False  # This option if for logging the scan results to one file per symbol (eg. at the bottom of scan_ETH_USD.txt)
 
-def scan_one(symbol):
-    global num_req
+
+def execute_code(symbol):
+    global num_req, log_data_history_to_files, log_scan_results_to_files
     # print("scan one : " + symbol)
 
-    resolution = 60 * 5  # set the resolution of one japanese candlestick here
+    resolution = 60 * 60 * 1  # set the resolution of one japanese candlestick here
+    max_block_of_5000_download = -1  # set to -1 for unlimited blocks (all data history)
 
     list_results.clear()
 
     unixtime_endtime = time.time()
     converted_endtime = datetime.utcfromtimestamp(unixtime_endtime)
-    print("current unix time = " + str(unixtime_endtime))
-    print("converted_endtime = " + str(converted_endtime))
-    tosubtract = resolution * 5000 # 60 * 60 * 1 * 5000
-    print("to substract in seconds = " + str(tosubtract))
+    # print("current unix time = " + str(unixtime_endtime))
+    # print("converted_endtime = " + str(converted_endtime))
+    tosubtract = resolution * 5000  # 60 * 60 * 1 * 5000
+    # print("to substract in seconds = " + str(tosubtract))
     newunixtime_starttime = unixtime_endtime - tosubtract
     converted_starttime = datetime.utcfromtimestamp(newunixtime_starttime)
-    print("new unix time = " + str(newunixtime_starttime))
-    print("new converted_starttime = " + str(converted_starttime))
+    # print("new unix time = " + str(newunixtime_starttime))
+    # print("new converted_starttime = " + str(converted_starttime))
 
     data = []
 
@@ -121,7 +121,10 @@ def scan_one(symbol):
 
     symbol_filename = "scan_" + str.replace(symbol, "-", "_").replace("/", "_") + ".txt"
 
-    while not end_of_data_reached:
+    current_block_of_5000_download = 0
+    max_block_of_5000_download_reached = False
+
+    while not end_of_data_reached and not max_block_of_5000_download_reached:
 
         downloaded_data = ftx_client.get_historical_data(
             market_name=symbol,
@@ -140,16 +143,32 @@ def scan_one(symbol):
         newunixtime_starttime = newunixtime_starttime - tosubtract
 
         if len(downloaded_data) == 0:
+            print(symbol + " : end of data from server reached")
             end_of_data_reached = True
+
+        if max_block_of_5000_download != -1:
+            current_block_of_5000_download += 1
+            if current_block_of_5000_download >= max_block_of_5000_download:
+                print(symbol + " : max number of block of 5000 reached")
+                max_block_of_5000_download_reached = True
 
     data.sort(key=lambda x: pd.to_datetime(x['startTime']))
 
-    for oneline in data:
-        log_to_file(symbol_filename, str(oneline))
+    if log_data_history_to_files:
+        for oneline in data:
+            log_to_file(symbol_filename, str(oneline))
 
-    dframe = pd.DataFrame(data)
 
-    dframe.reindex(index=dframe.index[::-1])
+maxthreads = 5
+threadLimiter = threading.BoundedSemaphore(maxthreads)
+
+
+def scan_one(symbol):
+    threadLimiter.acquire()
+    try:
+        execute_code(symbol)
+    finally:
+        threadLimiter.release()
 
 
 threads = []
@@ -158,7 +177,8 @@ threads = []
 def main_thread(name):
     global ftx_client, list_results, results_count, num_req, stop_thread
 
-    # while not stop_thread:
+    print(str(datetime.now()) + " All threads starting.")
+    log_to_results(str(datetime.now()) + " All threads starting.")
 
     markets = requests.get('https://ftx.com/api/markets').json()
     df = pd.DataFrame(markets['result'])
@@ -169,8 +189,11 @@ def main_thread(name):
         symbol_type = row['type']
 
         # filter for specific symbols here
-        if not symbol == "ETH/USD":
-            continue
+        # if not symbol == "ETH/USD":
+        #     continue
+
+        # if not symbol.endswith("/USD"):
+        #     continue
 
         try:
             t = threading.Thread(target=scan_one, args=(symbol,))
@@ -181,9 +204,6 @@ def main_thread(name):
 
     for tt in threads:
         tt.join()
-
-    print(str(datetime.now()) + " All threads started.")
-    log_to_results(str(datetime.now()) + " All threads started.")
 
     print(str(datetime.now()) + " All threads finished.")
     log_to_results(str(datetime.now()) + " All threads finished.")
