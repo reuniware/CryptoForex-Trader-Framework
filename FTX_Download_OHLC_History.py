@@ -100,17 +100,8 @@ def scan_one(symbol):
     global num_req
     # print("scan one : " + symbol)
 
-    resolution = 60 * 60 * 1  # set the resolution of one japanese candlestick here
-    nb_candlesticks = 5000  # 24 * 5  # set the number of backward japanese candlesticks to retrieve from FTX api
-    delta_time = resolution * nb_candlesticks
+    resolution = 60 * 5  # set the resolution of one japanese candlestick here
 
-    # nb_iterations = int(nb_candlesticks / 5000)
-    # reste = nb_candlesticks % 5000
-    # print("nb iterations = " + str(nb_iterations))
-    # print("reste = " + str(reste))
-    # print(str(nb_candlesticks) + " modulo 5000 = " + str(nb_candlesticks % 5000))
-
-    # while not stop_thread:
     list_results.clear()
 
     unixtime_endtime = time.time()
@@ -128,90 +119,31 @@ def scan_one(symbol):
 
     end_of_data_reached = False
 
+    symbol_filename = "scan_" + str.replace(symbol, "-", "_").replace("/", "_") + ".txt"
+
     while not end_of_data_reached:
 
-        data2 = ftx_client.get_historical_data(
+        downloaded_data = ftx_client.get_historical_data(
             market_name=symbol,
             resolution=resolution,
             limit=1000000,
             start_time=newunixtime_starttime,
             end_time=unixtime_endtime)
 
-        print("data2 size = " + str(len(data2)))
-        data.extend(data2)
+        converted_endtime = datetime.utcfromtimestamp(unixtime_endtime)
+        converted_starttime = datetime.utcfromtimestamp(newunixtime_starttime)
+
+        print(symbol + " : downloaded_data size = " + str(len(downloaded_data)) + " from " + str(converted_starttime) + " to " + str(converted_endtime))
+        data.extend(downloaded_data)
 
         unixtime_endtime = newunixtime_starttime
         newunixtime_starttime = newunixtime_starttime - tosubtract
 
-        if len(data2) == 0:
+        if len(downloaded_data) == 0:
             end_of_data_reached = True
-
-
-    # data2 = ftx_client.get_historical_data(
-    #     market_name=symbol,
-    #     resolution=resolution,
-    #     limit=1000000,
-    #     start_time=newunixtime_starttime,
-    #     end_time=unixtime_endtime)
-    #
-    # print("data2 size = " + str(len(data2)))
-    # data.extend(data2)
-    #
-    # unixtime_endtime = newunixtime_starttime
-    # newunixtime_starttime = newunixtime_starttime - tosubtract
-    #
-    # data2 = ftx_client.get_historical_data(
-    #     market_name=symbol,
-    #     resolution=resolution,
-    #     limit=1000000,
-    #     start_time=newunixtime_starttime,
-    #     end_time=unixtime_endtime)
-    #
-    # print("data2 size = " + str(len(data2)))
-    # data.extend(data2)
-    #
-    # unixtime_endtime = newunixtime_starttime
-    # newunixtime_starttime = newunixtime_starttime - tosubtract
-    #
-    # data2 = ftx_client.get_historical_data(
-    #     market_name=symbol,
-    #     resolution=resolution,
-    #     limit=1000000,
-    #     start_time=newunixtime_starttime,
-    #     end_time=unixtime_endtime)
-    #
-    # print("data2 size = " + str(len(data2)))
-    # data.extend(data2)
-    #
-    # unixtime_endtime = newunixtime_starttime
-    # newunixtime_starttime = newunixtime_starttime - tosubtract
-    #
-    # data2 = ftx_client.get_historical_data(
-    #     market_name=symbol,
-    #     resolution=resolution,
-    #     limit=1000000,
-    #     start_time=newunixtime_starttime,
-    #     end_time=unixtime_endtime)
-    #
-    # print("data2 size = " + str(len(data2)))
-    # data.extend(data2)
-    #
-    # unixtime_endtime = newunixtime_starttime
-    # newunixtime_starttime = newunixtime_starttime - tosubtract
-    #
-    # data2 = ftx_client.get_historical_data(
-    #     market_name=symbol,
-    #     resolution=resolution,
-    #     limit=1000000,
-    #     start_time=newunixtime_starttime,
-    #     end_time=unixtime_endtime)
-    #
-    # print("data2 size = " + str(len(data2)))
-    # data.extend(data2)
 
     data.sort(key=lambda x: pd.to_datetime(x['startTime']))
 
-    symbol_filename = "scan_" + str.replace(symbol, "-", "_").replace("/", "_") + ".txt"
     for oneline in data:
         log_to_file(symbol_filename, str(oneline))
 
@@ -237,7 +169,7 @@ def main_thread(name):
         symbol_type = row['type']
 
         # filter for specific symbols here
-        if not symbol == "ETH/USD":
+        if not symbol == "ETC/USD":
             continue
 
         try:
