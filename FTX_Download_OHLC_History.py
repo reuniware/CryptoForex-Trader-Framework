@@ -1,13 +1,26 @@
 # Number of threads running simultaneously is controlled with the variable maxthreads :)
 
-import glob, os
+import glob
+import os
+import sqlite3
+import threading
+import time
 from datetime import datetime
 
 import ftx
 import pandas as pd
 import requests
-import threading
-import time
+
+import_to_database = True  # only works with maxthreads = 1 (will be if import_to_database = True) or for one (of very few) symbol (filter symbols in the main_thread
+delete_db_at_startup = False
+max_block_of_5000_download = -1  # set to -1 for unlimited blocks (all data history)
+log_data_history_to_files = False  # This option is for logging data history to one file per symbol (eg. scan_ETH_USD.txt)
+# log_scan_results_to_files = True  # This option if for logging the scan results to one file per symbol (at the bottom of eg. scan_ETH_USD.txt)
+maxthreads = 50
+
+if import_to_database:
+    maxthreads = 1  # seems to work with a value of 2 so try to set it to 2 if you want to try (or even 3)
+    print("maxthread forced to 1 because of import_to_database is active")
 
 
 def log_to_results(str_to_log):
@@ -76,9 +89,21 @@ for fg in glob.glob("scan_*.txt"):
 for fg in glob.glob("debug.txt"):
     os.remove(fg)
 
+if import_to_database:
+    if delete_db_at_startup:
+        for fg in glob.glob("data_history.db"):
+            os.remove(fg)
+
 stop_thread = False
 
-log_data_history_to_files = True  # This option is for logging data history to one file per symbol (eg. scan_ETH_USD.txt)
+
+if import_to_database:
+    con = sqlite3.connect('data_history.db')
+    cur = con.cursor()
+    cur.execute("CREATE TABLE IF NOT EXISTS history (date text, symbol text, timeframe text, open real, high real, low real, close real)")
+    cur.execute("CREATE UNIQUE INDEX IF NOT EXISTS history_pk ON history (date, symbol, timeframe)")
+    con.commit()
+    con.close()
 
 
 def execute_code(symbol):
@@ -86,9 +111,7 @@ def execute_code(symbol):
     # print("scan one : " + symbol)
 
     resolution = 60 * 60 * 1  # set the resolution of one japanese candlestick here
-    max_block_of_5000_download = 1  # set to -1 for unlimited blocks (all data history)
-
-    list_results.clear()
+    # max_block_of_5000_download = 1  # set to -1 for unlimited blocks (all data history)
 
     unixtime_endtime = time.time()
     converted_endtime = datetime.utcfromtimestamp(unixtime_endtime)
@@ -138,14 +161,41 @@ def execute_code(symbol):
                 print(symbol + " : max number of block of 5000 reached")
                 max_block_of_5000_download_reached = True
 
-    data.sort(key=lambda x: pd.to_datetime(x['startTime']))
+    if import_to_database:
+        con2 = sqlite3.connect('data_history.db', timeout=5)
+        cur2 = con2.cursor()
 
-    if log_data_history_to_files:
-        for oneline in data:
+    # if log_data_history_to_files:
+    for oneline in data:
+
+        if log_data_history_to_files:
             log_to_file(symbol_filename, str(oneline))
 
+        if import_to_database:
+            try:
+                cur2.execute("SELECT * FROM history WHERE date = ? and symbol = ? and timeframe = ?", [oneline['startTime'], symbol, "H1"])
+                data = cur2.fetchone()
+                if data is None:
+                    # print("There is no record with", oneline['startTime'], symbol, "H1")
+                    cur2.execute("INSERT INTO history VALUES (?,?,?,?,?,?,?)",
+                                 [oneline['startTime'], symbol, "H1", oneline['open'], oneline['high'], oneline['low'], oneline['close']])
+                else:
+                    # print("There is already a record with", oneline['startTime'], symbol, "H1")
+                    pass
+            except sqlite3.IntegrityError:
+                pass
+            except sqlite3.OperationalError:  # database is locked (the number of parallel threads should be decreased)
+                log_to_errors(
+                    "(threading problem with sqlite) insert error for " + oneline['startTime'] + " " + symbol + " " + "H1" + " " + str(oneline['open']) + " " + str(oneline['high']) + " " +
+                    str(oneline['low']) + " " + str(oneline['close']))
+                pass
 
-maxthreads = 5
+    if import_to_database:
+        con2.commit()
+        con2.close()
+
+
+# maxthreads = 5
 threadLimiter = threading.BoundedSemaphore(maxthreads)
 
 
