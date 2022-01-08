@@ -19,8 +19,8 @@ log_data_history_to_files = False  # This option is for logging data history to 
 maxthreads = 50
 
 if import_to_database:
-    maxthreads = 1  # seems to work with a value of 2 so try to set it to 2 if you want to try (or even 3)
-    print("maxthread forced to 1 because of import_to_database is active")
+    maxthreads = 2  # seems to work with a value of 2 (if this is problematic then use the value of 1)
+    print("maxthread forced to " + str(maxthreads) + " because of import_to_database is active")
 
 
 def log_to_results(str_to_log):
@@ -96,7 +96,6 @@ if import_to_database:
 
 stop_thread = False
 
-
 if import_to_database:
     con = sqlite3.connect('data_history.db')
     cur = con.cursor()
@@ -111,6 +110,7 @@ def execute_code(symbol):
     # print("scan one : " + symbol)
 
     resolution = 60 * 60 * 1  # set the resolution of one japanese candlestick here
+    timeframe = "H1"  # used for inserting into SQLITE database
     # max_block_of_5000_download = 1  # set to -1 for unlimited blocks (all data history)
 
     unixtime_endtime = time.time()
@@ -173,12 +173,12 @@ def execute_code(symbol):
 
         if import_to_database:
             try:
-                cur2.execute("SELECT * FROM history WHERE date = ? and symbol = ? and timeframe = ?", [oneline['startTime'], symbol, "H1"])
+                cur2.execute("SELECT * FROM history WHERE date = ? and symbol = ? and timeframe = ?", [oneline['startTime'], symbol, timeframe])
                 data = cur2.fetchone()
                 if data is None:
-                    # print("There is no record with", oneline['startTime'], symbol, "H1")
+                    # print("There is no record with", oneline['startTime'], symbol, timeframe)
                     cur2.execute("INSERT INTO history VALUES (?,?,?,?,?,?,?)",
-                                 [oneline['startTime'], symbol, "H1", oneline['open'], oneline['high'], oneline['low'], oneline['close']])
+                                 [oneline['startTime'], symbol, timeframe, oneline['open'], oneline['high'], oneline['low'], oneline['close']])
                 else:
                     # print("There is already a record with", oneline['startTime'], symbol, "H1")
                     pass
@@ -186,7 +186,8 @@ def execute_code(symbol):
                 pass
             except sqlite3.OperationalError:  # database is locked (the number of parallel threads should be decreased)
                 log_to_errors(
-                    "(threading problem with sqlite) insert error for " + oneline['startTime'] + " " + symbol + " " + "H1" + " " + str(oneline['open']) + " " + str(oneline['high']) + " " +
+                    "(threading problem with sqlite) insert error for " + oneline['startTime'] + " " + symbol + " " + timeframe + " " + str(oneline['open']) + " " + str(
+                        oneline['high']) + " " +
                     str(oneline['low']) + " " + str(oneline['close']))
                 pass
 
