@@ -19,7 +19,7 @@ log_data_history_to_files = False  # This option is for logging data history to 
 maxthreads = 50
 
 if import_to_database:
-    maxthreads = 2  # seems to work with a value of 2 (if this is problematic then use the value of 1)
+    maxthreads = 1
     print("maxthread forced to " + str(maxthreads) + " because of import_to_database is active")
 
 
