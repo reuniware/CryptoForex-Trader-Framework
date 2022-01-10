@@ -21,12 +21,15 @@ markets2 = exchange_ftx.fetch_markets()
 
 for oneline1 in markets1:
     symbol1 = oneline1['symbol']
-    # print(oneline['symbol'])
-    for oneline2 in markets2:
-        symbol2 = oneline2['symbol']
-        if symbol1 == symbol2:
-            print(symbol1 + " found in both markets")
-            common_symbols.append(symbol1)
+    spotAllowed = oneline1['info']['isSpotTradingAllowed']
+    marginAllowed = oneline1['info']['isMarginTradingAllowed']
+    if spotAllowed and not marginAllowed:
+        # print(oneline['symbol'])
+        for oneline2 in markets2:
+            symbol2 = oneline2['symbol']
+            if symbol1 == symbol2:
+                print(symbol1 + " found in both markets")
+                common_symbols.append(symbol1)
 
 
 while True:
