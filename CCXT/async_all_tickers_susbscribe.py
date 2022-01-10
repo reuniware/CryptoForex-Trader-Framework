@@ -19,13 +19,14 @@ async def main(all_symbols):
     # print(symbol)
     # ticker = await exchange.fetch_ticker(symbol)
     tickers = await exchange.fetch_tickers(symbols=all_symbols)
-    print(tickers)
-    # datetime = ticker['datetime']
-    # ask = ticker['ask']
-    # bid = ticker['bid']
-    # askVolume = ticker['askVolume']
-    # bidVolume = ticker['bidVolume']
-    # print(symbol, "ask", ask, "bid", bid, "askvol", askVolume, "bidvol", bidVolume)
+    # print(tickers)
+    for symbol in tickers:
+        ask = tickers[symbol]['ask']
+        datetime = tickers[symbol]['datetime']
+        bid = tickers[symbol]['bid']
+        askVolume = tickers[symbol]['askVolume']
+        bidVolume = tickers[symbol]['bidVolume']
+        print(symbol, "ask", ask, "bid", bid, "askvol", askVolume, "bidvol", bidVolume)
 
 
 binance_exchange = ccxt.binance()
