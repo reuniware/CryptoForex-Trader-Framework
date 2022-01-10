@@ -11,7 +11,7 @@ import asyncio
 # pd.set_option('display.expand_frame_repr', False)
 
 exchange = ccxt_async.binance({
-    'enableRateLimit': False,  # this option enables the built-in rate limiter
+    'enableRateLimit': True,  # this option enables the built-in rate limiter
 })
 
 
