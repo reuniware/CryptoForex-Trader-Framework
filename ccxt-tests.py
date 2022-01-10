@@ -1,7 +1,7 @@
 import ccxt
 import pandas as pd
 from datetime import datetime
-import openpyxl
+# import openpyxl
 import time
 import threading
 
@@ -14,21 +14,51 @@ exchange_ftx = ccxt.ftx()
 
 # exchange.set_sandbox_mode(True)
 
-def get_btc_data(exc):
-    try:
-        result = exc().fetch_ohlcv('BTC/USDT', '1m', limit=1)
-        print(exc + " : " + result)
-    except:
-        print("Semble ne pas exister sur cet exchange : " + exc.name)
+common_symbols = []
+
+markets1 = exchange_binance.fetch_markets()
+markets2 = exchange_ftx.fetch_markets()
+
+for oneline1 in markets1:
+    symbol1 = oneline1['symbol']
+    # print(oneline['symbol'])
+    for oneline2 in markets2:
+        symbol2 = oneline2['symbol']
+        if symbol1 == symbol2:
+            print(symbol1 + " found in both markets")
+            common_symbols.append(symbol1)
 
 
-for name in ccxt.exchanges:
-    exchange = getattr(ccxt, name)
-    # print(exchange().timeframes)
-    result = exchange().fetch_ohlcv('BTC/USDT', '1m', limit=1)
-    print(result)
-    # t = threading.Thread(target=get_btc_data, args=(exchange(),))
-    # t.start()
+while True:
+    for symbol in common_symbols:
+
+        result = exchange_binance.fetch_ohlcv(symbol, '1m', limit=1)
+        # print("binance : " + str(result))
+        c1 = result[0][4]
+        # print(c1)
+
+        result = exchange_ftx.fetch_ohlcv(symbol, '1m', limit=1)
+        # print("ftx : " + str(result))
+        try:
+            c2 = result[0][4]
+        except:
+            print("cannot get data from ftx")
+            continue
+
+        diff = c2 - c1
+
+        print(symbol + " : " + "{:10.16f}".format(diff))
+
+
+# for name in ccxt.exchanges:
+#     exchange = getattr(ccxt, name)
+#     # print(exchange().timeframes)
+#     result = exchange().fetch_ohlcv('BTC/USDT', '1m', limit=1)
+#     print(result)
+#     # t = threading.Thread(target=get_btc_data, args=(exchange(),))
+#     # t.start()
+
+
 
 # print(ccxt.exchanges)
 
