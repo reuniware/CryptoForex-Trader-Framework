@@ -1,5 +1,4 @@
 # Number of threads running simultaneously is controlled with the variable maxthreads :)
-# Backtesting-oriented
 
 import glob
 import math
@@ -94,7 +93,7 @@ def execute_code(symbol):
     global log_data_history_to_files
     # print("scan one : " + symbol)
 
-    resolution = 60 * 60 * 1  # set the resolution of one japanese candlestick here
+    resolution = 60 * 60 * 4  # set the resolution of one japanese candlestick here
     timeframe = "H1"  # used for inserting into SQLITE database
 
     symbol_filename = "scan_" + str.replace(symbol, "-", "_").replace("/", "_") + ".txt"
@@ -168,29 +167,41 @@ def execute_code(symbol):
         high = df['high'].iloc[i]
         low = df['low'].iloc[i]
         close = df['close'].iloc[i]
-        ema20 = df['EMA20'].iloc[i]
-        ema50 = df['EMA50'].iloc[i]
-        ema100 = df['EMA100'].iloc[i]
-        ema200 = df['EMA200'].iloc[i]
 
         status = ""
 
         if df['EMA20'].iloc[i] > df['EMA50'].iloc[i] and df['EMA20'].iloc[i] > df['EMA100'].iloc[i] and df['EMA20'].iloc[i] > df['EMA200'].iloc[i]:
             status = " EMA20 is above EMA50/100/200"
 
-            if not(df['EMA20'].iloc[i - 1] > df['EMA50'].iloc[i - 1] and df['EMA20'].iloc[i - 1] > df['EMA100'].iloc[i - 1] and df['EMA20'].iloc[i - 1] > df['EMA200'].iloc[i - 1]):
+            if not (df['EMA20'].iloc[i - 1] > df['EMA50'].iloc[i - 1] and df['EMA20'].iloc[i - 1] > df['EMA100'].iloc[i - 1] and df['EMA20'].iloc[i - 1] > df['EMA200'].iloc[i - 1]):
                 entry_price = df['close'].iloc[i]
                 status += " and not previous one => OPENING LONG POSITION at " + str(entry_price)
 
         elif not (df['EMA20'].iloc[i] > df['EMA50'].iloc[i] and df['EMA20'].iloc[i] > df['EMA100'].iloc[i] and df['EMA20'].iloc[i] > df['EMA200'].iloc[i]):
             if df['EMA20'].iloc[i - 1] > df['EMA50'].iloc[i - 1] and df['EMA20'].iloc[i - 1] > df['EMA100'].iloc[i - 1] and df['EMA20'].iloc[i - 1] > df['EMA200'].iloc[i - 1]:
                 exit_price = df['close'].iloc[i]
-                if entry_price>0:
+                if entry_price > 0:
                     status += " CLOSING LONG POSITION at " + str(exit_price)
-                    status += " PLUSVALUE = " + str(exit_price - entry_price) + " <=> " + str(((exit_price - entry_price)/entry_price) * 100) + " %"
+                    status += " PLUSVALUE = " + str(round(exit_price - entry_price, 4)) + " <=> " + str(round(((exit_price - entry_price) / entry_price) * 100, 4)) + " %"
                     entry_price = 0
 
-        print(symbol, startTime, openp, high, low, close, status)
+        evol = 0
+        evol_pourcent = 0
+
+        if entry_price > 0:
+            evol = df['high'].iloc[i] - entry_price
+            evol_pourcent = ((df['high'].iloc[i] - entry_price)/entry_price)*100
+
+        if entry_price == 0:
+            print(symbol, startTime, openp, high, low, close, status)
+        else:
+            print(symbol, startTime, openp, high, low, close, status, "evol=" + str(round(evol, 4)), "<=>", str(round(evol_pourcent, 4)) + " %")
+
+        # CLOSING POSITION IF PERCENTAGE REACHED
+        # if entry_price > 0:
+        #     if evol_pourcent > 0.2:
+        #         print("CLOSING POSITION BECAUSE TP REACHED <=> CLOSING PRICE = ", entry_price + entry_price/100 * 0.25)
+        #         entry_price = 0
 
         # log_to_file(symbol_filename, symbol + " " + startTime + " " + str(openp) + " " + str(high) + " " + str(low) + " " + str(close) + " " + status)
 
