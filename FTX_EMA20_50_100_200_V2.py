@@ -93,7 +93,7 @@ def execute_code(symbol):
     global log_data_history_to_files
     # print("scan one : " + symbol)
 
-    resolution = 60  # set the resolution of one japanese candlestick here
+    resolution = 60 * 60 * 1  # set the resolution of one japanese candlestick here
     timeframe = "H1"  # used for inserting into SQLITE database
 
     symbol_filename = "scan_" + str.replace(symbol, "-", "_").replace("/", "_") + ".txt"
@@ -133,7 +133,7 @@ def execute_code(symbol):
         converted_endtime = datetime.utcfromtimestamp(unixtime_endtime)
         converted_starttime = datetime.utcfromtimestamp(newunixtime_starttime)
 
-        print(symbol + " : downloaded_data size = " + str(len(downloaded_data)) + " from " + str(converted_starttime) + " to " + str(converted_endtime))
+        # print(symbol + " : downloaded_data size = " + str(len(downloaded_data)) + " from " + str(converted_starttime) + " to " + str(converted_endtime))
         data.extend(downloaded_data)
 
         unixtime_endtime = newunixtime_starttime
@@ -146,7 +146,7 @@ def execute_code(symbol):
         if max_block_of_5000_download != -1:
             current_block_of_5000_download += 1
             if current_block_of_5000_download >= max_block_of_5000_download:
-                print(symbol + " : max number of block of 5000 reached")
+                # print(symbol + " : max number of block of 5000 reached")
                 max_block_of_5000_download_reached = True
 
     df = pandas.DataFrame(data)
@@ -164,7 +164,7 @@ def execute_code(symbol):
     previous_is_above = False
     entry_price = 0
 
-    for i in range(4500, 4999):
+    for i in range(len(df) - 2, len(df)):
         startTime = df['startTime'].iloc[i]
         openp = df['open'].iloc[i]
         high = df['high'].iloc[i]
@@ -175,47 +175,16 @@ def execute_code(symbol):
         ema100 = df['EMA100'].iloc[i]
         ema200 = df['EMA200'].iloc[i]
 
-        if i < len(df) - 1:
-
-            if df['EMA20'].iloc[i] > df['EMA50'].iloc[i] and df['EMA20'].iloc[i] > df['EMA100'].iloc[i] and df['EMA20'].iloc[i] > df['EMA200'].iloc[i]:
-                is_above_all = True
-            else:
-                is_above_all = False
-
-            if df['EMA20'].iloc[i + 1] > df['EMA50'].iloc[i - 1] and df['EMA20'].iloc[i - 1] > df['EMA100'].iloc[i - 1] and df['EMA20'].iloc[i - 1] > df['EMA200'].iloc[i - 1]:
-                previous_is_above = True
-            else:
-                previous_is_above = False
-
+        if ema20 > df['EMA50'].iloc[i] and df['EMA20'].iloc[i] > df['EMA100'].iloc[i] and df['EMA20'].iloc[i] > df['EMA200'].iloc[i]:
+            if not(ema20 > df['EMA50'].iloc[i - 1] and df['EMA20'].iloc[i - 1] > df['EMA100'].iloc[i - 1] and df['EMA20'].iloc[i - 1] > df['EMA200'].iloc[i - 1]):
+                status = " EMA20 is above EMA50/100/200 and previous is not"
+                print(symbol, startTime, openp, high, low, close, status)
+        else:
             status = ""
-            if is_above_all:
-                status += " EMA20 is above EMA50/100/200 ; "
-            if previous_is_above:
-                status += " previous EMA20 is above EMA50/100/200"
 
-            if not previous_is_above and is_above_all:
-                status += " ; should enter long here "
-                entry_price = close
+        # log_to_file(symbol_filename, symbol + " " + startTime + " " + str(openp) + " " + str(high) + " " + str(low) + " " + str(close) + " " + status)
 
-            if previous_is_above and is_above_all:
-                if entry_price == 0:
-                    print("entry price = 0")
-                evol = close - df['close'].iloc[i + 1]
-                evol_percent = ((high - entry_price) / entry_price) * 100
-                status += " ; evol close/previousclose = " + str(evol) + " ; evol high/entryprice = " + str(round(evol_percent, 4)) + "%"
-                if evol_percent == math.inf:
-                    print("error")
-
-            print(symbol, startTime, openp, high, low, close, status)
-            log_to_results(symbol + " " + startTime + str(openp) + " " + str(high) + " " + str(low) + " " + str(close) + " " + status)
-
-        previous_close = close
-
-        # if df['open'].iloc[i] < df['EMA20'].iloc[i]:
-        #     if df['close'].iloc[i] > df['EMA20'].iloc[i]:
-        #         print(symbol, str(startTime), openp, close, ema20)
-
-    log_to_results(symbol + " end of processing")
+    # log_to_results(symbol + " end of processing")
 
 
 maxthreads = 5
@@ -254,8 +223,8 @@ def main_thread(name):
         #     continue
 
         # filter for specific symbols here
-        if not symbol == "BTC/USD":
-            continue
+        # if not symbol == "MATIC-PERP":
+        #     continue
 
         # if not symbol.endswith("/USD"):
         #     continue
