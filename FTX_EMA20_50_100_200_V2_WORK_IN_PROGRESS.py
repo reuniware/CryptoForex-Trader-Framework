@@ -1,6 +1,7 @@
-# This backtests the EMA20/50/100/200 strategy and calculates the evolution of the price relatively to a virtual long position
+# Number of threads running simultaneously is controlled with the variable maxthreads :)
 
 import glob
+import math
 import os
 import sqlite3
 import threading
@@ -92,7 +93,7 @@ def execute_code(symbol):
     global log_data_history_to_files
     # print("scan one : " + symbol)
 
-    resolution = 60 * 60  # set the resolution of one japanese candlestick here
+    resolution = 60  # set the resolution of one japanese candlestick here
     timeframe = "H1"  # used for inserting into SQLITE database
 
     symbol_filename = "scan_" + str.replace(symbol, "-", "_").replace("/", "_") + ".txt"
@@ -163,7 +164,7 @@ def execute_code(symbol):
     previous_is_above = False
     entry_price = 0
 
-    for i in range(0, 500):
+    for i in range(4500, 4999):
         startTime = df['startTime'].iloc[i]
         openp = df['open'].iloc[i]
         high = df['high'].iloc[i]
@@ -174,33 +175,39 @@ def execute_code(symbol):
         ema100 = df['EMA100'].iloc[i]
         ema200 = df['EMA200'].iloc[i]
 
-        if df['EMA20'].iloc[i] > df['EMA50'].iloc[i] and df['EMA20'].iloc[i] > df['EMA100'].iloc[i] and df['EMA20'].iloc[i] > df['EMA200'].iloc[i]:
-            is_above_all = True
-        else:
-            is_above_all = False
+        if i < len(df) - 1:
 
-        if df['EMA20'].iloc[i - 1] > df['EMA50'].iloc[i - 1] and df['EMA20'].iloc[i - 1] > df['EMA100'].iloc[i - 1] and df['EMA20'].iloc[i - 1] > df['EMA200'].iloc[i - 1]:
-            previous_is_above = True
-        else:
-            previous_is_above = False
+            if df['EMA20'].iloc[i] > df['EMA50'].iloc[i] and df['EMA20'].iloc[i] > df['EMA100'].iloc[i] and df['EMA20'].iloc[i] > df['EMA200'].iloc[i]:
+                is_above_all = True
+            else:
+                is_above_all = False
 
-        status = ""
-        if is_above_all:
-            status += " is above all ; "
-        if previous_is_above:
-            status += " previous is above "
+            if df['EMA20'].iloc[i + 1] > df['EMA50'].iloc[i - 1] and df['EMA20'].iloc[i - 1] > df['EMA100'].iloc[i - 1] and df['EMA20'].iloc[i - 1] > df['EMA200'].iloc[i - 1]:
+                previous_is_above = True
+            else:
+                previous_is_above = False
 
-        if not previous_is_above and is_above_all:
-            status += " ; should enter long here "
-            entry_price = close
+            status = ""
+            if is_above_all:
+                status += " EMA20 is above EMA50/100/200 ; "
+            if previous_is_above:
+                status += " previous EMA20 is above EMA50/100/200"
 
-        if previous_is_above and is_above_all:
-            evol = close - df['close'].iloc[i - 1]
-            evol_percent = ((high - entry_price) / entry_price) * 100
-            status += " ; evol close/previousclose = " + str(evol) + " ; evol high/entryprice = " + str(round(evol_percent, 4)) + "%"
+            if not previous_is_above and is_above_all:
+                status += " ; should enter long here "
+                entry_price = close
 
-        print(symbol, startTime, openp, high, low, close, status)
-        log_to_results(symbol + " " + startTime + str(openp) + " " + str(high) + " " + str(low) + " " + str(close) + " " + status)
+            if previous_is_above and is_above_all:
+                if entry_price == 0:
+                    print("entry price = 0")
+                evol = close - df['close'].iloc[i + 1]
+                evol_percent = ((high - entry_price) / entry_price) * 100
+                status += " ; evol close/previousclose = " + str(evol) + " ; evol high/entryprice = " + str(round(evol_percent, 4)) + "%"
+                if evol_percent == math.inf:
+                    print("error")
+
+            print(symbol, startTime, openp, high, low, close, status)
+            log_to_results(symbol + " " + startTime + str(openp) + " " + str(high) + " " + str(low) + " " + str(close) + " " + status)
 
         previous_close = close
 
@@ -247,7 +254,7 @@ def main_thread(name):
         #     continue
 
         # filter for specific symbols here
-        if not symbol == "XRP/USD":
+        if not symbol == "BTC/USD":
             continue
 
         # if not symbol.endswith("/USD"):
