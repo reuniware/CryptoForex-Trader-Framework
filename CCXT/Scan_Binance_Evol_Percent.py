@@ -39,7 +39,7 @@ async def main(all_symbols):
 
         if previous_ask > 0 and previous_bid > 0:
             if ask / previous_ask > 1.005:
-                print(exchange.name, symbol, "diff(t/t-1) =", "{:.8f}".format(round(ask - previous_ask, 8)), "{:.8f}".format(bid - previous_bid), "{:.8f}".format(ask/previous_ask), "%")
+                print(exchange.name, symbol, "diff(t/t-1) =", "{:.8f}".format(round(ask - previous_ask, 8)), "{:.8f}".format(bid - previous_bid), "{:.8f}".format(100*(ask - previous_ask)/previous_ask), "%")
 
         askprice[symbol] = ask
         bidprice[symbol] = bid
