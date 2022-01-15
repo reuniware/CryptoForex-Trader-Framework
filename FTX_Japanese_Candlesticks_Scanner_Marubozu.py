@@ -198,6 +198,7 @@ def execute_code(symbol):
 
     df = pd.DataFrame(data)
     df = df.sort_values(by='startTime')
+    df = df.iloc[::-1]
     for index, row in df.iterrows():
         timestamp = row['startTime']
         openp = row['open']
