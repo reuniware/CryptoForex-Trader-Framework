@@ -18,7 +18,7 @@ create_one_db_file_per_symbol = True
 max_block_of_5000_download = 1  # set to -1 for unlimited blocks (all data history)
 log_data_history_to_files = False  # This option is for logging data history to one file per symbol (eg. scan_ETH_USD.txt)
 # log_scan_results_to_files = True  # This option if for logging the scan results to one file per symbol (at the bottom of eg. scan_ETH_USD.txt)
-maxthreads = 10
+maxthreads = 1000
 
 if import_to_database and not create_one_db_file_per_symbol:
     maxthreads = 1
@@ -106,7 +106,7 @@ def execute_code(symbol):
     global log_data_history_to_files
     # print("scan one : " + symbol)
 
-    resolution = 60 * 60 * 1  # set the resolution of one japanese candlestick here
+    resolution = 60 * 60 * 4  # set the resolution of one japanese candlestick here
     timeframe = "M1"  # used for inserting into SQLITE database
 
     symbol_filename = "scan_" + str.replace(symbol, "-", "_").replace("/", "_") + ".txt"
@@ -216,12 +216,12 @@ def execute_code(symbol):
         #     print(timestamp, openp, high, low, close, tolerance, "%")
         #     log_to_file(symbol_filename, timestamp + " " + str(openp) + " " + str(high) + " " + str(low) + " " + str(close) + " " + str(tolerance) + "%")
 
-        if openp < close == high and openp == low and high > low:
+        if openp < close == high and openp == low and high > low and close / openp > 1.001:
             s = "BULLISH MARUBOZU FULL" + " " + timestamp + " " + str(openp) + " " + str(high) + " " + str(low) + " " + str(close)
             print(s)
             log_to_file(symbol_filename, s)
 
-        if openp > close == low and openp == high and low < high:
+        if openp > close == low and openp == high and low < high and openp / close > 1.001:
             s = "BEARISH MARUBOZU FULL" + " " + timestamp + " " + str(openp) + " " + str(high) + " " + str(low) + " " + str(close)
             print(s)
             log_to_file(symbol_filename, s)
