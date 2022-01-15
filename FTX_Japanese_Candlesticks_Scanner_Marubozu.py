@@ -15,7 +15,7 @@ import requests
 import_to_database = False  # only works with maxthreads = 1 (will be if import_to_database = True) or for one (of very few) symbol (filter symbols in the main_thread
 delete_db_at_startup = True  # delete previously created db file(s)
 create_one_db_file_per_symbol = True
-max_block_of_5000_download = -1  # set to -1 for unlimited blocks (all data history)
+max_block_of_5000_download = 1  # set to -1 for unlimited blocks (all data history)
 log_data_history_to_files = False  # This option is for logging data history to one file per symbol (eg. scan_ETH_USD.txt)
 # log_scan_results_to_files = True  # This option if for logging the scan results to one file per symbol (at the bottom of eg. scan_ETH_USD.txt)
 maxthreads = 10
@@ -134,7 +134,7 @@ def execute_code(symbol):
     converted_endtime = datetime.utcfromtimestamp(unixtime_endtime)
     # print("current unix time = " + str(unixtime_endtime))
     # print("converted_endtime = " + str(converted_endtime))
-    tosubtract = resolution * 5000  # 60 * 60 * 1 * 5000
+    tosubtract = resolution * 10  # 5000  # 60 * 60 * 1 * 5000
     # print("to substract in seconds = " + str(tosubtract))
     newunixtime_starttime = unixtime_endtime - tosubtract
     converted_starttime = datetime.utcfromtimestamp(newunixtime_starttime)
@@ -216,16 +216,15 @@ def execute_code(symbol):
         #     print(timestamp, openp, high, low, close, tolerance, "%")
         #     log_to_file(symbol_filename, timestamp + " " + str(openp) + " " + str(high) + " " + str(low) + " " + str(close) + " " + str(tolerance) + "%")
 
-        if openp == low and close == high:
+        if openp < close == high and openp == low and high > low:
             s = "BULLISH MARUBOZU FULL" + " " + timestamp + " " + str(openp) + " " + str(high) + " " + str(low) + " " + str(close)
             print(s)
             log_to_file(symbol_filename, s)
 
-        if close == low and openp == high:
+        if openp > close == low and openp == high and low < high:
             s = "BEARISH MARUBOZU FULL" + " " + timestamp + " " + str(openp) + " " + str(high) + " " + str(low) + " " + str(close)
             print(s)
             log_to_file(symbol_filename, s)
-
 
     # if log_data_history_to_files:
     for oneline in data:
@@ -296,8 +295,8 @@ def main_thread(name):
         #     continue
 
         # filter for specific symbols here
-        if not symbol == "MATIC-PERP":
-            continue
+        # if not symbol == "MATIC-PERP":
+        #     continue
 
         # if not symbol.endswith("/USD"):
         #     continue
