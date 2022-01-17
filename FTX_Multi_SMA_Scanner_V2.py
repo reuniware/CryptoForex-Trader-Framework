@@ -109,7 +109,7 @@ def execute_code(symbol):
     global log_data_history_to_files
     # print("scan one : " + symbol)
 
-    resolution = 60 * 60 * 4  # set the resolution of one japanese candlestick here
+    resolution = 60 * 60 * 24  # set the resolution of one japanese candlestick here
     timeframe = "M1"  # used for inserting into SQLITE database
 
     symbol_filename = "scan_" + str.replace(symbol, "-", "_").replace("/", "_") + ".txt"
@@ -118,7 +118,7 @@ def execute_code(symbol):
     converted_endtime = datetime.utcfromtimestamp(unixtime_endtime)
     # print("current unix time = " + str(unixtime_endtime))
     # print("converted_endtime = " + str(converted_endtime))
-    tosubtract = resolution * 850  # 5000  # 60 * 60 * 1 * 5000
+    tosubtract = resolution * 100  # 5000  # 60 * 60 * 1 * 5000
     # print("to substract in seconds = " + str(tosubtract))
     newunixtime_starttime = unixtime_endtime - tosubtract
     converted_starttime = datetime.utcfromtimestamp(newunixtime_starttime)
@@ -177,7 +177,7 @@ def execute_code(symbol):
             print("Stopping downloading because start time and end time were forced")
 
     df = pd.DataFrame(data)
-    if len(df) < 850:
+    if len(df) < 100:
         log_to_errors(symbol + " has less than 200 values")
         exit(0)
 
@@ -194,7 +194,8 @@ def execute_code(symbol):
     nb_over = 0
     s = symbol + " : CLOSE > "
 
-    for type_sma in (5, 10, 20, 50, 100, 200, 500, 800):
+    r = (5, 10, 15, 20, 25)
+    for type_sma in r:
 
         avg = 0
 
@@ -210,8 +211,8 @@ def execute_code(symbol):
                 at_least_one_is_over = True
 
     if at_least_one_is_over:
-        if nb_over == 8:
-            log_to_results(s)
+        if nb_over == len(r):
+            log_to_results(s + " " + "https://fr.tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("-", "").replace("/", ""))
 
 
 # maxthreads = 5
@@ -253,8 +254,8 @@ def main_thread(name):
         # if not symbol == "FTM/USD":
         #     continue
 
-        # if not symbol.endswith("/USD"):
-        #     continue
+        if not symbol.endswith("-PERP"):
+            continue
 
         try:
             t = threading.Thread(target=scan_one, args=(symbol,))
@@ -272,9 +273,10 @@ def main_thread(name):
     sorted_d = sorted(evol_results.items(), key=operator.itemgetter(1), reverse=True)
     for line in sorted_d:
         print(line[0], line[1], "%", "last price =", str(asset_last_price[line[0]]))
-        log_to_results(line[0] + " " + str(round(line[1], 4)) + "% last price = " + str(asset_last_price[line[0]]))
+        log_to_results(line[0] + " " + str(round(line[1], 4)) + "% last price = " + ("{:10.8f}".format(asset_last_price[line[0]])))
 
     # time.sleep(1)
+    print("end of processing")
 
 
 x = threading.Thread(target=main_thread, args=(1,))
