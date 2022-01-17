@@ -184,7 +184,7 @@ def execute_code(symbol):
     df = df.sort_values(by='startTime')
     df = df.iloc[::-1]
 
-    evol = 100 * (df['close'].iloc[0] - df['close'].iloc[-1]) / (df['close'].iloc[-1])
+    evol = 100 * (df['close'].iloc[0] - df['close'].iloc[1]) / (df['close'].iloc[1])
     evol_results[symbol] = evol
     asset_last_price[symbol] = df['close'].iloc[0]
 
