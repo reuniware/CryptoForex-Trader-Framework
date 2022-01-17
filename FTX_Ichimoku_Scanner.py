@@ -1,21 +1,70 @@
+# Number of threads running simultaneously is controlled with the variable maxthreads :)
+
+import glob
+import operator
 import os
-from datetime import datetime
-from datetime import timedelta
+import sqlite3
+import threading
+import time
+from datetime import datetime, timedelta
 
 import ftx
 import pandas as pd
 import requests
-import threading
-import time
-import ta
-import math
 
-# import numpy as np
+import_to_database = False  # only works with maxthreads = 1 (will be if import_to_database = True) or for one (of very few) symbol (filter symbols in the main_thread
+delete_db_at_startup = True  # delete previously created db file(s)
+create_one_db_file_per_symbol = True
+max_block_of_5000_download = 1  # set to -1 for unlimited blocks (all data history)
+log_data_history_to_files = False  # This option is for logging data history to one file per symbol (eg. scan_ETH_USD.txt)
+# log_scan_results_to_files = True  # This option if for logging the scan results to one file per symbol (at the bottom of eg. scan_ETH_USD.txt)
+maxthreads = 1000
 
-client = ftx.FtxClient(
+if import_to_database and not create_one_db_file_per_symbol:
+    maxthreads = 1
+    print("maxthread forced to " + str(maxthreads) + " because of import_to_database is active")
+
+
+def log_to_results(str_to_log):
+    fr = open("results.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def log_to_errors(str_to_log):
+    fr = open("errors.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def log_to_trades(str_to_log):
+    fr = open("trades.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def log_to_evol(str_to_log):
+    fr = open("evol.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def log_to_debug(str_to_log):
+    fr = open("debug.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def log_to_file(str_file, str_to_log):
+    fr = open(str_file, "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+ftx_client = ftx.FtxClient(
     api_key='',
     api_secret='',
-    subaccount_name='IchimokuScanner'
+    subaccount_name=''
 )
 
 # result = client.get_balances()
@@ -24,102 +73,210 @@ client = ftx.FtxClient(
 if os.path.exists("results.txt"):
     os.remove("results.txt")
 
+if os.path.exists("errors.txt"):
+    os.remove("errors.txt")
+
+if os.path.exists("trades.txt"):
+    os.remove("trades.txt")
+
+if os.path.exists("evol.txt"):
+    os.remove("evol.txt")
+
+for fg in glob.glob("CS_*.txt"):
+    os.remove(fg)
+
+for fg in glob.glob("scan_*.txt"):
+    os.remove(fg)
+
+for fg in glob.glob("debug.txt"):
+    os.remove(fg)
+
+if import_to_database:
+    if delete_db_at_startup:
+        for fg in glob.glob("data_history.db"):
+            os.remove(fg)
+
+for fg in glob.glob("data_history_*.db"):
+    os.remove(fg)
+
 stop_thread = False
 
+evol_results = {}
+asset_last_price = {}
 
-def my_thread(name):
-    global client
-    while not stop_thread:
 
-        f = open("results.txt", "a")
+def execute_code(symbol):
+    global log_data_history_to_files
+    # print("scan one : " + symbol)
 
-        markets = requests.get('https://ftx.com/api/markets').json()
-        df = pd.DataFrame(markets['result'])
-        df.set_index('name')
-        for index, row in df.iterrows():
-            symbol = row['name']
-            # print(symbol)
-            # print("scanning", symbol)
+    resolution = 60 * 60 * 4  # set the resolution of one japanese candlestick here
+    timeframe = "M1"  # used for inserting into SQLITE database
 
-            data = client.get_historical_data(
+    symbol_filename = "scan_" + str.replace(symbol, "-", "_").replace("/", "_") + ".txt"
+
+    unixtime_endtime = time.time()
+    converted_endtime = datetime.utcfromtimestamp(unixtime_endtime)
+    # print("current unix time = " + str(unixtime_endtime))
+    # print("converted_endtime = " + str(converted_endtime))
+    tosubtract = resolution * 850  # 5000  # 60 * 60 * 1 * 5000
+    # print("to substract in seconds = " + str(tosubtract))
+    newunixtime_starttime = unixtime_endtime - tosubtract
+    converted_starttime = datetime.utcfromtimestamp(newunixtime_starttime)
+    # print("new unix time = " + str(newunixtime_starttime))
+    # print("new converted_starttime = " + str(converted_starttime))
+
+    data = []
+
+    end_of_data_reached = False
+
+    current_block_of_5000_download = 0
+    max_block_of_5000_download_reached = False
+
+    force_start_time_of_data_to_download = False
+    forced_end_time = datetime.now().timestamp()
+    forced_start_time = (datetime.now() - timedelta(days=60)).timestamp()
+
+    while not end_of_data_reached and not max_block_of_5000_download_reached:
+
+        if not force_start_time_of_data_to_download:
+            downloaded_data = ftx_client.get_historical_data(
                 market_name=symbol,
-                resolution=60 * 60,  # 60min * 60sec = 3600 sec
-                limit=10000,
-                start_time=float(round(time.time())) - 2000 * 3600,  # 1000*3600 for resolution=3600*24 (daily)
-                end_time=float(round(time.time())))
+                resolution=resolution,
+                limit=1000000,
+                start_time=newunixtime_starttime,
+                end_time=unixtime_endtime)
+        else:
+            downloaded_data = ftx_client.get_historical_data(
+                market_name=symbol,
+                resolution=resolution,
+                limit=1000000,
+                start_time=forced_start_time,
+                end_time=forced_end_time)
 
-            dframe = pd.DataFrame(data)
+        converted_endtime = datetime.utcfromtimestamp(unixtime_endtime)
+        converted_starttime = datetime.utcfromtimestamp(newunixtime_starttime)
 
-            # dframe['time'] = pd.to_datetime(dframe['time'], unit='ms')
+        # print(symbol + " : downloaded_data size = " + str(len(downloaded_data)) + " from " + str(converted_starttime) + " to " + str(converted_endtime))
+        data.extend(downloaded_data)
 
-            # print(dframe)
-            try:
-                dframe['ICH_SSA'] = ta.trend.ichimoku_a(dframe['high'], dframe['low'], window1=9, window2=26).shift(26)
-                dframe['ICH_SSB'] = ta.trend.ichimoku_b(dframe['high'], dframe['low'], window2=26, window3=52).shift(26)
-                dframe['ICH_KS'] = ta.trend.ichimoku_base_line(dframe['high'], dframe['low'])
-                dframe['ICH_TS'] = ta.trend.ichimoku_conversion_line(dframe['high'], dframe['low'])
-                dframe['ICH_CS'] = dframe['close'].shift(-26)
+        unixtime_endtime = newunixtime_starttime
+        newunixtime_starttime = newunixtime_starttime - tosubtract
 
-            except KeyError as err:
-                print(err)
-                continue
+        if len(downloaded_data) == 0:
+            print(symbol + " : end of data from server reached")
+            end_of_data_reached = True
 
-            for indexdf, rowdf in dframe.iterrows():
-                openp = rowdf['open']
-                high = rowdf['high']
-                low = rowdf['low']
-                close = rowdf['close']
-                ssa = rowdf['ICH_SSA']
-                ssb = rowdf['ICH_SSB']
-                ks = rowdf['ICH_KS']
-                ts = rowdf['ICH_TS']
-                cs = rowdf['ICH_CS']
-                #cs = dframe['ICH_CS']
-                timestamp = pd.to_datetime(rowdf['time'], unit='ms')
+        if max_block_of_5000_download != -1:
+            current_block_of_5000_download += 1
+            if current_block_of_5000_download >= max_block_of_5000_download:
+                # print(symbol + " : max number of block of 5000 reached")
+                max_block_of_5000_download_reached = True
 
-                data_hour = timestamp.hour
-                data_day = timestamp.day
-                data_month = timestamp.month
-                data_year = timestamp.year
+        if force_start_time_of_data_to_download:
+            end_of_data_reached = True  # doit être calculé car il faut voir si la plage de dates forcée dépasse les blocs de 5000 données
+            print("Stopping downloading because start time and end time were forced")
 
-                now = datetime.now() - timedelta(hours=2)
-                now_hour = now.hour
-                now_day = now.day
-                now_month = now.month
-                now_year = now.year
+    df = pd.DataFrame(data)
+    if len(df) < 850:
+        log_to_errors(symbol + " has less than 200 values")
+        exit(0)
 
-                # if math.isnan(ssa):
-                #     print(symbol, "ssa is null")
-                #
-                # if math.isnan(ssb):
-                #     print(symbol, "ssb is null")
+    df = df.sort_values(by='startTime')
+    df = df.iloc[::-1]
 
-                evol = round(((close - openp) / openp) * 100, 4)
+    # log_to_results(str(df['close'].iloc[0]))
+    # log_to_results(str(df['close'].iloc[1]))
+    evol = 100 * (df['close'].iloc[0] - df['close'].iloc[1]) / (df['close'].iloc[1])
+    evol_results[symbol] = evol
+    asset_last_price[symbol] = df['close'].iloc[0]
 
-                scan = True
+    at_least_one_is_over = False
+    nb_over = 0
+    s = symbol + " : CLOSE > "
 
-                if scan:
-                    if data_day == now_day and data_month == now_month and data_year == now_year and (data_hour >= now_hour):
-                        if openp < ssb < close:
-                            print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol)
-                            strn = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(ssa) + " SSB=" + str(
-                                ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " EVOL%=" + str(evol)
-                            f = open("results.txt", "a")
-                            f.write(strn + '\n')
-                            f.close()
-                else:
-                    if data_day == now_day and data_month == now_month and data_year == now_year and (data_hour >= now_hour):
-                        print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs)
-                        strn = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(ssa) + " SSB=" + str(
-                            ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " EVOL%" + str(evol)
-                        f = open("results.txt", "a")
-                        f.write(strn + '\n')
-                        f.close()
+    for type_sma in (5, 10, 20, 50, 100, 200, 500, 800):
 
-        f = open("results.txt", "a")
-        f.write(100 * '*' + '\n')
-        f.close()
+        avg = 0
+
+        for i in range(0, type_sma):
+            avg += df['close'].iloc[i]
+        avg = avg / type_sma
+
+        # log_to_results(symbol + " avg" + str(type_sma) + "= " + str(round(avg, 4)) + " close= " + str(df['close'].iloc[0]))
+        if df['close'].iloc[0] > avg:
+            s += "AVG" + str(type_sma) + " / "
+            nb_over += 1
+            if not at_least_one_is_over:
+                at_least_one_is_over = True
+
+    if at_least_one_is_over:
+        if nb_over == 8:
+            log_to_results(s)
 
 
-x = threading.Thread(target=my_thread, args=(1,))
+# maxthreads = 5
+threadLimiter = threading.BoundedSemaphore(maxthreads)
+
+
+def scan_one(symbol):
+    threadLimiter.acquire()
+    try:
+        execute_code(symbol)
+    finally:
+        threadLimiter.release()
+
+
+threads = []
+
+
+def main_thread(name):
+    global ftx_client, list_results, results_count, num_req, stop_thread
+
+    # print(str(datetime.now()) + " All threads starting.")
+    # log_to_results(str(datetime.now()) + " All threads starting.")
+
+    markets = requests.get('https://ftx.com/api/markets').json()
+    df = pd.DataFrame(markets['result'])
+    df.set_index('name')
+
+    for index, row in df.iterrows():
+        symbol = row['name']
+        # symbol_type = row['type']
+        vol = row['volumeUsd24h']
+        change24h = row['change24h']
+        change1h = row['change1h']
+
+        # if not change1h > 0:
+        #     continue
+
+        # filter for specific symbols here
+        # if not symbol == "FTM/USD":
+        #     continue
+
+        # if not symbol.endswith("/USD"):
+        #     continue
+
+        try:
+            t = threading.Thread(target=scan_one, args=(symbol,))
+            threads.append(t)
+            t.start()
+        except requests.exceptions.ConnectionError:
+            continue
+
+    for tt in threads:
+        tt.join()
+
+    # print(str(datetime.now()) + " All threads finished.")
+    # log_to_results(str(datetime.now()) + " All threads finished.")
+
+    sorted_d = sorted(evol_results.items(), key=operator.itemgetter(1), reverse=True)
+    for line in sorted_d:
+        print(line[0], line[1], "%", "last price =", str(asset_last_price[line[0]]))
+        log_to_results(line[0] + " " + str(round(line[1], 4)) + "% last price = " + ("{:10.8f}".format(asset_last_price[line[0]])))
+
+    # time.sleep(1)
+    print("end of processing")
+
+
+x = threading.Thread(target=main_thread, args=(1,))
 x.start()
