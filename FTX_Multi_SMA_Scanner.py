@@ -188,26 +188,15 @@ def execute_code(symbol):
     evol_results[symbol] = evol
     asset_last_price[symbol] = df['close'].iloc[0]
 
-    closeavg = 0
-    closeavg_final = {}
-    for i in [5, 10, 20, 50, 100, 200]:
-        closeavg = df['close'].iloc[0]
-        for j in range(0, i):
-            closeavg += df['close'].iloc[-j]
-            closeavg = closeavg / 2
-        closeavg_final[i] = closeavg
+    for type_sma in (5, 10, 20, 50, 100):
 
-    at_least_one_over = False
-    s = symbol + " : close price is over SMA"
-    for smalen, sma in closeavg_final.items():
-        if df['close'].iloc[0] > sma:
-            # print(symbol + " : close price is over SMA" + str(smalen))
-            # log_to_results(symbol + " : close price is over SMA" + str(smalen))
-            s += str(smalen) + "(" + str(round(sma, 2)) + ")/"
-            at_least_one_over = True
+        avg = 0
 
-    if at_least_one_over:
-        log_to_results(s)
+        for i in range(0, type_sma):
+            avg += df['close'].iloc[i]
+        avg = avg / type_sma
+
+        log_to_results(symbol + " avg" + str(type_sma) + "= " + str(round(avg, 4)) + " close= " + str(df['close'].iloc[-0]))
 
 
 # maxthreads = 5
@@ -246,8 +235,8 @@ def main_thread(name):
         #     continue
 
         # filter for specific symbols here
-        # if not symbol == "MATIC-PERP":
-        #     continue
+        if not symbol == "ALICE/USD":
+            continue
 
         # if not symbol.endswith("/USD"):
         #     continue
