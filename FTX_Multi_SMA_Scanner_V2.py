@@ -109,7 +109,7 @@ def execute_code(symbol):
     global log_data_history_to_files
     # print("scan one : " + symbol)
 
-    resolution = 60 * 60 * 1  # set the resolution of one japanese candlestick here
+    resolution = 60 * 60 * 4  # set the resolution of one japanese candlestick here
     timeframe = "M1"  # used for inserting into SQLITE database
 
     symbol_filename = "scan_" + str.replace(symbol, "-", "_").replace("/", "_") + ".txt"
@@ -184,7 +184,9 @@ def execute_code(symbol):
     df = df.sort_values(by='startTime')
     df = df.iloc[::-1]
 
-    evol = 100 * (df['close'].iloc[0] - df['close'].iloc[-1]) / (df['close'].iloc[-1])
+    # log_to_results(str(df['close'].iloc[0]))
+    # log_to_results(str(df['close'].iloc[1]))
+    evol = 100 * (df['close'].iloc[0] - df['close'].iloc[1]) / (df['close'].iloc[1])
     evol_results[symbol] = evol
     asset_last_price[symbol] = df['close'].iloc[0]
 
@@ -210,6 +212,7 @@ def execute_code(symbol):
     if at_least_one_is_over:
         if nb_over == 8:
             log_to_results(s)
+
 
 # maxthreads = 5
 threadLimiter = threading.BoundedSemaphore(maxthreads)
@@ -247,7 +250,7 @@ def main_thread(name):
         #     continue
 
         # filter for specific symbols here
-        # if not symbol == "ALICE/USD":
+        # if not symbol == "FTM/USD":
         #     continue
 
         # if not symbol.endswith("/USD"):
