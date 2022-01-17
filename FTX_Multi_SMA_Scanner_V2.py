@@ -12,6 +12,8 @@ import ftx
 import pandas as pd
 import requests
 
+r = (5, 10, 20, 30, 40, 50)   # The list of values for calculating the SMA ; eg. for SMA5 + SMA10 + SMA50 define this to r = (5, 10, 50)
+
 import_to_database = False  # only works with maxthreads = 1 (will be if import_to_database = True) or for one (of very few) symbol (filter symbols in the main_thread
 delete_db_at_startup = True  # delete previously created db file(s)
 create_one_db_file_per_symbol = True
@@ -118,7 +120,7 @@ def execute_code(symbol):
     converted_endtime = datetime.utcfromtimestamp(unixtime_endtime)
     # print("current unix time = " + str(unixtime_endtime))
     # print("converted_endtime = " + str(converted_endtime))
-    tosubtract = resolution * 100  # 5000  # 60 * 60 * 1 * 5000
+    tosubtract = resolution * r[len(r) - 1]  # 5000  # 60 * 60 * 1 * 5000
     # print("to substract in seconds = " + str(tosubtract))
     newunixtime_starttime = unixtime_endtime - tosubtract
     converted_starttime = datetime.utcfromtimestamp(newunixtime_starttime)
@@ -177,7 +179,7 @@ def execute_code(symbol):
             print("Stopping downloading because start time and end time were forced")
 
     df = pd.DataFrame(data)
-    if len(df) < 100:
+    if len(df) < r[len(r) - 1]:
         log_to_errors(symbol + " has less than 200 values")
         exit(0)
 
@@ -194,7 +196,6 @@ def execute_code(symbol):
     nb_over = 0
     s = symbol + " : CLOSE > "
 
-    r = (5, 10, 15, 20, 25)
     for type_sma in r:
 
         avg = 0
