@@ -188,6 +188,9 @@ def execute_code(symbol):
     evol_results[symbol] = evol
     asset_last_price[symbol] = df['close'].iloc[0]
 
+    at_least_one_is_over = False
+    s = symbol + " : CLOSE > "
+
     for type_sma in (5, 10, 20, 50, 100):
 
         avg = 0
@@ -196,8 +199,14 @@ def execute_code(symbol):
             avg += df['close'].iloc[i]
         avg = avg / type_sma
 
-        log_to_results(symbol + " avg" + str(type_sma) + "= " + str(round(avg, 4)) + " close= " + str(df['close'].iloc[-0]))
+        # log_to_results(symbol + " avg" + str(type_sma) + "= " + str(round(avg, 4)) + " close= " + str(df['close'].iloc[0]))
+        if df['close'].iloc[0] > avg:
+            s += "AVG" + str(type_sma) + " / "
+            if not at_least_one_is_over:
+                at_least_one_is_over = True
 
+    if at_least_one_is_over:
+        log_to_results(s)
 
 # maxthreads = 5
 threadLimiter = threading.BoundedSemaphore(maxthreads)
@@ -235,8 +244,8 @@ def main_thread(name):
         #     continue
 
         # filter for specific symbols here
-        if not symbol == "ALICE/USD":
-            continue
+        # if not symbol == "ALICE/USD":
+        #     continue
 
         # if not symbol.endswith("/USD"):
         #     continue
