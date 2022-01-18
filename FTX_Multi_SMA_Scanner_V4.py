@@ -12,8 +12,6 @@ import ftx
 import pandas as pd
 import requests
 
-import matplotlib.pyplot as plt
-
 r = (5, 10, 15, 20, 25, 30, 35, 40, 45, 50)   # The list of values for calculating the SMA ; eg. for SMA5 + SMA10 + SMA50 define this to r = (5, 10, 50)
 
 import_to_database = False  # only works with maxthreads = 1 (will be if import_to_database = True) or for one (of very few) symbol (filter symbols in the main_thread
