@@ -94,10 +94,10 @@ for fg in glob.glob("debug.txt"):
 
 if import_to_database:
     if delete_db_at_startup:
-        for fg in glob.glob("data_history.db"):
+        for fg in glob.glob("scan_results.db"):
             os.remove(fg)
 
-for fg in glob.glob("data_history_*.db"):
+for fg in glob.glob("scan_results_*.db"):
     os.remove(fg)
 
 stop_thread = False
@@ -108,6 +108,7 @@ asset_last_price = {}
 df_btc = pandas.DataFrame()  # todo : change the df_btc name with df_ref_symbol
 
 higher_close = {}
+nb_detections = {}
 
 
 def execute_code(symbol):
@@ -215,13 +216,22 @@ def execute_code(symbol):
         if evol > 0.25:
             if c > higher:
                 s = str(datetime.now()) + " " + symbol + " EVOL=" + str(round(evol, 3)) + "% PRICE=" + ("{0:.8f}".format(c))
+                if symbol in nb_detections:
+                    s += " detected " + str(nb_detections[symbol]) + " times"
                 log_to_results(s)
                 print(s)
+
+                if symbol in nb_detections:
+                    nb_detect = nb_detections[symbol]
+                    nb_detect += 1
+                    nb_detections[symbol] = nb_detect
+                else:
+                    nb_detections[symbol] = 1
 
         if c > higher:
             higher_close[symbol] = c
 
-        time.sleep(0.5)
+        time.sleep(1)
 
 
 # maxthreads = 5
