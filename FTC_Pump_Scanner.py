@@ -109,6 +109,7 @@ df_btc = pandas.DataFrame()  # todo : change the df_btc name with df_ref_symbol
 
 higher_close = {}
 nb_detections = {}
+initial_price = {}
 
 
 def execute_code(symbol):
@@ -186,10 +187,13 @@ def execute_code(symbol):
 
         df = pd.DataFrame(data)
 
+        if len(df) == 0:
+            continue
+
         try:
             df = df.sort_values(by='startTime')
         except KeyError:
-            return
+            continue
 
         df = df.iloc[::-1]
 
@@ -213,11 +217,17 @@ def execute_code(symbol):
         if symbol in higher_close:
             higher = higher_close[symbol]
 
-        if evol > 0.25:
+        if not (symbol in initial_price):
+            initial_price[symbol] = c
+
+        if evol > 0.1:
             if c > higher:
                 s = str(datetime.now()) + " " + symbol + " EVOL=" + str(round(evol, 3)) + "% PRICE=" + ("{0:.8f}".format(c))
                 if symbol in nb_detections:
-                    s += " detected " + str(nb_detections[symbol]) + " times"
+                    s += " detected " + str(nb_detections[symbol]) + " times (" + symbol + ")"
+                    if symbol in initial_price:
+                        s += " INITIAL_PRICE=" + ("{0:.8f}".format(initial_price[symbol]))
+                        s += " EVOL/INITIAL_PRICE=" + ("{0:.4f}".format(100 * (c - initial_price[symbol]) / initial_price[symbol])) + "%"
                 log_to_results(s)
                 print(s)
 
