@@ -107,7 +107,7 @@ asset_last_price = {}
 
 df_btc = pandas.DataFrame()  # todo : change the df_btc name with df_ref_symbol
 
-previous_close = {}
+higher_close = {}
 
 
 def execute_code(symbol):
@@ -208,19 +208,20 @@ def execute_code(symbol):
 
         evol = 100 * (c - o) / c
 
-        previous = 0
-        if symbol in previous_close:
-            previous = previous_close[symbol]
+        higher = 0
+        if symbol in higher_close:
+            higher = higher_close[symbol]
 
-        if evol > 0.5:
-            if c > previous:
+        if evol > 0.25:
+            if c > higher:
                 s = str(datetime.now()) + " " + symbol + " EVOL=" + str(round(evol, 3)) + "% PRICE=" + ("{0:.8f}".format(c))
                 log_to_results(s)
                 print(s)
 
-        previous_close[symbol] = c
+        if c > higher:
+            higher_close[symbol] = c
 
-        time.sleep(0.25)
+        time.sleep(0.5)
 
 
 # maxthreads = 5
