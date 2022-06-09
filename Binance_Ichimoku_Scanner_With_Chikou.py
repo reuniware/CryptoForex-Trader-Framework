@@ -1,6 +1,3 @@
-# Do you need a data scientist in France around Paris ?
-# Feel free to contact me at : InvestDataSystems@Yahoo.Com (I'm searching for a job)
-
 import glob, os
 from datetime import datetime
 from datetime import timedelta
@@ -77,6 +74,8 @@ def my_thread(name):
         new_results_found = False
 
         info_binance = Client().get_all_tickers()
+        #print(info_binance)
+        #exit()
 
         df = pd.DataFrame(info_binance)
         df.set_index('symbol')
@@ -112,7 +111,7 @@ def my_thread(name):
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
-            history_resolution = HISTORY_RESOLUTION_DAY  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_4HOUR  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:         # using this resolution seems not ok, must be improved
                 delta_time = 60 * 5
@@ -128,7 +127,7 @@ def my_thread(name):
                 delta_time = 60 * 60 * 2000
 
             try:                
-                klinesT = Client().get_historical_klines(symbol, Client.KLINE_INTERVAL_1DAY, "01 January 2022")
+                klinesT = Client().get_historical_klines(symbol, Client.KLINE_INTERVAL_4HOUR, "01 May 2022")
                 dframe = pd.DataFrame(klinesT, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av', 'trades', 'tb_base_av', 'tb_quote_av', 'ignore'])
 
                 del dframe['ignore']
@@ -284,7 +283,7 @@ def my_thread(name):
                 if scan:
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
-                        if openp < ssb and close > ssb and close > openp and openp > ssa and close > ssa and openp > ks and openp > ts and close > ks and close > ts:
+                        if openp > ssb and close > ssb and close > openp:
                             cs_results = ""
                             if cs > ssbchikou:
                                 cs_results += "* CS > SSBCHIKOU - "
@@ -301,7 +300,7 @@ def my_thread(name):
 
                             # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol_co)
                             # print("")
-                            str_result = str(timestamp) + " " + symbol + " " + symbol_type + " SSA=" + str(ssa) + " SSB=" + str(
+                            str_result = str(timestamp) + " " + symbol + " https://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol + " " + symbol_type + " SSA=" + str(ssa) + " SSB=" + str(
                                 ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " O=" + str(openp) + " H=" + str(high) + " L=" + str(
                                 low)  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol_co)     # We don't concatenate the variable parts (for comparisons in list_results)
 
