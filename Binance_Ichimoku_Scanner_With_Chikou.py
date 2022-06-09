@@ -3,7 +3,6 @@ from datetime import datetime
 from datetime import timedelta
 from binance.client import Client
 
-import ftx
 import pandas as pd
 import requests
 import threading
@@ -34,18 +33,6 @@ def log_to_evol(str_to_log):
     fr = open("evol.txt", "a")
     fr.write(str_to_log + "\n")
     fr.close()
-
-
-# import numpy as npfrom binance.client import Client
-
-client = ftx.FtxClient(
-    api_key='',
-    api_secret='',
-    subaccount_name=''
-)
-
-# result = client.get_balances()
-# print(result)
 
 if os.path.exists("results.txt"):
     os.remove("results.txt")
@@ -86,17 +73,8 @@ def my_thread(name):
 
         new_results_found = False
 
-        #markets = requests.get('https://ftx.com/api/markets').json()
-
         info_binance = Client().get_all_tickers()
-        #print(info_binance)
-        #exit()
 
-        #print(markets)
-        #exit()
-
-        #df = pd.DataFrame(markets['result'])
-        #df.set_index('name')
         df = pd.DataFrame(info_binance)
         df.set_index('symbol')
 
@@ -131,7 +109,7 @@ def my_thread(name):
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
-            history_resolution = HISTORY_RESOLUTION_MINUTE  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_DAY  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:         # using this resolution seems not ok, must be improved
                 delta_time = 60 * 5
@@ -147,23 +125,8 @@ def my_thread(name):
                 delta_time = 60 * 60 * 2000
 
             try:                
-                #data = client.get_historical_data(
-                #    market_name="ETH/BTC",
-                #    resolution=history_resolution,  # 60min * 60sec = 3600 sec
-                #    limit=10000,
-                #    start_time=float(round(time.time())) - delta_time,
-                #    # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
-                #    end_time=float(round(time.time())))
-                    
-                #dframe = pd.DataFrame(data)
-                #print(dframe)
-                #exit()
-
-                #klinesT = Client().get_historical_klines(symbol, Client.KLINE_INTERVAL_1DAY, "01 December 2021")
-                klinesT = Client().get_historical_klines(symbol, Client.KLINE_INTERVAL_1MINUTE, "09 June 2022")
+                klinesT = Client().get_historical_klines(symbol, Client.KLINE_INTERVAL_1DAY, "01 January 2022")
                 dframe = pd.DataFrame(klinesT, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av', 'trades', 'tb_base_av', 'tb_quote_av', 'ignore'])
-                #print(dframe)
-                #exit()
 
                 del dframe['ignore']
                 del dframe['close_time']
@@ -179,9 +142,6 @@ def my_thread(name):
 
                 dframe = dframe.set_index(dframe['timestamp'])
                 dframe.index = pd.to_datetime(dframe.index, unit='ms')
-                #print(dframe)
-                #exit()
-
 
             except requests.exceptions.HTTPError:
                 print("Erreur (HTTPError) tentative obtention données historiques pour " + symbol)
@@ -207,9 +167,6 @@ def my_thread(name):
                 dframe['ICH_KS'] = ta.trend.ichimoku_base_line(dframe['high'], dframe['low'])
                 dframe['ICH_TS'] = ta.trend.ichimoku_conversion_line(dframe['high'], dframe['low'])
                 dframe['ICH_CS'] = dframe['close'].shift(-26)
-
-                #print(dframe)
-                #exit()
 
             except KeyError as err:
                 print(err)
