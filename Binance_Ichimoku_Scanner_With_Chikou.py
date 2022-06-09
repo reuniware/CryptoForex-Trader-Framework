@@ -1,3 +1,6 @@
+# Do you need a data scientist in France around Paris ?
+# Feel free to contact me at : InvestDataSystems@Yahoo.Com (I'm searching for a job)
+
 import glob, os
 from datetime import datetime
 from datetime import timedelta
