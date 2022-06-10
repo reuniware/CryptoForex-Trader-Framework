@@ -111,7 +111,7 @@ def my_thread(name):
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
-            history_resolution = HISTORY_RESOLUTION_HOUR  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_4HOUR  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:         # using this resolution seems not ok, must be improved
                 delta_time = 60 * 5
@@ -143,7 +143,8 @@ def my_thread(name):
                 exit()
 
             try:                
-                klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "01 March 2022")
+                #klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "09 May 2022")
+                klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "15 day ago UTC")
                 dframe = pd.DataFrame(klinesT, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av', 'trades', 'tb_base_av', 'tb_quote_av', 'ignore'])
 
                 del dframe['ignore']
@@ -296,14 +297,14 @@ def my_thread(name):
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year  # for daily scan, we must not test the hours
                 elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
                     # print("comparing : " + str(data_hour) + " " + str(data_minute) + " to " + str(datetime_result_min_hour) + " " + str(datetime_result_min_minute))
-                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute                    
                 else:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
 
                 if scan:
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
-                        if openp > ks and close < ks and close < openp and cs < lowchikou and cs < kijunchikou and cs < ssbchikou:
+                        if openp < ks and close < ks and close < openp and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou:
                             cs_results = ""
                             if cs < ssbchikou:
                                 cs_results += "* CS < SSBCHIKOU - "
@@ -314,9 +315,9 @@ def my_thread(name):
                             if cs < tenkanchikou:
                                 cs_results += "* CS < TSCHIKOU - "
                             if cs < closechikou:
-                                cs_results += "* CS < CLOSECHIKOU"
+                                cs_results += "* CS < CLOSECHIKOU - "
                             if cs < lowchikou:
-                                cs_results += "* CS < LOWCHIKOU"
+                                cs_results += "* CS < LOWCHIKOU - "
                             # if cs_results != "":
                             #     log_to_results(cs_results)
 
