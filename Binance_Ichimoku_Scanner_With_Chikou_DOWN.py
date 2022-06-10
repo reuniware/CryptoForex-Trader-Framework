@@ -111,7 +111,7 @@ def my_thread(name):
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
-            history_resolution = HISTORY_RESOLUTION_DAY  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_4HOUR  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:         # using this resolution seems not ok, must be improved
                 delta_time = 60 * 5
@@ -127,7 +127,7 @@ def my_thread(name):
                 delta_time = 60 * 60 * 2000
 
             try:                
-                klinesT = Client().get_historical_klines(symbol, Client.KLINE_INTERVAL_1DAY, "01 March 2022")
+                klinesT = Client().get_historical_klines(symbol, Client.KLINE_INTERVAL_4HOUR, "01 March 2022")
                 dframe = pd.DataFrame(klinesT, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av', 'trades', 'tb_base_av', 'tb_quote_av', 'ignore'])
 
                 del dframe['ignore']
@@ -287,7 +287,7 @@ def my_thread(name):
                 if scan:
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
-                        if openp > ks and close < ks and close < openp and cs < closechikou and cs < openchikou and cs < lowchikou:
+                        if openp > ks and close < ks and close < openp and cs < lowchikou and cs < kijunchikou:
                             cs_results = ""
                             if cs < ssbchikou:
                                 cs_results += "* CS < SSBCHIKOU - "
@@ -299,6 +299,8 @@ def my_thread(name):
                                 cs_results += "* CS < TSCHIKOU - "
                             if cs < closechikou:
                                 cs_results += "* CS < CLOSECHIKOU"
+                            if cs < lowchikou:
+                                cs_results += "* CS < LOWCHIKOU"
                             # if cs_results != "":
                             #     log_to_results(cs_results)
 
