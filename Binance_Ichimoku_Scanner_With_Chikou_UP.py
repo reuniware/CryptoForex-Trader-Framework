@@ -126,8 +126,25 @@ def my_thread(name):
             elif history_resolution == HISTORY_RESOLUTION_DAY:
                 delta_time = 60 * 60 * 2000
 
+            if history_resolution == HISTORY_RESOLUTION_MINUTE:
+                interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE 
+            elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
+                interval_for_klinesT = Client.KLINE_INTERVAL_5MINUTE
+            elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
+                interval_for_klinesT = Client.KLINE_INTERVAL_15MINUTE
+            elif history_resolution == HISTORY_RESOLUTION_HOUR:
+                interval_for_klinesT = Client.KLINE_INTERVAL_1HOUR
+            elif history_resolution == HISTORY_RESOLUTION_4HOUR:
+                interval_for_klinesT = Client.KLINE_INTERVAL_4HOUR
+            elif history_resolution == HISTORY_RESOLUTION_DAY:
+                interval_for_klinesT = Client.KLINE_INTERVAL_1DAY
+            else:
+                print("What should I set for Client KLINE_INTERVAL ?")
+                exit()
+
             try:                
-                klinesT = Client().get_historical_klines(symbol, Client.KLINE_INTERVAL_4HOUR, "01 May 2022")
+                #klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "09 May 2022")
+                klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "15 day ago UTC")
                 dframe = pd.DataFrame(klinesT, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av', 'trades', 'tb_base_av', 'tb_quote_av', 'ignore'])
 
                 del dframe['ignore']
@@ -192,6 +209,12 @@ def my_thread(name):
                     ssbchikou3 = dframe['ICH_SSB'].iloc[-26 - 3 + 2]
                     closechikou = dframe['close'].iloc[-26]
                     closechikou2 = dframe['close'].iloc[-26 - 1]
+                    openchikou = dframe['open'].iloc[-26]
+                    openchikou2 = dframe['open'].iloc[-26 - 1]
+                    lowchikou = dframe['low'].iloc[-26]
+                    lowchikou2 = dframe['low'].iloc[-26 - 1]
+                    highchikou = dframe['high'].iloc[-26]
+                    highchikou2 = dframe['high'].iloc[-26 - 1]
                     kijunchikou = dframe['ICH_KS'].iloc[-26 - 1 + 1]
                     kijunchikou2 = dframe['ICH_KS'].iloc[-26 - 2 + 1]
                     kijunchikou3 = dframe['ICH_KS'].iloc[-26 - 3 + 1]
@@ -276,14 +299,14 @@ def my_thread(name):
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year  # for daily scan, we must not test the hours
                 elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
                     # print("comparing : " + str(data_hour) + " " + str(data_minute) + " to " + str(datetime_result_min_hour) + " " + str(datetime_result_min_minute))
-                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute                    
                 else:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
 
                 if scan:
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
-                        if openp > ssb and close > ssb and close > openp:
+                        if openp > ks and close > ks and close > openp and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou:
                             cs_results = ""
                             if cs > ssbchikou:
                                 cs_results += "* CS > SSBCHIKOU - "
@@ -294,7 +317,9 @@ def my_thread(name):
                             if cs > tenkanchikou:
                                 cs_results += "* CS > TSCHIKOU - "
                             if cs > closechikou:
-                                cs_results += "* CS > CLOSECHIKOU"
+                                cs_results += "* CS > CLOSECHIKOU - "
+                            if cs > highchikou:
+                                cs_results += "* CS > HIGHCHIKOU - "
                             # if cs_results != "":
                             #     log_to_results(cs_results)
 
