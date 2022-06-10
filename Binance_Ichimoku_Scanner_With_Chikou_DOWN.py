@@ -213,6 +213,8 @@ def my_thread(name):
                     openchikou2 = dframe['open'].iloc[-26 - 1]
                     lowchikou = dframe['low'].iloc[-26]
                     lowchikou2 = dframe['low'].iloc[-26 - 1]
+                    highchikou = dframe['high'].iloc[-26]
+                    highchikou2 = dframe['high'].iloc[-26 - 1]
                     kijunchikou = dframe['ICH_KS'].iloc[-26 - 1 + 1]
                     kijunchikou2 = dframe['ICH_KS'].iloc[-26 - 2 + 1]
                     kijunchikou3 = dframe['ICH_KS'].iloc[-26 - 3 + 1]
