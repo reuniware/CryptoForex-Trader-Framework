@@ -112,7 +112,7 @@ def my_thread(name):
             #     continue
 
             # Define the resolution for data downloading and scanning on the line below
-            history_resolution = HISTORY_RESOLUTION_15MINUTE  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_5MINUTE  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:         # using this resolution seems not ok, must be improved
                 delta_time = 60 * 5
@@ -318,7 +318,7 @@ def my_thread(name):
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # Define your own criterias for filtering assets on the line below
-                        if openp < ks and close < ks and close < openp and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou: #and close < ts and close < ks: #and evol_co < -0.5:
+                        if openp < ks and close < ks and close < openp and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou and close < ts and close < ks: #and evol_co < -0.5:
                             cs_results = ""
                             if cs < ssbchikou:
                                 cs_results += "* CS < SSBCHIKOU - "
@@ -369,6 +369,7 @@ def my_thread(name):
         print(str(datetime.now()) + " " + str(new_dict))
         log_to_evol(str(datetime.now()) + " " + str(new_dict))
 
+        # Remove the line below to scan in loop
         stop_thread = True
 
 
