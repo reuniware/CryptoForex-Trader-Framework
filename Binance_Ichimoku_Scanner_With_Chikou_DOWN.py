@@ -111,6 +111,7 @@ def my_thread(name):
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
+            # Define the resolution for data downloading and scanning on the line below
             history_resolution = HISTORY_RESOLUTION_5MINUTE  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:         # using this resolution seems not ok, must be improved
@@ -271,7 +272,8 @@ def my_thread(name):
                 if history_resolution == HISTORY_RESOLUTION_MINUTE:
                     datetime_result_min = datetime.now() - timedelta(hours=1)
                 elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
-                    datetime_result_min = datetime.now() - timedelta(minutes=15)
+                    #datetime_result_min = datetime.now() - timedelta(minutes=15)
+                    datetime_result_min = datetime.now() - timedelta(minutes=5)
                 elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
                     datetime_result_min = datetime.now() - timedelta(hours=1)
                 elif history_resolution == HISTORY_RESOLUTION_HOUR:
@@ -310,7 +312,8 @@ def my_thread(name):
                 if scan:
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
-                        if openp < ks and close < ks and close < openp and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou:
+                        # Define your own criterias for filtering assets on the line below
+                        if openp < ks and close < ks and close < openp and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou and close < ks: #and evol_co < -0.5:
                             cs_results = ""
                             if cs < ssbchikou:
                                 cs_results += "* CS < SSBCHIKOU - "
