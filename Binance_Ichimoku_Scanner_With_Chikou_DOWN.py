@@ -112,7 +112,7 @@ def my_thread(name):
             #     continue
 
             # Define the resolution for data downloading and scanning on the line below
-            history_resolution = HISTORY_RESOLUTION_5MINUTE  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_15MINUTE  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:         # using this resolution seems not ok, must be improved
                 delta_time = 60 * 5
@@ -146,6 +146,8 @@ def my_thread(name):
             days_ago_for_klinest = "13 day ago UTC" # for daily download by default
             if interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
                 days_ago_for_klinest = "400 minute ago UTC"
+            elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
+                days_ago_for_klinest = "1200 minute ago UTC"
 
             try:                
                 #klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "09 May 2022")
@@ -275,7 +277,8 @@ def my_thread(name):
                     #datetime_result_min = datetime.now() - timedelta(minutes=15)
                     datetime_result_min = datetime.now() - timedelta(minutes=5)
                 elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
-                    datetime_result_min = datetime.now() - timedelta(hours=1)
+                    #datetime_result_min = datetime.now() - timedelta(hours=1)
+                    datetime_result_min = datetime.now() - timedelta(minutes=15)
                 elif history_resolution == HISTORY_RESOLUTION_HOUR:
                     datetime_result_min = datetime.now() - timedelta(hours=1)
                 elif history_resolution == HISTORY_RESOLUTION_4HOUR:
@@ -306,6 +309,8 @@ def my_thread(name):
                 elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
                     # print("comparing : " + str(data_hour) + " " + str(data_minute) + " to " + str(datetime_result_min_hour) + " " + str(datetime_result_min_minute))
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute                    
+                elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute                    
                 else:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
 
@@ -313,7 +318,7 @@ def my_thread(name):
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # Define your own criterias for filtering assets on the line below
-                        if openp < ks and close < ks and close < openp and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou and close < ks: #and evol_co < -0.5:
+                        if openp < ks and close < ks and close < openp and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou: #and close < ts and close < ks: #and evol_co < -0.5:
                             cs_results = ""
                             if cs < ssbchikou:
                                 cs_results += "* CS < SSBCHIKOU - "
