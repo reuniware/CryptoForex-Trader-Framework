@@ -119,7 +119,8 @@ def my_thread(name):
             elif history_resolution == HISTORY_RESOLUTION_5MINUTE:      # using this resolution seems not ok, must be improved
                 delta_time = 60 * 5 * 100
             elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
-                delta_time = 60 * 60 * 15 * 3
+                #delta_time = 60 * 60 * 15 * 3
+                delta_time = 60 * 60 * 15
             elif history_resolution == HISTORY_RESOLUTION_HOUR:
                 #delta_time = 60 * 60 * 3 * 15 * 2
                 delta_time = 60 * 60
@@ -321,7 +322,7 @@ def my_thread(name):
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # Define your own criterias for filtering assets on the line below
-                        if openp < ks:# and close < ks and close < openp: # and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou and close < ts and close < ks: #and evol_co < -0.1:
+                        if openp < ks and close < ks and close < openp and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou and close < ts and close < ks: #and evol_co < -0.1:
                             cs_results = ""
                             if cs < ssbchikou:
                                 cs_results += "* CS < SSBCHIKOU - "
@@ -340,7 +341,7 @@ def my_thread(name):
 
                             # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol_co)
                             # print("")
-                            str_result = str(timestamp) + " " + symbol + " https://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol + " " + symbol_type + " SSA=" + str(ssa) + " SSB=" + str(
+                            str_result = str(timestamp) + " " + symbol + " " + symbol_type + " SSA=" + str(ssa) + " SSB=" + str(
                                 ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " O=" + str(openp) + " H=" + str(high) + " L=" + str(
                                 low)  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol_co)     # We don't concatenate the variable parts (for comparisons in list_results)
 
@@ -352,6 +353,10 @@ def my_thread(name):
                                 # print(cs_results)
                                 str_result = cs_results + "\n" + str(results_count) + " " + str_result + " C=" + str(close) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(
                                     evol_co)  # We add the data with variable parts
+                                
+                                str_result += "\nhttps://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol
+                                str_result += "\nhttps://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol + "PERP"
+
                                 print(str_result + "\n")
                                 log_to_results(str_result + "\n")
 
