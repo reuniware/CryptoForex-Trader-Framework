@@ -111,7 +111,7 @@ def my_thread(name):
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
-            history_resolution = HISTORY_RESOLUTION_4HOUR  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_5MINUTE  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:         # using this resolution seems not ok, must be improved
                 delta_time = 60 * 5
@@ -142,9 +142,13 @@ def my_thread(name):
                 print("What should I set for Client KLINE_INTERVAL ?")
                 exit()
 
+            days_ago_for_klinest = "13 day ago UTC" # for daily download by default
+            if interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
+                days_ago_for_klinest = "400 minute ago UTC"
+
             try:                
                 #klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "09 May 2022")
-                klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "15 day ago UTC")
+                klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, days_ago_for_klinest)
                 dframe = pd.DataFrame(klinesT, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av', 'trades', 'tb_base_av', 'tb_quote_av', 'ignore'])
 
                 del dframe['ignore']
