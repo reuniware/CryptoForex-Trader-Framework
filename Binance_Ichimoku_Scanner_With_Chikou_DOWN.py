@@ -112,7 +112,7 @@ def my_thread(name):
             #     continue
 
             # Define the resolution for data downloading and scanning on the line below
-            history_resolution = HISTORY_RESOLUTION_5MINUTE  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_HOUR  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:         # using this resolution seems not ok, must be improved
                 delta_time = 60 * 5
@@ -121,7 +121,8 @@ def my_thread(name):
             elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
                 delta_time = 60 * 60 * 15 * 3
             elif history_resolution == HISTORY_RESOLUTION_HOUR:
-                delta_time = 60 * 60 * 3 * 15 * 2
+                #delta_time = 60 * 60 * 3 * 15 * 2
+                delta_time = 60 * 60
             elif history_resolution == HISTORY_RESOLUTION_4HOUR:
                 delta_time = 60 * 60 * 3 * 15 * 2 * 4
             elif history_resolution == HISTORY_RESOLUTION_DAY:
@@ -311,6 +312,8 @@ def my_thread(name):
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute                    
                 elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute                    
+                elif history_resolution == HISTORY_RESOLUTION_HOUR:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour #and data_minute >= datetime_result_min_minute                    
                 else:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
 
@@ -318,7 +321,7 @@ def my_thread(name):
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # Define your own criterias for filtering assets on the line below
-                        if openp < ks and close < ks and close < openp and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou and close < ts and close < ks: #and evol_co < -0.5:
+                        if openp < ks:# and close < ks and close < openp: # and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou and close < ts and close < ks: #and evol_co < -0.1:
                             cs_results = ""
                             if cs < ssbchikou:
                                 cs_results += "* CS < SSBCHIKOU - "
@@ -370,7 +373,7 @@ def my_thread(name):
         log_to_evol(str(datetime.now()) + " " + str(new_dict))
 
         # Remove the line below to scan in loop
-        stop_thread = True
+        #stop_thread = True
 
 
 x = threading.Thread(target=my_thread, args=(1,))
