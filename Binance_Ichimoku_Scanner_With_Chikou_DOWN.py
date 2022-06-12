@@ -147,10 +147,10 @@ def my_thread(name):
                 exit()
 
             days_ago_for_klinest = "13 day ago UTC" # for daily download by default
-            if interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
-                days_ago_for_klinest = "400 minute ago UTC"
-            elif interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
+            if interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
                 days_ago_for_klinest = "120 minute ago UTC"
+            elif interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
+                days_ago_for_klinest = "400 minute ago UTC"
             elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
                 days_ago_for_klinest = "1200 minute ago UTC"
 
@@ -277,7 +277,7 @@ def my_thread(name):
                 data_year = timestamp.year
 
                 if history_resolution == HISTORY_RESOLUTION_MINUTE:
-                    datetime_result_min = datetime.now() - timedelta(hours=1)
+                    datetime_result_min = datetime.now() - timedelta(minutes=1)
                 elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
                     #datetime_result_min = datetime.now() - timedelta(minutes=15)
                     datetime_result_min = datetime.now() - timedelta(minutes=5)
@@ -311,6 +311,8 @@ def my_thread(name):
 
                 if history_resolution == HISTORY_RESOLUTION_DAY:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year  # for daily scan, we must not test the hours
+                elif history_resolution == HISTORY_RESOLUTION_MINUTE:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute                    
                 elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
                     # print("comparing : " + str(data_hour) + " " + str(data_minute) + " to " + str(datetime_result_min_hour) + " " + str(datetime_result_min_minute))
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute                    
