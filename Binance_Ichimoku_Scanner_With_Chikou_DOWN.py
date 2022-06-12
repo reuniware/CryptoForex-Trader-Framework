@@ -112,10 +112,11 @@ def my_thread(name):
             #     continue
 
             # Define the resolution for data downloading and scanning on the line below
-            history_resolution = HISTORY_RESOLUTION_HOUR  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_MINUTE  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:         # using this resolution seems not ok, must be improved
-                delta_time = 60 * 5
+                #delta_time = 60 * 5
+                delta_time = 60
             elif history_resolution == HISTORY_RESOLUTION_5MINUTE:      # using this resolution seems not ok, must be improved
                 delta_time = 60 * 5 * 100
             elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
@@ -148,6 +149,8 @@ def my_thread(name):
             days_ago_for_klinest = "13 day ago UTC" # for daily download by default
             if interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
                 days_ago_for_klinest = "400 minute ago UTC"
+            elif interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
+                days_ago_for_klinest = "120 minute ago UTC"
             elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
                 days_ago_for_klinest = "1200 minute ago UTC"
 
@@ -322,7 +325,7 @@ def my_thread(name):
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # Define your own criterias for filtering assets on the line below
-                        if openp < ks and close < ks and close < openp and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou and close < ts and close < ks: #and evol_co < -0.1:
+                        if openp < ks and close < ks and close < ts and close < openp and close < ssa and close < ssb and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou: #and evol_co < -0.1:
                             cs_results = ""
                             if cs < ssbchikou:
                                 cs_results += "* CS < SSBCHIKOU - "
