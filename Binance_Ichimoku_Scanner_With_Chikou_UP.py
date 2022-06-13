@@ -111,16 +111,21 @@ def my_thread(name):
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
-            history_resolution = HISTORY_RESOLUTION_4HOUR  # define the resolution used for the scan here
+            # Define the resolution for data downloading and scanning on the line below
+            history_resolution = HISTORY_RESOLUTION_5MINUTE  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:         # using this resolution seems not ok, must be improved
-                delta_time = 60 * 5
+                #delta_time = 60 * 5
+                delta_time = 60
             elif history_resolution == HISTORY_RESOLUTION_5MINUTE:      # using this resolution seems not ok, must be improved
-                delta_time = 60 * 5 * 100
+                #delta_time = 60 * 5 * 25
+                delta_time = 60 * 5
             elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
-                delta_time = 60 * 60 * 15 * 3
+                #delta_time = 60 * 60 * 15 * 3
+                delta_time = 60 * 60 * 15
             elif history_resolution == HISTORY_RESOLUTION_HOUR:
-                delta_time = 60 * 60 * 3 * 15 * 2
+                #delta_time = 60 * 60 * 3 * 15 * 2
+                delta_time = 60 * 60
             elif history_resolution == HISTORY_RESOLUTION_4HOUR:
                 delta_time = 60 * 60 * 3 * 15 * 2 * 4
             elif history_resolution == HISTORY_RESOLUTION_DAY:
@@ -142,9 +147,17 @@ def my_thread(name):
                 print("What should I set for Client KLINE_INTERVAL ?")
                 exit()
 
+            days_ago_for_klinest = "13 day ago UTC" # for daily download by default
+            if interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
+                days_ago_for_klinest = "120 minute ago UTC"
+            elif interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
+                days_ago_for_klinest = "400 minute ago UTC"
+            elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
+                days_ago_for_klinest = "1200 minute ago UTC"
+
             try:                
                 #klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "09 May 2022")
-                klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "15 day ago UTC")
+                klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, days_ago_for_klinest)
                 dframe = pd.DataFrame(klinesT, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av', 'trades', 'tb_base_av', 'tb_quote_av', 'ignore'])
 
                 del dframe['ignore']
@@ -265,11 +278,13 @@ def my_thread(name):
                 data_year = timestamp.year
 
                 if history_resolution == HISTORY_RESOLUTION_MINUTE:
-                    datetime_result_min = datetime.now() - timedelta(hours=1)
+                    datetime_result_min = datetime.now() - timedelta(minutes=1)
                 elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
-                    datetime_result_min = datetime.now() - timedelta(minutes=15)
+                    #datetime_result_min = datetime.now() - timedelta(minutes=15)
+                    datetime_result_min = datetime.now() - timedelta(minutes=5)
                 elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
-                    datetime_result_min = datetime.now() - timedelta(hours=1)
+                    #datetime_result_min = datetime.now() - timedelta(hours=1)
+                    datetime_result_min = datetime.now() - timedelta(minutes=15)
                 elif history_resolution == HISTORY_RESOLUTION_HOUR:
                     datetime_result_min = datetime.now() - timedelta(hours=1)
                 elif history_resolution == HISTORY_RESOLUTION_4HOUR:
@@ -297,16 +312,23 @@ def my_thread(name):
 
                 if history_resolution == HISTORY_RESOLUTION_DAY:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year  # for daily scan, we must not test the hours
+                elif history_resolution == HISTORY_RESOLUTION_MINUTE:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute                    
                 elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
                     # print("comparing : " + str(data_hour) + " " + str(data_minute) + " to " + str(datetime_result_min_hour) + " " + str(datetime_result_min_minute))
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute                    
+                elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute                    
+                elif history_resolution == HISTORY_RESOLUTION_HOUR:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour #and data_minute >= datetime_result_min_minute                    
                 else:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
 
                 if scan:
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
-                        if openp > ks and close > ks and close > openp and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou:
+                        # Define your own criterias for filtering assets on the line below
+                        if openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > lowchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou: #and evol_co < -0.1:
                             cs_results = ""
                             if cs > ssbchikou:
                                 cs_results += "* CS > SSBCHIKOU - "
@@ -318,14 +340,14 @@ def my_thread(name):
                                 cs_results += "* CS > TSCHIKOU - "
                             if cs > closechikou:
                                 cs_results += "* CS > CLOSECHIKOU - "
-                            if cs > highchikou:
-                                cs_results += "* CS > HIGHCHIKOU - "
+                            if cs > lowchikou:
+                                cs_results += "* CS > LOWCHIKOU - "
                             # if cs_results != "":
                             #     log_to_results(cs_results)
 
                             # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol_co)
                             # print("")
-                            str_result = str(timestamp) + " " + symbol + " https://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol + " " + symbol_type + " SSA=" + str(ssa) + " SSB=" + str(
+                            str_result = str(timestamp) + " " + symbol + " " + symbol_type + " SSA=" + str(ssa) + " SSB=" + str(
                                 ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " O=" + str(openp) + " H=" + str(high) + " L=" + str(
                                 low)  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol_co)     # We don't concatenate the variable parts (for comparisons in list_results)
 
@@ -337,6 +359,10 @@ def my_thread(name):
                                 # print(cs_results)
                                 str_result = cs_results + "\n" + str(results_count) + " " + str_result + " C=" + str(close) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(
                                     evol_co)  # We add the data with variable parts
+                                
+                                str_result += "\nhttps://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol
+                                str_result += "\nhttps://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol + "PERP"
+
                                 print(str_result + "\n")
                                 log_to_results(str_result + "\n")
 
@@ -357,7 +383,8 @@ def my_thread(name):
         print(str(datetime.now()) + " " + str(new_dict))
         log_to_evol(str(datetime.now()) + " " + str(new_dict))
 
-        stop_thread = True
+        # Remove the line below to scan in loop
+        #stop_thread = True
 
 
 x = threading.Thread(target=my_thread, args=(1,))
