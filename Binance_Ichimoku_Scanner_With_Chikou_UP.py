@@ -50,6 +50,7 @@ for fg in glob.glob("CS_*.txt"):
     os.remove(fg)
 
 HISTORY_RESOLUTION_MINUTE = 60
+HISTORY_RESOLUTION_3MINUTE = 60 * 3
 HISTORY_RESOLUTION_5MINUTE = 60 * 5
 HISTORY_RESOLUTION_15MINUTE = 60 * 15
 HISTORY_RESOLUTION_HOUR = 60 * 60
@@ -112,11 +113,13 @@ def my_thread(name):
             #     continue
 
             # Define the resolution for data downloading and scanning on the line below
-            history_resolution = HISTORY_RESOLUTION_5MINUTE  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_3MINUTE  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:         # using this resolution seems not ok, must be improved
                 #delta_time = 60 * 5
                 delta_time = 60
+            elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
+                delta_time = 60 * 3  
             elif history_resolution == HISTORY_RESOLUTION_5MINUTE:      # using this resolution seems not ok, must be improved
                 #delta_time = 60 * 5 * 25
                 delta_time = 60 * 5
@@ -133,6 +136,8 @@ def my_thread(name):
 
             if history_resolution == HISTORY_RESOLUTION_MINUTE:
                 interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE 
+            elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
+                interval_for_klinesT = Client.KLINE_INTERVAL_3MINUTE
             elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
                 interval_for_klinesT = Client.KLINE_INTERVAL_5MINUTE
             elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
@@ -150,6 +155,8 @@ def my_thread(name):
             days_ago_for_klinest = "13 day ago UTC" # for daily download by default
             if interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
                 days_ago_for_klinest = "120 minute ago UTC"
+            elif interval_for_klinesT == Client.KLINE_INTERVAL_3MINUTE:
+                days_ago_for_klinest = "360 minute ago UTC"
             elif interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
                 days_ago_for_klinest = "400 minute ago UTC"
             elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
@@ -279,6 +286,9 @@ def my_thread(name):
 
                 if history_resolution == HISTORY_RESOLUTION_MINUTE:
                     datetime_result_min = datetime.now() - timedelta(minutes=1)
+                elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
+                    #datetime_result_min = datetime.now() - timedelta(minutes=15)
+                    datetime_result_min = datetime.now() - timedelta(minutes=3)
                 elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
                     #datetime_result_min = datetime.now() - timedelta(minutes=15)
                     datetime_result_min = datetime.now() - timedelta(minutes=5)
@@ -313,6 +323,8 @@ def my_thread(name):
                 if history_resolution == HISTORY_RESOLUTION_DAY:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year  # for daily scan, we must not test the hours
                 elif history_resolution == HISTORY_RESOLUTION_MINUTE:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute                    
+                elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute                    
                 elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
                     # print("comparing : " + str(data_hour) + " " + str(data_minute) + " to " + str(datetime_result_min_hour) + " " + str(datetime_result_min_minute))
