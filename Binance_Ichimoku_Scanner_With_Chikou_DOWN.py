@@ -113,7 +113,7 @@ def my_thread(name):
             #     continue
 
             # Define the resolution for data downloading and scanning on the line below
-            history_resolution = HISTORY_RESOLUTION_3MINUTE  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_HOUR  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:         # using this resolution seems not ok, must be improved
                 #delta_time = 60 * 5
@@ -152,13 +152,13 @@ def my_thread(name):
                 print("What should I set for Client KLINE_INTERVAL ?")
                 exit()
 
-            days_ago_for_klinest = "13 day ago UTC" # for daily download by default
+            days_ago_for_klinest = "80 day ago UTC" # for daily download by default
             if interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
                 days_ago_for_klinest = "120 minute ago UTC"
             elif interval_for_klinesT == Client.KLINE_INTERVAL_3MINUTE:
                 days_ago_for_klinest = "360 minute ago UTC"
             elif interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
-                days_ago_for_klinest = "400 minute ago UTC"
+                days_ago_for_klinest = "800 minute ago UTC"
             elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
                 days_ago_for_klinest = "1200 minute ago UTC"
 
@@ -224,9 +224,15 @@ def my_thread(name):
                 try:
                     cs = dframe['ICH_CS'].iloc[-26 - 1]  # chikou span concernant bougie n en cours
                     cs2 = dframe['ICH_CS'].iloc[-26 - 2]  # chikou span concernant bougie n-1
-                    ssbchikou = dframe['ICH_SSB'].iloc[-26 - 1 + 2]
-                    ssbchikou2 = dframe['ICH_SSB'].iloc[-26 - 2 + 2]
-                    ssbchikou3 = dframe['ICH_SSB'].iloc[-26 - 3 + 2]
+                    #ssbchikou = dframe['ICH_SSB'].iloc[-26 - 1 + 2]
+                    #ssbchikou2 = dframe['ICH_SSB'].iloc[-26 - 2 + 2]
+                    #ssbchikou3 = dframe['ICH_SSB'].iloc[-26 - 3 + 2]
+                    ssbchikou = dframe['ICH_SSB'].iloc[-26]
+                    ssbchikou2 = dframe['ICH_SSB'].iloc[-26 - 1]
+                    ssbchikou3 = dframe['ICH_SSB'].iloc[-26 - 2]
+                    ssachikou = dframe['ICH_SSA'].iloc[-26]
+                    ssachikou2 = dframe['ICH_SSA'].iloc[-26 - 1]
+                    ssachikou3 = dframe['ICH_SSA'].iloc[-26 - 2]
                     closechikou = dframe['close'].iloc[-26]
                     closechikou2 = dframe['close'].iloc[-26 - 1]
                     openchikou = dframe['open'].iloc[-26]
@@ -241,9 +247,6 @@ def my_thread(name):
                     tenkanchikou = dframe['ICH_TS'].iloc[-26 - 1 + 1]
                     tenkanchikou2 = dframe['ICH_TS'].iloc[-26 - 2 + 1]
                     tenkanchikou3 = dframe['ICH_TS'].iloc[-26 - 3 + 1]
-                    ssachikou = dframe['ICH_SSA'].iloc[-26 - 1 + 2]
-                    ssachikou2 = dframe['ICH_SSA'].iloc[-26 - 2 + 2]
-                    ssachikou3 = dframe['ICH_SSA'].iloc[-26 - 3 + 2]
 
                 except IndexError as error:
                     print(symbol + " EXCEPTION " + str(error))
@@ -336,6 +339,10 @@ def my_thread(name):
                 else:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
 
+                #if symbol == "ETHUSDT":
+                #    print ("ETHUSDT SSACHIKOU = " + str(ssachikou)) 
+                #    print ("ETHUSDT SSBCHIKOU = " + str(ssbchikou)) 
+
                 if scan:
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
@@ -384,8 +391,7 @@ def my_thread(name):
                     # if result_ok:
                     print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs)
                     str_result = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(
-                        ssa) + " SSB=" + str(
-                        ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " EVOL%(C/O)=" + str(evol_co)
+                        ssa) + " SSB=" + str(ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " EVOL%(C/O)=" + str(evol_co)
                     log_to_results(str_result)
 
         if new_results_found:
