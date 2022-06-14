@@ -161,6 +161,8 @@ def my_thread(name):
                 days_ago_for_klinest = "800 minute ago UTC"
             elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
                 days_ago_for_klinest = "1200 minute ago UTC"
+            elif interval_for_klinesT == Client.KLINE_INTERVAL_1HOUR:
+                days_ago_for_klinest = "80 hour ago UTC"
 
             try:                
                 #klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "09 May 2022")
