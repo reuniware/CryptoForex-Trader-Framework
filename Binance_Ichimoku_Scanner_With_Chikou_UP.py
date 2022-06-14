@@ -113,7 +113,7 @@ def my_thread(name):
             #     continue
 
             # Define the resolution for data downloading and scanning on the line below
-            history_resolution = HISTORY_RESOLUTION_MINUTE  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_HOUR  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:         # using this resolution seems not ok, must be improved
                 #delta_time = 60 * 5
@@ -349,7 +349,7 @@ def my_thread(name):
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # Define your own criterias for filtering assets on the line below
-                        if openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > lowchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou: #and evol_co < -0.1:
+                        if openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou: #and evol_co < -0.1:
                             cs_results = ""
                             if cs > ssbchikou:
                                 cs_results += "* CS > SSBCHIKOU - "
@@ -361,8 +361,8 @@ def my_thread(name):
                                 cs_results += "* CS > TSCHIKOU - "
                             if cs > closechikou:
                                 cs_results += "* CS > CLOSECHIKOU - "
-                            if cs > lowchikou:
-                                cs_results += "* CS > LOWCHIKOU - "
+                            if cs > highchikou:
+                                cs_results += "* CS > HIGHCHIKOU - "
                             # if cs_results != "":
                             #     log_to_results(cs_results)
 
