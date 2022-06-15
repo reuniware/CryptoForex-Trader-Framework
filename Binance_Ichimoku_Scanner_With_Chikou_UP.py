@@ -456,8 +456,10 @@ def my_thread(name):
                                     evol_co
                                 )  # We add the data with variable parts
 
-                                str_result += "\nhttps://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol
-                                str_result += "\nhttps://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol + "PERP"
+                                if scan_futures:
+                                  str_result += "\nhttps://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol + "PERP"
+                                else:
+                                  str_result += "\nhttps://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol
 
                                 print(str_result + "\n")
                                 log_to_results(str_result + "\n")
