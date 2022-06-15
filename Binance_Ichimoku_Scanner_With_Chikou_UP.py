@@ -116,26 +116,6 @@ def my_thread(name):
 
             # Define the resolution for data downloading and scanning on the line below
             history_resolution = HISTORY_RESOLUTION_MINUTE  # define the resolution used for the scan here
-            # delta_time = 0
-            # if history_resolution == HISTORY_RESOLUTION_MINUTE:  # using this resolution seems not ok, must be improved
-            #     #delta_time = 60 * 5
-            #     delta_time = 60
-            # elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
-            #     delta_time = 60 * 3
-            # elif history_resolution == HISTORY_RESOLUTION_5MINUTE:  # using this resolution seems not ok, must be improved
-            #     #delta_time = 60 * 5 * 25
-            #     delta_time = 60 * 5
-            # elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
-            #     #delta_time = 60 * 60 * 15 * 3
-            #     delta_time = 60 * 60 * 15
-            # elif history_resolution == HISTORY_RESOLUTION_HOUR:
-            #     #delta_time = 60 * 60 * 3 * 15 * 2
-            #     delta_time = 60 * 60
-            # elif history_resolution == HISTORY_RESOLUTION_4HOUR:
-            #     #delta_time = 60 * 60 * 3 * 15 * 2 * 4
-            #     delta_time = 60 * 60 * 4
-            # elif history_resolution == HISTORY_RESOLUTION_DAY:
-            #     delta_time = 60 * 60 * 2000
 
             if history_resolution == HISTORY_RESOLUTION_MINUTE:
                 interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE
