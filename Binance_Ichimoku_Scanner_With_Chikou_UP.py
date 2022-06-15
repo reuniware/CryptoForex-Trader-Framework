@@ -115,27 +115,27 @@ def my_thread(name):
             #     continue
 
             # Define the resolution for data downloading and scanning on the line below
-            history_resolution = HISTORY_RESOLUTION_HOUR  # define the resolution used for the scan here
-            delta_time = 0
-            if history_resolution == HISTORY_RESOLUTION_MINUTE:  # using this resolution seems not ok, must be improved
-                #delta_time = 60 * 5
-                delta_time = 60
-            elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
-                delta_time = 60 * 3
-            elif history_resolution == HISTORY_RESOLUTION_5MINUTE:  # using this resolution seems not ok, must be improved
-                #delta_time = 60 * 5 * 25
-                delta_time = 60 * 5
-            elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
-                #delta_time = 60 * 60 * 15 * 3
-                delta_time = 60 * 60 * 15
-            elif history_resolution == HISTORY_RESOLUTION_HOUR:
-                #delta_time = 60 * 60 * 3 * 15 * 2
-                delta_time = 60 * 60
-            elif history_resolution == HISTORY_RESOLUTION_4HOUR:
-                #delta_time = 60 * 60 * 3 * 15 * 2 * 4
-                delta_time = 60 * 60 * 4
-            elif history_resolution == HISTORY_RESOLUTION_DAY:
-                delta_time = 60 * 60 * 2000
+            history_resolution = HISTORY_RESOLUTION_MINUTE  # define the resolution used for the scan here
+            # delta_time = 0
+            # if history_resolution == HISTORY_RESOLUTION_MINUTE:  # using this resolution seems not ok, must be improved
+            #     #delta_time = 60 * 5
+            #     delta_time = 60
+            # elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
+            #     delta_time = 60 * 3
+            # elif history_resolution == HISTORY_RESOLUTION_5MINUTE:  # using this resolution seems not ok, must be improved
+            #     #delta_time = 60 * 5 * 25
+            #     delta_time = 60 * 5
+            # elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
+            #     #delta_time = 60 * 60 * 15 * 3
+            #     delta_time = 60 * 60 * 15
+            # elif history_resolution == HISTORY_RESOLUTION_HOUR:
+            #     #delta_time = 60 * 60 * 3 * 15 * 2
+            #     delta_time = 60 * 60
+            # elif history_resolution == HISTORY_RESOLUTION_4HOUR:
+            #     #delta_time = 60 * 60 * 3 * 15 * 2 * 4
+            #     delta_time = 60 * 60 * 4
+            # elif history_resolution == HISTORY_RESOLUTION_DAY:
+            #     delta_time = 60 * 60 * 2000
 
             if history_resolution == HISTORY_RESOLUTION_MINUTE:
                 interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE
@@ -407,22 +407,43 @@ def my_thread(name):
                       
                       if condition_is_satisfied:
                             cs_results = ""
-                            if cs > ssbchikou:
-                                cs_results += "* CS > SSBCHIKOU - "
-                            if cs > ssachikou:
-                                cs_results += "* CS > SSACHIKOU - "
-                            if cs > kijunchikou:
-                                cs_results += "* CS > KSCHIKOU - "
-                            if cs > tenkanchikou:
-                                cs_results += "* CS > TSCHIKOU - "
-                            if cs > closechikou:
-                                cs_results += "* CS > CLOSECHIKOU - "
-                            if cs > highchikou:
-                                cs_results += "* CS > HIGHCHIKOU - "
-                            # if cs_results != "":
-                            #     log_to_results(cs_results)
 
-                            # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol_co)
+                            if scan_type == ScanType.UP:
+                              if cs > ssbchikou:
+                                  cs_results += "* CS > SSBCHIKOU - "
+                              if cs > ssachikou:
+                                  cs_results += "* CS > SSACHIKOU - "
+                              if cs > kijunchikou:
+                                  cs_results += "* CS > KSCHIKOU - "
+                              if cs > tenkanchikou:
+                                  cs_results += "* CS > TSCHIKOU - "
+                              if cs > closechikou:
+                                  cs_results += "* CS > CLOSECHIKOU - "
+                              if cs > highchikou:
+                                  cs_results += "* CS > HIGHCHIKOU - "
+                              # if cs_results != "":
+                              #     log_to_results(cs_results)
+  
+                              # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol_co)
+                            elif scan_type == ScanType.DOWN:
+                              if cs < ssbchikou:
+                                  cs_results += "* CS < SSBCHIKOU - "
+                              if cs < ssachikou:
+                                  cs_results += "* CS < SSACHIKOU - "
+                              if cs < kijunchikou:
+                                  cs_results += "* CS < KSCHIKOU - "
+                              if cs < tenkanchikou:
+                                  cs_results += "* CS < TSCHIKOU - "
+                              if cs < closechikou:
+                                  cs_results += "* CS < CLOSECHIKOU - "
+                              if cs < highchikou:
+                                  cs_results += "* CS < LOWCHIKOU - "
+                              # if cs_results != "":
+                              #     log_to_results(cs_results)
+  
+                              # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol_co)
+                                
+                                
                             # print("")
                             str_result = str(
                                 timestamp
@@ -506,3 +527,26 @@ x.start()
 #     except binance.exceptions.BinanceAPIException:
 #       # in case the symbol does not exist in futures then this exception is thrown
 #       continue
+
+
+            #history_resolution = HISTORY_RESOLUTION_MINUTE  # define the resolution used for the scan here
+            # delta_time = 0
+            # if history_resolution == HISTORY_RESOLUTION_MINUTE:  # using this resolution seems not ok, must be improved
+            #     #delta_time = 60 * 5
+            #     delta_time = 60
+            # elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
+            #     delta_time = 60 * 3
+            # elif history_resolution == HISTORY_RESOLUTION_5MINUTE:  # using this resolution seems not ok, must be improved
+            #     #delta_time = 60 * 5 * 25
+            #     delta_time = 60 * 5
+            # elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
+            #     #delta_time = 60 * 60 * 15 * 3
+            #     delta_time = 60 * 60 * 15
+            # elif history_resolution == HISTORY_RESOLUTION_HOUR:
+            #     #delta_time = 60 * 60 * 3 * 15 * 2
+            #     delta_time = 60 * 60
+            # elif history_resolution == HISTORY_RESOLUTION_4HOUR:
+            #     #delta_time = 60 * 60 * 3 * 15 * 2 * 4
+            #     delta_time = 60 * 60 * 4
+            # elif history_resolution == HISTORY_RESOLUTION_DAY:
+            #     delta_time = 60 * 60 * 2000
