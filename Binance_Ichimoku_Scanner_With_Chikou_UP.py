@@ -2,6 +2,8 @@ import glob, os
 from datetime import datetime
 from datetime import timedelta
 from binance.client import Client
+from binance.enums import HistoricalKlinesType
+import binance
 
 import pandas as pd
 import requests
@@ -10,6 +12,8 @@ import time
 import ta
 import math
 
+# Set this variable to False to scan in spot mode
+scan_futures = True
 
 def log_to_results(str_to_log):
     fr = open("results.txt", "a")
@@ -87,8 +91,10 @@ def my_thread(name):
             symbol = row['symbol']
             symbol_type = "n/a"  #row['type']
 
+            #print(symbol)
+
             # filtering symbols to scan here
-            if not (symbol.endswith('USDT')):
+            if not symbol.endswith('USDT') or symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT"):
                 continue
 
             #if not (symbol.endswith("-PERP")):
@@ -111,13 +117,16 @@ def my_thread(name):
             if go_to_next_symbol:
                 continue
 
-            print("scanning", symbol, symbol_type)
+            if scan_futures:
+              print(symbol, "trying to scan in futures")
+            else:
+              print(symbol, "trying to scan")
 
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
             # Define the resolution for data downloading and scanning on the line below
-            history_resolution = HISTORY_RESOLUTION_4HOUR  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_HOUR  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:  # using this resolution seems not ok, must be improved
                 #delta_time = 60 * 5
@@ -173,8 +182,13 @@ def my_thread(name):
 
             try:
                 #klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "09 May 2022")
-                klinesT = Client().get_historical_klines(
-                    symbol, interval_for_klinesT, days_ago_for_klinest)
+                if scan_futures:
+                  klinesT = Client().get_historical_klines(
+                      symbol, interval_for_klinesT, days_ago_for_klinest, klines_type=HistoricalKlinesType.FUTURES)
+                else:
+                  klinesT = Client().get_historical_klines(
+                      symbol, interval_for_klinesT, days_ago_for_klinest)
+                  
                 dframe = pd.DataFrame(klinesT,
                                       columns=[
                                           'timestamp', 'open', 'high', 'low',
@@ -214,6 +228,9 @@ def my_thread(name):
                     "Erreur (ConnectionError) tentative obtention données historiques pour "
                     + symbol)
                 continue
+            except binance.exceptions.BinanceAPIException:
+              # in case the symbol does not exist in futures then this exception is thrown
+              continue
 
             # a = time.time()
             # my_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(a))
