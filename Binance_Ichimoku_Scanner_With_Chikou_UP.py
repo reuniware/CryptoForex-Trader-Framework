@@ -62,10 +62,11 @@ HISTORY_RESOLUTION_HOUR = 60 * 60
 HISTORY_RESOLUTION_4HOUR = 60 * 60 * 4
 HISTORY_RESOLUTION_DAY = 60 * 60 * 24
 
-list_results = []
 results_count = 0
 
 stop_thread = False
+
+list_results = []
 
 
 def my_thread(name):
@@ -95,26 +96,6 @@ def my_thread(name):
 
             # filtering symbols to scan here
             if not symbol.endswith('USDT') or symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT"):
-                continue
-
-            #if not (symbol.endswith("-PERP")):
-            #continue
-
-            symbols_to_exclude = [
-                "BEAR/USD", "BULL/USD", "HEDGE/USD", "HALF/USD", "BEAR/USDT",
-                "BULL/USDT", "HEDGE/USDT", "HALF/USDT", "-PERP", "-1231",
-                "BEAR2021/USD", "SHIT/USD", "VOL/USD", "VOL/USDT"
-            ]
-
-            exclude_symbols = False
-
-            go_to_next_symbol = False
-            if exclude_symbols:
-                for ste in symbols_to_exclude:
-                    if symbol.endswith(ste):
-                        go_to_next_symbol = True
-
-            if go_to_next_symbol:
                 continue
 
             if scan_futures:
@@ -492,3 +473,23 @@ def my_thread(name):
 
 x = threading.Thread(target=my_thread, args=(1, ))
 x.start()
+
+
+
+# array_futures = []
+# if scan_futures:
+#   interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE
+#   days_ago_for_klinest = "1 minute ago UTC"
+#   info_binance = Client().get_all_tickers()
+#   df = pd.DataFrame(info_binance)
+#   df.set_index('symbol')
+#   for index, row in df.iterrows():
+#     symbol = row['symbol']
+#     try:
+#       print("trying", symbol)
+#       klinesT = Client().get_historical_klines(
+#       symbol, interval_for_klinesT, days_ago_for_klinest, klines_type=HistoricalKlinesType.FUTURES)
+#       array_futures.append(symbol)
+#     except binance.exceptions.BinanceAPIException:
+#       # in case the symbol does not exist in futures then this exception is thrown
+#       continue
