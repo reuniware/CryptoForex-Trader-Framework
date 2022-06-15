@@ -2,6 +2,8 @@ import glob, os
 from datetime import datetime
 from datetime import timedelta
 from binance.client import Client
+from binance.enums import HistoricalKlinesType
+import binance
 
 import pandas as pd
 import requests
@@ -10,6 +12,16 @@ import time
 import ta
 import math
 
+from enum import Enum
+class ScanType(Enum):
+  UP = 0
+  DOWN = 1
+
+# Set this variable to ScanType.UP for scanning uptrend assets or to ScanType.DOWN for scanning downtrend assets
+scan_type = ScanType.DOWN
+
+# Set this variable to False to scan in spot mode
+scan_futures = True
 
 def log_to_results(str_to_log):
     fr = open("results.txt", "a")
@@ -58,10 +70,11 @@ HISTORY_RESOLUTION_HOUR = 60 * 60
 HISTORY_RESOLUTION_4HOUR = 60 * 60 * 4
 HISTORY_RESOLUTION_DAY = 60 * 60 * 24
 
-list_results = []
 results_count = 0
 
 stop_thread = False
+
+list_results = []
 
 
 def my_thread(name):
@@ -87,56 +100,42 @@ def my_thread(name):
             symbol = row['symbol']
             symbol_type = "n/a"  #row['type']
 
+            #print(symbol)
+
             # filtering symbols to scan here
-            if not (symbol.endswith('USDT')):
+            if not symbol.endswith('USDT') or symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT"):
                 continue
 
-            #if not (symbol.endswith("-PERP")):
-            #continue
-
-            symbols_to_exclude = [
-                "BEAR/USD", "BULL/USD", "HEDGE/USD", "HALF/USD", "BEAR/USDT",
-                "BULL/USDT", "HEDGE/USDT", "HALF/USDT", "-PERP", "-1231",
-                "BEAR2021/USD", "SHIT/USD", "VOL/USD", "VOL/USDT"
-            ]
-
-            exclude_symbols = False
-
-            go_to_next_symbol = False
-            if exclude_symbols:
-                for ste in symbols_to_exclude:
-                    if symbol.endswith(ste):
-                        go_to_next_symbol = True
-
-            if go_to_next_symbol:
-                continue
-
-            print("scanning", symbol, symbol_type)
+            if scan_futures:
+              print(symbol, "trying to scan in futures")
+            else:
+              print(symbol, "trying to scan")
 
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
             # Define the resolution for data downloading and scanning on the line below
-            history_resolution = HISTORY_RESOLUTION_HOUR  # define the resolution used for the scan here
-            delta_time = 0
-            if history_resolution == HISTORY_RESOLUTION_MINUTE:  # using this resolution seems not ok, must be improved
-                #delta_time = 60 * 5
-                delta_time = 60
-            elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
-                delta_time = 60 * 3
-            elif history_resolution == HISTORY_RESOLUTION_5MINUTE:  # using this resolution seems not ok, must be improved
-                #delta_time = 60 * 5 * 25
-                delta_time = 60 * 5
-            elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
-                #delta_time = 60 * 60 * 15 * 3
-                delta_time = 60 * 60 * 15
-            elif history_resolution == HISTORY_RESOLUTION_HOUR:
-                #delta_time = 60 * 60 * 3 * 15 * 2
-                delta_time = 60 * 60
-            elif history_resolution == HISTORY_RESOLUTION_4HOUR:
-                delta_time = 60 * 60 * 3 * 15 * 2 * 4
-            elif history_resolution == HISTORY_RESOLUTION_DAY:
-                delta_time = 60 * 60 * 2000
+            history_resolution = HISTORY_RESOLUTION_MINUTE  # define the resolution used for the scan here
+            # delta_time = 0
+            # if history_resolution == HISTORY_RESOLUTION_MINUTE:  # using this resolution seems not ok, must be improved
+            #     #delta_time = 60 * 5
+            #     delta_time = 60
+            # elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
+            #     delta_time = 60 * 3
+            # elif history_resolution == HISTORY_RESOLUTION_5MINUTE:  # using this resolution seems not ok, must be improved
+            #     #delta_time = 60 * 5 * 25
+            #     delta_time = 60 * 5
+            # elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
+            #     #delta_time = 60 * 60 * 15 * 3
+            #     delta_time = 60 * 60 * 15
+            # elif history_resolution == HISTORY_RESOLUTION_HOUR:
+            #     #delta_time = 60 * 60 * 3 * 15 * 2
+            #     delta_time = 60 * 60
+            # elif history_resolution == HISTORY_RESOLUTION_4HOUR:
+            #     #delta_time = 60 * 60 * 3 * 15 * 2 * 4
+            #     delta_time = 60 * 60 * 4
+            # elif history_resolution == HISTORY_RESOLUTION_DAY:
+            #     delta_time = 60 * 60 * 2000
 
             if history_resolution == HISTORY_RESOLUTION_MINUTE:
                 interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE
@@ -172,8 +171,13 @@ def my_thread(name):
 
             try:
                 #klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "09 May 2022")
-                klinesT = Client().get_historical_klines(
-                    symbol, interval_for_klinesT, days_ago_for_klinest)
+                if scan_futures:
+                  klinesT = Client().get_historical_klines(
+                      symbol, interval_for_klinesT, days_ago_for_klinest, klines_type=HistoricalKlinesType.FUTURES)
+                else:
+                  klinesT = Client().get_historical_klines(
+                      symbol, interval_for_klinesT, days_ago_for_klinest)
+                  
                 dframe = pd.DataFrame(klinesT,
                                       columns=[
                                           'timestamp', 'open', 'high', 'low',
@@ -213,6 +217,9 @@ def my_thread(name):
                     "Erreur (ConnectionError) tentative obtention données historiques pour "
                     + symbol)
                 continue
+            except binance.exceptions.BinanceAPIException:
+              # in case the symbol does not exist in futures then this exception is thrown
+              continue
 
             # a = time.time()
             # my_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(a))
@@ -260,9 +267,9 @@ def my_thread(name):
                     #ssbchikou = dframe['ICH_SSB'].iloc[-26 - 1 + 2]
                     #ssbchikou2 = dframe['ICH_SSB'].iloc[-26 - 2 + 2]
                     #ssbchikou3 = dframe['ICH_SSB'].iloc[-26 - 3 + 2]
-                    ssbchikou = dframe['ICH_SSB'].iloc[-26]
-                    ssbchikou2 = dframe['ICH_SSB'].iloc[-26 - 1]
-                    ssbchikou3 = dframe['ICH_SSB'].iloc[-26 - 2]
+                    ssbchikou = dframe['ICH_SSB'].iloc[-52]
+                    ssbchikou2 = dframe['ICH_SSB'].iloc[-52 - 1]
+                    ssbchikou3 = dframe['ICH_SSB'].iloc[-52 - 2]
                     ssachikou = dframe['ICH_SSA'].iloc[-26]
                     ssachikou2 = dframe['ICH_SSA'].iloc[-26 - 1]
                     ssachikou3 = dframe['ICH_SSA'].iloc[-26 - 2]
@@ -392,25 +399,51 @@ def my_thread(name):
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # Define your own criterias for filtering assets on the line below
-                        #if openp < ks and close < ks and close < ts and close < openp and close < ssa and close < ssb and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou: #and evol_co < -0.1:
-                        if openp < ks and close > ks:
-                            cs_results = ""
-                            if cs < ssbchikou:
-                                cs_results += "* CS < SSBCHIKOU - "
-                            if cs < ssachikou:
-                                cs_results += "* CS < SSACHIKOU - "
-                            if cs < kijunchikou:
-                                cs_results += "* CS < KSCHIKOU - "
-                            if cs < tenkanchikou:
-                                cs_results += "* CS < TSCHIKOU - "
-                            if cs < closechikou:
-                                cs_results += "* CS < CLOSECHIKOU - "
-                            if cs < lowchikou:
-                                cs_results += "* CS < LOWCHIKOU - "
-                            # if cs_results != "":
-                            #     log_to_results(cs_results)
 
-                            # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol_co)
+                      if scan_type == ScanType.UP:
+                          condition_is_satisfied = openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou
+                      elif scan_type == ScanType.DOWN: 
+                          condition_is_satisfied = openp < ks and close < ks and close < ts and close < openp and close < ssa and close < ssb and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou
+                      
+                      if condition_is_satisfied:
+                            cs_results = ""
+
+                            if scan_type == ScanType.UP:
+                              if cs > ssbchikou:
+                                  cs_results += "* CS > SSBCHIKOU - "
+                              if cs > ssachikou:
+                                  cs_results += "* CS > SSACHIKOU - "
+                              if cs > kijunchikou:
+                                  cs_results += "* CS > KSCHIKOU - "
+                              if cs > tenkanchikou:
+                                  cs_results += "* CS > TSCHIKOU - "
+                              if cs > closechikou:
+                                  cs_results += "* CS > CLOSECHIKOU - "
+                              if cs > highchikou:
+                                  cs_results += "* CS > HIGHCHIKOU - "
+                              # if cs_results != "":
+                              #     log_to_results(cs_results)
+  
+                              # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol_co)
+                            elif scan_type == ScanType.DOWN:
+                              if cs < ssbchikou:
+                                  cs_results += "* CS < SSBCHIKOU - "
+                              if cs < ssachikou:
+                                  cs_results += "* CS < SSACHIKOU - "
+                              if cs < kijunchikou:
+                                  cs_results += "* CS < KSCHIKOU - "
+                              if cs < tenkanchikou:
+                                  cs_results += "* CS < TSCHIKOU - "
+                              if cs < closechikou:
+                                  cs_results += "* CS < CLOSECHIKOU - "
+                              if cs < highchikou:
+                                  cs_results += "* CS < LOWCHIKOU - "
+                              # if cs_results != "":
+                              #     log_to_results(cs_results)
+  
+                              # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol_co)
+                                
+                                
                             # print("")
                             str_result = str(
                                 timestamp
@@ -422,7 +455,7 @@ def my_thread(name):
                                 openp
                             ) + " H=" + str(high) + " L=" + str(
                                 low
-                            )  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol_co)     # We don't concatenate the variable parts (for comparisons in list_results)
+                            ) + " SSBCS=" + str(ssbchikou) # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol_co)     # We don't concatenate the variable parts (for comparisons in list_results)
 
                             if not (str_result in list_results):
                                 if not new_results_found:
@@ -438,8 +471,10 @@ def my_thread(name):
                                     evol_co
                                 )  # We add the data with variable parts
 
-                                str_result += "\nhttps://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol
-                                str_result += "\nhttps://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol + "PERP"
+                                if scan_futures:
+                                  str_result += "\nhttps://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol + "PERP"
+                                else:
+                                  str_result += "\nhttps://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol
 
                                 print(str_result + "\n")
                                 log_to_results(str_result + "\n")
@@ -450,13 +485,13 @@ def my_thread(name):
                     # if result_ok:
                     print(timestamp, symbol, "O", openp, "H", high, "L", low,
                           "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS",
-                          ts, "CS", cs)
+                          ts, "CS", cs, "SSB CS", ssbchikou)
                     str_result = str(timestamp) + " " + symbol + " O=" + str(
                         openp) + " H=" + str(high) + " L=" + str(
                             low) + " C=" + str(close) + " SSA=" + str(
                                 ssa) + " SSB=" + str(ssb) + " KS=" + str(
                                     ks) + " TS=" + str(ts) + " CS=" + str(
-                                        cs) + " EVOL%(C/O)=" + str(evol_co)
+                                        cs) + " SSB CS=" + str(ssbchikou) + " EVOL%(C/O)=" + str(evol_co)
                     log_to_results(str_result)
 
         if new_results_found:
@@ -472,3 +507,46 @@ def my_thread(name):
 
 x = threading.Thread(target=my_thread, args=(1, ))
 x.start()
+
+
+
+# array_futures = []
+# if scan_futures:
+#   interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE
+#   days_ago_for_klinest = "1 minute ago UTC"
+#   info_binance = Client().get_all_tickers()
+#   df = pd.DataFrame(info_binance)
+#   df.set_index('symbol')
+#   for index, row in df.iterrows():
+#     symbol = row['symbol']
+#     try:
+#       print("trying", symbol)
+#       klinesT = Client().get_historical_klines(
+#       symbol, interval_for_klinesT, days_ago_for_klinest, klines_type=HistoricalKlinesType.FUTURES)
+#       array_futures.append(symbol)
+#     except binance.exceptions.BinanceAPIException:
+#       # in case the symbol does not exist in futures then this exception is thrown
+#       continue
+
+
+            #history_resolution = HISTORY_RESOLUTION_MINUTE  # define the resolution used for the scan here
+            # delta_time = 0
+            # if history_resolution == HISTORY_RESOLUTION_MINUTE:  # using this resolution seems not ok, must be improved
+            #     #delta_time = 60 * 5
+            #     delta_time = 60
+            # elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
+            #     delta_time = 60 * 3
+            # elif history_resolution == HISTORY_RESOLUTION_5MINUTE:  # using this resolution seems not ok, must be improved
+            #     #delta_time = 60 * 5 * 25
+            #     delta_time = 60 * 5
+            # elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
+            #     #delta_time = 60 * 60 * 15 * 3
+            #     delta_time = 60 * 60 * 15
+            # elif history_resolution == HISTORY_RESOLUTION_HOUR:
+            #     #delta_time = 60 * 60 * 3 * 15 * 2
+            #     delta_time = 60 * 60
+            # elif history_resolution == HISTORY_RESOLUTION_4HOUR:
+            #     #delta_time = 60 * 60 * 3 * 15 * 2 * 4
+            #     delta_time = 60 * 60 * 4
+            # elif history_resolution == HISTORY_RESOLUTION_DAY:
+            #     delta_time = 60 * 60 * 2000
