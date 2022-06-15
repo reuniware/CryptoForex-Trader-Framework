@@ -34,6 +34,7 @@ def log_to_evol(str_to_log):
     fr.write(str_to_log + "\n")
     fr.close()
 
+
 if os.path.exists("results.txt"):
     os.remove("results.txt")
 
@@ -50,6 +51,7 @@ for fg in glob.glob("CS_*.txt"):
     os.remove(fg)
 
 HISTORY_RESOLUTION_MINUTE = 60
+HISTORY_RESOLUTION_3MINUTE = 60 * 3
 HISTORY_RESOLUTION_5MINUTE = 60 * 5
 HISTORY_RESOLUTION_15MINUTE = 60 * 15
 HISTORY_RESOLUTION_HOUR = 60 * 60
@@ -83,17 +85,20 @@ def my_thread(name):
         for index, row in df.iterrows():
 
             symbol = row['symbol']
-            symbol_type = "n/a" #row['type']
+            symbol_type = "n/a"  #row['type']
 
             # filtering symbols to scan here
             if not (symbol.endswith('USDT')):
                 continue
 
             #if not (symbol.endswith("-PERP")):
-                #continue
+            #continue
 
-            symbols_to_exclude = ["BEAR/USD", "BULL/USD", "HEDGE/USD", "HALF/USD", "BEAR/USDT", "BULL/USDT", "HEDGE/USDT", "HALF/USDT", "-PERP", "-1231", "BEAR2021/USD",
-                                  "SHIT/USD", "VOL/USD", "VOL/USDT"]
+            symbols_to_exclude = [
+                "BEAR/USD", "BULL/USD", "HEDGE/USD", "HALF/USD", "BEAR/USDT",
+                "BULL/USDT", "HEDGE/USDT", "HALF/USDT", "-PERP", "-1231",
+                "BEAR2021/USD", "SHIT/USD", "VOL/USD", "VOL/USDT"
+            ]
 
             exclude_symbols = False
 
@@ -111,23 +116,33 @@ def my_thread(name):
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
 
+            # Define the resolution for data downloading and scanning on the line below
             history_resolution = HISTORY_RESOLUTION_4HOUR  # define the resolution used for the scan here
             delta_time = 0
-            if history_resolution == HISTORY_RESOLUTION_MINUTE:         # using this resolution seems not ok, must be improved
+            if history_resolution == HISTORY_RESOLUTION_MINUTE:  # using this resolution seems not ok, must be improved
+                #delta_time = 60 * 5
+                delta_time = 60
+            elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
+                delta_time = 60 * 3
+            elif history_resolution == HISTORY_RESOLUTION_5MINUTE:  # using this resolution seems not ok, must be improved
+                #delta_time = 60 * 5 * 25
                 delta_time = 60 * 5
-            elif history_resolution == HISTORY_RESOLUTION_5MINUTE:      # using this resolution seems not ok, must be improved
-                delta_time = 60 * 5 * 100
             elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
-                delta_time = 60 * 60 * 15 * 3
+                #delta_time = 60 * 60 * 15 * 3
+                delta_time = 60 * 60 * 15
             elif history_resolution == HISTORY_RESOLUTION_HOUR:
-                delta_time = 60 * 60 * 3 * 15 * 2
+                #delta_time = 60 * 60 * 3 * 15 * 2
+                delta_time = 60 * 60
             elif history_resolution == HISTORY_RESOLUTION_4HOUR:
-                delta_time = 60 * 60 * 3 * 15 * 2 * 4
+                #delta_time = 60 * 60 * 3 * 15 * 2 * 4
+                delta_time = 60 * 60 * 4
             elif history_resolution == HISTORY_RESOLUTION_DAY:
                 delta_time = 60 * 60 * 2000
 
             if history_resolution == HISTORY_RESOLUTION_MINUTE:
-                interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE 
+                interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE
+            elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
+                interval_for_klinesT = Client.KLINE_INTERVAL_3MINUTE
             elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
                 interval_for_klinesT = Client.KLINE_INTERVAL_5MINUTE
             elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
@@ -142,10 +157,31 @@ def my_thread(name):
                 print("What should I set for Client KLINE_INTERVAL ?")
                 exit()
 
-            try:                
+            days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
+            if interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
+                days_ago_for_klinest = "120 minute ago UTC"
+            elif interval_for_klinesT == Client.KLINE_INTERVAL_3MINUTE:
+                days_ago_for_klinest = "360 minute ago UTC"
+            elif interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
+                days_ago_for_klinest = "800 minute ago UTC"
+            elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
+                days_ago_for_klinest = "1200 minute ago UTC"
+            elif interval_for_klinesT == Client.KLINE_INTERVAL_1HOUR:
+                days_ago_for_klinest = "80 hour ago UTC"
+            elif interval_for_klinesT == Client.KLINE_INTERVAL_4HOUR:
+                days_ago_for_klinest = "320 hour ago UTC"
+
+            try:
                 #klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "09 May 2022")
-                klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "15 day ago UTC")
-                dframe = pd.DataFrame(klinesT, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av', 'trades', 'tb_base_av', 'tb_quote_av', 'ignore'])
+                klinesT = Client().get_historical_klines(
+                    symbol, interval_for_klinesT, days_ago_for_klinest)
+                dframe = pd.DataFrame(klinesT,
+                                      columns=[
+                                          'timestamp', 'open', 'high', 'low',
+                                          'close', 'volume', 'close_time',
+                                          'quote_av', 'trades', 'tb_base_av',
+                                          'tb_quote_av', 'ignore'
+                                      ])
 
                 del dframe['ignore']
                 del dframe['close_time']
@@ -153,7 +189,7 @@ def my_thread(name):
                 del dframe['trades']
                 del dframe['tb_base_av']
                 del dframe['tb_quote_av']
-
+              
                 dframe['close'] = pd.to_numeric(dframe['close'])
                 dframe['high'] = pd.to_numeric(dframe['high'])
                 dframe['low'] = pd.to_numeric(dframe['low'])
@@ -163,12 +199,20 @@ def my_thread(name):
                 dframe.index = pd.to_datetime(dframe.index, unit='ms')
 
             except requests.exceptions.HTTPError:
-                print("Erreur (HTTPError) tentative obtention données historiques pour " + symbol)
-                log_to_errors("Erreur (HTTPError) tentative obtention données historiques pour " + symbol)
+                print(
+                    "Erreur (HTTPError) tentative obtention données historiques pour "
+                    + symbol)
+                log_to_errors(
+                    "Erreur (HTTPError) tentative obtention données historiques pour "
+                    + symbol)
                 continue
             except requests.exceptions.ConnectionError:
-                print("Erreur (ConnectionError) tentative obtention données historiques pour " + symbol)
-                log_to_errors("Erreur (ConnectionError) tentative obtention données historiques pour " + symbol)
+                print(
+                    "Erreur (ConnectionError) tentative obtention données historiques pour "
+                    + symbol)
+                log_to_errors(
+                    "Erreur (ConnectionError) tentative obtention données historiques pour "
+                    + symbol)
                 continue
 
             # a = time.time()
@@ -181,10 +225,18 @@ def my_thread(name):
 
             # print(dframe)
             try:
-                dframe['ICH_SSA'] = ta.trend.ichimoku_a(dframe['high'], dframe['low'], window1=9, window2=26).shift(26)
-                dframe['ICH_SSB'] = ta.trend.ichimoku_b(dframe['high'], dframe['low'], window2=26, window3=52).shift(26)
-                dframe['ICH_KS'] = ta.trend.ichimoku_base_line(dframe['high'], dframe['low'])
-                dframe['ICH_TS'] = ta.trend.ichimoku_conversion_line(dframe['high'], dframe['low'])
+                dframe['ICH_SSA'] = ta.trend.ichimoku_a(dframe['high'],
+                                                        dframe['low'],
+                                                        window1=9,
+                                                        window2=26).shift(26)
+                dframe['ICH_SSB'] = ta.trend.ichimoku_b(dframe['high'],
+                                                        dframe['low'],
+                                                        window2=26,
+                                                        window3=52).shift(26)
+                dframe['ICH_KS'] = ta.trend.ichimoku_base_line(
+                    dframe['high'], dframe['low'])
+                dframe['ICH_TS'] = ta.trend.ichimoku_conversion_line(
+                    dframe['high'], dframe['low'])
                 dframe['ICH_CS'] = dframe['close'].shift(-26)
 
             except KeyError as err:
@@ -202,11 +254,19 @@ def my_thread(name):
                 ts = rowdf['ICH_TS']
                 # cs = rowdf['ICH_CS']
                 try:
-                    cs = dframe['ICH_CS'].iloc[-26 - 1]  # chikou span concernant bougie n en cours
-                    cs2 = dframe['ICH_CS'].iloc[-26 - 2]  # chikou span concernant bougie n-1
-                    ssbchikou = dframe['ICH_SSB'].iloc[-26 - 1 + 2]
-                    ssbchikou2 = dframe['ICH_SSB'].iloc[-26 - 2 + 2]
-                    ssbchikou3 = dframe['ICH_SSB'].iloc[-26 - 3 + 2]
+                    cs = dframe['ICH_CS'].iloc[
+                        -26 - 1]  # chikou span concernant bougie n en cours
+                    cs2 = dframe['ICH_CS'].iloc[
+                        -26 - 2]  # chikou span concernant bougie n-1
+                    #ssbchikou = dframe['ICH_SSB'].iloc[-26 - 1 + 2]
+                    #ssbchikou2 = dframe['ICH_SSB'].iloc[-26 - 2 + 2]
+                    #ssbchikou3 = dframe['ICH_SSB'].iloc[-26 - 3 + 2]
+                    ssbchikou = dframe['ICH_SSB'].iloc[-26]
+                    ssbchikou2 = dframe['ICH_SSB'].iloc[-26 - 1]
+                    ssbchikou3 = dframe['ICH_SSB'].iloc[-26 - 2]
+                    ssachikou = dframe['ICH_SSA'].iloc[-26]
+                    ssachikou2 = dframe['ICH_SSA'].iloc[-26 - 1]
+                    ssachikou3 = dframe['ICH_SSA'].iloc[-26 - 2]
                     closechikou = dframe['close'].iloc[-26]
                     closechikou2 = dframe['close'].iloc[-26 - 1]
                     openchikou = dframe['open'].iloc[-26]
@@ -221,9 +281,6 @@ def my_thread(name):
                     tenkanchikou = dframe['ICH_TS'].iloc[-26 - 1 + 1]
                     tenkanchikou2 = dframe['ICH_TS'].iloc[-26 - 2 + 1]
                     tenkanchikou3 = dframe['ICH_TS'].iloc[-26 - 3 + 1]
-                    ssachikou = dframe['ICH_SSA'].iloc[-26 - 1 + 2]
-                    ssachikou2 = dframe['ICH_SSA'].iloc[-26 - 2 + 2]
-                    ssachikou3 = dframe['ICH_SSA'].iloc[-26 - 3 + 2]
 
                 except IndexError as error:
                     print(symbol + " EXCEPTION " + str(error))
@@ -237,11 +294,23 @@ def my_thread(name):
                 error_nan_values = False
                 # To check the values of Ichimoku data (use TradingView with Ichimoku Cloud to compare them)
                 # print(str(timestamp) + " " + symbol + " closecs=" + str(closechikou) + " closecs2=" + str(closechikou2) + " CS=" + str(cs) + " CS2=" + str(cs2) + " SSBCS=" + str(ssbchikou) + " SSBCS2=" + str(ssbchikou2) + " SSBCS3=" + str(ssbchikou3) + " KSCS=" + str(kijunchikou)+ " KSCS2=" + str(kijunchikou2)+ " KSCS3=" + str(kijunchikou3) + " TSCS=" + str(tenkanchikou)+ " TSCS2=" + str(tenkanchikou2)+ " TSCS3=" + str(tenkanchikou3) + " SSACS=" + str(ssachikou) + " SSACS2=" + str(ssachikou2) + " SSACS3=" + str(ssachikou3))
-                if math.isnan(closechikou) or math.isnan(closechikou2) or math.isnan(cs) or math.isnan(cs2) or math.isnan(ssbchikou) or math.isnan(ssbchikou2) or math.isnan(
-                        ssbchikou3) or math.isnan(kijunchikou) or math.isnan(kijunchikou2) or math.isnan(kijunchikou3) or math.isnan(tenkanchikou) or math.isnan(
-                    tenkanchikou2) or math.isnan(tenkanchikou3) or math.isnan(ssachikou) or math.isnan(ssbchikou2) or math.isnan(ssachikou3):
+                if math.isnan(closechikou) or math.isnan(
+                        closechikou2
+                ) or math.isnan(cs) or math.isnan(cs2) or math.isnan(
+                        ssbchikou) or math.isnan(ssbchikou2) or math.isnan(
+                            ssbchikou3
+                        ) or math.isnan(kijunchikou) or math.isnan(
+                            kijunchikou2
+                        ) or math.isnan(kijunchikou3) or math.isnan(
+                            tenkanchikou
+                        ) or math.isnan(tenkanchikou2) or math.isnan(
+                            tenkanchikou3) or math.isnan(
+                                ssachikou) or math.isnan(
+                                    ssbchikou2) or math.isnan(ssachikou3):
                     print(symbol + " THERE ARE NAN VALUES IN ICHIMOKU DATA")
-                    log_to_errors(symbol + " THERE ARE NAN VALUES IN ICHIMOKU DATA" + '\n')
+                    log_to_errors(symbol +
+                                  " THERE ARE NAN VALUES IN ICHIMOKU DATA" +
+                                  '\n')
                     error_nan_values = True
                     # quit(0)
 
@@ -265,11 +334,17 @@ def my_thread(name):
                 data_year = timestamp.year
 
                 if history_resolution == HISTORY_RESOLUTION_MINUTE:
-                    datetime_result_min = datetime.now() - timedelta(hours=1)
+                    datetime_result_min = datetime.now() - timedelta(minutes=1)
+                elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
+                    #datetime_result_min = datetime.now() - timedelta(minutes=15)
+                    datetime_result_min = datetime.now() - timedelta(minutes=3)
                 elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
-                    datetime_result_min = datetime.now() - timedelta(minutes=15)
+                    #datetime_result_min = datetime.now() - timedelta(minutes=15)
+                    datetime_result_min = datetime.now() - timedelta(minutes=5)
                 elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
-                    datetime_result_min = datetime.now() - timedelta(hours=1)
+                    #datetime_result_min = datetime.now() - timedelta(hours=1)
+                    datetime_result_min = datetime.now() - timedelta(
+                        minutes=15)
                 elif history_resolution == HISTORY_RESOLUTION_HOUR:
                     datetime_result_min = datetime.now() - timedelta(hours=1)
                 elif history_resolution == HISTORY_RESOLUTION_4HOUR:
@@ -277,7 +352,8 @@ def my_thread(name):
                 elif history_resolution == HISTORY_RESOLUTION_DAY:
                     datetime_result_min = datetime.now() - timedelta(hours=24)
                 else:
-                    datetime_result_min = datetime.now() - timedelta(hours=1)  # We should never get here
+                    datetime_result_min = datetime.now() - timedelta(
+                        hours=1)  # We should never get here
 
                 datetime_result_min_minute = datetime_result_min.minute
                 datetime_result_min_hour = datetime_result_min.hour
@@ -295,18 +371,30 @@ def my_thread(name):
 
                 scan = True
 
-                if history_resolution == HISTORY_RESOLUTION_DAY:
-                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year  # for daily scan, we must not test the hours
+                if history_resolution == HISTORY_RESOLUTION_MINUTE:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
+                elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
                 elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
                     # print("comparing : " + str(data_hour) + " " + str(data_minute) + " to " + str(datetime_result_min_hour) + " " + str(datetime_result_min_minute))
-                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute                    
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
+                elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
+                elif history_resolution == HISTORY_RESOLUTION_HOUR:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour  #and data_minute >= datetime_result_min_minute
                 else:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
+
+                #if symbol == "ETHUSDT":
+                #    print ("ETHUSDT SSACHIKOU = " + str(ssachikou))
+                #    print ("ETHUSDT SSBCHIKOU = " + str(ssbchikou))
 
                 if scan:
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
-                        if openp > ks and close > ks and close > openp and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou:
+                        # Define your own criterias for filtering assets on the line below
+                        #if openp < ks and close < ks and close < ts and close < openp and close < ssa and close < ssb and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou: #and evol_co < -0.1:
+                        if openp > ssa and close > ssa and openp > ssb and close > ssb:
                             cs_results = ""
                             if cs > ssbchikou:
                                 cs_results += "* CS > SSBCHIKOU - "
@@ -325,9 +413,17 @@ def my_thread(name):
 
                             # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol_co)
                             # print("")
-                            str_result = str(timestamp) + " " + symbol + " https://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol + " " + symbol_type + " SSA=" + str(ssa) + " SSB=" + str(
-                                ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " O=" + str(openp) + " H=" + str(high) + " L=" + str(
-                                low)  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol_co)     # We don't concatenate the variable parts (for comparisons in list_results)
+                            str_result = str(
+                                timestamp
+                            ) + " " + symbol + " " + symbol_type + " SSA=" + str(
+                                ssa
+                            ) + " SSB=" + str(ssb) + " KS=" + str(
+                                ks
+                            ) + " TS=" + str(ts) + " O=" + str(
+                                openp
+                            ) + " H=" + str(high) + " L=" + str(
+                                low
+                            )  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol_co)     # We don't concatenate the variable parts (for comparisons in list_results)
 
                             if not (str_result in list_results):
                                 if not new_results_found:
@@ -335,8 +431,17 @@ def my_thread(name):
                                 results_count = results_count + 1
                                 list_results.append(str_result)
                                 # print(cs_results)
-                                str_result = cs_results + "\n" + str(results_count) + " " + str_result + " C=" + str(close) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(
-                                    evol_co)  # We add the data with variable parts
+                                str_result = cs_results + "\n" + str(
+                                    results_count
+                                ) + " " + str_result + " C=" + str(
+                                    close
+                                ) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(
+                                    evol_co
+                                )  # We add the data with variable parts
+
+                                str_result += "\nhttps://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol
+                                str_result += "\nhttps://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol + "PERP"
+
                                 print(str_result + "\n")
                                 log_to_results(str_result + "\n")
 
@@ -344,10 +449,15 @@ def my_thread(name):
 
                 else:
                     # if result_ok:
-                    print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs)
-                    str_result = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(
-                        ssa) + " SSB=" + str(
-                        ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " EVOL%(C/O)=" + str(evol_co)
+                    print(timestamp, symbol, "O", openp, "H", high, "L", low,
+                          "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS",
+                          ts, "CS", cs)
+                    str_result = str(timestamp) + " " + symbol + " O=" + str(
+                        openp) + " H=" + str(high) + " L=" + str(
+                            low) + " C=" + str(close) + " SSA=" + str(
+                                ssa) + " SSB=" + str(ssb) + " KS=" + str(
+                                    ks) + " TS=" + str(ts) + " CS=" + str(
+                                        cs) + " EVOL%(C/O)=" + str(evol_co)
                     log_to_results(str_result)
 
         if new_results_found:
@@ -357,8 +467,9 @@ def my_thread(name):
         print(str(datetime.now()) + " " + str(new_dict))
         log_to_evol(str(datetime.now()) + " " + str(new_dict))
 
-        stop_thread = True
+        # Remove the line below to scan in loop
+        #stop_thread = True
 
 
-x = threading.Thread(target=my_thread, args=(1,))
+x = threading.Thread(target=my_thread, args=(1, ))
 x.start()
