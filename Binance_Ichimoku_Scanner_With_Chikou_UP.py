@@ -12,6 +12,14 @@ import time
 import ta
 import math
 
+from enum import Enum
+class ScanType(Enum):
+  UP = 0
+  DOWN = 1
+
+# Set this variable to ScanType.UP for scanning uptrend assets or to ScanType.DOWN for scanning downtrend assets
+scan_type = ScanType.UP
+
 # Set this variable to False to scan in spot mode
 scan_futures = True
 
@@ -259,9 +267,9 @@ def my_thread(name):
                     #ssbchikou = dframe['ICH_SSB'].iloc[-26 - 1 + 2]
                     #ssbchikou2 = dframe['ICH_SSB'].iloc[-26 - 2 + 2]
                     #ssbchikou3 = dframe['ICH_SSB'].iloc[-26 - 3 + 2]
-                    ssbchikou = dframe['ICH_SSB'].iloc[-26]
-                    ssbchikou2 = dframe['ICH_SSB'].iloc[-26 - 1]
-                    ssbchikou3 = dframe['ICH_SSB'].iloc[-26 - 2]
+                    ssbchikou = dframe['ICH_SSB'].iloc[-52]
+                    ssbchikou2 = dframe['ICH_SSB'].iloc[-52 - 1]
+                    ssbchikou3 = dframe['ICH_SSB'].iloc[-52 - 2]
                     ssachikou = dframe['ICH_SSA'].iloc[-26]
                     ssachikou2 = dframe['ICH_SSA'].iloc[-26 - 1]
                     ssachikou3 = dframe['ICH_SSA'].iloc[-26 - 2]
@@ -391,7 +399,13 @@ def my_thread(name):
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # Define your own criterias for filtering assets on the line below
-                        if openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > lowchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou: #and evol_co < -0.1:
+
+                      if scan_type == ScanType.UP:
+                          condition_is_satisfied = openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou
+                      elif scan_type == ScanType.DOWN: 
+                          condition_is_satisfied = openp < ks and close < ks and close < ts and close < openp and close < ssa and close < ssb and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou
+                      
+                      if condition_is_satisfied:
                             cs_results = ""
                             if cs > ssbchikou:
                                 cs_results += "* CS > SSBCHIKOU - "
@@ -420,7 +434,7 @@ def my_thread(name):
                                 openp
                             ) + " H=" + str(high) + " L=" + str(
                                 low
-                            )  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol_co)     # We don't concatenate the variable parts (for comparisons in list_results)
+                            ) + " SSBCS=" + str(ssbchikou) # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol_co)     # We don't concatenate the variable parts (for comparisons in list_results)
 
                             if not (str_result in list_results):
                                 if not new_results_found:
@@ -450,13 +464,13 @@ def my_thread(name):
                     # if result_ok:
                     print(timestamp, symbol, "O", openp, "H", high, "L", low,
                           "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS",
-                          ts, "CS", cs)
+                          ts, "CS", cs, "SSB CS", ssbchikou)
                     str_result = str(timestamp) + " " + symbol + " O=" + str(
                         openp) + " H=" + str(high) + " L=" + str(
                             low) + " C=" + str(close) + " SSA=" + str(
                                 ssa) + " SSB=" + str(ssb) + " KS=" + str(
                                     ks) + " TS=" + str(ts) + " CS=" + str(
-                                        cs) + " EVOL%(C/O)=" + str(evol_co)
+                                        cs) + " SSB CS=" + str(ssbchikou) + " EVOL%(C/O)=" + str(evol_co)
                     log_to_results(str_result)
 
         if new_results_found:
