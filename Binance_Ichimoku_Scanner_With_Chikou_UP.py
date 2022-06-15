@@ -391,8 +391,7 @@ def my_thread(name):
                     if result_ok:
                         # if openp < ssb < close or openp > ssb and close > ssb:
                         # Define your own criterias for filtering assets on the line below
-                        #if openp < ks and close < ks and close < ts and close < openp and close < ssa and close < ssb and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou: #and evol_co < -0.1:
-                        if openp > ssa and close > ssa and openp > ssb and close > ssb:
+                        if openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > lowchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou: #and evol_co < -0.1:
                             cs_results = ""
                             if cs > ssbchikou:
                                 cs_results += "* CS > SSBCHIKOU - "
