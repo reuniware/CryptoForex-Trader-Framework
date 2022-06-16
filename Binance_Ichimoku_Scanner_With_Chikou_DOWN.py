@@ -62,10 +62,14 @@ if os.path.exists("evol.txt"):
 for fg in glob.glob("CS_*.txt"):
     os.remove(fg)
 
-HISTORY_RESOLUTION_MINUTE = 60
+# print("Scanning type = ", scan_type.name)
+# log_to_results("Scanning type = " + scan_type.name)
+
+HISTORY_RESOLUTION_1MINUTE = 60
 HISTORY_RESOLUTION_3MINUTE = 60 * 3
 HISTORY_RESOLUTION_5MINUTE = 60 * 5
 HISTORY_RESOLUTION_15MINUTE = 60 * 15
+HISTORY_RESOLUTION_30MINUTE = 60 * 30
 HISTORY_RESOLUTION_HOUR = 60 * 60
 HISTORY_RESOLUTION_4HOUR = 60 * 60 * 4
 HISTORY_RESOLUTION_DAY = 60 * 60 * 24
@@ -76,6 +80,7 @@ stop_thread = False
 
 list_results = []
 
+array_futures = []
 
 def my_thread(name):
     global client, list_results, results_count, stop_thread
@@ -106,6 +111,9 @@ def my_thread(name):
             if not symbol.endswith('USDT') or symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT"):
                 continue
 
+            #if symbol != 'BANDUSDT':
+                #continue
+
             if scan_futures:
               print(symbol, "trying to scan in futures")
             else:
@@ -115,9 +123,9 @@ def my_thread(name):
             #     continue
 
             # Define the resolution for data downloading and scanning on the line below
-            history_resolution = HISTORY_RESOLUTION_MINUTE  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_30MINUTE  # define the resolution used for the scan here
 
-            if history_resolution == HISTORY_RESOLUTION_MINUTE:
+            if history_resolution == HISTORY_RESOLUTION_1MINUTE:
                 interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE
             elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
                 interval_for_klinesT = Client.KLINE_INTERVAL_3MINUTE
@@ -125,6 +133,8 @@ def my_thread(name):
                 interval_for_klinesT = Client.KLINE_INTERVAL_5MINUTE
             elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
                 interval_for_klinesT = Client.KLINE_INTERVAL_15MINUTE
+            elif history_resolution == HISTORY_RESOLUTION_30MINUTE:
+                interval_for_klinesT = Client.KLINE_INTERVAL_30MINUTE
             elif history_resolution == HISTORY_RESOLUTION_HOUR:
                 interval_for_klinesT = Client.KLINE_INTERVAL_1HOUR
             elif history_resolution == HISTORY_RESOLUTION_4HOUR:
@@ -134,7 +144,7 @@ def my_thread(name):
             else:
                 print("What should I set for Client KLINE_INTERVAL ?")
                 exit()
-
+          
             days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
             if interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
                 days_ago_for_klinest = "120 minute ago UTC"
@@ -144,11 +154,13 @@ def my_thread(name):
                 days_ago_for_klinest = "800 minute ago UTC"
             elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
                 days_ago_for_klinest = "1200 minute ago UTC"
+            elif interval_for_klinesT == Client.KLINE_INTERVAL_30MINUTE:
+                days_ago_for_klinest = "2400 minute ago UTC"
             elif interval_for_klinesT == Client.KLINE_INTERVAL_1HOUR:
                 days_ago_for_klinest = "80 hour ago UTC"
             elif interval_for_klinesT == Client.KLINE_INTERVAL_4HOUR:
                 days_ago_for_klinest = "320 hour ago UTC"
-
+          
             try:
                 #klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "09 May 2022")
                 if scan_futures:
@@ -250,7 +262,7 @@ def my_thread(name):
                     ssbchikou = dframe['ICH_SSB'].iloc[-52]
                     ssbchikou2 = dframe['ICH_SSB'].iloc[-52 - 1]
                     ssbchikou3 = dframe['ICH_SSB'].iloc[-52 - 2]
-                    ssachikou = dframe['ICH_SSA'].iloc[-26]
+                    ssachikou = dframe['ICH_SSA'].iloc[-26 + 1]
                     ssachikou2 = dframe['ICH_SSA'].iloc[-26 - 1]
                     ssachikou3 = dframe['ICH_SSA'].iloc[-26 - 2]
                     closechikou = dframe['close'].iloc[-26]
@@ -279,7 +291,9 @@ def my_thread(name):
 
                 error_nan_values = False
                 # To check the values of Ichimoku data (use TradingView with Ichimoku Cloud to compare them)
-                # print(str(timestamp) + " " + symbol + " closecs=" + str(closechikou) + " closecs2=" + str(closechikou2) + " CS=" + str(cs) + " CS2=" + str(cs2) + " SSBCS=" + str(ssbchikou) + " SSBCS2=" + str(ssbchikou2) + " SSBCS3=" + str(ssbchikou3) + " KSCS=" + str(kijunchikou)+ " KSCS2=" + str(kijunchikou2)+ " KSCS3=" + str(kijunchikou3) + " TSCS=" + str(tenkanchikou)+ " TSCS2=" + str(tenkanchikou2)+ " TSCS3=" + str(tenkanchikou3) + " SSACS=" + str(ssachikou) + " SSACS2=" + str(ssachikou2) + " SSACS3=" + str(ssachikou3))
+                #print(str(timestamp) + " " + symbol + " closecs=" + str(closechikou) + " closecs2=" + str(closechikou2) + " CS=" + str(cs) + " CS2=" + str(cs2) + " SSBCS=" + str(ssbchikou) + " SSBCS2=" + str(ssbchikou2) + " SSBCS3=" + str(ssbchikou3) + " KSCS=" + str(kijunchikou)+ " KSCS2=" + str(kijunchikou2)+ " KSCS3=" + str(kijunchikou3) + " TSCS=" + str(tenkanchikou)+ " TSCS2=" + str(tenkanchikou2)+ " TSCS3=" + str(tenkanchikou3) + " SSACS=" + str(ssachikou) + " SSACS2=" + str(ssachikou2) + " SSACS3=" + str(ssachikou3))
+                #exit()
+              
                 if math.isnan(closechikou) or math.isnan(
                         closechikou2
                 ) or math.isnan(cs) or math.isnan(cs2) or math.isnan(
@@ -319,7 +333,7 @@ def my_thread(name):
                 data_month = timestamp.month
                 data_year = timestamp.year
 
-                if history_resolution == HISTORY_RESOLUTION_MINUTE:
+                if history_resolution == HISTORY_RESOLUTION_1MINUTE:
                     datetime_result_min = datetime.now() - timedelta(minutes=1)
                 elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
                     #datetime_result_min = datetime.now() - timedelta(minutes=15)
@@ -331,6 +345,10 @@ def my_thread(name):
                     #datetime_result_min = datetime.now() - timedelta(hours=1)
                     datetime_result_min = datetime.now() - timedelta(
                         minutes=15)
+                elif history_resolution == HISTORY_RESOLUTION_30MINUTE:
+                    #datetime_result_min = datetime.now() - timedelta(hours=1)
+                    datetime_result_min = datetime.now() - timedelta(
+                        minutes=30)
                 elif history_resolution == HISTORY_RESOLUTION_HOUR:
                     datetime_result_min = datetime.now() - timedelta(hours=1)
                 elif history_resolution == HISTORY_RESOLUTION_4HOUR:
@@ -357,7 +375,7 @@ def my_thread(name):
 
                 scan = True
 
-                if history_resolution == HISTORY_RESOLUTION_MINUTE:
+                if history_resolution == HISTORY_RESOLUTION_1MINUTE:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
                 elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
@@ -365,6 +383,8 @@ def my_thread(name):
                     # print("comparing : " + str(data_hour) + " " + str(data_minute) + " to " + str(datetime_result_min_hour) + " " + str(datetime_result_min_minute))
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
                 elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
+                elif history_resolution == HISTORY_RESOLUTION_30MINUTE:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
                 elif history_resolution == HISTORY_RESOLUTION_HOUR:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour  #and data_minute >= datetime_result_min_minute
@@ -377,8 +397,8 @@ def my_thread(name):
 
                 if scan:
                     if result_ok:
-                        # if openp < ssb < close or openp > ssb and close > ssb:
-                        # Define your own criterias for filtering assets on the line below
+                      # if openp < ssb < close or openp > ssb and close > ssb:
+                      # Define your own criterias for filtering assets on the line below
 
                       if scan_type == ScanType.UP:
                           condition_is_satisfied = openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou
@@ -509,9 +529,9 @@ x.start()
 #       continue
 
 
-            #history_resolution = HISTORY_RESOLUTION_MINUTE  # define the resolution used for the scan here
+            #history_resolution = HISTORY_RESOLUTION_1MINUTE  # define the resolution used for the scan here
             # delta_time = 0
-            # if history_resolution == HISTORY_RESOLUTION_MINUTE:  # using this resolution seems not ok, must be improved
+            # if history_resolution == HISTORY_RESOLUTION_1MINUTE:  # using this resolution seems not ok, must be improved
             #     #delta_time = 60 * 5
             #     delta_time = 60
             # elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
