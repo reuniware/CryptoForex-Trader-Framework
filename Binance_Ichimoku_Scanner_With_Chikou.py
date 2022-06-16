@@ -74,8 +74,37 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_6HOUR
+interval_for_klinesT = Client.KLINE_INTERVAL_3DAY
 print("Scanning timeframe =", str(interval_for_klinesT))
+
+days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
+if interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
+  days_ago_for_klinest = "120 minute ago UTC"
+elif interval_for_klinesT == Client.KLINE_INTERVAL_3MINUTE:
+  days_ago_for_klinest = "360 minute ago UTC"
+elif interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
+  days_ago_for_klinest = "800 minute ago UTC"
+elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
+  days_ago_for_klinest = "1200 minute ago UTC"
+elif interval_for_klinesT == Client.KLINE_INTERVAL_30MINUTE:
+  days_ago_for_klinest = "2400 minute ago UTC"
+elif interval_for_klinesT == Client.KLINE_INTERVAL_1HOUR:
+  days_ago_for_klinest = "80 hour ago UTC"
+elif interval_for_klinesT == Client.KLINE_INTERVAL_2HOUR:
+  days_ago_for_klinest = "160 hour ago UTC"
+elif interval_for_klinesT == Client.KLINE_INTERVAL_4HOUR:
+  days_ago_for_klinest = "320 hour ago UTC"
+elif interval_for_klinesT == Client.KLINE_INTERVAL_6HOUR:
+  days_ago_for_klinest = "480 hour ago UTC"
+elif interval_for_klinesT == Client.KLINE_INTERVAL_8HOUR:
+  days_ago_for_klinest = "640 hour ago UTC"
+elif interval_for_klinesT == Client.KLINE_INTERVAL_12HOUR:
+  days_ago_for_klinest = "960 hour ago UTC"
+elif interval_for_klinesT == Client.KLINE_INTERVAL_1DAY:
+  days_ago_for_klinest = "80 day ago UTC"
+elif interval_for_klinesT == Client.KLINE_INTERVAL_3DAY:
+  days_ago_for_klinest = "240 day ago UTC"
+
 
 def my_thread(name):
     global client, list_results, results_count, stop_thread, interval_for_klinesT
@@ -116,27 +145,7 @@ def my_thread(name):
 
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
-          
-            days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
-            if interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
-                days_ago_for_klinest = "120 minute ago UTC"
-            elif interval_for_klinesT == Client.KLINE_INTERVAL_3MINUTE:
-                days_ago_for_klinest = "360 minute ago UTC"
-            elif interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
-                days_ago_for_klinest = "800 minute ago UTC"
-            elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
-                days_ago_for_klinest = "1200 minute ago UTC"
-            elif interval_for_klinesT == Client.KLINE_INTERVAL_30MINUTE:
-                days_ago_for_klinest = "2400 minute ago UTC"
-            elif interval_for_klinesT == Client.KLINE_INTERVAL_1HOUR:
-                days_ago_for_klinest = "80 hour ago UTC"
-            elif interval_for_klinesT == Client.KLINE_INTERVAL_2HOUR:
-                days_ago_for_klinest = "160 hour ago UTC"
-            elif interval_for_klinesT == Client.KLINE_INTERVAL_4HOUR:
-                days_ago_for_klinest = "320 hour ago UTC"
-            elif interval_for_klinesT == Client.KLINE_INTERVAL_6HOUR:
-                days_ago_for_klinest = "480 hour ago UTC"
-          
+                    
             try:
                 #klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "09 May 2022")
                 if scan_futures:
@@ -260,7 +269,7 @@ def my_thread(name):
                     print(symbol + " EXCEPTION " + str(error))
                     log_to_errors(symbol + " EXCEPTION " + str(error) + '\n')
                     # quit(0)
-                    continue
+                    break
 
                 #timestamp = pd.to_datetime(rowdf['time'], unit='ms')
                 timestamp = pd.to_datetime(rowdf['timestamp'], unit='ms')
@@ -333,8 +342,14 @@ def my_thread(name):
                     datetime_result_min = datetime.now() - timedelta(hours=4)
                 elif interval_for_klinesT == Client.KLINE_INTERVAL_6HOUR:
                     datetime_result_min = datetime.now() - timedelta(hours=6)
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_8HOUR:
+                    datetime_result_min = datetime.now() - timedelta(hours=8)
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_12HOUR:
+                    datetime_result_min = datetime.now() - timedelta(hours=12)
                 elif interval_for_klinesT == Client.KLINE_INTERVAL_1DAY:
                     datetime_result_min = datetime.now() - timedelta(hours=24)
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_3DAY:
+                    datetime_result_min = datetime.now() - timedelta(hours=72)
                 else:
                     datetime_result_min = datetime.now() - timedelta(
                         hours=1)  # We should never get here
@@ -372,6 +387,14 @@ def my_thread(name):
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour  #and data_minute >= datetime_result_min_minute
                 elif interval_for_klinesT == Client.KLINE_INTERVAL_6HOUR:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour  #and data_minute >= datetime_result_min_minute
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_8HOUR:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour  #and data_minute >= datetime_result_min_minute
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_12HOUR:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour  #and data_minute >= datetime_result_min_minute
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_1DAY:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_3DAY:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
                 else:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
 
