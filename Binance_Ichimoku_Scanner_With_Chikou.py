@@ -18,7 +18,7 @@ class ScanType(Enum):
   DOWN = 1
 
 # Set this variable to ScanType.UP for scanning uptrend assets or to ScanType.DOWN for scanning downtrend assets
-scan_type = ScanType.UP
+scan_type = ScanType.DOWN
 
 # Set this variable to False to scan in spot mode
 scan_futures = True
@@ -70,9 +70,9 @@ HISTORY_RESOLUTION_3MINUTE = 60 * 3
 HISTORY_RESOLUTION_5MINUTE = 60 * 5
 HISTORY_RESOLUTION_15MINUTE = 60 * 15
 HISTORY_RESOLUTION_30MINUTE = 60 * 30
-HISTORY_RESOLUTION_HOUR = 60 * 60
+HISTORY_RESOLUTION_1HOUR = 60 * 60
 HISTORY_RESOLUTION_4HOUR = 60 * 60 * 4
-HISTORY_RESOLUTION_DAY = 60 * 60 * 24
+HISTORY_RESOLUTION_1DAY = 60 * 60 * 24
 
 results_count = 0
 
@@ -82,8 +82,11 @@ list_results = []
 
 array_futures = []
 
+# Set the timeframe to scan on the following line
+interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE
+
 def my_thread(name):
-    global client, list_results, results_count, stop_thread
+    global client, list_results, results_count, stop_thread, interval_for_klinesT
 
     log_to_evol(str(datetime.now()))
 
@@ -121,29 +124,6 @@ def my_thread(name):
 
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
-
-            # Define the resolution for data downloading and scanning on the line below
-            history_resolution = HISTORY_RESOLUTION_30MINUTE  # define the resolution used for the scan here
-
-            if history_resolution == HISTORY_RESOLUTION_1MINUTE:
-                interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE
-            elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
-                interval_for_klinesT = Client.KLINE_INTERVAL_3MINUTE
-            elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
-                interval_for_klinesT = Client.KLINE_INTERVAL_5MINUTE
-            elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
-                interval_for_klinesT = Client.KLINE_INTERVAL_15MINUTE
-            elif history_resolution == HISTORY_RESOLUTION_30MINUTE:
-                interval_for_klinesT = Client.KLINE_INTERVAL_30MINUTE
-            elif history_resolution == HISTORY_RESOLUTION_HOUR:
-                interval_for_klinesT = Client.KLINE_INTERVAL_1HOUR
-            elif history_resolution == HISTORY_RESOLUTION_4HOUR:
-                interval_for_klinesT = Client.KLINE_INTERVAL_4HOUR
-            elif history_resolution == HISTORY_RESOLUTION_DAY:
-                interval_for_klinesT = Client.KLINE_INTERVAL_1DAY
-            else:
-                print("What should I set for Client KLINE_INTERVAL ?")
-                exit()
           
             days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
             if interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
@@ -333,27 +313,27 @@ def my_thread(name):
                 data_month = timestamp.month
                 data_year = timestamp.year
 
-                if history_resolution == HISTORY_RESOLUTION_1MINUTE:
+                if  interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
                     datetime_result_min = datetime.now() - timedelta(minutes=1)
-                elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_3MINUTE:
                     #datetime_result_min = datetime.now() - timedelta(minutes=15)
                     datetime_result_min = datetime.now() - timedelta(minutes=3)
-                elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
                     #datetime_result_min = datetime.now() - timedelta(minutes=15)
                     datetime_result_min = datetime.now() - timedelta(minutes=5)
-                elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
                     #datetime_result_min = datetime.now() - timedelta(hours=1)
                     datetime_result_min = datetime.now() - timedelta(
                         minutes=15)
-                elif history_resolution == HISTORY_RESOLUTION_30MINUTE:
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_30MINUTE:
                     #datetime_result_min = datetime.now() - timedelta(hours=1)
                     datetime_result_min = datetime.now() - timedelta(
                         minutes=30)
-                elif history_resolution == HISTORY_RESOLUTION_HOUR:
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_1HOUR:
                     datetime_result_min = datetime.now() - timedelta(hours=1)
-                elif history_resolution == HISTORY_RESOLUTION_4HOUR:
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_4HOUR:
                     datetime_result_min = datetime.now() - timedelta(hours=4)
-                elif history_resolution == HISTORY_RESOLUTION_DAY:
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_1DAY:
                     datetime_result_min = datetime.now() - timedelta(hours=24)
                 else:
                     datetime_result_min = datetime.now() - timedelta(
@@ -375,18 +355,18 @@ def my_thread(name):
 
                 scan = True
 
-                if history_resolution == HISTORY_RESOLUTION_1MINUTE:
+                if interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
-                elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_3MINUTE:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
-                elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
                     # print("comparing : " + str(data_hour) + " " + str(data_minute) + " to " + str(datetime_result_min_hour) + " " + str(datetime_result_min_minute))
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
-                elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
-                elif history_resolution == HISTORY_RESOLUTION_30MINUTE:
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_30MINUTE:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
-                elif history_resolution == HISTORY_RESOLUTION_HOUR:
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_1HOUR:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour  #and data_minute >= datetime_result_min_minute
                 else:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
@@ -542,11 +522,35 @@ x.start()
             # elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
             #     #delta_time = 60 * 60 * 15 * 3
             #     delta_time = 60 * 60 * 15
-            # elif history_resolution == HISTORY_RESOLUTION_HOUR:
+            # elif history_resolution == HISTORY_RESOLUTION_1HOUR:
             #     #delta_time = 60 * 60 * 3 * 15 * 2
             #     delta_time = 60 * 60
             # elif history_resolution == HISTORY_RESOLUTION_4HOUR:
             #     #delta_time = 60 * 60 * 3 * 15 * 2 * 4
             #     delta_time = 60 * 60 * 4
-            # elif history_resolution == HISTORY_RESOLUTION_DAY:
+            # elif history_resolution == HISTORY_RESOLUTION_1DAY:
             #     delta_time = 60 * 60 * 2000
+
+
+            # # Define the resolution for data downloading and scanning on the line below
+            # history_resolution = HISTORY_RESOLUTION_30MINUTE  # define the resolution used for the scan here
+
+            # if history_resolution == HISTORY_RESOLUTION_1MINUTE:
+            #     interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE
+            # elif history_resolution == HISTORY_RESOLUTION_3MINUTE:
+            #     interval_for_klinesT = Client.KLINE_INTERVAL_3MINUTE
+            # elif history_resolution == HISTORY_RESOLUTION_5MINUTE:
+            #     interval_for_klinesT = Client.KLINE_INTERVAL_5MINUTE
+            # elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
+            #     interval_for_klinesT = Client.KLINE_INTERVAL_15MINUTE
+            # elif history_resolution == HISTORY_RESOLUTION_30MINUTE:
+            #     interval_for_klinesT = Client.KLINE_INTERVAL_30MINUTE
+            # elif history_resolution == HISTORY_RESOLUTION_1HOUR:
+            #     interval_for_klinesT = Client.KLINE_INTERVAL_1HOUR
+            # elif history_resolution == HISTORY_RESOLUTION_4HOUR:
+            #     interval_for_klinesT = Client.KLINE_INTERVAL_4HOUR
+            # elif history_resolution == HISTORY_RESOLUTION_1DAY:
+            #     interval_for_klinesT = Client.KLINE_INTERVAL_1DAY
+            # else:
+            #     print("What should I set for Client KLINE_INTERVAL ?")
+            #     exit()
