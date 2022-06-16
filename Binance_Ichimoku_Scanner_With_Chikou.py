@@ -62,7 +62,7 @@ if os.path.exists("evol.txt"):
 for fg in glob.glob("CS_*.txt"):
     os.remove(fg)
 
-# print("Scanning type = ", scan_type.name)
+print("Scanning type =", scan_type.name)
 # log_to_results("Scanning type = " + scan_type.name)
 
 results_count = 0
@@ -74,7 +74,8 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE
+interval_for_klinesT = Client.KLINE_INTERVAL_6HOUR
+print("Scanning timeframe =", str(interval_for_klinesT))
 
 def my_thread(name):
     global client, list_results, results_count, stop_thread, interval_for_klinesT
@@ -129,8 +130,12 @@ def my_thread(name):
                 days_ago_for_klinest = "2400 minute ago UTC"
             elif interval_for_klinesT == Client.KLINE_INTERVAL_1HOUR:
                 days_ago_for_klinest = "80 hour ago UTC"
+            elif interval_for_klinesT == Client.KLINE_INTERVAL_2HOUR:
+                days_ago_for_klinest = "160 hour ago UTC"
             elif interval_for_klinesT == Client.KLINE_INTERVAL_4HOUR:
                 days_ago_for_klinest = "320 hour ago UTC"
+            elif interval_for_klinesT == Client.KLINE_INTERVAL_6HOUR:
+                days_ago_for_klinest = "480 hour ago UTC"
           
             try:
                 #klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "09 May 2022")
@@ -322,8 +327,12 @@ def my_thread(name):
                         minutes=30)
                 elif interval_for_klinesT == Client.KLINE_INTERVAL_1HOUR:
                     datetime_result_min = datetime.now() - timedelta(hours=1)
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_2HOUR:
+                    datetime_result_min = datetime.now() - timedelta(hours=2)
                 elif interval_for_klinesT == Client.KLINE_INTERVAL_4HOUR:
                     datetime_result_min = datetime.now() - timedelta(hours=4)
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_6HOUR:
+                    datetime_result_min = datetime.now() - timedelta(hours=6)
                 elif interval_for_klinesT == Client.KLINE_INTERVAL_1DAY:
                     datetime_result_min = datetime.now() - timedelta(hours=24)
                 else:
@@ -358,6 +367,10 @@ def my_thread(name):
                 elif interval_for_klinesT == Client.KLINE_INTERVAL_30MINUTE:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour == datetime_result_min_hour and data_minute >= datetime_result_min_minute
                 elif interval_for_klinesT == Client.KLINE_INTERVAL_1HOUR:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour  #and data_minute >= datetime_result_min_minute
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_2HOUR:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour  #and data_minute >= datetime_result_min_minute
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_6HOUR:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour  #and data_minute >= datetime_result_min_minute
                 else:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
