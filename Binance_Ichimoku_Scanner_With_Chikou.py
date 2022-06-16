@@ -65,15 +65,6 @@ for fg in glob.glob("CS_*.txt"):
 # print("Scanning type = ", scan_type.name)
 # log_to_results("Scanning type = " + scan_type.name)
 
-HISTORY_RESOLUTION_1MINUTE = 60
-HISTORY_RESOLUTION_3MINUTE = 60 * 3
-HISTORY_RESOLUTION_5MINUTE = 60 * 5
-HISTORY_RESOLUTION_15MINUTE = 60 * 15
-HISTORY_RESOLUTION_30MINUTE = 60 * 30
-HISTORY_RESOLUTION_1HOUR = 60 * 60
-HISTORY_RESOLUTION_4HOUR = 60 * 60 * 4
-HISTORY_RESOLUTION_1DAY = 60 * 60 * 24
-
 results_count = 0
 
 stop_thread = False
@@ -554,3 +545,13 @@ x.start()
             # else:
             #     print("What should I set for Client KLINE_INTERVAL ?")
             #     exit()
+
+# HISTORY_RESOLUTION_1MINUTE = 60
+# HISTORY_RESOLUTION_3MINUTE = 60 * 3
+# HISTORY_RESOLUTION_5MINUTE = 60 * 5
+# HISTORY_RESOLUTION_15MINUTE = 60 * 15
+# HISTORY_RESOLUTION_30MINUTE = 60 * 30
+# HISTORY_RESOLUTION_1HOUR = 60 * 60
+# HISTORY_RESOLUTION_4HOUR = 60 * 60 * 4
+# HISTORY_RESOLUTION_1DAY = 60 * 60 * 24
+
