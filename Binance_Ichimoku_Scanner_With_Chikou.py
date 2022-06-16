@@ -74,7 +74,7 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_15MINUTE
+interval_for_klinesT = Client.KLINE_INTERVAL_1DAY
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -135,8 +135,8 @@ def my_thread(name):
             if not symbol.endswith('USDT') or symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT"):
                 continue
 
-            #if symbol != 'BANDUSDT':
-                #continue
+            # if symbol != 'BTCUSDT':
+            #     continue
 
             if scan_futures:
               print(symbol, "trying to scan in futures")
@@ -237,14 +237,14 @@ def my_thread(name):
                 ts = rowdf['ICH_TS']
                 # cs = rowdf['ICH_CS']
                 try:
-                    cs = dframe['ICH_CS'].iloc[
-                        -26 - 1]  # chikou span concernant bougie n en cours
-                    cs2 = dframe['ICH_CS'].iloc[
-                        -26 - 2]  # chikou span concernant bougie n-1
+                    ssa = dframe['ICH_SSA'].iloc[-1] # bougie n-1 car bougie 0 donne nan ?
+                    ssb = dframe['ICH_SSB'].iloc[-1] # bougie n-1 car bougie 0 donne nan ?
+                    cs = dframe['ICH_CS'].iloc[-26 - 1]  # cs bougie n en cours
+                    cs2 = dframe['ICH_CS'].iloc[-26 - 2]  # cs bougie n-1
                     #ssbchikou = dframe['ICH_SSB'].iloc[-26 - 1 + 2]
                     #ssbchikou2 = dframe['ICH_SSB'].iloc[-26 - 2 + 2]
                     #ssbchikou3 = dframe['ICH_SSB'].iloc[-26 - 3 + 2]
-                    ssbchikou = dframe['ICH_SSB'].iloc[-52]
+                    ssbchikou = dframe['ICH_SSB'].iloc[-26]
                     ssbchikou2 = dframe['ICH_SSB'].iloc[-52 - 1]
                     ssbchikou3 = dframe['ICH_SSB'].iloc[-52 - 2]
                     ssachikou = dframe['ICH_SSA'].iloc[-26 + 1]
@@ -275,11 +275,11 @@ def my_thread(name):
                 timestamp = pd.to_datetime(rowdf['timestamp'], unit='ms')
 
                 error_nan_values = False
-                # To check the values of Ichimoku data (use TradingView with Ichimoku Cloud to compare them)
-                #print(str(timestamp) + " " + symbol + " closecs=" + str(closechikou) + " closecs2=" + str(closechikou2) + " CS=" + str(cs) + " CS2=" + str(cs2) + " SSBCS=" + str(ssbchikou) + " SSBCS2=" + str(ssbchikou2) + " SSBCS3=" + str(ssbchikou3) + " KSCS=" + str(kijunchikou)+ " KSCS2=" + str(kijunchikou2)+ " KSCS3=" + str(kijunchikou3) + " TSCS=" + str(tenkanchikou)+ " TSCS2=" + str(tenkanchikou2)+ " TSCS3=" + str(tenkanchikou3) + " SSACS=" + str(ssachikou) + " SSACS2=" + str(ssachikou2) + " SSACS3=" + str(ssachikou3))
-                #exit()
+                #To check the values of Ichimoku data (use TradingView with Ichimoku Cloud to compare them)
+                # log_to_results(str(timestamp) + " " + symbol + " closecs=" + str(closechikou) + " closecs2=" + str(closechikou2) + " CS=" + str(cs) + " CS2=" + str(cs2) + " SSBCS=" + str(ssbchikou) + " SSBCS2=" + str(ssbchikou2) + " SSBCS3=" + str(ssbchikou3) + " KSCS=" + str(kijunchikou)+ " KSCS2=" + str(kijunchikou2)+ " KSCS3=" + str(kijunchikou3) + " TSCS=" + str(tenkanchikou)+ " TSCS2=" + str(tenkanchikou2)+ " TSCS3=" + str(tenkanchikou3) + " SSACS=" + str(ssachikou) + " SSACS2=" + str(ssachikou2) + " SSACS3=" + str(ssachikou3) + " SSA=" + str(ssa) + " SSB=" + str(ssb))
+                # exit()
               
-                if math.isnan(closechikou) or math.isnan(
+                if math.isnan(ssa) or math.isnan(ssb) or math.isnan(closechikou) or math.isnan(
                         closechikou2
                 ) or math.isnan(cs) or math.isnan(cs2) or math.isnan(
                         ssbchikou) or math.isnan(ssbchikou2) or math.isnan(
@@ -392,9 +392,9 @@ def my_thread(name):
                 elif interval_for_klinesT == Client.KLINE_INTERVAL_12HOUR:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour  #and data_minute >= datetime_result_min_minute
                 elif interval_for_klinesT == Client.KLINE_INTERVAL_1DAY:
-                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
+                    result_ok = data_day >= datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year# and data_hour >= datetime_result_min_hour
                 elif interval_for_klinesT == Client.KLINE_INTERVAL_3DAY:
-                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year# and data_hour >= datetime_result_min_hour
                 else:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour >= datetime_result_min_hour
 
@@ -404,6 +404,7 @@ def my_thread(name):
 
                 if scan:
                     if result_ok:
+                      #print("result ok")
                       # if openp < ssb < close or openp > ssb and close > ssb:
                       # Define your own criterias for filtering assets on the line below
 
@@ -505,8 +506,9 @@ def my_thread(name):
             log_to_results(100 * '*' + "\n")
 
         new_dict = sorted(dict_evol.items(), key=lambda kv: (kv[1], kv[0]))
-        print(str(datetime.now()) + " " + str(new_dict))
-        log_to_evol(str(datetime.now()) + " " + str(new_dict))
+        if new_dict:
+          print(str(datetime.now()) + " " + str(new_dict))
+          log_to_evol(str(datetime.now()) + " " + str(new_dict))
 
         # Remove the line below to scan in loop
         #stop_thread = True
