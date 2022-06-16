@@ -1,3 +1,5 @@
+# Not maintained anymore ; Instead, use https://github.com/reuniware/Binance-and-FTX-API-Work/blob/main/Binance_Ichimoku_Scanner_With_Chikou.py
+
 import glob, os
 from datetime import datetime
 from datetime import timedelta
