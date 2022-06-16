@@ -300,7 +300,7 @@ def my_thread(name):
                     # quit(0)
 
                 if error_nan_values:
-                    continue
+                    break
 
                 filename = "CS_" + symbol.replace('/', '_') + ".txt"
                 if os.path.exists(filename):
