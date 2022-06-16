@@ -74,7 +74,7 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_1DAY
+interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -500,7 +500,7 @@ def my_thread(name):
                                 ssa) + " SSB=" + str(ssb) + " KS=" + str(
                                     ks) + " TS=" + str(ts) + " CS=" + str(
                                         cs) + " SSB CS=" + str(ssbchikou) + " EVOL%(C/O)=" + str(evol_co)
-                    log_to_results(str_result)
+                    log_to_results(str(datetime.now()) + ":" + str_result)
 
         if new_results_found:
             log_to_results(100 * '*' + "\n")
