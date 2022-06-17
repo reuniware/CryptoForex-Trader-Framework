@@ -1,4 +1,4 @@
-# Given a high price and a low price, calculate the high price + 1/4 of the difference between high and low
+# Given a high price and a low price, calculates the high price + 1/4 of the difference between high and low
 
 phigh = 21388
 plow = 20637
