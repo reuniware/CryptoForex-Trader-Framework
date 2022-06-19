@@ -18,7 +18,7 @@ class ScanType(Enum):
   DOWN = 1
 
 # Set this variable to ScanType.UP for scanning uptrend assets or to ScanType.DOWN for scanning downtrend assets
-scan_type = ScanType.DOWN
+scan_type = ScanType.UP
 
 # Set this variable to False to scan in spot mode
 scan_futures = True
@@ -74,7 +74,7 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE
+interval_for_klinesT = Client.KLINE_INTERVAL_4HOUR
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -139,9 +139,9 @@ def my_thread(name):
             #     continue
 
             if scan_futures:
-              print(symbol, "trying to scan in futures")
+              print(symbol, "trying to scan in futures", end=" ")
             else:
-              print(symbol, "trying to scan")
+              print(symbol, "trying to scan", end=" ")
 
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
@@ -154,6 +154,8 @@ def my_thread(name):
                 else:
                   klinesT = Client().get_historical_klines(
                       symbol, interval_for_klinesT, days_ago_for_klinest)
+
+                print(" (ok)")
                   
                 dframe = pd.DataFrame(klinesT,
                                       columns=[
@@ -196,6 +198,7 @@ def my_thread(name):
                 continue
             except binance.exceptions.BinanceAPIException:
               # in case the symbol does not exist in futures then this exception is thrown
+              print("")
               continue
 
             # a = time.time()
