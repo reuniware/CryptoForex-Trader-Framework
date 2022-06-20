@@ -74,7 +74,7 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_4HOUR
+interval_for_klinesT = Client.KLINE_INTERVAL_6HOUR
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -483,12 +483,12 @@ def my_thread(name):
                                 )  # We add the data with variable parts
 
                                 if scan_futures:
-                                  str_result += "\nhttps://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol + "PERP"
+                                  str_result += "\nhttps://fr.tradingview.com/chart/?symbol=BINANCE%3A" + symbol + "PERP"
                                 else:
-                                  str_result += "\nhttps://fr.tradingview.com/chart/4hWFksx8/?symbol=BINANCE%3A" + symbol
+                                  str_result += "\nhttps://fr.tradingview.com/chart/?symbol=BINANCE%3A" + symbol
 
                                 print(str_result + "\n")
-                                log_to_results(str_result + "\n")
+                                log_to_results(str(datetime.now()) + ":" + str_result + "\n")
 
                                 dict_evol[symbol] = evol_co
 
