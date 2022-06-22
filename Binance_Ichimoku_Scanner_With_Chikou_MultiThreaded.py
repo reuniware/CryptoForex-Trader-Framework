@@ -111,6 +111,7 @@ new_results_found = False
 
 def execute_code(symbol):
             global results_count, dict_evol
+            global new_results_found
             symbol_type = "n/a"
 
             try:
@@ -476,7 +477,7 @@ def execute_code(symbol):
                     log_to_results(str(datetime.now()) + ":" + str_result)
 
 
-maxthreads = 50
+maxthreads = 25
 threadLimiter = threading.BoundedSemaphore(maxthreads)
 
 def scan_one(symbol):
