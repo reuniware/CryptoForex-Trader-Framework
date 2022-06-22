@@ -74,12 +74,12 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_3MINUTE
+interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
 if interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
-  days_ago_for_klinest = "120 minute ago UTC"
+  days_ago_for_klinest = "80 minute ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_3MINUTE:
   days_ago_for_klinest = "240 minute ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
