@@ -107,11 +107,11 @@ elif interval_for_klinesT == Client.KLINE_INTERVAL_3DAY:
 
 
 dict_evol = {}
+new_results_found = False
 
 def execute_code(symbol):
             global results_count, dict_evol
             symbol_type = "n/a"
-            new_results_found = False
 
             try:
                 #klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "09 May 2022")
@@ -476,8 +476,8 @@ def execute_code(symbol):
                     log_to_results(str(datetime.now()) + ":" + str_result)
 
 
-# maxthreads = 5
-threadLimiter = threading.BoundedSemaphore(5)
+maxthreads = 50
+threadLimiter = threading.BoundedSemaphore(maxthreads)
 
 def scan_one(symbol):
     threadLimiter.acquire()
