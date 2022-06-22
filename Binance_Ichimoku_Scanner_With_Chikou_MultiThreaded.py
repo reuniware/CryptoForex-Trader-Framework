@@ -28,7 +28,7 @@ def log_to_results(str_to_log):
     fr.write(str_to_log + "\n")
     fr.close()
 
-
+ 
 def log_to_errors(str_to_log):
     fr = open("errors.txt", "a")
     fr.write(str_to_log + "\n")
