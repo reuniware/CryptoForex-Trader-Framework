@@ -28,7 +28,7 @@ def log_to_results(str_to_log):
     fr.write(str_to_log + "\n")
     fr.close()
 
- 
+
 def log_to_errors(str_to_log):
     fr = open("errors.txt", "a")
     fr.write(str_to_log + "\n")
@@ -122,7 +122,7 @@ def execute_code(symbol):
                   klinesT = Client().get_historical_klines(
                       symbol, interval_for_klinesT, days_ago_for_klinest)
 
-                print(" (ok)")
+                #print(" (ok)")
                   
                 dframe = pd.DataFrame(klinesT,
                                       columns=[
@@ -165,7 +165,7 @@ def execute_code(symbol):
                 return
             except binance.exceptions.BinanceAPIException:
               # in case the symbol does not exist in futures then this exception is thrown
-              print("")
+              #print("")
               return
 
             # a = time.time()
@@ -492,6 +492,7 @@ threads = []
 
 def main_thread(name):
     global client, list_results, results_count, stop_thread, interval_for_klinesT
+    global new_results_found
 
     log_to_evol(str(datetime.now()))
 
@@ -523,9 +524,11 @@ def main_thread(name):
             #     continue
 
             if scan_futures:
-              print(symbol, "trying to scan in futures", end=" ")
+              #print(symbol, "trying to scan in futures", end=" ")
+              print(symbol, "trying to scan in futures")
             else:
-              print(symbol, "trying to scan", end=" ")
+              #print(symbol, "trying to scan", end=" ")
+              print(symbol, "trying to scan")
 
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
