@@ -540,7 +540,7 @@ def main_thread(name):
 
             print(symbol, symbol_type)
             if not (symbol_type == "future"):
-                print("this is not future, this is ", symbol_type)
+                #print("this is not future, this is ", symbol_type)
                 continue
 
             # filtering symbols to scan here
