@@ -470,9 +470,9 @@ def execute_code(symbol):
                                 )  # We add the data with variable parts
 
                                 if scan_futures:
-                                  str_result += "\nhttps://fr.tradingview.com/chart/?symbol=BINANCE%3A" + symbol + "PERP"
+                                  str_result += "\nhttps://fr.tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("-","")
                                 else:
-                                  str_result += "\nhttps://fr.tradingview.com/chart/?symbol=BINANCE%3A" + symbol
+                                  str_result += "\nhttps://fr.tradingview.com/chart/?symbol=FTX%3A" + symbol
 
                                 print(str_result + "\n")
                                 log_to_results(str(datetime.now()) + ":" + str_result + "\n")
