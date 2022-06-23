@@ -128,10 +128,10 @@ def execute_code(symbol):
             HISTORY_RESOLUTION_4HOUR = 60 * 60 * 4
             HISTORY_RESOLUTION_DAY = 60 * 60 * 24
 
-            history_resolution = HISTORY_RESOLUTION_4HOUR  # define the resolution used for the scan here
+            history_resolution = HISTORY_RESOLUTION_MINUTE  # define the resolution used for the scan here
             delta_time = 0
             if history_resolution == HISTORY_RESOLUTION_MINUTE:         # using this resolution seems not ok, must be improved
-                delta_time = 60 * 5
+                delta_time = 60 * 5 * 25
             elif history_resolution == HISTORY_RESOLUTION_5MINUTE:      # using this resolution seems not ok, must be improved
                 delta_time = 60 * 5 * 100
             elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
@@ -141,13 +141,13 @@ def execute_code(symbol):
             elif history_resolution == HISTORY_RESOLUTION_4HOUR:
                 delta_time = 60 * 60 * 3 * 15 * 2 * 4
             elif history_resolution == HISTORY_RESOLUTION_DAY:
-                delta_time = 60 * 60 * 2000
+                delta_time = 60 * 60 * 24 * 50
 
             try:
                 data = client.get_historical_data(
                     market_name=symbol,
                     resolution=history_resolution,  # 60min * 60sec = 3600 sec
-                    limit=10000,
+                    limit=100000,
                     start_time=float(round(time.time())) - delta_time,
                     # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
                     end_time=float(round(time.time())))
@@ -210,7 +210,7 @@ def execute_code(symbol):
                 dframe['ICH_CS'] = dframe['close'].shift(-26)
 
             except KeyError as err:
-                print(err)
+                print("ERR001", err) 
                 return
 
             for indexdf, rowdf in dframe.iterrows():
@@ -253,7 +253,7 @@ def execute_code(symbol):
                     tenkanchikou3 = dframe['ICH_TS'].iloc[-26 - 3 + 1]
 
                 except IndexError as error:
-                    print(symbol + " EXCEPTION " + str(error))
+                    print("ERR002", symbol + " EXCEPTION " + str(error))
                     log_to_errors(symbol + " EXCEPTION " + str(error) + '\n')
                     # quit(0)
                     break
