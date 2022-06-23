@@ -538,7 +538,7 @@ def main_thread(name):
             symbol = row['name']
             symbol_type = row['type']
 
-            print(symbol, symbol_type)
+            #print(symbol, symbol_type)
             if not (symbol_type == "future"):
                 #print("this is not future, this is ", symbol_type)
                 continue
