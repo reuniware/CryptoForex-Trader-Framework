@@ -538,21 +538,24 @@ def main_thread(name):
             symbol = row['name']
             symbol_type = row['type']
 
-            print(symbol)
+            print(symbol, symbol_type)
+            if not (symbol_type == "future"):
+                print("this is not future, this is ", symbol_type)
+                continue
 
             # filtering symbols to scan here
-            if not symbol.endswith('USDT') or symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT"):
-                continue
+            #if not symbol.endswith('USDT') or symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT"):
+            #    continue
 
             # if symbol != 'BTCUSDT':
             #     continue
 
-            if scan_futures:
+            #if scan_futures:
               #print(symbol, "trying to scan in futures", end=" ")
-              print(symbol, "trying to scan in futures")
-            else:
+            #  print(symbol, "trying to scan in futures")
+            #else:
               #print(symbol, "trying to scan", end=" ")
-              print(symbol, "trying to scan")
+            #  print(symbol, "trying to scan")
 
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
