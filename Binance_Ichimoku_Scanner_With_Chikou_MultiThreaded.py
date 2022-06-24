@@ -74,7 +74,7 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_5MINUTE
+interval_for_klinesT = Client.KLINE_INTERVAL_4HOUR
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -215,7 +215,7 @@ def execute_code(symbol):
                     #ssbchikou = dframe['ICH_SSB'].iloc[-26 - 1 + 2]
                     #ssbchikou2 = dframe['ICH_SSB'].iloc[-26 - 2 + 2]
                     #ssbchikou3 = dframe['ICH_SSB'].iloc[-26 - 3 + 2]
-                    ssbchikou = dframe['ICH_SSB'].iloc[-26]
+                    ssbchikou = dframe['ICH_SSB'].iloc[-26 * 2]
                     ssbchikou2 = dframe['ICH_SSB'].iloc[-52 - 1]
                     ssbchikou3 = dframe['ICH_SSB'].iloc[-52 - 2]
                     ssachikou = dframe['ICH_SSA'].iloc[-26 + 1]
@@ -355,6 +355,8 @@ def execute_code(symbol):
                 elif interval_for_klinesT == Client.KLINE_INTERVAL_1HOUR:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour  #and data_minute >= datetime_result_min_minute
                 elif interval_for_klinesT == Client.KLINE_INTERVAL_2HOUR:
+                    result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour  #and data_minute >= datetime_result_min_minute
+                elif interval_for_klinesT == Client.KLINE_INTERVAL_4HOUR:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour  #and data_minute >= datetime_result_min_minute
                 elif interval_for_klinesT == Client.KLINE_INTERVAL_6HOUR:
                     result_ok = data_day == datetime_result_min_day and data_month == datetime_result_min_month and data_year == datetime_result_min_year and data_hour > datetime_result_min_hour  #and data_minute >= datetime_result_min_minute
