@@ -1,3 +1,5 @@
+#Seems not accurate. I'll work on this version adapted to FTX, as soon as possible (do not use, or help me make it accurate :) ).
+
 import glob, os
 from datetime import datetime
 from datetime import timedelta
