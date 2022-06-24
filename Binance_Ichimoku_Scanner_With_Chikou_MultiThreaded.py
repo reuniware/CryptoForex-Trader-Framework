@@ -23,6 +23,8 @@ scan_type = ScanType.UP
 # Set this variable to False to scan in spot mode
 scan_futures = True
 
+str_twitter = ""
+
 def log_to_results(str_to_log):
     fr = open("results.txt", "a")
     fr.write(str_to_log + "\n")
@@ -112,6 +114,8 @@ new_results_found = False
 def execute_code(symbol):
             global results_count, dict_evol
             global new_results_found
+            global str_twitter
+
             symbol_type = "n/a"
 
             try:
@@ -465,6 +469,8 @@ def execute_code(symbol):
 
                                 dict_evol[symbol] = evol_co
 
+                                str_twitter += "$" + symbol.replace("USDT", "") + " "
+
                 else:
                     # if result_ok:
                     print(timestamp, symbol, "O", openp, "H", high, "L", low,
@@ -477,7 +483,7 @@ def execute_code(symbol):
                                     ks) + " TS=" + str(ts) + " CS=" + str(
                                         cs) + " SSB CS=" + str(ssbchikou) + " EVOL%(C/O)=" + str(evol_co)
                     log_to_results(str(datetime.now()) + ":" + str_result)
-
+            
 
 maxthreads = 25
 threadLimiter = threading.BoundedSemaphore(maxthreads)
@@ -565,6 +571,8 @@ def main_thread(name):
 
         # Remove the line below to scan in loop
         #stop_thread = True
+
+        log_to_results(str_twitter)
 
 
 x = threading.Thread(target=main_thread, args=(1,))
