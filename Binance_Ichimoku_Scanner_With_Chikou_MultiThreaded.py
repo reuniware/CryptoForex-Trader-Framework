@@ -115,12 +115,13 @@ dict_evol = {}
 new_results_found = False
 
 nb_trending_assets = 0
+nb_total_assets = 0
 
 def execute_code(symbol):
             global results_count, dict_evol
             global new_results_found
             global str_twitter
-            global nb_trending_assets
+            global nb_trending_assets, nb_total_assets
 
             symbol_type = "n/a"
 
@@ -134,6 +135,7 @@ def execute_code(symbol):
                       symbol, interval_for_klinesT, days_ago_for_klinest)
 
                 #print(" (ok)")
+                nb_total_assets = nb_total_assets + 1
                   
                 dframe = pd.DataFrame(klinesT,
                                       columns=[
@@ -391,7 +393,6 @@ def execute_code(symbol):
                       #print("result ok")
                       # if openp < ssb < close or openp > ssb and close > ssb:
                       # Define your own criterias for filtering assets on the line below
-                      nb_trending_assets = nb_trending_assets + 1
 
                       if scan_type == ScanType.UP:
                           condition_is_satisfied = openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou
@@ -403,6 +404,8 @@ def execute_code(symbol):
                           condition_is_satisfied = openp < ks and close < ks and close < ts and close < openp and close < ssa and close < ssb and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou
                       
                       if condition_is_satisfied:
+                            nb_trending_assets = nb_trending_assets + 1
+
                             cs_results = ""
 
                             if scan_type == ScanType.UP:
@@ -512,7 +515,7 @@ threads = []
 def main_thread(name):
     global client, list_results, results_count, stop_thread, interval_for_klinesT
     global new_results_found
-    global nb_trending_assets
+    global nb_trending_assets, nb_total_assets
 
     log_to_evol(str(datetime.now()))
 
@@ -561,13 +564,17 @@ def main_thread(name):
                 continue
 
         nb_trending_assets = 0
+        nb_total_assets = 0
 
         for tt in threads:
             tt.join()
 
         log_to_results(str(datetime.now()) + " nb_trending_assets =" + str(nb_trending_assets))
         log_to_evol(str(datetime.now()) + " nb_trending_assets =" + str(nb_trending_assets))
-        
+
+        log_to_results(str(datetime.now()) + " nb_total_assets =" + str(nb_total_assets))
+        log_to_evol(str(datetime.now()) + " nb_total_assets =" + str(nb_total_assets))
+
         print(str(datetime.now()) + " All threads finished.")
         log_to_results(str(datetime.now()) + " All threads finished.")
 
