@@ -18,7 +18,7 @@ class ScanType(Enum):
   DOWN = 1
 
 # Set this variable to ScanType.UP for scanning uptrend assets or to ScanType.DOWN for scanning downtrend assets
-scan_type = ScanType.UP
+scan_type = ScanType.DOWN
 
 # Set this variable to False to scan in spot mode
 scan_futures = True
@@ -75,8 +75,11 @@ list_results = []
 
 array_futures = []
 
+# Set loop_scan to True to scan in loop
+loop_scan = True
+
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_4HOUR
+interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -111,10 +114,13 @@ elif interval_for_klinesT == Client.KLINE_INTERVAL_3DAY:
 dict_evol = {}
 new_results_found = False
 
+nb_trending_assets = 0
+
 def execute_code(symbol):
             global results_count, dict_evol
             global new_results_found
             global str_twitter
+            global nb_trending_assets
 
             symbol_type = "n/a"
 
@@ -381,12 +387,15 @@ def execute_code(symbol):
 
                 if scan:
                     if result_ok:
+                    
                       #print("result ok")
                       # if openp < ssb < close or openp > ssb and close > ssb:
                       # Define your own criterias for filtering assets on the line below
+                      nb_trending_assets = nb_trending_assets + 1
 
                       if scan_type == ScanType.UP:
                           condition_is_satisfied = openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou
+                          #condition_is_satisfied = openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou
                           #condition_is_satisfied = (ssb>ssa and openp<ssb and close>ssb) or (ssa>ssb and openp<ssa and close>ssa)
                           #condition_is_satisfied = openp<ks and close>ks
                           #condition_is_satisfied = openp>ssa and close>ssa and openp>ssb and close>ssb
@@ -498,10 +507,12 @@ def scan_one(symbol):
 
 threads = []
 
+#nb_trending_assets = 0
 
 def main_thread(name):
     global client, list_results, results_count, stop_thread, interval_for_klinesT
     global new_results_found
+    global nb_trending_assets
 
     log_to_evol(str(datetime.now()))
 
@@ -549,16 +560,23 @@ def main_thread(name):
             except requests.exceptions.ConnectionError:
                 continue
 
+        nb_trending_assets = 0
+
         for tt in threads:
             tt.join()
 
+        log_to_results(str(datetime.now()) + " nb_trending_assets =" + str(nb_trending_assets))
+        log_to_evol(str(datetime.now()) + " nb_trending_assets =" + str(nb_trending_assets))
+        
         print(str(datetime.now()) + " All threads finished.")
         log_to_results(str(datetime.now()) + " All threads finished.")
 
         time.sleep(1)
 
-        stop_thread = True
-
+        if loop_scan == True:
+            stop_thread = False
+        else:
+            stop_thread = True
         #####
 
         if new_results_found:
@@ -568,6 +586,7 @@ def main_thread(name):
         if new_dict:
           print(str(datetime.now()) + " " + str(new_dict))
           log_to_evol(str(datetime.now()) + " " + str(new_dict))
+          log_to_results(str(datetime.now()) + " " + str(new_dict))
 
         # Remove the line below to scan in loop
         #stop_thread = True
