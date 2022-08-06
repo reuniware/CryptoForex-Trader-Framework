@@ -5,6 +5,36 @@ import pandas as pd
 
 from binance import AsyncClient
 
+tab_high = []
+tab_low = []
+
+
+def get_kijun(num_candlestick):
+    highest = 0
+    lowest = float('inf')
+    for j in range(len(tab_high) - 26 - num_candlestick,
+                   len(tab_high) - num_candlestick):  # -26-1 pour avoir sur bougie précédente
+        # print(tab_high[j])
+        if tab_high[j] > highest:
+            highest = tab_high[j]
+        if tab_low[j] < lowest:
+            lowest = tab_low[j]
+    kijun = (highest + lowest) / 2
+    return kijun
+
+
+def get_tenkan(num_candlestick):
+    highest = 0
+    lowest = float('inf')
+    for j in range(len(tab_high) - 9 - num_candlestick, len(tab_high) - num_candlestick):
+        # print(tab_high[j])
+        if tab_high[j] > highest:
+            highest = tab_high[j]
+        if tab_low[j] < lowest:
+            lowest = tab_low[j]
+    tenkan = (highest + lowest) / 2
+    return tenkan
+
 
 async def main():
     # exchange_info = await client.get_exchange_info()
@@ -16,8 +46,8 @@ async def main():
         candles = await client.get_klines(symbol='BTCUSDT', interval=client.KLINE_INTERVAL_1HOUR)
         # print(candles)
         i = 0
-        tab_high = []
-        tab_low = []
+        # tab_high = []
+        # tab_low = []
         for data in candles:
             opentime = data[0]
             open = float(data[1])
@@ -36,35 +66,10 @@ async def main():
         # print(len(tab_high))
         # print(len(tab_high) - 26)
 
-        num_candlestick = 0
-
-        highest = 0
-        lowest = float('inf')
-        for j in range(len(tab_high) - 26 - num_candlestick, len(tab_high) - num_candlestick):  # -26-1 pour avoir sur bougie précédente
-            # print(tab_high[j])
-            if tab_high[j] > highest:
-                highest = tab_high[j]
-            if tab_low[j] < lowest:
-                lowest = tab_low[j]
-        kijun = (highest + lowest) / 2
-
-        print("highest26", highest)
-        print("lowest26", lowest)
-
-        highest = 0
-        lowest = float('inf')
-        for j in range(len(tab_high) - 9 - num_candlestick, len(tab_high) - num_candlestick):
-            # print(tab_high[j])
-            if tab_high[j] > highest:
-                highest = tab_high[j]
-            if tab_low[j] < lowest:
-                lowest = tab_low[j]
-        tenkan = (highest + lowest) / 2
-
-        print("highest9", highest)
-        print("lowest9", lowest)
-        print("kijun", kijun)
-        print("tenkan", tenkan)
+        print("kijun", get_kijun(0))
+        print("tenkan", get_tenkan(0))
+        print("kijun", get_kijun(1))
+        print("tenkan", get_tenkan(1))
 
         await client.close_connection()
 
