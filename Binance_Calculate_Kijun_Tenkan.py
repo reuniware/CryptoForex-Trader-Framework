@@ -48,6 +48,9 @@ async def main():
                 lowest = tab_low[j]
         kijun = (highest + lowest) / 2
 
+        print("highest26", highest)
+        print("lowest26", lowest)
+
         highest = 0
         lowest = float('inf')
         for j in range(len(tab_high) - 9 - num_candlestick, len(tab_high) - num_candlestick):
@@ -58,8 +61,8 @@ async def main():
                 lowest = tab_low[j]
         tenkan = (highest + lowest) / 2
 
-        print("highest26", highest)
-        print("lowest26", lowest)
+        print("highest9", highest)
+        print("lowest9", lowest)
         print("kijun", kijun)
         print("tenkan", tenkan)
 
