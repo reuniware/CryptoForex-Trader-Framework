@@ -14,7 +14,7 @@ def get_kijun(num_candlestick):
     lowest = float('inf')
     for j in range(len(tab_high) - 26 - num_candlestick,
                    len(tab_high) - num_candlestick):  # -26-1 pour avoir sur bougie précédente
-        # print(tab_high[j])
+        # print(j, tab_high[j])
         if tab_high[j] > highest:
             highest = tab_high[j]
         if tab_low[j] < lowest:
@@ -48,6 +48,8 @@ async def main():
         i = 0
         # tab_high = []
         # tab_low = []
+        tab_high.clear()
+        tab_low.clear()
         for data in candles:
             opentime = data[0]
             open = float(data[1])
