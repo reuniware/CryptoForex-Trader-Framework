@@ -12,9 +12,9 @@ async def main():
         client = await AsyncClient.create()
         tickers = await client.get_all_tickers()
         trades = await client.get_recent_trades(symbol='BTCUSDT')
-        #print(trades)
+        # print(trades)
         candles = await client.get_klines(symbol='BTCUSDT', interval=client.KLINE_INTERVAL_1HOUR)
-        #print(candles)
+        # print(candles)
         i = 0
         tab_high = []
         tab_low = []
@@ -28,25 +28,40 @@ async def main():
             nextclosetime = data[6]
             opentimestamp = pd.to_datetime(opentime, unit='ms') + timedelta(hours=2)
             nextclosetimestamp = pd.to_datetime(nextclosetime, unit='ms') + timedelta(hours=2)
-            print(i, opentimestamp, nextclosetimestamp, close, close/open)
+            print(i, opentimestamp, nextclosetimestamp, close, close / open)
             i = i + 1
             tab_high.append(high)
             tab_low.append(low)
 
+        # print(len(tab_high))
+        # print(len(tab_high) - 26)
+
+        num_candlestick = 0
+
         highest = 0
         lowest = float('inf')
-        #print(len(tab_high))
-        #print(len(tab_high) - 26)
-        for j in range(len(tab_high) - 26 - 1, len(tab_high)):
-            #print(tab_high[j])
+        for j in range(len(tab_high) - 26 - num_candlestick, len(tab_high) - num_candlestick):  # -26-1 pour avoir sur bougie précédente
+            # print(tab_high[j])
             if tab_high[j] > highest:
                 highest = tab_high[j]
             if tab_low[j] < lowest:
                 lowest = tab_low[j]
+        kijun = (highest + lowest) / 2
 
-        print("highest", highest)
-        print("lowest", lowest)
-        print("kijun", (highest+lowest)/2)
+        highest = 0
+        lowest = float('inf')
+        for j in range(len(tab_high) - 9 - num_candlestick, len(tab_high) - num_candlestick):
+            # print(tab_high[j])
+            if tab_high[j] > highest:
+                highest = tab_high[j]
+            if tab_low[j] < lowest:
+                lowest = tab_low[j]
+        tenkan = (highest + lowest) / 2
+
+        print("highest26", highest)
+        print("lowest26", lowest)
+        print("kijun", kijun)
+        print("tenkan", tenkan)
 
         await client.close_connection()
 
@@ -62,6 +77,7 @@ async def main():
         # "1756.87402397",    # Taker buy base asset volume
         # "28.46694368",      # Taker buy quote asset volume
         # "17928899.62484339" # Can be ignored
+
 
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
