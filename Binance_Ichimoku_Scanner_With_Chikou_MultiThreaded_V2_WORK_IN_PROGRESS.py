@@ -91,7 +91,7 @@ loop_scan = True
 maxthreads = 5
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_1MINUTE
+interval_for_klinesT = Client.KLINE_INTERVAL_2HOUR
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -409,7 +409,7 @@ def execute_code(symbol):
 
                       if scan_type == ScanType.UP:
                           #condition_is_satisfied = close > openp and openp < ks and close > ks 
-                          condition_is_satisfied = ts > ts2 and close > openp and close > ssa and close > ssb and close / openp > 1.0025
+                          condition_is_satisfied = ts > ts2 and ts/ts2 > 1.008 and close > openp and close > ssa and close > ssb #and close / openp > 1.0025
                           #condition_is_satisfied = ts > ts2 and (ts/ts2 > 1.10)
                           #condition_is_satisfied = close > openp and openp > ks and openp > ssb and close > ks and close > ts and close > ssa and close > ssb and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou
                           #condition_is_satisfied = openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou
