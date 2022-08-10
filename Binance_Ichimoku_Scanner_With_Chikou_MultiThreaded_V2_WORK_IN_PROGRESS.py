@@ -91,7 +91,7 @@ loop_scan = True
 maxthreads = 5
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_1DAY
+interval_for_klinesT = Client.KLINE_INTERVAL_12HOUR
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -409,7 +409,7 @@ def execute_code(symbol):
 
                       if scan_type == ScanType.UP:
                           #condition_is_satisfied = close > openp and openp < ks and close > ks 
-                          condition_is_satisfied = ts > ts2 and close > openp and close > ssa and close > ssb and close > ts and close > ks and closechikou > ssachikou and closechikou > ssbchikou #and close / openp > 1.0025
+                          condition_is_satisfied = ts/ts2>1.015 and ts > ts2 and close > openp and close > ssa and close > ssb and close > ts and close > ks and closechikou > ssachikou and closechikou > ssbchikou #and close / openp > 1.0025
                           #condition_is_satisfied = ts > ts2 and ts/ts2 > 1.004 and close > openp and close > ssa and close > ssb #and close / openp > 1.0025
                           #condition_is_satisfied = ts > ts2 and (ts/ts2 > 1.10)
                           #condition_is_satisfied = close > openp and openp > ks and openp > ssb and close > ks and close > ts and close > ssa and close > ssb and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou
@@ -424,7 +424,8 @@ def execute_code(symbol):
                             nb_trending_assets = nb_trending_assets + 1
 
                             print(symbol, "ts", ts, "ts2", ts2, "ts/ts2", ts/ts2)
-                            log_to_tenkan(symbol + " c=" + str(close) + " o=" + str(openp) + " c/o=" + str(close/openp) + " ts=" + str(ts) + " ts2=" + str(ts2) + " ts/ts2=" + str(ts/ts2))
+                            str_lien = "https://fr.tradingview.com/chart/?symbol=BINANCE%3A" + symbol
+                            log_to_tenkan(symbol + " c=" + str(close) + " o=" + str(openp) + " c/o=" + str(close/openp) + " ts=" + str(ts) + " ts2=" + str(ts2) + " ts/ts2=" + str(ts/ts2) + " " + str_lien)
 
                             cs_results = ""
 
