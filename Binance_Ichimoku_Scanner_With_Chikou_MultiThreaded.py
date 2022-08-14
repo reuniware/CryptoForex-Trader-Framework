@@ -85,6 +85,7 @@ results_count = 0
 stop_thread = False
 
 list_results = []
+list_results_tenkan = []
 
 array_futures = []
 
@@ -99,27 +100,27 @@ print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
 if interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
-    days_ago_for_klinest = "80 minute ago UTC"
+    days_ago_for_klinest = "160 minute ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_3MINUTE:
-    days_ago_for_klinest = "240 minute ago UTC"
+    days_ago_for_klinest = "480 minute ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
-    days_ago_for_klinest = "400 minute ago UTC"
+    days_ago_for_klinest = "480 minute ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
     days_ago_for_klinest = "1200 minute ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_30MINUTE:
-    days_ago_for_klinest = "2400 minute ago UTC"
+    days_ago_for_klinest = "80 hour ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_1HOUR:
     days_ago_for_klinest = "80 hour ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_2HOUR:
-    days_ago_for_klinest = "160 hour ago UTC"
-elif interval_for_klinesT == Client.KLINE_INTERVAL_4HOUR:
-    days_ago_for_klinest = "320 hour ago UTC"
-elif interval_for_klinesT == Client.KLINE_INTERVAL_6HOUR:
-    days_ago_for_klinest = "480 hour ago UTC"
-elif interval_for_klinesT == Client.KLINE_INTERVAL_8HOUR:
-    days_ago_for_klinest = "640 hour ago UTC"
-elif interval_for_klinesT == Client.KLINE_INTERVAL_12HOUR:
     days_ago_for_klinest = "960 hour ago UTC"
+elif interval_for_klinesT == Client.KLINE_INTERVAL_4HOUR:
+    days_ago_for_klinest = "960 hour ago UTC"
+elif interval_for_klinesT == Client.KLINE_INTERVAL_6HOUR:
+    days_ago_for_klinest = "160 day ago UTC"
+elif interval_for_klinesT == Client.KLINE_INTERVAL_8HOUR:
+    days_ago_for_klinest = "160 day ago UTC"
+elif interval_for_klinesT == Client.KLINE_INTERVAL_12HOUR:
+    days_ago_for_klinest = "160 day ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_1DAY:
     days_ago_for_klinest = "160 day ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_3DAY:
@@ -127,13 +128,14 @@ elif interval_for_klinesT == Client.KLINE_INTERVAL_3DAY:
 
 dict_evol = {}
 new_results_found = False
+new_results_tenkan_found = False
 
 nb_trending_assets = 0
 nb_total_assets = 0
 
 
 def execute_code(symbol):
-    global results_count, dict_evol
+    global results_count, dict_evol, new_results_tenkan_found
     global new_results_found
     global str_twitter
     global nb_trending_assets, nb_total_assets
@@ -214,6 +216,15 @@ def execute_code(symbol):
         # cs = rowdf['ICH_CS']
 
         try:
+            high2 = dframe['high'].iloc[-2]
+            high3 = dframe['high'].iloc[-3]
+            high4 = dframe['high'].iloc[-4]
+            high5 = dframe['high'].iloc[-5]
+            high6 = dframe['high'].iloc[-6]
+            high7 = dframe['high'].iloc[-7]
+            high8 = dframe['high'].iloc[-8]
+            high9 = dframe['high'].iloc[-9]
+
             ts2 = dframe['ICH_TS'].iloc[-2]
             ts3 = dframe['ICH_TS'].iloc[-3]
             ssa = dframe['ICH_SSA'].iloc[-1]  # bougie n-1 car bougie 0 donne nan ?
@@ -323,7 +334,7 @@ def execute_code(symbol):
         elif interval_for_klinesT == Client.KLINE_INTERVAL_2HOUR:
             datetime_result_min = datetime.now() - timedelta(hours=2)
         elif interval_for_klinesT == Client.KLINE_INTERVAL_4HOUR:
-            datetime_result_min = datetime.now() - timedelta(hours=4)
+            datetime_result_min = datetime.now() - timedelta(hours=8)
         elif interval_for_klinesT == Client.KLINE_INTERVAL_6HOUR:
             datetime_result_min = datetime.now() - timedelta(hours=6)
         elif interval_for_klinesT == Client.KLINE_INTERVAL_8HOUR:
@@ -396,9 +407,9 @@ def execute_code(symbol):
 
                 if scan_type == ScanType.UP:
                     # condition_is_satisfied = close > openp and openp < ks and close > ks
-                    condition_is_satisfied = (ssb > ssa and openp < ssb and close > ssb)
+                    #condition_is_satisfied = (ssb > ssa and openp < ssb and close > ssb)
                     #condition_is_satisfied = (ssbchikou3 > ssachikou3 and ssbchikou2 > ssachikou2 and cs3 < ssbchikou3 and cs2 > ssbchikou2) or (ssachikou3 > ssbchikou3 and ssachikou2 > ssbchikou2 and cs3 < ssachikou3 and cs2 > ssachikou2)
-                    # condition_is_satisfied = close > openp and ((ssb > ssa and openp < ssb and close > ssb) or (ssa > ssb and openp < ssa and close > ssa))
+                    condition_is_satisfied = close > high2 and close > high3 and close > high4 and close > high5 and close > openp and close > ts and close > ks and close > ssa and close > ssb and cs > kijunchikou and cs > tenkanchikou and cs > ssachikou and cs > ssbchikou and cs > closechikou
                     # condition_is_satisfied = ts > ts2 and close > openp and close > ssa and close > ssb and close > ts and close > ks and closechikou > ssachikou and closechikou > ssbchikou #and close / openp > 1.0025
                     # H12 : condition_is_satisfied = ts/ts2>1.015 and ts > ts2 and close > openp and close > ssa and close > ssb and close > ts and close > ks and closechikou > ssachikou and closechikou > ssbchikou #and close / openp > 1.0025
                     # condition_is_satisfied = ts > ts2 and ts/ts2 > 1.004 and close > openp and close > ssa and close > ssb #and close / openp > 1.0025
@@ -414,11 +425,20 @@ def execute_code(symbol):
                 if condition_is_satisfied:
                     nb_trending_assets = nb_trending_assets + 1
 
-                    print(symbol, "ts", ts, "ts2", ts2, "ts/ts2", ts / ts2)
+                    #print(symbol, "ts", ts, "ts2", ts2, "ts/ts2", ts / ts2)
+
                     str_lien = "https://tradingview.com/chart/?symbol=BINANCE%3A" + symbol
-                    log_to_tenkan(
-                        symbol + " c=" + str(close) + " o=" + str(openp) + " c/o=" + str(close / openp) + " ts=" + str(
-                            ts) + " ts2=" + str(ts2) + " ts/ts2=" + str(ts / ts2) + " " + str_lien)
+                    str_result_tenkan = symbol + " c=" + str(close) + " o=" + str(openp) + " c/o=" + str(close / openp) + " ts=" + str(ts) + " ts2=" + str(ts2) + " ts/ts2=" + str(ts / ts2) + " " + str_lien
+
+                    if not (str_result_tenkan in list_results_tenkan):
+                        if not(new_results_tenkan_found):
+                            new_results_tenkan_found = True
+                        list_results_tenkan.append(str_result_tenkan)
+
+                        log_to_tenkan(str(datetime.now()) + ":" + str_result_tenkan)
+                        #log_to_tenkan(str(dframe['close'].iloc[-1]))
+
+                    #print(symbol, "ssachikou3", ssachikou3, "ssachikou2" ,ssachikou2, "cs3", cs3, "cs2", cs2)
 
                     cs_results = ""
 
@@ -458,17 +478,8 @@ def execute_code(symbol):
                         # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol_co)
 
                     # print("")
-                    str_result = str(
-                        timestamp
-                    ) + " " + symbol + " " + symbol_type + " SSA=" + str(
-                        ssa
-                    ) + " SSB=" + str(ssb) + " KS=" + str(
-                        ks
-                    ) + " TS=" + str(ts) + " O=" + str(
-                        openp
-                    ) + " H=" + str(high) + " L=" + str(
-                        low
-                    ) + " SSBCS=" + str(
+                    str_result = str(timestamp) + " " + symbol + " " + symbol_type + " SSA=" + str(ssa) + " SSB=" + str(ssb) + " KS=" + str(
+                        ks) + " TS=" + str(ts) + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " SSBCS=" + str(
                         ssbchikou)  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol_co)     # We don't concatenate the variable parts (for comparisons in list_results)
 
                     if not (str_result in list_results):
@@ -477,13 +488,7 @@ def execute_code(symbol):
                         results_count = results_count + 1
                         list_results.append(str_result)
                         # print(cs_results)
-                        str_result = cs_results + "\n" + str(
-                            results_count
-                        ) + " " + str_result + " C=" + str(
-                            close
-                        ) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(
-                            evol_co
-                        )  # We add the data with variable parts
+                        str_result = cs_results + "\n" + str(results_count) + " " + str_result + " C=" + str(close) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(evol_co)  # We add the data with variable parts
 
                         if scan_futures:
                             str_result += "\nhttps://tradingview.com/chart/?symbol=BINANCE%3A" + symbol + "PERP"
@@ -512,6 +517,7 @@ def execute_code(symbol):
                 ssa) + " SSB=" + str(ssb) + " KS=" + str(
                 ks) + " TS=" + str(ts) + " CS=" + str(
                 cs) + " SSB CS=" + str(ssbchikou) + " EVOL%(C/O)=" + str(evol_co)
+
             log_to_results(str(datetime.now()) + ":" + str_result)
 
 
