@@ -100,7 +100,7 @@ print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
 if interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
-    days_ago_for_klinest = "160 minute ago UTC"
+    days_ago_for_klinest = "320 minute ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_3MINUTE:
     days_ago_for_klinest = "480 minute ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
@@ -406,10 +406,21 @@ def execute_code(symbol):
                 # Define your own criterias for filtering assets on the line below
 
                 if scan_type == ScanType.UP:
+
+                    # if current close price is greater than n previous high prices then we consider it is growing
+                    growing = False
+                    for n in range(2, 3): #50 for 1-min
+                        high_n = dframe['high'].iloc[-n]
+                        if close < high_n:
+                            growing = False
+                            break
+                        growing = True
+
                     # condition_is_satisfied = close > openp and openp < ks and close > ks
                     #condition_is_satisfied = (ssb > ssa and openp < ssb and close > ssb)
                     #condition_is_satisfied = (ssbchikou3 > ssachikou3 and ssbchikou2 > ssachikou2 and cs3 < ssbchikou3 and cs2 > ssbchikou2) or (ssachikou3 > ssbchikou3 and ssachikou2 > ssbchikou2 and cs3 < ssachikou3 and cs2 > ssachikou2)
-                    condition_is_satisfied = close > high2 and close > high3 and close > high4 and close > high5 and close > openp and close > ts and close > ks and close > ssa and close > ssb and cs > kijunchikou and cs > tenkanchikou and cs > ssachikou and cs > ssbchikou and cs > closechikou
+                    condition_is_satisfied = growing == True and close > openp and close > ts and close > ks and close > ssa and close > ssb and cs > kijunchikou and cs > tenkanchikou and cs > ssachikou and cs > ssbchikou and cs > closechikou
+                    #condition_is_satisfied = close > high2 and close > high3 and close > high4 and close > high5 and close > openp and close > ts and close > ks and close > ssa and close > ssb and cs > kijunchikou and cs > tenkanchikou and cs > ssachikou and cs > ssbchikou and cs > closechikou
                     # condition_is_satisfied = ts > ts2 and close > openp and close > ssa and close > ssb and close > ts and close > ks and closechikou > ssachikou and closechikou > ssbchikou #and close / openp > 1.0025
                     # H12 : condition_is_satisfied = ts/ts2>1.015 and ts > ts2 and close > openp and close > ssa and close > ssb and close > ts and close > ks and closechikou > ssachikou and closechikou > ssbchikou #and close / openp > 1.0025
                     # condition_is_satisfied = ts > ts2 and ts/ts2 > 1.004 and close > openp and close > ssa and close > ssb #and close / openp > 1.0025
@@ -572,12 +583,12 @@ def main_thread(name):
             #if symbol != 'BTCUSDT':
                 #continue
 
-            if scan_futures:
+            #if scan_futures:
                 # print(symbol, "trying to scan in futures", end=" ")
                 print(symbol, "trying to scan in futures")
-            else:
+            #else:
                 # print(symbol, "trying to scan", end=" ")
-                print(symbol, "trying to scan")
+                #print(symbol, "trying to scan")
 
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
