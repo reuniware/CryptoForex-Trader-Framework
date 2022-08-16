@@ -11,6 +11,7 @@ import threading
 import time
 import ta
 import math
+import tweepy
 
 from enum import Enum
 
@@ -27,6 +28,33 @@ scan_type = ScanType.UP
 scan_futures = False
 
 str_twitter = ""
+
+enable_tweet = False
+
+
+def tweet(str_to_tweet):
+    if enable_tweet is False:
+        return
+
+    twitter_auth_keys = {
+        "consumer_key": "",
+        "consumer_secret": "",
+        "access_token": "",
+        "access_token_secret": ""
+    }
+
+    auth = tweepy.OAuthHandler(
+        twitter_auth_keys['consumer_key'],
+        twitter_auth_keys['consumer_secret']
+    )
+    auth.set_access_token(
+        twitter_auth_keys['access_token'],
+        twitter_auth_keys['access_token_secret']
+    )
+    api = tweepy.API(auth)
+
+    tweet = str_to_tweet
+    status = api.update_status(status=tweet)
 
 
 def log_to_results(str_to_log):
@@ -145,14 +173,17 @@ def execute_code(symbol):
     try:
         # klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, "09 May 2022")
         if scan_futures:
-            klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, days_ago_for_klinest, klines_type=HistoricalKlinesType.FUTURES)
+            klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, days_ago_for_klinest,
+                                                     klines_type=HistoricalKlinesType.FUTURES)
         else:
             klinesT = Client().get_historical_klines(symbol, interval_for_klinesT, days_ago_for_klinest)
 
         # print(" (ok)")
         nb_total_assets = nb_total_assets + 1
 
-        dframe = pd.DataFrame(klinesT, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av', 'trades', 'tb_base_av', 'tb_quote_av', 'ignore'])
+        dframe = pd.DataFrame(klinesT,
+                              columns=['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av',
+                                       'trades', 'tb_base_av', 'tb_quote_av', 'ignore'])
 
         del dframe['ignore']
         del dframe['close_time']
@@ -174,7 +205,7 @@ def execute_code(symbol):
         log_to_errors("Erreur (HTTPError) tentative obtention données historiques pour " + symbol)
         return
     except requests.exceptions.ConnectionError:
-        print( "Erreur (ConnectionError) tentative obtention données historiques pour " + symbol)
+        print("Erreur (ConnectionError) tentative obtention données historiques pour " + symbol)
         log_to_errors("Erreur (ConnectionError) tentative obtention données historiques pour " + symbol)
         return
     except binance.exceptions.BinanceAPIException:
@@ -197,8 +228,8 @@ def execute_code(symbol):
         dframe['ICH_TS'] = ta.trend.ichimoku_conversion_line(dframe['high'], dframe['low'])
         dframe['ICH_CS'] = dframe['close'].shift(-25)
 
-        #with pd.option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
-            #print(dframe['ICH_CS'])
+        # with pd.option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
+        # print(dframe['ICH_CS'])
 
     except KeyError as err:
         print(err)
@@ -235,23 +266,23 @@ def execute_code(symbol):
             cs = dframe['ICH_CS'].iloc[-26]  # cs bougie n en cours
             cs2 = dframe['ICH_CS'].iloc[-27]  # cs bougie n-1
             cs3 = dframe['ICH_CS'].iloc[-28]  # cs bougie n en cours
-            #print(cs, cs2)
+            # print(cs, cs2)
             ssbchikou = dframe['ICH_SSB'].iloc[-26]
             ssbchikou2 = dframe['ICH_SSB'].iloc[-27]
             ssbchikou3 = dframe['ICH_SSB'].iloc[-28]
             ssbchikou4 = dframe['ICH_SSB'].iloc[-29]
             ssbchikou5 = dframe['ICH_SSB'].iloc[-30]
             ssbchikou6 = dframe['ICH_SSB'].iloc[-31]
-            #print(ssbchikou, ssbchikou2, ssbchikou3, ssbchikou4, ssbchikou5, ssbchikou6)
+            # print(ssbchikou, ssbchikou2, ssbchikou3, ssbchikou4, ssbchikou5, ssbchikou6)
 
             ssachikou = dframe['ICH_SSA'].iloc[-26]
             ssachikou2 = dframe['ICH_SSA'].iloc[-27]
             ssachikou3 = dframe['ICH_SSA'].iloc[-28]
-            #print(ssachikou, ssachikou2, ssachikou3)
+            # print(ssachikou, ssachikou2, ssachikou3)
 
             closechikou = dframe['close'].iloc[-26]
             closechikou2 = dframe['close'].iloc[-27]
-            #print(closechikou, closechikou2)
+            # print(closechikou, closechikou2)
 
             openchikou = dframe['open'].iloc[-26]
             openchikou2 = dframe['open'].iloc[-27]
@@ -265,12 +296,12 @@ def execute_code(symbol):
             kijunchikou = dframe['ICH_KS'].iloc[-26]
             kijunchikou2 = dframe['ICH_KS'].iloc[-27]
             kijunchikou3 = dframe['ICH_KS'].iloc[-28]
-            #print(kijunchikou, kijunchikou2, kijunchikou3)
+            # print(kijunchikou, kijunchikou2, kijunchikou3)
 
             tenkanchikou = dframe['ICH_TS'].iloc[-26]
             tenkanchikou2 = dframe['ICH_TS'].iloc[-27]
             tenkanchikou3 = dframe['ICH_TS'].iloc[-28]
-            #print(tenkanchikou, tenkanchikou2, tenkanchikou3)
+            # print(tenkanchikou, tenkanchikou2, tenkanchikou3)
 
         except IndexError as error:
             print(symbol + " EXCEPTION " + str(error))
@@ -409,7 +440,7 @@ def execute_code(symbol):
 
                     # if current close price is greater than n previous high prices then we consider it is growing
                     growing = False
-                    for n in range(2, 3): #50 for 1-min
+                    for n in range(2, 3):  # 50 for 1-min
                         high_n = dframe['high'].iloc[-n]
                         if close < high_n:
                             growing = False
@@ -417,8 +448,9 @@ def execute_code(symbol):
                         growing = True
 
                     # condition_is_satisfied = close > openp and openp < ks and close > ks
-                    condition_is_satisfied = growing == True and close > (high - high/100*0.2) and high > low and close > openp and close > ssa and close > ssb#and cs > ssachikou and cs > ssbchikou and cs > highchikou
-                    #condition_is_satisfied = ssbchikou3 > ssachikou3 and ssbchikou2 > ssachikou2 and ssb and cs3 < ssbchikou3 and cs2 > ssbchikou2 
+                    condition_is_satisfied = growing == True and close > (
+                                high - high / 100 * 0.2) and high > low and close > openp and close > ssa and close > ssb and close > ts and close > ks  # and cs > ssachikou and cs > ssbchikou and cs > highchikou
+                    # condition_is_satisfied = ssbchikou3 > ssachikou3 and ssbchikou2 > ssachikou2 and ssb and cs3 < ssbchikou3 and cs2 > ssbchikou2
                     # H12 : condition_is_satisfied = ts/ts2>1.015 and ts > ts2 and close > openp and close > ssa and close > ssb and close > ts and close > ks and closechikou > ssachikou and closechikou > ssbchikou #and close / openp > 1.0025
                     # condition_is_satisfied = ts > ts2 and ts/ts2 > 1.004 and close > openp and close > ssa and close > ssb #and close / openp > 1.0025
                     # condition_is_satisfied = ts > ts2 and (ts/ts2 > 1.10)
@@ -433,21 +465,42 @@ def execute_code(symbol):
                 if condition_is_satisfied:
                     nb_trending_assets = nb_trending_assets + 1
 
-                    #print("cs cs2 cs3", cs, cs2, cs3)
-                    #print(symbol, "ts", ts, "ts2", ts2, "ts/ts2", ts / ts2)
+                    # print("cs cs2 cs3", cs, cs2, cs3)
+                    # print(symbol, "ts", ts, "ts2", ts2, "ts/ts2", ts / ts2)
 
                     str_lien = "https://tradingview.com/chart/?symbol=BINANCE%3A" + symbol
-                    str_result_tenkan = symbol + " c=" + str(close) + " o=" + str(openp) + " c/o=" + str(close / openp) + " ts=" + str(ts) + " ts2=" + str(ts2) + " ts/ts2=" + str(ts / ts2) + " " + str_lien
+                    str_result_tenkan = symbol + " c=" + str(close) + " o=" + str(openp) + " c/o=" + str(
+                        close / openp) + " ts=" + str(ts) + " ts2=" + str(ts2) + " ts/ts2=" + str(
+                        ts / ts2) + " " + str_lien
 
                     if not (str_result_tenkan in list_results_tenkan):
-                        if not(new_results_tenkan_found):
+                        if not (new_results_tenkan_found):
                             new_results_tenkan_found = True
                         list_results_tenkan.append(str_result_tenkan)
 
                         log_to_tenkan(str(datetime.now()) + ":" + str_result_tenkan)
-                        #log_to_tenkan(str(dframe['close'].iloc[-1]))
 
-                    #print(symbol, "ssachikou3", ssachikou3, "ssachikou2" ,ssachikou2, "cs3", cs3, "cs2", cs2)
+                        symboltweet = ''
+
+                        if symbol.endswith('DOWNUSDT') or symbol.endswith('UPUSDT'):
+                            symboltweet = '#' + symbol
+                        elif symbol.endswith('USDT'):
+                            symboltweet = '$' + symbol.replace('USDT', '')
+                        else:
+                            symboltweet = '#' + symbol
+
+                        str_for_twitter = str(datetime.now()) + " : " + symboltweet + " is pumping now (" + str(
+                            interval_for_klinesT) + "). \nCurrent price=" + str(
+                            close) + " $usdt\n#Ichimoku #MicroPumpBot #DataScience #DataScientist #FrenchCoder #FrenchProgrammer"
+                        if len(str_for_twitter) > 280:
+                            print("Len of tweet is > 280")
+                        else:
+                            print("Len of tweet is ok = " + str(len(str_for_twitter)))
+                            tweet(str_for_twitter)
+
+                        # log_to_tenkan(str(dframe['close'].iloc[-1]))
+
+                    # print(symbol, "ssachikou3", ssachikou3, "ssachikou2" ,ssachikou2, "cs3", cs3, "cs2", cs2)
 
                     cs_results = ""
 
@@ -487,8 +540,10 @@ def execute_code(symbol):
                         # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol_co)
 
                     # print("")
-                    str_result = str(timestamp) + " " + symbol + " " + symbol_type + " SSA=" + str(ssa) + " SSB=" + str(ssb) + " KS=" + str(
-                        ks) + " TS=" + str(ts) + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " SSBCS=" + str(
+                    str_result = str(timestamp) + " " + symbol + " " + symbol_type + " SSA=" + str(ssa) + " SSB=" + str(
+                        ssb) + " KS=" + str(
+                        ks) + " TS=" + str(ts) + " O=" + str(openp) + " H=" + str(high) + " L=" + str(
+                        low) + " SSBCS=" + str(
                         ssbchikou)  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol_co)     # We don't concatenate the variable parts (for comparisons in list_results)
 
                     if not (str_result in list_results):
@@ -497,7 +552,9 @@ def execute_code(symbol):
                         results_count = results_count + 1
                         list_results.append(str_result)
                         # print(cs_results)
-                        str_result = cs_results + "\n" + str(results_count) + " " + str_result + " C=" + str(close) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(evol_co)  # We add the data with variable parts
+                        str_result = cs_results + "\n" + str(results_count) + " " + str_result + " C=" + str(
+                            close) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(
+                            evol_co)  # We add the data with variable parts
 
                         if scan_futures:
                             str_result += "\nhttps://tradingview.com/chart/?symbol=BINANCE%3A" + symbol + "PERP"
@@ -517,9 +574,12 @@ def execute_code(symbol):
                 del (dict_evol[symbol])
 
             # if result_ok:
-            print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "SSB CS", ssbchikou)
-            str_result = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(
-                ssa) + " SSB=" + str(ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " SSB CS=" + str(ssbchikou) + " EVOL%(C/O)=" + str(evol_co)
+            print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks,
+                  "TS", ts, "CS", cs, "SSB CS", ssbchikou)
+            str_result = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(
+                low) + " C=" + str(close) + " SSA=" + str(
+                ssa) + " SSB=" + str(ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " SSB CS=" + str(
+                ssbchikou) + " EVOL%(C/O)=" + str(evol_co)
 
             log_to_results(str(datetime.now()) + ":" + str_result)
 
@@ -572,18 +632,18 @@ def main_thread(name):
             if not symbol.endswith('USDT'):  # or symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT"):
                 continue
 
-            if symbol in ('BUSDUSDT', 'USDCUSDT'):
+            if symbol in ('BUSDUSDT', 'USDCUSDT', 'TUSDUSDT'):
                 continue
 
-            #if symbol != 'BTCUSDT':
-                #continue
+                # if symbol != 'BTCUSDT':
+                # continue
 
-            #if scan_futures:
+                # if scan_futures:
                 # print(symbol, "trying to scan in futures", end=" ")
                 print(symbol, "trying to scan in futures")
-            #else:
-                # print(symbol, "trying to scan", end=" ")
-                #print(symbol, "trying to scan")
+            # else:
+            # print(symbol, "trying to scan", end=" ")
+            # print(symbol, "trying to scan")
 
             # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
             #     continue
@@ -623,9 +683,12 @@ def main_thread(name):
 
         new_dict = sorted(dict_evol.items(), key=lambda kv: (kv[1], kv[0]))
         if new_dict:
-            print(str(datetime.now()) + " " + str(new_dict))
+            print(str(datetime.now()) + " " + str(new_dict) + "\n")
             log_to_evol(str(datetime.now()) + " " + str(new_dict))
-            log_to_results(str(datetime.now()) + " " + str(new_dict))
+            log_to_results(str(datetime.now()) + " " + str(new_dict) + "\n")
+
+        dict_evol.clear()
+        list_results.clear()
 
         # Remove the line below to scan in loop
         # stop_thread = True
