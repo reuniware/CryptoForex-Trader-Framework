@@ -92,10 +92,10 @@ array_futures = []
 # Set loop_scan to True to scan in loop
 loop_scan = True
 
-maxthreads = 5
+maxthreads = 100
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_1DAY
+interval_for_klinesT = Client.KLINE_INTERVAL_4HOUR
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -417,7 +417,8 @@ def execute_code(symbol):
                         growing = True
 
                     # condition_is_satisfied = close > openp and openp < ks and close > ks
-                    condition_is_satisfied = close > (high - high/100*0.2) and high > low and close > openp #and cs > ssachikou and cs > ssbchikou and cs > highchikou
+                    condition_is_satisfied = growing == True and close > (high - high/100*0.2) and high > low and close > openp and close > ssa and close > ssb#and cs > ssachikou and cs > ssbchikou and cs > highchikou
+                    #condition_is_satisfied = ssbchikou3 > ssachikou3 and ssbchikou2 > ssachikou2 and ssb and cs3 < ssbchikou3 and cs2 > ssbchikou2 
                     # H12 : condition_is_satisfied = ts/ts2>1.015 and ts > ts2 and close > openp and close > ssa and close > ssb and close > ts and close > ks and closechikou > ssachikou and closechikou > ssbchikou #and close / openp > 1.0025
                     # condition_is_satisfied = ts > ts2 and ts/ts2 > 1.004 and close > openp and close > ssa and close > ssb #and close / openp > 1.0025
                     # condition_is_satisfied = ts > ts2 and (ts/ts2 > 1.10)
@@ -569,6 +570,9 @@ def main_thread(name):
 
             # filtering symbols to scan here
             if not symbol.endswith('USDT'):  # or symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT"):
+                continue
+
+            if symbol in ('BUSDUSDT', 'USDCUSDT'):
                 continue
 
             #if symbol != 'BTCUSDT':
