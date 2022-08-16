@@ -120,7 +120,7 @@ array_futures = []
 # Set loop_scan to True to scan in loop
 loop_scan = True
 
-maxthreads = 100
+maxthreads = 50
 
 # Set the timeframe to scan on the following line
 interval_for_klinesT = Client.KLINE_INTERVAL_4HOUR
@@ -632,7 +632,7 @@ def main_thread(name):
             if not symbol.endswith('USDT'):  # or symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT"):
                 continue
 
-            if symbol in ('BUSDUSDT', 'USDCUSDT', 'TUSDUSDT'):
+            if symbol in ('BUSDUSDT', 'USDCUSDT', 'TUSDUSDT', 'USDPUSDT'):
                 continue
 
                 # if symbol != 'BTCUSDT':
