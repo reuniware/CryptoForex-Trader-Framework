@@ -123,7 +123,7 @@ loop_scan = True
 maxthreads = 50
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_1DAY
+interval_for_klinesT = Client.KLINE_INTERVAL_1HOUR
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -138,7 +138,7 @@ elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
 elif interval_for_klinesT == Client.KLINE_INTERVAL_30MINUTE:
     days_ago_for_klinest = "80 hour ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_1HOUR:
-    days_ago_for_klinest = "80 hour ago UTC"
+    days_ago_for_klinest = "160 hour ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_2HOUR:
     days_ago_for_klinest = "960 hour ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_4HOUR:
@@ -490,7 +490,9 @@ def execute_code(symbol):
                     #condition_is_satisfied = open2 < ks2 and close > ks
                     #condition_is_satisfied = low >= ssb and low <= ssb + ssb/100*0.5
                     # condition_is_satisfied = close > openp and openp < ks and close > ks
-                    condition_is_satisfied = growing == True and close > (high - high / 100 * 0.2) and high > low and close > openp and close > ssa and close > ssb and close > ts and close > ks  # and cs > ssachikou and cs > ssbchikou and cs > highchikou
+                    condition_is_satisfied = ssbchikou2 > ssachikou2 and ssbchikou3 > ssachikou3 and cs3 < ssbchikou3 and cs2 > ssbchikou2
+                    #condition_is_satisfied = growing == True and close > (high - high / 100 * 0.2) and high > low and close > openp and close > ssa and close > ssb and close > ts and close > ks and cs > kijunchikou # and cs > ssachikou and cs > ssbchikou and cs > highchikou
+                    #condition_is_satisfied = growing == True and close > (high - high / 100 * 0.2) and high > low and close > openp and close > ssa and close > ssb and close > ts and close > ks  # and cs > ssachikou and cs > ssbchikou and cs > highchikou
                     # condition_is_satisfied = ssbchikou3 > ssachikou3 and ssbchikou2 > ssachikou2 and ssb and cs3 < ssbchikou3 and cs2 > ssbchikou2
                     # H12 : condition_is_satisfied = ts/ts2>1.015 and ts > ts2 and close > openp and close > ssa and close > ssb and close > ts and close > ks and closechikou > ssachikou and closechikou > ssbchikou #and close / openp > 1.0025
                     # condition_is_satisfied = ts > ts2 and ts/ts2 > 1.004 and close > openp and close > ssa and close > ssb #and close / openp > 1.0025
@@ -508,6 +510,8 @@ def execute_code(symbol):
 
                     # print("cs cs2 cs3", cs, cs2, cs3)
                     # print(symbol, "ts", ts, "ts2", ts2, "ts/ts2", ts / ts2)
+
+                    print("ssbchikou2, ssachikou2, ssbchikou3, ssachikou3, cs3, ssbchikou3, cs2, ssbchikou2", ssbchikou2, ssachikou2, ssbchikou3, ssachikou3, cs3, ssbchikou3, cs2, ssbchikou2)
 
                     str_lien = "https://tradingview.com/chart/?symbol=BINANCE%3A" + symbol
                     str_result_tenkan = symbol + " c=" + str(close) + " o=" + str(openp) + " c/o=" + str(
@@ -532,7 +536,7 @@ def execute_code(symbol):
 
                         str_for_twitter = str(datetime.now()) + " : " + symboltweet + " is pumping now (" + str(
                             interval_for_klinesT) + "). \nCurrent price=" + str(
-                            close) + " $usdt\n#Ichimoku #MicroPumpBot #DataScience #DataScientist #FrenchCoder #FrenchProgrammer"
+                            close) + " $usdt\n#Ichimoku #Bitcoin #DataScience #Crypto #Binance"
                         if len(str_for_twitter) > 280:
                             print("Len of tweet is > 280")
                         else:
