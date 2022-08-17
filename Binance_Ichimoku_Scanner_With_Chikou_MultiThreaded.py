@@ -120,23 +120,23 @@ array_futures = []
 # Set loop_scan to True to scan in loop
 loop_scan = True
 
-maxthreads = 50
+maxthreads = 75
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_1HOUR
+interval_for_klinesT = Client.KLINE_INTERVAL_4HOUR
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
 if interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
-    days_ago_for_klinest = "320 minute ago UTC"
+    days_ago_for_klinest = "640 minute ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_3MINUTE:
-    days_ago_for_klinest = "480 minute ago UTC"
+    days_ago_for_klinest = "1920 minute ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
-    days_ago_for_klinest = "480 minute ago UTC"
+    days_ago_for_klinest = "3200 minute ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
-    days_ago_for_klinest = "1200 minute ago UTC"
+    days_ago_for_klinest = "9600 minute ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_30MINUTE:
-    days_ago_for_klinest = "80 hour ago UTC"
+    days_ago_for_klinest = "19200 minute ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_1HOUR:
     days_ago_for_klinest = "160 hour ago UTC"
 elif interval_for_klinesT == Client.KLINE_INTERVAL_2HOUR:
@@ -405,7 +405,7 @@ def execute_code(symbol):
         elif interval_for_klinesT == Client.KLINE_INTERVAL_2HOUR:
             datetime_result_min = datetime.now() - timedelta(hours=2)
         elif interval_for_klinesT == Client.KLINE_INTERVAL_4HOUR:
-            datetime_result_min = datetime.now() - timedelta(hours=8)
+            datetime_result_min = datetime.now() - timedelta(hours=4)
         elif interval_for_klinesT == Client.KLINE_INTERVAL_6HOUR:
             datetime_result_min = datetime.now() - timedelta(hours=6)
         elif interval_for_klinesT == Client.KLINE_INTERVAL_8HOUR:
@@ -413,7 +413,7 @@ def execute_code(symbol):
         elif interval_for_klinesT == Client.KLINE_INTERVAL_12HOUR:
             datetime_result_min = datetime.now() - timedelta(hours=12)
         elif interval_for_klinesT == Client.KLINE_INTERVAL_1DAY:
-            datetime_result_min = datetime.now() - timedelta(hours=24)
+            datetime_result_min = datetime.now() - timedelta(hours=timestamp.hour)
         elif interval_for_klinesT == Client.KLINE_INTERVAL_3DAY:
             datetime_result_min = datetime.now() - timedelta(hours=72)
         else:
@@ -490,10 +490,15 @@ def execute_code(symbol):
                     #condition_is_satisfied = open2 < ks2 and close > ks
                     #condition_is_satisfied = low >= ssb and low <= ssb + ssb/100*0.5
                     # condition_is_satisfied = close > openp and openp < ks and close > ks
-                    condition_is_satisfied = ssbchikou2 > ssachikou2 and ssbchikou3 > ssachikou3 and cs3 < ssbchikou3 and cs2 > ssbchikou2
+                    
+                    #condition_is_satisfied = ((ssbchikou > ssachikou and ssbchikou2 > ssachikou2 and cs2 < ssbchikou2 and cs > ssbchikou) \
+                    #    or (ssachikou > ssbchikou and ssachikou2 < ssbchikou2 and cs2 < ssachikou2 and cs > ssachikou)) \
+                    #    and (cs > ssachikou and cs > ssbchikou and cs > tenkanchikou and cs > kijunchikou)
+
+                    condition_is_satisfied = high > low and close > openp and close > ssa and close > ssb and close > ts and close > ks and cs > kijunchikou # and cs > ssachikou and cs > ssbchikou and cs > highchikou
                     #condition_is_satisfied = growing == True and close > (high - high / 100 * 0.2) and high > low and close > openp and close > ssa and close > ssb and close > ts and close > ks and cs > kijunchikou # and cs > ssachikou and cs > ssbchikou and cs > highchikou
                     #condition_is_satisfied = growing == True and close > (high - high / 100 * 0.2) and high > low and close > openp and close > ssa and close > ssb and close > ts and close > ks  # and cs > ssachikou and cs > ssbchikou and cs > highchikou
-                    # condition_is_satisfied = ssbchikou3 > ssachikou3 and ssbchikou2 > ssachikou2 and ssb and cs3 < ssbchikou3 and cs2 > ssbchikou2
+                    #condition_is_satisfied = ssbchikou3 > ssachikou3 and ssbchikou2 > ssachikou2 and ssb and cs3 < ssbchikou3 and cs2 > ssbchikou2
                     # H12 : condition_is_satisfied = ts/ts2>1.015 and ts > ts2 and close > openp and close > ssa and close > ssb and close > ts and close > ks and closechikou > ssachikou and closechikou > ssbchikou #and close / openp > 1.0025
                     # condition_is_satisfied = ts > ts2 and ts/ts2 > 1.004 and close > openp and close > ssa and close > ssb #and close / openp > 1.0025
                     # condition_is_satisfied = ts > ts2 and (ts/ts2 > 1.10)
@@ -510,20 +515,21 @@ def execute_code(symbol):
 
                     # print("cs cs2 cs3", cs, cs2, cs3)
                     # print(symbol, "ts", ts, "ts2", ts2, "ts/ts2", ts / ts2)
+                    print(symbol, "candlestick timestamp = ", str(timestamp))
 
-                    print("ssbchikou2, ssachikou2, ssbchikou3, ssachikou3, cs3, ssbchikou3, cs2, ssbchikou2", ssbchikou2, ssachikou2, ssbchikou3, ssachikou3, cs3, ssbchikou3, cs2, ssbchikou2)
+                    #print("ssbchikou2, ssachikou2, ssbchikou3, ssachikou3, cs3, ssbchikou3, cs2, ssbchikou2", ssbchikou2, ssachikou2, ssbchikou3, ssachikou3, cs3, ssbchikou3, cs2, ssbchikou2)
 
                     str_lien = "https://tradingview.com/chart/?symbol=BINANCE%3A" + symbol
-                    str_result_tenkan = symbol + " c=" + str(close) + " o=" + str(openp) + " c/o=" + str(
+                    str_result_tenkan = symbol + " " + str_lien + " c=" + str(close) + " o=" + str(openp) + " c/o=" + str(
                         close / openp) + " ts=" + str(ts) + " ts2=" + str(ts2) + " ts/ts2=" + str(
-                        ts / ts2) + " " + str_lien
+                        ts / ts2)
 
                     if not (str_result_tenkan in list_results_tenkan):
                         if not (new_results_tenkan_found):
                             new_results_tenkan_found = True
                         list_results_tenkan.append(str_result_tenkan)
 
-                        log_to_tenkan(str(datetime.now()) + ":" + str_result_tenkan)
+                        log_to_tenkan(str(datetime.now()) + " : " + str(timestamp) + " " + str_result_tenkan)
 
                         symboltweet = ''
 
@@ -675,6 +681,9 @@ def main_thread(name):
 
             # filtering symbols to scan here
             if not symbol.endswith('USDT'):  # or symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT"):
+                continue
+
+            if symbol.endswith('UPUSDT') or symbol.endswith('DOWNUSDT'):  # or symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT"):
                 continue
 
             if symbol in ('BUSDUSDT', 'USDCUSDT', 'TUSDUSDT', 'USDPUSDT'):
