@@ -157,6 +157,7 @@ elif interval_for_klinesT == Client.KLINE_INTERVAL_3DAY:
 
 dict_evol = {}
 dict_detect = {}
+dict_detect_close = {}
 new_results_found = False
 new_results_tenkan_found = False
 
@@ -165,7 +166,7 @@ nb_total_assets = 0
 
 
 def execute_code(symbol):
-    global results_count, dict_evol, new_results_tenkan_found, dict_detect
+    global results_count, dict_evol, new_results_tenkan_found, dict_detect, dict_detect_close
     global new_results_found
     global str_twitter
     global nb_trending_assets, nb_total_assets
@@ -532,6 +533,19 @@ def execute_code(symbol):
                             new_results_tenkan_found = True
                         list_results_tenkan.append(str_result_tenkan)
 
+                        #nbdetect = 0
+                        #previous_close_at_detection = 0.0
+                        #if symbol in dict_detect:
+                        #    previous_close_at_detection = dict_detect_close[symbol]
+                        #    if close >= previous_close_at_detection:
+                        #        nbdetect = dict_detect[symbol]
+                        #        nbdetect = nbdetect + 1
+                        #        dict_detect[symbol] = nbdetect
+                        #        dict_detect_close[symbol] = close
+                        #else:
+                        #    dict_detect[symbol] = 1
+                        #    dict_detect_close[symbol] = close
+
                         nbdetect = 0
                         if symbol in dict_detect:
                             nbdetect = dict_detect[symbol]
@@ -540,7 +554,8 @@ def execute_code(symbol):
                         else:
                             dict_detect[symbol] = 1
 
-                        log_to_tenkan(str(datetime.now()) + " : " + str(timestamp) + " (" + str(dict_detect[symbol]) + ")" + " " + str_result_tenkan)
+
+                        log_to_tenkan(str(datetime.now()) + " : " + str(timestamp) + " (" + str(dict_detect[symbol]) + ") " + str(close) + " " + str_result_tenkan)
 
                         symboltweet = ''
 
