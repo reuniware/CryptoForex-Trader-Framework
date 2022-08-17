@@ -123,7 +123,7 @@ loop_scan = True
 maxthreads = 50
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_4HOUR
+interval_for_klinesT = Client.KLINE_INTERVAL_1DAY
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -256,12 +256,52 @@ def execute_code(symbol):
             high8 = dframe['high'].iloc[-8]
             high9 = dframe['high'].iloc[-9]
 
+            close2 = dframe['close'].iloc[-2]
+            close3 = dframe['close'].iloc[-3]
+            close4 = dframe['close'].iloc[-4]
+            close5 = dframe['close'].iloc[-5]
+            close6 = dframe['close'].iloc[-6]
+            close7 = dframe['close'].iloc[-7]
+            close8 = dframe['close'].iloc[-8]
+            close9 = dframe['close'].iloc[-9]
+
+            open2 = dframe['open'].iloc[-2]
+            open3 = dframe['open'].iloc[-3]
+            open4 = dframe['open'].iloc[-4]
+            open5 = dframe['open'].iloc[-5]
+            open6 = dframe['open'].iloc[-6]
+            open7 = dframe['open'].iloc[-7]
+            open8 = dframe['open'].iloc[-8]
+            open9 = dframe['open'].iloc[-9]
+
+            low2 = dframe['low'].iloc[-2]
+            low3 = dframe['low'].iloc[-3]
+            low4 = dframe['low'].iloc[-4]
+            low5 = dframe['low'].iloc[-5]
+            low6 = dframe['low'].iloc[-6]
+            low7 = dframe['low'].iloc[-7]
+            low8 = dframe['low'].iloc[-8]
+            low9 = dframe['low'].iloc[-9]
+
             ts2 = dframe['ICH_TS'].iloc[-2]
             ts3 = dframe['ICH_TS'].iloc[-3]
+
+            ks2 = dframe['ICH_KS'].iloc[-2]
+            ks3 = dframe['ICH_KS'].iloc[-3]
+
             ssa = dframe['ICH_SSA'].iloc[-1]  # bougie n-1 car bougie 0 donne nan ?
             ssb = dframe['ICH_SSB'].iloc[-1]  # bougie n-1 car bougie 0 donne nan ?
+
             ssa2 = dframe['ICH_SSA'].iloc[-2]  # bougie n-1 car bougie 0 donne nan ?
+            ssa3 = dframe['ICH_SSA'].iloc[-3]  # bougie n-1 car bougie 0 donne nan ?
+            ssa4 = dframe['ICH_SSA'].iloc[-4]  # bougie n-1 car bougie 0 donne nan ?
+            ssa5 = dframe['ICH_SSA'].iloc[-5]  # bougie n-1 car bougie 0 donne nan ?
+
             ssb2 = dframe['ICH_SSB'].iloc[-2]  # bougie n-1 car bougie 0 donne nan ?
+            ssb3 = dframe['ICH_SSB'].iloc[-3]  # bougie n-1 car bougie 0 donne nan ?
+            ssb4 = dframe['ICH_SSB'].iloc[-4]  # bougie n-1 car bougie 0 donne nan ?
+            ssb5 = dframe['ICH_SSB'].iloc[-5]  # bougie n-1 car bougie 0 donne nan ?
+
             # print(ssa, ssb, ssa2, ssb2)
             cs = dframe['ICH_CS'].iloc[-26]  # cs bougie n en cours
             cs2 = dframe['ICH_CS'].iloc[-27]  # cs bougie n-1
@@ -447,9 +487,10 @@ def execute_code(symbol):
                             break
                         growing = True
 
+                    #condition_is_satisfied = open2 < ks2 and close > ks
+                    #condition_is_satisfied = low >= ssb and low <= ssb + ssb/100*0.5
                     # condition_is_satisfied = close > openp and openp < ks and close > ks
-                    condition_is_satisfied = growing == True and close > (
-                                high - high / 100 * 0.2) and high > low and close > openp and close > ssa and close > ssb and close > ts and close > ks  # and cs > ssachikou and cs > ssbchikou and cs > highchikou
+                    condition_is_satisfied = growing == True and close > (high - high / 100 * 0.2) and high > low and close > openp and close > ssa and close > ssb and close > ts and close > ks  # and cs > ssachikou and cs > ssbchikou and cs > highchikou
                     # condition_is_satisfied = ssbchikou3 > ssachikou3 and ssbchikou2 > ssachikou2 and ssb and cs3 < ssbchikou3 and cs2 > ssbchikou2
                     # H12 : condition_is_satisfied = ts/ts2>1.015 and ts > ts2 and close > openp and close > ssa and close > ssb and close > ts and close > ks and closechikou > ssachikou and closechikou > ssbchikou #and close / openp > 1.0025
                     # condition_is_satisfied = ts > ts2 and ts/ts2 > 1.004 and close > openp and close > ssa and close > ssb #and close / openp > 1.0025
