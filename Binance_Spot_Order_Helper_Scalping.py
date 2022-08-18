@@ -2,7 +2,7 @@ import ccxt
 import json
 from pprint import pprint
 
-from ccxt import binance
+from ccxt import binance, Exchange
 
 print('CCXT Version:', ccxt.__version__)
 
@@ -12,34 +12,41 @@ exchange = ccxt.binance({
     'enableRateLimit': True,  # https://github.com/ccxt/ccxt/wiki/Manual#rate-limit
     'options': {
         'defaultType': 'spot',
+        'adjustForTimeDifference': True,
     },
 })
 
 exchange.set_sandbox_mode(True)  # comment if you're not using the testnet
 markets = exchange.load_markets()
-exchange.verbose = True  # debug output
+exchange.verbose = False  # debug output
 
-balance = exchange.fetch_balance()
-pprint(balance)
 
-usdt = 0.0
+def get_usdt_balance():
+    balance = exchange.fetch_balance()
+    #pprint(balance)
 
-for i in balance.items():
-    # print(i)
-    # print("i[0]", i[0])
-    # print("i[1]", i[1])
-    if i[0] == 'free':
-        print(i[1])
-        usdt = (i[1]['USDT'])
+    usdt = 0.0
 
-print("Current balance in USDT", usdt)
+    for i in balance.items():
+        # print(i)
+        # print("i[0]", i[0])
+        # print("i[1]", i[1])
+        if i[0] == 'free':
+            print(i[1])
+            usdt = (i[1]['USDT'])
+
+    return usdt
+
+
+initial_usdt_balance = get_usdt_balance()
+print("Current balance in USDT", initial_usdt_balance)
 
 print("Current market items")
 print("Searching if BTC/USDT is available for trading")
 btcusdt_found = False
-print(exchange.markets.items())
+#print(exchange.markets.items())
 for line in exchange.markets.items():
-    print("line", line)
+    #print("line", line) # décommenter pour voir les différents assets tradables
     if line[0] == "BTC/USDT":
         print("BTC/USDT found (available for trading)")
         btcusdt_found = True
@@ -48,11 +55,11 @@ for line in exchange.markets.items():
 if btcusdt_found is False:
     exit(-1)
 
-exit(-2)
+#exit(-2)
 
 btcusdt_price = 0.0
 quantity_to_buy = 0
-usdt_to_invest = 100
+usdt_to_invest = 5000
 print("Getting price for BTC/USDT")
 ticker = exchange.fetch_ticker("BTC/USDT")
 print(ticker)
@@ -105,15 +112,15 @@ for line in trades:
         break
 
 fills = order["info"]["fills"]
+effective_quantity_bought = 0.0
 for line in fills:
     effective_price_bought = line["price"]
-    effective_quantity_bought = line["qty"]
+    effective_quantity_bought = effective_quantity_bought + float(line["qty"])
     print("effective price bought", line["price"])
     print("effective quantity bought", line["qty"])
     print("effective commission", line["commission"])
     print("effective commission asset", line["commissionAsset"])
     print("effective trader id", line["tradeId"])
-    break  # attention il peut y avoir plusieurs lignes dans fills si l'ordre a été découpé en plusieurs trades !!!! dans ce cas il faut commenter ce break et boucler
 
 if origQty == executedQty:
     print("Quantity asked has been ok for the server")
@@ -127,11 +134,16 @@ exitLoop = False
 while exitLoop is False:
     print("Getting price for BTC/USDT")
     ticker = exchange.fetch_ticker("BTC/USDT")
-    print(ticker)
+    # print(ticker)
     print("ticker", ticker)
-    print(ticker["symbol"], "sell price", ticker["bid"], "buy price", ticker["ask"], "close price", ticker["close"])
+    # print(ticker["symbol"], "sell price", ticker["bid"], "buy price", ticker["ask"], "close price", ticker["close"])
     btcusdt_price = float(ticker["bid"])
-    if btcusdt_price > float(effective_price_bought):
+
+    nouvelle_balance_virtuelle = quantity_to_sell * btcusdt_price
+    print("nouvelle balance virtuelle", "{:.6f}".format(nouvelle_balance_virtuelle))
+
+    #if btcusdt_price > float(effective_price_bought):
+    if nouvelle_balance_virtuelle - usdt_to_invest >= 1.5:
         symbol = 'BTC/USDT'
         type = 'market'  # or 'market'
         side = 'sell'  # or 'buy'
@@ -148,6 +160,6 @@ while exitLoop is False:
         print("Order details")
         print(order)
 
+        print("bénéfice = ", get_usdt_balance() - initial_usdt_balance)
+
         exitLoop = True
-
-
