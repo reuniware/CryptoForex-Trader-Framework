@@ -195,8 +195,8 @@ def sell_all_crypto_for(crypto_to_sell, crypto_to_get):
 
 # eg. I want to know what is the minimum allowed for buying BTC/USDT (eg. buying is allowed for a minimum of 10 usdt)
 def get_allowed_minimum_to_buy(crypto_to_buy, crypto_for_payment):
-    print("Current market items")
-    print("Searching if ", crypto_to_buy, "/", crypto_for_payment, " is available for trading")
+    print("get_allowed_minimum_to_buy: Current market items")
+    print("get_allowed_minimum_to_buy: Searching if ", crypto_to_buy, "/", crypto_for_payment, " is available for trading")
     symbol_found = False
     # print(exchange.markets.items())
     for line in exchange.markets.items():
@@ -207,8 +207,28 @@ def get_allowed_minimum_to_buy(crypto_to_buy, crypto_for_payment):
             print("get_allowed_minimum_to_buy: line[1]", line[1]["info"]["filters"])
             for subline in line[1]["info"]["filters"]:
                 if subline["filterType"] == "MIN_NOTIONAL":
-                    print("minimum allowed to buy in usdt", subline["minNotional"])
+                    print("get_allowed_minimum_to_buy: minimum allowed to buy in", crypto_for_payment, "=", subline["minNotional"])
                     return float(subline["minNotional"])
+            break
+    if symbol_found is False:
+        return -1
+
+
+def get_allowed_maximum_to_sell(crypto_to_buy, crypto_for_payment):
+    print("get_allowed_maximum_to_sell: Current market items")
+    print("get_allowed_maximum_to_sell: Searching if ", crypto_to_buy, "/", crypto_for_payment, " is available for trading")
+    symbol_found = False
+    # print(exchange.markets.items())
+    for line in exchange.markets.items():
+        #print("get_allowed_minimum_to_buy: line", line)  # décommenter pour voir les différents assets tradables
+        if line[0] == crypto_to_buy + "/" + crypto_for_payment:
+            print(crypto_to_buy + "/" + crypto_for_payment, "found (available for trading)")
+            symbol_found = True
+            print("get_allowed_maximum_to_sell: line[1]", line[1]["info"]["filters"])
+            for subline in line[1]["info"]["filters"]:
+                if subline["filterType"] == "MARKET_LOT_SIZE":
+                    print("get_allowed_maximum_to_sell: maximum allowed to sell in", crypto_for_payment, "=", subline["maxQty"])
+                    return float(subline["maxQty"])
             break
     if symbol_found is False:
         return -1
@@ -229,10 +249,13 @@ def is_tradable(symbol_to_trade):
 
 
 def get_tradable_pairs():
+    array_pairs = []
     print("get_tradable_pairs: tradable pairs:")
     for line in exchange.markets.items():
         print(line[0], end=" ")
+        array_pairs.append(line[0])
     print("")
+    return array_pairs
 
 
 # eg. I want to know the current prices for XRP/USDT : get_ticker("XRP/USDT")
@@ -247,6 +270,23 @@ def get_ticker(symbol_to_get):
     buy_price = float(ticker["ask"])
     # print("get_ticker: buy price", buy_price, "sell_price", sell_price)
     return buy_price, sell_price
+
+
+# eg. I want to sell any "/USDT" pair to get USDT (I want to empty every "/USDT" pair)
+def sell_all_usdt_pairs():
+    array_tradable_pairs = get_tradable_pairs()
+    for pair_item in array_tradable_pairs:
+        pair = str(pair_item)
+        if pair.endswith("/USDT"):
+            crypto = pair.replace("/USDT", "")
+            balance = get_balance_of(crypto)
+            print(crypto, get_balance_of(crypto))
+            if balance > 0:
+                allowed_maximum_to_sell = get_allowed_maximum_to_sell(crypto, "USDT")
+                print("Allowed maximum to sell=", allowed_maximum_to_sell)
+                while get_balance_of(crypto) > allowed_maximum_to_sell:
+                    sell(crypto, "USDT", allowed_maximum_to_sell)
+                sell(crypto, "USDT", get_balance_of(crypto))
 
 
 initial_usdt_balance = get_usdt_balance()
@@ -294,7 +334,11 @@ print("")
 
 #get_allowed_minimum_to_buy("ETH", "USDT")
 
-get_tradable_pairs()
+get_allowed_minimum_to_buy("XRP", "USDT")
+
+#exit(-2)
+
+sell_all_usdt_pairs()
 
 get_all_balances()
 
@@ -310,8 +354,10 @@ get_all_balances()
 # while effective_quantity_bought < 1:
 #     effective_quantity_bought = effective_quantity_bought + buy("BTC", "USDT", 1 - get_balance_of("BTC"))
 
-buy, sell = get_ticker("XRP/USDT")
-print("buy", buy, "sell", sell)
+
+
+
+
 #buy("XRP", "USDT", 100)
 
 get_all_balances()
