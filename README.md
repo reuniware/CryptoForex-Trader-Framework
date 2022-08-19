@@ -10,3 +10,8 @@ vs_buildtools__1528869669.1639057343.exe
 Error ciso8601 compilation try (Linux) :
 
 When trying to install ftx (pip install ftx) on Linux you could also get an error (not on Ubuntu but eg. on Amazon Linux) ; I think that you might need to install the equivalent of VC++ build tools but for Linux.
+
+
+For programming bots inquiries, feel free to contact me by email at : InvestDataSystems@Yahoo.com
+
+If you have an interesting job for me (I'm based in France near Paris), then feel free to contact me to at the same email address.
