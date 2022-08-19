@@ -72,7 +72,7 @@ def sell(crypto_to_sell, crypto_to_get, quantity_of_crypto_to_sell):  # eg. sell
     symbol_to_trade = crypto_to_sell + "/" + crypto_to_get
     type = 'market'  # or 'market'
     side = 'sell'  # or 'buy'
-    amount = quantity_of_crypto_to_sell
+    amount = "{:.16f}".format(quantity_of_crypto_to_sell)   # todo : check if 16 digits after point is ok ?
     price = None  # or None
     # extra params and overrides if needed
     params = {
@@ -90,7 +90,7 @@ def buy(crypto_to_buy, crypto_for_payment, quantity_of_crypto_to_buy):  # eg. bu
     symbol = crypto_to_buy + "/" + crypto_for_payment
     type = 'market'  # or 'market'
     side = 'buy'  # or 'buy'
-    amount = quantity_of_crypto_to_buy
+    amount = "{:.16f}".format(quantity_of_crypto_to_buy)    # todo : check if 16 digits after point is ok ?
     price = None  # or None
     # extra params and overrides if needed
     params = {
@@ -158,21 +158,21 @@ def get_allowed_minimum_to_buy(crypto_to_buy, crypto_for_payment):
 
 
 initial_usdt_balance = get_usdt_balance()
-print("Current balance in USDT", initial_usdt_balance)
+print("main: Current balance in USDT", initial_usdt_balance)
 
-print("Current market items")
-print("Searching if BTC/USDT is available for trading")
+print("main: Current market items")
+print("main: Searching if BTC/USDT is available for trading")
 btcusdt_found = False
 # print(exchange.markets.items())
 for line in exchange.markets.items():
     #print("line", line)  # décommenter pour voir les différents assets tradables
     if line[0] == "BTC/USDT":
-        print("BTC/USDT found (available for trading)")
+        print("main: BTC/USDT found (available for trading)")
         btcusdt_found = True
-        print("line[1]", line[1]["info"]["filters"])
+        print("main: line[1]", line[1]["info"]["filters"])
         for subline in line[1]["info"]["filters"]:
             if subline["filterType"] == "MIN_NOTIONAL":
-                print("minimum allowed to buy in usdt", subline["minNotional"])
+                print("main: minimum allowed to buy in usdt", subline["minNotional"])
         break
 if btcusdt_found is False:
     exit(-1)
@@ -190,7 +190,7 @@ if btcusdt_found is False:
 # buy_for_usdt("BTC", get_balance_of("USDT") )
 # sell("BTC", "USDT", get_balance_of("BTC"))
 
-print("MIN ALLOWED TO BUY IN USDT: ", get_allowed_minimum_to_buy("BTC", "USDT"))
+# print("MIN ALLOWED TO BUY IN USDT: ", get_allowed_minimum_to_buy("BTC", "USDT"))
 # sell("BTC", "USDT", get_balance_of("BTC"))
 
 #sell("BTC", "USDT", get_balance_of("BTC"))
