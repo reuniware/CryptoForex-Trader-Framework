@@ -13,6 +13,7 @@ When trying to install ftx (pip install ftx) on Linux you could also get an erro
 
 
 For programming bots inquiries, feel free to contact me by email at : InvestDataSystems@Yahoo.com
+Pour les demandes de programmation de robots, n'hésitez pas à me contacter par email sur : InvestDataSystems@Yahoo.com
 
 If you have an interesting job for me (I'm based in France near Paris), then feel free to contact me at the same email address.
 
