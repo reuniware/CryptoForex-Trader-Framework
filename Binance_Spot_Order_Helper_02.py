@@ -104,20 +104,20 @@ def buy(crypto_to_buy, crypto_for_payment, quantity_of_crypto_to_buy):  # eg. bu
 
 
 # eg. I want to buy BTC for a specified amount of USDT
-def buy_for_usdt(crypto_to_buy, usdt_to_buy):  # eg. buy("BTC", 50) : That will try to buy BTC for 50 usdt
-    print("Getting price for ", crypto_to_buy, "/USDT")
-    ticker = exchange.fetch_ticker(crypto_to_buy + "/USDT")
-    print("ticker", ticker)
-    print(ticker["symbol"], "sell price", ticker["bid"], "buy price", ticker["ask"], "close price", ticker["close"])
+def buy_for_amount_of(crypto_to_buy, crypto_for_payment, amount_of_crypto_for_payment):  # eg. buy("BTC", "USDT", 50) : That will try to buy BTC for 50 usdt
+    print("buy_for_amount_of: Getting price for ", crypto_to_buy, "/", crypto_for_payment)
+    ticker = exchange.fetch_ticker(crypto_to_buy + "/" + crypto_for_payment)
+    print("buy_for_amount_of: ticker", ticker)
+    print("buy_for_amount_of: ", ticker["symbol"], "sell price", ticker["bid"], "buy price", ticker["ask"], "close price", ticker["close"])
     crypto_price = ticker["ask"]
-    print("Buy price for ", crypto_to_buy, "/USDT", crypto_price)
-    quantity_of_crypto_to_buy = usdt_to_buy / crypto_price
-    print("Quantity of ", crypto_to_buy, "/USDT to buy for ", usdt_to_buy, "usdt", "=", quantity_of_crypto_to_buy)
+    print("buy_for_amount_of: Buy price for ", crypto_to_buy, "/", crypto_for_payment, crypto_price)
+    quantity_of_crypto_to_buy = amount_of_crypto_for_payment / crypto_price
+    print("buy_for_amount_of: Quantity of ", crypto_to_buy, "/", crypto_for_payment,  "to buy for ", amount_of_crypto_for_payment, "usdt", "=", "{:.16f}".format(quantity_of_crypto_to_buy))
 
     symbol = crypto_to_buy + "/USDT"
     type = 'market'  # or 'market'
     side = 'buy'  # or 'buy'
-    amount = quantity_of_crypto_to_buy
+    amount = "{:.16f}".format(quantity_of_crypto_to_buy)  # todo : check if 16 digits after point is ok ?
     price = None  # or None
     # extra params and overrides if needed
     params = {
@@ -125,13 +125,15 @@ def buy_for_usdt(crypto_to_buy, usdt_to_buy):  # eg. buy("BTC", 50) : That will 
     }
 
     try:
-        print("Before order sending")
+        print("buy_for_amount_of: Before order sending")
         order = exchange.create_order(symbol, type, side, amount, price, params)
-        print("BUY Order sent, here are the details:")
+        print("buy_for_amount_of: BUY Order sent, here are the details:")
         print(order)
+        return ""
     except InsufficientFunds:
         #print("exception", sys.exc_info())
-        print("Fonds insuffisants")
+        print("buy_for_amount_of: Fonds insuffisants.")
+        return "Insufficient funds"
 
 
 # eg. I want to know what is the minimum allowed for buying BTC/USDT (eg. 10 usdt minimum are allowed for buying)
@@ -141,11 +143,11 @@ def get_allowed_minimum_to_buy(crypto_to_buy, crypto_for_payment):
     symbol_found = False
     # print(exchange.markets.items())
     for line in exchange.markets.items():
-        print("line", line)  # décommenter pour voir les différents assets tradables
+        #print("get_allowed_minimum_to_buy: line", line)  # décommenter pour voir les différents assets tradables
         if line[0] == crypto_to_buy + "/" + crypto_for_payment:
             print(crypto_to_buy + "/" + crypto_for_payment, "found (available for trading)")
             symbol_found = True
-            print("line[1]", line[1]["info"]["filters"])
+            #print("get_allowed_minimum_to_buy: line[1]", line[1]["info"]["filters"])
             for subline in line[1]["info"]["filters"]:
                 if subline["filterType"] == "MIN_NOTIONAL":
                     print("minimum allowed to buy in usdt", subline["minNotional"])
@@ -163,7 +165,7 @@ print("Searching if BTC/USDT is available for trading")
 btcusdt_found = False
 # print(exchange.markets.items())
 for line in exchange.markets.items():
-    print("line", line)  # décommenter pour voir les différents assets tradables
+    #print("line", line)  # décommenter pour voir les différents assets tradables
     if line[0] == "BTC/USDT":
         print("BTC/USDT found (available for trading)")
         btcusdt_found = True
@@ -185,10 +187,14 @@ if btcusdt_found is False:
 # balance = get_balance_of("USDT")
 # buy_for_usdt("BTC", balance)
 
-#buy_for_usdt("BTC", get_balance_of("USDT") )
+# buy_for_usdt("BTC", get_balance_of("USDT") )
 # sell("BTC", "USDT", get_balance_of("BTC"))
 
 print("MIN ALLOWED TO BUY IN USDT: ", get_allowed_minimum_to_buy("BTC", "USDT"))
+# sell("BTC", "USDT", get_balance_of("BTC"))
+
+#sell("BTC", "USDT", get_balance_of("BTC"))
+#buy_for_amount_of("BTC", "USDT", 835)
 
 exit(-2)
 
