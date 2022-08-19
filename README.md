@@ -13,8 +13,15 @@ When trying to install ftx (pip install ftx) on Linux you could also get an erro
 
 
 For programming bots inquiries, feel free to contact me by email at : InvestDataSystems@Yahoo.com
+
 Pour les demandes de programmation de robots, n'hésitez pas à me contacter par email sur : InvestDataSystems@Yahoo.com
+
 
 If you have an interesting job for me (I'm based in France near Paris), then feel free to contact me at the same email address.
 
+Si vous avez un job intéressant à me proposer (Je suis basé en France près de Paris), alors n'hésitez pas à me contacter à la même adresse email.
+
+
 If you want to get one of my trading bots for free, feel free to contact me.
+
+Si vous voulez obtenir un de mes robots de trading gratuitement, n'hésitez pas à me contacter.
