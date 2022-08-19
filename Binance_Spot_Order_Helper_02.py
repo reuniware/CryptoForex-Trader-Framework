@@ -142,8 +142,10 @@ def buy(crypto_to_buy, crypto_for_payment, quantity_of_crypto_to_buy):  # eg. bu
 
     except InvalidOrder:
         print("buy: exception", sys.exc_info())
+        return -1
     except:
         print("buy: exception", sys.exc_info())
+        return -2
 
 
 # eg. I want to buy BTC for a specified amount of USDT
@@ -270,8 +272,9 @@ print("")
 
 #get_allowed_minimum_to_buy("ETH", "USDT")
 
-#sell_all_crypto_for("ETH", "USDT")
-buy("ETH", "USDT", 5)
+sell_all_crypto_for("ETH", "USDT")
+#effective_quantity_bought = buy("ETH", "USDT", 50)
+#print(effective_quantity_bought, "has been bought")
 
 
 get_all_balances()
