@@ -40,6 +40,7 @@ def get_usdt_balance():
     return usdt
 
 
+# eg. I want to know how much BTC I have in my wallet
 def get_balance_of(crypto_to_get):  # eg. get_balance_of("BTC"), get_balance_of("ETH"), get_balance_of("XRP")...
     balance = exchange.fetch_balance()
     # pprint(balance)
@@ -66,8 +67,8 @@ def get_balance_of(crypto_to_get):  # eg. get_balance_of("BTC"), get_balance_of(
     return balance_of_crypto_to_sell
 
 
-def sell(crypto_to_sell, crypto_to_get,
-         quantity_of_crypto_to_sell):  # eg. sell("BTC", "USDT", 1.5), sell("XRP", "USDT", 25)...
+# eg. I want to sell 1 BTC
+def sell(crypto_to_sell, crypto_to_get, quantity_of_crypto_to_sell):  # eg. sell("BTC", "USDT", 1.5), sell("XRP", "USDT", 25)...
     symbol_to_trade = crypto_to_sell + "/" + crypto_to_get
     type = 'market'  # or 'market'
     side = 'sell'  # or 'buy'
@@ -84,9 +85,9 @@ def sell(crypto_to_sell, crypto_to_get,
     print(order)
 
 
-def buy(crypto_to_buy, crypto_to_get,
-        quantity_of_crypto_to_buy):  # eg. buy("BTC", "USDT", 2.5), buy("XRP", "USDT", 100)...
-    symbol = crypto_to_buy + "/" + crypto_to_get
+# eg. I want to buy 1 BTC and pay in USDT
+def buy(crypto_to_buy, crypto_for_payment, quantity_of_crypto_to_buy):  # eg. buy("BTC", "USDT", 2.5), buy("XRP", "USDT", 100)...
+    symbol = crypto_to_buy + "/" + crypto_for_payment
     type = 'market'  # or 'market'
     side = 'buy'  # or 'buy'
     amount = quantity_of_crypto_to_buy
@@ -102,6 +103,7 @@ def buy(crypto_to_buy, crypto_to_get,
     print(order)
 
 
+# eg. I want to buy BTC for a specified amount of USDT
 def buy_for_usdt(crypto_to_buy, usdt_to_buy):  # eg. buy("BTC", 50) : That will try to buy BTC for 50 usdt
     print("Getting price for ", crypto_to_buy, "/USDT")
     ticker = exchange.fetch_ticker(crypto_to_buy + "/USDT")
@@ -132,6 +134,7 @@ def buy_for_usdt(crypto_to_buy, usdt_to_buy):  # eg. buy("BTC", 50) : That will 
         print("Fonds insuffisants")
 
 
+# eg. I want to know what is the minimum allowed for buying BTC/USDT (eg. 10 usdt minimum are allowed for buying)
 def get_allowed_minimum_to_buy(crypto_to_buy, crypto_for_payment):
     print("Current market items")
     print("Searching if ", crypto_to_buy, "/", crypto_for_payment, " is available for trading")
