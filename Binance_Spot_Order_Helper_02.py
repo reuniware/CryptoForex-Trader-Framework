@@ -59,7 +59,7 @@ def get_balance_of(crypto_to_get):  # eg. get_balance_of("BTC"), get_balance_of(
     balance = exchange.fetch_balance()
     # pprint(balance)
 
-    balance_of_crypto_to_sell = 0.0
+    balance_of_crypto_to_get = 0.0
 
     for i in balance.items():
         # print(i)
@@ -69,16 +69,16 @@ def get_balance_of(crypto_to_get):  # eg. get_balance_of("BTC"), get_balance_of(
             #print("i[1]", i[1])
             if crypto_to_get in i[1]:
                 #print("OK : crypto to sell has been found in the list of available cryptos from server i[1]")
-                balance_of_crypto_to_sell = (i[1][crypto_to_get])
+                balance_of_crypto_to_get = (i[1][crypto_to_get])
                 break
-            balance_of_crypto_to_sell = -1.0
+            balance_of_crypto_to_get = -1.0
 
-    if balance_of_crypto_to_sell == -1.0:
+    if balance_of_crypto_to_get == -1.0:
         print("get_balance_of: ERROR : crypto to sell has not been found in the list of available cryptos from server")
-        return balance_of_crypto_to_sell
+        return balance_of_crypto_to_get
 
-    print("get_balance_of: balance_of_crypto_to_sell", crypto_to_get, balance_of_crypto_to_sell)
-    return balance_of_crypto_to_sell
+    print("get_balance_of:", crypto_to_get, balance_of_crypto_to_get)
+    return balance_of_crypto_to_get
 
 
 # eg. I want to sell 1 BTC
@@ -284,7 +284,7 @@ def sell_all_usdt_pairs():
         if pair.endswith("/USDT"):
             crypto = pair.replace("/USDT", "")
             balance = get_balance_of(crypto)
-            print(crypto, get_balance_of(crypto))
+            print("sell_all_usdt_pairs:", crypto, get_balance_of(crypto))
             if balance > 0:
                 allowed_maximum_to_sell = get_allowed_maximum_to_sell(crypto, "USDT")
                 print("sell_all_usdt_pairs: Allowed maximum to sell=", allowed_maximum_to_sell)
@@ -294,7 +294,7 @@ def sell_all_usdt_pairs():
                     result = sell(crypto, "USDT", get_balance_of(crypto))
                     if result != 0:
                         break
-                        
+
 
 def buy_all_usdt_pairs(amount_in_usdt_for_each):
     array_tradable_pairs = get_tradable_pairs()
@@ -303,9 +303,8 @@ def buy_all_usdt_pairs(amount_in_usdt_for_each):
         if pair.endswith("/USDT"):
             crypto = pair.replace("/USDT", "")
             balance = get_balance_of(crypto)
-            print(crypto, get_balance_of(crypto))
-            if balance == 0:
-                buy(crypto, "USDT", 100)
+            print("buy_all_usdt_pairs:", crypto, balance)
+            buy_for_amount_of(crypto, "USDT", amount_in_usdt_for_each)
 
 
 initial_usdt_balance = get_usdt_balance()
@@ -357,8 +356,9 @@ print("")
 
 #exit(-2)
 
-#buy_all_usdt_pairs(100)
-sell_all_usdt_pairs()
+#buy_for_amount_of("ETH", "USDT", 100)
+buy_all_usdt_pairs(100)
+#sell_all_usdt_pairs()
 
 get_all_balances()
 
