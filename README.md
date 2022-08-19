@@ -25,3 +25,6 @@ Si vous avez un job intéressant à me proposer (Je suis basé en France près d
 If you want to get one of my trading bots for free, feel free to contact me.
 
 Si vous voulez obtenir un de mes robots de trading gratuitement, n'hésitez pas à me contacter.
+
+
+Un de mes comptes Twitter : https://twitter.com/InvestdataSyst
