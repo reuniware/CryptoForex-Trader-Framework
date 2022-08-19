@@ -73,10 +73,10 @@ def get_balance_of(crypto_to_get):  # eg. get_balance_of("BTC"), get_balance_of(
             balance_of_crypto_to_sell = -1.0
 
     if balance_of_crypto_to_sell == -1.0:
-        print("ERROR : crypto to sell has not been found in the list of available cryptos from server")
+        print("get_balance_of: ERROR : crypto to sell has not been found in the list of available cryptos from server")
         return balance_of_crypto_to_sell
 
-    print("balance_of_crypto_to_sell", crypto_to_get, balance_of_crypto_to_sell)
+    print("get_balance_of: balance_of_crypto_to_sell", crypto_to_get, balance_of_crypto_to_sell)
     return balance_of_crypto_to_sell
 
 
@@ -283,13 +283,17 @@ get_tradable_pairs()
 
 get_all_balances()
 
-sell_all_crypto_for("ETH", "USDT")
+#sell_all_crypto_for("ETH", "USDT")
 #effective_quantity_bought = buy("ETH", "USDT", 50)
 #print(effective_quantity_bought, "has been bought")
 
+# effective_quantity_bought = 0
+# while effective_quantity_bought < 50:
+#     effective_quantity_bought = effective_quantity_bought + buy("ETH", "USDT", 50 - get_balance_of("ETH"))
+
 effective_quantity_bought = 0
-while effective_quantity_bought < 50:
-    effective_quantity_bought = effective_quantity_bought + buy("ETH", "USDT", 50 - get_balance_of("ETH"))
+while effective_quantity_bought < 1:
+    effective_quantity_bought = effective_quantity_bought + buy("BTC", "USDT", 1 - get_balance_of("BTC"))
 
 get_all_balances()
 
