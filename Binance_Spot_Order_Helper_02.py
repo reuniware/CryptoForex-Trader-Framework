@@ -214,6 +214,7 @@ def get_allowed_minimum_to_buy(crypto_to_buy, crypto_for_payment):
         return -1
 
 
+# eg. I want to know what is the maximum quantity allowed to be sold for a crypto in a single market order
 def get_allowed_maximum_to_sell(crypto_to_buy, crypto_for_payment):
     print("get_allowed_maximum_to_sell: Current market items")
     print("get_allowed_maximum_to_sell: Searching if ", crypto_to_buy, "/", crypto_for_payment, " is available for trading")
