@@ -170,6 +170,20 @@ def get_allowed_minimum_to_buy(crypto_to_buy, crypto_for_payment):
         return -1
 
 
+# eg. I want to know if "BTC/USDT" is available for trading : is_tradable("BTC/USDT")
+def is_tradable(symbol_to_trade):
+    print("is_tradable: Current market items")
+    print("is_tradable: Searching if ", symbol_to_trade, " is available for trading")
+    symbol_found = False
+    # print(exchange.markets.items())
+    for line in exchange.markets.items():
+        #print("get_allowed_minimum_to_buy: line", line)  # décommenter pour voir les différents assets tradables
+        if line[0] == symbol_to_trade:
+            symbol_found = True
+            break
+    return symbol_found
+
+
 initial_usdt_balance = get_usdt_balance()
 print("main: Current balance in USDT", initial_usdt_balance)
 
@@ -203,8 +217,8 @@ print("")
 #sell("BTC", "USDT", get_balance_of("BTC"))
 #buy_for_amount_of("BTC", "USDT", 835)
 
-print(get_allowed_minimum_to_buy("ETH", "USDT"))
-buy_for_amount_of("ETH", "USDT", 5)
+# print(get_allowed_minimum_to_buy("ETH", "USDT"))
+# buy_for_amount_of("ETH", "USDT", 5)
 
 exit(-2)
 
