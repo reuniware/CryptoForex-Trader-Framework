@@ -235,6 +235,20 @@ def get_tradable_pairs():
     print("")
 
 
+# eg. I want to know the current prices for XRP/USDT : get_ticker("XRP/USDT")
+def get_ticker(symbol_to_get):
+    ticker = exchange.fetch_ticker(symbol_to_get)
+    # print(ticker)
+    # print("get_ticker:", ticker)
+    # print(ticker["symbol"])
+
+    # print(ticker["symbol"], "sell price", ticker["bid"], "buy price", ticker["ask"], "close price", ticker["close"])
+    sell_price = float(ticker["bid"])
+    buy_price = float(ticker["ask"])
+    # print("get_ticker: buy price", buy_price, "sell_price", sell_price)
+    return buy_price, sell_price
+
+
 initial_usdt_balance = get_usdt_balance()
 print("main: Current balance in USDT", initial_usdt_balance)
 
@@ -295,6 +309,10 @@ get_all_balances()
 # effective_quantity_bought = 0
 # while effective_quantity_bought < 1:
 #     effective_quantity_bought = effective_quantity_bought + buy("BTC", "USDT", 1 - get_balance_of("BTC"))
+
+buy, sell = get_ticker("XRP/USDT")
+print("buy", buy, "sell", sell)
+#buy("XRP", "USDT", 100)
 
 get_all_balances()
 
