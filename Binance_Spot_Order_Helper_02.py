@@ -79,10 +79,13 @@ def sell(crypto_to_sell, crypto_to_get, quantity_of_crypto_to_sell):  # eg. sell
         'test': False,  # test if it's valid, but don't actually place it
     }
 
-    print("Before order sending")
-    order = exchange.create_order(symbol_to_trade, type, side, amount, price, params)
-    print("SELL Order sent, here are the details:")
-    print(order)
+    print("sell: Before order sending")
+    try:
+        order = exchange.create_order(symbol_to_trade, type, side, amount, price, params)
+        print("sell: SELL Order sent, here are the details:")
+        print(order)
+    except:
+        print("sell: exception", sys.exc_info())
 
 
 # eg. I want to buy 1 BTC and pay in USDT
@@ -97,10 +100,14 @@ def buy(crypto_to_buy, crypto_for_payment, quantity_of_crypto_to_buy):  # eg. bu
         'test': False,  # test if it's valid, but don't actually place it
     }
 
-    print("Before order sending")
-    order = exchange.create_order(symbol, type, side, amount, price, params)
-    print("BUY Order sent, here are the details:")
-    print(order)
+    print("buy: Before order sending")
+    try:
+        order = exchange.create_order(symbol, type, side, amount, price, params)
+        print("buy: BUY Order sent, here are the details:")
+        print(order)
+    except:
+        print("buy: exception", sys.exc_info())
+
 
 
 # eg. I want to buy BTC for a specified amount of USDT
@@ -136,7 +143,7 @@ def buy_for_amount_of(crypto_to_buy, crypto_for_payment, amount_of_crypto_for_pa
         return "Insufficient funds"
 
 
-# eg. I want to know what is the minimum allowed for buying BTC/USDT (eg. 10 usdt minimum are allowed for buying)
+# eg. I want to know what is the minimum allowed for buying BTC/USDT (eg. buying is allowed for a minimum of 10 usdt)
 def get_allowed_minimum_to_buy(crypto_to_buy, crypto_for_payment):
     print("Current market items")
     print("Searching if ", crypto_to_buy, "/", crypto_for_payment, " is available for trading")
@@ -164,18 +171,12 @@ print("main: Current market items")
 print("main: Searching if BTC/USDT is available for trading")
 btcusdt_found = False
 # print(exchange.markets.items())
+print("main: tradable pairs:")
 for line in exchange.markets.items():
-    #print("line", line)  # décommenter pour voir les différents assets tradables
-    if line[0] == "BTC/USDT":
-        print("main: BTC/USDT found (available for trading)")
-        btcusdt_found = True
-        print("main: line[1]", line[1]["info"]["filters"])
-        for subline in line[1]["info"]["filters"]:
-            if subline["filterType"] == "MIN_NOTIONAL":
-                print("main: minimum allowed to buy in usdt", subline["minNotional"])
-        break
-if btcusdt_found is False:
-    exit(-1)
+    print(line[0], end=" ")
+
+print("")
+sell("BTC", "USDT", get_balance_of("BTC"))
 
 # btc_balance = get_balance_of("BTC")
 # if btc_balance > 0:
@@ -198,109 +199,3 @@ if btcusdt_found is False:
 
 exit(-2)
 
-btcusdt_price = 0.0
-quantity_to_buy = 0
-usdt_to_invest = 5000
-print("Getting price for BTC/USDT")
-ticker = exchange.fetch_ticker("BTC/USDT")
-print(ticker)
-print("ticker", ticker)
-print(ticker["symbol"], "sell price", ticker["bid"], "buy price", ticker["ask"], "close price", ticker["close"])
-btcusdt_price = ticker["ask"]
-print("Buy price for BTC/USDT", btcusdt_price)
-quantity_to_buy = usdt_to_invest / btcusdt_price
-print("Quantity of BTC/USDT to buy for ", usdt_to_invest, "usdt", "=", quantity_to_buy)
-print("End getting price for BTC/USDT")
-
-# exit(-3)
-# markets = binance.load_markets()
-# print(markets)
-
-symbol = 'BTC/USDT'
-type = 'market'  # or 'market'
-side = 'buy'  # or 'buy'
-amount = quantity_to_buy
-price = None  # or None
-# extra params and overrides if needed
-params = {
-    'test': False,  # test if it's valid, but don't actually place it
-}
-
-print("Order sending")
-order = exchange.create_order(symbol, type, side, amount, price, params)
-print("Order sent")
-print("Order details")
-print(order)
-
-# exit(-4)
-
-print("Details of the executed order received from server:")
-origQty = order["info"]["origQty"]
-executedQty = order["info"]["executedQty"]
-print("origQty", origQty, "executedQty", executedQty)
-status = order["info"]["status"]
-print("status received from the server", status)
-
-fees_paid = 0.0
-fees_currency = ""
-trades = order["trades"]
-for line in trades:
-    print("line", line["fees"])
-    for subline in line["fees"]:
-        fees_paid = subline["cost"]
-        fees_currency = subline["currency"]
-        print("fees paid", fees_paid, "fees currency", fees_currency)
-        break
-
-fills = order["info"]["fills"]
-effective_quantity_bought = 0.0
-for line in fills:
-    effective_price_bought = line["price"]
-    effective_quantity_bought = effective_quantity_bought + float(line["qty"])
-    print("effective price bought", line["price"])
-    print("effective quantity bought", line["qty"])
-    print("effective commission", line["commission"])
-    print("effective commission asset", line["commissionAsset"])
-    print("effective trader id", line["tradeId"])
-
-if origQty == executedQty:
-    print("Quantity asked has been ok for the server")
-elif origQty > executedQty:
-    print("Quantity asked is greater than the one the server is telling us")
-elif origQty < executedQty:
-    print("Quantity asked is lower than the one the server is telling us")
-
-quantity_to_sell = effective_quantity_bought
-exitLoop = False
-while exitLoop is False:
-    print("Getting price for BTC/USDT")
-    ticker = exchange.fetch_ticker("BTC/USDT")
-    # print(ticker)
-    print("ticker", ticker)
-    # print(ticker["symbol"], "sell price", ticker["bid"], "buy price", ticker["ask"], "close price", ticker["close"])
-    btcusdt_price = float(ticker["bid"])
-
-    nouvelle_balance_virtuelle = quantity_to_sell * btcusdt_price
-    print("nouvelle balance virtuelle", "{:.6f}".format(nouvelle_balance_virtuelle))
-
-    # if btcusdt_price > float(effective_price_bought):
-    if nouvelle_balance_virtuelle - usdt_to_invest >= 1.5:
-        symbol = 'BTC/USDT'
-        type = 'market'  # or 'market'
-        side = 'sell'  # or 'buy'
-        amount = quantity_to_sell
-        price = None  # or None
-        # extra params and overrides if needed
-        params = {
-            'test': False,  # test if it's valid, but don't actually place it
-        }
-
-        print("Order sending")
-        order = exchange.create_order(symbol, type, side, amount, price, params)
-        print("Order sent")
-        print("Order details")
-        print(order)
-
-        print("bénéfice = ", get_usdt_balance() - initial_usdt_balance)
-
-        exitLoop = True
