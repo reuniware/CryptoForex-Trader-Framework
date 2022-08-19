@@ -23,6 +23,19 @@ markets = exchange.load_markets()
 exchange.verbose = False  # debug output
 
 
+def get_all_balances():
+    balance = exchange.fetch_balance()
+    # pprint(balance)
+
+    for i in balance.items():
+        # print(i)
+        # print("i[0]", i[0])
+        # print("i[1]", i[1])
+        if i[0] == 'free':
+            print(i[1])
+            # usdt = (i[1]['USDT'])
+
+
 def get_usdt_balance():
     balance = exchange.fetch_balance()
     # pprint(balance)
@@ -72,7 +85,7 @@ def sell(crypto_to_sell, crypto_to_get, quantity_of_crypto_to_sell):  # eg. sell
     symbol_to_trade = crypto_to_sell + "/" + crypto_to_get
     type = 'market'  # or 'market'
     side = 'sell'  # or 'buy'
-    amount = "{:.16f}".format(quantity_of_crypto_to_sell)   # todo : check if 16 digits after point is ok ?
+    amount_to_sell = "{:.16f}".format(quantity_of_crypto_to_sell)   # todo : check if 16 digits after point is ok ?
     price = None  # or None
     # extra params and overrides if needed
     params = {
@@ -81,7 +94,7 @@ def sell(crypto_to_sell, crypto_to_get, quantity_of_crypto_to_sell):  # eg. sell
 
     print("sell: Before order sending")
     try:
-        order = exchange.create_order(symbol_to_trade, type, side, amount, price, params)
+        order = exchange.create_order(symbol_to_trade, type, side, amount_to_sell, price, params)
         print("sell: SELL Order sent, here are the details:")
         print(order)
     except InvalidOrder:
@@ -90,7 +103,7 @@ def sell(crypto_to_sell, crypto_to_get, quantity_of_crypto_to_sell):  # eg. sell
         print("sell: exception", sys.exc_info())
 
 
-# eg. I want to buy 1 BTC and pay in USDT
+# eg. I want to buy 1 BTC and pay in USDT. Returns the executed quantity (effective quantity bought)
 def buy(crypto_to_buy, crypto_for_payment, quantity_of_crypto_to_buy):  # eg. buy("BTC", "USDT", 2.5), buy("XRP", "USDT", 100)...
     symbol = crypto_to_buy + "/" + crypto_for_payment
     type = 'market'  # or 'market'
@@ -103,15 +116,34 @@ def buy(crypto_to_buy, crypto_for_payment, quantity_of_crypto_to_buy):  # eg. bu
     }
 
     print("buy: Before order sending")
+    executed_quantity = 0.0
     try:
         order = exchange.create_order(symbol, type, side, amount, price, params)
+
         print("buy: BUY Order sent, here are the details:")
         print(order)
+
+        for item in order.items():
+            #print("item", item)
+            for subitem in item:
+                try:
+                    #print("item", item, "subitem", subitem)
+                    for subitem2 in subitem:
+                        if subitem2 == "executedQty":
+                            #print("item", item, "subitem", subitem, "subitem2", subitem2)
+                            #print(subitem["executedQty"])
+                            executed_quantity = float(subitem["executedQty"])
+                            #break
+                except:
+                    pass
+
+        print("buy: Executed order quantity", executed_quantity)
+        return executed_quantity
+
     except InvalidOrder:
         print("buy: exception", sys.exc_info())
     except:
         print("buy: exception", sys.exc_info())
-
 
 
 # eg. I want to buy BTC for a specified amount of USDT
@@ -149,6 +181,15 @@ def buy_for_amount_of(crypto_to_buy, crypto_for_payment, amount_of_crypto_for_pa
         print("buy_for_amount_of: exception", sys.exc_info())
 
 
+# eg I want to convert all my ETH to USDT : sell_all_crypto_for("ETH", "USDT")
+def sell_all_crypto_for(crypto_to_sell, crypto_to_get):
+    while get_balance_of(crypto_to_sell) > 0:
+        sell(crypto_to_sell, crypto_to_get, get_balance_of(crypto_to_sell))
+
+#def buy_crypto_until_quantity_reached(crypto_to_buy, quantity_to_reach):
+#    while get_balance_of(crypto_to_buy < quantity_to_reach):
+
+
 # eg. I want to know what is the minimum allowed for buying BTC/USDT (eg. buying is allowed for a minimum of 10 usdt)
 def get_allowed_minimum_to_buy(crypto_to_buy, crypto_for_payment):
     print("Current market items")
@@ -160,7 +201,7 @@ def get_allowed_minimum_to_buy(crypto_to_buy, crypto_for_payment):
         if line[0] == crypto_to_buy + "/" + crypto_for_payment:
             print(crypto_to_buy + "/" + crypto_for_payment, "found (available for trading)")
             symbol_found = True
-            #print("get_allowed_minimum_to_buy: line[1]", line[1]["info"]["filters"])
+            print("get_allowed_minimum_to_buy: line[1]", line[1]["info"]["filters"])
             for subline in line[1]["info"]["filters"]:
                 if subline["filterType"] == "MIN_NOTIONAL":
                     print("minimum allowed to buy in usdt", subline["minNotional"])
@@ -218,7 +259,22 @@ print("")
 #buy_for_amount_of("BTC", "USDT", 835)
 
 # print(get_allowed_minimum_to_buy("ETH", "USDT"))
-# buy_for_amount_of("ETH", "USDT", 5)
+#buy_for_amount_of("ETH", "USDT", 1000)
+#buy("ETH", "USDT", 40)
+
+# while get_balance_of("ETH") > 0:
+#      sell("ETH", "USDT", get_balance_of("ETH"))
+#
+# while get_balance_of("ETH") < 50:
+#     buy("ETH", "USDT", 50-get_balance_of("ETH"))
+
+#get_allowed_minimum_to_buy("ETH", "USDT")
+
+#sell_all_crypto_for("ETH", "USDT")
+buy("ETH", "USDT", 5)
+
+
+get_all_balances()
 
 exit(-2)
 
