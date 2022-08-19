@@ -9,8 +9,8 @@ from ccxt import binance, Exchange, InsufficientFunds, InvalidOrder
 print('CCXT Version:', ccxt.__version__)
 
 exchange = ccxt.binance({
-    'apiKey': '',
-    'secret': '',
+    'apiKey': 'hC3mI1mEJZEqIOZbvnFCi58S0T9esH6z1pTk3puwnfW2N4Sgtyzfpw89lgXidwUK',
+    'secret': 'FR1bV8mk0XzfPat2H6MrnoBlwukDMsyOPkCUTSLmxCcwjbTlpw2h4KoSNQ4nyXIK',
     'enableRateLimit': True,  # https://github.com/ccxt/ccxt/wiki/Manual#rate-limit
     'options': {
         'defaultType': 'spot',
@@ -27,6 +27,7 @@ def get_all_balances():
     balance = exchange.fetch_balance()
     # pprint(balance)
 
+    print("get_all_balances: ", end=" ")
     for i in balance.items():
         # print(i)
         # print("i[0]", i[0])
@@ -291,9 +292,9 @@ get_all_balances()
 # while effective_quantity_bought < 50:
 #     effective_quantity_bought = effective_quantity_bought + buy("ETH", "USDT", 50 - get_balance_of("ETH"))
 
-effective_quantity_bought = 0
-while effective_quantity_bought < 1:
-    effective_quantity_bought = effective_quantity_bought + buy("BTC", "USDT", 1 - get_balance_of("BTC"))
+# effective_quantity_bought = 0
+# while effective_quantity_bought < 1:
+#     effective_quantity_bought = effective_quantity_bought + buy("BTC", "USDT", 1 - get_balance_of("BTC"))
 
 get_all_balances()
 
