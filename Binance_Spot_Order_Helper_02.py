@@ -47,7 +47,7 @@ def get_usdt_balance():
         # print("i[0]", i[0])
         # print("i[1]", i[1])
         if i[0] == 'free':
-            print(i[1])
+            #print(i[1])
             usdt = (i[1]['USDT'])
 
     return usdt
@@ -65,9 +65,9 @@ def get_balance_of(crypto_to_get):  # eg. get_balance_of("BTC"), get_balance_of(
         # print("i[0]", i[0])
         # print("i[1]", i[1])
         if i[0] == 'free':
-            print("i[1]", i[1])
+            #print("i[1]", i[1])
             if crypto_to_get in i[1]:
-                print("OK : crypto to sell has been found in the list of available cryptos from server i[1]")
+                #print("OK : crypto to sell has been found in the list of available cryptos from server i[1]")
                 balance_of_crypto_to_sell = (i[1][crypto_to_get])
                 break
             balance_of_crypto_to_sell = -1.0
@@ -227,16 +227,23 @@ def is_tradable(symbol_to_trade):
     return symbol_found
 
 
+def get_tradable_pairs():
+    print("get_tradable_pairs: tradable pairs:")
+    for line in exchange.markets.items():
+        print(line[0], end=" ")
+    print("")
+
+
 initial_usdt_balance = get_usdt_balance()
 print("main: Current balance in USDT", initial_usdt_balance)
 
 print("main: Current market items")
-print("main: Searching if BTC/USDT is available for trading")
-btcusdt_found = False
-# print(exchange.markets.items())
-print("main: tradable pairs:")
-for line in exchange.markets.items():
-    print(line[0], end=" ")
+# print("main: Searching if BTC/USDT is available for trading")
+# btcusdt_found = False
+# # print(exchange.markets.items())
+# print("main: tradable pairs:")
+# for line in exchange.markets.items():
+#     print(line[0], end=" ")
 
 print("")
 #sell("BTC", "USDT", get_balance_of("BTC"))
@@ -272,10 +279,17 @@ print("")
 
 #get_allowed_minimum_to_buy("ETH", "USDT")
 
+get_tradable_pairs()
+
+get_all_balances()
+
 sell_all_crypto_for("ETH", "USDT")
 #effective_quantity_bought = buy("ETH", "USDT", 50)
 #print(effective_quantity_bought, "has been bought")
 
+effective_quantity_bought = 0
+while effective_quantity_bought < 50:
+    effective_quantity_bought = effective_quantity_bought + buy("ETH", "USDT", 50 - get_balance_of("ETH"))
 
 get_all_balances()
 
