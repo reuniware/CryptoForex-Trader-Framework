@@ -4,7 +4,7 @@ import ccxt
 import json
 from pprint import pprint
 
-from ccxt import binance, Exchange, InsufficientFunds
+from ccxt import binance, Exchange, InsufficientFunds, InvalidOrder
 
 print('CCXT Version:', ccxt.__version__)
 
@@ -84,6 +84,8 @@ def sell(crypto_to_sell, crypto_to_get, quantity_of_crypto_to_sell):  # eg. sell
         order = exchange.create_order(symbol_to_trade, type, side, amount, price, params)
         print("sell: SELL Order sent, here are the details:")
         print(order)
+    except InvalidOrder:
+        print("sell: exception", sys.exc_info())
     except:
         print("sell: exception", sys.exc_info())
 
@@ -105,6 +107,8 @@ def buy(crypto_to_buy, crypto_for_payment, quantity_of_crypto_to_buy):  # eg. bu
         order = exchange.create_order(symbol, type, side, amount, price, params)
         print("buy: BUY Order sent, here are the details:")
         print(order)
+    except InvalidOrder:
+        print("buy: exception", sys.exc_info())
     except:
         print("buy: exception", sys.exc_info())
 
@@ -141,6 +145,8 @@ def buy_for_amount_of(crypto_to_buy, crypto_for_payment, amount_of_crypto_for_pa
         #print("exception", sys.exc_info())
         print("buy_for_amount_of: Fonds insuffisants.")
         return "Insufficient funds"
+    except InvalidOrder:
+        print("buy_for_amount_of: exception", sys.exc_info())
 
 
 # eg. I want to know what is the minimum allowed for buying BTC/USDT (eg. buying is allowed for a minimum of 10 usdt)
@@ -176,7 +182,7 @@ for line in exchange.markets.items():
     print(line[0], end=" ")
 
 print("")
-sell("BTC", "USDT", get_balance_of("BTC"))
+#sell("BTC", "USDT", get_balance_of("BTC"))
 
 # btc_balance = get_balance_of("BTC")
 # if btc_balance > 0:
@@ -196,6 +202,9 @@ sell("BTC", "USDT", get_balance_of("BTC"))
 
 #sell("BTC", "USDT", get_balance_of("BTC"))
 #buy_for_amount_of("BTC", "USDT", 835)
+
+print(get_allowed_minimum_to_buy("ETH", "USDT"))
+buy_for_amount_of("ETH", "USDT", 5)
 
 exit(-2)
 
