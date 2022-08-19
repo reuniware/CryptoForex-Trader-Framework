@@ -9,8 +9,8 @@ from ccxt import binance, Exchange, InsufficientFunds, InvalidOrder
 print('CCXT Version:', ccxt.__version__)
 
 exchange = ccxt.binance({
-    'apiKey': '',
-    'secret': '',
+    'apiKey': 'hC3mI1mEJZEqIOZbvnFCi58S0T9esH6z1pTk3puwnfW2N4Sgtyzfpw89lgXidwUK',
+    'secret': 'FR1bV8mk0XzfPat2H6MrnoBlwukDMsyOPkCUTSLmxCcwjbTlpw2h4KoSNQ4nyXIK',
     'enableRateLimit': True,  # https://github.com/ccxt/ccxt/wiki/Manual#rate-limit
     'options': {
         'defaultType': 'spot',
@@ -197,9 +197,9 @@ def sell_all_crypto_for(crypto_to_sell, crypto_to_get):
 
 
 # eg. I want to know what is the minimum allowed for buying BTC/USDT (eg. buying is allowed for a minimum of 10 usdt)
-def get_allowed_minimum_to_buy(crypto_to_buy, crypto_for_payment):
-    print("get_allowed_minimum_to_buy: Current market items")
-    print("get_allowed_minimum_to_buy: Searching if ", crypto_to_buy, "/", crypto_for_payment, " is available for trading")
+def get_allowed_min_notional(crypto_to_buy, crypto_for_payment):
+    print("get_allowed_min_notional: Current market items")
+    print("get_allowed_min_notional: Searching if ", crypto_to_buy, "/", crypto_for_payment, " is available for trading")
     symbol_found = False
     # print(exchange.markets.items())
     for line in exchange.markets.items():
@@ -207,10 +207,10 @@ def get_allowed_minimum_to_buy(crypto_to_buy, crypto_for_payment):
         if line[0] == crypto_to_buy + "/" + crypto_for_payment:
             print(crypto_to_buy + "/" + crypto_for_payment, "found (available for trading)")
             symbol_found = True
-            print("get_allowed_minimum_to_buy: line[1]", line[1]["info"]["filters"])
+            print("get_allowed_min_notional: line[1]", line[1]["info"]["filters"])
             for subline in line[1]["info"]["filters"]:
                 if subline["filterType"] == "MIN_NOTIONAL":
-                    print("get_allowed_minimum_to_buy: minimum allowed to buy in", crypto_for_payment, "=", subline["minNotional"])
+                    print("get_allowed_min_notional: minimum allowed to buy in", crypto_for_payment, "=", subline["minNotional"])
                     return float(subline["minNotional"])
             break
     if symbol_found is False:
@@ -218,9 +218,9 @@ def get_allowed_minimum_to_buy(crypto_to_buy, crypto_for_payment):
 
 
 # eg. I want to know what is the maximum quantity allowed to be sold for a crypto in a single market order
-def get_allowed_maximum_to_sell(crypto_to_buy, crypto_for_payment):
-    print("get_allowed_maximum_to_sell: Current market items")
-    print("get_allowed_maximum_to_sell: Searching if ", crypto_to_buy, "/", crypto_for_payment, " is available for trading")
+def get_allowed_market_lot_size(crypto_to_buy, crypto_for_payment):
+    print("get_allowed_market_lot_size: Current market items")
+    print("get_allowed_market_lot_size: Searching if ", crypto_to_buy, "/", crypto_for_payment, " is available for trading")
     symbol_found = False
     # print(exchange.markets.items())
     for line in exchange.markets.items():
@@ -228,10 +228,10 @@ def get_allowed_maximum_to_sell(crypto_to_buy, crypto_for_payment):
         if line[0] == crypto_to_buy + "/" + crypto_for_payment:
             print(crypto_to_buy + "/" + crypto_for_payment, "found (available for trading)")
             symbol_found = True
-            print("get_allowed_maximum_to_sell: line[1]", line[1]["info"]["filters"])
+            print("get_allowed_market_lot_size: line[1]", line[1]["info"]["filters"])
             for subline in line[1]["info"]["filters"]:
                 if subline["filterType"] == "MARKET_LOT_SIZE":
-                    print("get_allowed_maximum_to_sell: maximum allowed to sell in", crypto_for_payment, "=", subline["maxQty"])
+                    print("get_allowed_market_lot_size: maximum allowed to sell in", crypto_for_payment, "=", subline["maxQty"])
                     return float(subline["maxQty"])
             break
     if symbol_found is False:
@@ -286,7 +286,7 @@ def sell_all_usdt_pairs():
             balance = get_balance_of(crypto)
             print("sell_all_usdt_pairs:", crypto, get_balance_of(crypto))
             if balance > 0:
-                allowed_maximum_to_sell = get_allowed_maximum_to_sell(crypto, "USDT")
+                allowed_maximum_to_sell = get_allowed_market_lot_size(crypto, "USDT")
                 print("sell_all_usdt_pairs: Allowed maximum to sell=", allowed_maximum_to_sell)
                 while get_balance_of(crypto) > allowed_maximum_to_sell:
                     sell(crypto, "USDT", allowed_maximum_to_sell)
@@ -305,6 +305,13 @@ def buy_all_usdt_pairs(amount_in_usdt_for_each):
             balance = get_balance_of(crypto)
             print("buy_all_usdt_pairs:", crypto, balance)
             buy_for_amount_of(crypto, "USDT", amount_in_usdt_for_each)
+
+            # max_lot_size = get_allowed_market_lot_size(crypto, "USDT")
+            # while get_balance_of(crypto) > max_lot_size:
+            #     buy_for_amount_of(crypto, "USDT", max_lot_size)
+            # balance = get_balance_of(crypto)
+            # if balance > 0:
+            #     buy_for_amount_of(crypto, "USDT", get_balance_of(crypto))
 
 
 initial_usdt_balance = get_usdt_balance()
@@ -357,8 +364,8 @@ print("")
 #exit(-2)
 
 #buy_for_amount_of("ETH", "USDT", 100)
-buy_all_usdt_pairs(100)
-#sell_all_usdt_pairs()
+#buy_all_usdt_pairs(100)
+sell_all_usdt_pairs()
 
 get_all_balances()
 
