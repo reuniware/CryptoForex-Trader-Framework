@@ -98,10 +98,13 @@ def sell(crypto_to_sell, crypto_to_get, quantity_of_crypto_to_sell):  # eg. sell
         order = exchange.create_order(symbol_to_trade, type, side, amount_to_sell, price, params)
         print("sell: SELL Order sent, here are the details:")
         print(order)
+        return 0
     except InvalidOrder:
         print("sell: exception", sys.exc_info())
+        return -1
     except:
         print("sell: exception", sys.exc_info())
+        return -2
 
 
 # eg. I want to buy 1 BTC and pay in USDT. Returns the executed quantity (effective quantity bought)
@@ -284,10 +287,25 @@ def sell_all_usdt_pairs():
             print(crypto, get_balance_of(crypto))
             if balance > 0:
                 allowed_maximum_to_sell = get_allowed_maximum_to_sell(crypto, "USDT")
-                print("Allowed maximum to sell=", allowed_maximum_to_sell)
+                print("sell_all_usdt_pairs: Allowed maximum to sell=", allowed_maximum_to_sell)
                 while get_balance_of(crypto) > allowed_maximum_to_sell:
                     sell(crypto, "USDT", allowed_maximum_to_sell)
-                sell(crypto, "USDT", get_balance_of(crypto))
+                while get_balance_of(crypto) > 0:
+                    result = sell(crypto, "USDT", get_balance_of(crypto))
+                    if result != 0:
+                        break
+                        
+
+def buy_all_usdt_pairs(amount_in_usdt_for_each):
+    array_tradable_pairs = get_tradable_pairs()
+    for pair_item in array_tradable_pairs:
+        pair = str(pair_item)
+        if pair.endswith("/USDT"):
+            crypto = pair.replace("/USDT", "")
+            balance = get_balance_of(crypto)
+            print(crypto, get_balance_of(crypto))
+            if balance == 0:
+                buy(crypto, "USDT", 100)
 
 
 initial_usdt_balance = get_usdt_balance()
@@ -335,10 +353,11 @@ print("")
 
 #get_allowed_minimum_to_buy("ETH", "USDT")
 
-get_allowed_minimum_to_buy("XRP", "USDT")
+#get_allowed_minimum_to_buy("XRP", "USDT")
 
 #exit(-2)
 
+#buy_all_usdt_pairs(100)
 sell_all_usdt_pairs()
 
 get_all_balances()
