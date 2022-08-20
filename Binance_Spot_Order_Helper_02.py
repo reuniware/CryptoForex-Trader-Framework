@@ -18,6 +18,7 @@ exchange = ccxt.binance({
     },
 })
 
+
 #exchange.set_sandbox_mode(True)  # comment if you're not using the testnet
 markets = exchange.load_markets()
 exchange.verbose = False  # debug output
@@ -34,7 +35,7 @@ def get_all_balances():
             for kk, vv in v.items():
                 if kk == "free":
                     if float(vv) > 0:
-                        print("get_all_balances(1):", kk, k, "{:.16f}".format(vv), "(can be sold)")
+                        print("get_all_balances(1):", kk + " ", k, "{:.16f}".format(vv))
                 if kk == "total":
                     if float(vv) > 0:
                         if k != "USDT":
@@ -47,13 +48,13 @@ def get_all_balances():
                                 pass
 
     print("get_all_balances(3): total equivalent in usdt (relative to sell prices)", total)
-    buy, sell = get_ticker("EUR/USDT")
-    total_euro = total / sell
+    buy_eur, sell_eur = get_ticker("EUR/USDT")
+    total_euro = total / sell_eur
     print("get_all_balances(3): total equivalent in eur (relative to sell price)", total_euro)
     usdt_balance = get_usdt_balance()
     total_wallet_usdt = total + usdt_balance
     print("get_all_balances(3): total wallet in usdt (relative to sell price)", total_wallet_usdt)
-    total_wallet_euro = (total + usdt_balance) / sell
+    total_wallet_euro = (total + usdt_balance) / sell_eur
     print("get_all_balances(3): total wallet in eur (relative to sell price)", total_wallet_euro)
 
     print("get_all_balances(4): ", end=" ")
@@ -396,6 +397,10 @@ print("")
 
 #sell_all_usdt_pairs()
 
+# sell("LAZIO", "USDT", get_balance_of("LAZIO"))
+# sell("PSG", "USDT", get_balance_of("PSG"))
+# sell("ACM", "USDT", get_balance_of("ACM"))
+# sell("CITY", "USDT", get_balance_of("CITY"))
 get_all_balances()
 
 #sell_all_crypto_for("ETH", "USDT")
