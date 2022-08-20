@@ -38,6 +38,8 @@ previous_asks_max_qty = 0.0
 previous_asks_btc_value = 0.0
 previous_ask = 0.0
 previous_bid = 0.0
+global_qty_bought = 0.0
+global_qty_sold = 0.0
 
 while True:
     orderbook = binance.fetch_order_book('BTC/USDT')
@@ -108,6 +110,7 @@ while True:
                 del(array_asks[val])
         if total_bought > 0:
             print("TOTAL QTY BOUGHT", total_bought)
+            global_qty_bought = global_qty_bought + total_bought
 
         total_sold = 0.0
         buy, sell = get_ticker("BTC/USDT")
@@ -124,6 +127,9 @@ while True:
                 del(array_bids[val])
         if total_sold > 0:
             print("TOTAL QTY SOLD", total_sold)
+            global_qty_sold = global_qty_sold + total_sold
+
+        print("GLOBAL QTY BOUGHT", global_qty_bought, "GLOBAL QTY SOLD", global_qty_sold)
 
         previous_ask = buy
         previous_bid = sell
