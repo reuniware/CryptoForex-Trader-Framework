@@ -91,6 +91,7 @@ while True:
         previous_asks_max_qty = greatest_qty
         previous_asks_btc_value = associated_btc_val
 
+        total_bought = 0.0
         buy = 0.0
         sell = 0.0
         buy, sell = get_ticker("BTC/USDT")
@@ -102,9 +103,13 @@ while True:
                     print("BUY orders has been filled for btc value", btcval, "with qty", btcqty)
                     print("Buyers wanted to buy at", btcval, "and current buy price is", buy)
                     tab_btcval_to_del.append(btcval)
+                    total_bought = total_bought + btcqty
             for val in tab_btcval_to_del:
                 del(array_asks[val])
-                
+        if total_bought > 0:
+            print("TOTAL QTY BOUGHT", total_bought)
+
+        total_sold = 0.0
         buy, sell = get_ticker("BTC/USDT")
         if previous_bid > 0:
             tab_btcval_to_del = []
@@ -114,8 +119,11 @@ while True:
                     print("SELL orders has been filled for btc value", btcval, "with qty", btcqty)
                     print("Sellers wanted to sell at", btcval, "and current sell price is", sell)
                     tab_btcval_to_del.append(btcval)
+                    total_sold = total_sold + btcqty
             for val in tab_btcval_to_del:
                 del(array_bids[val])
+        if total_sold > 0:
+            print("TOTAL QTY SOLD", total_sold)
 
         previous_ask = buy
         previous_bid = sell
