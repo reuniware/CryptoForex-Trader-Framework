@@ -36,6 +36,8 @@ previous_bids_max_qty = 0.0
 previous_bids_btc_value = 0.0
 previous_asks_max_qty = 0.0
 previous_asks_btc_value = 0.0
+previous_ask = 0.0
+previous_bid = 0.0
 
 while True:
     orderbook = binance.fetch_order_book('BTC/USDT')
@@ -60,8 +62,8 @@ while True:
                 greatest_qty = b
                 associated_btc_val = a
         if greatest_qty != previous_bids_max_qty and associated_btc_val != previous_asks_btc_value:
-            print("greatest BID (SELL) qty", greatest_qty, "for btc value", associated_btc_val, get_ticker("BTC/USDT"))
-            log_to_results("greatest BID (SELL) qty" + " " + str(greatest_qty) + " " + "for btc value" + " " + str(associated_btc_val) + " " + str(get_ticker("BTC/USDT")))
+            print("greatest BID (OFFRE/SELL/ORDRES DE VENTE) qty", greatest_qty, "for btc value", associated_btc_val, get_ticker("BTC/USDT"))
+            log_to_results("greatest BID (OFFRE/SELL/ORDRES DE VENTE) qty" + " " + str(greatest_qty) + " " + "for btc value" + " " + str(associated_btc_val) + " " + str(get_ticker("BTC/USDT")))
         previous_bids_max_qty = greatest_qty
         previous_bids_btc_value = associated_btc_val
 
@@ -84,10 +86,39 @@ while True:
                 greatest_qty = b
                 associated_btc_val = a
         if greatest_qty != previous_asks_max_qty and associated_btc_val != previous_asks_btc_value:
-            print("greatest ASK (BUY) qty", greatest_qty, "for btc value", associated_btc_val, get_ticker("BTC/USDT"))
-            log_to_results("greatest ASK (BUY) qty" + " " + str(greatest_qty) + " " + "for btc value" + " " + str(associated_btc_val) + " " + str(get_ticker("BTC/USDT")))
+            print("greatest ASK (DEMANDE/BUY/ORDRES D'ACHAT) qty", greatest_qty, "for btc value", associated_btc_val, get_ticker("BTC/USDT"))
+            log_to_results("greatest ASK (DEMANDE/ORDRES D'ACHAT) qty" + " " + str(greatest_qty) + " " + "for btc value" + " " + str(associated_btc_val) + " " + str(get_ticker("BTC/USDT")))
         previous_asks_max_qty = greatest_qty
         previous_asks_btc_value = associated_btc_val
+
+        buy = 0.0
+        sell = 0.0
+        buy, sell = get_ticker("BTC/USDT")
+        if previous_ask > 0:
+            tab_btcval_to_del = []
+            buy, sell = get_ticker("BTC/USDT")
+            for btcval, btcqty in array_asks.items():
+                if buy <= btcval:
+                    print("BUY orders has been filled for btc value", btcval, "with qty", btcqty)
+                    print("Buyers wanted to buy at", btcval, "and current buy price is", buy)
+                    tab_btcval_to_del.append(btcval)
+            for val in tab_btcval_to_del:
+                del(array_asks[val])
+                
+        buy, sell = get_ticker("BTC/USDT")
+        if previous_bid > 0:
+            tab_btcval_to_del = []
+            buy, sell = get_ticker("BTC/USDT")
+            for btcval, btcqty in array_bids.items():
+                if sell >= btcval:
+                    print("SELL orders has been filled for btc value", btcval, "with qty", btcqty)
+                    print("Sellers wanted to sell at", btcval, "and current sell price is", sell)
+                    tab_btcval_to_del.append(btcval)
+            for val in tab_btcval_to_del:
+                del(array_bids[val])
+
+        previous_ask = buy
+        previous_bid = sell
 
 
 
