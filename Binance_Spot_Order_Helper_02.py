@@ -34,29 +34,29 @@ def get_all_balances():
             for kk, vv in v.items():
                 if kk == "free":
                     if float(vv) > 0:
-                        print("get_all_balances(1):", kk, k, "{:.16f}".format(vv), "can be sold")
+                        print("get_all_balances(1):", kk, k, "{:.16f}".format(vv), "(can be sold)")
                 if kk == "total":
                     if float(vv) > 0:
                         if k != "USDT":
                             try:
                                 buy, sell = get_ticker(k + "/USDT")
                                 #print("sell", sell, "equivalent in USDT", sell * float(vv))
-                                print("get_all_balances(1):", kk, k, "{:.16f}".format(vv), "equivalent in USDT", sell * float(vv))
+                                print("get_all_balances(2):", kk, k, "{:.16f}".format(vv), "equivalent in USDT", sell * float(vv))
                                 total = total + sell * float(vv)
                             except:
                                 pass
 
-    print("total equivalent in usdt (relative to sell prices)", total)
+    print("get_all_balances(3): total equivalent in usdt (relative to sell prices)", total)
     buy, sell = get_ticker("EUR/USDT")
     total_euro = total / sell
-    print("total equivalent in eur (relative to sell price)", total_euro)
+    print("get_all_balances(3): total equivalent in eur (relative to sell price)", total_euro)
     usdt_balance = get_usdt_balance()
     total_wallet_usdt = total + usdt_balance
-    print("total wallet in usdt (relative to sell price)", total_wallet_usdt)
+    print("get_all_balances(3): total wallet in usdt (relative to sell price)", total_wallet_usdt)
     total_wallet_euro = (total + usdt_balance) / sell
-    print("total wallet in eur (relative to sell price)", total_wallet_euro)
+    print("get_all_balances(3): total wallet in eur (relative to sell price)", total_wallet_euro)
 
-    print("get_all_balances(2): ", end=" ")
+    print("get_all_balances(4): ", end=" ")
     for i in balance.items():
         # print(i)
         # print("i[0]", i[0])
