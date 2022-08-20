@@ -27,6 +27,7 @@ def get_all_balances():
     balance = exchange.fetch_balance()
     # pprint(balance)
 
+    total = 0.0
     for k, v in balance.items():
         #print(k, v, type(v))
         if type(v) is dict:
@@ -41,8 +42,19 @@ def get_all_balances():
                                 buy, sell = get_ticker(k + "/USDT")
                                 #print("sell", sell, "equivalent in USDT", sell * float(vv))
                                 print("get_all_balances(1):", kk, k, "{:.16f}".format(vv), "equivalent in USDT", sell * float(vv))
+                                total = total + sell * float(vv)
                             except:
                                 pass
+
+    print("total equivalent in usdt (relative to sell prices)", total)
+    buy, sell = get_ticker("EUR/USDT")
+    total_euro = total / sell
+    print("total equivalent in eur (relative to sell price)", total_euro)
+    usdt_balance = get_usdt_balance()
+    total_wallet_usdt = total + usdt_balance
+    print("total wallet in usdt (relative to sell price)", total_wallet_usdt)
+    total_wallet_euro = (total + usdt_balance) / sell
+    print("total wallet in eur (relative to sell price)", total_wallet_euro)
 
     print("get_all_balances(2): ", end=" ")
     for i in balance.items():
