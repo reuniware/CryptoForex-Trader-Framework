@@ -18,7 +18,7 @@ exchange = ccxt.binance({
     },
 })
 
-exchange.set_sandbox_mode(True)  # comment if you're not using the testnet
+#exchange.set_sandbox_mode(True)  # comment if you're not using the testnet
 markets = exchange.load_markets()
 exchange.verbose = False  # debug output
 
@@ -27,7 +27,24 @@ def get_all_balances():
     balance = exchange.fetch_balance()
     # pprint(balance)
 
-    print("get_all_balances: ", end=" ")
+    for k, v in balance.items():
+        #print(k, v, type(v))
+        if type(v) is dict:
+            for kk, vv in v.items():
+                if kk == "free":
+                    if float(vv) > 0:
+                        print("get_all_balances(1):", kk, k, "{:.16f}".format(vv), "can be sold")
+                if kk == "total":
+                    if float(vv) > 0:
+                        if k != "USDT":
+                            try:
+                                buy, sell = get_ticker(k + "/USDT")
+                                #print("sell", sell, "equivalent in USDT", sell * float(vv))
+                                print("get_all_balances(1):", kk, k, "{:.16f}".format(vv), "equivalent in USDT", sell * float(vv))
+                            except:
+                                pass
+
+    print("get_all_balances(2): ", end=" ")
     for i in balance.items():
         # print(i)
         # print("i[0]", i[0])
@@ -162,7 +179,6 @@ def buy_for_amount_of(crypto_to_buy, crypto_for_payment, amount_of_crypto_for_pa
     print("buy_for_amount_of: Buy price for ", crypto_to_buy, "/", crypto_for_payment, crypto_price)
     quantity_of_crypto_to_buy = amount_of_crypto_for_payment / crypto_price
     print("buy_for_amount_of: Quantity of ", crypto_to_buy, "/", crypto_for_payment,  "to buy for ", amount_of_crypto_for_payment, "usdt", "=", "{:.16f}".format(quantity_of_crypto_to_buy))
-
     symbol = crypto_to_buy + "/USDT"
     type = 'market'  # or 'market'
     side = 'buy'  # or 'buy'
@@ -363,9 +379,10 @@ print("")
 
 #exit(-2)
 
-#buy_for_amount_of("ETH", "USDT", 100)
-#buy_all_usdt_pairs(100)
-sell_all_usdt_pairs()
+#buy_for_amount_of("TRX", "USDT", 1000)
+#buy_all_usdt_pairs(1000)
+
+#sell_all_usdt_pairs()
 
 get_all_balances()
 
@@ -387,7 +404,7 @@ get_all_balances()
 
 #buy("XRP", "USDT", 100)
 
-get_all_balances()
+#get_all_balances()
 
 exit(-2)
 
