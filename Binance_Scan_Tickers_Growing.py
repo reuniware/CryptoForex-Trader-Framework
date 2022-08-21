@@ -24,13 +24,13 @@ array_count = {}
 tickers = exchange.fetch_tickers()
 for item in tickers.items():
     symbol = item[0]
-    if str(symbol).endswith("/USDT"):
-        bid = tickers[symbol]['bid']  # prix de vente (sell)
-        ask = tickers[symbol]['ask']  # prix d'achat (buy)
-        if ask > 0:
-            array_watch[symbol] = ask + ask/100*0.1
-            print("adding", symbol, "with target buy price", array_watch[symbol], "current price being", ask)
-            array_count[symbol] = 0
+    #if str(symbol).endswith("/USDT"):
+    bid = tickers[symbol]['bid']  # prix de vente (sell)
+    ask = tickers[symbol]['ask']  # prix d'achat (buy)
+    if ask > 0:
+        array_watch[symbol] = ask + ask/100*0.1
+        print("adding", symbol, "with target buy price", array_watch[symbol], "current price being", ask)
+        array_count[symbol] = 0
 
 while True:
     tickers = exchange.fetch_tickers()
