@@ -18,7 +18,9 @@ markets = exchange.load_markets()
 exchange.verbose = False  # debug output
 
 #array_watch = {"VET/USDT": 0.02749, "BTC/USDT": 23000, "BAT/USDT": 0.4139}
-array_watch = {"VET/USDT": 0.02749, "BTC/USDT": 23000, "BAT/USDT": 0.4139}
+#array_watch = {"VET/USDT": 0.02749, "BTC/USDT": 23000, "BAT/USDT": 0.4139}
+array_watch = {}
+array_count = {}
 tickers = exchange.fetch_tickers()
 for item in tickers.items():
     symbol = item[0]
@@ -28,6 +30,7 @@ for item in tickers.items():
         if ask > 0:
             array_watch[symbol] = ask + ask/100*0.1
             print("adding", symbol, "with target buy price", array_watch[symbol], "current price being", ask)
+            array_count[symbol] = 0
 
 while True:
     tickers = exchange.fetch_tickers()
@@ -39,8 +42,9 @@ while True:
                 bid = tickers[symbol]['bid'] # prix de vente (sell)
                 ask = tickers[symbol]['ask'] # prix d'achat (buy)
                 if ask >= value_to_watch:
+                    array_count[symbol] = array_count[symbol] + 1
                     array_watch[symbol_to_watch] = ask + ask/100*0.1
-                    print(symbol_to_watch, "is greater or equals to", value_to_watch, "increasing value to watch for", symbol, "to", array_watch[symbol_to_watch])
+                    print(array_count[symbol_to_watch], symbol_to_watch, "is greater or equals to", value_to_watch, "increasing value to watch for", symbol, "to", array_watch[symbol_to_watch])
                     beep.beep(1)
 
 exit(-3)
