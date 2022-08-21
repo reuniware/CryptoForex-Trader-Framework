@@ -17,7 +17,7 @@ exchange.set_sandbox_mode(False)  # comment if you're not using the testnet
 markets = exchange.load_markets()
 exchange.verbose = False  # debug output
 
-array_watch = {"VET/USDT": 2.5, "BTC/USDT": 23000}
+array_watch = {"VET/USDT": 0.02749, "BTC/USDT": 23000}
 
 while True:
     tickers = exchange.fetch_tickers()
