@@ -59,7 +59,7 @@ while True:
                     evol_pourcent = ((ask - array_t0[symbol]) / array_t0[symbol]) * 100
                     percent_per_second = evol_pourcent / timedelta.total_seconds()
                     str_lien = "https://tradingview.com/chart/?symbol=BINANCE%3A" + symbol.replace('/', '')
-                    print(array_count[symbol_to_watch], symbol_to_watch, "is greater or equals to", value_to_watch, "increasing value to watch for", symbol, "to", array_watch[symbol_to_watch], str_lien, "evol/t0", "{:.2f}".format(evol_pourcent) + "%", "diff(t-t0)", timedelta, "%/sec", "{:.2f}".format(percent_per_second, 4))
+                    print(array_count[symbol_to_watch], symbol_to_watch, "is greater or equals to", value_to_watch, "increasing value to watch for", symbol, "to", array_watch[symbol_to_watch], str_lien, "evol/t0", "{:.2f}".format(evol_pourcent) + "%", "diff(t-t0)", timedelta, "%/sec", "{:.4f}".format(percent_per_second))
                     #beep.beep(1)
 
 exit(-3)
