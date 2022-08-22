@@ -50,7 +50,7 @@ array_evol = {}
 tickers = exchange.fetch_tickers()
 for item in tickers.items():
     symbol = item[0]
-    if not str(symbol).endswith("/USDT") and not str(symbol).endswith("DOWN/USDT") and not str(symbol).endswith("UP/USDT"):
+    if not str(symbol).endswith("/USDT") or str(symbol).endswith("DOWN/USDT") or str(symbol).endswith("UP/USDT"):
         continue
     bid = tickers[symbol]['bid']  # prix de vente (sell)
     ask = tickers[symbol]['ask']  # prix d'achat (buy)
