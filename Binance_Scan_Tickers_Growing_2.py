@@ -90,8 +90,8 @@ while True:
         str_lien = "https://tradingview.com/chart/?symbol=BINANCE%3A" + (array_evol_sorted[0][0]).replace('/', '')
         print(str(array_evol_sorted[0]) + " " + str_lien)
         #"{:.2f}".format(evol_pourcent)
-        print(str(array_evol_sorted[0][0]) + " " + "{:.2f}".format(array_evol_sorted[0][1]) + "% " + str_lien)
-        log_to_evol(str(array_evol_sorted[0][0]) + " " + "{:.2f}".format(array_evol_sorted[0][1]) + "% " + str_lien)
+        print(str(datetime.now()) + " " + str(array_evol_sorted[0][0]) + " " + "{:.2f}".format(array_evol_sorted[0][1]) + "% " + str_lien)
+        log_to_evol(str(datetime.now()) + " " + str(array_evol_sorted[0][0]) + " " + "{:.2f}".format(array_evol_sorted[0][1]) + "% " + str_lien)
 
 exit(-3)
 
