@@ -2,8 +2,17 @@ from datetime import datetime
 
 import ccxt
 import time
+import os
 
 print('CCXT Version:', ccxt.__version__)
+
+def log_to_results(str_to_log):
+    fr = open("scan_growing_results.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+if os.path.exists("scan_growing_results.txt"):
+    os.remove("scan_growing_results.txt")
 
 exchange = ccxt.binance({
     'apiKey': '',
@@ -19,7 +28,7 @@ exchange.set_sandbox_mode(False)  # comment if you're not using the testnet
 markets = exchange.load_markets()
 exchange.verbose = False  # debug output
 
-percent = 0.5
+percent = 1
 
 #array_watch = {"VET/USDT": 0.02749, "BTC/USDT": 23000, "BAT/USDT": 0.4139}
 #array_watch = {"VET/USDT": 0.02749, "BTC/USDT": 23000, "BAT/USDT": 0.4139}
@@ -50,16 +59,17 @@ while True:
             if symbol_to_watch == symbol:
                 bid = tickers[symbol]['bid'] # prix de vente (sell)
                 ask = tickers[symbol]['ask'] # prix d'achat (buy)
-                if ask >= value_to_watch:
+                if ask > value_to_watch:
                     array_count[symbol] = array_count[symbol] + 1
-                    array_watch[symbol_to_watch] = ask + ask/100*percent
+                    array_watch[symbol_to_watch] = ask# + ask/100*percent
 
                     timedelta = datetime.now() - array_datetime[symbol]
                     # evol_pourcent = ask / array_t0[symbol]
                     evol_pourcent = ((ask - array_t0[symbol]) / array_t0[symbol]) * 100
                     percent_per_second = evol_pourcent / timedelta.total_seconds()
                     str_lien = "https://tradingview.com/chart/?symbol=BINANCE%3A" + symbol.replace('/', '')
-                    print(array_count[symbol_to_watch], symbol_to_watch, "is greater or equals to", value_to_watch, "increasing value to watch for", symbol, "to", array_watch[symbol_to_watch], str_lien, "evol/t0", "{:.2f}".format(evol_pourcent) + "%", "diff(t-t0)", timedelta, "%/sec", "{:.4f}".format(percent_per_second))
+                    print(array_count[symbol_to_watch], symbol_to_watch, ">=", value_to_watch, "increasing value to watch for", symbol, "to", array_watch[symbol_to_watch], str_lien, "evol/t0", "{:.2f}".format(evol_pourcent) + "%", "diff(t-t0)", timedelta, "%/sec", "{:.4f}".format(percent_per_second))
+                    log_to_results(str(array_count[symbol_to_watch]) + " " + symbol_to_watch + " "+ ">=" + " " + str(value_to_watch) + " " + "increasing value to watch for" + " " + symbol + " " + "to" + " " + str(array_watch[symbol_to_watch]) + " " + str_lien + " " + "evol/t0" + " " + "{:.2f}".format(evol_pourcent) + "%" + " " + "diff(t-t0)" + " " + str(timedelta) + "%/sec" + " " + "{:.4f}".format(percent_per_second))
                     #beep.beep(1)
 
 exit(-3)
