@@ -19,6 +19,7 @@ exchange.verbose = False  # debug output
 
 array_watch = {"VET/USDT": 0.02749, "BTC/USDT": 23000}
 
+# eg. I want to know when VET/USDT gets above 0.02749 and I want to know when BTC/USDT gets above 23000
 while True:
     tickers = exchange.fetch_tickers()
     for item in tickers.items():
