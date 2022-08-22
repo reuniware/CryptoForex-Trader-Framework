@@ -50,7 +50,7 @@ array_evol = {}
 tickers = exchange.fetch_tickers()
 for item in tickers.items():
     symbol = item[0]
-    if not str(symbol).endswith("/USDT"):
+    if not str(symbol).endswith("/USDT") and not str(symbol).endswith("DOWN/USDT") and not str(symbol).endswith("UP/USDT"):
         continue
     bid = tickers[symbol]['bid']  # prix de vente (sell)
     ask = tickers[symbol]['ask']  # prix d'achat (buy)
@@ -87,8 +87,9 @@ while True:
 
     if len(array_evol)>0:
         array_evol_sorted = sorted(array_evol.items(), key=lambda x: x[1], reverse=True)
-        print(array_evol_sorted[0])
-        log_to_evol(str(array_evol_sorted[0]))
+        str_lien = "https://tradingview.com/chart/?symbol=BINANCE%3A" + (array_evol_sorted[0][0]).replace('/', '')
+        print(str(array_evol_sorted[0]) + " " + str_lien)
+        log_to_evol(str(array_evol_sorted[0]) + " " + str_lien)
 
 exit(-3)
 
