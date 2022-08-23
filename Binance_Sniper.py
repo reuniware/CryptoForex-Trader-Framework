@@ -11,8 +11,8 @@ from ccxt import binance, Exchange, InsufficientFunds, InvalidOrder
 print('CCXT Version:', ccxt.__version__)
 
 exchange = ccxt.binance({
-    'apiKey': '',
-    'secret': '',
+    'apiKey': 'hC3mI1mEJZEqIOZbvnFCi58S0T9esH6z1pTk3puwnfW2N4Sgtyzfpw89lgXidwUK',
+    'secret': 'FR1bV8mk0XzfPat2H6MrnoBlwukDMsyOPkCUTSLmxCcwjbTlpw2h4KoSNQ4nyXIK',
     'enableRateLimit': True,  # https://github.com/ccxt/ccxt/wiki/Manual#rate-limit
     'options': {
         'defaultType': 'spot',
@@ -380,7 +380,7 @@ print("main: Current balance in USDT", initial_usdt_balance)
 #Cancel an order (eg. a limit sell order that has been sent previously)
 #canceled = exchange.cancel_order("939421", "XRP/USDT")
 
-# cancel_all_orders("XRP/USDT")
+#cancel_all_orders("XRP/USDT")
 #sell_all_crypto_for("XRP", "USDT")
 #sell_all_usdt_pairs()
 #get_all_balances2()
@@ -414,7 +414,7 @@ print("buy_for_amount_of: Buy price for ", crypto_to_buy, "/", crypto_for_paymen
 quantity_of_crypto_to_buy = amount_of_crypto_for_payment / crypto_price
 print("buy_for_amount_of: Quantity of ", crypto_to_buy, "/", crypto_for_payment, "to buy for ",
       amount_of_crypto_for_payment, "usdt", "=", "{:.16f}".format(quantity_of_crypto_to_buy))
-symbol = crypto_to_buy + "/USDT"
+symbol = crypto_to_buy + "/" + crypto_for_payment
 type = 'market'  # or 'market'
 side = 'buy'  # or 'buy'
 amount = "{:.16f}".format(quantity_of_crypto_to_buy)  # todo : check if 16 digits after point is ok ?
@@ -456,7 +456,7 @@ sellprice = max_order_price + max_order_price/100*0.25
 print("will send a sell limit order with price", sellprice)
 
 # SENDING A SELL LIMIT ORDER
-symbol = crypto_to_buy + "/USDT"
+symbol = crypto_to_buy + "/" + crypto_for_payment
 type = 'limit'  # or 'market'
 side = 'sell'  # or 'buy'
 amount = total_quantity_executed
@@ -490,10 +490,10 @@ monitored_symbol_sell_price = 0.0
 
 
 def main_thread(symbol_to_monitor):
-    global monitored_symbol_sell_price
-    print("symbol to monitor", "XRP/USDT")
+    global monitored_symbol_sell_price, crypto_to_buy, crypto_for_payment
+    print("symbol to monitor", crypto_to_buy + "/" + crypto_for_payment)
     while stop_scanning_status is False:
-        buy, sell = get_ticker("XRP/USDT")
+        buy, sell = get_ticker(crypto_to_buy + "/" + crypto_for_payment)
         monitored_symbol_sell_price = sell
 
 
@@ -503,7 +503,7 @@ x.start()
 
 while stop_scanning_status is False:
     #orders = exchange.fetch_orders(symbol)
-    order = exchange.fetch_order(order_id_sell_limit_order, "XRP/USDT")
+    order = exchange.fetch_order(order_id_sell_limit_order, crypto_to_buy + "/" + crypto_for_payment)
     status = order['info']['status']
     if status == "NEW":
         price_to_sell = order['info']['price']
