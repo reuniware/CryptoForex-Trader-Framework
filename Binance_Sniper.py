@@ -508,12 +508,14 @@ while stop_scanning_status is False:
     if status == "NEW":
         price_to_sell = order['info']['price']
         #print('\r', end="")
-        print("\r", datetime.now(), order['info']['orderId'], order['info']['status'], "price to sell", price_to_sell, "bought at", max_order_price, "current sell price", monitored_symbol_sell_price, " " * 128, end="")
+        print("\r", datetime.now(), order['info']['orderId'], order['info']['status'], "price to sell", price_to_sell, "bought at", max_order_price, "current sell price", monitored_symbol_sell_price, " " * 64, end="")
     else:
+        print("")
         price_to_sell = order['info']['price']
-        print(datetime.now(), order['info']['orderId'], order['info']['status'], "price to sell", price_to_sell, "bought at", max_order_price, "current sell price", monitored_symbol_sell_price)
+        print("\r", datetime.now(), order['info']['orderId'], order['info']['status'], "price to sell", price_to_sell, "bought at", max_order_price, "current sell price", monitored_symbol_sell_price, " " * 64, end="")
         #stop_scanning_status = True
         if status == "FILLED":
+            print("")
             price_to_sell = order['info']['price']
             print(datetime.now(), order['info']['orderId'], order['info']['status'], "price to sell", price_to_sell, "bought at", max_order_price, "current sell price", monitored_symbol_sell_price)
             stop_scanning_status = True
