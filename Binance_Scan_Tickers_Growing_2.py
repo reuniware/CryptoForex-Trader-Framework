@@ -45,6 +45,7 @@ array_count = {}
 array_t0 = {}
 array_datetime = {}
 array_evol = {}
+array_evol_ask = {}
 
 #time.sleep(0.1)
 tickers = exchange.fetch_tickers()
@@ -62,6 +63,7 @@ for item in tickers.items():
         array_count[symbol] = 0
 
 while True:
+    time.sleep(0.0125)
     array_evol.clear()
     tickers = exchange.fetch_tickers()
     for item in tickers.items():
@@ -84,14 +86,16 @@ while True:
                     print(array_count[symbol_to_watch], symbol_to_watch, ">=", value_to_watch, "increasing value to watch for", symbol, "to", array_watch[symbol_to_watch], str_lien, "evol/t0", "{:.2f}".format(evol_pourcent) + "%", "diff(t-t0)", timedelta, "%/sec", "{:.4f}".format(percent_per_second))
                     log_to_results(str(array_count[symbol_to_watch]) + " " + symbol_to_watch + " "+ ">=" + " " + str(value_to_watch) + " " + "increasing value to watch for" + " " + symbol + " " + "to" + " " + str(array_watch[symbol_to_watch]) + " " + str_lien + " " + "evol/t0" + " " + "{:.2f}".format(evol_pourcent) + "%" + " " + "diff(t-t0)" + " " + str(timedelta) + "%/sec" + " " + "{:.4f}".format(percent_per_second))
                     #beep.beep(1)
+                    array_evol_ask[symbol] = ask
 
     if len(array_evol)>0:
         array_evol_sorted = sorted(array_evol.items(), key=lambda x: x[1], reverse=True)
         str_lien = "https://tradingview.com/chart/?symbol=BINANCE%3A" + (array_evol_sorted[0][0]).replace('/', '')
         print(str(array_evol_sorted[0]) + " " + str_lien)
         #"{:.2f}".format(evol_pourcent)
-        print(str(datetime.now()) + " " + str(array_evol_sorted[0][0]) + " " + "{:.2f}".format(array_evol_sorted[0][1]) + "% " + str_lien)
-        log_to_evol(str(datetime.now()) + " " + str(array_evol_sorted[0][0]) + " " + "{:.2f}".format(array_evol_sorted[0][1]) + "% " + str_lien)
+        evol_ask = array_evol_ask[str(array_evol_sorted[0][0])]
+        print(str(datetime.now()) + " " + str(array_evol_sorted[0][0]) + " " + str(evol_ask) + " " + "{:.2f}".format(array_evol_sorted[0][1]) + "% " + str_lien)
+        log_to_evol(str(datetime.now()) + " " + str(array_evol_sorted[0][0]) + " " + str(evol_ask) + " " + "{:.2f}".format(array_evol_sorted[0][1]) + "% " + str_lien)
 
 exit(-3)
 
