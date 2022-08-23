@@ -11,8 +11,8 @@ from ccxt import binance, Exchange, InsufficientFunds, InvalidOrder
 print('CCXT Version:', ccxt.__version__)
 
 exchange = ccxt.binance({
-    'apiKey': 'hC3mI1mEJZEqIOZbvnFCi58S0T9esH6z1pTk3puwnfW2N4Sgtyzfpw89lgXidwUK',
-    'secret': 'FR1bV8mk0XzfPat2H6MrnoBlwukDMsyOPkCUTSLmxCcwjbTlpw2h4KoSNQ4nyXIK',
+    'apiKey': '',
+    'secret': '',
     'enableRateLimit': True,  # https://github.com/ccxt/ccxt/wiki/Manual#rate-limit
     'options': {
         'defaultType': 'spot',
