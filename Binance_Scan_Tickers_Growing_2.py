@@ -94,8 +94,9 @@ while True:
         print(str(array_evol_sorted[0]) + " " + str_lien)
         #"{:.2f}".format(evol_pourcent)
         evol_ask = array_evol_ask[str(array_evol_sorted[0][0])]
-        print(str(datetime.now()) + " " + str(array_evol_sorted[0][0]) + " " + str(evol_ask) + " " + "{:.2f}".format(array_evol_sorted[0][1]) + "% " + str_lien)
-        log_to_evol(str(datetime.now()) + " " + str(array_evol_sorted[0][0]) + " " + str(evol_ask) + " " + "{:.2f}".format(array_evol_sorted[0][1]) + "% " + str_lien)
+        stimestamp = str(datetime.now()).rsplit('.', 1)[0]
+        print(stimestamp + " " + str(array_evol_sorted[0][0]) + " " + str(evol_ask) + " " + "{:.2f}".format(array_evol_sorted[0][1]) + "% " + str_lien)
+        log_to_evol(stimestamp + " " + str(array_evol_sorted[0][0]) + " " + str(evol_ask) + " " + "{:.2f}".format(array_evol_sorted[0][1]) + "% " + str_lien)
 
 exit(-3)
 
