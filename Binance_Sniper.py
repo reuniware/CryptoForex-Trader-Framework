@@ -1,6 +1,7 @@
 import sys
 import threading
 from datetime import datetime
+from pynput import keyboard
 
 import ccxt
 import json
@@ -122,7 +123,7 @@ def get_balance_of(crypto_to_get):  # eg. get_balance_of("BTC"), get_balance_of(
             balance_of_crypto_to_get = -1.0
 
     if balance_of_crypto_to_get == -1.0:
-        print("get_balance_of: ERROR : crypto to sell has not been found in the list of available cryptos from server")
+        print("get_balance_of: ERROR : crypto has not been found in the list of available cryptos from server")
         return balance_of_crypto_to_get
 
     print("get_balance_of:", crypto_to_get, balance_of_crypto_to_get)
@@ -373,9 +374,8 @@ def cancel_all_orders(symbol_to_cancel):
             cancel = exchange.cancel_all_orders(symbol_to_cancel)
 
 
-initial_usdt_balance = get_usdt_balance()
-print("main: Current balance in USDT", initial_usdt_balance)
-
+#initial_usdt_balance = get_usdt_balance()
+#print("main: Current balance in USDT", initial_usdt_balance)
 
 #Cancel an order (eg. a limit sell order that has been sent previously)
 #canceled = exchange.cancel_order("939421", "XRP/USDT")
@@ -383,7 +383,7 @@ print("main: Current balance in USDT", initial_usdt_balance)
 #cancel_all_orders("XRP/USDT")
 #sell_all_crypto_for("XRP", "USDT")
 #sell_all_usdt_pairs()
-#get_all_balances2()
+#asdsssssssssssssssget_all_balances2()
 #exit(-5)
 # while True:
 #     orders = exchange.fetch_orders("XRP/USDT")
@@ -395,14 +395,14 @@ print("main: Current balance in USDT", initial_usdt_balance)
 #             print(elem['info']['orderId'], elem['info']['status'], "price to sell", price_to_sell)#['status'])
 
 #sell_all_usdt_pairs()
-#exit(-1)
 
+#exit(-1)
 
 
 # SENDING A MARKET ORDER
 crypto_to_buy = "XRP"
 crypto_for_payment = "USDT"
-amount_of_crypto_for_payment = 1000
+amount_of_crypto_for_payment = 500
 
 print("buy_for_amount_of: Getting price for ", crypto_to_buy, "/", crypto_for_payment)
 ticker = exchange.fetch_ticker(crypto_to_buy + "/" + crypto_for_payment)
@@ -452,14 +452,14 @@ except InvalidOrder:
     print("buy_for_amount_of: exception", sys.exc_info())
     exit(-101)
 
-sellprice = max_order_price + max_order_price/100*0.25
+sellprice = max_order_price + max_order_price/100*0.75
 print("will send a sell limit order with price", sellprice)
 
 # SENDING A SELL LIMIT ORDER
 symbol = crypto_to_buy + "/" + crypto_for_payment
 type = 'limit'  # or 'market'
 side = 'sell'  # or 'buy'
-amount = total_quantity_executed
+amount = get_balance_of(crypto_to_buy)#total_quantity_executed # todo: understand why total_quantity_executed can be insufficient (insufficient funds exception).
 price = sellprice
 # extra params and overrides if needed
 params = {
@@ -476,17 +476,30 @@ try:
         total_quantity_executed = total_quantity_executed + elem['amount']
 
 except InsufficientFunds:
-    # print("exception", sys.exc_info())
-    print("buy_for_amount_of: Fonds insuffisants.")
+    print("exception", sys.exc_info())
+    #print("buy_for_amount_of: Fonds insuffisants.")
     exit(-100)
 except InvalidOrder:
-    print("buy_for_amount_of: exception", sys.exc_info())
+    print("exception", sys.exc_info())
+    #print("buy_for_amount_of: exception", sys.exc_info())
     exit(-101)
 
 
 stop_scanning_status = False
 
 monitored_symbol_sell_price = 0.0
+
+
+def on_press(key):
+    try:
+        print('alphanumeric key {0} pressed'.format(key.char))
+    except AttributeError:
+        print('special key {0} pressed'.format(key))
+
+
+def on_release(key):
+    print('{0} released'.format(key))
+    return stop_scanning_status
 
 
 def main_thread(symbol_to_monitor):
@@ -500,6 +513,9 @@ def main_thread(symbol_to_monitor):
 x = threading.Thread(target=main_thread, args=(1,))
 x.start()
 
+# To start listening to keyboard events (todo : Cancel limit order and sell immediately with a market order when key "s" is pressed)
+listener = keyboard.Listener(on_press=on_press, on_release=on_release)
+listener.start()
 
 while stop_scanning_status is False:
     #orders = exchange.fetch_orders(symbol)
@@ -507,7 +523,6 @@ while stop_scanning_status is False:
     status = order['info']['status']
     if status == "NEW":
         price_to_sell = order['info']['price']
-        #print('\r', end="")
         print("\r", datetime.now(), order['info']['orderId'], order['info']['status'], "price to sell", price_to_sell, "bought at", max_order_price, "current sell price", monitored_symbol_sell_price, " " * 64, end="")
     else:
         print("")
