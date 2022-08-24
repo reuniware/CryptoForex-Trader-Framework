@@ -11,15 +11,15 @@ from ccxt import binance, Exchange, InsufficientFunds, InvalidOrder
 
 print('CCXT Version:', ccxt.__version__)
 
-exchange = ccxt.binance({
-    'apiKey': '',
-    'secret': '',
-    'enableRateLimit': True,  # https://github.com/ccxt/ccxt/wiki/Manual#rate-limit
-    'options': {
-        'defaultType': 'spot',
-        'adjustForTimeDifference': True,
-    },
-})
+ exchange = ccxt.binance({
+     'apiKey': '',
+     'secret': '',
+     'enableRateLimit': True,  # https://github.com/ccxt/ccxt/wiki/Manual#rate-limit
+     'options': {
+         'defaultType': 'spot',
+         'adjustForTimeDifference': True,
+     },
+ })
 
 
 exchange.set_sandbox_mode(True)  # comment if you're not using the testnet
@@ -396,13 +396,14 @@ def cancel_all_orders(symbol_to_cancel):
 
 #sell_all_usdt_pairs()
 
+#get_all_balances2()
 #exit(-1)
 
 
 # SENDING A MARKET ORDER
-crypto_to_buy = "XRP"
+crypto_to_buy = "PEOPLE"
 crypto_for_payment = "USDT"
-amount_of_crypto_for_payment = 500
+amount_of_crypto_for_payment = 96
 
 print("buy_for_amount_of: Getting price for ", crypto_to_buy, "/", crypto_for_payment)
 ticker = exchange.fetch_ticker(crypto_to_buy + "/" + crypto_for_payment)
@@ -452,7 +453,7 @@ except InvalidOrder:
     print("buy_for_amount_of: exception", sys.exc_info())
     exit(-101)
 
-sellprice = max_order_price + max_order_price/100*0.75
+sellprice = max_order_price + max_order_price/100*2
 print("will send a sell limit order with price", sellprice)
 
 # SENDING A SELL LIMIT ORDER
