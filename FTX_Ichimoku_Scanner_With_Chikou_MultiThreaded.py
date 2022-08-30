@@ -1,3 +1,5 @@
+# Seems not accurate. I'll work on this version adapted to FTX, as soon as possible (do not use, or help me make it accurate :) ).
+
 import glob, os
 from datetime import datetime
 from datetime import timedelta
@@ -31,7 +33,8 @@ client = ftx.FtxClient(
 scan_type = ScanType.UP
 
 # Set this variable to False to scan in spot mode
-scan_futures = True
+scan_futures = False
+scan_spot = True
 
 
 def log_to_results(str_to_log):
@@ -85,7 +88,7 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_1HOUR
+interval_for_klinesT = Client.KLINE_INTERVAL_1DAY
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -414,7 +417,7 @@ def execute_code(symbol):
                 # Define your own criterias for filtering assets on the line below
 
                 if scan_type == ScanType.UP:
-                    condition_is_satisfied = openp < kijun and close > kijun
+                    condition_is_satisfied = openp > ks and close < ks
                     #condition_is_satisfied = openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou
                     # condition_is_satisfied = (ssb>ssa and openp<ssb and close>ssb) or (ssa>ssb and openp<ssa and close>ssa)
                     # condition_is_satisfied = openp<ks and close>ks
@@ -491,7 +494,7 @@ def execute_code(symbol):
                         if scan_futures:
                             str_result += "\nhttps://fr.tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("-", "")
                         else:
-                            str_result += "\nhttps://fr.tradingview.com/chart/?symbol=FTX%3A" + symbol
+                            str_result += "\nhttps://fr.tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("/", "")
 
                         print(str_result + "\n")
                         log_to_results(str(datetime.now()) + ":" + str_result + "\n")
@@ -558,7 +561,11 @@ def main_thread(name):
             symbol = row['name']
             symbol_type = row['type']
 
-            if not (symbol_type == "future"):
+            if scan_futures is True and not (symbol_type == "future"):
+                # print("this is not future, this is ", symbol_type)
+                continue
+
+            if scan_spot is True and not (symbol_type == "spot"):
                 # print("this is not future, this is ", symbol_type)
                 continue
 
