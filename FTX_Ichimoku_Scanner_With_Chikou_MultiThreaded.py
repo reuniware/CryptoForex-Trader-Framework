@@ -87,7 +87,7 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_1DAY
+interval_for_klinesT = Client.KLINE_INTERVAL_5MINUTE
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -134,7 +134,20 @@ def execute_code(symbol):
     HISTORY_RESOLUTION_4HOUR = 60 * 60 * 4
     HISTORY_RESOLUTION_DAY = 60 * 60 * 24
 
-    history_resolution = HISTORY_RESOLUTION_4HOUR  # define the resolution used for the scan here
+    if interval_for_klinesT == Client.KLINE_INTERVAL_1MINUTE:
+        history_resolution = HISTORY_RESOLUTION_MINUTE
+    elif interval_for_klinesT == Client.KLINE_INTERVAL_5MINUTE:
+        history_resolution = HISTORY_RESOLUTION_5MINUTE
+    elif interval_for_klinesT == Client.KLINE_INTERVAL_15MINUTE:
+        history_resolution = HISTORY_RESOLUTION_15MINUTE
+    elif interval_for_klinesT == Client.KLINE_INTERVAL_1HOUR:
+        history_resolution = HISTORY_RESOLUTION_HOUR
+    elif interval_for_klinesT == Client.KLINE_INTERVAL_4HOUR:
+        history_resolution = HISTORY_RESOLUTION_4HOUR
+    elif interval_for_klinesT == Client.KLINE_INTERVAL_1DAY:
+        history_resolution = HISTORY_RESOLUTION_DAY
+
+    #history_resolution = history_resolution  # define the resolution used for the scan here
     delta_time = 0
     if history_resolution == HISTORY_RESOLUTION_MINUTE:  # using this resolution seems not ok, must be improved
         delta_time = 1
@@ -399,8 +412,8 @@ def execute_code(symbol):
                 # Define your own criterias for filtering assets on the line below
 
                 if scan_type == ScanType.UP:
-                    #condition_is_satisfied = openp<ks and close>ks
-                    condition_is_satisfied = openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou
+                    condition_is_satisfied = openp < ks and close > ks
+                    #condition_is_satisfied = openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou
                     # condition_is_satisfied = (ssb>ssa and openp<ssb and close>ssb) or (ssa>ssb and openp<ssa and close>ssa)
                     # condition_is_satisfied = openp<ks and close>ks
                     # condition_is_satisfied = openp>ssa and close>ssa and openp>ssb and close>ssb
