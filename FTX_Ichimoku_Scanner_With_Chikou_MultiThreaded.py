@@ -1,5 +1,3 @@
-# Seems not accurate. I'll work on this version adapted to FTX, as soon as possible (do not use, or help me make it accurate :) ).
-
 import glob, os
 from datetime import datetime
 from datetime import timedelta
@@ -87,7 +85,7 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_5MINUTE
+interval_for_klinesT = Client.KLINE_INTERVAL_1HOUR
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -128,8 +126,10 @@ def execute_code(symbol):
     symbol_type = "n/a"
 
     HISTORY_RESOLUTION_MINUTE = 60
+    HISTORY_RESOLUTION_3MINUTE = 60 * 3
     HISTORY_RESOLUTION_5MINUTE = 60 * 5
     HISTORY_RESOLUTION_15MINUTE = 60 * 15
+    HISTORY_RESOLUTION_30MINUTE = 60 * 30
     HISTORY_RESOLUTION_HOUR = 60 * 60
     HISTORY_RESOLUTION_4HOUR = 60 * 60 * 4
     HISTORY_RESOLUTION_DAY = 60 * 60 * 24
@@ -151,6 +151,8 @@ def execute_code(symbol):
     delta_time = 0
     if history_resolution == HISTORY_RESOLUTION_MINUTE:  # using this resolution seems not ok, must be improved
         delta_time = 1
+    if history_resolution == HISTORY_RESOLUTION_3MINUTE:  # using this resolution seems not ok, must be improved
+        delta_time = 3
     elif history_resolution == HISTORY_RESOLUTION_5MINUTE:  # using this resolution seems not ok, must be improved
         delta_time = 5
     elif history_resolution == HISTORY_RESOLUTION_15MINUTE:
@@ -412,7 +414,7 @@ def execute_code(symbol):
                 # Define your own criterias for filtering assets on the line below
 
                 if scan_type == ScanType.UP:
-                    condition_is_satisfied = openp < ks and close > ks
+                    condition_is_satisfied = openp < kijun and close > kijun
                     #condition_is_satisfied = openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou
                     # condition_is_satisfied = (ssb>ssa and openp<ssb and close>ssb) or (ssa>ssb and openp<ssa and close>ssa)
                     # condition_is_satisfied = openp<ks and close>ks
