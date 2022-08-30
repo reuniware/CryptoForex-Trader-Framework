@@ -1,5 +1,3 @@
-# Seems not accurate. I'll work on this version adapted to FTX, as soon as possible (do not use, or help me make it accurate :) ).
-
 import glob, os
 from datetime import datetime
 from datetime import timedelta
@@ -417,7 +415,7 @@ def execute_code(symbol):
                 # Define your own criterias for filtering assets on the line below
 
                 if scan_type == ScanType.UP:
-                    condition_is_satisfied = openp > ks and close < ks
+                    condition_is_satisfied = cs2 < kijunchikou2 and cs > kijunchikou
                     #condition_is_satisfied = openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou
                     # condition_is_satisfied = (ssb>ssa and openp<ssb and close>ssb) or (ssa>ssb and openp<ssa and close>ssa)
                     # condition_is_satisfied = openp<ks and close>ks
@@ -492,9 +490,9 @@ def execute_code(symbol):
                         )  # We add the data with variable parts
 
                         if scan_futures:
-                            str_result += "\nhttps://fr.tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("-", "")
+                            str_result += "\nhttps://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("-", "")
                         else:
-                            str_result += "\nhttps://fr.tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("/", "")
+                            str_result += "\nhttps://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("/", "")
 
                         print(str_result + "\n")
                         log_to_results(str(datetime.now()) + ":" + str_result + "\n")
