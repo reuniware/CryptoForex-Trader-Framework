@@ -86,7 +86,7 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_1DAY
+interval_for_klinesT = Client.KLINE_INTERVAL_4HOUR
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -175,10 +175,30 @@ def execute_code(symbol):
 
         dframe = pd.DataFrame(data)
 
-        dframe['close'] = pd.to_numeric(dframe['close'])
-        dframe['high'] = pd.to_numeric(dframe['high'])
-        dframe['low'] = pd.to_numeric(dframe['low'])
-        dframe['open'] = pd.to_numeric(dframe['open'])
+        try:
+            dframe['close'] = pd.to_numeric(dframe['close'])
+        except:
+            print(symbol, "ERREUR DFRAME CLOSE")
+            print(dframe)
+            return
+
+        try:
+            dframe['high'] = pd.to_numeric(dframe['high'])
+        except:
+            print(symbol, "ERREUR DFRAME HIGH")
+            return
+
+        try:
+            dframe['low'] = pd.to_numeric(dframe['low'])
+        except:
+            print(symbol, "ERREUR DFRAME LOW")
+            return
+
+        try:
+            dframe['open'] = pd.to_numeric(dframe['open'])
+        except:
+            print(symbol, "ERREUR DFRAME OPEN")
+            return
 
         dframe = dframe.set_index(dframe['startTime'])
         #dframe.index = pd.to_datetime(dframe.index, unit='ms')
@@ -415,7 +435,8 @@ def execute_code(symbol):
                 # Define your own criterias for filtering assets on the line below
 
                 if scan_type == ScanType.UP:
-                    condition_is_satisfied = cs2 < kijunchikou2 and cs > kijunchikou
+                    condition_is_satisfied = openp < ssb and close > ssb and ssb > ssa
+                    #condition_is_satisfied = cs2 < kijunchikou2 and cs > kijunchikou
                     #condition_is_satisfied = openp > ks and close > ks and close > ts and close > openp and close > ssa and close > ssb and cs > highchikou and cs > kijunchikou and cs > ssbchikou and cs > ssachikou and cs > tenkanchikou
                     # condition_is_satisfied = (ssb>ssa and openp<ssb and close>ssb) or (ssa>ssb and openp<ssa and close>ssa)
                     # condition_is_satisfied = openp<ks and close>ks
