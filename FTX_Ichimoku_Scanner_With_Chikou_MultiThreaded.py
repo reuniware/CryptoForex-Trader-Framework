@@ -86,7 +86,7 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_4HOUR
+interval_for_klinesT = Client.KLINE_INTERVAL_15MINUTE
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -179,25 +179,25 @@ def execute_code(symbol):
             dframe['close'] = pd.to_numeric(dframe['close'])
         except:
             print(symbol, "ERREUR DFRAME CLOSE")
-            print(dframe)
+            #print(dframe)
             return
 
         try:
             dframe['high'] = pd.to_numeric(dframe['high'])
         except:
-            print(symbol, "ERREUR DFRAME HIGH")
+            #print(symbol, "ERREUR DFRAME HIGH")
             return
 
         try:
             dframe['low'] = pd.to_numeric(dframe['low'])
         except:
-            print(symbol, "ERREUR DFRAME LOW")
+            #print(symbol, "ERREUR DFRAME LOW")
             return
 
         try:
             dframe['open'] = pd.to_numeric(dframe['open'])
         except:
-            print(symbol, "ERREUR DFRAME OPEN")
+            #print(symbol, "ERREUR DFRAME OPEN")
             return
 
         dframe = dframe.set_index(dframe['startTime'])
