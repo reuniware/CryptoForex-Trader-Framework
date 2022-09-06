@@ -447,53 +447,8 @@ def execute_code(symbol):
                 if condition_is_satisfied:
                     cs_results = ""
 
-                    if scan_type == ScanType.UP:
-                        if cs > ssbchikou:
-                            cs_results += "* CS > SSBCHIKOU - "
-                        if cs > ssachikou:
-                            cs_results += "* CS > SSACHIKOU - "
-                        if cs > kijunchikou:
-                            cs_results += "* CS > KSCHIKOU - "
-                        if cs > tenkanchikou:
-                            cs_results += "* CS > TSCHIKOU - "
-                        if cs > closechikou:
-                            cs_results += "* CS > CLOSECHIKOU - "
-                        if cs > highchikou:
-                            cs_results += "* CS > HIGHCHIKOU - "
-                        # if cs_results != "":
-                        #     log_to_results(cs_results)
-
-                        # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol_co)
-                    elif scan_type == ScanType.DOWN:
-                        if cs < ssbchikou:
-                            cs_results += "* CS < SSBCHIKOU - "
-                        if cs < ssachikou:
-                            cs_results += "* CS < SSACHIKOU - "
-                        if cs < kijunchikou:
-                            cs_results += "* CS < KSCHIKOU - "
-                        if cs < tenkanchikou:
-                            cs_results += "* CS < TSCHIKOU - "
-                        if cs < closechikou:
-                            cs_results += "* CS < CLOSECHIKOU - "
-                        if cs < highchikou:
-                            cs_results += "* CS < LOWCHIKOU - "
-                        # if cs_results != "":
-                        #     log_to_results(cs_results)
-
-                        # print(timestamp, symbol, "O", openp, "H", high, "L", low, "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS", ts, "CS", cs, "EVOL%", evol_co)
-
-                    # print("")
-                    str_result = str(
-                        timestamp
-                    ) + " " + symbol + " " + symbol_type + " SSA=" + str(
-                        ssa
-                    ) + " SSB=" + str(ssb) + " KS=" + str(
-                        ks
-                    ) + " TS=" + str(ts) + " O=" + str(
-                        openp
-                    ) + " H=" + str(high) + " L=" + str(
-                        low
-                    ) + " SSBCS=" + str(
+                    str_result = str(timestamp) + " " + symbol + " " + symbol_type + " SSA=" + str(ssa) + " SSB=" + str(ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " O=" + str(
+                        openp) + " H=" + str(high) + " L=" + str(low) + " SSBCS=" + str(
                         ssbchikou)  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol_co)     # We don't concatenate the variable parts (for comparisons in list_results)
 
                     if not (str_result in list_results):
@@ -502,13 +457,7 @@ def execute_code(symbol):
                         results_count = results_count + 1
                         list_results.append(str_result)
                         # print(cs_results)
-                        str_result = cs_results + "\n" + str(
-                            results_count
-                        ) + " " + str_result + " C=" + str(
-                            close
-                        ) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(
-                            evol_co
-                        )  # We add the data with variable parts
+                        str_result = cs_results + "\n" + str(results_count) + " " + str_result + " C=" + str(close) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(evol_co)  # We add the data with variable parts
 
                         if scan_futures:
                             str_result += "\nhttps://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("-", "")
@@ -522,19 +471,13 @@ def execute_code(symbol):
 
         else:
             # if result_ok:
-            print(timestamp, symbol, "O", openp, "H", high, "L", low,
-                  "C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS",
-                  ts, "CS", cs, "SSB CS", ssbchikou)
-            str_result = str(timestamp) + " " + symbol + " O=" + str(
-                openp) + " H=" + str(high) + " L=" + str(
-                low) + " C=" + str(close) + " SSA=" + str(
-                ssa) + " SSB=" + str(ssb) + " KS=" + str(
-                ks) + " TS=" + str(ts) + " CS=" + str(
-                cs) + " SSB CS=" + str(ssbchikou) + " EVOL%(C/O)=" + str(evol_co)
+            print(timestamp, symbol, "O", openp, "H", high, "L", low,"C", close, "SSA", ssa, "SSB", ssb, "KS", ks, "TS",ts, "CS", cs, "SSB CS", ssbchikou)
+            str_result = str(timestamp) + " " + symbol + " O=" + str(openp) + " H=" + str(high) + " L=" + str(low) + " C=" + str(close) + " SSA=" + str(
+                ssa) + " SSB=" + str(ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " SSB CS=" + str(ssbchikou) + " EVOL%(C/O)=" + str(evol_co)
             log_to_results(str(datetime.now()) + ":" + str_result)
 
 
-maxthreads = 50
+maxthreads = 75
 threadLimiter = threading.BoundedSemaphore(maxthreads)
 
 
