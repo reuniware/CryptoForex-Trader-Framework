@@ -506,34 +506,31 @@ def execute_code(symbol):
                     condition5 = openp <= tsWeekly and close >= tsWeekly
                     condition6 = openp >= tsWeekly and close <= tsWeekly
 
-                    if condition1 is True:
-                        log_to_results(symbol + " " + "openp <= ssbWeekly and close >= ssbWeekly")
-                    if condition2 is True:
-                        log_to_results(symbol + " " + "openp >= ssbWeekly and close <= ssbWeekly")
-                    if condition3 is True:
-                        log_to_results(symbol + " " + "openp <= ksWeekly and close >= ksWeekly")
-                    if condition4 is True:
-                        log_to_results(symbol + " " + "openp >= ksWeekly and close <= ksWeekly")
-                    if condition5 is True:
-                        log_to_results(symbol + " " + "openp <= tsWeekly and close >= tsWeekly")
-                    if condition6 is True:
-                        log_to_results(symbol + " " + "openp >= tsWeekly and close <= tsWeekly")
+                    condition_is_satisfied = condition1 or condition2 or condition3 or condition4 or condition5 or condition6
 
-                    condition_is_satisfied = condition1
-                    condition_is_satisfied = condition_is_satisfied or condition2
-                    condition_is_satisfied = condition_is_satisfied or condition3
-                    condition_is_satisfied = condition_is_satisfied or condition4
-                    condition_is_satisfied = condition_is_satisfied or condition5
-                    condition_is_satisfied = condition_is_satisfied or condition6
+                    if condition_is_satisfied:
+                        tf = str(interval_for_klinesT)
+                        if condition1 is True:
+                            log_to_results(symbol + " " + "openp (" + tf + ") <= ssbWeekly and close (" + tf + ") >= ssbWeekly")
+                        if condition2 is True:
+                            log_to_results(symbol + " " + "openp (" + tf + ") >= ssbWeekly and close (" + tf + ") <= ssbWeekly")
+                        if condition3 is True:
+                            log_to_results(symbol + " " + "openp (" + tf + ") <= ksWeekly and close (" + tf + ") >= ksWeekly")
+                        if condition4 is True:
+                            log_to_results(symbol + " " + "openp (" + tf + ") >= ksWeekly and close (" + tf + ") <= ksWeekly")
+                        if condition5 is True:
+                            log_to_results(symbol + " " + "openp (" + tf + ") <= tsWeekly and close (" + tf + ") >= tsWeekly")
+                        if condition6 is True:
+                            log_to_results(symbol + " " + "openp (" + tf + ") >= tsWeekly and close (" + tf + ") <= tsWeekly")
 
                 elif scan_type == ScanType.DOWN:
                     condition_is_satisfied = openp < ks and close < ks and close < ts and close < openp and close < ssa and close < ssb and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou
 
-                if condition_is_satisfied:
-
                     #log_to_results(symbol + " ssa daily = " + str(ssaDaily) + " ssb daily = " + str(ssbDaily) + " ks daily = " + str(ksDaily) + " ts daily = " + str(tsDaily))
                     #log_to_results(symbol + " ssa w  = " + str(ssaWeekly) + " ssb w = " + str(ssbWeekly) + " ks w = " + str(ksWeekly) + " ts w = " + str(tsWeekly))
                     #log_to_results(symbol + " ssa w  = " + str(ssaWeekly) + " ssb w = " + str(ssbWeekly) + " ks w = " + str(ksWeekly) + " ts w = " + str(tsWeekly))
+
+                if condition_is_satisfied:
 
                     cs_results = ""
 
