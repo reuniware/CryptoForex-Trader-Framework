@@ -499,11 +499,32 @@ def execute_code(symbol):
                     #condition_is_satisfied = condition_is_satisfied or (openp < ssbDaily and close > ssbDaily)
                     #condition_is_satisfied = condition_is_satisfied or (openp < ssaDaily and close > ssaDaily)
 
-                    condition_is_satisfied = openp < ksWeekly and close > ksWeekly
-                    condition_is_satisfied = condition_is_satisfied or (openp < tsWeekly and close > tsWeekly)
-                    condition_is_satisfied = condition_is_satisfied or (openp < ssbWeekly and close > ssbWeekly)
-                    condition_is_satisfied = condition_is_satisfied or (openp < ssaWeekly and close > ssaWeekly)
+                    condition1 = openp <= ssbWeekly and close >= ssbWeekly
+                    condition2 = openp >= ssbWeekly and close <= ssbWeekly
+                    condition3 = openp <= ksWeekly and close >= ksWeekly
+                    condition4 = openp >= ksWeekly and close <= ksWeekly
+                    condition5 = openp <= tsWeekly and close >= tsWeekly
+                    condition6 = openp >= tsWeekly and close <= tsWeekly
 
+                    if condition1 is True:
+                        log_to_results(symbol + " " + "openp <= ssbWeekly and close >= ssbWeekly")
+                    if condition2 is True:
+                        log_to_results(symbol + " " + "openp >= ssbWeekly and close <= ssbWeekly")
+                    if condition3 is True:
+                        log_to_results(symbol + " " + "openp <= ksWeekly and close >= ksWeekly")
+                    if condition4 is True:
+                        log_to_results(symbol + " " + "openp >= ksWeekly and close <= ksWeekly")
+                    if condition5 is True:
+                        log_to_results(symbol + " " + "openp <= tsWeekly and close >= tsWeekly")
+                    if condition6 is True:
+                        log_to_results(symbol + " " + "openp >= tsWeekly and close <= tsWeekly")
+
+                    condition_is_satisfied = condition1
+                    condition_is_satisfied = condition_is_satisfied or condition2
+                    condition_is_satisfied = condition_is_satisfied or condition3
+                    condition_is_satisfied = condition_is_satisfied or condition4
+                    condition_is_satisfied = condition_is_satisfied or condition5
+                    condition_is_satisfied = condition_is_satisfied or condition6
 
                 elif scan_type == ScanType.DOWN:
                     condition_is_satisfied = openp < ks and close < ks and close < ts and close < openp and close < ssa and close < ssb and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou
@@ -511,8 +532,8 @@ def execute_code(symbol):
                 if condition_is_satisfied:
 
                     #log_to_results(symbol + " ssa daily = " + str(ssaDaily) + " ssb daily = " + str(ssbDaily) + " ks daily = " + str(ksDaily) + " ts daily = " + str(tsDaily))
-                    log_to_results(symbol + " ssa w  = " + str(ssaWeekly) + " ssb w = " + str(ssbWeekly) + " ks w = " + str(ksWeekly) + " ts w = " + str(tsWeekly))
-                    log_to_results(symbol + " ssa w  = " + str(ssaWeekly) + " ssb w = " + str(ssbWeekly) + " ks w = " + str(ksWeekly) + " ts w = " + str(tsWeekly))
+                    #log_to_results(symbol + " ssa w  = " + str(ssaWeekly) + " ssb w = " + str(ssbWeekly) + " ks w = " + str(ksWeekly) + " ts w = " + str(tsWeekly))
+                    #log_to_results(symbol + " ssa w  = " + str(ssaWeekly) + " ssb w = " + str(ssbWeekly) + " ks w = " + str(ksWeekly) + " ts w = " + str(tsWeekly))
 
                     cs_results = ""
 
@@ -627,8 +648,12 @@ def main_thread(name):
             # print(symbol, "trying to scan", end=" ")
             #  print(symbol, "trying to scan")
 
-            # if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD") or symbol.endswith():
-            #     continue
+            if symbol.endswith("BEAR/USD") or symbol.endswith("BULL/USD") or symbol.endswith("HEDGE/USD"):
+                continue
+            if symbol.endswith("BEAR/USDT") or symbol.endswith("BULL/USDT") or symbol.endswith("HEDGE/USDT"):
+                continue
+            if symbol.endswith("HALF/USDT") or symbol.endswith("HALF/USD"):
+                continue
 
             disable = False
 
