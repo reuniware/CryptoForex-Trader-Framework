@@ -1,5 +1,6 @@
 import ccxt
 import beepy as beep
+import time
 
 print('CCXT Version:', ccxt.__version__)
 
@@ -22,6 +23,8 @@ array_watch_down = {"ETH/USDT": 1696, "BTC/USDT": 21129}
 
 # eg. I want to know when VET/USDT gets above 0.02749 and I want to know when BTC/USDT gets above 23000
 while True:
+    time.sleep(1)
+
     tickers = exchange.fetch_tickers()
     for item in tickers.items():
         symbol = item[0]
