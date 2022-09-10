@@ -86,7 +86,7 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_15MINUTE
+interval_for_klinesT = Client.KLINE_INTERVAL_4HOUR
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -171,15 +171,15 @@ def execute_code(symbol):
                                           # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
                                           end_time=float(round(time.time())))
 
-        if interval_for_klinesT != Client.KLINE_INTERVAL_1DAY:
-            dataDaily = client.get_historical_data(market_name=symbol, resolution=HISTORY_RESOLUTION_DAY * 7,
+        #if interval_for_klinesT != Client.KLINE_INTERVAL_1DAY:
+        dataDaily = client.get_historical_data(market_name=symbol, resolution=HISTORY_RESOLUTION_DAY * 7,
                                                    # 60min * 60sec = 3600 sec
                                                    limit=1000000,
                                                    start_time=float(round(time.time())) - 60 * 24 * 5000,
                                                    # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
                                                    end_time=float(round(time.time())))
 
-            dataWeekly = client.get_historical_data(market_name=symbol, resolution=HISTORY_RESOLUTION_DAY * 7,
+        dataWeekly = client.get_historical_data(market_name=symbol, resolution=HISTORY_RESOLUTION_DAY * 7,
                                                    # 60min * 60sec = 3600 sec
                                                    limit=1000000,
                                                    start_time=float(round(time.time())) - 60 * 24 * 7 * 5000,
@@ -509,19 +509,35 @@ def execute_code(symbol):
                     condition_is_satisfied = condition1 or condition2 or condition3 or condition4 or condition5 or condition6
 
                     if condition_is_satisfied:
+
+                        #print(symbol, "ssaW, ssbW", ssaWeekly, ssbWeekly)
+
                         tf = str(interval_for_klinesT)
+                        str_conditions = ""
                         if condition1 is True:
-                            log_to_results(symbol + " " + "openp (" + tf + ") <= ssbWeekly and close (" + tf + ") >= ssbWeekly")
+                            str_condition = symbol + " " + "openp (" + tf + ") <= ssbWeekly and close (" + tf + ") >= ssbWeekly" 
+                            str_conditions = str_conditions + "\n" + str_condition
+                            #log_to_results(str_condition)
                         if condition2 is True:
-                            log_to_results(symbol + " " + "openp (" + tf + ") >= ssbWeekly and close (" + tf + ") <= ssbWeekly")
+                            str_condition = symbol + " " + "openp (" + tf + ") >= ssbWeekly and close (" + tf + ") <= ssbWeekly" 
+                            str_conditions = str_conditions + "\n" + str_condition
+                            #log_to_results(str_condition)
                         if condition3 is True:
-                            log_to_results(symbol + " " + "openp (" + tf + ") <= ksWeekly and close (" + tf + ") >= ksWeekly")
+                            str_condition = symbol + " " + "openp (" + tf + ") <= ksWeekly and close (" + tf + ") >= ksWeekly" 
+                            str_conditions = str_conditions + "\n" + str_condition
+                            #log_to_results(str_condition)
                         if condition4 is True:
-                            log_to_results(symbol + " " + "openp (" + tf + ") >= ksWeekly and close (" + tf + ") <= ksWeekly")
+                            str_condition = symbol + " " + "openp (" + tf + ") >= ksWeekly and close (" + tf + ") <= ksWeekly" 
+                            str_conditions = str_conditions + "\n" + str_condition
+                            #log_to_results(str_condition)
                         if condition5 is True:
-                            log_to_results(symbol + " " + "openp (" + tf + ") <= tsWeekly and close (" + tf + ") >= tsWeekly")
+                            str_condition = symbol + " " + "openp (" + tf + ") <= tsWeekly and close (" + tf + ") >= tsWeekly" 
+                            str_conditions = str_conditions + "\n" + str_condition
+                            #log_to_results(str_condition)
                         if condition6 is True:
-                            log_to_results(symbol + " " + "openp (" + tf + ") >= tsWeekly and close (" + tf + ") <= tsWeekly")
+                            str_condition = symbol + " " + "openp (" + tf + ") >= tsWeekly and close (" + tf + ") <= tsWeekly" 
+                            str_conditions = str_conditions + "\n" + str_condition
+                            #log_to_results(str_condition)
 
                 elif scan_type == ScanType.DOWN:
                     condition_is_satisfied = openp < ks and close < ks and close < ts and close < openp and close < ssa and close < ssb and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou
@@ -537,13 +553,15 @@ def execute_code(symbol):
                     str_result = str(timestamp) + " " + symbol + " " + symbol_type + " SSA=" + str(ssa) + " SSB=" + str(
                         ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " O=" + str(
                         openp) + " H=" + str(high) + " L=" + str(low) + " SSBCS=" + str(
-                        ssbchikou)  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol_co)     # We don't concatenate the variable parts (for comparisons in list_results)
+                        ssbchikou) + str_conditions  # + " C=" + str(close) + " CS=" + str(cs) + " EVOL%=" + str(evol_co)     # We don't concatenate the variable parts (for comparisons in list_results)
 
                     if not (str_result in list_results):
                         if not new_results_found:
                             new_results_found = True
                         results_count = results_count + 1
                         list_results.append(str_result)
+                        log_to_results(str_result)
+
                         # print(cs_results)
                         str_result = cs_results + "\n" + str(results_count) + " " + str_result + " C=" + str(
                             close) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(
