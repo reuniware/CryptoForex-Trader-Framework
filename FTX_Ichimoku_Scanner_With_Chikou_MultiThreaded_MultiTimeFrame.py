@@ -86,7 +86,7 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_4HOUR
+interval_for_klinesT = Client.KLINE_INTERVAL_15MINUTE
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -500,13 +500,15 @@ def execute_code(symbol):
                     #condition_is_satisfied = condition_is_satisfied or (openp < ssaDaily and close > ssaDaily)
 
                     condition1 = openp <= ssbWeekly and close >= ssbWeekly
-                    condition2 = openp >= ssbWeekly and close <= ssbWeekly
+                    condition2 = False#openp >= ssbWeekly and close <= ssbWeekly
                     condition3 = openp <= ksWeekly and close >= ksWeekly
-                    condition4 = openp >= ksWeekly and close <= ksWeekly
+                    condition4 = False#openp >= ksWeekly and close <= ksWeekly
                     condition5 = openp <= tsWeekly and close >= tsWeekly
-                    condition6 = openp >= tsWeekly and close <= tsWeekly
+                    condition6 = False#openp >= tsWeekly and close <= tsWeekly
+                    condition7 = openp <= tsDaily and close >= tsDaily
+                    condition8 = openp <= ssbDaily and close >= ssbDaily
 
-                    condition_is_satisfied = condition1 or condition2 or condition3 or condition4 or condition5 or condition6
+                    condition_is_satisfied = condition1 or condition2 or condition3 or condition4 or condition5 or condition6 or condition7 or condition8
 
                     if condition_is_satisfied:
 
@@ -516,27 +518,35 @@ def execute_code(symbol):
                         str_conditions = ""
                         if condition1 is True:
                             str_condition = symbol + " " + "openp (" + tf + ") <= ssbWeekly and close (" + tf + ") >= ssbWeekly" 
-                            str_conditions = str_conditions + "\n" + str_condition
+                            str_conditions = str_conditions + "\n" + str_condition + "\n"
                             #log_to_results(str_condition)
                         if condition2 is True:
                             str_condition = symbol + " " + "openp (" + tf + ") >= ssbWeekly and close (" + tf + ") <= ssbWeekly" 
-                            str_conditions = str_conditions + "\n" + str_condition
+                            str_conditions = str_conditions + "\n" + str_condition + "\n"
                             #log_to_results(str_condition)
                         if condition3 is True:
                             str_condition = symbol + " " + "openp (" + tf + ") <= ksWeekly and close (" + tf + ") >= ksWeekly" 
-                            str_conditions = str_conditions + "\n" + str_condition
+                            str_conditions = str_conditions + "\n" + str_condition + "\n"
                             #log_to_results(str_condition)
                         if condition4 is True:
                             str_condition = symbol + " " + "openp (" + tf + ") >= ksWeekly and close (" + tf + ") <= ksWeekly" 
-                            str_conditions = str_conditions + "\n" + str_condition
+                            str_conditions = str_conditions + "\n" + str_condition + "\n"
                             #log_to_results(str_condition)
                         if condition5 is True:
                             str_condition = symbol + " " + "openp (" + tf + ") <= tsWeekly and close (" + tf + ") >= tsWeekly" 
-                            str_conditions = str_conditions + "\n" + str_condition
+                            str_conditions = str_conditions + "\n" + str_condition + "\n"
                             #log_to_results(str_condition)
                         if condition6 is True:
                             str_condition = symbol + " " + "openp (" + tf + ") >= tsWeekly and close (" + tf + ") <= tsWeekly" 
-                            str_conditions = str_conditions + "\n" + str_condition
+                            str_conditions = str_conditions + "\n" + str_condition + "\n"
+                            #log_to_results(str_condition)
+                        if condition7 is True:
+                            str_condition = symbol + " " + "openp (" + tf + ") <= tsDaily and close (" + tf + ") >= tsDaily" 
+                            str_conditions = str_conditions + "\n" + str_condition + "\n"
+                            #log_to_results(str_condition)
+                        if condition8 is True:
+                            str_condition = symbol + " " + "openp (" + tf + ") <= ssbDaily and close (" + tf + ") >= ssbDaily" 
+                            str_conditions = str_conditions + "\n" + str_condition + "\n"
                             #log_to_results(str_condition)
 
                 elif scan_type == ScanType.DOWN:
@@ -560,9 +570,8 @@ def execute_code(symbol):
                             new_results_found = True
                         results_count = results_count + 1
                         list_results.append(str_result)
-                        log_to_results(str_result)
+                        #log_to_results(str_result)
 
-                        # print(cs_results)
                         str_result = cs_results + "\n" + str(results_count) + " " + str_result + " C=" + str(
                             close) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(
                             evol_co)  # We add the data with variable parts
@@ -585,6 +594,7 @@ def execute_code(symbol):
                 low) + " C=" + str(close) + " SSA=" + str(
                 ssa) + " SSB=" + str(ssb) + " KS=" + str(ks) + " TS=" + str(ts) + " CS=" + str(cs) + " SSB CS=" + str(
                 ssbchikou) + " EVOL%(C/O)=" + str(evol_co)
+
             log_to_results(str(datetime.now()) + ":" + str_result)
 
 
