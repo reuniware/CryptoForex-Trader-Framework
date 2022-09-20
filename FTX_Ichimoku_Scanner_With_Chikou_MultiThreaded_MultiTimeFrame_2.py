@@ -86,7 +86,7 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_1DAY
+interval_for_klinesT = Client.KLINE_INTERVAL_1HOUR
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -520,7 +520,8 @@ def execute_code(symbol):
                 # Define your own criterias for filtering assets on the line below
 
                 if scan_type == ScanType.UP:
-                    condition_is_satisfied = openp >= ksDaily and close >= ksDaily and openp > ksWeekly and close > ksWeekly
+                    condition_is_satisfied = openp <= ksH4 and close >= ksH4
+                    #condition_is_satisfied = openp >= ksDaily and close >= ksDaily and openp > ksWeekly and close > ksWeekly and openp > ssaDaily and close > ssaDaily and openp > ssbDaily and close > ssbDaily and openp > ssaWeekly and close > ssaWeekly and openp > ssbWeekly and close > ssbWeekly
                     #if condition_is_satisfied is True:
                     #    log_to_results(symbol + " " + "openp <= ksDaily and close <= ksDaily")
 
@@ -551,10 +552,34 @@ def execute_code(symbol):
                             close) + " CS=" + str(cs) + " EVOL(C/O)%=" + str(
                             evol_co)  # We add the data with variable parts
 
+                        tf = str(interval_for_klinesT)
+                        log_to_results("tf=" + tf)
+                        interval = ""
+                        if tf=="1m":
+                            interval = 1
+                        if tf=="3m":
+                            interval = 3
+                        if tf=="5m":
+                            interval = 5
+                        elif tf=="15m":
+                            interval = 15
+                        elif tf=="30m":
+                            interval = 30
+                        elif tf=="1h":
+                            interval = 60
+                        elif tf=="2h":
+                            interval = 120
+                        elif tf=="3h":
+                            interval = 180
+                        elif tf=="4h":
+                            interval = 240
+                        elif tf=="1d":
+                            interval = 960
+
                         if scan_futures:
-                            str_result += "\nhttps://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("-", "")
+                            str_result += "\nhttps://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("-", "") + "&interval=" + str(interval)
                         else:
-                            str_result += "\nhttps://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("/", "")
+                            str_result += "\nhttps://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("/", "") + "&interval=" + str(interval)
 
                         print(str_result + "\n")
                         log_to_results(str(datetime.now()) + ":" + str_result + "\n")
