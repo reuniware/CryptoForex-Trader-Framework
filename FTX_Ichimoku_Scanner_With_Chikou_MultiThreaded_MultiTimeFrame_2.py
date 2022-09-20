@@ -86,7 +86,7 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_15MINUTE
+interval_for_klinesT = Client.KLINE_INTERVAL_1HOUR
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -521,8 +521,6 @@ def execute_code(symbol):
 
                 if scan_type == ScanType.UP:
                     condition_is_satisfied = openp <= ksH4 and close >= ksH4
-                    if condition_is_satisfied is True:
-                        log_to_results("openp=" + str(openp) + " close=" + str(close) + " ksH4=" + str(ksH4))
 
                 elif scan_type == ScanType.DOWN:
                     condition_is_satisfied = openp < ks and close < ks and close < ts and close < openp and close < ssa and close < ssb and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou
