@@ -86,7 +86,7 @@ list_results = []
 array_futures = []
 
 # Set the timeframe to scan on the following line
-interval_for_klinesT = Client.KLINE_INTERVAL_1HOUR
+interval_for_klinesT = Client.KLINE_INTERVAL_1DAY
 print("Scanning timeframe =", str(interval_for_klinesT))
 
 days_ago_for_klinest = "80 day ago UTC"  # for daily download by default
@@ -515,12 +515,12 @@ def execute_code(symbol):
 
         if scan:
             if result_ok:
-                print(symbol, "result ok")
+                #print(symbol, "result ok")
                 # if openp < ssb < close or openp > ssb and close > ssb:
                 # Define your own criterias for filtering assets on the line below
 
                 if scan_type == ScanType.UP:
-                    condition_is_satisfied = openp <= ksDaily and close <= ksDaily
+                    condition_is_satisfied = openp >= ksDaily and close >= ksDaily and openp > ksWeekly and close > ksWeekly
                     #if condition_is_satisfied is True:
                     #    log_to_results(symbol + " " + "openp <= ksDaily and close <= ksDaily")
 
