@@ -179,7 +179,7 @@ def execute_code(symbol):
                                                    # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
                                                    end_time=float(round(time.time())))
 
-        dataDaily = client.get_historical_data(market_name=symbol, resolution=HISTORY_RESOLUTION_DAY * 7,
+        dataDaily = client.get_historical_data(market_name=symbol, resolution=HISTORY_RESOLUTION_DAY,
                                                    # 60min * 60sec = 3600 sec
                                                    limit=1000000,
                                                    start_time=float(round(time.time())) - 60 * 24 * 5000,
@@ -515,12 +515,14 @@ def execute_code(symbol):
 
         if scan:
             if result_ok:
-                # print("result ok")
+                print(symbol, "result ok")
                 # if openp < ssb < close or openp > ssb and close > ssb:
                 # Define your own criterias for filtering assets on the line below
 
                 if scan_type == ScanType.UP:
-                    condition_is_satisfied = openp <= ksH4 and close >= ksH4
+                    condition_is_satisfied = openp <= ksDaily and close <= ksDaily
+                    #if condition_is_satisfied is True:
+                    #    log_to_results(symbol + " " + "openp <= ksDaily and close <= ksDaily")
 
                 elif scan_type == ScanType.DOWN:
                     condition_is_satisfied = openp < ks and close < ks and close < ts and close < openp and close < ssa and close < ssb and cs < lowchikou and cs < kijunchikou and cs < ssbchikou and cs < ssachikou and cs < tenkanchikou
