@@ -557,9 +557,9 @@ def execute_code(symbol):
                         interval = ""
                         if tf=="1m":
                             interval = 1
-                        if tf=="3m":
+                        elif tf=="3m":
                             interval = 3
-                        if tf=="5m":
+                        elif tf=="5m":
                             interval = 5
                         elif tf=="15m":
                             interval = 15
