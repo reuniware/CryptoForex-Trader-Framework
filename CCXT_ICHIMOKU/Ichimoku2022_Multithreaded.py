@@ -129,16 +129,15 @@ def execute_code(symbol, type_of_asset):
 
                 key = symbol + " " + type_of_asset
                 if key in dict_results:
-                    val = dict_results[key]
-                    dict_results[key] = val + ' ' + tf + ' ' + str_link
+                    dict_results[key] = dict_results[key] + ' ' + tf
                 else:
-                    dict_results[key] = tf + ' ' + str_link
+                    dict_results[key] = tf
 
                 #print(str(dict_results))
                 print(type_of_asset, symbol, dict_results[key])
 
         except:
-            print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
+            # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
             pass
 
 
