@@ -11,9 +11,10 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 pd.set_option('display.expand_frame_repr', True)
 
-exchange_binance = ccxt.binance()
+#exchange = ccxt.binance()
+exchange = ccxt.ftx()
 
-# for tf in exchange_binance.timeframes:
+# for tf in exchange.timeframes:
 #     print(tf)
 
 # binance.timeframes
@@ -21,24 +22,24 @@ exchange_binance = ccxt.binance()
 #  '1d': '1d', '3d': '3d', '1w': '1w', '1M': '1M'}
 # exchange.set_sandbox_mode(True)
 
-markets = exchange_binance.fetch_markets()
+markets = exchange.fetch_markets()
 
 # print(markets)
 for oneline in markets:
     symbol = oneline['id']
 
     active = oneline['active']
-    type = oneline['type']
+    type_of_asset = oneline['type']
 
-    if active and symbol.endswith("USDT"):  # == symbol: #'BTCUSDT':
+    if active and (symbol.endswith("USDT") or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
 
-        print(10*"*", symbol, type, 10*"*")
+        print(10*"*", symbol, type_of_asset, exchange.name, 10*"*")
 
-        for tf in exchange_binance.timeframes:
+        for tf in exchange.timeframes:
 
             try:
 
-                result = exchange_binance.fetch_ohlcv(symbol, tf, limit=52)
+                result = exchange.fetch_ohlcv(symbol, tf, limit=None)
                 # print(tf, symbol, result)
                 dframe = pd.DataFrame(result)
                 # print(dframe[0])  # UTC timestamp in milliseconds, integer
@@ -110,5 +111,5 @@ for oneline in markets:
                     print(tf, "symbol ok ", symbol)
 
             except:
-                print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
+                # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
                 pass
