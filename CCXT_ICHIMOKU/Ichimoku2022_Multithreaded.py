@@ -25,8 +25,8 @@ def delete_results_log():
 
 delete_results_log()
 
-exchange = ccxt.binance()
-# exchange = ccxt.ftx()
+# exchange = ccxt.binance()
+exchange = ccxt.ftx()
 
 # for tf in exchange.timeframes:
 #     print(tf)
@@ -135,7 +135,12 @@ def execute_code(symbol, type_of_asset):
             pass
 
 
-maxthreads = 100
+maxthreads = 1
+if exchange.name.lower() == "binance":
+    maxthreads = 10
+elif exchange.name.lower() == "ftx":
+    maxthreads = 100
+
 threadLimiter = threading.BoundedSemaphore(maxthreads)
 
 
@@ -156,7 +161,13 @@ for oneline in markets:
     active = oneline['active']
     type_of_asset = oneline['type']
 
-    if active: # and symbol.endswith("-PERP"): # and type_of_asset == "future": # and (symbol.endswith("USDT") or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
+    if exchange.name.lower() == "ftx":
+        if symbol.endswith('HEDGE/USD') or symbol.endswith('CUSDT/USDT') or symbol.endswith('BEAR/USDT') \
+            or symbol.endswith('BEAR/USD') or symbol.endswith('BULL/USDT') or symbol.endswith('BULL/USD') \
+            or symbol.endswith('HALF/USD') or symbol.endswith('HALF/USDT'):
+            continue
+
+    if active and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
         try:
             t = threading.Thread(target=scan_one, args=(symbol, type_of_asset))
             threads.append(t)
