@@ -1,3 +1,5 @@
+import sys
+
 import ccxt
 import pandas as pd
 from datetime import datetime
@@ -102,4 +104,5 @@ for oneline in markets:
                     print(tf, "symbol ok ", symbol)
 
             except:
+                print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
                 pass
