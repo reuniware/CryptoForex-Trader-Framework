@@ -28,12 +28,14 @@ for oneline in markets:
     symbol = oneline['id']
     if symbol.endswith("USDT"):  # == symbol: #'BTCUSDT':
 
+        print(10*"*", symbol, 10*"*")
+
         for tf in exchange_binance.timeframes:
 
             try:
 
                 result = exchange_binance.fetch_ohlcv(symbol, tf, limit=52)
-                print(tf, symbol, result)
+                # print(tf, symbol, result)
                 dframe = pd.DataFrame(result)
                 # print(dframe[0])  # UTC timestamp in milliseconds, integer
                 # print(dframe[1])
