@@ -119,9 +119,9 @@ def execute_code(symbol, type_of_asset):
                 # print(tf, "symbol ok", symbol)
                 # log_to_results(tf + " " + "symbol ok" + " " + symbol)
 
-                if symbol + type_of_asset in dict_results:
+                if symbol in dict_results:
                     val = dict_results[symbol]
-                    dict_results[symbol] = val + " " + tf
+                    dict_results[symbol] = val + ' ' + tf
                 else:
                     dict_results[symbol] = tf
 
@@ -133,7 +133,7 @@ def execute_code(symbol, type_of_asset):
             pass
 
 
-maxthreads = 100
+maxthreads = 500
 threadLimiter = threading.BoundedSemaphore(maxthreads)
 
 
@@ -165,5 +165,11 @@ for oneline in markets:
 for tt in threads:
     tt.join()
 
-for k, v in dict_results:
-    log_to_results(k + " " + v)
+# log_to_results(str(dict_results))
+# print(dict_results)
+
+# for k in dict_results:
+#     log_to_results(k + " " + dict_results[k])
+
+for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
+    log_to_results(k + " " + dict_results[k])
