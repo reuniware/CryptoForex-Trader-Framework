@@ -21,7 +21,7 @@ markets = exchange_binance.fetch_markets()
 # print(markets)
 for oneline in markets:
     symbol = oneline['id']
-    if symbol == 'BTCUSDT':
+    if symbol == symbol: #'BTCUSDT':
         result = exchange_binance.fetch_ohlcv(symbol, '15m', limit=1000)
         # print(symbol, result)
         dframe = pd.DataFrame(result)
@@ -52,11 +52,16 @@ for oneline in markets:
         dframe['ICH_CS'] = dframe['close'].shift(-26)
         # print(dframe['ICH_CS'])
 
-        # print("SSB", dframe['ICH_SSB'].iloc[-1])  # SSB at the current price
-        # print("SSA", dframe['ICH_SSA'].iloc[-1])  # SSB at the current price
-        # print("KS", dframe['ICH_KS'].iloc[-1])  # SSB at the current price
-        # print("TS", dframe['ICH_TS'].iloc[-1])  # SSB at the current price
-        # print("CS", dframe['ICH_CS'].iloc[-27])  # SSB at the current price
+        ssb = dframe['ICH_SSB'].iloc[-1]
+        ssa = dframe['ICH_SSA'].iloc[-1]
+        kijun = dframe['ICH_KS'].iloc[-1]
+        tenkan = dframe['ICH_TS'].iloc[-1]
+        chikou = dframe['ICH_CS'].iloc[-27]
+        # print("SSB", ssb)  # SSB at the current price
+        # print("SSA", ssa)  # SSB at the current price
+        # print("KS", kijun)  # SSB at the current price
+        # print("TS", tenkan)  # SSB at the current price
+        # print("CS", chikou)  # SSB at the current price
 
         price_open = dframe['open'].iloc[-1]
         price_high = dframe['high'].iloc[-1]
@@ -78,7 +83,12 @@ for oneline in markets:
 
         tenkan_chikou = dframe['ICH_TS'].iloc[-27]
         kijun_chikou = dframe['ICH_KS'].iloc[-27]
-        print("tenkan_chikou", tenkan_chikou)
-        print("kijun_chikou", kijun_chikou)
-        
+        ssa_ichimoku = dframe['ICH_SSA'].iloc[-27]
+        ssb_ichimoku = dframe['ICH_SSB'].iloc[-27]
+        # print("tenkan_chikou", tenkan_chikou)
+        # print("kijun_chikou", kijun_chikou)
+        # print("ssa_ichimoku", ssa_ichimoku)
+        # print("ssb_ichimoku", ssb_ichimoku)
 
+        if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun:
+            print("symbol ok", symbol)
