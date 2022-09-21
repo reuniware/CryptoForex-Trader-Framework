@@ -411,12 +411,12 @@ def execute_code(symbol):
             lowchikouDaily = dframeDaily['low'].iloc[-26]
             lowchikouWeekly = dframeWeekly['low'].iloc[-26]
 
-            ssbchikou = dframe['ICH_SSB'].iloc[-26]
-            ssbchikou2 = dframe['ICH_SSB'].iloc[-27]
-            ssbchikou3 = dframe['ICH_SSB'].iloc[-28]
-            ssbchikou4 = dframe['ICH_SSB'].iloc[-29]
-            ssbchikou5 = dframe['ICH_SSB'].iloc[-30]
-            ssbchikou6 = dframe['ICH_SSB'].iloc[-31]
+            ssbchikou = dframe['ICH_SSB'].iloc[-52]
+            ssbchikou2 = dframe['ICH_SSB'].iloc[-27] #tocheck
+            ssbchikou3 = dframe['ICH_SSB'].iloc[-28] #tocheck
+            ssbchikou4 = dframe['ICH_SSB'].iloc[-29] #tocheck
+            ssbchikou5 = dframe['ICH_SSB'].iloc[-30] #tocheck
+            ssbchikou6 = dframe['ICH_SSB'].iloc[-31] #tocheck
             # print(ssbchikou, ssbchikou2, ssbchikou3, ssbchikou4, ssbchikou5, ssbchikou6)
 
             ssachikou = dframe['ICH_SSA'].iloc[-26]
@@ -584,7 +584,8 @@ def execute_code(symbol):
                 # Define your own criterias for filtering assets on the line below
 
                 if scan_type == ScanType.UP:
-                    condition_is_satisfied = close > ks and closeH1 > ksH1 and closeH4 > ksH4 and closeDaily > ksDaily
+                    condition_is_satisfied = close > ks and close > ts and close > ssa and close > ssb and cs > ssachikou and cs > ssbchikou and cs > tenkanchikou and cs > kijunchikou and cs > highchikou
+
                     #condition_is_satisfied = openp >= ksDaily and close >= ksDaily and openp > ksWeekly and close > ksWeekly and openp > ssaDaily and close > ssaDaily and openp > ssbDaily and close > ssbDaily and openp > ssaWeekly and close > ssaWeekly and openp > ssbWeekly and close > ssbWeekly
                     #if condition_is_satisfied is True:
                     #    log_to_results(symbol + " " + "openp <= ksDaily and close <= ksDaily")
