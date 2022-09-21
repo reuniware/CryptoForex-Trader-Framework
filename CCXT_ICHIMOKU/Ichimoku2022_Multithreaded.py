@@ -19,8 +19,10 @@ def log_to_results(str_to_log):
     fr.close()
 
 
-if os.path.exists("results.txt"):
-    os.remove("results.txt")
+def delete_results_log():
+    if os.path.exists("results.txt"):
+        os.remove("results.txt")
+
 
 # exchange = ccxt.binance()
 exchange = ccxt.ftx()
@@ -36,10 +38,10 @@ markets = exchange.fetch_markets()
 dict_results = {}
 
 
-def execute_code(symbol):
+def execute_code(symbol, type_of_asset):
     global dict_results
 
-    print(10 * "*", symbol, type_of_asset, exchange.name, 10 * "*")
+    #print(10 * "*", symbol, type_of_asset, exchange.name, 10 * "*")
 
     for tf in exchange.timeframes:
 
@@ -117,28 +119,28 @@ def execute_code(symbol):
                 # print(tf, "symbol ok", symbol)
                 # log_to_results(tf + " " + "symbol ok" + " " + symbol)
 
-                if symbol in dict_results:
+                if symbol + type_of_asset in dict_results:
                     val = dict_results[symbol]
                     dict_results[symbol] = val + " " + tf
                 else:
                     dict_results[symbol] = tf
 
-                print(str(dict_results))
-                log_to_results(str(dict_results))
+                #print(str(dict_results))
+                print(type_of_asset, symbol, dict_results[symbol])
 
         except:
             # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
             pass
 
 
-maxthreads = 1
+maxthreads = 100
 threadLimiter = threading.BoundedSemaphore(maxthreads)
 
 
-def scan_one(symbol):
+def scan_one(symbol, type_of_asset):
     threadLimiter.acquire()
     try:
-        execute_code(symbol)
+        execute_code(symbol, type_of_asset)
     finally:
         threadLimiter.release()
 
@@ -154,8 +156,14 @@ for oneline in markets:
 
     if active and (symbol.endswith("USDT") or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
         try:
-            t = threading.Thread(target=scan_one, args=(symbol,))
+            t = threading.Thread(target=scan_one, args=(symbol, type_of_asset))
             threads.append(t)
             t.start()
         except:
             pass
+
+for tt in threads:
+    tt.join()
+
+for k, v in dict_results:
+    log_to_results(k + " " + v)
