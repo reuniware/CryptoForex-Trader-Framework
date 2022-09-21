@@ -120,13 +120,6 @@ def execute_code(symbol, type_of_asset):
                 # print(tf, "symbol ok", symbol)
                 # log_to_results(tf + " " + "symbol ok" + " " + symbol)
 
-                str_link = ""
-                if exchange.name.lower() == "ftx":
-                    if type_of_asset == "future":
-                        str_link = "https://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("-", "") #+ "&interval=" + str(interval)
-                    elif type_of_asset == "spot":
-                        str_link += "https://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("/", "") #+ "&interval=" + str(interval)
-
                 key = symbol + " " + type_of_asset
                 if key in dict_results:
                     dict_results[key] = dict_results[key] + ' ' + tf
@@ -141,7 +134,7 @@ def execute_code(symbol, type_of_asset):
             pass
 
 
-maxthreads = 500
+maxthreads = 100
 threadLimiter = threading.BoundedSemaphore(maxthreads)
 
 
@@ -162,7 +155,7 @@ for oneline in markets:
     active = oneline['active']
     type_of_asset = oneline['type']
 
-    if active and type_of_asset == "future": # and (symbol.endswith("USDT") or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
+    if active and symbol.endswith("-PERP"): # and type_of_asset == "future": # and (symbol.endswith("USDT") or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
         try:
             t = threading.Thread(target=scan_one, args=(symbol, type_of_asset))
             threads.append(t)
@@ -180,4 +173,16 @@ for tt in threads:
 #     log_to_results(k + " " + dict_results[k])
 
 for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
-    log_to_results(k + " " + dict_results[k])
+
+    value = k
+    symbol = value.split()[0]
+    type_of_asset = value.split()[1]
+
+    str_link = ""
+    if exchange.name.lower() == "ftx":
+        if type_of_asset in ("future", "swap"):
+            str_link = "https://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("-", "") #+ "&interval=" + str(interval)
+        elif type_of_asset == "spot":
+            str_link += "https://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("/", "") #+ "&interval=" + str(interval)
+
+    log_to_results(k + " " + dict_results[k] + " " + str_link)
