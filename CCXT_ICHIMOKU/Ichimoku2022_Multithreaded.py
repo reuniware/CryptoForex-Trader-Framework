@@ -161,6 +161,7 @@ for oneline in markets:
     active = oneline['active']
     type_of_asset = oneline['type']
 
+    # this condition could be commented (and then more assets would be scanned)
     if exchange.name.lower() == "ftx":
         if symbol.endswith('HEDGE/USD') or symbol.endswith('CUSDT/USDT') or symbol.endswith('BEAR/USDT') \
             or symbol.endswith('BEAR/USD') or symbol.endswith('BULL/USDT') or symbol.endswith('BULL/USD') \
