@@ -48,7 +48,7 @@ def execute_code(symbol, type_of_asset):
 
         try:
 
-            result = exchange.fetch_ohlcv(symbol, tf, limit=52)
+            result = exchange.fetch_ohlcv(symbol, tf, limit=52+26)
             # print(tf, symbol, result)
             dframe = pd.DataFrame(result)
             # print(dframe[0])  # UTC timestamp in milliseconds, integer
@@ -156,7 +156,7 @@ for oneline in markets:
     active = oneline['active']
     type_of_asset = oneline['type']
 
-    if active and symbol.endswith("-PERP"): # and type_of_asset == "future": # and (symbol.endswith("USDT") or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
+    if active: # and symbol.endswith("-PERP"): # and type_of_asset == "future": # and (symbol.endswith("USDT") or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
         try:
             t = threading.Thread(target=scan_one, args=(symbol, type_of_asset))
             threads.append(t)
