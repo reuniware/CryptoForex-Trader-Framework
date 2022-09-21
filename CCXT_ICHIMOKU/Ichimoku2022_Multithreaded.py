@@ -25,8 +25,8 @@ def delete_results_log():
 
 delete_results_log()
 
-# exchange = ccxt.binance()
-exchange = ccxt.ftx()
+exchange = ccxt.binance()
+# exchange = ccxt.ftx()
 
 # for tf in exchange.timeframes:
 #     print(tf)
@@ -185,5 +185,10 @@ for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
             str_link = "https://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("-", "") #+ "&interval=" + str(interval)
         elif type_of_asset == "spot":
             str_link += "https://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("/", "") #+ "&interval=" + str(interval)
+    elif exchange.name.lower() == "binance":
+        if type_of_asset == "future":
+            str_link = "https://tradingview.com/chart/?symbol=BINANCE%3A" + symbol + "PERP"
+        else:
+            str_link = "https://tradingview.com/chart/?symbol=BINANCE%3A" + symbol
 
     log_to_results(k + " " + dict_results[k] + " " + str_link)
