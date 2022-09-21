@@ -109,14 +109,15 @@ def execute_code(symbol, type_of_asset):
 
             tenkan_chikou = dframe['ICH_TS'].iloc[-27]
             kijun_chikou = dframe['ICH_KS'].iloc[-27]
-            ssa_ichimoku = dframe['ICH_SSA'].iloc[-27]
-            ssb_ichimoku = dframe['ICH_SSB'].iloc[-27]
+            ssa_chikou = dframe['ICH_SSA'].iloc[-27]
+            ssb_chikou = dframe['ICH_SSB'].iloc[-27]
             # print("tenkan_chikou", tenkan_chikou)
             # print("kijun_chikou", kijun_chikou)
-            # print("ssa_ichimoku", ssa_ichimoku)
-            # print("ssb_ichimoku", ssb_ichimoku)
+            # print("ssa_chikou", ssa_chikou)
+            # print("ssb_chikou", ssb_chikou)
 
-            if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun:
+            if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
+                and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou:
                 # print(tf, "symbol ok", symbol)
                 # log_to_results(tf + " " + "symbol ok" + " " + symbol)
 
