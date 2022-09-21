@@ -28,10 +28,11 @@ for oneline in markets:
     symbol = oneline['id']
 
     active = oneline['active']
+    type = oneline['type']
 
     if active and symbol.endswith("USDT"):  # == symbol: #'BTCUSDT':
 
-        print(10*"*", symbol, 10*"*")
+        print(10*"*", symbol, type, 10*"*")
 
         for tf in exchange_binance.timeframes:
 
