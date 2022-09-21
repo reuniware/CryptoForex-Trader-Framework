@@ -172,6 +172,13 @@ def execute_code(symbol):
                                           end_time=float(round(time.time())))
 
         #if interval_for_klinesT != Client.KLINE_INTERVAL_1DAY:
+        dataH1 = client.get_historical_data(market_name=symbol, resolution=HISTORY_RESOLUTION_HOUR,
+                                                   # 60min * 60sec = 3600 sec
+                                                   limit=1000000,
+                                                   start_time=float(round(time.time())) - 60 * 24 * 5000,
+                                                   # 1000*3600 for resolution=3600*24 (daily) # 3600*3 for resolution=60*5 (5min) # 3600*3*15 for 60*15 # 3600 * 3 * 15 * 2 for 60*60
+                                                   end_time=float(round(time.time())))
+
         dataH4 = client.get_historical_data(market_name=symbol, resolution=HISTORY_RESOLUTION_4HOUR,
                                                    # 60min * 60sec = 3600 sec
                                                    limit=1000000,
@@ -196,12 +203,14 @@ def execute_code(symbol):
         # print(" (ok)")
 
         dframe = pd.DataFrame(data)
+        dframeH1 = pd.DataFrame(dataH1)
         dframeH4 = pd.DataFrame(dataH4)
         dframeDaily = pd.DataFrame(dataDaily)
         dframeWeekly = pd.DataFrame(dataWeekly)
 
         try:
             dframe['close'] = pd.to_numeric(dframe['close'])
+            dframeH1['close'] = pd.to_numeric(dframeH1['close'])
             dframeH4['close'] = pd.to_numeric(dframeH4['close'])
             dframeDaily['close'] = pd.to_numeric(dframeDaily['close'])
             dframeWeekly['close'] = pd.to_numeric(dframeWeekly['close'])
@@ -212,6 +221,7 @@ def execute_code(symbol):
 
         try:
             dframe['high'] = pd.to_numeric(dframe['high'])
+            dframeH1['high'] = pd.to_numeric(dframeH1['high'])
             dframeH4['high'] = pd.to_numeric(dframeH4['high'])
             dframeDaily['high'] = pd.to_numeric(dframeDaily['high'])
             dframeWeekly['high'] = pd.to_numeric(dframeWeekly['high'])
@@ -221,6 +231,7 @@ def execute_code(symbol):
 
         try:
             dframe['low'] = pd.to_numeric(dframe['low'])
+            dframeH1['low'] = pd.to_numeric(dframeH1['low'])
             dframeH4['low'] = pd.to_numeric(dframeH4['low'])
             dframeDaily['low'] = pd.to_numeric(dframeDaily['low'])
             dframeWeekly['low'] = pd.to_numeric(dframeWeekly['low'])
@@ -230,6 +241,7 @@ def execute_code(symbol):
 
         try:
             dframe['open'] = pd.to_numeric(dframe['open'])
+            dframeH1['open'] = pd.to_numeric(dframeH1['open'])
             dframeH4['open'] = pd.to_numeric(dframeH4['open'])
             dframeDaily['open'] = pd.to_numeric(dframeDaily['open'])
             dframeWeekly['open'] = pd.to_numeric(dframeWeekly['open'])
@@ -238,6 +250,7 @@ def execute_code(symbol):
             return
 
         dframe = dframe.set_index(dframe['startTime'])
+        dframeH1 = dframeH1.set_index(dframeH1['startTime'])
         dframeH4 = dframeH4.set_index(dframeH4['startTime'])
         dframeDaily = dframeDaily.set_index(dframeDaily['startTime'])
         dframeWeekly = dframeWeekly.set_index(dframeWeekly['startTime'])
@@ -272,6 +285,12 @@ def execute_code(symbol):
         dframe['ICH_TS'] = ta.trend.ichimoku_conversion_line(dframe['high'], dframe['low'])
         dframe['ICH_CS'] = dframe['close'].shift(-25)
 
+        dframeH1['ICH_SSA'] = ta.trend.ichimoku_a(dframeH1['high'], dframeH1['low'], window1=9,window2=26).shift(25)
+        dframeH1['ICH_SSB'] = ta.trend.ichimoku_b(dframeH1['high'], dframeH1['low'], window2=26,window3=52).shift(25)
+        dframeH1['ICH_KS'] = ta.trend.ichimoku_base_line(dframeH1['high'], dframeH1['low'])
+        dframeH1['ICH_TS'] = ta.trend.ichimoku_conversion_line(dframeH1['high'], dframeH1['low'])
+        dframeH1['ICH_CS'] = dframeH1['close'].shift(-25)
+
         dframeH4['ICH_SSA'] = ta.trend.ichimoku_a(dframeH4['high'], dframeH4['low'], window1=9,window2=26).shift(25)
         dframeH4['ICH_SSB'] = ta.trend.ichimoku_b(dframeH4['high'], dframeH4['low'], window2=26,window3=52).shift(25)
         dframeH4['ICH_KS'] = ta.trend.ichimoku_base_line(dframeH4['high'], dframeH4['low'])
@@ -293,6 +312,13 @@ def execute_code(symbol):
     except KeyError as err:
         print("ERR001", err)
         return
+
+    for indexdf, rowdf in dframeH1.iterrows():
+        ssaH1 = dframeH1['ICH_SSA'].iloc[-1]
+        ssbH1 = dframeH1['ICH_SSB'].iloc[-1]
+        #print(symbol, "ssaH1, ssbH1", ssaH1, ssbH1)
+        ksH1 = rowdf['ICH_KS']
+        tsH1 = rowdf['ICH_TS']
 
     for indexdf, rowdf in dframeH4.iterrows():
         ssaH4 = dframeH4['ICH_SSA'].iloc[-1]
@@ -347,6 +373,12 @@ def execute_code(symbol):
             cs2 = dframe['ICH_CS'].iloc[-27]  # cs bougie n-1
             cs3 = dframe['ICH_CS'].iloc[-28]  # cs bougie n en cours
             # print(cs, cs2)
+
+            csH1 = dframeH1['ICH_CS'].iloc[-26]  # cs bougie n en cours
+            csH4 = dframeH4['ICH_CS'].iloc[-26]  # cs bougie n en cours
+            csDaily = dframeDaily['ICH_CS'].iloc[-26]  # cs bougie n en cours
+            csWeekly = dframeDaily['ICH_CS'].iloc[-26]  # cs bougie n en cours
+            
             ssbchikou = dframe['ICH_SSB'].iloc[-26]
             ssbchikou2 = dframe['ICH_SSB'].iloc[-27]
             ssbchikou3 = dframe['ICH_SSB'].iloc[-28]
@@ -661,7 +693,7 @@ def main_thread(name):
             # if not symbol.endswith('USDT') or symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT"):
             #    continue
 
-            # if symbol != 'BTC-PERP':
+            #if symbol != 'BTC/USD':
             #    continue
             # else:
             #    print(symbol, "found")
