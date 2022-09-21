@@ -120,18 +120,25 @@ def execute_code(symbol, type_of_asset):
                 # print(tf, "symbol ok", symbol)
                 # log_to_results(tf + " " + "symbol ok" + " " + symbol)
 
+                str_link = ""
+                if exchange.name.lower() == "ftx":
+                    if type_of_asset == "future":
+                        str_link = "https://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("-", "") #+ "&interval=" + str(interval)
+                    elif type_of_asset == "spot":
+                        str_link += "https://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("/", "") #+ "&interval=" + str(interval)
+
                 key = symbol + " " + type_of_asset
                 if key in dict_results:
                     val = dict_results[key]
-                    dict_results[key] = val + ' ' + tf
+                    dict_results[key] = val + ' ' + tf + ' ' + str_link
                 else:
-                    dict_results[key] = tf
+                    dict_results[key] = tf + ' ' + str_link
 
                 #print(str(dict_results))
                 print(type_of_asset, symbol, dict_results[key])
 
         except:
-            # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
+            print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
             pass
 
 
@@ -156,7 +163,7 @@ for oneline in markets:
     active = oneline['active']
     type_of_asset = oneline['type']
 
-    if active and (symbol.endswith("USDT") or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
+    if active and type_of_asset == "future": # and (symbol.endswith("USDT") or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
         try:
             t = threading.Thread(target=scan_one, args=(symbol, type_of_asset))
             threads.append(t)
