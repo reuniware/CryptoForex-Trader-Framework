@@ -26,7 +26,10 @@ markets = exchange_binance.fetch_markets()
 # print(markets)
 for oneline in markets:
     symbol = oneline['id']
-    if symbol.endswith("USDT"):  # == symbol: #'BTCUSDT':
+
+    active = oneline['active']
+
+    if active and symbol.endswith("USDT"):  # == symbol: #'BTCUSDT':
 
         print(10*"*", symbol, 10*"*")
 
