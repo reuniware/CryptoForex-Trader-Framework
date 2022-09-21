@@ -23,6 +23,7 @@ def delete_results_log():
     if os.path.exists("results.txt"):
         os.remove("results.txt")
 
+delete_results_log()
 
 # exchange = ccxt.binance()
 exchange = ccxt.ftx()
@@ -119,14 +120,15 @@ def execute_code(symbol, type_of_asset):
                 # print(tf, "symbol ok", symbol)
                 # log_to_results(tf + " " + "symbol ok" + " " + symbol)
 
-                if symbol in dict_results:
-                    val = dict_results[symbol]
-                    dict_results[symbol] = val + ' ' + tf
+                key = symbol + " " + type_of_asset
+                if key in dict_results:
+                    val = dict_results[key]
+                    dict_results[key] = val + ' ' + tf
                 else:
-                    dict_results[symbol] = tf
+                    dict_results[key] = tf
 
                 #print(str(dict_results))
-                print(type_of_asset, symbol, dict_results[symbol])
+                print(type_of_asset, symbol, dict_results[key])
 
         except:
             # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
