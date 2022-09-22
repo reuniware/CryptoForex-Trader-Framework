@@ -51,7 +51,7 @@ else:
 
 try:
     markets = exchange.fetch_markets()
-except ccxt.base.errors.ExchangeNotAvailable:
+except (ccxt.ExchangeError, ccxt.NetworkError):
     print("Exchange seems not available (maybe too many requests). Please wait and try again.")
     exit(-10002)
 except:
