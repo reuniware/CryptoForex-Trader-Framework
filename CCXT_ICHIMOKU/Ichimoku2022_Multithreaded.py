@@ -137,6 +137,8 @@ def execute_code(symbol, type_of_asset, exchange_name):
 
     # print(10 * "*", symbol, type_of_asset, exchange.name, 10 * "*")
 
+    key = symbol + " " + type_of_asset + " " + exchange_name
+
     for tf in exchange.timeframes:
 
         try:
@@ -215,18 +217,21 @@ def execute_code(symbol, type_of_asset, exchange_name):
                 # print(tf, "symbol ok", symbol)
                 # log_to_results(tf + " " + "symbol ok" + " " + symbol)
 
-                key = symbol + " " + type_of_asset + " " + exchange_name
+                # key = symbol + " " + type_of_asset + " " + exchange_name
                 if key in dict_results:
                     dict_results[key] = dict_results[key] + ' ' + tf
                 else:
                     dict_results[key] = tf
 
                 # print(str(dict_results))
-                print(exchange_name, symbol, type_of_asset, dict_results[key])
+                # print(exchange_name, symbol, type_of_asset, dict_results[key])
 
         except:
             # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
             pass
+
+    if key in dict_results:
+        print(exchange_name, symbol, type_of_asset, dict_results[key])
 
 
 maxthreads = 1
