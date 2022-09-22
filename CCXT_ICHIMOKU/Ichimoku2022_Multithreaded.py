@@ -165,7 +165,7 @@ def execute_code(symbol, type_of_asset):
 
 maxthreads = 1
 if exchange.name.lower() == "binance":
-    maxthreads = 10
+    maxthreads = 100
 elif exchange.name.lower() == "ftx":
     maxthreads = 100
 
@@ -206,8 +206,16 @@ for oneline in markets:
         except:
             pass
 
+
+start_time = time.time()
+
 for tt in threads:
     tt.join()
+
+end_time = time.time()
+
+print("--- %s seconds ---" % (end_time - start_time))
+
 
 # log_to_results(str(dict_results))
 # print(dict_results)
