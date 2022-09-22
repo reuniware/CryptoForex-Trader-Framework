@@ -48,6 +48,8 @@ print("args.exchange =", args.exchange)
 print("args.get-exchanges", args.get_exchanges)
 print("args.get-assets", args.get_assets)
 
+print("INELIDA Scanner v1.0 - https://twitter.com/IchimokuTrader")
+
 # if a debugger is attached then set an arbitraty exchange for debugging
 if sys.gettrace() is not None:
     args.exchange = "ftx"
