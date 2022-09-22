@@ -7,6 +7,7 @@ from datetime import datetime
 import time
 import threading
 import ta
+import argparse
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
@@ -23,10 +24,26 @@ def delete_results_log():
     if os.path.exists("results.txt"):
         os.remove("results.txt")
 
-delete_results_log()
+parser = argparse.ArgumentParser()
+parser.add_argument("-e", "--exchange", help="set exchange")
+args = parser.parse_args()
+print(args.exchange)
+
+exchange = None
+arg_exchange = args.exchange.lower().strip()
+if arg_exchange == "binance":
+    exchange = ccxt.binance()
+elif arg_exchange == "ftx":
+    exchange = ccxt.ftx()
+else:
+    print("This exchange is not supported.")
+    exit(-1)
 
 # exchange = ccxt.binance()
-exchange = ccxt.ftx()
+# exchange = ccxt.ftx()
+
+
+delete_results_log()
 
 # for tf in exchange.timeframes:
 #     print(tf)
