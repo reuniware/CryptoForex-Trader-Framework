@@ -67,10 +67,24 @@ if args.get_assets is True:
         arg_exchange = args.exchange.lower().strip()
         if arg_exchange in exchanges:
             exchange = exchanges[arg_exchange]
-            a = exchange.fetch_currencies()  # todo : use fetch markets in place of that ?
-            for oneline in a:
-                print(oneline, end=' ')
-            print("")
+            try:
+                markets = exchange.fetch_markets()
+                nb_active_assets = 0
+                for oneline in markets:
+                    symbol = oneline['id'] 
+                    active = oneline['active']
+                    if active is True:
+                        print(symbol, end=' ')
+                        nb_active_assets += 1
+                print("")
+                print("number of active assets =", nb_active_assets)
+            except (ccxt.ExchangeError, ccxt.NetworkError):
+                print("Exchange seems not available (maybe too many requests). Please wait and try again.")
+                # exit(-10002)
+                time.sleep(5)
+            except:
+                print(sys.exc_info())
+                exit(-10003)
     exit(-510)
 
 exchange = None
