@@ -255,7 +255,7 @@ for oneline in markets:
                 or symbol.endswith('BVOL/USDT') or symbol.endswith('BVOL/USD'):
             continue
 
-    if active and quote in ('USDT', 'USD'):  # and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
+    if active and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
         try:
             t = threading.Thread(target=scan_one, args=(symbol, type_of_asset, exchange_name))
             threads.append(t)
