@@ -99,7 +99,7 @@ delete_results_log()
 dict_results = {}
 
 
-def execute_code(symbol, type_of_asset):
+def execute_code(symbol, type_of_asset, exchange_name):
     global dict_results
 
     #print(10 * "*", symbol, type_of_asset, exchange.name, 10 * "*")
@@ -188,7 +188,7 @@ def execute_code(symbol, type_of_asset):
                     dict_results[key] = tf
 
                 #print(str(dict_results))
-                print(type_of_asset, symbol, dict_results[key])
+                print(exchange_name, symbol, type_of_asset, dict_results[key])
 
         except:
             # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
@@ -204,10 +204,10 @@ elif exchange.name.lower() == "ftx":
 threadLimiter = threading.BoundedSemaphore(maxthreads)
 
 
-def scan_one(symbol, type_of_asset):
+def scan_one(symbol, type_of_asset, exchange_name):
     threadLimiter.acquire()
     try:
-        execute_code(symbol, type_of_asset)
+        execute_code(symbol, type_of_asset, exchange_name)
     finally:
         threadLimiter.release()
 
@@ -220,9 +220,10 @@ for oneline in markets:
 
     active = oneline['active']
     type_of_asset = oneline['type']
+    exchange_name = exchange.name.lower()
 
     # this condition could be commented (and then more assets would be scanned)
-    if exchange.name.lower() == "ftx":
+    if exchange_name == "ftx":
         if symbol.endswith('HEDGE/USD') or symbol.endswith('CUSDT/USDT') or symbol.endswith('BEAR/USDT') \
             or symbol.endswith('BEAR/USD') or symbol.endswith('BULL/USDT') or symbol.endswith('BULL/USD') \
             or symbol.endswith('HALF/USD') or symbol.endswith('HALF/USDT') or symbol.endswith('SHIT/USDT') \
@@ -230,11 +231,12 @@ for oneline in markets:
             or symbol.endswith('BVOL/USDT') or symbol.endswith('BVOL/USD'):
             continue
 
-    if active and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
+    if active: # and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
         try:
-            t = threading.Thread(target=scan_one, args=(symbol, type_of_asset))
+            t = threading.Thread(target=scan_one, args=(symbol, type_of_asset, exchange_name))
             threads.append(t)
             t.start()
+            # print("thread started for", symbol)
         except:
             pass
 
