@@ -234,6 +234,8 @@ if exchange.name.lower() == "binance":
     maxthreads = 100
 elif exchange.name.lower() == "ftx":
     maxthreads = 100
+elif exchange.name.lower() == "gateio":
+    maxthreads = 500
 
 threadLimiter = threading.BoundedSemaphore(maxthreads)
 
