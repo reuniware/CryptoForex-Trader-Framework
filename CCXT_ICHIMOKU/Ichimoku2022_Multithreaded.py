@@ -240,8 +240,9 @@ for oneline in markets:
     active = oneline['active']
     type_of_asset = oneline['type']
     exchange_name = exchange.name.lower()
-    quote = oneline['quote']  # USD, USDT, etc... eg. BTC/USDT => quote = USDT
-    # print(symbol, "quote", quote)
+    base = oneline['base']  # eg. BTC/USDT => base = BTC
+    quote = oneline['quote']  # eg. BTC/USDT => quote = USDT
+    # print(symbol, "base", base, "quote", quote)
 
     # print("eval", eval("exchange_name == 'ftx'"))
 
@@ -254,7 +255,7 @@ for oneline in markets:
                 or symbol.endswith('BVOL/USDT') or symbol.endswith('BVOL/USD'):
             continue
 
-    if active:  # and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
+    if active and quote in ('USDT', 'USD'):  # and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
         try:
             t = threading.Thread(target=scan_one, args=(symbol, type_of_asset, exchange_name))
             threads.append(t)
