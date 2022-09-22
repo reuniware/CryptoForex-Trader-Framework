@@ -24,20 +24,44 @@ def delete_results_log():
     if os.path.exists("results.txt"):
         os.remove("results.txt")
 
+
+exchanges = {}  # a placeholder for your instances
+for id in ccxt.exchanges:
+    exchange = getattr(ccxt, id)
+    exchanges[id] = exchange()
+    print(exchanges[id])
+    try:
+        ex = exchanges[id]
+        # markets = ex.fetch_markets()
+        # print(markets)
+    except:
+        continue
+
+# exit(-500)
+
 parser = argparse.ArgumentParser()
-parser.add_argument("-e", "--exchange", help="set exchange")
+parser.add_argument("-e", "--exchange", help="set exchange", required=False)
 args = parser.parse_args()
-print(args.exchange)
+print("args.exchange =", args.exchange)
 
 exchange = None
-arg_exchange = args.exchange.lower().strip()
-if arg_exchange == "binance":
-    exchange = ccxt.binance()
-elif arg_exchange == "ftx":
-    exchange = ccxt.ftx()
+if args.exchange is not None:
+    arg_exchange = args.exchange.lower().strip()
+    if arg_exchange == "binance":
+        exchange = ccxt.binance()
+    elif arg_exchange == "ftx":
+        exchange = ccxt.ftx()
+    else:
+        if arg_exchange in exchanges:
+            print(arg_exchange, "is in list")
+            exchange = exchanges[arg_exchange]
+            #exit(-1)
+        else:
+            print("This exchange is not supported.")
+            exit(-1)
 else:
-    print("This exchange is not supported.")
-    exit(-1)
+    print("no exchange specified.")
+    exit(-2)
 
 # exchange = ccxt.binance()
 # exchange = ccxt.ftx()
