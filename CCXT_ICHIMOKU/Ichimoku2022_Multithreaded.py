@@ -113,8 +113,6 @@ while ok is False:
         print(sys.exc_info())
         exit(-10003)
 
-delete_results_log()
-
 dict_results = {}
 
 
@@ -196,7 +194,8 @@ def execute_code(symbol, type_of_asset, exchange_name):
             # print("ssb_chikou", ssb_chikou)
 
             if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
-                    and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou:
+                    and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
+                    and chikou > tenkan_chikou and chikou > kijun_chikou:
                 # print(tf, "symbol ok", symbol)
                 # log_to_results(tf + " " + "symbol ok" + " " + symbol)
 
@@ -278,6 +277,8 @@ print("--- %s seconds ---" % (end_time - start_time))
 
 # for k in dict_results:
 #     log_to_results(k + " " + dict_results[k])
+
+delete_results_log()
 
 for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
 
