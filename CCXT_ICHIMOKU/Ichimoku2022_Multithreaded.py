@@ -42,15 +42,31 @@ for id in ccxt.exchanges:
 parser = argparse.ArgumentParser()
 parser.add_argument("-e", "--exchange", help="set exchange", required=False)
 parser.add_argument('-g', '--get-exchanges', action='store_true')
+parser.add_argument('-a', '--get-assets', action='store_true')
 args = parser.parse_args()
 print("args.exchange =", args.exchange)
 print("args.get-exchanges", args.get_exchanges)
+print("args.get-assets", args.get_assets)
 
 if args.get_exchanges is True:
     for id in ccxt.exchanges:
         print(id, end=' ')
     print("")
     exit(-505)
+
+if args.get_assets is True:
+    if args.exchange is None:
+        print("Please specify an exchange name")
+    else:
+        arg_exchange = args.exchange.lower().strip()
+        if arg_exchange in exchanges:
+            exchange = exchanges[arg_exchange]
+            a = exchange.fetch_currencies()     # todo : use fetch markets in place of that ?
+            for oneline in a:
+                print(oneline, end=' ')
+            print("")
+    exit(-510)
+
 
 exchange = None
 if args.exchange is not None:
@@ -181,7 +197,7 @@ def execute_code(symbol, type_of_asset, exchange_name):
                 # print(tf, "symbol ok", symbol)
                 # log_to_results(tf + " " + "symbol ok" + " " + symbol)
 
-                key = symbol + " " + type_of_asset
+                key = symbol + " " + type_of_asset + " " + exchange_name
                 if key in dict_results:
                     dict_results[key] = dict_results[key] + ' ' + tf
                 else:
