@@ -48,6 +48,10 @@ print("args.exchange =", args.exchange)
 print("args.get-exchanges", args.get_exchanges)
 print("args.get-assets", args.get_assets)
 
+# if a debugger is attached then set an arbitraty exchange for debugging
+if sys.gettrace() is not None:
+    args.exchange = "ftx"
+
 if args.get_exchanges is True:
     for id in ccxt.exchanges:
         print(id, end=' ')
@@ -61,12 +65,11 @@ if args.get_assets is True:
         arg_exchange = args.exchange.lower().strip()
         if arg_exchange in exchanges:
             exchange = exchanges[arg_exchange]
-            a = exchange.fetch_currencies()     # todo : use fetch markets in place of that ?
+            a = exchange.fetch_currencies()  # todo : use fetch markets in place of that ?
             for oneline in a:
                 print(oneline, end=' ')
             print("")
     exit(-510)
-
 
 exchange = None
 if args.exchange is not None:
@@ -79,7 +82,7 @@ if args.exchange is not None:
         if arg_exchange in exchanges:
             print(arg_exchange, "is in list")
             exchange = exchanges[arg_exchange]
-            #exit(-1)
+            # exit(-1)
         else:
             print("This exchange is not supported.")
             exit(-1)
@@ -118,13 +121,13 @@ dict_results = {}
 def execute_code(symbol, type_of_asset, exchange_name):
     global dict_results
 
-    #print(10 * "*", symbol, type_of_asset, exchange.name, 10 * "*")
+    # print(10 * "*", symbol, type_of_asset, exchange.name, 10 * "*")
 
     for tf in exchange.timeframes:
 
         try:
 
-            result = exchange.fetch_ohlcv(symbol, tf, limit=52+26)
+            result = exchange.fetch_ohlcv(symbol, tf, limit=52 + 26)
             # print(tf, symbol, result)
             dframe = pd.DataFrame(result)
             # print(dframe[0])  # UTC timestamp in milliseconds, integer
@@ -193,7 +196,7 @@ def execute_code(symbol, type_of_asset, exchange_name):
             # print("ssb_chikou", ssb_chikou)
 
             if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
-                and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou:
+                    and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou:
                 # print(tf, "symbol ok", symbol)
                 # log_to_results(tf + " " + "symbol ok" + " " + symbol)
 
@@ -203,7 +206,7 @@ def execute_code(symbol, type_of_asset, exchange_name):
                 else:
                     dict_results[key] = tf
 
-                #print(str(dict_results))
+                # print(str(dict_results))
                 print(exchange_name, symbol, type_of_asset, dict_results[key])
 
         except:
@@ -237,19 +240,21 @@ for oneline in markets:
     active = oneline['active']
     type_of_asset = oneline['type']
     exchange_name = exchange.name.lower()
+    quote = oneline['quote']  # USD, USDT, etc... eg. BTC/USDT => quote = USDT
+    # print(symbol, "quote", quote)
 
-    #print("eval", eval("exchange_name == 'ftx'"))
+    # print("eval", eval("exchange_name == 'ftx'"))
 
     # this condition could be commented (and then more assets would be scanned)
     if exchange_name == "ftx":
         if symbol.endswith('HEDGE/USD') or symbol.endswith('CUSDT/USDT') or symbol.endswith('BEAR/USDT') \
-            or symbol.endswith('BEAR/USD') or symbol.endswith('BULL/USDT') or symbol.endswith('BULL/USD') \
-            or symbol.endswith('HALF/USD') or symbol.endswith('HALF/USDT') or symbol.endswith('SHIT/USDT') \
-            or symbol.endswith('SHIT/USD') or symbol.endswith('BEAR2021/USDT') or symbol.endswith('BEAR2021/USD') \
-            or symbol.endswith('BVOL/USDT') or symbol.endswith('BVOL/USD'):
+                or symbol.endswith('BEAR/USD') or symbol.endswith('BULL/USDT') or symbol.endswith('BULL/USD') \
+                or symbol.endswith('HALF/USD') or symbol.endswith('HALF/USDT') or symbol.endswith('SHIT/USDT') \
+                or symbol.endswith('SHIT/USD') or symbol.endswith('BEAR2021/USDT') or symbol.endswith('BEAR2021/USD') \
+                or symbol.endswith('BVOL/USDT') or symbol.endswith('BVOL/USD'):
             continue
 
-    if active: # and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
+    if active:  # and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
         try:
             t = threading.Thread(target=scan_one, args=(symbol, type_of_asset, exchange_name))
             threads.append(t)
@@ -257,7 +262,6 @@ for oneline in markets:
             # print("thread started for", symbol)
         except:
             pass
-
 
 start_time = time.time()
 
@@ -267,7 +271,6 @@ for tt in threads:
 end_time = time.time()
 
 print("--- %s seconds ---" % (end_time - start_time))
-
 
 # log_to_results(str(dict_results))
 # print(dict_results)
@@ -284,9 +287,9 @@ for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
     str_link = ""
     if exchange.name.lower() == "ftx":
         if type_of_asset in ("future", "swap"):
-            str_link = "https://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("-", "") #+ "&interval=" + str(interval)
+            str_link = "https://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("-", "")  # + "&interval=" + str(interval)
         elif type_of_asset == "spot":
-            str_link += "https://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("/", "") #+ "&interval=" + str(interval)
+            str_link += "https://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("/", "")  # + "&interval=" + str(interval)
     elif exchange.name.lower() == "binance":
         if type_of_asset == "future":
             str_link = "https://tradingview.com/chart/?symbol=BINANCE%3A" + symbol + "PERP"
