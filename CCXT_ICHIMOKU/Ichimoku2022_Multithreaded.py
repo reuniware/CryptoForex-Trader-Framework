@@ -29,7 +29,7 @@ exchanges = {}  # a placeholder for your instances
 for id in ccxt.exchanges:
     exchange = getattr(ccxt, id)
     exchanges[id] = exchange()
-    print(exchanges[id])
+    # print(exchanges[id])
     try:
         ex = exchanges[id]
         # markets = ex.fetch_markets()
@@ -41,8 +41,16 @@ for id in ccxt.exchanges:
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-e", "--exchange", help="set exchange", required=False)
+parser.add_argument('-g', '--get-exchanges', action='store_true')
 args = parser.parse_args()
 print("args.exchange =", args.exchange)
+print("args.get-exchanges", args.get_exchanges)
+
+if args.get_exchanges is True:
+    for id in ccxt.exchanges:
+        print(id, end=' ')
+    print("")
+    exit(-505)
 
 exchange = None
 if args.exchange is not None:
