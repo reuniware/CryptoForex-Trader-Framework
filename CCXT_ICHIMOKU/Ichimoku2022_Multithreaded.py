@@ -49,14 +49,18 @@ else:
 # binance.timeframes {'1m': '1m', '3m': '3m', '5m': '5m', '15m': '15m', '30m': '30m', '1h': '1h', '2h': '2h', '4h': '4h', '6h': '6h', '8h': '8h', '12h': '12h', '1d': '1d', '3d': '3d', '1w': '1w', '1M': '1M'}
 # exchange.set_sandbox_mode(True)
 
-try:
-    markets = exchange.fetch_markets()
-except (ccxt.ExchangeError, ccxt.NetworkError):
-    print("Exchange seems not available (maybe too many requests). Please wait and try again.")
-    exit(-10002)
-except:
-    print(sys.exc_info())
-    exit(-10003)
+ok = False
+while ok is False:
+    try:
+        markets = exchange.fetch_markets()
+        ok = True
+    except (ccxt.ExchangeError, ccxt.NetworkError):
+        print("Exchange seems not available (maybe too many requests). Please wait and try again.")
+        # exit(-10002)
+        time.sleep(5)
+    except:
+        print(sys.exc_info())
+        exit(-10003)
 
 delete_results_log()
 
