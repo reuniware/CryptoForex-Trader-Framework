@@ -148,12 +148,24 @@ while ok is False:
 dict_results = {}
 
 
-def execute_code(symbol, type_of_asset, exchange_name):
+def execute_code(symbol, type_of_asset, exchange_id):
     global dict_results
 
-    # print(10 * "*", symbol, type_of_asset, exchange.name, 10 * "*")
+    # print(10 * "*", symbol, type_of_asset, exchange.id, 10 * "*")
 
-    key = symbol + " " + type_of_asset + " " + exchange_name
+    key = symbol + " " + type_of_asset + " " + exchange_id
+
+    price_open_1d = None
+    price_high_1d = None
+    price_low_1d = None
+    price_close_1d = None
+    s_price_open_1d = ""
+    s_price_high_1d = ""
+    s_price_low_1d = ""
+    s_price_close_1d = ""
+    percent_evol_1d = None
+    s_percent_evol_1d = ""
+
 
     for tf in exchange.timeframes:
 
@@ -239,14 +251,14 @@ def execute_code(symbol, type_of_asset, exchange_name):
                 # print(tf, "symbol ok", symbol)
                 # log_to_results(tf + " " + "symbol ok" + " " + symbol)
 
-                # key = symbol + " " + type_of_asset + " " + exchange_name
+                # key = symbol + " " + type_of_asset + " " + exchange_id
                 if key in dict_results:
                     dict_results[key] = dict_results[key] + ' ' + tf
                 else:
                     dict_results[key] = tf
 
                 # print(str(dict_results))
-                # print(exchange_name, symbol, type_of_asset, dict_results[key])
+                # print(exchange_id, symbol, type_of_asset, dict_results[key])
 
         except:
             # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
@@ -260,29 +272,32 @@ def execute_code(symbol, type_of_asset, exchange_name):
             s_price_close_1d = "{:.8f}".format(price_close_1d)
             percent_evol_1d = (price_close_1d - price_open_1d)/price_open_1d*100
             s_percent_evol_1d = "[{:.4f}".format(percent_evol_1d) + " %]"
-        #print(exchange_name, symbol, type_of_asset, dict_results[key], "{:.8f}".format(price_open_1d, 4), s_price_open_1d, s_price_high_1d, s_price_low_1d, s_price_close_1d)
+        #print(exchange_id, symbol, type_of_asset, dict_results[key], "{:.8f}".format(price_open_1d, 4), s_price_open_1d, s_price_high_1d, s_price_low_1d, s_price_close_1d)
 
-        str_to_log = str(datetime.now()) + " " + exchange_name + " " + symbol + " " + type_of_asset + " " + dict_results[key] + " " + s_percent_evol_1d
+        str_to_log = str(datetime.now()) + " " + exchange_id + " " + symbol + " " + type_of_asset + " " + dict_results[key] + " " + s_percent_evol_1d
 
         print(str_to_log)
         log_to_results_temp(str_to_log)
 
 
 maxthreads = 1
-if exchange.name.lower() == "binance":
+if exchange.id.lower() == "binance":
+    print("setting maxthreads for", exchange.id)
     maxthreads = 100
-elif exchange.name.lower() == "ftx":
+elif exchange.id.lower() == "ftx":
+    print("setting maxthreads for", exchange.id)
     maxthreads = 100
-elif exchange.name.lower() == "gateio":
+elif exchange.id.lower() == "gateio":
+    print("setting maxthreads for", exchange.id)
     maxthreads = 100
 
 threadLimiter = threading.BoundedSemaphore(maxthreads)
 
 
-def scan_one(symbol, type_of_asset, exchange_name):
+def scan_one(symbol, type_of_asset, exchange_id):
     threadLimiter.acquire()
     try:
-        execute_code(symbol, type_of_asset, exchange_name)
+        execute_code(symbol, type_of_asset, exchange_id)
     finally:
         threadLimiter.release()
 
@@ -295,15 +310,15 @@ for oneline in markets:
 
     active = oneline['active']
     type_of_asset = oneline['type']
-    exchange_name = exchange.name.lower()
+    exchange_id = exchange.id.lower()
     base = oneline['base']  # eg. BTC/USDT => base = BTC
     quote = oneline['quote']  # eg. BTC/USDT => quote = USDT
     # print(symbol, "base", base, "quote", quote)
 
-    # print("eval", eval("exchange_name == 'ftx'"))
+    # print("eval", eval("exchange_id == 'ftx'"))
 
     # this condition could be commented (and then more assets would be scanned)
-    if exchange_name == "ftx":
+    if exchange_id == "ftx":
         if symbol.endswith('HEDGE/USD') or symbol.endswith('CUSDT/USDT') or symbol.endswith('BEAR/USDT') \
                 or symbol.endswith('BEAR/USD') or symbol.endswith('BULL/USDT') or symbol.endswith('BULL/USD') \
                 or symbol.endswith('HALF/USD') or symbol.endswith('HALF/USDT') or symbol.endswith('SHIT/USDT') \
@@ -313,7 +328,7 @@ for oneline in markets:
 
     if active and filter_assets in symbol:#and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
         try:
-            t = threading.Thread(target=scan_one, args=(symbol, type_of_asset, exchange_name))
+            t = threading.Thread(target=scan_one, args=(symbol, type_of_asset, exchange_id))
             threads.append(t)
             t.start()
             # print("thread started for", symbol)
@@ -349,9 +364,9 @@ for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
     str_link = ""
 
     if type_of_asset in ("future", "swap"):
-        str_link = "https://tradingview.com/chart/?symbol=" + exchange_name.upper() + ":" + symbol.replace("-", "")  # + "&interval=" + str(interval)
+        str_link = "https://tradingview.com/chart/?symbol=" + exchange_name.upper() + ":" + symbol.replace("-", "") + "&interval=960"
     elif type_of_asset == "spot":
-        str_link += "https://tradingview.com/chart/?symbol=" + exchange_name.upper() + ":" + symbol.replace("/", "")  # + "&interval=" + str(interval)
+        str_link += "https://tradingview.com/chart/?symbol=" + exchange_name.upper() + ":" + symbol.replace("/", "") + "&interval=960"
     
     strpad = ""
     strpad = " " * (60 - len(str_link))
