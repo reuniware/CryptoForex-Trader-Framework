@@ -41,8 +41,8 @@ for id in ccxt.exchanges:
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-e", "--exchange", help="set exchange", required=False)
-parser.add_argument('-g', '--get-exchanges', action='store_true')
-parser.add_argument('-a', '--get-assets', action='store_true')
+parser.add_argument('-g', '--get-exchanges', action='store_true', help="get list of available exchanges")
+parser.add_argument('-a', '--get-assets', action='store_true', help="get list of available assets")
 parser.add_argument('-f', '--filter-assets', help="filter assets")
 args = parser.parse_args()
 print("args.exchange =", args.exchange)
