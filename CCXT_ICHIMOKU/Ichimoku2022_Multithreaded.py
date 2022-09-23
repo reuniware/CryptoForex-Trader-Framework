@@ -265,10 +265,13 @@ def execute_code(symbol, type_of_asset, exchange_name):
             s_price_low_1d = "{:.8f}".format(price_low_1d)
             s_price_close_1d = "{:.8f}".format(price_close_1d)
             percent_evol_1d = (price_close_1d - price_open_1d)/price_open_1d*100
-            s_percent_evol_1d = "{:.4f}".format(percent_evol_1d) + " %"
+            s_percent_evol_1d = "[{:.4f}".format(percent_evol_1d) + " %]"
         #print(exchange_name, symbol, type_of_asset, dict_results[key], "{:.8f}".format(price_open_1d, 4), s_price_open_1d, s_price_high_1d, s_price_low_1d, s_price_close_1d)
-        print(exchange_name, symbol, type_of_asset, dict_results[key], 10*" ", s_percent_evol_1d)
-        log_to_results_temp(str(datetime.now()) + " " + exchange_name + " " + symbol + " " + type_of_asset + " " + dict_results[key] + " " + s_percent_evol_1d)
+
+        str_to_log = str(datetime.now()) + " " + exchange_name + " " + symbol + " " + type_of_asset + " " + dict_results[key] + " " + s_percent_evol_1d
+
+        print(str_to_log)
+        log_to_results_temp(str_to_log)
 
 
 maxthreads = 1
