@@ -180,6 +180,12 @@ def execute_code(symbol, type_of_asset, exchange_name):
             dframe['low'] = pd.to_numeric(dframe[3])
             dframe['close'] = pd.to_numeric(dframe[4])
 
+            if tf == "1d":
+                price_open_1d = dframe['open'].iloc[-1]
+                price_high_1d = dframe['high'].iloc[-1]
+                price_low_1d = dframe['low'].iloc[-1]
+                price_close_1d = dframe['close'].iloc[-1]
+
             dframe['ICH_SSB'] = ta.trend.ichimoku_b(dframe['high'], dframe['low'], window2=26, window3=52).shift(26)
             # print(dframe['ICH_SSB'])
 
@@ -253,8 +259,16 @@ def execute_code(symbol, type_of_asset, exchange_name):
             pass
 
     if key in dict_results:
-        print(exchange_name, symbol, type_of_asset, dict_results[key])
-        log_to_results_temp(str(datetime.now()) + " " + exchange_name + " " + symbol + " " + type_of_asset + " " + dict_results[key])
+        if price_open_1d is not None and price_high_1d is not None and price_low_1d is not None and price_close_1d is not None:
+            s_price_open_1d = "{:.8f}".format(price_open_1d)
+            s_price_high_1d = "{:.8f}".format(price_high_1d)
+            s_price_low_1d = "{:.8f}".format(price_low_1d)
+            s_price_close_1d = "{:.8f}".format(price_close_1d)
+            percent_evol_1d = (price_close_1d - price_open_1d)/price_open_1d*100
+            s_percent_evol_1d = "{:.4f}".format(percent_evol_1d) + " %"
+        #print(exchange_name, symbol, type_of_asset, dict_results[key], "{:.8f}".format(price_open_1d, 4), s_price_open_1d, s_price_high_1d, s_price_low_1d, s_price_close_1d)
+        print(exchange_name, symbol, type_of_asset, dict_results[key], 10*" ", s_percent_evol_1d)
+        log_to_results_temp(str(datetime.now()) + " " + exchange_name + " " + symbol + " " + type_of_asset + " " + dict_results[key] + " " + s_percent_evol_1d)
 
 
 maxthreads = 1
