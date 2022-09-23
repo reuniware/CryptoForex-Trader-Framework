@@ -303,6 +303,8 @@ print("--- %s seconds ---" % (end_time - start_time))
 
 delete_results_log()
 
+log_to_results("Scan results at : " + str(datetime.now()))
+
 for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
 
     value = k
@@ -320,5 +322,8 @@ for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
             str_link = "https://tradingview.com/chart/?symbol=BINANCE%3A" + symbol + "PERP"
         else:
             str_link = "https://tradingview.com/chart/?symbol=BINANCE%3A" + symbol
+    
+    strpad = ""
+    strpad = " " * (60 - len(str_link))
 
-    log_to_results(k + " " + dict_results[k] + " " + str_link)
+    log_to_results(k + " " + dict_results[k] + " " + strpad + str_link)
