@@ -112,25 +112,19 @@ if args.filter_assets is not None:
 exchange = None
 if args.exchange is not None:
     arg_exchange = args.exchange.lower().strip()
-    if arg_exchange == "binance":
-        exchange = ccxt.binance()
-    elif arg_exchange == "ftx":
-        exchange = ccxt.ftx()
+    if arg_exchange in exchanges:
+        print(arg_exchange, "is in list")
+        exchange = exchanges[arg_exchange]
+        # exit(-1)
     else:
-        if arg_exchange in exchanges:
-            print(arg_exchange, "is in list")
-            exchange = exchanges[arg_exchange]
-            # exit(-1)
-        else:
-            print("This exchange is not supported.")
-            exit(-1)
+        print("This exchange is not supported.")
+        exit(-1)
 else:
     print("no exchange specified.")
     exit(-2)
 
 # exchange = ccxt.binance()
 # exchange = ccxt.ftx()
-
 
 # for tf in exchange.timeframes:
 #     print(tf)
