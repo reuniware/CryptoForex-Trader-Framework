@@ -271,7 +271,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
             s_price_low_1d = "{:.8f}".format(price_low_1d)
             s_price_close_1d = "{:.8f}".format(price_close_1d)
             percent_evol_1d = (price_close_1d - price_open_1d)/price_open_1d*100
-            s_percent_evol_1d = "[{:.4f}".format(percent_evol_1d) + " %]"
+            s_percent_evol_1d = "[{:.2f}".format(percent_evol_1d) + " %]"
         #print(exchange_id, symbol, type_of_asset, dict_results[key], "{:.8f}".format(price_open_1d, 4), s_price_open_1d, s_price_high_1d, s_price_low_1d, s_price_close_1d)
 
         str_to_log = str(datetime.now()) + " " + exchange_id + " " + symbol + " " + type_of_asset + " " + dict_results[key] + " " + s_percent_evol_1d
