@@ -351,17 +351,18 @@ for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
     symbol = value.split()[0]
     type_of_asset = value.split()[1]
 
+    exchange_name = exchange.name.lower()
     str_link = ""
-    if exchange.name.lower() == "ftx":
+    if exchange_name == "ftx":
         if type_of_asset in ("future", "swap"):
-            str_link = "https://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("-", "")  # + "&interval=" + str(interval)
+            str_link = "https://tradingview.com/chart/?symbol=" + exchange_name + "%3A" + symbol.replace("-", "")  # + "&interval=" + str(interval)
         elif type_of_asset == "spot":
-            str_link += "https://tradingview.com/chart/?symbol=FTX%3A" + symbol.replace("/", "")  # + "&interval=" + str(interval)
+            str_link += "https://tradingview.com/chart/?symbol=" + exchange_name + "%3A" + symbol.replace("/", "")  # + "&interval=" + str(interval)
     elif exchange.name.lower() == "binance":
         if type_of_asset == "future":
-            str_link = "https://tradingview.com/chart/?symbol=BINANCE%3A" + symbol + "PERP"
+            str_link = "https://tradingview.com/chart/?symbol=" + exchange_name + "%3A" + symbol + "PERP"
         else:
-            str_link = "https://tradingview.com/chart/?symbol=BINANCE%3A" + symbol
+            str_link = "https://tradingview.com/chart/?symbol=" + exchange_name + "%3A" + symbol
     
     strpad = ""
     strpad = " " * (60 - len(str_link))
