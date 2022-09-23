@@ -25,6 +25,20 @@ def delete_results_log():
         os.remove("results.txt")
 
 
+def log_to_results_temp(str_to_log):
+    fr = open("results_temp.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def delete_results_temp_log():
+    if os.path.exists("results_temp.txt"):
+        os.remove("results_temp.txt")
+
+
+delete_results_temp_log()
+
+
 exchanges = {}  # a placeholder for your instances
 for id in ccxt.exchanges:
     exchange = getattr(ccxt, id)
@@ -218,7 +232,7 @@ def execute_code(symbol, type_of_asset, exchange_name):
             # print("kijun_chikou", kijun_chikou)
             # print("ssa_chikou", ssa_chikou)
             # print("ssb_chikou", ssb_chikou)
-
+            
             if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
                     and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
                     and chikou > tenkan_chikou and chikou > kijun_chikou:
@@ -240,6 +254,7 @@ def execute_code(symbol, type_of_asset, exchange_name):
 
     if key in dict_results:
         print(exchange_name, symbol, type_of_asset, dict_results[key])
+        log_to_results_temp(str(datetime.now()) + " " + exchange_name + " " + symbol + " " + type_of_asset + " " + dict_results[key])
 
 
 maxthreads = 1
@@ -248,7 +263,7 @@ if exchange.name.lower() == "binance":
 elif exchange.name.lower() == "ftx":
     maxthreads = 100
 elif exchange.name.lower() == "gateio":
-    maxthreads = 500
+    maxthreads = 100
 
 threadLimiter = threading.BoundedSemaphore(maxthreads)
 
