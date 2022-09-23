@@ -1,0 +1,79 @@
+Scan results at : 2022-09-23 15:25:27.733632
+GTOBTC spot binance 1s https://tradingview.com/chart/?symbol=BINANCE:GTOBTC&interval=960
+NEOUSDT spot binance 1m https://tradingview.com/chart/?symbol=BINANCE:NEOUSDT&interval=960
+KNCBTC spot binance 3m https://tradingview.com/chart/?symbol=BINANCE:KNCBTC&interval=960
+WABIBTC spot binance 1m https://tradingview.com/chart/?symbol=BINANCE:WABIBTC&interval=960
+ASTBTC spot binance 1m https://tradingview.com/chart/?symbol=BINANCE:ASTBTC&interval=960
+BTCUSDT spot binance 1m https://tradingview.com/chart/?symbol=BINANCE:BTCUSDT&interval=960
+ETCBTC spot binance 5m https://tradingview.com/chart/?symbol=BINANCE:ETCBTC&interval=960
+XMRBTC spot binance 5m https://tradingview.com/chart/?symbol=BINANCE:XMRBTC&interval=960
+GASBTC spot binance 5m https://tradingview.com/chart/?symbol=BINANCE:GASBTC&interval=960
+TRBBUSD spot binance 1s https://tradingview.com/chart/?symbol=BINANCE:TRBBUSD&interval=960
+NULSBTC spot binance 15m https://tradingview.com/chart/?symbol=BINANCE:NULSBTC&interval=960
+SNTETH spot binance 12h https://tradingview.com/chart/?symbol=BINANCE:SNTETH&interval=960
+BNBUSDT spot binance 1s 1m https://tradingview.com/chart/?symbol=BINANCE:BNBUSDT&interval=960
+EOSBTC spot binance 1m 3m https://tradingview.com/chart/?symbol=BINANCE:EOSBTC&interval=960
+LTCUSDT spot binance 1s 1m https://tradingview.com/chart/?symbol=BINANCE:LTCUSDT&interval=960
+AIONBTC spot binance 3m 5m https://tradingview.com/chart/?symbol=BINANCE:AIONBTC&interval=960
+ETHUSDT spot binance 1m 3m https://tradingview.com/chart/?symbol=BINANCE:ETHUSDT&interval=960
+ADABTC spot binance 3m 1d https://tradingview.com/chart/?symbol=BINANCE:ADABTC&interval=960
+ADXBTC spot binance 1m 3m https://tradingview.com/chart/?symbol=BINANCE:ADXBTC&interval=960
+WAVESBNB spot binance 3m 5m https://tradingview.com/chart/?symbol=BINANCE:WAVESBNB&interval=960
+MANAETH spot binance 2h 6h https://tradingview.com/chart/?symbol=BINANCE:MANAETH&interval=960
+ELFETH spot binance 6h 8h https://tradingview.com/chart/?symbol=BINANCE:ELFETH&interval=960
+ELFBTC spot binance 15m 30m https://tradingview.com/chart/?symbol=BINANCE:ELFBTC&interval=960
+LTCBNB spot binance 1m 3m 5m https://tradingview.com/chart/?symbol=BINANCE:LTCBNB&interval=960
+WAVESETH spot binance 2h 6h 8h https://tradingview.com/chart/?symbol=BINANCE:WAVESETH&interval=960
+DASHETH spot binance 2h 6h 8h https://tradingview.com/chart/?symbol=BINANCE:DASHETH&interval=960
+XLMETH spot binance 4h 6h 8h https://tradingview.com/chart/?symbol=BINANCE:XLMETH&interval=960
+ICXBTC spot binance 3m 15m 1h https://tradingview.com/chart/?symbol=BINANCE:ICXBTC&interval=960
+OMGETH spot binance 15m 2h 6h https://tradingview.com/chart/?symbol=BINANCE:OMGETH&interval=960
+TRXETH spot binance 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:TRXETH&interval=960
+IOSTETH spot binance 2h 6h 12h https://tradingview.com/chart/?symbol=BINANCE:IOSTETH&interval=960
+MTLETH spot binance 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:MTLETH&interval=960
+ADAETH spot binance 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:ADAETH&interval=960
+XMRETH spot binance 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:XMRETH&interval=960
+MTLBTC spot binance 1m 3m 5m 1h https://tradingview.com/chart/?symbol=BINANCE:MTLBTC&interval=960
+ZECBTC spot binance 1m 3m 2h 4h https://tradingview.com/chart/?symbol=BINANCE:ZECBTC&interval=960
+WAVESBTC spot binance 3m 5m 15m 2h https://tradingview.com/chart/?symbol=BINANCE:WAVESBTC&interval=960
+STORJBTC spot binance 3m 5m 15m 1h https://tradingview.com/chart/?symbol=BINANCE:STORJBTC&interval=960
+KMDBTC spot binance 3m 5m 15m 2h https://tradingview.com/chart/?symbol=BINANCE:KMDBTC&interval=960
+ENJETH spot binance 2h 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:ENJETH&interval=960
+LINKETH spot binance 1h 8h 12h 1d https://tradingview.com/chart/?symbol=BINANCE:LINKETH&interval=960
+LRCETH spot binance 2h 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:LRCETH&interval=960
+LTCETH spot binance 2h 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:LTCETH&interval=960
+NEOETH spot binance 2h 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:NEOETH&interval=960
+QTUMETH spot binance 2h 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:QTUMETH&interval=960
+ZECETH spot binance 4h 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:ZECETH&interval=960
+XRPETH spot binance 4h 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:XRPETH&interval=960
+REQBTC spot binance 5m 15m 30m 1h https://tradingview.com/chart/?symbol=BINANCE:REQBTC&interval=960
+XLMBTC spot binance 1m 3m 4h 6h 8h https://tradingview.com/chart/?symbol=BINANCE:XLMBTC&interval=960
+ENJBTC spot binance 1m 3m 5m 30m 1h https://tradingview.com/chart/?symbol=BINANCE:ENJBTC&interval=960
+BNBETH spot binance 2h 4h 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:BNBETH&interval=960
+LSKBTC spot binance 1m 3m 5m 15m 30m https://tradingview.com/chart/?symbol=BINANCE:LSKBTC&interval=960
+BNTBTC spot binance 1m 3m 5m 15m 30m https://tradingview.com/chart/?symbol=BINANCE:BNTBTC&interval=960
+POWRBTC spot binance 1m 3m 5m 15m 30m https://tradingview.com/chart/?symbol=BINANCE:POWRBTC&interval=960
+ETHBTC spot binance 1m 3m 5m 15m 30m https://tradingview.com/chart/?symbol=BINANCE:ETHBTC&interval=960
+ZRXETH spot binance 15m 2h 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:ZRXETH&interval=960
+XLMBNB spot binance 1m 3m 6h 8h 12h 1d https://tradingview.com/chart/?symbol=BINANCE:XLMBNB&interval=960
+NEBLBTC spot binance 1m 3m 5m 12h 1d 3d https://tradingview.com/chart/?symbol=BINANCE:NEBLBTC&interval=960
+LTCBTC spot binance 3m 5m 15m 30m 1h 2h https://tradingview.com/chart/?symbol=BINANCE:LTCBTC&interval=960
+MANABTC spot binance 3m 5m 15m 30m 1h 2h https://tradingview.com/chart/?symbol=BINANCE:MANABTC&interval=960
+NEOBTC spot binance 3m 5m 15m 30m 1h 2h https://tradingview.com/chart/?symbol=BINANCE:NEOBTC&interval=960
+LRCBTC spot binance 1m 3m 5m 15m 30m 1h 2h https://tradingview.com/chart/?symbol=BINANCE:LRCBTC&interval=960
+QTUMBTC spot binance 1m 3m 5m 15m 30m 1h 2h https://tradingview.com/chart/?symbol=BINANCE:QTUMBTC&interval=960
+WTCBTC spot binance 1m 3m 5m 15m 30m 1h 2h https://tradingview.com/chart/?symbol=BINANCE:WTCBTC&interval=960
+ZRXBTC spot binance 3m 5m 15m 30m 1h 2h 4h https://tradingview.com/chart/?symbol=BINANCE:ZRXBTC&interval=960
+BNBBTC spot binance 15m 30m 1h 2h 4h 6h 8h https://tradingview.com/chart/?symbol=BINANCE:BNBBTC&interval=960
+LINKBTC spot binance 1m 15m 30m 1h 8h 12h 1d https://tradingview.com/chart/?symbol=BINANCE:LINKBTC&interval=960
+DASHBTC spot binance 1m 3m 5m 15m 30m 1h 2h 4h https://tradingview.com/chart/?symbol=BINANCE:DASHBTC&interval=960
+BATBTC spot binance 1m 3m 5m 15m 30m 1h 2h 4h https://tradingview.com/chart/?symbol=BINANCE:BATBTC&interval=960
+TRXBTC spot binance 5m 15m 30m 1h 2h 6h 12h 1d https://tradingview.com/chart/?symbol=BINANCE:TRXBTC&interval=960
+XRPBTC spot binance 1m 3m 4h 6h 8h 12h 1d 3d 1w https://tradingview.com/chart/?symbol=BINANCE:XRPBTC&interval=960
+RLCETH spot binance 5m 15m 30m 1h 2h 4h 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:RLCETH&interval=960
+IOTAETH spot binance 5m 15m 30m 1h 2h 4h 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:IOTAETH&interval=960
+BATETH spot binance 5m 15m 30m 1h 2h 4h 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:BATETH&interval=960
+OMGBTC spot binance 1m 3m 5m 15m 30m 1h 2h 4h 6h 8h https://tradingview.com/chart/?symbol=BINANCE:OMGBTC&interval=960
+RLCBTC spot binance 3m 5m 15m 30m 1h 2h 4h 6h 8h 3d https://tradingview.com/chart/?symbol=BINANCE:RLCBTC&interval=960
+IOTABTC spot binance 1m 3m 5m 15m 30m 1h 2h 4h 6h 8h https://tradingview.com/chart/?symbol=BINANCE:IOTABTC&interval=960
+IOTABNB spot binance 1m 3m 5m 15m 30m 1h 2h 4h 6h 8h 12h https://tradingview.com/chart/?symbol=BINANCE:IOTABNB&interval=960
