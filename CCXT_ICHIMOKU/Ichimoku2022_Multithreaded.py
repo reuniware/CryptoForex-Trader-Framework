@@ -51,6 +51,7 @@ print("args.get-assets", args.get_assets)
 print("args.filter", args.filter_assets)
 
 print("INELIDA Scanner v1.0 - https://twitter.com/IchimokuTrader")
+print("Scan started at :", str(datetime.now()))
 
 # if a debugger is attached then set an arbitraty exchange for debugging
 if sys.gettrace() is not None:
@@ -89,8 +90,10 @@ if args.get_assets is True:
                 exit(-10003)
     exit(-510)
 
-if args.filter_assets.strip() != "":
-    filter_assets = args.filter_assets.strip().upper()
+filter_assets = ""
+if args.filter_assets is not None:
+    if args.filter_assets.strip() != "":
+        filter_assets = args.filter_assets.strip().upper()
 
 exchange = None
 if args.exchange is not None:
