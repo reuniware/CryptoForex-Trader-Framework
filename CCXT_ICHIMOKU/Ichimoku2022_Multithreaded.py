@@ -43,10 +43,12 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-e", "--exchange", help="set exchange", required=False)
 parser.add_argument('-g', '--get-exchanges', action='store_true')
 parser.add_argument('-a', '--get-assets', action='store_true')
+parser.add_argument('-f', '--filter-assets', help="filter assets")
 args = parser.parse_args()
 print("args.exchange =", args.exchange)
 print("args.get-exchanges", args.get_exchanges)
 print("args.get-assets", args.get_assets)
+print("args.filter", args.filter_assets)
 
 print("INELIDA Scanner v1.0 - https://twitter.com/IchimokuTrader")
 
@@ -86,6 +88,9 @@ if args.get_assets is True:
                 print(sys.exc_info())
                 exit(-10003)
     exit(-510)
+
+if args.filter_assets.strip() != "":
+    filter_assets = args.filter_assets.strip().upper()
 
 exchange = None
 if args.exchange is not None:
@@ -277,7 +282,7 @@ for oneline in markets:
                 or symbol.endswith('BVOL/USDT') or symbol.endswith('BVOL/USD'):
             continue
 
-    if active and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
+    if active and filter_assets in symbol:#and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
         try:
             t = threading.Thread(target=scan_one, args=(symbol, type_of_asset, exchange_name))
             threads.append(t)
