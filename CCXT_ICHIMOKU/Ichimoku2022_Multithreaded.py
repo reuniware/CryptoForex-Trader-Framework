@@ -14,12 +14,15 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 pd.set_option('display.expand_frame_repr', True)
 
+
 def signal_handler(sig, frame):
     print('You pressed Ctrl+C!')
     os.kill(os.getpid(), 9)
-    sys.exit(0)
+    sys.exit(-888)
+
 
 signal.signal(signal.SIGINT, signal_handler)
+
 
 def log_to_errors(str_to_log):
     fr = open("errors.txt", "a")
