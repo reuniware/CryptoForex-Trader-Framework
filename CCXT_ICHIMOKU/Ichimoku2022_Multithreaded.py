@@ -14,6 +14,12 @@ pd.set_option('display.max_rows', None)
 pd.set_option('display.expand_frame_repr', True)
 
 
+def log_to_errors(str_to_log):
+    fr = open("errors.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
 def log_to_results(str_to_log):
     fr = open("results.txt", "a")
     fr.write(str_to_log + "\n")
@@ -23,6 +29,11 @@ def log_to_results(str_to_log):
 def delete_results_log():
     if os.path.exists("results.txt"):
         os.remove("results.txt")
+
+
+def delete_errors_log():
+    if os.path.exists("errors.txt"):
+        os.remove("errors.txt")
 
 
 def log_to_results_temp(str_to_log, exchange_id):
@@ -37,6 +48,7 @@ def delete_results_temp_log():
 
 
 delete_results_temp_log()
+delete_errors_log()
 
 
 exchanges = {}  # a placeholder for your instances
@@ -59,12 +71,14 @@ parser.add_argument('-g', '--get-exchanges', action='store_true', help="get list
 parser.add_argument('-a', '--get-assets', action='store_true', help="get list of available assets")
 parser.add_argument('-f', '--filter-assets', help="filter assets")
 parser.add_argument('-r', '--retry', action='store_true', help="retry until exchange is available (again)")
+parser.add_argument('-gotc', '--getting-over-the-cloud', action='store_true', help="scan for assets getting over the cloud")
 args = parser.parse_args()
 print("args.exchange =", args.exchange)
 print("args.get-exchanges", args.get_exchanges)
 print("args.get-assets", args.get_assets)
 print("args.filter", args.filter_assets)
 print("args.retry", args.retry)
+print("args.getting-over-the-cloud", args.getting_over_the_cloud)
 
 print("INELIDA Scanner v1.0 - https://twitter.com/IchimokuTrader")
 print("Scan started at :", str(datetime.now()))
@@ -112,6 +126,8 @@ if args.filter_assets is not None:
         filter_assets = args.filter_assets.strip().upper()
 
 retry = args.retry
+
+getting_over_the_cloud = args.getting_over_the_cloud
 
 exchange = None
 if args.exchange is not None:
@@ -253,7 +269,15 @@ def execute_code(symbol, type_of_asset, exchange_id):
             # print("kijun_chikou", kijun_chikou)
             # print("ssa_chikou", ssa_chikou)
             # print("ssb_chikou", ssb_chikou)
-            
+
+            #if getting_over_the_cloud is True:
+            #    condition = (ssb > ssa and price_open < ssb and price_close > ssb) \
+            #        or (ssa > ssb and price_open < ssa and price_close > ssa)
+            #else:
+            #condition = price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
+            #        and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
+            #        and chikou > tenkan_chikou and chikou > kijun_chikou
+
             if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
                     and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
                     and chikou > tenkan_chikou and chikou > kijun_chikou:
@@ -270,7 +294,8 @@ def execute_code(symbol, type_of_asset, exchange_id):
                 # print(exchange_id, symbol, type_of_asset, dict_results[key])
 
         except:
-            # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
+            #print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
+            log_to_errors(tf + " " + symbol + " " + sys.exc_info())
             pass
 
     if key in dict_results:
@@ -291,14 +316,17 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
 maxthreads = 1
 if exchange.id.lower() == "binance":
-    print("setting maxthreads for", exchange.id)
     maxthreads = 100
+    print("setting maxthreads =", maxthreads, "for", exchange.id)
 elif exchange.id.lower() == "ftx":
-    print("setting maxthreads for", exchange.id)
     maxthreads = 100
+    print("setting maxthreads =", maxthreads, "for", exchange.id)
 elif exchange.id.lower() == "gateio":
-    print("setting maxthreads for", exchange.id)
     maxthreads = 100
+    print("setting maxthreads =", maxthreads, "for", exchange.id)
+else:
+    maxthreads = 25
+    print("setting default maxthreads =", maxthreads, "for", exchange.id)
 
 threadLimiter = threading.BoundedSemaphore(maxthreads)
 
