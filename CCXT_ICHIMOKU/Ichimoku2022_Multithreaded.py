@@ -92,10 +92,10 @@ print("args.getting-over-the-cloud", args.getting_over_the_cloud)
 print("INELIDA Scanner v1.0 - https://twitter.com/IchimokuTrader")
 print("Scan started at :", str(datetime.now()))
 
-# if a debugger is attached then set an arbitraty exchange for debugging
+# if a debugger is attached then set arbitrary arguments for debugging (exchange...)
 if sys.gettrace() is not None:
     args.exchange = "binance"
-    args.filter_assets = "usdt"
+    args.filter_assets = "xrp"
 
 if args.get_exchanges is True:
     for id in ccxt.exchanges:
@@ -434,23 +434,23 @@ delete_results_log()
 log_to_results("Scan results at : " + str(datetime.now()))
 
 for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].split("#")[1], 2)):
-    log_to_results(k + " " + dict_results_binary[k])
+    log_to_results(k + " " + dict_results_binary[k].split("#")[0])
 
-for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
-
-    value = k
-    symbol = value.split()[0]
-    type_of_asset = value.split()[1]
-
-    exchange_name = exchange.id.lower()
-    str_link = ""
-
-    if type_of_asset in ("future", "swap"):
-        str_link = "https://tradingview.com/chart/?symbol=" + exchange_name.upper() + ":" + symbol.replace("-",
-                                                                                                           "") + "&interval=960"
-    elif type_of_asset == "spot":
-        str_link += "https://tradingview.com/chart/?symbol=" + exchange_name.upper() + ":" + symbol.replace("/",
-                                                                                                            "") + "&interval=960"
-    strpad = " " * (100 - len(str_link))
-
-    log_to_results(k + " " + dict_results[k] + " " + strpad + str_link)
+# for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
+#
+#     value = k
+#     symbol = value.split()[0]
+#     type_of_asset = value.split()[1]
+#
+#     exchange_name = exchange.id.lower()
+#     str_link = ""
+#
+#     if type_of_asset in ("future", "swap"):
+#         str_link = "https://tradingview.com/chart/?symbol=" + exchange_name.upper() + ":" + symbol.replace("-",
+#                                                                                                            "") + "&interval=960"
+#     elif type_of_asset == "spot":
+#         str_link += "https://tradingview.com/chart/?symbol=" + exchange_name.upper() + ":" + symbol.replace("/",
+#                                                                                                             "") + "&interval=960"
+#     strpad = " " * (100 - len(str_link))
+#
+#     log_to_results(k + " " + dict_results[k] + " " + strpad + str_link)
