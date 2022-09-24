@@ -42,12 +42,11 @@ def log_to_results_temp(str_to_log, exchange_id):
     fr.close()
 
 
-def delete_results_temp_log():
-    if os.path.exists("results_temp.txt"):
-        os.remove("results_temp.txt")
+def delete_results_temp_log(exchange_id):
+    if os.path.exists("results_temp_" + exchange_id + ".txt"):
+        os.remove("results_temp_" + exchange_id + ".txt")
 
 
-delete_results_temp_log()
 delete_errors_log()
 
 
@@ -142,6 +141,8 @@ if args.exchange is not None:
 else:
     print("no exchange specified.")
     exit(-2)
+
+delete_results_temp_log(exchange.id)
 
 # exchange = ccxt.binance()
 # exchange = ccxt.ftx()
@@ -270,17 +271,19 @@ def execute_code(symbol, type_of_asset, exchange_id):
             # print("ssa_chikou", ssa_chikou)
             # print("ssb_chikou", ssb_chikou)
 
-            #if getting_over_the_cloud is True:
-            #    condition = (ssb > ssa and price_open < ssb and price_close > ssb) \
-            #        or (ssa > ssb and price_open < ssa and price_close > ssa)
-            #else:
-            #condition = price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
-            #        and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
-            #        and chikou > tenkan_chikou and chikou > kijun_chikou
-
-            if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
+            if getting_over_the_cloud is True:
+                condition = (ssb > ssa and price_open < ssb and price_close > ssb) \
+                    or (ssa > ssb and price_open < ssa and price_close > ssa)
+            else:
+                condition = price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
                     and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
-                    and chikou > tenkan_chikou and chikou > kijun_chikou:
+                    and chikou > tenkan_chikou and chikou > kijun_chikou
+
+            if condition is True:
+
+            #if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
+            #        and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
+            #        and chikou > tenkan_chikou and chikou > kijun_chikou:
                 # print(tf, "symbol ok", symbol)
                 # log_to_results(tf + " " + "symbol ok" + " " + symbol)
 
@@ -322,7 +325,7 @@ elif exchange.id.lower() == "ftx":
     maxthreads = 100
     print("setting maxthreads =", maxthreads, "for", exchange.id)
 elif exchange.id.lower() == "gateio":
-    maxthreads = 100
+    maxthreads = 5
     print("setting maxthreads =", maxthreads, "for", exchange.id)
 else:
     maxthreads = 25
