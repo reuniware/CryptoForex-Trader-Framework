@@ -295,7 +295,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
         except:
             #print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
-            log_to_errors(tf + " " + symbol + " " + sys.exc_info())
+            log_to_errors(str(datetime.now()) + " " + tf + " " + symbol + " " + str(sys.exc_info()))
             pass
 
     if key in dict_results:
