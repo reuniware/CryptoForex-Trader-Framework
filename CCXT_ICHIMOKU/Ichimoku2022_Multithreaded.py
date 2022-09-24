@@ -25,8 +25,8 @@ def delete_results_log():
         os.remove("results.txt")
 
 
-def log_to_results_temp(str_to_log):
-    fr = open("results_temp.txt", "a")
+def log_to_results_temp(str_to_log, exchange_id):
+    fr = open("results_temp_" + exchange_id + ".txt", "a")
     fr.write(str_to_log + "\n")
     fr.close()
 
@@ -58,11 +58,13 @@ parser.add_argument("-e", "--exchange", help="set exchange", required=False)
 parser.add_argument('-g', '--get-exchanges', action='store_true', help="get list of available exchanges")
 parser.add_argument('-a', '--get-assets', action='store_true', help="get list of available assets")
 parser.add_argument('-f', '--filter-assets', help="filter assets")
+parser.add_argument('-r', '--retry', action='store_true', help="retry until exchange is available (again)")
 args = parser.parse_args()
 print("args.exchange =", args.exchange)
 print("args.get-exchanges", args.get_exchanges)
 print("args.get-assets", args.get_assets)
 print("args.filter", args.filter_assets)
+print("args.retry", args.retry)
 
 print("INELIDA Scanner v1.0 - https://twitter.com/IchimokuTrader")
 print("Scan started at :", str(datetime.now()))
@@ -109,6 +111,8 @@ if args.filter_assets is not None:
     if args.filter_assets.strip() != "":
         filter_assets = args.filter_assets.strip().upper()
 
+retry = args.retry
+
 exchange = None
 if args.exchange is not None:
     arg_exchange = args.exchange.lower().strip()
@@ -137,13 +141,19 @@ while ok is False:
     try:
         markets = exchange.fetch_markets()
         ok = True
+        print("markets data obtained successfully")
     except (ccxt.ExchangeError, ccxt.NetworkError):
         print("Exchange seems not available (maybe too many requests). Please wait and try again.")
         # exit(-10002)
-        time.sleep(5)
+        if retry is False:
+            print("will not retry.")
+            exit(-777)
+        else:
+            print("will retry in 5 sec")
+            time.sleep(5)
     except:
         print(sys.exc_info())
-        exit(-10003)
+        exit(-778)
 
 dict_results = {}
 
@@ -165,7 +175,6 @@ def execute_code(symbol, type_of_asset, exchange_id):
     s_price_close_1d = ""
     percent_evol_1d = None
     s_percent_evol_1d = ""
-
 
     for tf in exchange.timeframes:
 
@@ -277,7 +286,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
         str_to_log = str(datetime.now()) + " " + exchange_id + " " + symbol + " " + type_of_asset + " " + dict_results[key] + " " + s_percent_evol_1d
 
         print(str_to_log)
-        log_to_results_temp(str_to_log)
+        log_to_results_temp(str_to_log, exchange_id)
 
 
 maxthreads = 1
@@ -369,6 +378,6 @@ for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
         str_link += "https://tradingview.com/chart/?symbol=" + exchange_name.upper() + ":" + symbol.replace("/", "") + "&interval=960"
     
     strpad = ""
-    strpad = " " * (60 - len(str_link))
+    strpad = " " * (100 - len(str_link))
 
     log_to_results(k + " " + dict_results[k] + " " + strpad + str_link)
