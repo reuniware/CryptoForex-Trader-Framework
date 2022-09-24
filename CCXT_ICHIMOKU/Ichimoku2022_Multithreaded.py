@@ -59,7 +59,6 @@ def delete_results_temp_log(exchange_id):
 
 delete_errors_log()
 
-
 exchanges = {}  # a placeholder for your instances
 for id in ccxt.exchanges:
     exchange = getattr(ccxt, id)
@@ -80,7 +79,8 @@ parser.add_argument('-g', '--get-exchanges', action='store_true', help="get list
 parser.add_argument('-a', '--get-assets', action='store_true', help="get list of available assets")
 parser.add_argument('-f', '--filter-assets', help="filter assets")
 parser.add_argument('-r', '--retry', action='store_true', help="retry until exchange is available (again)")
-parser.add_argument('-gotc', '--getting-over-the-cloud', action='store_true', help="scan for assets getting over the cloud")
+parser.add_argument('-gotc', '--getting-over-the-cloud', action='store_true',
+                    help="scan for assets getting over the cloud")
 args = parser.parse_args()
 print("args.exchange =", args.exchange)
 print("args.get-exchanges", args.get_exchanges)
@@ -94,7 +94,8 @@ print("Scan started at :", str(datetime.now()))
 
 # if a debugger is attached then set an arbitraty exchange for debugging
 if sys.gettrace() is not None:
-    args.exchange = "ftx"
+    args.exchange = "binance"
+    args.filter_assets = "usdt"
 
 if args.get_exchanges is True:
     for id in ccxt.exchanges:
@@ -113,7 +114,7 @@ if args.get_assets is True:
                 markets = exchange.fetch_markets()
                 nb_active_assets = 0
                 for oneline in markets:
-                    symbol = oneline['id'] 
+                    symbol = oneline['id']
                     active = oneline['active']
                     if active is True:
                         print(symbol, end=' ')
@@ -125,7 +126,7 @@ if args.get_assets is True:
                 # exit(-10002)
                 os.kill(os.getpid(), 9)
                 sys.exit(-999)
-                #time.sleep(5)
+                # time.sleep(5)
             except:
                 print(sys.exc_info())
                 exit(-10003)
@@ -141,8 +142,8 @@ retry = args.retry
 getting_over_the_cloud = args.getting_over_the_cloud
 
 debug_delays = False
-delay_thread = 0.1 #delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
-delay_request = 0.250 #delay between each request inside of a thread
+delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
+delay_request = 0.250  # delay between each request inside of a thread
 
 exchange = None
 if args.exchange is not None:
@@ -189,6 +190,7 @@ while ok is False:
         exit(-778)
 
 dict_results = {}
+dict_results_binary = {}
 
 
 def execute_code(symbol, type_of_asset, exchange_id):
@@ -208,6 +210,8 @@ def execute_code(symbol, type_of_asset, exchange_id):
     s_price_close_1d = ""
     percent_evol_1d = None
     s_percent_evol_1d = ""
+
+    binary_result = ""
 
     for tf in exchange.timeframes:
 
@@ -289,17 +293,21 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
             if getting_over_the_cloud is True:
                 condition = (ssb > ssa and price_open < ssb and price_close > ssb) \
-                    or (ssa > ssb and price_open < ssa and price_close > ssa)
+                            or (ssa > ssb and price_open < ssa and price_close > ssa)
             else:
                 condition = price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
-                    and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
-                    and chikou > tenkan_chikou and chikou > kijun_chikou
+                            and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
+                            and chikou > tenkan_chikou and chikou > kijun_chikou
+
+            if not condition:
+                binary_result += "0"
 
             if condition:
+                binary_result += "1"
 
-            #if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
-            #        and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
-            #        and chikou > tenkan_chikou and chikou > kijun_chikou:
+                # if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
+                #        and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
+                #        and chikou > tenkan_chikou and chikou > kijun_chikou:
                 # print(tf, "symbol ok", symbol)
                 # log_to_results(tf + " " + "symbol ok" + " " + symbol)
 
@@ -313,14 +321,15 @@ def execute_code(symbol, type_of_asset, exchange_id):
                 # print(exchange_id, symbol, type_of_asset, dict_results[key])
 
         except:
-            #print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
+            # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
             log_to_errors(str(datetime.now()) + " " + tf + " " + symbol + " " + str(sys.exc_info()))
+            binary_result += "0"
             pass
 
-        if delay_request>0:
-            if debug_delays: 
+        if delay_request > 0:
+            if debug_delays:
                 print("applying delay_request of", delay_thread, "s after request on timeframe", tf, symbol)
-            time.sleep(delay_request)            
+            time.sleep(delay_request)
 
     if key in dict_results:
         if price_open_1d is not None and price_high_1d is not None and price_low_1d is not None and price_close_1d is not None:
@@ -328,14 +337,18 @@ def execute_code(symbol, type_of_asset, exchange_id):
             s_price_high_1d = "{:.8f}".format(price_high_1d)
             s_price_low_1d = "{:.8f}".format(price_low_1d)
             s_price_close_1d = "{:.8f}".format(price_close_1d)
-            percent_evol_1d = (price_close_1d - price_open_1d)/price_open_1d*100
+            percent_evol_1d = (price_close_1d - price_open_1d) / price_open_1d * 100
             s_percent_evol_1d = "[{:.2f}".format(percent_evol_1d) + " %]"
-        #print(exchange_id, symbol, type_of_asset, dict_results[key], "{:.8f}".format(price_open_1d, 4), s_price_open_1d, s_price_high_1d, s_price_low_1d, s_price_close_1d)
+        # print(exchange_id, symbol, type_of_asset, dict_results[key], "{:.8f}".format(price_open_1d, 4), s_price_open_1d, s_price_high_1d, s_price_low_1d, s_price_close_1d)
 
-        str_to_log = str(datetime.now()) + " " + exchange_id + " " + symbol + " " + type_of_asset + " " + dict_results[key] + " " + s_percent_evol_1d
+        str_to_log = str(datetime.now()) + " " + exchange_id + " " + symbol + " " + type_of_asset + " " + dict_results[
+            key] + " " + s_percent_evol_1d
 
-        print(str_to_log)
+        print(str_to_log + " " + binary_result + " " + str(len(binary_result)) + str(int("".join(reversed(binary_result)), 2)))
         log_to_results_temp(str_to_log, exchange_id)
+
+        # we reverse binary_result (higher timeframes have more importance than lower timeframes, for sorting, and tf scanning start with lower timeframes...)
+        dict_results_binary[key] = str_to_log + " #" + "".join(reversed(binary_result))
 
 
 maxthreads = 1
@@ -366,9 +379,9 @@ def scan_one(symbol, type_of_asset, exchange_id):
 threads = []
 
 # print(markets)
+
 for oneline in markets:
     symbol = oneline['id']
-
     active = oneline['active']
     type_of_asset = oneline['type']
     exchange_id = exchange.id.lower()
@@ -387,15 +400,15 @@ for oneline in markets:
                 or symbol.endswith('BVOL/USDT') or symbol.endswith('BVOL/USD'):
             continue
 
-    if active and filter_assets in symbol:#and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
+    if active and filter_assets in symbol:  # and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
         try:
             t = threading.Thread(target=scan_one, args=(symbol, type_of_asset, exchange_id))
             threads.append(t)
             t.start()
             # print("thread started for", symbol)
-            if delay_thread>0:
+            if delay_thread > 0:
                 if debug_delays:
-                    print("applying delay_thread of", delay_thread,"s before next thread start")
+                    print("applying delay_thread of", delay_thread, "s before next thread start")
                 time.sleep(delay_thread)
 
         except:
@@ -420,6 +433,9 @@ delete_results_log()
 
 log_to_results("Scan results at : " + str(datetime.now()))
 
+for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].split("#")[1], 2)):
+    log_to_results(k + " " + dict_results_binary[k])
+
 for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
 
     value = k
@@ -430,11 +446,11 @@ for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
     str_link = ""
 
     if type_of_asset in ("future", "swap"):
-        str_link = "https://tradingview.com/chart/?symbol=" + exchange_name.upper() + ":" + symbol.replace("-", "") + "&interval=960"
+        str_link = "https://tradingview.com/chart/?symbol=" + exchange_name.upper() + ":" + symbol.replace("-",
+                                                                                                           "") + "&interval=960"
     elif type_of_asset == "spot":
-        str_link += "https://tradingview.com/chart/?symbol=" + exchange_name.upper() + ":" + symbol.replace("/", "") + "&interval=960"
-    
-    strpad = ""
+        str_link += "https://tradingview.com/chart/?symbol=" + exchange_name.upper() + ":" + symbol.replace("/",
+                                                                                                            "") + "&interval=960"
     strpad = " " * (100 - len(str_link))
 
     log_to_results(k + " " + dict_results[k] + " " + strpad + str_link)
