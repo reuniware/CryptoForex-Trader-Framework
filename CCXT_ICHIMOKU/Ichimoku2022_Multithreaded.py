@@ -279,7 +279,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                     and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
                     and chikou > tenkan_chikou and chikou > kijun_chikou
 
-            if condition is True:
+            if condition:
 
             #if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
             #        and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
@@ -325,7 +325,7 @@ elif exchange.id.lower() == "ftx":
     maxthreads = 100
     print("setting maxthreads =", maxthreads, "for", exchange.id)
 elif exchange.id.lower() == "gateio":
-    maxthreads = 5
+    maxthreads = 100
     print("setting maxthreads =", maxthreads, "for", exchange.id)
 else:
     maxthreads = 25
