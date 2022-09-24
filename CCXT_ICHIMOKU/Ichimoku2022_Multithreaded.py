@@ -71,7 +71,37 @@ for id in ccxt.exchanges:
     except:
         continue
 
-# exit(-500)
+
+# function not used for now (but might be useful for a counter such as 1/xxx 2/xxx etc...)
+def get_number_of_active_assets_for_exchange(exchange_id):
+    nb_active_assets = 0
+    arg_exchange = exchange_id
+    if arg_exchange in exchanges:
+        exchange = exchanges[arg_exchange]
+        try:
+            markets = exchange.fetch_markets()
+            for oneline in markets:
+                symbol = oneline['id']
+                active = oneline['active']
+                if active is True:
+                    # print(symbol, end=' ')
+                    nb_active_assets += 1
+            # print("")
+            # print("number of active assets =", nb_active_assets)
+        except (ccxt.ExchangeError, ccxt.NetworkError, ccxt.DDoSProtection):
+            print("Exchange seems not available (maybe too many requests). Will stop now.")
+            # exit(-10002)
+            os.kill(os.getpid(), 9)
+            sys.exit(-999)
+            # time.sleep(5)
+        except:
+            print(sys.exc_info())
+            exit(-10003)
+    return nb_active_assets
+
+
+print(get_number_of_active_assets_for_exchange("binance"))
+exit(-1000)
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-e", "--exchange", help="set exchange", required=False)
@@ -344,7 +374,8 @@ def execute_code(symbol, type_of_asset, exchange_id):
         str_to_log = str(datetime.now()) + " " + exchange_id + " " + symbol + " " + type_of_asset + " " + dict_results[
             key] + " " + s_percent_evol_1d
 
-        print(str_to_log + " " + binary_result + " " + str(len(binary_result)) + str(int("".join(reversed(binary_result)), 2)))
+        print(str_to_log + " " + binary_result + " " + str(len(binary_result)) + str(
+            int("".join(reversed(binary_result)), 2)))
         log_to_results_temp(str_to_log, exchange_id)
 
         # we reverse binary_result (higher timeframes have more importance than lower timeframes, for sorting, and tf scanning start with lower timeframes...)
