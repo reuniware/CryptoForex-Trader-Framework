@@ -173,7 +173,7 @@ getting_over_the_cloud = args.getting_over_the_cloud
 
 debug_delays = False
 delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
-delay_request = 0.250  # delay between each request inside of a thread
+delay_request = 0.250 # delay between each request inside of a thread
 
 exchange = None
 if args.exchange is not None:
@@ -386,15 +386,36 @@ maxthreads = 1
 if exchange.id.lower() == "binance":
     maxthreads = 10
     print("setting maxthreads =", maxthreads, "for", exchange.id)
+    delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
+    delay_request = 0.250 # delay between each request inside of a thread
+    print("setting delay_thread =", delay_thread, "for", exchange.id)
+    print("setting delay_request =", delay_request, "for", exchange.id)
 elif exchange.id.lower() == "ftx":
     maxthreads = 100
     print("setting maxthreads =", maxthreads, "for", exchange.id)
+    delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
+    delay_request = 0.250 # delay between each request inside of a thread
+    print("setting delay_thread =", delay_thread, "for", exchange.id)
+    print("setting delay_request =", delay_request, "for", exchange.id)
 elif exchange.id.lower() == "gateio":
     maxthreads = 100
     print("setting maxthreads =", maxthreads, "for", exchange.id)
+    delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
+    delay_request = 0.250 # delay between each request inside of a thread
+    print("setting delay_thread =", delay_thread, "for", exchange.id)
+    print("setting delay_request =", delay_request, "for", exchange.id)
+elif exchange.id.lower() == "bitforex":
+    maxthreads = 1
+    print("setting maxthreads =", maxthreads, "for", exchange.id)
+    delay_thread = 1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
+    delay_request = 1 # delay between each request inside of a thread
+    print("setting delay_thread =", delay_thread, "for", exchange.id)
+    print("setting delay_request =", delay_request, "for", exchange.id)
 else:
     maxthreads = 25
     print("setting default maxthreads =", maxthreads, "for", exchange.id)
+    print("setting default delay_thread =", delay_thread, "for", exchange.id)
+    print("setting default delay_request =", delay_request, "for", exchange.id)
 
 threadLimiter = threading.BoundedSemaphore(maxthreads)
 
