@@ -142,7 +142,7 @@ while ok is False:
         markets = exchange.fetch_markets()
         ok = True
         print("markets data obtained successfully")
-    except (ccxt.ExchangeError, ccxt.NetworkError):
+    except (ccxt.ExchangeError, ccxt.NetworkError, ccxt.DDoSProtection):
         print("Exchange seems not available (maybe too many requests). Please wait and try again.")
         # exit(-10002)
         if retry is False:
