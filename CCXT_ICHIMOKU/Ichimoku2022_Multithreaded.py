@@ -120,10 +120,12 @@ if args.get_assets is True:
                         nb_active_assets += 1
                 print("")
                 print("number of active assets =", nb_active_assets)
-            except (ccxt.ExchangeError, ccxt.NetworkError):
-                print("Exchange seems not available (maybe too many requests). Please wait and try again.")
+            except (ccxt.ExchangeError, ccxt.NetworkError, ccxt.DDoSProtection):
+                print("Exchange seems not available (maybe too many requests). Will stop now.")
                 # exit(-10002)
-                time.sleep(5)
+                os.kill(os.getpid(), 9)
+                sys.exit(-999)
+                #time.sleep(5)
             except:
                 print(sys.exc_info())
                 exit(-10003)
