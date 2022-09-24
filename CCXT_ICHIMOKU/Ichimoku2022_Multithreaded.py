@@ -100,8 +100,8 @@ def get_number_of_active_assets_for_exchange(exchange_id):
     return nb_active_assets
 
 
-print(get_number_of_active_assets_for_exchange("binance"))
-exit(-1000)
+# print(get_number_of_active_assets_for_exchange("binance"))
+# exit(-1000)
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-e", "--exchange", help="set exchange", required=False)
