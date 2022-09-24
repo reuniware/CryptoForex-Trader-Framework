@@ -142,7 +142,7 @@ getting_over_the_cloud = args.getting_over_the_cloud
 
 debug_delays = False
 delay_thread = 0.1 #delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
-delay_request = 0.25 #delay betwwen each request inside of a thread
+delay_request = 0.125 #delay betwwen each request inside of a thread
 
 exchange = None
 if args.exchange is not None:
