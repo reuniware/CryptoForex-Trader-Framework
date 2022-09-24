@@ -8,11 +8,18 @@ import time
 import threading
 import ta
 import argparse
+import signal
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 pd.set_option('display.expand_frame_repr', True)
 
+def signal_handler(sig, frame):
+    print('You pressed Ctrl+C!')
+    os.kill(os.getpid(), 9)
+    sys.exit(0)
+
+signal.signal(signal.SIGINT, signal_handler)
 
 def log_to_errors(str_to_log):
     fr = open("errors.txt", "a")
@@ -127,6 +134,10 @@ if args.filter_assets is not None:
 retry = args.retry
 
 getting_over_the_cloud = args.getting_over_the_cloud
+
+debug_delays = False
+delay_thread = 0.1 #delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
+delay_request = 0.25 #delay betwwen each request inside of a thread
 
 exchange = None
 if args.exchange is not None:
@@ -301,6 +312,11 @@ def execute_code(symbol, type_of_asset, exchange_id):
             log_to_errors(str(datetime.now()) + " " + tf + " " + symbol + " " + str(sys.exc_info()))
             pass
 
+        if delay_request>0:
+            if debug_delays: 
+                print("applying delay_request of", delay_thread, "s after request on timeframe", tf, symbol)
+            time.sleep(delay_request)            
+
     if key in dict_results:
         if price_open_1d is not None and price_high_1d is not None and price_low_1d is not None and price_close_1d is not None:
             s_price_open_1d = "{:.8f}".format(price_open_1d)
@@ -372,6 +388,11 @@ for oneline in markets:
             threads.append(t)
             t.start()
             # print("thread started for", symbol)
+            if delay_thread>0:
+                if debug_delays:
+                    print("applying delay_thread of", delay_thread,"s before next thread start")
+                time.sleep(delay_thread)
+
         except:
             pass
 
