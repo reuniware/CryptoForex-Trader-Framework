@@ -319,7 +319,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
 maxthreads = 1
 if exchange.id.lower() == "binance":
-    maxthreads = 100
+    maxthreads = 10
     print("setting maxthreads =", maxthreads, "for", exchange.id)
 elif exchange.id.lower() == "ftx":
     maxthreads = 100
