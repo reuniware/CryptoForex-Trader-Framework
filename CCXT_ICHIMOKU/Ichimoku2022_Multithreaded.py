@@ -523,7 +523,9 @@ delete_results_evol_log()
 log_to_results("Scan results at : " + str(datetime.now()))
 
 for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].split("#")[1], 2)):
-    log_to_results(k + " " + dict_results_binary[k].split("#")[0])
+    symbol = k
+    str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","") + "&interval=960"
+    log_to_results(k + " " + dict_results_binary[k].split("#")[0] + 5*" " + str_link)
 
 for k in sorted(dict_results_evol, key=lambda k: dict_results_evol[k]):
     log_to_results_evol(k + " " + "{:.2f}".format(dict_results_evol[k]) + " %")
