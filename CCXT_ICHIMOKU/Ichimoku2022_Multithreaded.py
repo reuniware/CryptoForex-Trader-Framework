@@ -452,7 +452,17 @@ for oneline in markets:
                 or symbol.endswith('BVOL/USDT') or symbol.endswith('BVOL/USD'):
             continue
 
-    if active and filter_assets in symbol:  # and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
+    condition_ok = active and filter_assets in symbol
+    if filter_assets.startswith("*"):
+        new_filter_assets = filter_assets.replace("*", "")
+        new_filter_assets = new_filter_assets.upper()
+        condition_ok = active and symbol.endswith(new_filter_assets)
+    elif filter_assets.endswith("*"):
+        new_filter_assets = filter_assets.replace("*", "")
+        new_filter_assets = new_filter_assets.upper()
+        condition_ok = active and symbol.startswith(new_filter_assets)
+    
+    if condition_ok:  # and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
         try:
             t = threading.Thread(target=scan_one, args=(symbol, type_of_asset, exchange_id))
             threads.append(t)
