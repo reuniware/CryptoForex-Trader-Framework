@@ -378,8 +378,8 @@ def execute_code(symbol, type_of_asset, exchange_id):
         str_to_log = str(datetime.now()) + " " + exchange_id + " " + symbol + " " + type_of_asset + " " + dict_results[
             key] + " " + s_percent_evol_1d
 
-        print(str_to_log + " " + binary_result + " " + str(len(binary_result)) + str(
-            int("".join(reversed(binary_result)), 2)))
+        print(str_to_log)
+        #print(str_to_log + " " + "[Scoring = " + binary_result + " " + str(len(binary_result)) + str(int("".join(reversed(binary_result)), 2)) + "]")
         log_to_results_temp(str_to_log, exchange_id)
 
         # we reverse binary_result (higher timeframes have more importance than lower timeframes, for sorting, and tf scanning start with lower timeframes...)
