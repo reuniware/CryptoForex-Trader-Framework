@@ -1,0 +1,83 @@
+Scan results at : 2022-09-26 21:03:04.775438
+WAVESUSDT spot binance 2022-09-26 20:58:28.343184 binance WAVESUSDT spot 1s [-0.18 %]      https://tradingview.com/chart/?symbol=BINANCE:WAVESUSDT spot binance&interval=960
+HBARUSDT spot binance 2022-09-26 20:59:08.939527 binance HBARUSDT spot 1s [0.51 %]      https://tradingview.com/chart/?symbol=BINANCE:HBARUSDT spot binance&interval=960
+UNFIUSDT spot binance 2022-09-26 21:00:47.987924 binance UNFIUSDT spot 1s [2.35 %]      https://tradingview.com/chart/?symbol=BINANCE:UNFIUSDT spot binance&interval=960
+ASRUSDT spot binance 2022-09-26 21:00:57.475685 binance ASRUSDT spot 1s [-5.88 %]      https://tradingview.com/chart/?symbol=BINANCE:ASRUSDT spot binance&interval=960
+POLYUSDT spot binance 2022-09-26 21:01:57.411720 binance POLYUSDT spot 1s [13.24 %]      https://tradingview.com/chart/?symbol=BINANCE:POLYUSDT spot binance&interval=960
+APEUSDT spot binance 2022-09-26 21:02:50.991550 binance APEUSDT spot 1s [-4.23 %]      https://tradingview.com/chart/?symbol=BINANCE:APEUSDT spot binance&interval=960
+LDOUSDT spot binance 2022-09-26 21:03:00.803308 binance LDOUSDT spot 1s [2.16 %]      https://tradingview.com/chart/?symbol=BINANCE:LDOUSDT spot binance&interval=960
+STGUSDT spot binance 2022-09-26 21:03:01.931765 binance STGUSDT spot 1s [-3.27 %]      https://tradingview.com/chart/?symbol=BINANCE:STGUSDT spot binance&interval=960
+AIONUSDT spot binance 2022-09-26 20:59:27.065698 binance AIONUSDT spot 1m [-1.35 %]      https://tradingview.com/chart/?symbol=BINANCE:AIONUSDT spot binance&interval=960
+BNBDOWNUSDT spot binance 2022-09-26 20:59:57.919085 binance BNBDOWNUSDT spot 1m [-0.16 %]      https://tradingview.com/chart/?symbol=BINANCE:BNBDOWNUSDT spot binance&interval=960
+UMAUSDT spot binance 2022-09-26 21:00:20.394402 binance UMAUSDT spot 1m [0.21 %]      https://tradingview.com/chart/?symbol=BINANCE:UMAUSDT spot binance&interval=960
+CITYUSDT spot binance 2022-09-26 21:02:16.291386 binance CITYUSDT spot 1m [-1.45 %]      https://tradingview.com/chart/?symbol=BINANCE:CITYUSDT spot binance&interval=960
+LITUSDT spot binance 2022-09-26 21:01:05.535967 binance LITUSDT spot 3m [2.48 %]      https://tradingview.com/chart/?symbol=BINANCE:LITUSDT spot binance&interval=960
+LINKDOWNUSDT spot binance 2022-09-26 20:59:50.165550 binance LINKDOWNUSDT spot 1m 3m [1.87 %]      https://tradingview.com/chart/?symbol=BINANCE:LINKDOWNUSDT spot binance&interval=960
+KSMUSDT spot binance 2022-09-26 21:00:17.117820 binance KSMUSDT spot 1m 3m [3.22 %]      https://tradingview.com/chart/?symbol=BINANCE:KSMUSDT spot binance&interval=960
+TORNUSDT spot binance 2022-09-26 21:01:35.378829 binance TORNUSDT spot 1m 3m [-0.74 %]      https://tradingview.com/chart/?symbol=BINANCE:TORNUSDT spot binance&interval=960
+AMPUSDT spot binance 2022-09-26 21:02:23.780648 binance AMPUSDT spot 1m 3m [1.05 %]      https://tradingview.com/chart/?symbol=BINANCE:AMPUSDT spot binance&interval=960
+POWRUSDT spot binance 2022-09-26 21:02:21.511790 binance POWRUSDT spot 5m [-0.20 %]      https://tradingview.com/chart/?symbol=BINANCE:POWRUSDT spot binance&interval=960
+GBPUSDT spot binance 2022-09-26 20:59:52.286648 binance GBPUSDT spot 1m 5m [0.00 %]      https://tradingview.com/chart/?symbol=BINANCE:GBPUSDT spot binance&interval=960
+BAKEUSDT spot binance 2022-09-26 21:01:24.756043 binance BAKEUSDT spot 3m 5m [0.61 %]      https://tradingview.com/chart/?symbol=BINANCE:BAKEUSDT spot binance&interval=960
+GTOUSDT spot binance 2022-09-26 20:58:50.898379 binance GTOUSDT spot 1m 3m 5m [0.30 %]      https://tradingview.com/chart/?symbol=BINANCE:GTOUSDT spot binance&interval=960
+JSTUSDT spot binance 2022-09-26 21:00:03.882845 binance JSTUSDT spot 1m 3m 5m [1.87 %]      https://tradingview.com/chart/?symbol=BINANCE:JSTUSDT spot binance&interval=960
+OGUSDT spot binance 2022-09-26 21:00:56.627615 binance OGUSDT spot 1m 3m 5m [-2.72 %]      https://tradingview.com/chart/?symbol=BINANCE:OGUSDT spot binance&interval=960
+CHRUSDT spot binance 2022-09-26 20:59:35.946755 binance CHRUSDT spot 15m [1.50 %]      https://tradingview.com/chart/?symbol=BINANCE:CHRUSDT spot binance&interval=960
+SXPUSDT spot binance 2022-09-26 20:59:52.368482 binance SXPUSDT spot 15m [1.85 %]      https://tradingview.com/chart/?symbol=BINANCE:SXPUSDT spot binance&interval=960
+HNTUSDT spot binance 2022-09-26 21:00:33.257862 binance HNTUSDT spot 15m [4.45 %]      https://tradingview.com/chart/?symbol=BINANCE:HNTUSDT spot binance&interval=960
+FRONTUSDT spot binance 2022-09-26 21:02:05.297175 binance FRONTUSDT spot 15m [-0.18 %]      https://tradingview.com/chart/?symbol=BINANCE:FRONTUSDT spot binance&interval=960
+STEEMUSDT spot binance 2022-09-26 21:02:55.346416 binance STEEMUSDT spot 15m [0.64 %]      https://tradingview.com/chart/?symbol=BINANCE:STEEMUSDT spot binance&interval=960
+MFTUSDT spot binance 2022-09-26 20:58:59.215535 binance MFTUSDT spot 5m 15m [-2.48 %]      https://tradingview.com/chart/?symbol=BINANCE:MFTUSDT spot binance&interval=960
+NEXOUSDT spot binance 2022-09-26 21:02:56.528975 binance NEXOUSDT spot 1m 5m 15m [1.09 %]      https://tradingview.com/chart/?symbol=BINANCE:NEXOUSDT spot binance&interval=960
+VITEUSDT spot binance 2022-09-26 20:59:17.758153 binance VITEUSDT spot 3m 5m 15m [0.54 %]      https://tradingview.com/chart/?symbol=BINANCE:VITEUSDT spot binance&interval=960
+BEAMUSDT spot binance 2022-09-26 20:59:06.863577 binance BEAMUSDT spot 1m 3m 5m 15m [0.76 %]      https://tradingview.com/chart/?symbol=BINANCE:BEAMUSDT spot binance&interval=960
+STPTUSDT spot binance 2022-09-26 20:59:28.214774 binance STPTUSDT spot 1m 3m 5m 15m [-0.70 %]      https://tradingview.com/chart/?symbol=BINANCE:STPTUSDT spot binance&interval=960
+YFIUSDT spot binance 2022-09-26 20:59:59.994677 binance YFIUSDT spot 30m [2.54 %]      https://tradingview.com/chart/?symbol=BINANCE:YFIUSDT spot binance&interval=960
+BLZUSDT spot binance 2022-09-26 21:00:00.496470 binance BLZUSDT spot 30m [2.27 %]      https://tradingview.com/chart/?symbol=BINANCE:BLZUSDT spot binance&interval=960
+ANTUSDT spot binance 2022-09-26 21:00:06.609966 binance ANTUSDT spot 30m [3.13 %]      https://tradingview.com/chart/?symbol=BINANCE:ANTUSDT spot binance&interval=960
+DEXEUSDT spot binance 2022-09-26 21:01:41.215235 binance DEXEUSDT spot 30m [0.16 %]      https://tradingview.com/chart/?symbol=BINANCE:DEXEUSDT spot binance&interval=960
+ILVUSDT spot binance 2022-09-26 21:02:01.593539 binance ILVUSDT spot 30m [2.68 %]      https://tradingview.com/chart/?symbol=BINANCE:ILVUSDT spot binance&interval=960
+MCUSDT spot binance 2022-09-26 21:02:28.602952 binance MCUSDT spot 30m [1.74 %]      https://tradingview.com/chart/?symbol=BINANCE:MCUSDT spot binance&interval=960
+GMTUSDT spot binance 2022-09-26 21:02:50.201049 binance GMTUSDT spot 30m [2.73 %]      https://tradingview.com/chart/?symbol=BINANCE:GMTUSDT spot binance&interval=960
+MINAUSDT spot binance 2022-09-26 21:01:46.080531 binance MINAUSDT spot 1s 30m [2.96 %]      https://tradingview.com/chart/?symbol=BINANCE:MINAUSDT spot binance&interval=960
+REIUSDT spot binance 2022-09-26 21:02:56.046826 binance REIUSDT spot 5m 15m 30m [0.66 %]      https://tradingview.com/chart/?symbol=BINANCE:REIUSDT spot binance&interval=960
+RENUSDT spot binance 2022-09-26 20:59:07.218117 binance RENUSDT spot 1h [1.64 %]      https://tradingview.com/chart/?symbol=BINANCE:RENUSDT spot binance&interval=960
+BTCUPUSDT spot binance 2022-09-26 20:59:35.490037 binance BTCUPUSDT spot 1h [2.56 %]      https://tradingview.com/chart/?symbol=BINANCE:BTCUPUSDT spot binance&interval=960
+ETHUPUSDT spot binance 2022-09-26 20:59:44.331652 binance ETHUPUSDT spot 1h [4.80 %]      https://tradingview.com/chart/?symbol=BINANCE:ETHUPUSDT spot binance&interval=960
+TRIBEUSDT spot binance 2022-09-26 21:01:54.071002 binance TRIBEUSDT spot 1h [0.90 %]      https://tradingview.com/chart/?symbol=BINANCE:TRIBEUSDT spot binance&interval=960
+ETHUSDT spot binance 2022-09-26 20:58:17.888061 binance ETHUSDT spot 1s 1h [2.39 %]      https://tradingview.com/chart/?symbol=BINANCE:ETHUSDT spot binance&interval=960
+BTCUSDT spot binance 2022-09-26 20:58:19.454060 binance BTCUSDT spot 1s 30m 1h [1.71 %]      https://tradingview.com/chart/?symbol=BINANCE:BTCUSDT spot binance&interval=960
+WOOUSDT spot binance 2022-09-26 21:02:46.106486 binance WOOUSDT spot 1s 15m 30m 1h [3.62 %]      https://tradingview.com/chart/?symbol=BINANCE:WOOUSDT spot binance&interval=960
+FTTUSDT spot binance 2022-09-26 20:59:17.516776 binance FTTUSDT spot 1m 3m 5m 15m 30m 1h [2.38 %]      https://tradingview.com/chart/?symbol=BINANCE:FTTUSDT spot binance&interval=960
+LUNAUSDT spot binance 2022-09-26 21:00:10.113331 binance LUNAUSDT spot 2h [23.66 %]      https://tradingview.com/chart/?symbol=BINANCE:LUNAUSDT spot binance&interval=960
+ERNUSDT spot binance 2022-09-26 21:01:36.309854 binance ERNUSDT spot 2h [6.32 %]      https://tradingview.com/chart/?symbol=BINANCE:ERNUSDT spot binance&interval=960
+DYDXUSDT spot binance 2022-09-26 21:01:57.372173 binance DYDXUSDT spot 2h [10.79 %]      https://tradingview.com/chart/?symbol=BINANCE:DYDXUSDT spot binance&interval=960
+LSKUSDT spot binance 2022-09-26 20:59:25.739609 binance LSKUSDT spot 3m 2h [4.31 %]      https://tradingview.com/chart/?symbol=BINANCE:LSKUSDT spot binance&interval=960
+LUNCUSDT spot binance 2022-09-26 21:03:04.774864 binance LUNCUSDT spot 30m 2h [52.78 %]      https://tradingview.com/chart/?symbol=BINANCE:LUNCUSDT spot binance&interval=960
+XMRUSDT spot binance 2022-09-26 20:58:36.723023 binance XMRUSDT spot 30m 1h 2h [2.98 %]      https://tradingview.com/chart/?symbol=BINANCE:XMRUSDT spot binance&interval=960
+ZECUSDT spot binance 2022-09-26 20:58:36.964875 binance ZECUSDT spot 30m 1h 2h [3.56 %]      https://tradingview.com/chart/?symbol=BINANCE:ZECUSDT spot binance&interval=960
+XECUSDT spot binance 2022-09-26 21:01:54.826370 binance XECUSDT spot 30m 1h 2h [1.37 %]      https://tradingview.com/chart/?symbol=BINANCE:XECUSDT spot binance&interval=960
+ICPUSDT spot binance 2022-09-26 21:01:29.432338 binance ICPUSDT spot 1m 30m 1h 2h [5.25 %]      https://tradingview.com/chart/?symbol=BINANCE:ICPUSDT spot binance&interval=960
+DOTUSDT spot binance 2022-09-26 21:00:09.180036 binance DOTUSDT spot 15m 30m 1h 2h [5.81 %]      https://tradingview.com/chart/?symbol=BINANCE:DOTUSDT spot binance&interval=960
+DOTUPUSDT spot binance 2022-09-26 21:00:27.000078 binance DOTUPUSDT spot 1m 3m 5m 15m 30m 1h 2h [8.82 %]      https://tradingview.com/chart/?symbol=BINANCE:DOTUPUSDT spot binance&interval=960
+ALPACAUSDT spot binance 2022-09-26 21:01:48.704638 binance ALPACAUSDT spot 1m 3m 5m 15m 30m 1h 2h [5.98 %]      https://tradingview.com/chart/?symbol=BINANCE:ALPACAUSDT spot binance&interval=960
+SOLUSDT spot binance 2022-09-26 20:59:32.939753 binance SOLUSDT spot 30m 4h [3.25 %]      https://tradingview.com/chart/?symbol=BINANCE:SOLUSDT spot binance&interval=960
+1INCHUSDT spot binance 2022-09-26 21:00:54.297137 binance 1INCHUSDT spot 2h 4h [3.83 %]      https://tradingview.com/chart/?symbol=BINANCE:1INCHUSDT spot binance&interval=960
+MKRUSDT spot binance 2022-09-26 20:59:52.729186 binance MKRUSDT spot 30m 1h 2h 4h [0.28 %]      https://tradingview.com/chart/?symbol=BINANCE:MKRUSDT spot binance&interval=960
+LINKUSDT spot binance 2022-09-26 20:58:27.990132 binance LINKUSDT spot 2h 4h 6h [-0.84 %]      https://tradingview.com/chart/?symbol=BINANCE:LINKUSDT spot binance&interval=960
+ADADOWNUSDT spot binance 2022-09-26 20:59:49.110689 binance ADADOWNUSDT spot 5m 8h [0.95 %]      https://tradingview.com/chart/?symbol=BINANCE:ADADOWNUSDT spot binance&interval=960
+ASTRUSDT spot binance 2022-09-26 21:02:47.937110 binance ASTRUSDT spot 1s 2h 6h 8h [3.62 %]      https://tradingview.com/chart/?symbol=BINANCE:ASTRUSDT spot binance&interval=960
+IOTAUSDT spot binance 2022-09-26 20:58:17.861643 binance IOTAUSDT spot 4h 6h 8h 12h [10.48 %]      https://tradingview.com/chart/?symbol=BINANCE:IOTAUSDT spot binance&interval=960
+WTCUSDT spot binance 2022-09-26 20:59:28.151301 binance WTCUSDT spot 4h 6h 8h 12h [6.30 %]      https://tradingview.com/chart/?symbol=BINANCE:WTCUSDT spot binance&interval=960
+COMPUSDT spot binance 2022-09-26 20:59:43.517867 binance COMPUSDT spot 1d [1.40 %]      https://tradingview.com/chart/?symbol=BINANCE:COMPUSDT spot binance&interval=960
+XRPUPUSDT spot binance 2022-09-26 21:00:25.298073 binance XRPUPUSDT spot 1d [-6.49 %]      https://tradingview.com/chart/?symbol=BINANCE:XRPUPUSDT spot binance&interval=960
+ALGOUSDT spot binance 2022-09-26 20:58:45.442977 binance ALGOUSDT spot 1s 1d [-6.16 %]      https://tradingview.com/chart/?symbol=BINANCE:ALGOUSDT spot binance&interval=960
+XRPUSDT spot binance 2022-09-26 20:58:18.364583 binance XRPUSDT spot 1m 1d [-3.80 %]      https://tradingview.com/chart/?symbol=BINANCE:XRPUSDT spot binance&interval=960
+ENSUSDT spot binance 2022-09-26 21:02:16.608761 binance ENSUSDT spot 30m 1h 2h 4h 1d [7.46 %]      https://tradingview.com/chart/?symbol=BINANCE:ENSUSDT spot binance&interval=960
+RSRUSDT spot binance 2022-09-26 21:00:09.364685 binance RSRUSDT spot 12h 1d [-4.56 %]      https://tradingview.com/chart/?symbol=BINANCE:RSRUSDT spot binance&interval=960
+TRXDOWNUSDT spot binance 2022-09-26 21:00:23.161221 binance TRXDOWNUSDT spot 1m 3m 5m 1h 6h 8h 12h 1d [1.01 %]      https://tradingview.com/chart/?symbol=BINANCE:TRXDOWNUSDT spot binance&interval=960
+QNTUSDT spot binance 2022-09-26 21:01:43.367330 binance QNTUSDT spot 3m 5m 15m 4h 6h 8h 12h 1d [3.45 %]      https://tradingview.com/chart/?symbol=BINANCE:QNTUSDT spot binance&interval=960
+CAKEUSDT spot binance 2022-09-26 21:01:06.806719 binance CAKEUSDT spot 3m 5m 1h 2h 4h 6h 8h 12h 1d [-0.50 %]      https://tradingview.com/chart/?symbol=BINANCE:CAKEUSDT spot binance&interval=960
+CHZUSDT spot binance 2022-09-26 20:59:01.364288 binance CHZUSDT spot 1d 3d [-1.21 %]      https://tradingview.com/chart/?symbol=BINANCE:CHZUSDT spot binance&interval=960
+SANTOSUSDT spot binance 2022-09-26 21:02:30.133882 binance SANTOSUSDT spot 1d 3d [-5.95 %]      https://tradingview.com/chart/?symbol=BINANCE:SANTOSUSDT spot binance&interval=960
+BNXUSDT spot binance 2022-09-26 21:02:13.923835 binance BNXUSDT spot 3m 5m 15m 30m 1h 2h 8h 1d 3d [0.82 %]      https://tradingview.com/chart/?symbol=BINANCE:BNXUSDT spot binance&interval=960
