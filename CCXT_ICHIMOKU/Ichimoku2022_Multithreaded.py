@@ -166,6 +166,12 @@ filter_assets = ""
 if args.filter_assets is not None:
     if args.filter_assets.strip() != "":
         filter_assets = args.filter_assets.strip().upper()
+        if "*" in filter_assets and filter_assets.startswith("*")==False and filter_assets.endswith("*")==False:
+            print("Only one '*' wildcard must be at the start or at the end of the string but not in the middle (not supported).")
+            exit(-10004)
+        if "*" in filter_assets and filter_assets.startswith("*")==True and filter_assets.endswith("*")==True:
+            print("Only one '*' wildcard must be at the start or at the end of the string but not in the middle (not supported).")
+            exit(-10004)
 
 retry = args.retry
 
