@@ -36,9 +36,20 @@ def log_to_results(str_to_log):
     fr.close()
 
 
+def log_to_results_evol(str_to_log):
+    fr = open("results_evol.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
 def delete_results_log():
     if os.path.exists("results.txt"):
         os.remove("results.txt")
+
+
+def delete_results_evol_log():
+    if os.path.exists("results_evol.txt"):
+        os.remove("results_evol.txt")
 
 
 def delete_errors_log():
@@ -227,7 +238,7 @@ while ok is False:
 
 dict_results = {}
 dict_results_binary = {}
-
+dict_results_evol = {}
 
 def execute_code(symbol, type_of_asset, exchange_id):
     global dict_results
@@ -370,6 +381,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                 print("applying delay_request of", delay_thread, "s after request on timeframe", tf, symbol)
             time.sleep(delay_request)
 
+    # if key is in dict_results then that means that it has been detected
     if key in dict_results:
         if price_open_1d is not None and price_high_1d is not None and price_low_1d is not None and price_close_1d is not None:
             s_price_open_1d = "{:.8f}".format(price_open_1d)
@@ -389,6 +401,11 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
         # we reverse binary_result (higher timeframes have more importance than lower timeframes, for sorting, and tf scanning start with lower timeframes...)
         dict_results_binary[key] = str_to_log + " #" + "".join(reversed(binary_result))
+    
+    # if key is in dict_results then that means that it has been detected
+    if key in dict_results:
+        if symbol not in dict_results_evol:
+            dict_results_evol[key] = percent_evol_1d
 
 
 maxthreads = 1
@@ -501,11 +518,15 @@ print("--- %s seconds ---" % (end_time - start_time))
 #     log_to_results(k + " " + dict_results[k])
 
 delete_results_log()
+delete_results_evol_log()
 
 log_to_results("Scan results at : " + str(datetime.now()))
 
 for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].split("#")[1], 2)):
     log_to_results(k + " " + dict_results_binary[k].split("#")[0])
+
+for k in sorted(dict_results_evol, key=lambda k: dict_results_evol[k]):
+    log_to_results_evol(k + " " + "{:.2f}".format(dict_results_evol[k]) + " %")
 
 # for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
 #
