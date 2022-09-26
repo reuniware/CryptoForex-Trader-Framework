@@ -109,8 +109,8 @@ parser.add_argument('-g', '--get-exchanges', action='store_true', help="get list
 parser.add_argument('-a', '--get-assets', action='store_true', help="get list of available assets")
 parser.add_argument('-f', '--filter-assets', help="filter assets")
 parser.add_argument('-r', '--retry', action='store_true', help="retry until exchange is available (again)")
-parser.add_argument('-gotc', '--getting-over-the-cloud', action='store_true',
-                    help="scan for assets getting over the cloud")
+parser.add_argument('-gotc', '--getting-over-the-cloud', action='store_true', help="scan for assets getting over the cloud")
+parser.add_argument('-gutc', '--getting-under-the-cloud', action='store_true', help="scan for assets getting under the cloud")
 args = parser.parse_args()
 print("args.exchange =", args.exchange)
 print("args.get-exchanges", args.get_exchanges)
@@ -118,6 +118,7 @@ print("args.get-assets", args.get_assets)
 print("args.filter", args.filter_assets)
 print("args.retry", args.retry)
 print("args.getting-over-the-cloud", args.getting_over_the_cloud)
+print("args.getting-under-the-cloud", args.getting_under_the_cloud)
 
 print("INELIDA Scanner v1.0 - https://twitter.com/IchimokuTrader")
 print("Scan started at :", str(datetime.now()))
@@ -174,6 +175,7 @@ if args.filter_assets is not None:
 retry = args.retry
 
 getting_over_the_cloud = args.getting_over_the_cloud
+getting_under_the_cloud = args.getting_under_the_cloud
 
 debug_delays = False
 delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
@@ -328,6 +330,9 @@ def execute_code(symbol, type_of_asset, exchange_id):
             if getting_over_the_cloud is True:
                 condition = (ssb > ssa and price_open < ssb and price_close > ssb) \
                             or (ssa > ssb and price_open < ssa and price_close > ssa)
+            elif getting_under_the_cloud is True:
+                condition = (ssb > ssa and price_open > ssa and price_close < ssa) \
+                            or (ssa > ssb and price_open > ssb and price_close < ssb)
             else:
                 condition = price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
                             and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
