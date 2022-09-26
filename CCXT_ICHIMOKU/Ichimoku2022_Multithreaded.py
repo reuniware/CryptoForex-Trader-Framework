@@ -528,7 +528,9 @@ for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].sp
     log_to_results(k + " " + dict_results_binary[k].split("#")[0] + 5*" " + str_link)
 
 for k in sorted(dict_results_evol, key=lambda k: dict_results_evol[k]):
-    log_to_results_evol(k + " " + "{:.2f}".format(dict_results_evol[k]) + " %")
+    symbol = k
+    str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","") + "&interval=960"
+    log_to_results_evol(k + " " + "{:.2f}".format(dict_results_evol[k]) + " %" + 5*" " + str_link)
 
 # for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
 #
