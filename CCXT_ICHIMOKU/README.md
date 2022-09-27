@@ -42,6 +42,8 @@ python Ichimoku2022_Multithreaded.py -e binance -gutc
                                                                                                                                   
 The -t option is to be used if you are searching for an asset to trade (very short term trading).
 
+When using the -f option (to filter scanned assets), think of using an underscore for gateio, eg: ALAYA_USDT, BTC_USDT etc...
+
 To monitor one asset in a shell environment :
                                                                                                                                   
 while true; do python Ichimoku2022_Multithreaded.py -e binance -f santosusdt; done;
