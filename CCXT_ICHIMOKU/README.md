@@ -1,4 +1,4 @@
-Ichimoku Scanner
+Ichimoku Scanner - INELIDAScanner
 
 For now the file is named "Ichimoku2022_Multithreaded.py"
 
