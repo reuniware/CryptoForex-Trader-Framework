@@ -403,7 +403,8 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
         value = dict_results[key]
         if trending == True and ("1m" in value or "3m" in value or "5m" in value or "15m" in value):
-            print(str_to_log + " " + 5*" " + "(trending)")
+            strpad = 125 - len(str_to_log + " " + "(trending?)")
+            print(str_to_log + strpad * " " + "(trending?)")
         elif trending == False:
             print(str_to_log)
 
