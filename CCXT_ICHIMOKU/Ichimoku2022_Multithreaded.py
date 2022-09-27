@@ -402,7 +402,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
         str_to_log = str(datetime.now()) + " " + exchange_id + " " + symbol + " " + type_of_asset + " " + dict_results[key] + " " + s_percent_evol_1d
 
         symbol = key.split(" ")[0]
-        str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","") + "&interval=960"
+        str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","")
         value = dict_results[key]
         if trending == True and ("1m" in value or "3m" in value or "5m" in value or "15m" in value):
             nspaces = 175 - len(str_to_log + " " + "(trending?)" + " " + str_link)
@@ -538,7 +538,7 @@ log_to_results("Scan results at : " + str(datetime.now()))
 
 for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].split("#")[1], 2)):
     symbol = k.split(" ")[0]
-    str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","") + "&interval=960"
+    str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","")
     value = dict_results_binary[k]
     nspaces = 175 - len(str_link) - len(k + " " + dict_results_binary[k].split("#")[0])
     if trending == True and ("1m" in value or "3m" in value or "5m" in value or "15m" in value):
@@ -548,7 +548,7 @@ for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].sp
 
 for k in sorted(dict_results_evol, key=lambda k: dict_results_evol[k]):
     symbol = k.split(" ")[0]
-    str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","") + "&interval=960"
+    str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","")
     log_to_results_evol(k + " " + "{:.2f}".format(dict_results_evol[k]) + " %" + 5*" " + str_link)
 
 # for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
