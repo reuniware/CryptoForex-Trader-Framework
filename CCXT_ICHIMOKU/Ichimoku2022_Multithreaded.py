@@ -401,12 +401,14 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
         str_to_log = str(datetime.now()) + " " + exchange_id + " " + symbol + " " + type_of_asset + " " + dict_results[key] + " " + s_percent_evol_1d
 
+        symbol = key.split(" ")[0]
+        str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","") + "&interval=960"
         value = dict_results[key]
         if trending == True and ("1m" in value or "3m" in value or "5m" in value or "15m" in value):
-            strpad = 125 - len(str_to_log + " " + "(trending?)")
-            print(str_to_log + strpad * " " + "(trending?)")
+            nspaces = 175 - len(str_to_log + " " + "(trending?)" + " " + str_link)
+            print(str_to_log + nspaces * " " + "(trending?)" + " " + str_link)
         elif trending == False:
-            print(str_to_log)
+            print(str_to_log + " " + str_link)
 
         #print(str_to_log + " " + "[Scoring = " + binary_result + " " + str(len(binary_result)) + str(int("".join(reversed(binary_result)), 2)) + "]")
         log_to_results_temp(str_to_log, exchange_id)
