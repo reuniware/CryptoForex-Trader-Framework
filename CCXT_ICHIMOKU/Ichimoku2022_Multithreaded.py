@@ -536,7 +536,7 @@ log_to_results("Scan results at : " + str(datetime.now()))
 
 for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].split("#")[1], 2)):
     symbol = k.split(" ")[0]
-    str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + "%3A" + symbol.replace("-", "").replace("/","") + "&interval=960"
+    str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","") + "&interval=960"
     value = dict_results_binary[k]
     nspaces = 175 - len(str_link) - len(k + " " + dict_results_binary[k].split("#")[0])
     if trending == True and ("1m" in value or "3m" in value or "5m" in value or "15m" in value):
@@ -545,8 +545,8 @@ for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].sp
         log_to_results(k + " " + dict_results_binary[k].split("#")[0] + nspaces*" " + str_link)
 
 for k in sorted(dict_results_evol, key=lambda k: dict_results_evol[k]):
-    symbol = k
-    str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + "%3A" + symbol.replace("-", "").replace("/","") + "&interval=960"
+    symbol = k.split(" ")[0]
+    str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","") + "&interval=960"
     log_to_results_evol(k + " " + "{:.2f}".format(dict_results_evol[k]) + " %" + 5*" " + str_link)
 
 # for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
