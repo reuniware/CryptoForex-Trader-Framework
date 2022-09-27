@@ -540,7 +540,7 @@ for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].sp
     value = dict_results_binary[k]
     if trending == True and ("1m" in value or "3m" in value or "5m" in value or "15m" in value):
         log_to_results(k + " " + dict_results_binary[k].split("#")[0] + 5*" " + str_link)
-    else:
+    elif trending == False:
         log_to_results(k + " " + dict_results_binary[k].split("#")[0] + 5*" " + str_link)
 
 for k in sorted(dict_results_evol, key=lambda k: dict_results_evol[k]):
