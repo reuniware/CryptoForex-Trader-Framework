@@ -9,6 +9,7 @@ python Ichimoku2022_Multithreaded.py -e binance -f *usdt -t
 - This will scan all assets ending with USDT on the BINANCE exchange.
 - This will scan for assets that might be trending (C1 on at least 1m or 3m or 5m or 15m).
 - Scan results will be written to results.txt file (as -t option is specified then only trending assets).
+- the -f option can be used with the "*" wildcard that can only be at the beginning or at the end of the filter, eg : *usdt or btc*
 
 python Ichimoku2022_Multithreaded.py -e binance
 - Condition of scan by default (C1) : Price above all its Ichimoku levels and Chikou above all its Ichimoku levels and above its price
