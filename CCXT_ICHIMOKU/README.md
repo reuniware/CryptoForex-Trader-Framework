@@ -2,7 +2,7 @@ Ichimoku Scanner
 
 For now the file is named "Ichimoku2022_Multithreaded.py"
 
-Example of use :
+Examples of use :
 
 python Ichimoku2022_Multithreaded.py -e binance -f *usdt -t
 - Condition of scan by default (C1) : Price above all its Ichimoku levels and Chikou above all its Ichimoku levels and above its price
