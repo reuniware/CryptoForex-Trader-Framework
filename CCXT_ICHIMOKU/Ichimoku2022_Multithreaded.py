@@ -122,6 +122,7 @@ parser.add_argument('-f', '--filter-assets', help="filter assets")
 parser.add_argument('-r', '--retry', action='store_true', help="retry until exchange is available (again)")
 parser.add_argument('-gotc', '--getting-over-the-cloud', action='store_true', help="scan for assets getting over the cloud")
 parser.add_argument('-gutc', '--getting-under-the-cloud', action='store_true', help="scan for assets getting under the cloud")
+parser.add_argument('-t', '--trending', action='store_true', help="scan for trending assets (that are ok in at least 1m or 3m or 5m or 15m) ; only these will be written to the results log file")
 args = parser.parse_args()
 print("args.exchange =", args.exchange)
 print("args.get-exchanges", args.get_exchanges)
@@ -130,6 +131,7 @@ print("args.filter", args.filter_assets)
 print("args.retry", args.retry)
 print("args.getting-over-the-cloud", args.getting_over_the_cloud)
 print("args.getting-under-the-cloud", args.getting_under_the_cloud)
+print("args.trending", args.trending)
 
 print("INELIDA Scanner v1.0 - https://twitter.com/IchimokuTrader")
 print("Scan started at :", str(datetime.now()))
@@ -187,6 +189,11 @@ retry = args.retry
 
 getting_over_the_cloud = args.getting_over_the_cloud
 getting_under_the_cloud = args.getting_under_the_cloud
+
+trending = args.trending
+print("trending=", trending)
+
+# end of arguments parsing here
 
 debug_delays = False
 delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
@@ -392,10 +399,14 @@ def execute_code(symbol, type_of_asset, exchange_id):
             s_percent_evol_1d = "[{:.2f}".format(percent_evol_1d) + " %]"
         # print(exchange_id, symbol, type_of_asset, dict_results[key], "{:.8f}".format(price_open_1d, 4), s_price_open_1d, s_price_high_1d, s_price_low_1d, s_price_close_1d)
 
-        str_to_log = str(datetime.now()) + " " + exchange_id + " " + symbol + " " + type_of_asset + " " + dict_results[
-            key] + " " + s_percent_evol_1d
+        str_to_log = str(datetime.now()) + " " + exchange_id + " " + symbol + " " + type_of_asset + " " + dict_results[key] + " " + s_percent_evol_1d
 
-        print(str_to_log)
+        value = dict_results[key]
+        if trending == True and ("1m" in value or "3m" in value or "5m" in value or "15m" in value):
+            print(str_to_log + " " + 5*" " + "(trending)")
+        else:
+            print(str_to_log)
+
         #print(str_to_log + " " + "[Scoring = " + binary_result + " " + str(len(binary_result)) + str(int("".join(reversed(binary_result)), 2)) + "]")
         log_to_results_temp(str_to_log, exchange_id)
 
@@ -525,7 +536,11 @@ log_to_results("Scan results at : " + str(datetime.now()))
 for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].split("#")[1], 2)):
     symbol = k
     str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","") + "&interval=960"
-    log_to_results(k + " " + dict_results_binary[k].split("#")[0] + 5*" " + str_link)
+    value = dict_results_binary[k]
+    if trending == True and ("1m" in value or "3m" in value or "5m" in value or "15m" in value):
+        log_to_results(k + " " + dict_results_binary[k].split("#")[0] + 5*" " + str_link)
+    else:
+        log_to_results(k + " " + dict_results_binary[k].split("#")[0] + 5*" " + str_link)
 
 for k in sorted(dict_results_evol, key=lambda k: dict_results_evol[k]):
     symbol = k
