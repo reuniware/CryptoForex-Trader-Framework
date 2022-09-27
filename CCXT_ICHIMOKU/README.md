@@ -1,6 +1,6 @@
 Ichimoku Scanner - INELIDAScanner
 
-(Wondering if this project could allow blind people to trade ???).
+(Wondering if this project could allow blind people to trade ? Or facilitate trading for blind people ?).
 
 For now the file is named "Ichimoku2022_Multithreaded.py"
 
