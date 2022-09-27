@@ -37,3 +37,5 @@ python Ichimoku2022_Multithreaded.py -e binance -gutc
 - "gutc" means "getting under the cloud".
 - Condition of scan (C3) : if SSB>SSA then OpenPrice>SSA and ClosePrice<SSA else if SSA>SSB then OpenPrice>SSB and ClosePrice<SSB
 - Scan results will be written to results.txt file.
+                                                                                                                                  
+The -t option is to be used if you are searching for an asset to trade (very short term trading).
