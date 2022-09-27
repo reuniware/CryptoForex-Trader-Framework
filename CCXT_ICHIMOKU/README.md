@@ -8,7 +8,25 @@ python Ichimoku2022_Multithreaded.py -e binance -f *usdt -t
 - Condition of scan by default (C1) : Price above all its Ichimoku levels and Chikou above all its Ichimoku levels and above its price
 - This will scan all assets ending with USDT on the BINANCE exchange.
 - This will scan for assets that might be trending (C1 on at least 1m or 3m or 5m or 15m).
-- Scan results will be written to results.txt file (if -t then only trending assets)
+- Scan results will be written to results.txt file (as -t option is specified then only trending assets).
 
+python Ichimoku2022_Multithreaded.py -e binance
+- Condition of scan by default (C1) : Price above all its Ichimoku levels and Chikou above all its Ichimoku levels and above its price
+- This will scan all assets on the BINANCE exchange.
+- Scan results will be written to results.txt file.
+
+python Ichimoku2022_Multithreaded.py -g
+- Will list all available exchanges (for use with -e option).
+
+python Ichimoku2022_Multithreaded.py -e binance -a
+- Will list all available assets from BINANCE exchange.
+
+python Ichimoku2022_Multithreaded.py -e binance -gotc
+- Condition of scan (C2) : if SSA>SSB then OpenPrice<SSA and ClosePrice>SSA else if SSB>SSA then OpenPrice<SSB and ClosePrice>SSB
+- Scan results will be written to results.txt file.
+ 
 python Ichimoku2022_Multithreaded.py -e binance -f *usdt -t
-
+- Condition of scan (C2) : if SSA>SSB then OpenPrice<SSA and ClosePrice>SSA else if SSB>SSA then OpenPrice<SSB and ClosePrice>SSB
+- This will scan for assets that might be trending (C2 on at least 1m or 3m or 5m or 15m).
+- This will scan all assets ending with USDT on the BINANCE exchange.
+- Scan results will be written to results.txt file.
