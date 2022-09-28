@@ -501,7 +501,7 @@ def main_thread():
         print("setting default delay_request =", delay_request, "for", exchange.id)
 
     threadLimiter = threading.BoundedSemaphore(maxthreads)
-    print(threadLimiter)
+    # print(threadLimiter)
 
     ok = False
     while ok is False:
