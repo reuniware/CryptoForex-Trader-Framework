@@ -224,24 +224,8 @@ delete_results_temp_log(exchange.id)
 # binance.timeframes {'1m': '1m', '3m': '3m', '5m': '5m', '15m': '15m', '30m': '30m', '1h': '1h', '2h': '2h', '4h': '4h', '6h': '6h', '8h': '8h', '12h': '12h', '1d': '1d', '3d': '3d', '1w': '1w', '1M': '1M'}
 # exchange.set_sandbox_mode(True)
 
-ok = False
-while ok is False:
-    try:
-        markets = exchange.fetch_markets()
-        ok = True
-        print("markets data obtained successfully")
-    except (ccxt.ExchangeError, ccxt.NetworkError, ccxt.DDoSProtection):
-        print("Exchange seems not available (maybe too many requests). Please wait and try again.")
-        # exit(-10002)
-        if retry is False:
-            print("will not retry.")
-            exit(-777)
-        else:
-            print("will retry in 5 sec")
-            time.sleep(5)
-    except:
-        print(sys.exc_info())
-        exit(-778)
+
+
 
 dict_results = {}
 dict_results_binary = {}
@@ -422,45 +406,10 @@ def execute_code(symbol, type_of_asset, exchange_id):
             dict_results_evol[key] = percent_evol_1d
 
 
-maxthreads = 1
-if exchange.id.lower() == "binance":
-    maxthreads = 10
-    print("setting maxthreads =", maxthreads, "for", exchange.id)
-    delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
-    delay_request = 0.250 # delay between each request inside of a thread
-    print("setting delay_thread =", delay_thread, "for", exchange.id)
-    print("setting delay_request =", delay_request, "for", exchange.id)
-elif exchange.id.lower() == "ftx":
-    maxthreads = 100
-    print("setting maxthreads =", maxthreads, "for", exchange.id)
-    delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
-    delay_request = 0.250 # delay between each request inside of a thread
-    print("setting delay_thread =", delay_thread, "for", exchange.id)
-    print("setting delay_request =", delay_request, "for", exchange.id)
-elif exchange.id.lower() == "gateio":
-    maxthreads = 100
-    print("setting maxthreads =", maxthreads, "for", exchange.id)
-    delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
-    delay_request = 0.250 # delay between each request inside of a thread
-    print("setting delay_thread =", delay_thread, "for", exchange.id)
-    print("setting delay_request =", delay_request, "for", exchange.id)
-elif exchange.id.lower() == "bitforex":
-    maxthreads = 1
-    print("setting maxthreads =", maxthreads, "for", exchange.id)
-    delay_thread = 1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
-    delay_request = 1 # delay between each request inside of a thread
-    print("setting delay_thread =", delay_thread, "for", exchange.id)
-    print("setting delay_request =", delay_request, "for", exchange.id)
-else:
-    maxthreads = 25
-    print("setting default maxthreads =", maxthreads, "for", exchange.id)
-    print("setting default delay_thread =", delay_thread, "for", exchange.id)
-    print("setting default delay_request =", delay_request, "for", exchange.id)
-
-threadLimiter = threading.BoundedSemaphore(maxthreads)
-
+threadLimiter = threading.BoundedSemaphore()
 
 def scan_one(symbol, type_of_asset, exchange_id):
+    global threadLimiter
     threadLimiter.acquire()
     try:
         execute_code(symbol, type_of_asset, exchange_id)
@@ -468,62 +417,6 @@ def scan_one(symbol, type_of_asset, exchange_id):
         threadLimiter.release()
 
 
-threads = []
-
-# print(markets)
-
-for oneline in markets:
-    symbol = oneline['id']
-    active = oneline['active']
-    type_of_asset = oneline['type']
-    exchange_id = exchange.id.lower()
-    base = oneline['base']  # eg. BTC/USDT => base = BTC
-    quote = oneline['quote']  # eg. BTC/USDT => quote = USDT
-    # print(symbol, "base", base, "quote", quote)
-
-    # print("eval", eval("exchange_id == 'ftx'"))
-
-    # this condition could be commented (and then more assets would be scanned)
-    if exchange_id == "ftx":
-        if symbol.endswith('HEDGE/USD') or symbol.endswith('CUSDT/USDT') or symbol.endswith('BEAR/USDT') \
-                or symbol.endswith('BEAR/USD') or symbol.endswith('BULL/USDT') or symbol.endswith('BULL/USD') \
-                or symbol.endswith('HALF/USD') or symbol.endswith('HALF/USDT') or symbol.endswith('SHIT/USDT') \
-                or symbol.endswith('SHIT/USD') or symbol.endswith('BEAR2021/USDT') or symbol.endswith('BEAR2021/USD') \
-                or symbol.endswith('BVOL/USDT') or symbol.endswith('BVOL/USD'):
-            continue
-
-    condition_ok = active and filter_assets in symbol
-    if filter_assets.startswith("*"):
-        new_filter_assets = filter_assets.replace("*", "")
-        new_filter_assets = new_filter_assets.upper()
-        condition_ok = active and symbol.endswith(new_filter_assets)
-    elif filter_assets.endswith("*"):
-        new_filter_assets = filter_assets.replace("*", "")
-        new_filter_assets = new_filter_assets.upper()
-        condition_ok = active and symbol.startswith(new_filter_assets)
-    
-    if condition_ok:  # and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
-        try:
-            t = threading.Thread(target=scan_one, args=(symbol, type_of_asset, exchange_id))
-            threads.append(t)
-            t.start()
-            # print("thread started for", symbol)
-            if delay_thread > 0:
-                if debug_delays:
-                    print("applying delay_thread of", delay_thread, "s before next thread start")
-                time.sleep(delay_thread)
-
-        except:
-            pass
-
-start_time = time.time()
-
-for tt in threads:
-    tt.join()
-
-end_time = time.time()
-
-print("--- %s seconds ---" % (end_time - start_time))
 
 # log_to_results(str(dict_results))
 # print(dict_results)
@@ -569,3 +462,123 @@ for k in sorted(dict_results_evol, key=lambda k: dict_results_evol[k]):
 #     strpad = " " * (100 - len(str_link))
 #
 #     log_to_results(k + " " + dict_results[k] + " " + strpad + str_link)
+
+
+def main_thread():
+    maxthreads = 1
+    if exchange.id.lower() == "binance":
+        maxthreads = 10
+        print("setting maxthreads =", maxthreads, "for", exchange.id)
+        delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
+        delay_request = 0.250 # delay between each request inside of a thread
+        print("setting delay_thread =", delay_thread, "for", exchange.id)
+        print("setting delay_request =", delay_request, "for", exchange.id)
+    elif exchange.id.lower() == "ftx":
+        maxthreads = 100
+        print("setting maxthreads =", maxthreads, "for", exchange.id)
+        delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
+        delay_request = 0.250 # delay between each request inside of a thread
+        print("setting delay_thread =", delay_thread, "for", exchange.id)
+        print("setting delay_request =", delay_request, "for", exchange.id)
+    elif exchange.id.lower() == "gateio":
+        maxthreads = 100
+        print("setting maxthreads =", maxthreads, "for", exchange.id)
+        delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
+        delay_request = 0.250 # delay between each request inside of a thread
+        print("setting delay_thread =", delay_thread, "for", exchange.id)
+        print("setting delay_request =", delay_request, "for", exchange.id)
+    elif exchange.id.lower() == "bitforex":
+        maxthreads = 1
+        print("setting maxthreads =", maxthreads, "for", exchange.id)
+        delay_thread = 1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
+        delay_request = 1 # delay between each request inside of a thread
+        print("setting delay_thread =", delay_thread, "for", exchange.id)
+        print("setting delay_request =", delay_request, "for", exchange.id)
+    else:
+        maxthreads = 25
+        print("setting default maxthreads =", maxthreads, "for", exchange.id)
+        print("setting default delay_thread =", delay_thread, "for", exchange.id)
+        print("setting default delay_request =", delay_request, "for", exchange.id)
+
+    threadLimiter = threading.BoundedSemaphore(maxthreads)
+    print(threadLimiter)
+
+    ok = False
+    while ok is False:
+        try:
+            markets = exchange.fetch_markets()
+            ok = True
+            print("markets data obtained successfully")
+        except (ccxt.ExchangeError, ccxt.NetworkError, ccxt.DDoSProtection):
+            print("Exchange seems not available (maybe too many requests). Please wait and try again.")
+            # exit(-10002)
+            if retry is False:
+                print("will not retry.")
+                exit(-777)
+            else:
+                print("will retry in 5 sec")
+                time.sleep(5)
+        except:
+            print(sys.exc_info())
+            exit(-778)
+
+    threads = []
+
+    # print(markets)
+
+    for oneline in markets:
+        symbol = oneline['id']
+        active = oneline['active']
+        type_of_asset = oneline['type']
+        exchange_id = exchange.id.lower()
+        base = oneline['base']  # eg. BTC/USDT => base = BTC
+        quote = oneline['quote']  # eg. BTC/USDT => quote = USDT
+        # print(symbol, "base", base, "quote", quote)
+
+        # print("eval", eval("exchange_id == 'ftx'"))
+
+        # this condition could be commented (and then more assets would be scanned)
+        if exchange_id == "ftx":
+            if symbol.endswith('HEDGE/USD') or symbol.endswith('CUSDT/USDT') or symbol.endswith('BEAR/USDT') \
+                    or symbol.endswith('BEAR/USD') or symbol.endswith('BULL/USDT') or symbol.endswith('BULL/USD') \
+                    or symbol.endswith('HALF/USD') or symbol.endswith('HALF/USDT') or symbol.endswith('SHIT/USDT') \
+                    or symbol.endswith('SHIT/USD') or symbol.endswith('BEAR2021/USDT') or symbol.endswith('BEAR2021/USD') \
+                    or symbol.endswith('BVOL/USDT') or symbol.endswith('BVOL/USD'):
+                continue
+
+        condition_ok = active and filter_assets in symbol
+        if filter_assets.startswith("*"):
+            new_filter_assets = filter_assets.replace("*", "")
+            new_filter_assets = new_filter_assets.upper()
+            condition_ok = active and symbol.endswith(new_filter_assets)
+        elif filter_assets.endswith("*"):
+            new_filter_assets = filter_assets.replace("*", "")
+            new_filter_assets = new_filter_assets.upper()
+            condition_ok = active and symbol.startswith(new_filter_assets)
+        
+        if condition_ok:  # and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
+            try:
+                t = threading.Thread(target=scan_one, args=(symbol, type_of_asset, exchange_id))
+                threads.append(t)
+                t.start()
+                # print("thread started for", symbol)
+                if delay_thread > 0:
+                    if debug_delays:
+                        print("applying delay_thread of", delay_thread, "s before next thread start")
+                    time.sleep(delay_thread)
+
+            except:
+                pass
+
+    start_time = time.time()
+
+    for tt in threads:
+        tt.join()
+
+    end_time = time.time()
+
+    print("--- %s seconds ---" % (end_time - start_time))
+
+
+mainThread = threading.Thread(target=main_thread, args=())
+mainThread.start()
