@@ -230,9 +230,10 @@ delete_results_temp_log(exchange.id)
 dict_results = {}
 dict_results_binary = {}
 dict_results_evol = {}
+highest_percent_evol = 0
 
 def execute_code(symbol, type_of_asset, exchange_id):
-    global dict_results
+    global dict_results, highest_percent_evol
 
     # print(10 * "*", symbol, type_of_asset, exchange.id, 10 * "*")
 
@@ -395,6 +396,10 @@ def execute_code(symbol, type_of_asset, exchange_id):
             print(str_to_log + " " + str_link)
 
         #print(str_to_log + " " + "[Scoring = " + binary_result + " " + str(len(binary_result)) + str(int("".join(reversed(binary_result)), 2)) + "]")
+        if percent_evol_1d > highest_percent_evol:
+            highest_percent_evol = percent_evol_1d
+            str_to_log += " *** new highest evol in %"
+
         log_to_results_temp(str_to_log, exchange_id)
 
         # we reverse binary_result (higher timeframes have more importance than lower timeframes, for sorting, and tf scanning start with lower timeframes...)
