@@ -424,26 +424,6 @@ def scan_one(symbol, type_of_asset, exchange_id):
 # for k in dict_results:
 #     log_to_results(k + " " + dict_results[k])
 
-delete_results_log()
-delete_results_evol_log()
-
-log_to_results("Scan results at : " + str(datetime.now()))
-
-for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].split("#")[1], 2)):
-    symbol = k.split(" ")[0]
-    str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","")
-    value = dict_results_binary[k]
-    nspaces = 175 - len(str_link) - len(k + " " + dict_results_binary[k].split("#")[0])
-    if trending == True and ("1m" in value or "3m" in value or "5m" in value or "15m" in value):
-        log_to_results(k + " " + dict_results_binary[k].split("#")[0] + nspaces*" " + str_link)
-    elif trending == False:
-        log_to_results(k + " " + dict_results_binary[k].split("#")[0] + nspaces*" " + str_link)
-
-for k in sorted(dict_results_evol, key=lambda k: dict_results_evol[k]):
-    symbol = k.split(" ")[0]
-    str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","")
-    log_to_results_evol(k + " " + "{:.2f}".format(dict_results_evol[k]) + " %" + 5*" " + str_link)
-
 # for k in sorted(dict_results, key=lambda k: len(dict_results[k])):
 #
 #     value = k
@@ -467,10 +447,10 @@ for k in sorted(dict_results_evol, key=lambda k: dict_results_evol[k]):
 def main_thread():
     maxthreads = 1
     if exchange.id.lower() == "binance":
-        maxthreads = 10
+        maxthreads = 50
         print("setting maxthreads =", maxthreads, "for", exchange.id)
-        delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
-        delay_request = 0.250 # delay between each request inside of a thread
+        delay_thread = 0 #0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
+        delay_request = 0 #0.250 # delay between each request inside of a thread
         print("setting delay_thread =", delay_thread, "for", exchange.id)
         print("setting delay_request =", delay_request, "for", exchange.id)
     elif exchange.id.lower() == "ftx":
@@ -499,6 +479,10 @@ def main_thread():
         print("setting default maxthreads =", maxthreads, "for", exchange.id)
         print("setting default delay_thread =", delay_thread, "for", exchange.id)
         print("setting default delay_request =", delay_request, "for", exchange.id)
+
+    delete_results_log()
+    delete_results_evol_log()
+    log_to_results("Scan results at : " + str(datetime.now()))
 
     threadLimiter = threading.BoundedSemaphore(maxthreads)
     # print(threadLimiter)
@@ -578,6 +562,21 @@ def main_thread():
     end_time = time.time()
 
     print("--- %s seconds ---" % (end_time - start_time))
+
+    for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].split("#")[1], 2)):
+        symbol = k.split(" ")[0]
+        str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","")
+        value = dict_results_binary[k]
+        nspaces = 175 - len(str_link) - len(k + " " + dict_results_binary[k].split("#")[0])
+        if trending == True and ("1m" in value or "3m" in value or "5m" in value or "15m" in value):
+            log_to_results(k + " " + dict_results_binary[k].split("#")[0] + nspaces*" " + str_link)
+        elif trending == False:
+            log_to_results(k + " " + dict_results_binary[k].split("#")[0] + nspaces*" " + str_link)
+
+    for k in sorted(dict_results_evol, key=lambda k: dict_results_evol[k]):
+        symbol = k.split(" ")[0]
+        str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","")
+        log_to_results_evol(k + " " + "{:.2f}".format(dict_results_evol[k]) + " %" + 5*" " + str_link)
 
 
 mainThread = threading.Thread(target=main_thread, args=())
