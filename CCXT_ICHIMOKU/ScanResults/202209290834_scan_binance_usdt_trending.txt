@@ -1,0 +1,25 @@
+Scan results at : 2022-09-29 05:55:43.156914
+TRXDOWNUSDT spot binance 2022-09-29 06:16:52.561538 binance TRXDOWNUSDT spot 1m [-1.24 %]                             https://tradingview.com/chart/?symbol=BINANCE:TRXDOWNUSDT
+TVKUSDT spot binance 2022-09-29 06:29:54.680268 binance TVKUSDT spot 1m [2.05 %]                                          https://tradingview.com/chart/?symbol=BINANCE:TVKUSDT
+YGGUSDT spot binance 2022-09-29 06:32:47.752096 binance YGGUSDT spot 1m [0.70 %]                                          https://tradingview.com/chart/?symbol=BINANCE:YGGUSDT
+CITYUSDT spot binance 2022-09-29 06:35:06.112806 binance CITYUSDT spot 1m [1.37 %]                                       https://tradingview.com/chart/?symbol=BINANCE:CITYUSDT
+BTCDOWNUSDT spot binance 2022-09-29 06:09:08.956618 binance BTCDOWNUSDT spot 1m 3m 5m [0.18 %]                        https://tradingview.com/chart/?symbol=BINANCE:BTCDOWNUSDT
+DOTDOWNUSDT spot binance 2022-09-29 06:17:25.464231 binance DOTDOWNUSDT spot 1s 1m 3m 5m [0.16 %]                     https://tradingview.com/chart/?symbol=BINANCE:DOTDOWNUSDT
+JUVUSDT spot binance 2022-09-29 06:21:37.780633 binance JUVUSDT spot 15m [0.79 %]                                         https://tradingview.com/chart/?symbol=BINANCE:JUVUSDT
+RAREUSDT spot binance 2022-09-29 06:34:00.673879 binance RAREUSDT spot 1m 3m 30m [5.70 %]                                https://tradingview.com/chart/?symbol=BINANCE:RAREUSDT
+AKROUSDT spot binance 2022-09-29 06:20:07.062620 binance AKROUSDT spot 3m 15m 30m [1.27 %]                               https://tradingview.com/chart/?symbol=BINANCE:AKROUSDT
+FORUSDT spot binance 2022-09-29 06:30:52.608934 binance FORUSDT spot 1m 5m 15m 30m [2.13 %]                               https://tradingview.com/chart/?symbol=BINANCE:FORUSDT
+LINKDOWNUSDT spot binance 2022-09-29 06:11:32.101774 binance LINKDOWNUSDT spot 1m 3m 5m 15m 30m [1.96 %]             https://tradingview.com/chart/?symbol=BINANCE:LINKDOWNUSDT
+PYRUSDT spot binance 2022-09-29 06:36:28.923519 binance PYRUSDT spot 1m 1h [2.34 %]                                       https://tradingview.com/chart/?symbol=BINANCE:PYRUSDT
+EOSUSDT spot binance 2022-09-29 05:56:59.084461 binance EOSUSDT spot 15m 30m 1h [3.23 %] *** new highest evol in %        https://tradingview.com/chart/?symbol=BINANCE:EOSUSDT
+ASRUSDT spot binance 2022-09-29 06:22:27.083851 binance ASRUSDT spot 15m 30m 1h [1.30 %]                                  https://tradingview.com/chart/?symbol=BINANCE:ASRUSDT
+ACMUSDT spot binance 2022-09-29 06:24:02.819018 binance ACMUSDT spot 1m 15m 30m 1h [1.73 %]                               https://tradingview.com/chart/?symbol=BINANCE:ACMUSDT
+STEEMUSDT spot binance 2022-09-29 06:41:16.114028 binance STEEMUSDT spot 3m 5m 15m 30m 1h [2.79 %]                      https://tradingview.com/chart/?symbol=BINANCE:STEEMUSDT
+RADUSDT spot binance 2022-09-29 06:33:44.425793 binance RADUSDT spot 1m 3m 5m 15m 30m 1h [6.73 %]                         https://tradingview.com/chart/?symbol=BINANCE:RADUSDT
+XRPDOWNUSDT spot binance 2022-09-29 06:17:08.070997 binance XRPDOWNUSDT spot 1s 1m 3m 5m 2h [6.59 %] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:XRPDOWNUSDT
+REQUSDT spot binance 2022-09-29 06:31:00.448805 binance REQUSDT spot 1s 15m 30m 1h 2h 4h [9.50 %]                         https://tradingview.com/chart/?symbol=BINANCE:REQUSDT
+ADADOWNUSDT spot binance 2022-09-29 06:11:15.986630 binance ADADOWNUSDT spot 3m 5m 15m 2h 4h 6h 8h [1.68 %]           https://tradingview.com/chart/?symbol=BINANCE:ADADOWNUSDT
+DEGOUSDT spot binance 2022-09-29 06:24:44.117966 binance DEGOUSDT spot 1s 1m 3m 5m 15m 30m 1h 2h 4h 6h 8h [14.16 %] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:DEGOUSDT
+ETHDOWNUSDT spot binance 2022-09-29 06:10:58.606419 binance ETHDOWNUSDT spot 1m 3m 5m 8h 12h [1.41 %]                 https://tradingview.com/chart/?symbol=BINANCE:ETHDOWNUSDT
+ERNUSDT spot binance 2022-09-29 06:28:33.677583 binance ERNUSDT spot 3m 5m 15m 30m 1h 2h 4h 6h 8h 12h 1d [51.33 %] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:ERNUSDT
+BNXUSDT spot binance 2022-09-29 06:34:49.893599 binance BNXUSDT spot 3m 15m 30m 4h 1d 3d [1.68 %]                         https://tradingview.com/chart/?symbol=BINANCE:BNXUSDT
