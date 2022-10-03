@@ -365,7 +365,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
             condition = price_open > dframe['bb_high'].iloc[-1] and price_close < dframe['bb_high'].iloc[-1]
 
             if condition:
-                print(symbol, tf, "BBHIGH=", dframe['bb_high'].iloc[-1], "current price=", price_close)
+                print(symbol, tf, "BBHIGH=", dframe['bb_high'].iloc[-1], "current price=", price_close, "BBMID(TP)=", dframe['bb_middle'].iloc[-1])
             #dev force condition - end
 
             if not condition:
