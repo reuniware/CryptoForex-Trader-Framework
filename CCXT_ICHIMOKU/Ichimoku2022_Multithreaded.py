@@ -118,11 +118,16 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-e", "--exchange", help="set exchange", required=False)
 parser.add_argument('-g', '--get-exchanges', action='store_true', help="get list of available exchanges")
 parser.add_argument('-a', '--get-assets', action='store_true', help="get list of available assets")
-parser.add_argument('-f', '--filter-assets', help="filter assets")
+parser.add_argument('-f', '--filter-assets', help="assets filter")
 parser.add_argument('-r', '--retry', action='store_true', help="retry until exchange is available (again)")
-parser.add_argument('-gotc', '--getting-over-the-cloud', action='store_true', help="scan for assets getting over the cloud")
-parser.add_argument('-gutc', '--getting-under-the-cloud', action='store_true', help="scan for assets getting under the cloud")
-parser.add_argument('-t', '--trending', action='store_true', help="scan for trending assets (that are ok in at least 1m or 3m or 5m or 15m) ; only these will be written to the results log file")
+parser.add_argument('-gotc', '--getting-over-the-cloud', action='store_true',
+                    help="scan for assets getting over the cloud")
+parser.add_argument('-gutc', '--getting-under-the-cloud', action='store_true',
+                    help="scan for assets getting under the cloud")
+parser.add_argument('-t', '--trending', action='store_true',
+                    help="scan for trending assets (that are ok in at least 1m or 3m or 5m or 15m) ; only these will be written to the results log file")
+parser.add_argument('-l', '--loop', action='store_true', help="scan in loop (useful for continually scan one asset or a few ones)")
+
 args = parser.parse_args()
 print("args.exchange =", args.exchange)
 print("args.get-exchanges", args.get_exchanges)
@@ -132,6 +137,7 @@ print("args.retry", args.retry)
 print("args.getting-over-the-cloud", args.getting_over_the_cloud)
 print("args.getting-under-the-cloud", args.getting_under_the_cloud)
 print("args.trending", args.trending)
+print("args.loop", args.loop)
 
 print("INELIDA Scanner v1.0 - https://twitter.com/IchimokuTrader")
 print("Scan started at :", str(datetime.now()))
@@ -139,7 +145,8 @@ print("Scan started at :", str(datetime.now()))
 # if a debugger is attached then set arbitrary arguments for debugging (exchange...)
 if sys.gettrace() is not None:
     args.exchange = "binance"
-    args.filter_assets = "xrp"
+    args.filter_assets = "maticusdt"
+    args.loop = True
 
 if args.get_exchanges is True:
     for id in ccxt.exchanges:
@@ -180,9 +187,11 @@ filter_assets = ""
 if args.filter_assets is not None:
     if args.filter_assets.strip() != "":
         filter_assets = args.filter_assets.strip().upper()
-        if ("*" in filter_assets and filter_assets.startswith("*")==False and filter_assets.endswith("*")==False) \
-            or ("*" in filter_assets and filter_assets.startswith("*")==True and filter_assets.endswith("*")==True):
-            print("Only one '*' wildcard must be at the start or at the end of the string and not in the middle (not supported).")
+        if ("*" in filter_assets and filter_assets.startswith("*") == False and filter_assets.endswith("*") == False) \
+                or (
+                "*" in filter_assets and filter_assets.startswith("*") == True and filter_assets.endswith("*") == True):
+            print(
+                "Only one '*' wildcard must be at the start or at the end of the string and not in the middle (not supported).")
             exit(-10004)
 
 retry = args.retry
@@ -193,11 +202,13 @@ getting_under_the_cloud = args.getting_under_the_cloud
 trending = args.trending
 print("trending=", trending)
 
+loop_scan = args.loop
+
 # end of arguments parsing here
 
 debug_delays = False
 delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
-delay_request = 0.250 # delay between each request inside of a thread
+delay_request = 0.250  # delay between each request inside of a thread
 
 exchange = None
 if args.exchange is not None:
@@ -225,12 +236,11 @@ delete_results_temp_log(exchange.id)
 # exchange.set_sandbox_mode(True)
 
 
-
-
 dict_results = {}
 dict_results_binary = {}
 dict_results_evol = {}
 highest_percent_evol = 0
+
 
 def execute_code(symbol, type_of_asset, exchange_id):
     global dict_results, highest_percent_evol
@@ -384,10 +394,13 @@ def execute_code(symbol, type_of_asset, exchange_id):
             s_percent_evol_1d = "[{:.2f}".format(percent_evol_1d) + " %]"
         # print(exchange_id, symbol, type_of_asset, dict_results[key], "{:.8f}".format(price_open_1d, 4), s_price_open_1d, s_price_high_1d, s_price_low_1d, s_price_close_1d)
 
-        str_to_log = str(datetime.now()) + " " + exchange_id + " " + symbol + " " + type_of_asset + " " + dict_results[key] + " " + s_percent_evol_1d
+        str_to_log = str(datetime.now()) + " " + exchange_id + " " + symbol + " " + type_of_asset + " " + dict_results[
+            key] + " " + s_percent_evol_1d
 
         symbol = key.split(" ")[0]
-        str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","")
+        str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-",
+                                                                                                         "").replace(
+            "/", "")
         value = dict_results[key]
         if trending == True and ("1m" in value or "3m" in value or "5m" in value or "15m" in value):
             nspaces = 175 - len(str_to_log + " " + "(trending?)" + " " + str_link)
@@ -395,7 +408,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
         elif trending == False:
             print(str_to_log + " " + str_link)
 
-        #print(str_to_log + " " + "[Scoring = " + binary_result + " " + str(len(binary_result)) + str(int("".join(reversed(binary_result)), 2)) + "]")
+        # print(str_to_log + " " + "[Scoring = " + binary_result + " " + str(len(binary_result)) + str(int("".join(reversed(binary_result)), 2)) + "]")
         if percent_evol_1d > highest_percent_evol:
             highest_percent_evol = percent_evol_1d
             str_to_log += " *** new highest evol in %"
@@ -404,7 +417,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
         # we reverse binary_result (higher timeframes have more importance than lower timeframes, for sorting, and tf scanning start with lower timeframes...)
         dict_results_binary[key] = str_to_log + " #" + "".join(reversed(binary_result))
-    
+
     # if key is in dict_results then that means that it has been detected
     if key in dict_results:
         if symbol not in dict_results_evol:
@@ -413,6 +426,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
 threadLimiter = threading.BoundedSemaphore()
 
+
 def scan_one(symbol, type_of_asset, exchange_id):
     global threadLimiter
     threadLimiter.acquire()
@@ -420,7 +434,6 @@ def scan_one(symbol, type_of_asset, exchange_id):
         execute_code(symbol, type_of_asset, exchange_id)
     finally:
         threadLimiter.release()
-
 
 
 # log_to_results(str(dict_results))
@@ -454,29 +467,29 @@ def main_thread():
     if exchange.id.lower() == "binance":
         maxthreads = 50
         print("setting maxthreads =", maxthreads, "for", exchange.id)
-        delay_thread = 0 #0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
-        delay_request = 0 #0.250 # delay between each request inside of a thread
+        delay_thread = 0  # 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
+        delay_request = 0  # 0.250 # delay between each request inside of a thread
         print("setting delay_thread =", delay_thread, "for", exchange.id)
         print("setting delay_request =", delay_request, "for", exchange.id)
     elif exchange.id.lower() == "ftx":
         maxthreads = 100
         print("setting maxthreads =", maxthreads, "for", exchange.id)
         delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
-        delay_request = 0.250 # delay between each request inside of a thread
+        delay_request = 0.250  # delay between each request inside of a thread
         print("setting delay_thread =", delay_thread, "for", exchange.id)
         print("setting delay_request =", delay_request, "for", exchange.id)
     elif exchange.id.lower() == "gateio":
         maxthreads = 100
         print("setting maxthreads =", maxthreads, "for", exchange.id)
         delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
-        delay_request = 0.250 # delay between each request inside of a thread
+        delay_request = 0.250  # delay between each request inside of a thread
         print("setting delay_thread =", delay_thread, "for", exchange.id)
         print("setting delay_request =", delay_request, "for", exchange.id)
     elif exchange.id.lower() == "bitforex":
         maxthreads = 1
         print("setting maxthreads =", maxthreads, "for", exchange.id)
         delay_thread = 1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
-        delay_request = 1 # delay between each request inside of a thread
+        delay_request = 1  # delay between each request inside of a thread
         print("setting delay_thread =", delay_thread, "for", exchange.id)
         print("setting delay_request =", delay_request, "for", exchange.id)
     else:
@@ -514,74 +527,91 @@ def main_thread():
     threads = []
 
     # print(markets)
+    stop = True
+    if loop_scan:
+        stop = False
 
-    for oneline in markets:
-        symbol = oneline['id']
-        active = oneline['active']
-        type_of_asset = oneline['type']
-        exchange_id = exchange.id.lower()
-        base = oneline['base']  # eg. BTC/USDT => base = BTC
-        quote = oneline['quote']  # eg. BTC/USDT => quote = USDT
-        # print(symbol, "base", base, "quote", quote)
+    while True:
+        for oneline in markets:
+            symbol = oneline['id']
+            active = oneline['active']
+            type_of_asset = oneline['type']
+            exchange_id = exchange.id.lower()
+            base = oneline['base']  # eg. BTC/USDT => base = BTC
+            quote = oneline['quote']  # eg. BTC/USDT => quote = USDT
+            # print(symbol, "base", base, "quote", quote)
 
-        # print("eval", eval("exchange_id == 'ftx'"))
+            # print("eval", eval("exchange_id == 'ftx'"))
 
-        # this condition could be commented (and then more assets would be scanned)
-        if exchange_id == "ftx":
-            if symbol.endswith('HEDGE/USD') or symbol.endswith('CUSDT/USDT') or symbol.endswith('BEAR/USDT') \
-                    or symbol.endswith('BEAR/USD') or symbol.endswith('BULL/USDT') or symbol.endswith('BULL/USD') \
-                    or symbol.endswith('HALF/USD') or symbol.endswith('HALF/USDT') or symbol.endswith('SHIT/USDT') \
-                    or symbol.endswith('SHIT/USD') or symbol.endswith('BEAR2021/USDT') or symbol.endswith('BEAR2021/USD') \
-                    or symbol.endswith('BVOL/USDT') or symbol.endswith('BVOL/USD'):
-                continue
+            # this condition could be commented (and then more assets would be scanned)
+            if exchange_id == "ftx":
+                if symbol.endswith('HEDGE/USD') or symbol.endswith('CUSDT/USDT') or symbol.endswith('BEAR/USDT') \
+                        or symbol.endswith('BEAR/USD') or symbol.endswith('BULL/USDT') or symbol.endswith('BULL/USD') \
+                        or symbol.endswith('HALF/USD') or symbol.endswith('HALF/USDT') or symbol.endswith('SHIT/USDT') \
+                        or symbol.endswith('SHIT/USD') or symbol.endswith('BEAR2021/USDT') or symbol.endswith(
+                    'BEAR2021/USD') \
+                        or symbol.endswith('BVOL/USDT') or symbol.endswith('BVOL/USD'):
+                    continue
 
-        condition_ok = active and filter_assets in symbol
-        if filter_assets.startswith("*"):
-            new_filter_assets = filter_assets.replace("*", "")
-            new_filter_assets = new_filter_assets.upper()
-            condition_ok = active and symbol.endswith(new_filter_assets)
-        elif filter_assets.endswith("*"):
-            new_filter_assets = filter_assets.replace("*", "")
-            new_filter_assets = new_filter_assets.upper()
-            condition_ok = active and symbol.startswith(new_filter_assets)
-        
-        if condition_ok:  # and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
-            try:
-                t = threading.Thread(target=scan_one, args=(symbol, type_of_asset, exchange_id))
-                threads.append(t)
-                t.start()
-                # print("thread started for", symbol)
-                if delay_thread > 0:
-                    if debug_delays:
-                        print("applying delay_thread of", delay_thread, "s before next thread start")
-                    time.sleep(delay_thread)
+            condition_ok = active and filter_assets in symbol
+            if filter_assets.startswith("*"):
+                new_filter_assets = filter_assets.replace("*", "")
+                new_filter_assets = new_filter_assets.upper()
+                condition_ok = active and symbol.endswith(new_filter_assets)
+            elif filter_assets.endswith("*"):
+                new_filter_assets = filter_assets.replace("*", "")
+                new_filter_assets = new_filter_assets.upper()
+                condition_ok = active and symbol.startswith(new_filter_assets)
 
-            except:
-                pass
+            if condition_ok:  # and ((symbol.endswith("USDT")) or (symbol.endswith("USD"))):  # == symbol: #'BTCUSDT':
+                try:
+                    t = threading.Thread(target=scan_one, args=(symbol, type_of_asset, exchange_id))
+                    threads.append(t)
+                    t.start()
+                    # print("thread started for", symbol)
+                    if delay_thread > 0:
+                        if debug_delays:
+                            print("applying delay_thread of", delay_thread, "s before next thread start")
+                        time.sleep(delay_thread)
 
-    start_time = time.time()
+                except:
+                    pass
 
-    for tt in threads:
-        tt.join()
+        start_time = time.time()
 
-    end_time = time.time()
+        for tt in threads:
+            tt.join()
 
-    print("--- %s seconds ---" % (end_time - start_time))
+        end_time = time.time()
 
-    for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].split("#")[1], 2)):
-        symbol = k.split(" ")[0]
-        str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","")
-        value = dict_results_binary[k]
-        nspaces = 175 - len(str_link) - len(k + " " + dict_results_binary[k].split("#")[0])
-        if trending == True and ("1m" in value or "3m" in value or "5m" in value or "15m" in value):
-            log_to_results(k + " " + dict_results_binary[k].split("#")[0] + nspaces*" " + str_link)
-        elif trending == False:
-            log_to_results(k + " " + dict_results_binary[k].split("#")[0] + nspaces*" " + str_link)
+        print("--- %s seconds ---" % (end_time - start_time))
 
-    for k in sorted(dict_results_evol, key=lambda k: dict_results_evol[k]):
-        symbol = k.split(" ")[0]
-        str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/","")
-        log_to_results_evol(k + " " + "{:.2f}".format(dict_results_evol[k]) + " %" + 5*" " + str_link)
+        for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].split("#")[1], 2)):
+            symbol = k.split(" ")[0]
+            str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-",
+                                                                                                             "").replace(
+                "/", "")
+            value = dict_results_binary[k]
+            nspaces = 175 - len(str_link) - len(k + " " + dict_results_binary[k].split("#")[0])
+            if trending == True and ("1m" in value or "3m" in value or "5m" in value or "15m" in value):
+                log_to_results(k + " " + dict_results_binary[k].split("#")[0] + nspaces * " " + str_link)
+            elif trending == False:
+                log_to_results(k + " " + dict_results_binary[k].split("#")[0] + nspaces * " " + str_link)
+
+        for k in sorted(dict_results_evol, key=lambda k: dict_results_evol[k]):
+            symbol = k.split(" ")[0]
+            str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-",
+                                                                                                             "").replace(
+                "/", "")
+            log_to_results_evol(k + " " + "{:.2f}".format(dict_results_evol[k]) + " %" + 5 * " " + str_link)
+
+        dict_results.clear()
+        dict_results_binary.clear()
+        dict_results_evol.clear()
+        highest_percent_evol = 0
+
+        if stop is True:
+            break
 
 
 mainThread = threading.Thread(target=main_thread, args=())
