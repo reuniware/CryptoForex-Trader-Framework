@@ -151,7 +151,7 @@ print("Scan started at :", str(datetime.now()))
 # if a debugger is attached then set arbitrary arguments for debugging (exchange...)
 if sys.gettrace() is not None:
     args.exchange = "binance"
-    args.filter_assets = "maticusdt"
+    args.filter_assets = "matic*"
     args.loop = False
 
 if args.get_exchanges is True:
@@ -407,7 +407,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
         # print(exchange_id, symbol, type_of_asset, dict_results[key], "{:.8f}".format(price_open_1d, 4), s_price_open_1d, s_price_high_1d, s_price_low_1d, s_price_close_1d)
 
         str_to_log = str(datetime.now()) + " " + exchange_id + " " + symbol + " " + type_of_asset + " " + dict_results[
-            key] + " " + s_percent_evol_1d
+            key] + " " + s_percent_evol_1d + " [price = " + s_price_close_1d + "]"
 
         symbol = key.split(" ")[0]
         str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-",
