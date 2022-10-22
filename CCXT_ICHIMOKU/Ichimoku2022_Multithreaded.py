@@ -150,8 +150,8 @@ print("Scan started at :", str(datetime.now()))
 
 # if a debugger is attached then set arbitrary arguments for debugging (exchange...)
 if sys.gettrace() is not None:
-    args.exchange = "binance"
-    args.filter_assets = "matic*"
+    args.exchange = "binanceus"
+    args.filter_assets = "*usdt"
     args.loop = False
 
 if args.get_exchanges is True:
@@ -506,6 +506,8 @@ def main_thread():
         print("setting delay_request =", delay_request, "for", exchange.id)
     else:
         maxthreads = 25
+        delay_thread = 0
+        delay_request = 0
         print("setting default maxthreads =", maxthreads, "for", exchange.id)
         print("setting default delay_thread =", delay_thread, "for", exchange.id)
         print("setting default delay_request =", delay_request, "for", exchange.id)
