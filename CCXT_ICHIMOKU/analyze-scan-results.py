@@ -1,6 +1,7 @@
 import os
 import ccxt
 import signal
+import sys
 
 def signal_handler(sig, frame):
     print('You pressed Ctrl+C!')
@@ -9,6 +10,17 @@ def signal_handler(sig, frame):
 
 signal.signal(signal.SIGINT, signal_handler)
 
+
+def log_to_results(str_to_log):
+    fr = open("analyze_scan_results.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+def delete_results_log():
+    if os.path.exists("analyze_scan_results.txt"):
+        os.remove("analyze_scan_results.txt")
+
+delete_results_log()
 
 exchanges = {}
 for id in ccxt.exchanges:
@@ -67,18 +79,22 @@ for filename in os.listdir("ScanResults"):
                             group_of_timeframes = current_group_of_timeframes
                             total_evol_group_of_timeframes += evol
                             print("Average evol for this group of timeframe =", "{:.2f}".format(total_evol_group_of_timeframes), "%")
+                            log_to_results("Average evol for this group of timeframe = " + "{:.2f}".format(total_evol_group_of_timeframes) + " %")
                             total_evol_group_of_timeframes = 0
                             print("")
+                            log_to_results("")
                         else:
                             #print("same group of timeframes detected =", current_group_of_timeframes)
                             total_evol_group_of_timeframes += evol
                             #print(total_evol_group_of_timeframes)
 
                         print(filename, "\t", symbol, fill_symbol, "\t[" + str(price) + "]", fill_price, "\t[" + str(currentprice) + "]", fill_currentprice, "\t[" + "{:.2f}".format(evol) + " %]", fill_evol, "\t[" + text.split('[')[0].split('spot')[2] + "]")
-
+                        log_to_results(filename + "\t" + symbol + fill_symbol + "\t[" + str(price) + "]" + fill_price + "\t[" + str(currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split('spot')[2] + "]")
                     line += 1
             # print(text)
         except:
+            print(sys.exc_info())
+            #exit(-10003)
             pass
         print("Average evol for this file", "{:.2f}".format(total_evol), "%")
         print(100*"*")
