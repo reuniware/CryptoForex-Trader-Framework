@@ -32,12 +32,13 @@ for filename in os.listdir("ScanResults"):
                     price = float(text.split('[')[2].split('= ')[1].split(']')[0])
                     result = exchange.fetch_ohlcv(symbol, '1m', limit=1)
                     currentprice = float(result[0][4])
-                    evol = float("{:.2f}".format((currentprice - price)/price*100))
+                    #evol = float("{:.2f}".format((currentprice - price)/price*100))
+                    evol = (currentprice - price)/price*100
 
                     fill_price = " " * (8-len(str(price)))
                     fill_currentprice = " " * (8-len(str(currentprice)))
-                    fill_evol = " " * (8-len(str(evol)))
+                    fill_evol = " " * (16-len(str(evol)))
 
-                    print(symbol, "\t[" + "{:.2f}".format(price) + "]", fill_price, "\t[" + str(currentprice) + "]", fill_currentprice, "\t[" + str(evol) + "%]", fill_evol, "\t[" + text.split('[')[0].split('spot')[2] + "]")
+                    print(symbol, "\t[" + str(price) + "]", fill_price, "\t[" + str(currentprice) + "]", fill_currentprice, "\t[" + "{:.2f}".format(evol) + " %]", fill_evol, "\t[" + text.split('[')[0].split('spot')[2] + "]")
                 line += 1
             # print(text)
