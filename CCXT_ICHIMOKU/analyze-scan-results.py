@@ -55,6 +55,7 @@ for filename in os.listdir("ScanResults"):
                     if not text:
                         break
                     if line > 1:
+                        #print(text)
                         symbol = text.split(' ')[0]
                         price = float(text.split('[')[2].split('= ')[1].split(']')[0])
                         result = exchange.fetch_ohlcv(symbol, '1m', limit=1)
@@ -64,7 +65,7 @@ for filename in os.listdir("ScanResults"):
 
                         total_evol = total_evol + evol
 
-                        fill_symbol = " " * (8-len(str(symbol)))
+                        fill_symbol = " " * (16-len(str(symbol)))
                         fill_price = " " * (8-len(str(price)))
                         fill_currentprice = " " * (8-len(str(currentprice)))
                         fill_evol = " " * (8-len(str(evol)))
@@ -88,8 +89,11 @@ for filename in os.listdir("ScanResults"):
                             total_evol_group_of_timeframes += evol
                             #print(total_evol_group_of_timeframes)
 
-                        print(filename, "\t", symbol, fill_symbol, "\t[" + str(price) + "]", fill_price, "\t[" + str(currentprice) + "]", fill_currentprice, "\t[" + "{:.2f}".format(evol) + " %]", fill_evol, "\t[" + text.split('[')[0].split('spot')[2] + "]")
-                        log_to_results(filename + "\t" + symbol + fill_symbol + "\t[" + str(price) + "]" + fill_price + "\t[" + str(currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split('spot')[2] + "]")
+                        date_detect = text.split(' ')[3]
+                        time_detect = text.split(' ')[4].split('.')[0]
+
+                        print(filename, "\t", symbol, fill_symbol, date_detect + " " + time_detect, "\t[" + str(price) + "]", fill_price, "\t[" + str(currentprice) + "]", fill_currentprice, "\t[" + "{:.2f}".format(evol) + " %]", fill_evol, "\t[" + text.split('[')[0].split('spot')[2] + "]")
+                        log_to_results(filename + "\t" + symbol + fill_symbol + date_detect + " " + time_detect + "\t[" + str(price) + "]" + fill_price + "\t[" + str(currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split('spot')[2] + "]")
                     line += 1
             # print(text)
         except:
