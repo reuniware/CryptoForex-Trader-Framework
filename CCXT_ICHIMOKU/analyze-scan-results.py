@@ -125,7 +125,7 @@ for filename in os.listdir("ScanResults"):
                     line += 1
             # print(text)
         except:
-            print(sys.exc_info())
+            #print(sys.exc_info())
             # exit(-10003)
             pass
         print("Total evol for this file", "{:.2f}".format(total_evol), "%")
