@@ -135,9 +135,12 @@ for filename in os.listdir("ScanResults"):
         log_to_results("Total evol for this file " + "{:.2f}".format(total_evol) + " %")
         log_to_results(100 * "*")
         log_to_results("")
-        
-        print("Average evol per group of timeframes :")
-        for (key, value) in dict_evol_tf_group.items():
-            print(key, value)
+
+        if len(dict_evol_tf_group) > 0:
+            print("Average evol per group of timeframes :")
+            log_to_results("Average evol per group of timeframes :")
+            for (key, value) in dict_evol_tf_group.items():
+                print(key, value, "%")
+                log_to_results(key + " " + "{:.2f}".format(value) + " %")
 
         print("")
