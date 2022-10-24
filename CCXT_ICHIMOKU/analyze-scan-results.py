@@ -38,10 +38,10 @@ for id in ccxt.exchanges:
     except:
         continue
 
-filetoprocess = "202210231230_scan_binance_usdt_gotk.txt"
+filetoprocess = "202210241557_scan_binance_usdt_gotk.txt"
 
 for filename in os.listdir("ScanResults"):
-    if filename == filename:
+    if filename == filetoprocess:
         print("PROCESSING", filename)
         log_to_results("PROCESSING " + filename)
         line = 1
@@ -134,7 +134,7 @@ for filename in os.listdir("ScanResults"):
             log_to_results("Average evol per group of timeframes :")
             for (key, value) in dict_evol_tf_group.items():
                 fill_key = "." * (48 - len(key))
-                print("[" + key + "]", fill_key, value, "%")
+                print("[" + key + "]", fill_key, "{:.2f}".format(value), "%")
                 log_to_results("[" + key + "]" + fill_key + "{:.2f}".format(value) + " %")
                 total_evol += value
 
