@@ -46,7 +46,6 @@ for filename in os.listdir("ScanResults"):
         log_to_results("PROCESSING " + filename)
         line = 1
 
-        total_evol = 0.0
         group_of_timeframes = ""
         total_evol_group_of_timeframes = 0.0
         total_lines_in_group_of_timeframes = 0
@@ -76,8 +75,6 @@ for filename in os.listdir("ScanResults"):
                         else:
                             evol = 0
 
-                        total_evol = total_evol + evol
-
                         fill_symbol = " " * (16 - len(str(symbol)))
                         fill_price = " " * (16 - len(str(price)))
                         fill_currentprice = " " * (16 - len(str(currentprice)))
@@ -90,7 +87,7 @@ for filename in os.listdir("ScanResults"):
 
                             if group_of_timeframes in dict_evol_tf_group:
                                 current_val = dict_evol_tf_group[group_of_timeframes]
-                                dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol)/2
+                                dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
                             else:
                                 dict_evol_tf_group[group_of_timeframes] = evol
 
@@ -100,7 +97,7 @@ for filename in os.listdir("ScanResults"):
 
                             if group_of_timeframes in dict_evol_tf_group:
                                 current_val = dict_evol_tf_group[group_of_timeframes]
-                                dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol)/2
+                                dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
                             else:
                                 dict_evol_tf_group[group_of_timeframes] = evol
 
@@ -110,7 +107,7 @@ for filename in os.listdir("ScanResults"):
                             # print("same group of timeframes detected =", current_group_of_timeframes)
                             if group_of_timeframes in dict_evol_tf_group:
                                 current_val = dict_evol_tf_group[group_of_timeframes]
-                                dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol)/2
+                                dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
                             else:
                                 dict_evol_tf_group[group_of_timeframes] = evol
                             pass
@@ -125,25 +122,27 @@ for filename in os.listdir("ScanResults"):
                     line += 1
             # print(text)
         except:
-            #print(sys.exc_info())
+            # print(sys.exc_info())
             # exit(-10003)
             pass
 
+        total_evol = 0.0
         if len(dict_evol_tf_group) > 0:
             print("")
             log_to_results("")
             print("Average evol per group of timeframes :")
             log_to_results("Average evol per group of timeframes :")
             for (key, value) in dict_evol_tf_group.items():
-                fill_key = "." * (32-len(key))
+                fill_key = "." * (48 - len(key))
                 print("[" + key + "]", fill_key, value, "%")
                 log_to_results("[" + key + "]" + fill_key + "{:.2f}".format(value) + " %")
+                total_evol += value
 
-        print("Total evol (sum) for this file", "{:.2f}".format(total_evol), "%")
+        print("Average total evol for this file", "{:.2f}".format(total_evol / len(dict_evol_tf_group)), "%")
         print(100 * "*")
         print("")
 
-        log_to_results("Total evol (sum) for this file " + "{:.2f}".format(total_evol) + " %")
+        log_to_results("Average total evol for this file " + "{:.2f}".format(total_evol / len(dict_evol_tf_group)) + " %")
         log_to_results(100 * "*")
         log_to_results("")
 
