@@ -135,7 +135,7 @@ for filename in os.listdir("ScanResults"):
             print("Average evol per group of timeframes :")
             log_to_results("Average evol per group of timeframes :")
             for (key, value) in dict_evol_tf_group.items():
-                fill_key = "." * (24-len(key))
+                fill_key = "." * (32-len(key))
                 print("[" + key + "]", fill_key, value, "%")
                 log_to_results("[" + key + "]" + fill_key + "{:.2f}".format(value) + " %")
 
