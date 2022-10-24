@@ -42,8 +42,8 @@ filetoprocess = "202210231230_scan_binance_usdt_gotk.txt"
 
 for filename in os.listdir("ScanResults"):
     if filename == filename:
-        print("processing", filename)
-        log_to_results("processing " + filename)
+        print("PROCESSING", filename)
+        log_to_results("PROCESSING " + filename)
         line = 1
 
         total_evol = 0.0
