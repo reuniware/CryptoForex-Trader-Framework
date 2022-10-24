@@ -34,8 +34,6 @@ for id in ccxt.exchanges:
     except:
         continue
 
-exchange = exchanges['binance']
-
 filetoprocess = "202210231230_scan_binance_usdt_gotk.txt"
 
 for filename in os.listdir("ScanResults"):
@@ -56,12 +54,19 @@ for filename in os.listdir("ScanResults"):
                         break
                     if line > 1:
                         #print(text)
+
+                        exchange_id = text.split(' ')[2]
+                        exchange = exchanges[exchange_id]
+
                         symbol = text.split(' ')[0]
                         price = float(text.split('[')[2].split('= ')[1].split(']')[0])
                         result = exchange.fetch_ohlcv(symbol, '1m', limit=1)
                         currentprice = float(result[0][4])
                         #evol = float("{:.2f}".format((currentprice - price)/price*100))
-                        evol = (currentprice - price)/price*100
+                        if price > 0:
+                            evol = (currentprice - price)/price*100
+                        else:
+                            evol = 0
 
                         total_evol = total_evol + evol
 
