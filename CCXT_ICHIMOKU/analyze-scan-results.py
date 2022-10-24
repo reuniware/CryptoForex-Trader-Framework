@@ -85,8 +85,8 @@ for filename in os.listdir("ScanResults"):
                             #print("new group of timeframes detected =", current_group_of_timeframes)
                             group_of_timeframes = current_group_of_timeframes
                             total_evol_group_of_timeframes += evol
-                            print("Average evol for this group of timeframe =", "{:.2f}".format(total_evol_group_of_timeframes), "%")
-                            log_to_results("Average evol for this group of timeframe = " + "{:.2f}".format(total_evol_group_of_timeframes) + " %")
+                            print("Total evol for this group of timeframe =", "{:.2f}".format(total_evol_group_of_timeframes), "%")
+                            log_to_results("Total evol for this group of timeframe = " + "{:.2f}".format(total_evol_group_of_timeframes) + " %")
                             total_evol_group_of_timeframes = 0
                             print("")
                             log_to_results("")
