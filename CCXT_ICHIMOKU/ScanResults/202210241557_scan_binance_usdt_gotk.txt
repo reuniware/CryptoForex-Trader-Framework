@@ -1,44 +1,150 @@
-Scan results at : 2022-10-24 13:57:32.246842
-SUPERUSDT spot binance 2022-10-24 14:26:20.079892 binance SUPERUSDT spot 1m [-3.46 %] [price = 0.11990000]              https://tradingview.com/chart/?symbol=BINANCE:SUPERUSDT
-ANCUSDT spot binance 2022-10-24 14:40:28.332964 binance ANCUSDT spot 1m [-2.67 %] [price = 0.08064000]                    https://tradingview.com/chart/?symbol=BINANCE:ANCUSDT
-PNTUSDT spot binance 2022-10-24 14:11:39.477570 binance PNTUSDT spot 3m [-1.61 %] [price = 0.23260000]                    https://tradingview.com/chart/?symbol=BINANCE:PNTUSDT
-ERNUSDT spot binance 2022-10-24 14:29:29.625010 binance ERNUSDT spot 3m [-2.63 %] [price = 2.58800000]                    https://tradingview.com/chart/?symbol=BINANCE:ERNUSDT
-VOXELUSDT spot binance 2022-10-24 14:38:22.181653 binance VOXELUSDT spot 5m [-0.86 %] [price = 0.21780000]              https://tradingview.com/chart/?symbol=BINANCE:VOXELUSDT
-BTCUSDT spot binance 2022-10-24 13:57:41.848581 binance BTCUSDT spot 15m [-1.05 %] [price = 19365.00000000]               https://tradingview.com/chart/?symbol=BINANCE:BTCUSDT
-XRPUSDT spot binance 2022-10-24 13:58:40.074399 binance XRPUSDT spot 15m [-2.62 %] [price = 0.45650000]                   https://tradingview.com/chart/?symbol=BINANCE:XRPUSDT
-ICXUSDT spot binance 2022-10-24 13:59:36.897278 binance ICXUSDT spot 15m [-1.59 %] [price = 0.21660000]                   https://tradingview.com/chart/?symbol=BINANCE:ICXUSDT
-VETUSDT spot binance 2022-10-24 13:59:54.981324 binance VETUSDT spot 15m [-1.18 %] [price = 0.02253000]                   https://tradingview.com/chart/?symbol=BINANCE:VETUSDT
-LINKUSDT spot binance 2022-10-24 14:00:02.811461 binance LINKUSDT spot 15m [-2.08 %] [price = 6.92000000]                https://tradingview.com/chart/?symbol=BINANCE:LINKUSDT
-BNBDOWNUSDT spot binance 2022-10-24 14:14:14.115410 binance BNBDOWNUSDT spot 15m [1.93 %] [price = 0.04129000]        https://tradingview.com/chart/?symbol=BINANCE:BNBDOWNUSDT
-POWRUSDT spot binance 2022-10-24 14:36:36.529775 binance POWRUSDT spot 15m [-2.40 %] [price = 0.18690000]                https://tradingview.com/chart/?symbol=BINANCE:POWRUSDT
-FLUXUSDT spot binance 2022-10-24 14:38:05.296618 binance FLUXUSDT spot 15m [-2.82 %] [price = 0.69000000]                https://tradingview.com/chart/?symbol=BINANCE:FLUXUSDT
-KDAUSDT spot binance 2022-10-24 14:41:24.911895 binance KDAUSDT spot 15m [-2.10 %] [price = 1.26100000]                   https://tradingview.com/chart/?symbol=BINANCE:KDAUSDT
-OPUSDT spot binance 2022-10-24 14:43:05.209017 binance OPUSDT spot 15m [-0.96 %] [price = 0.82300000]                      https://tradingview.com/chart/?symbol=BINANCE:OPUSDT
-GLMRUSDT spot binance 2022-10-24 14:39:40.357905 binance GLMRUSDT spot 5m 15m [-1.62 %] [price = 0.45410000]             https://tradingview.com/chart/?symbol=BINANCE:GLMRUSDT
-ETHUSDT spot binance 2022-10-24 13:57:52.133982 binance ETHUSDT spot 30m [-1.10 %] [price = 1349.20000000]                https://tradingview.com/chart/?symbol=BINANCE:ETHUSDT
-APTUSDT spot binance 2022-10-24 14:44:02.671805 binance APTUSDT spot 30m [-1.55 %] [price = 9.62920000]                   https://tradingview.com/chart/?symbol=BINANCE:APTUSDT
-MOBUSDT spot binance 2022-10-24 14:42:15.429130 binance MOBUSDT spot 15m 30m [-0.60 %] [price = 0.82500000]               https://tradingview.com/chart/?symbol=BINANCE:MOBUSDT
-ONTUSDT spot binance 2022-10-24 13:59:13.012295 binance ONTUSDT spot 1h [-1.17 %] [price = 0.21190000]                    https://tradingview.com/chart/?symbol=BINANCE:ONTUSDT
-SANTOSUSDT spot binance 2022-10-24 14:37:41.919044 binance SANTOSUSDT spot 15m 30m 1h [-0.60 %] [price = 11.34400000]  https://tradingview.com/chart/?symbol=BINANCE:SANTOSUSDT
-STEEMUSDT spot binance 2022-10-24 14:42:07.640523 binance STEEMUSDT spot 15m 30m 1h [4.24 %] [price = 0.23850000]       https://tradingview.com/chart/?symbol=BINANCE:STEEMUSDT
-BTSUSDT spot binance 2022-10-24 14:08:39.325135 binance BTSUSDT spot 3m 2h [-0.70 %] [price = 0.00999000]                 https://tradingview.com/chart/?symbol=BINANCE:BTSUSDT
-LAZIOUSDT spot binance 2022-10-24 14:34:56.738079 binance LAZIOUSDT spot 5m 15m 30m 1h 2h [-0.04 %] [price = 4.08680000] https://tradingview.com/chart/?symbol=BINANCE:LAZIOUSDT
-PORTOUSDT spot binance 2022-10-24 14:36:28.119875 binance PORTOUSDT spot 15m 30m 1h 2h 4h [1.88 %] [price = 3.71490000] https://tradingview.com/chart/?symbol=BINANCE:PORTOUSDT
-ZECUSDT spot binance 2022-10-24 14:01:15.653728 binance ZECUSDT spot 8h [-2.07 %] [price = 52.10000000]                   https://tradingview.com/chart/?symbol=BINANCE:ZECUSDT
-FTMUSDT spot binance 2022-10-24 14:02:55.481164 binance FTMUSDT spot 8h [-1.77 %] [price = 0.20560000]                    https://tradingview.com/chart/?symbol=BINANCE:FTMUSDT
-XTZUSDT spot binance 2022-10-24 14:06:03.114419 binance XTZUSDT spot 8h [-0.95 %] [price = 1.36100000]                    https://tradingview.com/chart/?symbol=BINANCE:XTZUSDT
-COTIUSDT spot binance 2022-10-24 14:09:29.625617 binance COTIUSDT spot 8h [-1.09 %] [price = 0.10000000]                 https://tradingview.com/chart/?symbol=BINANCE:COTIUSDT
-ANTUSDT spot binance 2022-10-24 14:15:36.084565 binance ANTUSDT spot 8h [0.69 %] [price = 1.60000000]                     https://tradingview.com/chart/?symbol=BINANCE:ANTUSDT
-ALPHAUSDT spot binance 2022-10-24 14:20:21.457218 binance ALPHAUSDT spot 8h [-0.62 %] [price = 0.11270000]              https://tradingview.com/chart/?symbol=BINANCE:ALPHAUSDT
-FRONTUSDT spot binance 2022-10-24 14:34:06.695436 binance FRONTUSDT spot 15m 8h [2.84 %] [price = 0.23880000]           https://tradingview.com/chart/?symbol=BINANCE:FRONTUSDT
-MULTIUSDT spot binance 2022-10-24 14:41:59.217406 binance MULTIUSDT spot 15m 30m 8h [2.57 %] [price = 4.39000000]       https://tradingview.com/chart/?symbol=BINANCE:MULTIUSDT
-HIVEUSDT spot binance 2022-10-24 14:10:18.674891 binance HIVEUSDT spot 4h 6h 8h 12h [4.20 %] [price = 0.49080000]        https://tradingview.com/chart/?symbol=BINANCE:HIVEUSDT
-ENSUSDT spot binance 2022-10-24 14:36:02.207678 binance ENSUSDT spot 1d [0.70 %] [price = 17.26000000]                    https://tradingview.com/chart/?symbol=BINANCE:ENSUSDT
-RNDRUSDT spot binance 2022-10-24 14:37:25.751506 binance RNDRUSDT spot 1d [6.99 %] [price = 0.50500000]                  https://tradingview.com/chart/?symbol=BINANCE:RNDRUSDT
-XRPDOWNUSDT spot binance 2022-10-24 14:18:35.274671 binance XRPDOWNUSDT spot 5m 15m 1d [5.80 %] [price = 0.00028630]  https://tradingview.com/chart/?symbol=BINANCE:XRPDOWNUSDT
-KEYUSDT spot binance 2022-10-24 14:04:48.185592 binance KEYUSDT spot 5m 15m 30m 1h 2h 8h 1d [2.20 %] [price = 0.00451200] https://tradingview.com/chart/?symbol=BINANCE:KEYUSDT
-CTXCUSDT spot binance 2022-10-24 14:07:25.075484 binance CTXCUSDT spot 4h 6h 12h 1d [11.63 %] [price = 0.11610000]       https://tradingview.com/chart/?symbol=BINANCE:CTXCUSDT
-DOTDOWNUSDT spot binance 2022-10-24 14:18:51.472475 binance DOTDOWNUSDT spot 30m 2h 4h 6h 12h 1d [6.99 %] [price = 16.30300000] https://tradingview.com/chart/?symbol=BINANCE:DOTDOWNUSDT
-MATICUSDT spot binance 2022-10-24 14:02:23.099938 binance MATICUSDT spot 3d [-0.89 %] [price = 0.89060000]              https://tradingview.com/chart/?symbol=BINANCE:MATICUSDT
-EGLDUSDT spot binance 2022-10-24 14:17:29.948539 binance EGLDUSDT spot 3d [1.66 %] [price = 57.64000000]                 https://tradingview.com/chart/?symbol=BINANCE:EGLDUSDT
-NULSUSDT spot binance 2022-10-24 13:59:45.276078 binance NULSUSDT spot 1d 3d 1w [47.54 %] [price = 0.34200000] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:NULSUSDT
+import os
+import ccxt
+import signal
+import sys
+
+
+def signal_handler(sig, frame):
+    print('You pressed Ctrl+C!')
+    os.kill(os.getpid(), 9)
+    sys.exit(-888)
+
+
+signal.signal(signal.SIGINT, signal_handler)
+
+
+def log_to_results(str_to_log):
+    fr = open("analyze_scan_results.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def delete_results_log():
+    if os.path.exists("analyze_scan_results.txt"):
+        os.remove("analyze_scan_results.txt")
+
+
+delete_results_log()
+
+exchanges = {}
+for id in ccxt.exchanges:
+    exchange = getattr(ccxt, id)
+    exchanges[id] = exchange()
+    # print(exchanges[id])
+    try:
+        ex = exchanges[id]
+        # markets = ex.fetch_markets()
+        # print(markets)
+    except:
+        continue
+
+filetoprocess = "202210231230_scan_binance_usdt_gotk.txt"
+
+for filename in os.listdir("ScanResults"):
+    if filename == filename:
+        print("PROCESSING", filename)
+        log_to_results("PROCESSING " + filename)
+        line = 1
+
+        total_evol = 0.0
+        group_of_timeframes = ""
+        total_evol_group_of_timeframes = 0.0
+        total_lines_in_group_of_timeframes = 0
+
+        dict_evol_tf_group = {}
+
+        try:
+            with open(os.path.join("ScanResults", filename), 'r') as f:
+                # text = f.read()
+                while True:
+                    text = f.readline()
+                    if not text:
+                        break
+                    if line > 1:
+                        # print(text)
+
+                        exchange_id = text.split(' ')[2]
+                        exchange = exchanges[exchange_id]
+
+                        symbol = text.split(' ')[0]
+                        price = float(text.split('[')[2].split('= ')[1].split(']')[0])
+                        result = exchange.fetch_ohlcv(symbol, '1m', limit=1)
+                        currentprice = float(result[0][4])
+                        # evol = float("{:.2f}".format((currentprice - price)/price*100))
+                        if price > 0:
+                            evol = (currentprice - price) / price * 100
+                        else:
+                            evol = 0
+
+                        total_evol = total_evol + evol
+
+                        fill_symbol = " " * (16 - len(str(symbol)))
+                        fill_price = " " * (16 - len(str(price)))
+                        fill_currentprice = " " * (16 - len(str(currentprice)))
+                        fill_evol = " " * (16 - len(str(evol)))
+
+                        parsed_group_of_timeframes = text.split('[')[0].split('spot')[2].strip()
+                        if group_of_timeframes == "":
+                            # print("first group of timeframes detected =", current_group_of_timeframes)
+                            group_of_timeframes = parsed_group_of_timeframes
+
+                            if group_of_timeframes in dict_evol_tf_group:
+                                current_val = dict_evol_tf_group[group_of_timeframes]
+                                dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol)/2
+                            else:
+                                dict_evol_tf_group[group_of_timeframes] = evol
+
+                        elif parsed_group_of_timeframes != group_of_timeframes:
+                            # print("new group of timeframes detected =", current_group_of_timeframes)
+                            group_of_timeframes = parsed_group_of_timeframes
+
+                            if group_of_timeframes in dict_evol_tf_group:
+                                current_val = dict_evol_tf_group[group_of_timeframes]
+                                dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol)/2
+                            else:
+                                dict_evol_tf_group[group_of_timeframes] = evol
+
+                            print("")
+                            log_to_results("")
+                        else:
+                            # print("same group of timeframes detected =", current_group_of_timeframes)
+                            if group_of_timeframes in dict_evol_tf_group:
+                                current_val = dict_evol_tf_group[group_of_timeframes]
+                                dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol)/2
+                            else:
+                                dict_evol_tf_group[group_of_timeframes] = evol
+                            pass
+
+                        date_detect = text.split(' ')[3]
+                        time_detect = text.split(' ')[4].split('.')[0]
+
+                        print(filename, "\t", symbol, fill_symbol, date_detect + " " + time_detect, "\t[" + str(price) + "]", fill_price, "\t[" + str(currentprice) + "]", fill_currentprice, "\t[" + "{:.2f}".format(evol) + " %]", fill_evol,
+                              "\t[" + text.split('[')[0].split('spot')[2] + "]")
+                        log_to_results(filename + "\t" + symbol + fill_symbol + date_detect + " " + time_detect + "\t[" + str(price) + "]" + fill_price + "\t[" + str(currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(
+                            evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split('spot')[2] + "]")
+                    line += 1
+            # print(text)
+        except:
+            #print(sys.exc_info())
+            # exit(-10003)
+            pass
+
+        if len(dict_evol_tf_group) > 0:
+            print("")
+            log_to_results("")
+            print("Average evol per group of timeframes :")
+            log_to_results("Average evol per group of timeframes :")
+            for (key, value) in dict_evol_tf_group.items():
+                fill_key = "." * (48-len(key))
+                print("[" + key + "]", fill_key, value, "%")
+                log_to_results("[" + key + "]" + fill_key + "{:.2f}".format(value) + " %")
+
+        print("Total evol (sum) for this file", "{:.2f}".format(total_evol), "%")
+        print(100 * "*")
+        print("")
+
+        log_to_results("Total evol (sum) for this file " + "{:.2f}".format(total_evol) + " %")
+        log_to_results(100 * "*")
+        log_to_results("")
+
+        print("")
