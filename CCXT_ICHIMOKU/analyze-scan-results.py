@@ -39,6 +39,7 @@ filetoprocess = "202210231230_scan_binance_usdt_gotk.txt"
 for filename in os.listdir("ScanResults"):
     if filename == filename:
         print("processing", filename)
+        log_to_results("processing " + filename)
         line = 1
 
         total_evol = 0.0
@@ -71,9 +72,9 @@ for filename in os.listdir("ScanResults"):
                         total_evol = total_evol + evol
 
                         fill_symbol = " " * (16-len(str(symbol)))
-                        fill_price = " " * (8-len(str(price)))
-                        fill_currentprice = " " * (8-len(str(currentprice)))
-                        fill_evol = " " * (8-len(str(evol)))
+                        fill_price = " " * (16-len(str(price)))
+                        fill_currentprice = " " * (16-len(str(currentprice)))
+                        fill_evol = " " * (16-len(str(evol)))
 
                         current_group_of_timeframes = text.split('[')[0].split('spot')[2]
                         if (group_of_timeframes == ""):
@@ -105,6 +106,10 @@ for filename in os.listdir("ScanResults"):
             print(sys.exc_info())
             #exit(-10003)
             pass
-        print("Average evol for this file", "{:.2f}".format(total_evol), "%")
+        print("Total evol for this file", "{:.2f}".format(total_evol), "%")
         print(100*"*")
         print("")
+
+        log_to_results("Total evol for this file " + "{:.2f}".format(total_evol) + " %")
+        log_to_results(100*"*")
+        log_to_results("")
