@@ -138,12 +138,12 @@ for filename in os.listdir("ScanResults"):
                 log_to_results("[" + key + "]" + fill_key + "{:.2f}".format(value) + " %")
                 total_evol += value
 
-        print("Average total evol for this file", "{:.2f}".format(total_evol / len(dict_evol_tf_group)), "%")
-        print(100 * "*")
-        print("")
+            print("Average total evol for this file", "{:.2f}".format(total_evol / len(dict_evol_tf_group)), "%")
+            print(100 * "*")
+            print("")
 
-        log_to_results("Average total evol for this file " + "{:.2f}".format(total_evol / len(dict_evol_tf_group)) + " %")
-        log_to_results(100 * "*")
-        log_to_results("")
+            log_to_results("Average total evol for this file " + "{:.2f}".format(total_evol / len(dict_evol_tf_group)) + " %")
+            log_to_results(100 * "*")
+            log_to_results("")
 
         print("")
