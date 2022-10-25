@@ -38,7 +38,7 @@ for id in ccxt.exchanges:
     except:
         continue
 
-filetoprocess = "202210241557_scan_binance_usdt_gotk.txt"
+#filetoprocess = "202210241557_scan_binance_usdt_gotk.txt"
 
 #you must launch Ichimoku2022_Multithreaded as the following example :
 #python Ichimoku_Multithreaded.py -e binance -f *usdt -gotk
@@ -48,6 +48,10 @@ filetoprocess = "202210241557_scan_binance_usdt_gotk.txt"
 #then launch this python script : python analyze-scan-results.py
 #it will analyze the file(s) ending with "_binance_usdt_gotk.txt"
 #it will output its results in the file named "analyze_scan_results.txt"
+#what will be analyzed is the evolution of the assets that have got over their kijun sen line
+#   relatively to the current value of these assets
+#   the results will never be the same because the analysis is done relatively to the current value
+#   (for the same result file analyzed twice or more, eg. "202210241557_scan_binance_usdt_gotk.txt")
 
 for filename in os.listdir("ScanResults"):
     if "_binance_usdt_gotk.txt" in filename: #filename == filename:
