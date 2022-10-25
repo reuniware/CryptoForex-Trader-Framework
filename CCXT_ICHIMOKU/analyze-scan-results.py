@@ -40,6 +40,15 @@ for id in ccxt.exchanges:
 
 filetoprocess = "202210241557_scan_binance_usdt_gotk.txt"
 
+#you must launch Ichimoku2022_Multithreaded as the following example :
+#python Ichimoku_Multithreaded.py -e binance -f *usdt -gotk
+#the result file will be created in the ./ScanResults folder
+#the result file will look like "202210241557_scan_binance_usdt_gotk.txt"
+#there can be more than one result file but I advise you to begin with one
+#then launch this python script : python analyze-scan-results.py
+#it will analyze the file(s) ending with "_binance_usdt_gotk.txt"
+#it will output its results in the file named "analyze_scan_results.txt"
+
 for filename in os.listdir("ScanResults"):
     if "_binance_usdt_gotk.txt" in filename: #filename == filename:
         print("PROCESSING", filename)
