@@ -126,20 +126,28 @@ for filename in os.listdir("ScanResults"):
             # exit(-10003)
             pass
 
+        print("")
+        log_to_results("")
+
+        # By default we don't print the ascending order (Set the variable here after to True if you want to print it)
+        show_ascending_order = False
         total_evol = 0.0
         if len(dict_evol_tf_group) > 0:
-            print("")
-            log_to_results("")
-            print("Average evol per group of timeframes :")
-            log_to_results("Average evol per group of timeframes :")
+            if show_ascending_order:
+                print("")
+                log_to_results("")
+                print("Average evol per group of timeframes :")
+                log_to_results("Average evol per group of timeframes :")
             for (key, value) in dict_evol_tf_group.items():
-                fill_key = "." * (48 - len(key))
-                print("[" + key + "]", fill_key, "{:.2f}".format(value), "%")
-                log_to_results("[" + key + "]" + fill_key + "{:.2f}".format(value) + " %")
+                if show_ascending_order:
+                    fill_key = "." * (48 - len(key))
+                    print("[" + key + "]", fill_key, "{:.2f}".format(value), "%")
+                    log_to_results("[" + key + "]" + fill_key + "{:.2f}".format(value) + " %")
                 total_evol += value
 
-            print("")
-            log_to_results("")
+            if show_ascending_order:
+                print("")
+                log_to_results("")
 
             print("Average evol per group of timeframes (ordered) :")
             log_to_results("Average evol per group of timeframes (ordered) :")
