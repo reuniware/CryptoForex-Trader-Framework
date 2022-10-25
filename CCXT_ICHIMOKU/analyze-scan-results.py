@@ -76,6 +76,13 @@ for filename in os.listdir("ScanResults"):
                         else:
                             evol = 0
 
+                        if exchange_id == "gateio":
+                            if symbol.endswith('_USDT'):
+                                symbol = symbol.replace('_USDT', '')
+                        elif exchange_id == "binance":
+                            if symbol.endswith('USDT'):
+                                symbol = symbol.replace('USDT', '')
+
                         fill_symbol = " " * (16 - len(str(symbol)))
                         fill_price = " " * (16 - len(str(price)))
                         fill_currentprice = " " * (16 - len(str(currentprice)))
