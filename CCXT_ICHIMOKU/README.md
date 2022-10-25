@@ -45,4 +45,12 @@ When using the -f option (to filter scanned assets), think of using an underscor
 To monitor one asset in a shell environment :
                                                                                                                                   
 while true; do python Ichimoku2022_Multithreaded.py -e binance -f santosusdt; done;
+                                                                                                                                  
+
+Latest options added :
+
+-gott for assets that are getting over the tenkan
+
+-gutt for assets that are getting below the tenkan
+
 
