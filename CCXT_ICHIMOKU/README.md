@@ -52,5 +52,7 @@ Latest options added :
 -gott for assets that are getting over the tenkan
 
 -gutt for assets that are getting below the tenkan
+                                                                                                                                  
+-l or --loop for scanning in loop (no need to use the "while true" trick anymore described some lines above)
 
 
