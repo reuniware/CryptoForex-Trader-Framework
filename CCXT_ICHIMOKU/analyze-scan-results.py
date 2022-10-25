@@ -41,7 +41,7 @@ for id in ccxt.exchanges:
 filetoprocess = "202210241557_scan_binance_usdt_gotk.txt"
 
 for filename in os.listdir("ScanResults"):
-    if filename == filetoprocess:
+    if filename == filename:
         print("PROCESSING", filename)
         log_to_results("PROCESSING " + filename)
         line = 1
