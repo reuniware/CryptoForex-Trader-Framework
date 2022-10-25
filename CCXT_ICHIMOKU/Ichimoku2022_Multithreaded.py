@@ -9,6 +9,7 @@ import threading
 import ta
 import argparse
 import signal
+from datetime import date
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
@@ -635,6 +636,24 @@ def main_thread():
         dict_results_binary.clear()
         dict_results_evol.clear()
         highest_percent_evol = 0
+
+        #Renaming the results.txt file to a timestamped one
+        currentDateAndTime = datetime.now()
+        stryear = format(currentDateAndTime.year, '04')
+        strmonth = format(currentDateAndTime.month, '02') 
+        strday = format(currentDateAndTime.day, '02')
+        strhour = format(currentDateAndTime.hour, '02') 
+        strmin = format(currentDateAndTime.minute, '02')
+
+        newfilename = stryear + strmonth + strday + strhour + strmin + "_scan_" + exchange_id
+        if args.filter_assets != "":
+            newfilename += "_" + args.filter_assets.replace('*', '')
+        if args.getting_over_the_kijun == True:
+            newfilename += "_gotk"
+        newfilename += ".txt"
+
+        os.system('cp results.txt ' + newfilename)
+        os.system('mv ' + newfilename + ' ./ScanResults')
 
         if stop is True:
             break
