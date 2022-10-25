@@ -128,6 +128,10 @@ parser.add_argument('-gotk', '--getting-over-the-kijun', action='store_true',
                     help="scan for assets getting under the cloud")
 parser.add_argument('-gutk', '--getting-under-the-kijun', action='store_true',
                     help="scan for assets getting under the cloud")
+parser.add_argument('-gott', '--getting-over-the-tenkan', action='store_true',
+                    help="scan for assets getting under the tenkan")
+parser.add_argument('-gutt', '--getting-under-the-tenkan', action='store_true',
+                    help="scan for assets getting under the tenkan")
 parser.add_argument('-t', '--trending', action='store_true',
                     help="scan for trending assets (that are ok in at least 1m or 3m or 5m or 15m) ; only these will be written to the results log file")
 parser.add_argument('-l', '--loop', action='store_true', help="scan in loop (useful for continually scan one asset or a few ones)")
@@ -142,6 +146,8 @@ print("args.getting-over-the-cloud", args.getting_over_the_cloud)
 print("args.getting-under-the-cloud", args.getting_under_the_cloud)
 print("args.getting-over-the-kijun", args.getting_over_the_kijun)
 print("args.getting-under-the-kijun", args.getting_under_the_kijun)
+print("args.getting-over-the-tenkan", args.getting_over_the_tenkan)
+print("args.getting-under-the-tenkan", args.getting_under_the_tenkan)
 print("args.trending", args.trending)
 print("args.loop", args.loop)
 
@@ -206,6 +212,8 @@ getting_over_the_cloud = args.getting_over_the_cloud
 getting_under_the_cloud = args.getting_under_the_cloud
 getting_over_the_kijun = args.getting_over_the_kijun
 getting_under_the_kijun = args.getting_under_the_kijun
+getting_over_the_tenkan = args.getting_over_the_tenkan
+getting_under_the_tenkan = args.getting_under_the_tenkan
 
 trending = args.trending
 print("trending=", trending)
@@ -358,6 +366,10 @@ def execute_code(symbol, type_of_asset, exchange_id):
                 condition = (price_open < kijun and price_close > kijun)
             elif getting_under_the_kijun is True:
                 condition = (price_open > kijun and price_close < kijun)
+            elif getting_over_the_tenkan is True:
+                condition = (price_open < tenkan and price_close > tenkan)
+            elif getting_under_the_tenkan is True:
+                condition = (price_open > tenkan and price_close < tenkan)
             else:
                 condition = price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
                             and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
@@ -582,7 +594,7 @@ def main_thread():
                     t = threading.Thread(target=scan_one, args=(symbol, type_of_asset, exchange_id))
                     threads.append(t)
                     t.start()
-                    # print("thread started for", symbol)
+                    #print("thread started for", symbol)
                     if delay_thread > 0:
                         if debug_delays:
                             print("applying delay_thread of", delay_thread, "s before next thread start")
