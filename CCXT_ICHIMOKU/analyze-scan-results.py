@@ -41,14 +41,12 @@ for id in ccxt.exchanges:
 filetoprocess = "202210241557_scan_binance_usdt_gotk.txt"
 
 for filename in os.listdir("ScanResults"):
-    if "_usdt_gotk.txt" in filename: #filename == filename:
+    if "_binance_usdt_gotk.txt" in filename: #filename == filename:
         print("PROCESSING", filename)
         log_to_results("PROCESSING " + filename)
         line = 1
 
         group_of_timeframes = ""
-        #total_evol_group_of_timeframes = 0.0
-        #total_lines_in_group_of_timeframes = 0
 
         dict_evol_tf_group = {}
         dict_assets_per_tf_group = {}
@@ -119,8 +117,9 @@ for filename in os.listdir("ScanResults"):
                             else:
                                 dict_evol_tf_group[group_of_timeframes] = evol
 
-                            print("")
-                            log_to_results("")
+                            #To have a space between each group of timeframes, uncomment the 2 lines here after
+                            #print("")
+                            #log_to_results("")
                         else:
                             # print("same group of timeframes detected =", current_group_of_timeframes)
                             if group_of_timeframes in dict_evol_tf_group:
