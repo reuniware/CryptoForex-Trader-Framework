@@ -41,16 +41,17 @@ for id in ccxt.exchanges:
 filetoprocess = "202210241557_scan_binance_usdt_gotk.txt"
 
 for filename in os.listdir("ScanResults"):
-    if filename == filename:
+    if "_usdt_gotk.txt" in filename: #filename == filename:
         print("PROCESSING", filename)
         log_to_results("PROCESSING " + filename)
         line = 1
 
         group_of_timeframes = ""
-        total_evol_group_of_timeframes = 0.0
-        total_lines_in_group_of_timeframes = 0
+        #total_evol_group_of_timeframes = 0.0
+        #total_lines_in_group_of_timeframes = 0
 
         dict_evol_tf_group = {}
+        dict_assets_per_tf_group = {}
 
         try:
             with open(os.path.join("ScanResults", filename), 'r') as f:
@@ -81,6 +82,15 @@ for filename in os.listdir("ScanResults"):
                         fill_evol = " " * (16 - len(str(evol)))
 
                         parsed_group_of_timeframes = text.split('[')[0].split('spot')[2].strip()
+
+                        #print(parsed_group_of_timeframes)
+                        if parsed_group_of_timeframes not in dict_assets_per_tf_group:
+                            dict_assets_per_tf_group[parsed_group_of_timeframes] = symbol
+                        else:
+                            currentval = dict_assets_per_tf_group[parsed_group_of_timeframes]
+                            dict_assets_per_tf_group[parsed_group_of_timeframes] = currentval + ";" + symbol
+                        #print(dict_assets_per_tf_group)
+
                         if group_of_timeframes == "":
                             # print("first group of timeframes detected =", current_group_of_timeframes)
                             group_of_timeframes = parsed_group_of_timeframes
@@ -119,10 +129,11 @@ for filename in os.listdir("ScanResults"):
                               "\t[" + text.split('[')[0].split('spot')[2] + "]")
                         log_to_results(filename + "\t" + symbol + fill_symbol + date_detect + " " + time_detect + "\t[" + str(price) + "]" + fill_price + "\t[" + str(currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(
                             evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split('spot')[2] + "]")
+
                     line += 1
             # print(text)
         except:
-            # print(sys.exc_info())
+            #print(sys.exc_info())
             # exit(-10003)
             pass
 
@@ -153,8 +164,10 @@ for filename in os.listdir("ScanResults"):
             log_to_results("Average evol per group of timeframes (ordered) :")
             for k in sorted(dict_evol_tf_group, key=lambda k: dict_evol_tf_group[k], reverse=True):
                 fill_key = "." * (48 - len(k))
-                print("[" + k + "]", fill_key, "{:.2f}".format(dict_evol_tf_group[k]), "%")
-                log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]) + "%")
+                #print("[" + k + "]", fill_key, "{:.2f}".format(dict_evol_tf_group[k]), "%")
+                #log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]) + "%")
+                print("[" + k + "]", fill_key, "{:.2f}".format(dict_evol_tf_group[k]), "%", 4*" ", dict_assets_per_tf_group[k])
+                log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]) + "%" + 4*" " + dict_assets_per_tf_group[k])
 
             print("")
             log_to_results("")
