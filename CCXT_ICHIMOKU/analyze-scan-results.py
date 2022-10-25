@@ -138,6 +138,19 @@ for filename in os.listdir("ScanResults"):
                 log_to_results("[" + key + "]" + fill_key + "{:.2f}".format(value) + " %")
                 total_evol += value
 
+            print("")
+            log_to_results("")
+
+            print("Average evol per group of timeframes (ordered) :")
+            log_to_results("Average evol per group of timeframes (ordered) :")
+            for k in sorted(dict_evol_tf_group, key=lambda k: dict_evol_tf_group[k], reverse=True):
+                fill_key = "." * (48 - len(k))
+                print("[" + k + "]", fill_key, "{:.2f}".format(dict_evol_tf_group[k]), "%")
+                log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]) + "%")
+
+            print("")
+            log_to_results("")
+
             print("Average total evol for this file", "{:.2f}".format(total_evol / len(dict_evol_tf_group)), "%")
             print(100 * "*")
             print("")
