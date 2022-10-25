@@ -76,6 +76,7 @@ for filename in os.listdir("ScanResults"):
                         else:
                             evol = 0
 
+                        #To have less characters on outputs (this can be removed/commented if necessary)
                         if exchange_id == "gateio":
                             if symbol.endswith('_USDT'):
                                 symbol = symbol.replace('_USDT', '')
