@@ -133,6 +133,10 @@ parser.add_argument('-gott', '--getting-over-the-tenkan', action='store_true',
                     help="scan for assets getting under the tenkan")
 parser.add_argument('-gutt', '--getting-under-the-tenkan', action='store_true',
                     help="scan for assets getting under the tenkan")
+parser.add_argument('-cvup', '--chikou-validated-up', action='store_true',
+                    help="scan for assets having their chikou validated in uptrend (over all its Ichimoku levels)")
+parser.add_argument('-cvdown', '--chikou-validated-down', action='store_true',
+                    help="scan for assets having their chikou validated in downtrend (under all its Ichimoku levels)")
 parser.add_argument('-t', '--trending', action='store_true',
                     help="scan for trending assets (that are ok in at least 1m or 3m or 5m or 15m) ; only these will be written to the results log file")
 parser.add_argument('-l', '--loop', action='store_true', help="scan in loop (useful for continually scan one asset or a few ones)")
@@ -149,6 +153,8 @@ print("args.getting-over-the-kijun", args.getting_over_the_kijun)
 print("args.getting-under-the-kijun", args.getting_under_the_kijun)
 print("args.getting-over-the-tenkan", args.getting_over_the_tenkan)
 print("args.getting-under-the-tenkan", args.getting_under_the_tenkan)
+print("args.chikou-validated-up", args.chikou_validated_up)
+print("args.chikou-validated-down", args.chikou_validated_down)
 print("args.trending", args.trending)
 print("args.loop", args.loop)
 
@@ -215,6 +221,8 @@ getting_over_the_kijun = args.getting_over_the_kijun
 getting_under_the_kijun = args.getting_under_the_kijun
 getting_over_the_tenkan = args.getting_over_the_tenkan
 getting_under_the_tenkan = args.getting_under_the_tenkan
+chikou_validated_up = args.chikou_validated_up
+chikou_validated_down = args.chikou_validated_down
 
 trending = args.trending
 print("trending=", trending)
@@ -375,6 +383,12 @@ def execute_code(symbol, type_of_asset, exchange_id):
                 condition = price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
                             and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
                             and chikou > tenkan_chikou and chikou > kijun_chikou
+
+            if chikou_validated_up is True:
+                condition = condition and (chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou and chikou > tenkan_chikou and chikou > kijun_chikou)
+
+            if chikou_validated_down is True:
+                condition = condition and (chikou < ssa_chikou and chikou < ssb_chikou and chikou < price_low_chikou and chikou < tenkan_chikou and chikou < kijun_chikou)
 
             if not condition:
                 binary_result += "0"
@@ -660,6 +674,13 @@ def main_thread():
             newfilename += "_gott"
         if args.getting_under_the_tenkan == True:
             newfilename += "_gutt"
+
+        if args.chikou_validated_up == True:
+            newfilename += "_cvup"
+
+        if args.chikou_validated_down == True:
+            newfilename += "_cvdown"
+
         newfilename += ".txt"
 
         os.system('cp results.txt ' + newfilename)
