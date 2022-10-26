@@ -650,8 +650,16 @@ def main_thread():
             newfilename += "_" + args.filter_assets.replace('*', '')
         if args.getting_over_the_kijun == True:
             newfilename += "_gotk"
+        if args.getting_under_the_kijun == True:
+            newfilename += "_gutk"
         if args.getting_over_the_cloud == True:
             newfilename += "_gotc"
+        if args.getting_under_the_cloud == True:
+            newfilename += "_gutc"
+        if args.getting_over_the_tenkan == True:
+            newfilename += "_gott"
+        if args.getting_under_the_tenkan == True:
+            newfilename += "_gutt"
         newfilename += ".txt"
 
         os.system('cp results.txt ' + newfilename)
