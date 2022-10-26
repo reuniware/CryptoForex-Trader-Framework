@@ -53,8 +53,10 @@ for id in ccxt.exchanges:
 #   the results will never be the same because the analysis is done relatively to the current value
 #   (for the same result file analyzed twice or more, eg. "202210241557_scan_binance_usdt_gotk.txt")
 
+only_positive_evol = False
+
 for filename in os.listdir("ScanResults"):
-    if "_binance_usdt_gotk.txt" in filename: #filename == filename:
+    if "_scan_gateio_usdt_gotk.txt" in filename: #filename == filename:
         print("PROCESSING", filename)
         log_to_results("PROCESSING " + filename)
         line = 1
@@ -87,68 +89,75 @@ for filename in os.listdir("ScanResults"):
                         else:
                             evol = 0
 
-                        #To have less characters on outputs (this can be removed/commented if necessary)
-                        if exchange_id == "gateio":
-                            if symbol.endswith('_USDT'):
-                                symbol = symbol.replace('_USDT', '')
-                        elif exchange_id == "binance":
-                            if symbol.endswith('USDT'):
-                                symbol = symbol.replace('USDT', '')
+                        bypass = False
+                        if only_positive_evol is True:
+                            if evol < 0:
+                                bypass = True
+                        
+                        if bypass is False:
 
-                        fill_symbol = " " * (16 - len(str(symbol)))
-                        fill_price = " " * (16 - len(str(price)))
-                        fill_currentprice = " " * (16 - len(str(currentprice)))
-                        fill_evol = " " * (16 - len(str(evol)))
+                            #To have less characters on outputs (this can be removed/commented if necessary)
+                            if exchange_id == "gateio":
+                                if symbol.endswith('_USDT'):
+                                    symbol = symbol.replace('_USDT', '')
+                            elif exchange_id == "binance":
+                                if symbol.endswith('USDT'):
+                                    symbol = symbol.replace('USDT', '')
 
-                        parsed_group_of_timeframes = text.split('[')[0].split('spot')[2].strip()
+                            fill_symbol = " " * (16 - len(str(symbol)))
+                            fill_price = " " * (16 - len(str(price)))
+                            fill_currentprice = " " * (16 - len(str(currentprice)))
+                            fill_evol = " " * (16 - len(str(evol)))
 
-                        #print(parsed_group_of_timeframes)
-                        if parsed_group_of_timeframes not in dict_assets_per_tf_group:
-                            dict_assets_per_tf_group[parsed_group_of_timeframes] = symbol
-                        else:
-                            currentval = dict_assets_per_tf_group[parsed_group_of_timeframes]
-                            dict_assets_per_tf_group[parsed_group_of_timeframes] = currentval + ";" + symbol
-                        #print(dict_assets_per_tf_group)
+                            parsed_group_of_timeframes = text.split('[')[0].split('spot')[2].strip()
 
-                        if group_of_timeframes == "":
-                            # print("first group of timeframes detected =", current_group_of_timeframes)
-                            group_of_timeframes = parsed_group_of_timeframes
-
-                            if group_of_timeframes in dict_evol_tf_group:
-                                current_val = dict_evol_tf_group[group_of_timeframes]
-                                dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
+                            #print(parsed_group_of_timeframes)
+                            if parsed_group_of_timeframes not in dict_assets_per_tf_group:
+                                dict_assets_per_tf_group[parsed_group_of_timeframes] = symbol
                             else:
-                                dict_evol_tf_group[group_of_timeframes] = evol
+                                currentval = dict_assets_per_tf_group[parsed_group_of_timeframes]
+                                dict_assets_per_tf_group[parsed_group_of_timeframes] = currentval + ";" + symbol
+                            #print(dict_assets_per_tf_group)
 
-                        elif parsed_group_of_timeframes != group_of_timeframes:
-                            # print("new group of timeframes detected =", current_group_of_timeframes)
-                            group_of_timeframes = parsed_group_of_timeframes
+                            if group_of_timeframes == "":
+                                # print("first group of timeframes detected =", current_group_of_timeframes)
+                                group_of_timeframes = parsed_group_of_timeframes
 
-                            if group_of_timeframes in dict_evol_tf_group:
-                                current_val = dict_evol_tf_group[group_of_timeframes]
-                                dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
+                                if group_of_timeframes in dict_evol_tf_group:
+                                    current_val = dict_evol_tf_group[group_of_timeframes]
+                                    dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
+                                else:
+                                    dict_evol_tf_group[group_of_timeframes] = evol
+
+                            elif parsed_group_of_timeframes != group_of_timeframes:
+                                # print("new group of timeframes detected =", current_group_of_timeframes)
+                                group_of_timeframes = parsed_group_of_timeframes
+
+                                if group_of_timeframes in dict_evol_tf_group:
+                                    current_val = dict_evol_tf_group[group_of_timeframes]
+                                    dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
+                                else:
+                                    dict_evol_tf_group[group_of_timeframes] = evol
+
+                                #To have a space between each group of timeframes, uncomment the 2 lines here after
+                                #print("")
+                                #log_to_results("")
                             else:
-                                dict_evol_tf_group[group_of_timeframes] = evol
+                                # print("same group of timeframes detected =", current_group_of_timeframes)
+                                if group_of_timeframes in dict_evol_tf_group:
+                                    current_val = dict_evol_tf_group[group_of_timeframes]
+                                    dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
+                                else:
+                                    dict_evol_tf_group[group_of_timeframes] = evol
+                                pass
 
-                            #To have a space between each group of timeframes, uncomment the 2 lines here after
-                            #print("")
-                            #log_to_results("")
-                        else:
-                            # print("same group of timeframes detected =", current_group_of_timeframes)
-                            if group_of_timeframes in dict_evol_tf_group:
-                                current_val = dict_evol_tf_group[group_of_timeframes]
-                                dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
-                            else:
-                                dict_evol_tf_group[group_of_timeframes] = evol
-                            pass
+                            date_detect = text.split(' ')[3]
+                            time_detect = text.split(' ')[4].split('.')[0]
 
-                        date_detect = text.split(' ')[3]
-                        time_detect = text.split(' ')[4].split('.')[0]
-
-                        print(filename, "\t", symbol, fill_symbol, date_detect + " " + time_detect, "\t[" + str(price) + "]", fill_price, "\t[" + str(currentprice) + "]", fill_currentprice, "\t[" + "{:.2f}".format(evol) + " %]", fill_evol,
-                              "\t[" + text.split('[')[0].split('spot')[2] + "]")
-                        log_to_results(filename + "\t" + symbol + fill_symbol + date_detect + " " + time_detect + "\t[" + str(price) + "]" + fill_price + "\t[" + str(currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(
-                            evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split('spot')[2] + "]")
+                            print(filename, "\t", symbol, fill_symbol, date_detect + " " + time_detect, "\t[" + str(price) + "]", fill_price, "\t[" + str(currentprice) + "]", fill_currentprice, "\t[" + "{:.2f}".format(evol) + " %]", fill_evol,
+                                "\t[" + text.split('[')[0].split('spot')[2] + "]")
+                            log_to_results(filename + "\t" + symbol + fill_symbol + date_detect + " " + time_detect + "\t[" + str(price) + "]" + fill_price + "\t[" + str(currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(
+                                evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split('spot')[2] + "]")
 
                     line += 1
             # print(text)
