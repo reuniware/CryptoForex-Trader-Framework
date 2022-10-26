@@ -1,0 +1,123 @@
+Scan results at : 2022-10-26 07:14:32.181397
+MANAUSDT spot binance 2022-10-26 07:35:09.951220 binance MANAUSDT spot 1m [2.42 %] [price = 0.64020000]                  https://tradingview.com/chart/?symbol=BINANCE:MANAUSDT
+BIFIUSDT spot binance 2022-10-26 08:08:28.629859 binance BIFIUSDT spot 1m [-1.03 %] [price = 347.40000000]               https://tradingview.com/chart/?symbol=BINANCE:BIFIUSDT
+MOBUSDT spot binance 2022-10-26 08:08:59.533005 binance MOBUSDT spot 1m [0.58 %] [price = 0.87200000]                     https://tradingview.com/chart/?symbol=BINANCE:MOBUSDT
+ONEUSDT spot binance 2022-10-26 07:21:01.882183 binance ONEUSDT spot 3m [2.37 %] [price = 0.01773000] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:ONEUSDT
+IOTXUSDT spot binance 2022-10-26 07:26:23.187082 binance IOTXUSDT spot 3m [2.73 %] [price = 0.02785000]                  https://tradingview.com/chart/?symbol=BINANCE:IOTXUSDT
+GLMRUSDT spot binance 2022-10-26 08:05:46.917414 binance GLMRUSDT spot 3m [2.62 %] [price = 0.47420000]                  https://tradingview.com/chart/?symbol=BINANCE:GLMRUSDT
+DOTUSDT spot binance 2022-10-26 07:37:28.800608 binance DOTUSDT spot 1m 3m [1.40 %] [price = 6.53000000]                  https://tradingview.com/chart/?symbol=BINANCE:DOTUSDT
+FETUSDT spot binance 2022-10-26 07:18:41.129587 binance FETUSDT spot 5m [0.73 %] [price = 0.08230000]                     https://tradingview.com/chart/?symbol=BINANCE:FETUSDT
+DOGEUSDT spot binance 2022-10-26 07:21:40.964784 binance DOGEUSDT spot 5m [4.90 %] [price = 0.06613000] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:DOGEUSDT
+SCUSDT spot binance 2022-10-26 07:32:12.158310 binance SCUSDT spot 5m [0.61 %] [price = 0.00332000]                        https://tradingview.com/chart/?symbol=BINANCE:SCUSDT
+AVAUSDT spot binance 2022-10-26 07:44:38.235903 binance AVAUSDT spot 5m [0.83 %] [price = 0.73300000]                     https://tradingview.com/chart/?symbol=BINANCE:AVAUSDT
+LPTUSDT spot binance 2022-10-26 07:52:49.122278 binance LPTUSDT spot 5m [5.36 %] [price = 9.44000000]                     https://tradingview.com/chart/?symbol=BINANCE:LPTUSDT
+FRONTUSDT spot binance 2022-10-26 07:59:07.857217 binance FRONTUSDT spot 5m [1.42 %] [price = 0.24320000]               https://tradingview.com/chart/?symbol=BINANCE:FRONTUSDT
+CVPUSDT spot binance 2022-10-26 07:59:18.648323 binance CVPUSDT spot 5m [1.33 %] [price = 0.41260000]                     https://tradingview.com/chart/?symbol=BINANCE:CVPUSDT
+AMPUSDT spot binance 2022-10-26 08:02:36.541493 binance AMPUSDT spot 5m [0.82 %] [price = 0.00493000]                     https://tradingview.com/chart/?symbol=BINANCE:AMPUSDT
+BUSDUSDT spot binance 2022-10-26 07:24:42.931076 binance BUSDUSDT spot 15m [0.01 %] [price = 0.99980000]                 https://tradingview.com/chart/?symbol=BINANCE:BUSDUSDT
+STEEMUSDT spot binance 2022-10-26 08:08:47.439389 binance STEEMUSDT spot 15m [0.47 %] [price = 0.23420000]              https://tradingview.com/chart/?symbol=BINANCE:STEEMUSDT
+NEXOUSDT spot binance 2022-10-26 08:09:10.300069 binance NEXOUSDT spot 15m [1.67 %] [price = 0.97300000]                 https://tradingview.com/chart/?symbol=BINANCE:NEXOUSDT
+SPELLUSDT spot binance 2022-10-26 08:05:06.634054 binance SPELLUSDT spot 1m 5m 15m [1.96 %] [price = 0.00086370]        https://tradingview.com/chart/?symbol=BINANCE:SPELLUSDT
+DATAUSDT spot binance 2022-10-26 07:29:41.505378 binance DATAUSDT spot 30m [0.72 %] [price = 0.03092000]                 https://tradingview.com/chart/?symbol=BINANCE:DATAUSDT
+AKROUSDT spot binance 2022-10-26 07:43:38.361828 binance AKROUSDT spot 30m [1.11 %] [price = 0.00363000]                 https://tradingview.com/chart/?symbol=BINANCE:AKROUSDT
+ILVUSDT spot binance 2022-10-26 07:58:19.681749 binance ILVUSDT spot 30m [7.43 %] [price = 63.60000000]                   https://tradingview.com/chart/?symbol=BINANCE:ILVUSDT
+STGUSDT spot binance 2022-10-26 08:10:17.639883 binance STGUSDT spot 30m [0.62 %] [price = 0.50370000]                    https://tradingview.com/chart/?symbol=BINANCE:STGUSDT
+ADADOWNUSDT spot binance 2022-10-26 07:33:11.457987 binance ADADOWNUSDT spot 5m 30m [-1.17 %] [price = 0.00448900]    https://tradingview.com/chart/?symbol=BINANCE:ADADOWNUSDT
+SOLUSDT spot binance 2022-10-26 07:29:51.612366 binance SOLUSDT spot 15m 30m [1.91 %] [price = 31.46000000]               https://tradingview.com/chart/?symbol=BINANCE:SOLUSDT
+COCOSUSDT spot binance 2022-10-26 07:22:31.368956 binance COCOSUSDT spot 2h [1.13 %] [price = 0.61000000]               https://tradingview.com/chart/?symbol=BINANCE:COCOSUSDT
+KMDUSDT spot binance 2022-10-26 07:36:09.722623 binance KMDUSDT spot 2h [0.51 %] [price = 0.25400000]                     https://tradingview.com/chart/?symbol=BINANCE:KMDUSDT
+SLPUSDT spot binance 2022-10-26 07:51:38.560930 binance SLPUSDT spot 2h [1.22 %] [price = 0.00331000]                     https://tradingview.com/chart/?symbol=BINANCE:SLPUSDT
+CLVUSDT spot binance 2022-10-26 07:54:45.731163 binance CLVUSDT spot 2h [1.16 %] [price = 0.08529000]                     https://tradingview.com/chart/?symbol=BINANCE:CLVUSDT
+DOCKUSDT spot binance 2022-10-26 07:23:41.481036 binance DOCKUSDT spot 30m 2h [0.70 %] [price = 0.02005000]              https://tradingview.com/chart/?symbol=BINANCE:DOCKUSDT
+IRISUSDT spot binance 2022-10-26 07:35:59.239395 binance IRISUSDT spot 1h 2h [1.26 %] [price = 0.01768000]               https://tradingview.com/chart/?symbol=BINANCE:IRISUSDT
+RAREUSDT spot binance 2022-10-26 07:59:57.518617 binance RAREUSDT spot 1h 2h [1.57 %] [price = 0.15560000]               https://tradingview.com/chart/?symbol=BINANCE:RAREUSDT
+FIOUSDT spot binance 2022-10-26 07:39:28.861731 binance FIOUSDT spot 4h [0.70 %] [price = 0.04300000]                     https://tradingview.com/chart/?symbol=BINANCE:FIOUSDT
+OXTUSDT spot binance 2022-10-26 07:41:19.264360 binance OXTUSDT spot 4h [1.19 %] [price = 0.09320000]                     https://tradingview.com/chart/?symbol=BINANCE:OXTUSDT
+CFXUSDT spot binance 2022-10-26 07:49:57.498007 binance CFXUSDT spot 4h [1.57 %] [price = 0.03870000]                     https://tradingview.com/chart/?symbol=BINANCE:CFXUSDT
+MIRUSDT spot binance 2022-10-26 07:50:48.498579 binance MIRUSDT spot 4h [1.27 %] [price = 0.19267000]                     https://tradingview.com/chart/?symbol=BINANCE:MIRUSDT
+ERNUSDT spot binance 2022-10-26 07:53:37.861941 binance ERNUSDT spot 4h [4.50 %] [price = 2.69500000]                     https://tradingview.com/chart/?symbol=BINANCE:ERNUSDT
+MFTUSDT spot binance 2022-10-26 07:23:22.038839 binance MFTUSDT spot 3m 4h [-2.16 %] [price = 0.00515600]                 https://tradingview.com/chart/?symbol=BINANCE:MFTUSDT
+ANKRUSDT spot binance 2022-10-26 07:22:02.476348 binance ANKRUSDT spot 6h [2.07 %] [price = 0.02905000]                  https://tradingview.com/chart/?symbol=BINANCE:ANKRUSDT
+WAVESUSDT spot binance 2022-10-26 07:17:52.147390 binance WAVESUSDT spot 8h [2.05 %] [price = 3.28800000] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:WAVESUSDT
+HOTUSDT spot binance 2022-10-26 07:18:12.144535 binance HOTUSDT spot 8h [1.56 %] [price = 0.00195300]                     https://tradingview.com/chart/?symbol=BINANCE:HOTUSDT
+WINUSDT spot binance 2022-10-26 07:22:11.917499 binance WINUSDT spot 8h [0.87 %] [price = 0.00010380]                     https://tradingview.com/chart/?symbol=BINANCE:WINUSDT
+PERLUSDT spot binance 2022-10-26 07:23:02.001514 binance PERLUSDT spot 8h [2.04 %] [price = 0.02202000]                  https://tradingview.com/chart/?symbol=BINANCE:PERLUSDT
+HBARUSDT spot binance 2022-10-26 07:25:32.737124 binance HBARUSDT spot 8h [2.35 %] [price = 0.06100000]                  https://tradingview.com/chart/?symbol=BINANCE:HBARUSDT
+KNCUSDT spot binance 2022-10-26 07:31:22.701139 binance KNCUSDT spot 8h [3.55 %] [price = 0.90400000]                     https://tradingview.com/chart/?symbol=BINANCE:KNCUSDT
+LUNAUSDT spot binance 2022-10-26 07:37:38.582898 binance LUNAUSDT spot 8h [2.77 %] [price = 2.47950000]                  https://tradingview.com/chart/?symbol=BINANCE:LUNAUSDT
+AAVEUSDT spot binance 2022-10-26 07:42:38.953356 binance AAVEUSDT spot 8h [2.69 %] [price = 84.10000000]                 https://tradingview.com/chart/?symbol=BINANCE:AAVEUSDT
+INJUSDT spot binance 2022-10-26 07:43:09.378197 binance INJUSDT spot 8h [5.62 %] [price = 2.06800000] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:INJUSDT
+TRUUSDT spot binance 2022-10-26 07:46:56.519808 binance TRUUSDT spot 8h [1.69 %] [price = 0.04800000]                     https://tradingview.com/chart/?symbol=BINANCE:TRUUSDT
+FIROUSDT spot binance 2022-10-26 07:47:27.226998 binance FIROUSDT spot 8h [1.10 %] [price = 2.30200000]                  https://tradingview.com/chart/?symbol=BINANCE:FIROUSDT
+SFPUSDT spot binance 2022-10-26 07:47:46.331502 binance SFPUSDT spot 8h [3.66 %] [price = 0.39090000]                     https://tradingview.com/chart/?symbol=BINANCE:SFPUSDT
+OMUSDT spot binance 2022-10-26 07:48:46.823353 binance OMUSDT spot 8h [1.62 %] [price = 0.04380000]                        https://tradingview.com/chart/?symbol=BINANCE:OMUSDT
+BONDUSDT spot binance 2022-10-26 07:54:06.202833 binance BONDUSDT spot 8h [0.75 %] [price = 4.98700000]                  https://tradingview.com/chart/?symbol=BINANCE:BONDUSDT
+FLUXUSDT spot binance 2022-10-26 08:03:56.680877 binance FLUXUSDT spot 8h [1.97 %] [price = 0.72600000]                  https://tradingview.com/chart/?symbol=BINANCE:FLUXUSDT
+KDAUSDT spot binance 2022-10-26 08:07:59.007618 binance KDAUSDT spot 8h [0.62 %] [price = 1.29600000]                     https://tradingview.com/chart/?symbol=BINANCE:KDAUSDT
+GALAUSDT spot binance 2022-10-26 07:58:08.099962 binance GALAUSDT spot 5m 8h [2.79 %] [price = 0.03494000]               https://tradingview.com/chart/?symbol=BINANCE:GALAUSDT
+FIDAUSDT spot binance 2022-10-26 07:58:58.315727 binance FIDAUSDT spot 1h 2h 6h 8h [0.86 %] [price = 0.40930000]         https://tradingview.com/chart/?symbol=BINANCE:FIDAUSDT
+COSUSDT spot binance 2022-10-26 07:22:21.600960 binance COSUSDT spot 12h [1.26 %] [price = 0.00562000]                    https://tradingview.com/chart/?symbol=BINANCE:COSUSDT
+DENTUSDT spot binance 2022-10-26 07:23:11.923359 binance DENTUSDT spot 12h [2.28 %] [price = 0.00085200]                 https://tradingview.com/chart/?symbol=BINANCE:DENTUSDT
+STORJUSDT spot binance 2022-10-26 07:34:39.586376 binance STORJUSDT spot 12h [1.13 %] [price = 0.42790000]              https://tradingview.com/chart/?symbol=BINANCE:STORJUSDT
+CTKUSDT spot binance 2022-10-26 07:43:28.503787 binance CTKUSDT spot 12h [1.58 %] [price = 0.83400000]                    https://tradingview.com/chart/?symbol=BINANCE:CTKUSDT
+ATMUSDT spot binance 2022-10-26 07:46:07.844349 binance ATMUSDT spot 12h [3.01 %] [price = 3.42000000]                    https://tradingview.com/chart/?symbol=BINANCE:ATMUSDT
+ASRUSDT spot binance 2022-10-26 07:46:17.880142 binance ASRUSDT spot 12h [1.81 %] [price = 3.09100000]                    https://tradingview.com/chart/?symbol=BINANCE:ASRUSDT
+CELOUSDT spot binance 2022-10-26 07:46:27.042714 binance CELOUSDT spot 12h [1.25 %] [price = 0.72700000]                 https://tradingview.com/chart/?symbol=BINANCE:CELOUSDT
+KP3RUSDT spot binance 2022-10-26 08:01:38.222953 binance KP3RUSDT spot 12h [2.12 %] [price = 98.37000000]                https://tradingview.com/chart/?symbol=BINANCE:KP3RUSDT
+PORTOUSDT spot binance 2022-10-26 08:01:57.039157 binance PORTOUSDT spot 12h [0.22 %] [price = 4.07310000]              https://tradingview.com/chart/?symbol=BINANCE:PORTOUSDT
+SCRTUSDT spot binance 2022-10-26 08:06:09.196161 binance SCRTUSDT spot 12h [2.26 %] [price = 0.90400000]                 https://tradingview.com/chart/?symbol=BINANCE:SCRTUSDT
+ANCUSDT spot binance 2022-10-26 08:06:47.914648 binance ANCUSDT spot 12h [3.48 %] [price = 0.08558000]                    https://tradingview.com/chart/?symbol=BINANCE:ANCUSDT
+XNOUSDT spot binance 2022-10-26 08:06:57.475700 binance XNOUSDT spot 12h [0.54 %] [price = 0.73800000]                    https://tradingview.com/chart/?symbol=BINANCE:XNOUSDT
+XLMUSDT spot binance 2022-10-26 07:16:29.676896 binance XLMUSDT spot 5m 12h [0.72 %] [price = 0.11250000] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:XLMUSDT
+PEOPLEUSDT spot binance 2022-10-26 08:04:46.696222 binance PEOPLEUSDT spot 15m 12h [2.68 %] [price = 0.01839000]       https://tradingview.com/chart/?symbol=BINANCE:PEOPLEUSDT
+IOSTUSDT spot binance 2022-10-26 07:19:21.455726 binance IOSTUSDT spot 8h 12h [0.89 %] [price = 0.01139000]              https://tradingview.com/chart/?symbol=BINANCE:IOSTUSDT
+RLCUSDT spot binance 2022-10-26 07:26:32.961577 binance RLCUSDT spot 8h 12h [2.84 %] [price = 1.08700000]                 https://tradingview.com/chart/?symbol=BINANCE:RLCUSDT
+COMPUSDT spot binance 2022-10-26 07:32:01.968089 binance COMPUSDT spot 8h 12h [4.21 %] [price = 52.95000000]             https://tradingview.com/chart/?symbol=BINANCE:COMPUSDT
+LINKUPUSDT spot binance 2022-10-26 07:33:21.169293 binance LINKUPUSDT spot 8h 12h [3.13 %] [price = 0.01054000]        https://tradingview.com/chart/?symbol=BINANCE:LINKUPUSDT
+BELUSDT spot binance 2022-10-26 07:40:48.230434 binance BELUSDT spot 8h 12h [1.87 %] [price = 0.54400000]                 https://tradingview.com/chart/?symbol=BINANCE:BELUSDT
+GRTUSDT spot binance 2022-10-26 07:45:09.487989 binance GRTUSDT spot 8h 12h [2.35 %] [price = 0.08280000]                 https://tradingview.com/chart/?symbol=BINANCE:GRTUSDT
+TLMUSDT spot binance 2022-10-26 07:50:38.991416 binance TLMUSDT spot 8h 12h [2.12 %] [price = 0.02117000]                 https://tradingview.com/chart/?symbol=BINANCE:TLMUSDT
+RVNUSDT spot binance 2022-10-26 07:25:22.943985 binance RVNUSDT spot 3m 8h 12h [2.80 %] [price = 0.03158000]              https://tradingview.com/chart/?symbol=BINANCE:RVNUSDT
+BATUSDT spot binance 2022-10-26 07:18:52.373172 binance BATUSDT spot 1d [1.78 %] [price = 0.29110000]                     https://tradingview.com/chart/?symbol=BINANCE:BATUSDT
+XMRUSDT spot binance 2022-10-26 07:19:02.443902 binance XMRUSDT spot 1d [0.97 %] [price = 145.30000000]                   https://tradingview.com/chart/?symbol=BINANCE:XMRUSDT
+WANUSDT spot binance 2022-10-26 07:23:53.291100 binance WANUSDT spot 1d [0.82 %] [price = 0.18380000]                     https://tradingview.com/chart/?symbol=BINANCE:WANUSDT
+OGNUSDT spot binance 2022-10-26 07:27:43.267099 binance OGNUSDT spot 1d [3.06 %] [price = 0.14480000]                     https://tradingview.com/chart/?symbol=BINANCE:OGNUSDT
+BNTUSDT spot binance 2022-10-26 07:28:32.358082 binance BNTUSDT spot 1d [1.60 %] [price = 0.44500000]                     https://tradingview.com/chart/?symbol=BINANCE:BNTUSDT
+MKRUSDT spot binance 2022-10-26 07:34:20.223220 binance MKRUSDT spot 1d [3.07 %] [price = 974.00000000]                   https://tradingview.com/chart/?symbol=BINANCE:MKRUSDT
+JSTUSDT spot binance 2022-10-26 07:36:19.267647 binance JSTUSDT spot 1d [1.10 %] [price = 0.02860000]                     https://tradingview.com/chart/?symbol=BINANCE:JSTUSDT
+ANTUSDT spot binance 2022-10-26 07:36:38.962919 binance ANTUSDT spot 1d [2.72 %] [price = 1.70000000]                     https://tradingview.com/chart/?symbol=BINANCE:ANTUSDT
+RUNEUSDT spot binance 2022-10-26 07:39:19.251210 binance RUNEUSDT spot 1d [2.73 %] [price = 1.54300000]                  https://tradingview.com/chart/?symbol=BINANCE:RUNEUSDT
+FILUSDT spot binance 2022-10-26 07:42:58.353593 binance FILUSDT spot 1d [2.12 %] [price = 5.29000000]                     https://tradingview.com/chart/?symbol=BINANCE:FILUSDT
+XEMUSDT spot binance 2022-10-26 07:44:47.907974 binance XEMUSDT spot 1d [1.82 %] [price = 0.03920000]                     https://tradingview.com/chart/?symbol=BINANCE:XEMUSDT
+BADGERUSDT spot binance 2022-10-26 07:48:27.386565 binance BADGERUSDT spot 1d [1.15 %] [price = 3.51000000]            https://tradingview.com/chart/?symbol=BINANCE:BADGERUSDT
+PUNDIXUSDT spot binance 2022-10-26 07:50:29.156086 binance PUNDIXUSDT spot 1d [1.44 %] [price = 0.49300000]            https://tradingview.com/chart/?symbol=BINANCE:PUNDIXUSDT
+BAKEUSDT spot binance 2022-10-26 07:51:18.709345 binance BAKEUSDT spot 1d [1.60 %] [price = 0.23430000]                  https://tradingview.com/chart/?symbol=BINANCE:BAKEUSDT
+MASKUSDT spot binance 2022-10-26 07:52:39.343172 binance MASKUSDT spot 1d [2.34 %] [price = 1.09500000]                  https://tradingview.com/chart/?symbol=BINANCE:MASKUSDT
+FLOWUSDT spot binance 2022-10-26 07:55:05.251953 binance FLOWUSDT spot 1d [7.82 %] [price = 1.66800000] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:FLOWUSDT
+QUICKUSDT spot binance 2022-10-26 07:56:02.459893 binance QUICKUSDT spot 1d [1.28 %] [price = 63.40000000]              https://tradingview.com/chart/?symbol=BINANCE:QUICKUSDT
+WAXPUSDT spot binance 2022-10-26 07:56:51.137208 binance WAXPUSDT spot 1d [1.23 %] [price = 0.08210000]                  https://tradingview.com/chart/?symbol=BINANCE:WAXPUSDT
+AGLDUSDT spot binance 2022-10-26 07:59:28.247472 binance AGLDUSDT spot 1d [0.94 %] [price = 0.32300000]                  https://tradingview.com/chart/?symbol=BINANCE:AGLDUSDT
+CVXUSDT spot binance 2022-10-26 08:04:37.461182 binance CVXUSDT spot 1d [3.07 %] [price = 5.63400000]                     https://tradingview.com/chart/?symbol=BINANCE:CVXUSDT
+ATOMUSDT spot binance 2022-10-26 07:20:41.748354 binance ATOMUSDT spot 1m 1d [2.12 %] [price = 12.25400000] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:ATOMUSDT
+STXUSDT spot binance 2022-10-26 07:25:53.660831 binance STXUSDT spot 1m 1d [1.61 %] [price = 0.31500000]                  https://tradingview.com/chart/?symbol=BINANCE:STXUSDT
+LINKUSDT spot binance 2022-10-26 07:17:40.451523 binance LINKUSDT spot 3m 1d [1.67 %] [price = 7.18100000]               https://tradingview.com/chart/?symbol=BINANCE:LINKUSDT
+ETCUSDT spot binance 2022-10-26 07:17:01.302154 binance ETCUSDT spot 5m 1d [1.90 %] [price = 25.15000000] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:ETCUSDT
+UNFIUSDT spot binance 2022-10-26 07:44:19.273484 binance UNFIUSDT spot 5m 1d [2.66 %] [price = 5.81900000]               https://tradingview.com/chart/?symbol=BINANCE:UNFIUSDT
+CAKEUSDT spot binance 2022-10-26 07:48:07.708135 binance CAKEUSDT spot 8h 1d [1.42 %] [price = 4.50600000]               https://tradingview.com/chart/?symbol=BINANCE:CAKEUSDT
+WRXUSDT spot binance 2022-10-26 07:28:03.779666 binance WRXUSDT spot 12h 1d [1.19 %] [price = 0.20380000]                 https://tradingview.com/chart/?symbol=BINANCE:WRXUSDT
+BTSUSDT spot binance 2022-10-26 07:28:13.282617 binance BTSUSDT spot 12h 1d [1.88 %] [price = 0.01029000]                 https://tradingview.com/chart/?symbol=BINANCE:BTSUSDT
+ASTRUSDT spot binance 2022-10-26 08:07:39.663887 binance ASTRUSDT spot 12h 1d [2.19 %] [price = 0.03740000]              https://tradingview.com/chart/?symbol=BINANCE:ASTRUSDT
+REIUSDT spot binance 2022-10-26 08:09:19.470819 binance REIUSDT spot 12h 1d [1.91 %] [price = 0.03200000]                 https://tradingview.com/chart/?symbol=BINANCE:REIUSDT
+TRXUSDT spot binance 2022-10-26 07:16:50.620316 binance TRXUSDT spot 5m 12h 1d [0.61 %] [price = 0.06273000]              https://tradingview.com/chart/?symbol=BINANCE:TRXUSDT
+SUPERUSDT spot binance 2022-10-26 07:49:47.517645 binance SUPERUSDT spot 5m 15m 30m 12h 1d [3.05 %] [price = 0.12830000] https://tradingview.com/chart/?symbol=BINANCE:SUPERUSDT
+CTSIUSDT spot binance 2022-10-26 07:30:02.762244 binance CTSIUSDT spot 8h 12h 1d [3.51 %] [price = 0.13580000]           https://tradingview.com/chart/?symbol=BINANCE:CTSIUSDT
+ORNUSDT spot binance 2022-10-26 07:41:57.852157 binance ORNUSDT spot 4h 6h 8h 12h 1d [1.18 %] [price = 1.11100000]        https://tradingview.com/chart/?symbol=BINANCE:ORNUSDT
+EURUSDT spot binance 2022-10-26 07:27:33.590231 binance EURUSDT spot 3d [0.29 %] [price = 0.99980000]                     https://tradingview.com/chart/?symbol=BINANCE:EURUSDT
+BNBUPUSDT spot binance 2022-10-26 07:34:48.892321 binance BNBUPUSDT spot 3d [1.53 %] [price = 37.19000000]              https://tradingview.com/chart/?symbol=BINANCE:BNBUPUSDT
+EGLDUSDT spot binance 2022-10-26 07:38:58.803655 binance EGLDUSDT spot 3d [1.27 %] [price = 57.38000000]                 https://tradingview.com/chart/?symbol=BINANCE:EGLDUSDT
+REEFUSDT spot binance 2022-10-26 07:45:48.034521 binance REEFUSDT spot 3d [3.46 %] [price = 0.00571800]                  https://tradingview.com/chart/?symbol=BINANCE:REEFUSDT
+PYRUSDT spot binance 2022-10-26 08:02:55.752981 binance PYRUSDT spot 3d [1.64 %] [price = 4.34000000]                     https://tradingview.com/chart/?symbol=BINANCE:PYRUSDT
+UTKUSDT spot binance 2022-10-26 07:42:09.280231 binance UTKUSDT spot 8h 1d 3d [1.38 %] [price = 0.13240000]               https://tradingview.com/chart/?symbol=BINANCE:UTKUSDT
+UNIUSDT spot binance 2022-10-26 07:41:09.661583 binance UNIUSDT spot 1w [1.37 %] [price = 6.67000000]                     https://tradingview.com/chart/?symbol=BINANCE:UNIUSDT
+ENSUSDT spot binance 2022-10-26 08:01:28.740206 binance ENSUSDT spot 1w [3.77 %] [price = 18.17000000]                    https://tradingview.com/chart/?symbol=BINANCE:ENSUSDT
+SANTOSUSDT spot binance 2022-10-26 08:03:27.625095 binance SANTOSUSDT spot 1w [-0.21 %] [price = 12.34700000]          https://tradingview.com/chart/?symbol=BINANCE:SANTOSUSDT
