@@ -1,0 +1,24 @@
+Scan results at : 2022-10-26 12:41:07.210019
+DEGOUSDT spot binance 2022-10-26 13:16:09.078273 binance DEGOUSDT spot 1m [-0.42 %] [price = 1.87500000]                 https://tradingview.com/chart/?symbol=BINANCE:DEGOUSDT
+BTSUSDT spot binance 2022-10-26 12:54:49.890057 binance BTSUSDT spot 5m [2.87 %] [price = 0.01039000]                     https://tradingview.com/chart/?symbol=BINANCE:BTSUSDT
+ELFUSDT spot binance 2022-10-26 13:24:41.631293 binance ELFUSDT spot 5m [1.22 %] [price = 0.13230000]                     https://tradingview.com/chart/?symbol=BINANCE:ELFUSDT
+ALPINEUSDT spot binance 2022-10-26 13:34:39.018752 binance ALPINEUSDT spot 5m [0.52 %] [price = 3.02960000]            https://tradingview.com/chart/?symbol=BINANCE:ALPINEUSDT
+ETHUSDT spot binance 2022-10-26 12:41:31.492728 binance ETHUSDT spot 15m [4.33 %] [price = 1523.01000000] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:ETHUSDT
+AUDUSDT spot binance 2022-10-26 13:02:05.370449 binance AUDUSDT spot 15m [1.24 %] [price = 0.64570000]                    https://tradingview.com/chart/?symbol=BINANCE:AUDUSDT
+ONGUSDT spot binance 2022-10-26 12:44:32.693177 binance ONGUSDT spot 30m [0.28 %] [price = 0.32450000]                    https://tradingview.com/chart/?symbol=BINANCE:ONGUSDT
+MTLUSDT spot binance 2022-10-26 12:49:15.480237 binance MTLUSDT spot 30m [1.09 %] [price = 1.02200000]                    https://tradingview.com/chart/?symbol=BINANCE:MTLUSDT
+DENTUSDT spot binance 2022-10-26 12:49:44.510566 binance DENTUSDT spot 30m [1.92 %] [price = 0.00084900]                 https://tradingview.com/chart/?symbol=BINANCE:DENTUSDT
+RENUSDT spot binance 2022-10-26 12:51:45.983149 binance RENUSDT spot 30m [2.17 %] [price = 0.12230000]                    https://tradingview.com/chart/?symbol=BINANCE:RENUSDT
+STMXUSDT spot binance 2022-10-26 12:57:50.526160 binance STMXUSDT spot 30m [0.47 %] [price = 0.00681400]                 https://tradingview.com/chart/?symbol=BINANCE:STMXUSDT
+HARDUSDT spot binance 2022-10-26 13:10:57.437942 binance HARDUSDT spot 30m [1.47 %] [price = 0.21420000]                 https://tradingview.com/chart/?symbol=BINANCE:HARDUSDT
+CFXUSDT spot binance 2022-10-26 13:16:59.493364 binance CFXUSDT spot 30m [1.31 %] [price = 0.03860000]                    https://tradingview.com/chart/?symbol=BINANCE:CFXUSDT
+GHSTUSDT spot binance 2022-10-26 13:23:52.841246 binance GHSTUSDT spot 30m [0.53 %] [price = 1.14500000]                 https://tradingview.com/chart/?symbol=BINANCE:GHSTUSDT
+OPUSDT spot binance 2022-10-26 13:37:22.646631 binance OPUSDT spot 30m [2.15 %] [price = 0.99600000]                       https://tradingview.com/chart/?symbol=BINANCE:OPUSDT
+LUNCUSDT spot binance 2022-10-26 13:37:52.764416 binance LUNCUSDT spot 30m [3.18 %] [price = 0.00024514]                 https://tradingview.com/chart/?symbol=BINANCE:LUNCUSDT
+PUNDIXUSDT spot binance 2022-10-26 13:17:28.410957 binance PUNDIXUSDT spot 15m 30m [5.14 %] [price = 0.51100000]       https://tradingview.com/chart/?symbol=BINANCE:PUNDIXUSDT
+TKOUSDT spot binance 2022-10-26 13:17:18.751528 binance TKOUSDT spot 1h [0.43 %] [price = 0.23400000]                     https://tradingview.com/chart/?symbol=BINANCE:TKOUSDT
+FARMUSDT spot binance 2022-10-26 13:22:50.721472 binance FARMUSDT spot 1h [1.08 %] [price = 37.60000000]                 https://tradingview.com/chart/?symbol=BINANCE:FARMUSDT
+IDEXUSDT spot binance 2022-10-26 13:25:01.639778 binance IDEXUSDT spot 1h [0.65 %] [price = 0.05901000]                  https://tradingview.com/chart/?symbol=BINANCE:IDEXUSDT
+VITEUSDT spot binance 2022-10-26 12:53:47.410834 binance VITEUSDT spot 2h [-1.21 %] [price = 0.03361000]                 https://tradingview.com/chart/?symbol=BINANCE:VITEUSDT
+MCUSDT spot binance 2022-10-26 13:30:55.494975 binance MCUSDT spot 8h [18.91 %] [price = 0.84900000] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:MCUSDT
+REPUSDT spot binance 2022-10-26 12:58:10.530679 binance REPUSDT spot 4h 6h 8h 12h [8.22 %] [price = 7.64000000] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:REPUSDT
