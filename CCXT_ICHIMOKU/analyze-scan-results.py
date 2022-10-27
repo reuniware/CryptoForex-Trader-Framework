@@ -60,8 +60,8 @@ global_dict_evol_tf_group = {}
 global_dict_assets_per_tf_group = {}
 
 for filename in os.listdir("ScanResults"):
-    #if "_scan_gateio_usdt_gotk_cvup.txt" in filename: #filename == filename:
-    if filename in filename: #filename == filename:
+    if "_scan_binance_usdt_gotk_cvup.txt" in filename: #filename == filename:
+    #if filename in filename: #filename == filename:
         print("PROCESSING", filename)
         log_to_results("PROCESSING " + filename)
         line = 1
@@ -245,12 +245,16 @@ for filename in os.listdir("ScanResults"):
             log_to_results("")
 
         print("")
+        log_to_results(str_to_log)("")
 
 print("GLOBAL Best groups of timeframes for each processed file")
 log_to_results("Best groups of timeframes for each processed file")
 for line in array_evol_tf_group_global:
     print(line)
     log_to_results(line)
+
+print("")
+log_to_results(str_to_log)("")
 
 print("GLOBAL Average evol per group of timeframes (ordered) :")
 log_to_results("GLOBAL Average evol per group of timeframes (ordered) :")
