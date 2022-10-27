@@ -449,9 +449,8 @@ def execute_code(symbol, type_of_asset, exchange_id):
             key] + " " + s_percent_evol_1d + " [price = " + s_price_close_1d + "]"
 
         symbol = key.split(" ")[0]
-        str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-",
-                                                                                                         "").replace(
-            "/", "")
+        #str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-",
+        str_link = ""
         value = dict_results[key]
         if trending == True and ("1m" in value or "3m" in value or "5m" in value or "15m" in value):
             nspaces = 175 - len(str_to_log + " " + "(trending?)" + " " + str_link)
@@ -641,9 +640,9 @@ def main_thread():
 
         for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].split("#")[1], 2)):
             symbol = k.split(" ")[0]
-            str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-",
-                                                                                                             "").replace(
-                "/", "")
+            #str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/", "")
+            str_link = ""
+
             value = dict_results_binary[k]
             nspaces = 175 - len(str_link) - len(k + " " + dict_results_binary[k].split("#")[0])
             if trending == True and ("1m" in value or "3m" in value or "5m" in value or "15m" in value):
@@ -653,9 +652,8 @@ def main_thread():
 
         for k in sorted(dict_results_evol, key=lambda k: dict_results_evol[k]):
             symbol = k.split(" ")[0]
-            str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-",
-                                                                                                             "").replace(
-                "/", "")
+            #str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/", "")
+            str_link = ""
             log_to_results_evol(k + " " + "{:.2f}".format(dict_results_evol[k]) + " %" + 5 * " " + str_link)
 
         dict_results.clear()
