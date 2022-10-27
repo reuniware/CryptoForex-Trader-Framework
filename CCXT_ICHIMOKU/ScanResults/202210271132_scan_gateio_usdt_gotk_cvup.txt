@@ -1,0 +1,66 @@
+Scan results at : 2022-10-27 07:56:41.951452
+ADP_USDT spot gateio 2022-10-27 10:27:36.447555 gateio ADP_USDT spot 10s [-1.10 %] [price = 0.00902000]                   https://tradingview.com/chart/?symbol=GATEIO:ADP_USDT
+DEVT_USDT spot gateio 2022-10-27 09:34:02.389231 gateio DEVT_USDT spot 1m [0.06 %] [price = 0.01614000]                  https://tradingview.com/chart/?symbol=GATEIO:DEVT_USDT
+BTC5S_USDT spot gateio 2022-10-27 10:02:43.856744 gateio BTC5S_USDT spot 1m [4.22 %] [price = 0.39770000]               https://tradingview.com/chart/?symbol=GATEIO:BTC5S_USDT
+SUSD_USDT spot gateio 2022-10-27 07:59:58.494558 gateio SUSD_USDT spot 5m [0.16 %] [price = 1.00270000]                  https://tradingview.com/chart/?symbol=GATEIO:SUSD_USDT
+ASTRO_USDT spot gateio 2022-10-27 08:40:01.090708 gateio ASTRO_USDT spot 5m [1.80 %] [price = 0.00144960]               https://tradingview.com/chart/?symbol=GATEIO:ASTRO_USDT
+CGG_USDT spot gateio 2022-10-27 08:52:24.393074 gateio CGG_USDT spot 5m [2.09 %] [price = 0.09770000]                     https://tradingview.com/chart/?symbol=GATEIO:CGG_USDT
+DV_USDT spot gateio 2022-10-27 10:18:43.716641 gateio DV_USDT spot 5m [-2.09 %] [price = 0.00473600]                       https://tradingview.com/chart/?symbol=GATEIO:DV_USDT
+MTV_USDT spot gateio 2022-10-27 07:59:29.462863 gateio MTV_USDT spot 15m [0.89 %] [price = 0.00114710]                    https://tradingview.com/chart/?symbol=GATEIO:MTV_USDT
+SMTY_USDT spot gateio 2022-10-27 07:59:44.169055 gateio SMTY_USDT spot 15m [1.42 %] [price = 0.01196800]                 https://tradingview.com/chart/?symbol=GATEIO:SMTY_USDT
+DOGE_USDT spot gateio 2022-10-27 08:49:57.743942 gateio DOGE_USDT spot 15m [7.77 %] [price = 0.07830200]                 https://tradingview.com/chart/?symbol=GATEIO:DOGE_USDT
+MSOL_USDT spot gateio 2022-10-27 08:59:40.497356 gateio MSOL_USDT spot 15m [1.40 %] [price = 33.95000000]                https://tradingview.com/chart/?symbol=GATEIO:MSOL_USDT
+WEST_USDT spot gateio 2022-10-27 09:23:39.953638 gateio WEST_USDT spot 15m [3.33 %] [price = 0.04120900]                 https://tradingview.com/chart/?symbol=GATEIO:WEST_USDT
+SAITAMA_USDT spot gateio 2022-10-27 10:23:51.431065 gateio SAITAMA_USDT spot 15m [3.31 %] [price = 0.00121411]        https://tradingview.com/chart/?symbol=GATEIO:SAITAMA_USDT
+HIBIKI_USDT spot gateio 2022-10-27 10:44:22.810190 gateio HIBIKI_USDT spot 15m [0.10 %] [price = 0.04128000]           https://tradingview.com/chart/?symbol=GATEIO:HIBIKI_USDT
+ZKS_USDT spot gateio 2022-10-27 10:54:49.594440 gateio ZKS_USDT spot 15m [1.38 %] [price = 0.05234500]                    https://tradingview.com/chart/?symbol=GATEIO:ZKS_USDT
+CULT_USDT spot gateio 2022-10-27 11:27:01.649014 gateio CULT_USDT spot 15m [2.61 %] [price = 0.00000667]                 https://tradingview.com/chart/?symbol=GATEIO:CULT_USDT
+TTK_USDT spot gateio 2022-10-27 10:32:24.301779 gateio TTK_USDT spot 5m 15m [0.82 %] [price = 0.00125530]                 https://tradingview.com/chart/?symbol=GATEIO:TTK_USDT
+WEAR_USDT spot gateio 2022-10-27 11:17:50.131655 gateio WEAR_USDT spot 5m 15m [22.40 %] [price = 0.00194510]             https://tradingview.com/chart/?symbol=GATEIO:WEAR_USDT
+KSM_USDT spot gateio 2022-10-27 08:19:57.123411 gateio KSM_USDT spot 30m [1.44 %] [price = 36.48500000]                   https://tradingview.com/chart/?symbol=GATEIO:KSM_USDT
+TULIP_USDT spot gateio 2022-10-27 08:27:07.008700 gateio TULIP_USDT spot 30m [0.04 %] [price = 3.68260000]              https://tradingview.com/chart/?symbol=GATEIO:TULIP_USDT
+GST_USDT spot gateio 2022-10-27 08:29:46.755021 gateio GST_USDT spot 30m [0.41 %] [price = 0.02470000]                    https://tradingview.com/chart/?symbol=GATEIO:GST_USDT
+ATA_USDT spot gateio 2022-10-27 08:34:23.142041 gateio ATA_USDT spot 30m [1.83 %] [price = 0.16295000]                    https://tradingview.com/chart/?symbol=GATEIO:ATA_USDT
+MTD_USDT spot gateio 2022-10-27 08:55:21.402060 gateio MTD_USDT spot 30m [1.47 %] [price = 0.39488000]                    https://tradingview.com/chart/?symbol=GATEIO:MTD_USDT
+SLG_USDT spot gateio 2022-10-27 08:59:33.571237 gateio SLG_USDT spot 30m [13.91 %] [price = 0.02550600] *** new highest evol in % https://tradingview.com/chart/?symbol=GATEIO:SLG_USDT
+RSS3_USDT spot gateio 2022-10-27 10:13:31.303178 gateio RSS3_USDT spot 30m [0.32 %] [price = 0.12016000]                 https://tradingview.com/chart/?symbol=GATEIO:RSS3_USDT
+MPH_USDT spot gateio 2022-10-27 10:16:41.160980 gateio MPH_USDT spot 30m [0.40 %] [price = 0.01843900]                    https://tradingview.com/chart/?symbol=GATEIO:MPH_USDT
+NOA_USDT spot gateio 2022-10-27 10:39:36.261745 gateio NOA_USDT spot 30m [3.01 %] [price = 0.01368000]                    https://tradingview.com/chart/?symbol=GATEIO:NOA_USDT
+APT3L_USDT spot gateio 2022-10-27 11:16:59.991433 gateio APT3L_USDT spot 30m [2.81 %] [price = 1.58310000]              https://tradingview.com/chart/?symbol=GATEIO:APT3L_USDT
+ASR_USDT spot gateio 2022-10-27 08:24:25.957711 gateio ASR_USDT spot 15m 30m [1.43 %] [price = 3.09000000]                https://tradingview.com/chart/?symbol=GATEIO:ASR_USDT
+WAVES_USDT spot gateio 2022-10-27 08:15:45.541049 gateio WAVES_USDT spot 1h [1.64 %] [price = 3.34400000]               https://tradingview.com/chart/?symbol=GATEIO:WAVES_USDT
+CTSI_USDT spot gateio 2022-10-27 08:23:56.724932 gateio CTSI_USDT spot 1h [1.26 %] [price = 0.13700000]                  https://tradingview.com/chart/?symbol=GATEIO:CTSI_USDT
+HIGH_USDT spot gateio 2022-10-27 08:31:35.517486 gateio HIGH_USDT spot 1h [0.44 %] [price = 1.50860000]                  https://tradingview.com/chart/?symbol=GATEIO:HIGH_USDT
+CRV_USDT spot gateio 2022-10-27 08:35:20.506857 gateio CRV_USDT spot 1h [1.31 %] [price = 0.94440000]                     https://tradingview.com/chart/?symbol=GATEIO:CRV_USDT
+CIR_USDT spot gateio 2022-10-27 09:09:35.566733 gateio CIR_USDT spot 1h [-0.10 %] [price = 0.13392000]                    https://tradingview.com/chart/?symbol=GATEIO:CIR_USDT
+ALTB_USDT spot gateio 2022-10-27 09:10:19.045303 gateio ALTB_USDT spot 1h [1.01 %] [price = 0.00037980]                  https://tradingview.com/chart/?symbol=GATEIO:ALTB_USDT
+ORC_USDT spot gateio 2022-10-27 09:19:14.408072 gateio ORC_USDT spot 1h [3.96 %] [price = 0.11810000]                     https://tradingview.com/chart/?symbol=GATEIO:ORC_USDT
+SB_USDT spot gateio 2022-10-27 09:35:42.560446 gateio SB_USDT spot 1h [33.47 %] [price = 0.00165060] *** new highest evol in % https://tradingview.com/chart/?symbol=GATEIO:SB_USDT
+SENATE_USDT spot gateio 2022-10-27 09:48:47.363953 gateio SENATE_USDT spot 1h [0.78 %] [price = 0.04409300]            https://tradingview.com/chart/?symbol=GATEIO:SENATE_USDT
+MLS_USDT spot gateio 2022-10-27 09:50:21.035095 gateio MLS_USDT spot 1h [27.37 %] [price = 0.28819000]                    https://tradingview.com/chart/?symbol=GATEIO:MLS_USDT
+SHIB3L_USDT spot gateio 2022-10-27 10:46:32.024684 gateio SHIB3L_USDT spot 1h [1.89 %] [price = 1.17110000]            https://tradingview.com/chart/?symbol=GATEIO:SHIB3L_USDT
+POLIS_USDT spot gateio 2022-10-27 10:55:39.893966 gateio POLIS_USDT spot 1h [0.69 %] [price = 0.32260000]               https://tradingview.com/chart/?symbol=GATEIO:POLIS_USDT
+NEO_USDT spot gateio 2022-10-27 11:16:46.358900 gateio NEO_USDT spot 1h [1.05 %] [price = 8.69000000]                     https://tradingview.com/chart/?symbol=GATEIO:NEO_USDT
+CRT_USDT spot gateio 2022-10-27 11:26:40.390071 gateio CRT_USDT spot 1h [-0.18 %] [price = 0.10880000]                    https://tradingview.com/chart/?symbol=GATEIO:CRT_USDT
+ETHW_USDT spot gateio 2022-10-27 11:27:43.933186 gateio ETHW_USDT spot 1h [-4.69 %] [price = 7.13970000]                 https://tradingview.com/chart/?symbol=GATEIO:ETHW_USDT
+AAA_USDT spot gateio 2022-10-27 11:31:24.532698 gateio AAA_USDT spot 1h [4.36 %] [price = 0.00001014]                     https://tradingview.com/chart/?symbol=GATEIO:AAA_USDT
+LUNA_USDT spot gateio 2022-10-27 08:18:45.537027 gateio LUNA_USDT spot 30m 1h [1.52 %] [price = 2.49900000]              https://tradingview.com/chart/?symbol=GATEIO:LUNA_USDT
+SQUIDGROW_USDT spot gateio 2022-10-27 10:47:29.089510 gateio SQUIDGROW_USDT spot 30m 1h [1.93 %] [price = 0.00000001] https://tradingview.com/chart/?symbol=GATEIO:SQUIDGROW_USDT
+PIXEL_USDT spot gateio 2022-10-27 10:53:36.618824 gateio PIXEL_USDT spot 30m 1h [1.29 %] [price = 0.00047100]           https://tradingview.com/chart/?symbol=GATEIO:PIXEL_USDT
+NVIR_USDT spot gateio 2022-10-27 08:38:49.427622 gateio NVIR_USDT spot 15m 30m 1h [1.46 %] [price = 0.02840200]          https://tradingview.com/chart/?symbol=GATEIO:NVIR_USDT
+SPFC_USDT spot gateio 2022-10-27 08:45:02.696554 gateio SPFC_USDT spot 15m 30m 1h [4.36 %] [price = 0.46423000]          https://tradingview.com/chart/?symbol=GATEIO:SPFC_USDT
+ATOLO_USDT spot gateio 2022-10-27 09:28:57.639362 gateio ATOLO_USDT spot 15m 30m 1h [3.87 %] [price = 0.01203600]       https://tradingview.com/chart/?symbol=GATEIO:ATOLO_USDT
+REQ_USDT spot gateio 2022-10-27 09:59:25.065613 gateio REQ_USDT spot 15m 30m 1h [3.46 %] [price = 0.11353000]             https://tradingview.com/chart/?symbol=GATEIO:REQ_USDT
+GGM_USDT spot gateio 2022-10-27 08:14:45.484684 gateio GGM_USDT spot 1m 5m 15m 30m 1h [8.47 %] [price = 0.00781000] *** new highest evol in % https://tradingview.com/chart/?symbol=GATEIO:GGM_USDT
+FINE_USDT spot gateio 2022-10-27 07:58:08.212493 gateio FINE_USDT spot 4h [-0.08 %] [price = 0.01804000]                 https://tradingview.com/chart/?symbol=GATEIO:FINE_USDT
+UTK_USDT spot gateio 2022-10-27 08:50:19.314374 gateio UTK_USDT spot 4h [1.65 %] [price = 0.13424000]                     https://tradingview.com/chart/?symbol=GATEIO:UTK_USDT
+PHTR_USDT spot gateio 2022-10-27 09:20:11.981708 gateio PHTR_USDT spot 4h [0.26 %] [price = 0.02437100]                  https://tradingview.com/chart/?symbol=GATEIO:PHTR_USDT
+OCN_USDT spot gateio 2022-10-27 09:31:09.796337 gateio OCN_USDT spot 4h [1.54 %] [price = 0.00008580]                     https://tradingview.com/chart/?symbol=GATEIO:OCN_USDT
+PKF_USDT spot gateio 2022-10-27 10:31:34.144601 gateio PKF_USDT spot 4h [2.79 %] [price = 0.11780000]                     https://tradingview.com/chart/?symbol=GATEIO:PKF_USDT
+DC_USDT spot gateio 2022-10-27 11:28:18.915788 gateio DC_USDT spot 4h [27.97 %] [price = 0.00211520]                       https://tradingview.com/chart/?symbol=GATEIO:DC_USDT
+ZCX_USDT spot gateio 2022-10-27 08:39:46.502871 gateio ZCX_USDT spot 5m 4h [4.88 %] [price = 0.14041000]                  https://tradingview.com/chart/?symbol=GATEIO:ZCX_USDT
+VRT_USDT spot gateio 2022-10-27 08:29:25.407876 gateio VRT_USDT spot 5m 30m 1h 4h [6.02 %] [price = 0.00033304]           https://tradingview.com/chart/?symbol=GATEIO:VRT_USDT
+HARD_USDT spot gateio 2022-10-27 07:57:53.782259 gateio HARD_USDT spot 8h [2.13 %] [price = 0.21610000] *** new highest evol in % https://tradingview.com/chart/?symbol=GATEIO:HARD_USDT
+HIT_USDT spot gateio 2022-10-27 09:06:08.143821 gateio HIT_USDT spot 4h 8h [0.14 %] [price = 0.00000988]                  https://tradingview.com/chart/?symbol=GATEIO:HIT_USDT
+ISKY_USDT spot gateio 2022-10-27 10:03:43.159331 gateio ISKY_USDT spot 1m 4h 8h [142.41 %] [price = 0.01149000] *** new highest evol in % https://tradingview.com/chart/?symbol=GATEIO:ISKY_USDT
+QKC_USDT spot gateio 2022-10-27 10:08:37.547438 gateio QKC_USDT spot 1d [21.56 %] [price = 0.01491900]                    https://tradingview.com/chart/?symbol=GATEIO:QKC_USDT
