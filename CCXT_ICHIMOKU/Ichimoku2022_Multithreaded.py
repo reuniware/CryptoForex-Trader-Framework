@@ -137,6 +137,10 @@ parser.add_argument('-cvup', '--chikou-validated-up', action='store_true',
                     help="scan for assets having their chikou validated in uptrend (over all its Ichimoku levels)")
 parser.add_argument('-cvdown', '--chikou-validated-down', action='store_true',
                     help="scan for assets having their chikou validated in downtrend (under all its Ichimoku levels)")
+parser.add_argument('-iotc', '--is-over-the-cloud', action='store_true',
+                    help="scan for assets being over the cloud")
+parser.add_argument('-iutc', '--is-under-the-cloud', action='store_true',
+                    help="scan for assets being under the cloud")
 parser.add_argument('-t', '--trending', action='store_true',
                     help="scan for trending assets (that are ok in at least 1m or 3m or 5m or 15m) ; only these will be written to the results log file")
 parser.add_argument('-l', '--loop', action='store_true', help="scan in loop (useful for continually scan one asset or a few ones)")
@@ -155,6 +159,8 @@ print("args.getting-over-the-tenkan", args.getting_over_the_tenkan)
 print("args.getting-under-the-tenkan", args.getting_under_the_tenkan)
 print("args.chikou-validated-up", args.chikou_validated_up)
 print("args.chikou-validated-down", args.chikou_validated_down)
+print("args.is-over-the-cloud", args.getting_over_the_cloud)
+print("args.is-under-the-cloud", args.getting_under_the_cloud)
 print("args.trending", args.trending)
 print("args.loop", args.loop)
 
@@ -221,6 +227,8 @@ getting_over_the_kijun = args.getting_over_the_kijun
 getting_under_the_kijun = args.getting_under_the_kijun
 getting_over_the_tenkan = args.getting_over_the_tenkan
 getting_under_the_tenkan = args.getting_under_the_tenkan
+is_over_the_cloud = args.is_over_the_cloud
+is_under_the_cloud = args.is_under_the_cloud
 chikou_validated_up = args.chikou_validated_up
 chikou_validated_down = args.chikou_validated_down
 
@@ -379,6 +387,10 @@ def execute_code(symbol, type_of_asset, exchange_id):
                 condition = (price_open < tenkan and price_close > tenkan)
             elif getting_under_the_tenkan is True:
                 condition = (price_open > tenkan and price_close < tenkan)
+            elif is_over_the_cloud is True:
+                condition = (price_open > ssa and price_close > ssa and price_open > ssb and price_close > ssb)
+            elif is_under_the_cloud is True:
+                condition = (price_open < ssa and price_close < ssa and price_open < ssb and price_close < ssb)
             else:
                 condition = price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
                             and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
@@ -674,6 +686,10 @@ def main_thread():
             newfilename += "_gott"
         if args.getting_under_the_tenkan == True:
             newfilename += "_gutt"
+        if args.is_over_the_cloud == True:
+            newfilename += "_iotc"
+        if args.is_under_the_cloud == True:
+            newfilename += "_iutc"
 
         if args.chikou_validated_up == True:
             newfilename += "_cvup"
