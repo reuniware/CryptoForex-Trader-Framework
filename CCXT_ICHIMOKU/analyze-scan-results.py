@@ -247,6 +247,7 @@ for filename in os.listdir("ScanResults"):
         print("")
         log_to_results("")
 
+#The first best group of timeframes from each file.
 print("GLOBAL Best groups of timeframes for each processed file")
 log_to_results("Best groups of timeframes for each processed file")
 for line in array_evol_tf_group_global:
@@ -256,6 +257,7 @@ for line in array_evol_tf_group_global:
 print("")
 log_to_results(str_to_log)("")
 
+#All groups of timeframes from all files (ordered).
 print("GLOBAL Average evol per group of timeframes (ordered) :")
 log_to_results("GLOBAL Average evol per group of timeframes (ordered) :")
 for k in sorted(global_dict_evol_tf_group, key=lambda k: global_dict_evol_tf_group[k], reverse=True):
@@ -264,4 +266,3 @@ for k in sorted(global_dict_evol_tf_group, key=lambda k: global_dict_evol_tf_gro
     log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(global_dict_evol_tf_group[k]) + "%" + 4*" " + global_dict_assets_per_tf_group[k])
 
 
-#The first best group of timeframes from each file.
