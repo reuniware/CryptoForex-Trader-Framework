@@ -56,9 +56,12 @@ for id in ccxt.exchanges:
 only_positive_evol = False
 
 array_evol_tf_group_global = []
+global_dict_evol_tf_group = {}
+global_dict_assets_per_tf_group = {}
 
 for filename in os.listdir("ScanResults"):
-    if "_scan_gateio_usdt_gotk_cvup.txt" in filename: #filename == filename:
+    #if "_scan_gateio_usdt_gotk_cvup.txt" in filename: #filename == filename:
+    if filename in filename: #filename == filename:
         print("PROCESSING", filename)
         log_to_results("PROCESSING " + filename)
         line = 1
@@ -121,6 +124,12 @@ for filename in os.listdir("ScanResults"):
                                 dict_assets_per_tf_group[parsed_group_of_timeframes] = currentval + ";" + symbol
                             #print(dict_assets_per_tf_group)
 
+                            if parsed_group_of_timeframes not in global_dict_assets_per_tf_group:
+                                global_dict_assets_per_tf_group[parsed_group_of_timeframes] = symbol
+                            else:
+                                currentval = global_dict_assets_per_tf_group[parsed_group_of_timeframes]
+                                global_dict_assets_per_tf_group[parsed_group_of_timeframes] = currentval + ";" + symbol
+
                             if group_of_timeframes == "":
                                 # print("first group of timeframes detected =", current_group_of_timeframes)
                                 group_of_timeframes = parsed_group_of_timeframes
@@ -130,6 +139,12 @@ for filename in os.listdir("ScanResults"):
                                     dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
                                 else:
                                     dict_evol_tf_group[group_of_timeframes] = evol
+
+                                if group_of_timeframes in global_dict_evol_tf_group:
+                                    current_val = global_dict_evol_tf_group[group_of_timeframes]
+                                    global_dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
+                                else:
+                                    global_dict_evol_tf_group[group_of_timeframes] = evol
 
                             elif parsed_group_of_timeframes != group_of_timeframes:
                                 # print("new group of timeframes detected =", current_group_of_timeframes)
@@ -141,6 +156,12 @@ for filename in os.listdir("ScanResults"):
                                 else:
                                     dict_evol_tf_group[group_of_timeframes] = evol
 
+                                if group_of_timeframes in global_dict_evol_tf_group:
+                                    current_val = global_dict_evol_tf_group[group_of_timeframes]
+                                    global_dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
+                                else:
+                                    global_dict_evol_tf_group[group_of_timeframes] = evol
+
                                 #To have a space between each group of timeframes, uncomment the 2 lines here after
                                 #print("")
                                 #log_to_results("")
@@ -151,6 +172,13 @@ for filename in os.listdir("ScanResults"):
                                     dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
                                 else:
                                     dict_evol_tf_group[group_of_timeframes] = evol
+
+                                if group_of_timeframes in global_dict_evol_tf_group:
+                                    current_val = global_dict_evol_tf_group[group_of_timeframes]
+                                    global_dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
+                                else:
+                                    global_dict_evol_tf_group[group_of_timeframes] = evol
+
                                 pass
 
                             date_detect = text.split(' ')[3]
@@ -218,10 +246,18 @@ for filename in os.listdir("ScanResults"):
 
         print("")
 
-print("Best groups of timeframes for each processed file")
+print("GLOBAL Best groups of timeframes for each processed file")
 log_to_results("Best groups of timeframes for each processed file")
 for line in array_evol_tf_group_global:
     print(line)
     log_to_results(line)
+
+print("GLOBAL Average evol per group of timeframes (ordered) :")
+log_to_results("GLOBAL Average evol per group of timeframes (ordered) :")
+for k in sorted(global_dict_evol_tf_group, key=lambda k: global_dict_evol_tf_group[k], reverse=True):
+    fill_key = "." * (48 - len(k))
+    print("[" + k + "]", fill_key, "{:.2f}".format(global_dict_evol_tf_group[k]), "%", 4*" ", global_dict_assets_per_tf_group[k])
+    log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(global_dict_evol_tf_group[k]) + "%" + 4*" " + global_dict_assets_per_tf_group[k])
+
 
 #The first best group of timeframes from each file.
