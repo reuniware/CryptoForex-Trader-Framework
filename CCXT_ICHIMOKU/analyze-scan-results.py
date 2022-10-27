@@ -59,9 +59,30 @@ array_evol_tf_group_global = []
 global_dict_evol_tf_group = {}
 global_dict_assets_per_tf_group = {}
 
+#file_filter = "_scan_binance_usdt_iotc.txt"
+file_filter = ""
+
+if file_filter.strip() != "":
+    print("File filter condition = " + file_filter)
+    log_to_results("File filter condition = " + file_filter)
+else:
+    print("File filter condition = ALL FILES")
+    log_to_results("File filter condition = ALL FILES")
+
+print("")
+log_to_results("")
+
 for filename in os.listdir("ScanResults"):
-    if "_scan_binance_usdt_gotk.txt" in filename: #filename == filename:
+
+    condition = False
+    if file_filter.strip() != "":
+        condition = file_filter in filename
+    else:
+        condition = filename in filename
+
+    #if "_scan_binance_usdt_iotc.txt" in filename: #filename == filename:
     #if filename in filename: #filename == filename:
+    if condition is True:
         print("PROCESSING", filename)
         log_to_results("PROCESSING " + filename)
         line = 1
