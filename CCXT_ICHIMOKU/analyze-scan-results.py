@@ -255,7 +255,7 @@ for line in array_evol_tf_group_global:
     log_to_results(line)
 
 print("")
-log_to_results(str_to_log)("")
+log_to_results("")
 
 #All groups of timeframes from all files (ordered).
 print("GLOBAL Average evol per group of timeframes (ordered) :")
