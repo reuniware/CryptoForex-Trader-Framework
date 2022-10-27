@@ -52,6 +52,10 @@ Latest options added :
 -gott for assets that are getting over the tenkan
 
 -gutt for assets that are getting below the tenkan
+
+-iotc for assets that are over the cloud
+
+-iutc for assets that are under the cloud
                                                                                                                                   
 -l or --loop for scanning in loop (no need to use the "while true" trick anymore described some lines above)
 
