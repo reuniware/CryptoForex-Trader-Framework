@@ -1,0 +1,14 @@
+Scan results at : 2022-10-27 16:08:02.916395
+STGUSDT spot binance 2022-10-27 17:04:58.179521 binance STGUSDT spot 1m [7.45 %] [price = 0.52910000] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:STGUSDT
+ANTUSDT spot binance 2022-10-27 16:30:41.543837 binance ANTUSDT spot 5m [3.24 %] [price = 1.78300000]                     https://tradingview.com/chart/?symbol=BINANCE:ANTUSDT
+AIONUSDT spot binance 2022-10-27 16:22:38.570085 binance AIONUSDT spot 15m [3.63 %] [price = 0.04202000] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:AIONUSDT
+INJUSDT spot binance 2022-10-27 16:37:19.487230 binance INJUSDT spot 15m [2.67 %] [price = 2.11400000]                    https://tradingview.com/chart/?symbol=BINANCE:INJUSDT
+UNIUSDT spot binance 2022-10-27 16:35:21.833414 binance UNIUSDT spot 30m [4.48 %] [price = 6.99000000] *** new highest evol in % https://tradingview.com/chart/?symbol=BINANCE:UNIUSDT
+FXSUSDT spot binance 2022-10-27 16:58:42.493980 binance FXSUSDT spot 30m [0.39 %] [price = 6.12800000]                    https://tradingview.com/chart/?symbol=BINANCE:FXSUSDT
+ICXUSDT spot binance 2022-10-27 16:10:40.988596 binance ICXUSDT spot 2h [-0.30 %] [price = 0.22950000]                    https://tradingview.com/chart/?symbol=BINANCE:ICXUSDT
+BCHUSDT spot binance 2022-10-27 16:20:36.626794 binance BCHUSDT spot 2h [-0.44 %] [price = 113.90000000]                  https://tradingview.com/chart/?symbol=BINANCE:BCHUSDT
+LPTUSDT spot binance 2022-10-27 16:47:07.497118 binance LPTUSDT spot 2h [-1.50 %] [price = 9.17000000]                    https://tradingview.com/chart/?symbol=BINANCE:LPTUSDT
+MBOXUSDT spot binance 2022-10-27 16:50:38.079186 binance MBOXUSDT spot 2h [-1.48 %] [price = 0.59800000]                 https://tradingview.com/chart/?symbol=BINANCE:MBOXUSDT
+LUNCUSDT spot binance 2022-10-27 17:05:07.742516 binance LUNCUSDT spot 2h [2.73 %] [price = 0.00025038]                  https://tradingview.com/chart/?symbol=BINANCE:LUNCUSDT
+MIRUSDT spot binance 2022-10-27 16:45:04.283019 binance MIRUSDT spot 15m 30m 2h [0.95 %] [price = 0.19277000]             https://tradingview.com/chart/?symbol=BINANCE:MIRUSDT
+SFPUSDT spot binance 2022-10-27 16:42:01.467774 binance SFPUSDT spot 4h [1.18 %] [price = 0.39520000]                     https://tradingview.com/chart/?symbol=BINANCE:SFPUSDT
