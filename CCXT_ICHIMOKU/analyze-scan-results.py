@@ -55,8 +55,10 @@ for id in ccxt.exchanges:
 
 only_positive_evol = False
 
+array_evol_tf_group_global = []
+
 for filename in os.listdir("ScanResults"):
-    if "_scan_gateio_usdt_gotk.txt" in filename: #filename == filename:
+    if "_scan_gateio_usdt_gotk_cvup.txt" in filename: #filename == filename:
         print("PROCESSING", filename)
         log_to_results("PROCESSING " + filename)
         line = 1
@@ -191,12 +193,17 @@ for filename in os.listdir("ScanResults"):
 
             print("Average evol per group of timeframes (ordered) :")
             log_to_results("Average evol per group of timeframes (ordered) :")
+            first_record_done = False
             for k in sorted(dict_evol_tf_group, key=lambda k: dict_evol_tf_group[k], reverse=True):
                 fill_key = "." * (48 - len(k))
                 #print("[" + k + "]", fill_key, "{:.2f}".format(dict_evol_tf_group[k]), "%")
                 #log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]) + "%")
                 print("[" + k + "]", fill_key, "{:.2f}".format(dict_evol_tf_group[k]), "%", 4*" ", dict_assets_per_tf_group[k])
                 log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]) + "%" + 4*" " + dict_assets_per_tf_group[k])
+
+                if first_record_done is False:
+                    array_evol_tf_group_global.append("[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]) + "%" + 4*" " + dict_assets_per_tf_group[k])
+                    first_record_done = True
 
             print("")
             log_to_results("")
@@ -210,3 +217,11 @@ for filename in os.listdir("ScanResults"):
             log_to_results("")
 
         print("")
+
+print("Best groups of timeframes for each processed file")
+log_to_results("Best groups of timeframes for each processed file")
+for line in array_evol_tf_group_global:
+    print(line)
+    log_to_results(line)
+
+#The first best group of timeframes from each file.
