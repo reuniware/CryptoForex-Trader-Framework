@@ -129,6 +129,8 @@ parser.add_argument('-gotk', '--getting-over-the-kijun', action='store_true',
                     help="scan for assets getting under the cloud")
 parser.add_argument('-gutk', '--getting-under-the-kijun', action='store_true',
                     help="scan for assets getting under the cloud")
+parser.add_argument('-hgotk', '--has-got-over-the-kijun', action='store_true',
+                    help="scan for assets that have got over the kijun")
 parser.add_argument('-gott', '--getting-over-the-tenkan', action='store_true',
                     help="scan for assets getting under the tenkan")
 parser.add_argument('-gutt', '--getting-under-the-tenkan', action='store_true',
@@ -154,6 +156,7 @@ print("args.retry", args.retry)
 print("args.getting-over-the-cloud", args.getting_over_the_cloud)
 print("args.getting-under-the-cloud", args.getting_under_the_cloud)
 print("args.getting-over-the-kijun", args.getting_over_the_kijun)
+print("args.has-got-over-the-kijun", args.has_got_over_the_kijun)
 print("args.getting-under-the-kijun", args.getting_under_the_kijun)
 print("args.getting-over-the-tenkan", args.getting_over_the_tenkan)
 print("args.getting-under-the-tenkan", args.getting_under_the_tenkan)
@@ -225,6 +228,7 @@ getting_over_the_cloud = args.getting_over_the_cloud
 getting_under_the_cloud = args.getting_under_the_cloud
 getting_over_the_kijun = args.getting_over_the_kijun
 getting_under_the_kijun = args.getting_under_the_kijun
+has_got_over_the_kijun = args.getting_over_the_kijun
 getting_over_the_tenkan = args.getting_over_the_tenkan
 getting_under_the_tenkan = args.getting_under_the_tenkan
 is_over_the_cloud = args.is_over_the_cloud
@@ -383,6 +387,8 @@ def execute_code(symbol, type_of_asset, exchange_id):
                 condition = (price_open < kijun and price_close > kijun)
             elif getting_under_the_kijun is True:
                 condition = (price_open > kijun and price_close < kijun)
+            elif has_got_over_the_kijun is True:
+                condition = (price_open.iloc[-3] < kijun and price_close.iloc[-2] > kijun and price_close.iloc[-1] > kijun)
             elif getting_over_the_tenkan is True:
                 condition = (price_open < tenkan and price_close > tenkan)
             elif getting_under_the_tenkan is True:
@@ -676,6 +682,8 @@ def main_thread():
             newfilename += "_gotk"
         if args.getting_under_the_kijun == True:
             newfilename += "_gutk"
+        if args.has_got_over_the_kijun == True:
+            newfilename += "_hgotk"
         if args.getting_over_the_cloud == True:
             newfilename += "_gotc"
         if args.getting_under_the_cloud == True:
