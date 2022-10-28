@@ -390,15 +390,24 @@ def execute_code(symbol, type_of_asset, exchange_id):
                 condition = (ssb > ssa and price_open > ssa and price_close < ssa) \
                             or (ssa > ssb and price_open > ssb and price_close < ssb)
             #elif has_got_over_the_cloud is True:
-            #    condition = (ssb > ssa and price_open.iloc[-3] < ssb )
+            #    condition = (ssb > ssa and dframe['open'].iloc[-3] < dframe['ICH_SSB'].iloc[-3] \
+            #        and dframe['close'].iloc[-3] > dframe['ICH_SSB'].iloc[-3] \
+            #        and dframe['open'].iloc[-2])
             elif getting_over_the_kijun is True:
                 condition = (price_open < kijun and price_close > kijun)
             elif getting_under_the_kijun is True:
                 condition = (price_open > kijun and price_close < kijun)
             elif has_got_over_the_kijun is True:
-                #print("has got over the kijun")
-                #condition = (price_open.iloc[-3] < kijun and price_close.iloc[-2] > kijun and price_close.iloc[-1] > kijun)
-                condition = (dframe['open'].iloc[-3] < dframe['ICH_KS'].iloc[-3] and dframe['close'].iloc[-2] > dframe['ICH_KS'].iloc[-2] and dframe['close'].iloc[-1] > dframe['ICH_KS'].iloc[-1])
+                condition = (dframe['open'].iloc[-3] < dframe['ICH_KS'].iloc[-3] and \
+                    dframe['close'].iloc[-3] > dframe['ICH_KS'].iloc[-3] and \
+                    dframe['open'].iloc[-2] > dframe['ICH_KS'].iloc[-2] and \
+                    dframe['close'].iloc[-2] > dframe['ICH_KS'].iloc[-2]) and \
+                    dframe['open'].iloc[-1] > dframe['ICH_KS'].iloc[-1] and \
+                    dframe['close'].iloc[-1] > dframe['ICH_KS'].iloc[-1]
+                #condition = (dframe['open'].iloc[-2] < dframe['ICH_KS'].iloc[-2] and \
+                #    dframe['close'].iloc[-2] > dframe['ICH_KS'].iloc[-2] and \
+                #    dframe['open'].iloc[-1] > dframe['ICH_KS'].iloc[-1] and \
+                #    dframe['close'].iloc[-1] > dframe['ICH_KS'].iloc[-1])
             elif getting_over_the_tenkan is True:
                 condition = (price_open < tenkan and price_close > tenkan)
             elif getting_under_the_tenkan is True:
