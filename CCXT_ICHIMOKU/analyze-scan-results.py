@@ -19,10 +19,16 @@ strday = format(currentDateAndTime.day, '02')
 strhour = format(currentDateAndTime.hour, '02') 
 strmin = format(currentDateAndTime.minute, '02')
 
-file_filter = "_scan_binance_usdt_gotk.txt"
+#Set this variable to True for logging only positive evolutions, to False for logging all.
+only_positive_evol = False
+ope_for_filename = ""
+if only_positive_evol is True:
+    ope_for_filename = "_ope"
+
+file_filter = "_scan_binance_usdt_hgotk.txt"
 #file_filter = ""
 
-logfilename = "./ScanResultsAnalyzer/" + stryear + strmonth + strday + strhour + strmin + "_analyzer_results_[" + file_filter.replace('.txt', '') + "].txt"
+logfilename = "./ScanResultsAnalyzer/" + stryear + strmonth + strday + strhour + strmin + "_analyzer_results_[" + file_filter.replace('.txt', '') + "]" + ope_for_filename + ".txt"
 
 
 def log_to_results(str_to_log):
@@ -40,6 +46,9 @@ delete_results_log()
 
 print("Current date and time = " + str(currentDateAndTime))
 log_to_results("Current date and time = " + str(currentDateAndTime))
+
+print("Only positive evol :", only_positive_evol)
+log_to_results("Only positive evol : " + str(only_positive_evol))
 
 exchanges = {}
 for id in ccxt.exchanges:
@@ -67,8 +76,6 @@ for id in ccxt.exchanges:
 #   relatively to the current value of these assets
 #   the results will never be the same because the analysis is done relatively to the current value
 #   (for the same result file analyzed twice or more, eg. "202210241557_scan_binance_usdt_gotk.txt")
-
-only_positive_evol = False
 
 array_evol_tf_group_global = []
 global_dict_evol_tf_group = {}
