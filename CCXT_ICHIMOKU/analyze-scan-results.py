@@ -217,9 +217,14 @@ for filename in os.listdir("ScanResults"):
                             date_detect = text.split(' ')[3]
                             time_detect = text.split(' ')[4].split('.')[0]
 
-                            print(filename, "\t", symbol, fill_symbol, date_detect + " " + time_detect, "\t[" + str(price) + "]", fill_price, "\t[" + str(currentprice) + "]", fill_currentprice, "\t[" + "{:.2f}".format(evol) + " %]", fill_evol,
+                            #print(filename, "\t", symbol, fill_symbol, date_detect + " " + time_detect, "\t[" + str(price) + "]", fill_price, "\t[" + str(currentprice) + "]", fill_currentprice, "\t[" + "{:.2f}".format(evol) + " %]", fill_evol,
+                            #    "\t[" + text.split('[')[0].split('spot')[2] + "]")
+                            #log_to_results(filename + "\t" + symbol + fill_symbol + date_detect + " " + time_detect + "\t[" + str(price) + "]" + fill_price + "\t[" + str(currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(
+                            #    evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split('spot')[2] + "]")
+
+                            print(symbol, fill_symbol, date_detect + " " + time_detect, "\t[" + str(price) + "]", fill_price, "\t[" + str(currentprice) + "]", fill_currentprice, "\t[" + "{:.2f}".format(evol) + " %]", fill_evol,
                                 "\t[" + text.split('[')[0].split('spot')[2] + "]")
-                            log_to_results(filename + "\t" + symbol + fill_symbol + date_detect + " " + time_detect + "\t[" + str(price) + "]" + fill_price + "\t[" + str(currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(
+                            log_to_results(symbol + fill_symbol + date_detect + " " + time_detect + "\t[" + str(price) + "]" + fill_price + "\t[" + str(currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(
                                 evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split('spot')[2] + "]")
 
                     line += 1
