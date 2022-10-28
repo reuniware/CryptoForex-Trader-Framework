@@ -389,10 +389,19 @@ def execute_code(symbol, type_of_asset, exchange_id):
             elif getting_under_the_cloud is True:
                 condition = (ssb > ssa and price_open > ssa and price_close < ssa) \
                             or (ssa > ssb and price_open > ssb and price_close < ssb)
-            #elif has_got_over_the_cloud is True:
-            #    condition = (ssb > ssa and dframe['open'].iloc[-3] < dframe['ICH_SSB'].iloc[-3] \
-            #        and dframe['close'].iloc[-3] > dframe['ICH_SSB'].iloc[-3] \
-            #        and dframe['open'].iloc[-2])
+            elif has_got_over_the_cloud is True:
+                condition = (ssb > ssa and dframe['open'].iloc[-3] < dframe['ICH_SSB'].iloc[-3] \
+                    and dframe['close'].iloc[-3] > dframe['ICH_SSB'].iloc[-3] \
+                    and dframe['open'].iloc[-2] > dframe['ICH_SSB'].iloc[-2] \
+                    and dframe['close'].iloc[-2] > dframe['ICH_SSB'].iloc[-2] \
+                    and dframe['open'].iloc[-1] > dframe['ICH_SSB'].iloc[-1] \
+                    and dframe['close'].iloc[-1] > dframe['ICH_SSB'].iloc[-1]) or \
+                    (ssa > ssb and dframe['open'].iloc[-3] < dframe['ICH_SSA'].iloc[-3] \
+                    and dframe['close'].iloc[-3] > dframe['ICH_SSA'].iloc[-3] \
+                    and dframe['open'].iloc[-2] > dframe['ICH_SSA'].iloc[-2] \
+                    and dframe['close'].iloc[-2] > dframe['ICH_SSA'].iloc[-2] \
+                    and dframe['open'].iloc[-1] > dframe['ICH_SSA'].iloc[-1] \
+                    and dframe['close'].iloc[-1] > dframe['ICH_SSA'].iloc[-1])                        
             elif getting_over_the_kijun is True:
                 condition = (price_open < kijun and price_close > kijun)
             elif getting_under_the_kijun is True:
