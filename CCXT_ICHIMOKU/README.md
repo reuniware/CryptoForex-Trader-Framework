@@ -56,6 +56,8 @@ Latest options added :
 -iotc for assets that are over the cloud
 
 -iutc for assets that are under the cloud
+
+-hgotk for assets that have got over the kijun (close n-2 < kijun and close n-1 > kijun and close n > kijun) ; close n = current (close) price 
                                                                                                                                   
 -l or --loop for scanning in loop (no need to use the "while true" trick anymore described some lines above)
 
