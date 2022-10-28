@@ -2,7 +2,7 @@ import os
 import ccxt
 import signal
 import sys
-
+from datetime import datetime
 
 def signal_handler(sig, frame):
     print('You pressed Ctrl+C!')
@@ -59,8 +59,11 @@ array_evol_tf_group_global = []
 global_dict_evol_tf_group = {}
 global_dict_assets_per_tf_group = {}
 
-#file_filter = "_scan_binance_usdt_iotc.txt"
-file_filter = ""
+print("Current date and time = " + str(datetime.now()))
+log_to_results("Current date and time = " + str(datetime.now()))
+
+file_filter = "_scan_binance_usdt_gotk.txt"
+#file_filter = ""
 
 if file_filter.strip() != "":
     print("File filter condition = " + file_filter)
