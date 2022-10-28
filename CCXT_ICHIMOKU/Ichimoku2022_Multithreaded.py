@@ -125,12 +125,16 @@ parser.add_argument('-gotc', '--getting-over-the-cloud', action='store_true',
                     help="scan for assets getting over the cloud")
 parser.add_argument('-gutc', '--getting-under-the-cloud', action='store_true',
                     help="scan for assets getting under the cloud")
+parser.add_argument('-hgotc', '--has-got-over-the-cloud', action='store_true',
+                    help="scan for assets that have got over the cloud")
+#todo add -hgutc
 parser.add_argument('-gotk', '--getting-over-the-kijun', action='store_true',
                     help="scan for assets getting under the cloud")
 parser.add_argument('-gutk', '--getting-under-the-kijun', action='store_true',
                     help="scan for assets getting under the cloud")
 parser.add_argument('-hgotk', '--has-got-over-the-kijun', action='store_true',
                     help="scan for assets that have got over the kijun")
+#todo add -hgutk
 parser.add_argument('-gott', '--getting-over-the-tenkan', action='store_true',
                     help="scan for assets getting under the tenkan")
 parser.add_argument('-gutt', '--getting-under-the-tenkan', action='store_true',
@@ -155,9 +159,10 @@ print("args.filter", args.filter_assets)
 print("args.retry", args.retry)
 print("args.getting-over-the-cloud", args.getting_over_the_cloud)
 print("args.getting-under-the-cloud", args.getting_under_the_cloud)
+print("args.has-got-over-the-cloud", args.has_got_over_the_cloud)
 print("args.getting-over-the-kijun", args.getting_over_the_kijun)
-print("args.has-got-over-the-kijun", args.has_got_over_the_kijun)
 print("args.getting-under-the-kijun", args.getting_under_the_kijun)
+print("args.has-got-over-the-kijun", args.has_got_over_the_kijun)
 print("args.getting-over-the-tenkan", args.getting_over_the_tenkan)
 print("args.getting-under-the-tenkan", args.getting_under_the_tenkan)
 print("args.chikou-validated-up", args.chikou_validated_up)
@@ -226,9 +231,10 @@ retry = args.retry
 
 getting_over_the_cloud = args.getting_over_the_cloud
 getting_under_the_cloud = args.getting_under_the_cloud
+has_got_over_the_cloud = args.has_got_over_the_cloud
 getting_over_the_kijun = args.getting_over_the_kijun
 getting_under_the_kijun = args.getting_under_the_kijun
-has_got_over_the_kijun = args.getting_over_the_kijun
+has_got_over_the_kijun = args.has_got_over_the_kijun
 getting_over_the_tenkan = args.getting_over_the_tenkan
 getting_under_the_tenkan = args.getting_under_the_tenkan
 is_over_the_cloud = args.is_over_the_cloud
@@ -383,12 +389,16 @@ def execute_code(symbol, type_of_asset, exchange_id):
             elif getting_under_the_cloud is True:
                 condition = (ssb > ssa and price_open > ssa and price_close < ssa) \
                             or (ssa > ssb and price_open > ssb and price_close < ssb)
+            #elif has_got_over_the_cloud is True:
+            #    condition = (ssb > ssa and price_open.iloc[-3] < ssb )
             elif getting_over_the_kijun is True:
                 condition = (price_open < kijun and price_close > kijun)
             elif getting_under_the_kijun is True:
                 condition = (price_open > kijun and price_close < kijun)
             elif has_got_over_the_kijun is True:
-                condition = (price_open.iloc[-3] < kijun and price_close.iloc[-2] > kijun and price_close.iloc[-1] > kijun)
+                #print("has got over the kijun")
+                #condition = (price_open.iloc[-3] < kijun and price_close.iloc[-2] > kijun and price_close.iloc[-1] > kijun)
+                condition = (dframe['open'].iloc[-3] < dframe['ICH_KS'].iloc[-3] and dframe['close'].iloc[-2] > dframe['ICH_KS'].iloc[-2] and dframe['close'].iloc[-1] > dframe['ICH_KS'].iloc[-1])
             elif getting_over_the_tenkan is True:
                 condition = (price_open < tenkan and price_close > tenkan)
             elif getting_under_the_tenkan is True:
