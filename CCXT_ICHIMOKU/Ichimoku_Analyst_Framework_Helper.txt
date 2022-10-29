@@ -1,0 +1,21 @@
+python3 Ichimoku2022_Multithreaded.py -e binance -f *usdt
+python3 Ichimoku2022_Multithreaded.py -e gateio -f *usdt
+
+python3 Ichimoku2022_Multithreaded.py -e binance -f *usdt -hgotk
+python3 Ichimoku2022_Multithreaded.py -e gateio -f *usdt -hgotk
+
+python3 Ichimoku2022_Multithreaded.py -e binance -f *usdt -hgotk -cvup
+python3 Ichimoku2022_Multithreaded.py -e gateio -f *usdt -hgotk -cvup
+
+python3 Ichimoku2022_Multithreaded.py -e binance -f *usdt -hgotc
+python3 Ichimoku2022_Multithreaded.py -e gateio -f *usdt -hgotc
+
+python3 Ichimoku2022_Multithreaded.py -e binance -f *usdt -hgotc -pvup
+python3 Ichimoku2022_Multithreaded.py -e gateio -f *usdt -hgotc -pvup
+
+python3 Ichimoku2022_Multithreaded.py -e binance -f *usdt -hgotc -pvup -cvup
+python3 Ichimoku2022_Multithreaded.py -e gateio -f *usdt -hgotc -pvup -cvup
+
+python3 Ichimoku2022_Multithreaded.py -e binance -f *usdt -hgotk -pvup -cvup
+python3 Ichimoku2022_Multithreaded.py -e gateio -f *usdt -hgotk -pvup -cvup
+
