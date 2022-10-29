@@ -725,6 +725,8 @@ def main_thread():
             newfilename += "_iotc"
         if args.is_under_the_cloud == True:
             newfilename += "_iutc"
+        if args.has_got_over_the_cloud == True:
+            newfilename += "_hgotc"
 
         if args.chikou_validated_up == True:
             newfilename += "_cvup"
