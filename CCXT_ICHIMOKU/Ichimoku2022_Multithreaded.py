@@ -143,6 +143,10 @@ parser.add_argument('-cvup', '--chikou-validated-up', action='store_true',
                     help="scan for assets having their chikou validated in uptrend (over all its Ichimoku levels)")
 parser.add_argument('-cvdown', '--chikou-validated-down', action='store_true',
                     help="scan for assets having their chikou validated in downtrend (under all its Ichimoku levels)")
+parser.add_argument('-pvup', '--price-validated-up', action='store_true',
+                    help="scan for assets having their price validated in uptrend (over all its Ichimoku levels)")
+parser.add_argument('-pvdown', '--price-validated-down', action='store_true',
+                    help="scan for assets having their price validated in downtrend (under all its Ichimoku levels)")
 parser.add_argument('-iotc', '--is-over-the-cloud', action='store_true',
                     help="scan for assets being over the cloud")
 parser.add_argument('-iutc', '--is-under-the-cloud', action='store_true',
@@ -167,6 +171,8 @@ print("args.getting-over-the-tenkan", args.getting_over_the_tenkan)
 print("args.getting-under-the-tenkan", args.getting_under_the_tenkan)
 print("args.chikou-validated-up", args.chikou_validated_up)
 print("args.chikou-validated-down", args.chikou_validated_down)
+print("args.price-validated-up", args.price_validated_up)
+print("args.price-validated-down", args.price_validated_down)
 print("args.is-over-the-cloud", args.getting_over_the_cloud)
 print("args.is-under-the-cloud", args.getting_under_the_cloud)
 print("args.trending", args.trending)
@@ -241,6 +247,8 @@ is_over_the_cloud = args.is_over_the_cloud
 is_under_the_cloud = args.is_under_the_cloud
 chikou_validated_up = args.chikou_validated_up
 chikou_validated_down = args.chikou_validated_down
+price_validated_up = args.price_validated_up
+price_validated_down = args.price_validated_down
 
 trending = args.trending
 print("trending=", trending)
@@ -436,6 +444,12 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
             if chikou_validated_down is True:
                 condition = condition and (chikou < ssa_chikou and chikou < ssb_chikou and chikou < price_low_chikou and chikou < tenkan_chikou and chikou < kijun_chikou)
+
+            if price_validated_up is True:
+                condition = condition and (price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun and price_close > price_open)
+
+            if price_validated_down is True:
+                condition = condition and (price_close < ssa and price_close < ssb and price_close < tenkan and price_close < kijun and price_close < price_open)
 
             if not condition:
                 binary_result += "0"
@@ -733,6 +747,12 @@ def main_thread():
 
         if args.chikou_validated_down == True:
             newfilename += "_cvdown"
+
+        if args.price_validated_up == True:
+            newfilename += "_pvup"
+
+        if args.price_validated_down == True:
+            newfilename += "_pvdown"
 
         newfilename += ".txt"
 
