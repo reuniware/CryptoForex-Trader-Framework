@@ -19,3 +19,10 @@ python3 Ichimoku2022_Multithreaded.py -e gateio -f *usdt -hgotc -pvup -cvup
 python3 Ichimoku2022_Multithreaded.py -e binance -f *usdt -hgotk -pvup -cvup
 python3 Ichimoku2022_Multithreaded.py -e gateio -f *usdt -hgotk -pvup -cvup
 
+while true; do python3 Ichimoku2022_Multithreaded.py -e binance -f *usdt -hgotk; done
+while true; do python3 Ichimoku2022_Multithreaded.py -e gateio -f *usdt -hgotk; done
+
+while true; do python3 Ichimoku2022_Multithreaded.py -e binance -f *usdt -hgotc; done
+while true; do python3 Ichimoku2022_Multithreaded.py -e gateio -f *usdt -hgotc; done
+
+
