@@ -25,4 +25,6 @@ while true; do python3 Ichimoku2022_Multithreaded.py -e gateio -f *usdt -hgotk; 
 while true; do python3 Ichimoku2022_Multithreaded.py -e binance -f *usdt -hgotc; done
 while true; do python3 Ichimoku2022_Multithreaded.py -e gateio -f *usdt -hgotc; done
 
+while true; do python3 Ichimoku2022_Multithreaded.py -e binance -f *usdt; done
+while true; do python3 Ichimoku2022_Multithreaded.py -e gateio -f *usdt; done
 
