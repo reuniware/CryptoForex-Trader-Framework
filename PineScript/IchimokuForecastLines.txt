@@ -1,9 +1,9 @@
 //@version=5
-indicator(title="Ichimoku Cloud", shorttitle="Ichimoku", overlay=true)
+indicator(title="Ichimoku Cloud And Forecast Lines", shorttitle="IKH IFL", overlay=true)
 conversionPeriods = input.int(9, minval=1, title="Conversion Line Length")
 basePeriods = input.int(26, minval=1, title="Base Line Length")
 laggingSpan2Periods = input.int(52, minval=1, title="Leading Span B Length")
-displacement = input.int(26, minval=1, title="Lagging Span")
+displacement = input.int(27, minval=1, title="Lagging Span")
 donchian(len) => math.avg(ta.lowest(len), ta.highest(len))
 conversionLine = donchian(conversionPeriods)
 baseLine = donchian(basePeriods)
@@ -20,16 +20,16 @@ fill(p1, p2, color = leadLine1 > leadLine2 ? color.rgb(67, 160, 71, 90) : color.
 
 if close > leadLine1 and close > leadLine2
 	if leadLine1>leadLine2
-		line.new(x1=bar_index[1], y1=high[1], x2=bar_index+25, y2=leadLine1, color = color.rgb(61, 62, 65))
+		line.new(x1=bar_index[1], y1=high[1], x2=bar_index+26, y2=leadLine1, color = color.rgb(61, 62, 65))
 	if leadLine2>leadLine1
-		line.new(x1=bar_index[1], y1=high[1], x2=bar_index+25, y2=leadLine2, color = color.rgb(61, 62, 65))
+		line.new(x1=bar_index[1], y1=high[1], x2=bar_index+26, y2=leadLine2, color = color.rgb(61, 62, 65))
 	if leadLine1 == leadLine2
-		line.new(x1=bar_index[1], y1=high[1], x2=bar_index+25, y2=leadLine2, color = color.rgb(61, 62, 65))
+		line.new(x1=bar_index[1], y1=high[1], x2=bar_index+26, y2=leadLine2, color = color.rgb(61, 62, 65))
 
 if close < leadLine1 and close < leadLine2
 	if leadLine1<leadLine2
-		line.new(x1=bar_index[1], y1=high[1], x2=bar_index+25, y2=leadLine1, color = color.rgb(61, 62, 65))
+		line.new(x1=bar_index[1], y1=high[1], x2=bar_index+26, y2=leadLine1, color = color.rgb(61, 62, 65))
 	if leadLine2<leadLine1
-		line.new(x1=bar_index[1], y1=high[1], x2=bar_index+25, y2=leadLine2, color = color.rgb(61, 62, 65))
+		line.new(x1=bar_index[1], y1=high[1], x2=bar_index+26, y2=leadLine2, color = color.rgb(61, 62, 65))
 	if leadLine1 == leadLine2
-		line.new(x1=bar_index[1], y1=high[1], x2=bar_index+25, y2=leadLine2, color = color.rgb(61, 62, 65))
+		line.new(x1=bar_index[1], y1=high[1], x2=bar_index+26, y2=leadLine2, color = color.rgb(61, 62, 65))
