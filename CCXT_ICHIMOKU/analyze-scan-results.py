@@ -358,10 +358,21 @@ for k in sorted(global_dict_evol_tf_group, key=lambda k: global_dict_evol_tf_gro
 print("")
 log_to_results("")
 
-# All evol per filename
+# All evol per filename (ordered)
 print("GLOBAL evol per file (ordered) :")
 log_to_results("GLOBAL evol per file (ordered) :")
 for k in sorted(global_dict_evol_file, key=lambda k: global_dict_evol_file[k], reverse=True):
+    fill_key = "." * (64 - len(k))
+    print(k, fill_key, global_dict_evol_file[k])
+    log_to_results(k + fill_key + str(global_dict_evol_file[k]))
+
+print("")
+log_to_results("")
+
+# All evol per filename (unordered)
+print("GLOBAL evol per file (unordered) :")
+log_to_results("GLOBAL evol per file (unordered) :")
+for k in global_dict_evol_file:
     fill_key = "." * (64 - len(k))
     print(k, fill_key, global_dict_evol_file[k])
     log_to_results(k + fill_key + str(global_dict_evol_file[k]))
