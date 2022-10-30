@@ -28,8 +28,8 @@ if close > leadLine1 and close > leadLine2
 
 if close < leadLine1 and close < leadLine2
 	if leadLine1<leadLine2
-		line.new(x1=bar_index[1], y1=high[1], x2=bar_index+26, y2=leadLine1, color = color.rgb(61, 62, 65))
+		line.new(x1=bar_index[1], y1=low[1], x2=bar_index+26, y2=leadLine1, color = color.rgb(61, 62, 65))
 	if leadLine2<leadLine1
-		line.new(x1=bar_index[1], y1=high[1], x2=bar_index+26, y2=leadLine2, color = color.rgb(61, 62, 65))
+		line.new(x1=bar_index[1], y1=low[1], x2=bar_index+26, y2=leadLine2, color = color.rgb(61, 62, 65))
 	if leadLine1 == leadLine2
-		line.new(x1=bar_index[1], y1=high[1], x2=bar_index+26, y2=leadLine2, color = color.rgb(61, 62, 65))
+		line.new(x1=bar_index[1], y1=low[1], x2=bar_index+26, y2=leadLine2, color = color.rgb(61, 62, 65))
