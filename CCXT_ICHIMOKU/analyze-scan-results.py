@@ -26,7 +26,7 @@ ope_for_filename = ""
 if only_positive_evol is True:
     ope_for_filename = "_ope"
 
-#file_filter = "_scan_binance_usdt_hgotk.txt"
+#file_filter = "_scan_bybit_usdt_hgotk_cvup.txt"
 file_filter = ""
 
 logfilename = "./ScanResultsAnalyzer/" + stryear + strmonth + strday + strhour + strmin + "_analyzer_results_[" + file_filter.replace(
@@ -150,6 +150,8 @@ for filename in os.listdir("ScanResults"):
                                 symbol2 = symbol2.replace('/', '')
                             elif exchange_id == 'gateio':
                                 symbol = symbol.replace('_', '/')
+                            elif exchange_id == 'bybit':
+                                symbol2 = symbol2.replace('/', '').replace(':USDT', '')
                             if symbol2 == symbol:
                                 #print(symbol2, ticker['datetime'], 'close: ' + str(ticker['close']))
                                 currentprice = float(ticker['close'])
