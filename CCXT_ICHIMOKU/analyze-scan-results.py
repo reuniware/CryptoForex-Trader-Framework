@@ -80,6 +80,7 @@ for id in ccxt.exchanges:
 #   (for the same result file analyzed twice or more, eg. "202210241557_scan_binance_usdt_gotk.txt")
 
 array_evol_tf_group_global = []
+global_dict_evol_file = {}
 global_dict_evol_tf_group = {}
 global_dict_assets_per_tf_group = {}
 
@@ -322,6 +323,7 @@ for filename in os.listdir("ScanResults"):
             log_to_results("")
 
             print("Average total evol for this file", "{:.2f}".format(total_evol / len(dict_evol_tf_group)), "%")
+            global_dict_evol_file[filename] = total_evol / len(dict_evol_tf_group)
             print(100 * "*")
             print("")
 
@@ -353,4 +355,13 @@ for k in sorted(global_dict_evol_tf_group, key=lambda k: global_dict_evol_tf_gro
     log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(global_dict_evol_tf_group[k]) + "%" + 4 * " " +
                    global_dict_assets_per_tf_group[k])
 
+print("")
+log_to_results("")
 
+# All evol per filename
+print("GLOBAL evol per file (ordered) :")
+log_to_results("GLOBAL evol per file (ordered) :")
+for k in sorted(global_dict_evol_file, key=lambda k: global_dict_evol_file[k], reverse=True):
+    fill_key = "." * (128 - len(k))
+    print(k, fill_key, global_dict_evol_file[k])
+    log_to_results(k + fill_key + str(global_dict_evol_file[k]))
