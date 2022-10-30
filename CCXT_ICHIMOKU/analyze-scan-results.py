@@ -4,6 +4,7 @@ import signal
 import sys
 from datetime import datetime
 
+
 def signal_handler(sig, frame):
     print('You pressed Ctrl+C!')
     os.kill(os.getpid(), 9)
@@ -14,21 +15,22 @@ signal.signal(signal.SIGINT, signal_handler)
 
 currentDateAndTime = datetime.now()
 stryear = format(currentDateAndTime.year, '04')
-strmonth = format(currentDateAndTime.month, '02') 
+strmonth = format(currentDateAndTime.month, '02')
 strday = format(currentDateAndTime.day, '02')
-strhour = format(currentDateAndTime.hour, '02') 
+strhour = format(currentDateAndTime.hour, '02')
 strmin = format(currentDateAndTime.minute, '02')
 
-#Set this variable to True for logging only positive evolutions, to False for logging all.
+# Set this variable to True for logging only positive evolutions, to False for logging all.
 only_positive_evol = False
 ope_for_filename = ""
 if only_positive_evol is True:
     ope_for_filename = "_ope"
 
-file_filter = "_scan_binance_usdt_hgotk.txt"
-#file_filter = ""
+#file_filter = "_scan_binance_usdt_hgotk.txt"
+file_filter = ""
 
-logfilename = "./ScanResultsAnalyzer/" + stryear + strmonth + strday + strhour + strmin + "_analyzer_results_[" + file_filter.replace('.txt', '') + "]" + ope_for_filename + ".txt"
+logfilename = "./ScanResultsAnalyzer/" + stryear + strmonth + strday + strhour + strmin + "_analyzer_results_[" + file_filter.replace(
+    '.txt', '') + "]" + ope_for_filename + ".txt"
 
 
 def log_to_results(str_to_log):
@@ -62,17 +64,17 @@ for id in ccxt.exchanges:
     except:
         continue
 
-#filetoprocess = "202210241557_scan_binance_usdt_gotk.txt"
+# filetoprocess = "202210241557_scan_binance_usdt_gotk.txt"
 
-#you must launch Ichimoku2022_Multithreaded as the following example :
-#python Ichimoku_Multithreaded.py -e binance -f *usdt -gotk
-#the result file will be created in the ./ScanResults folder
-#the result file will look like "202210241557_scan_binance_usdt_gotk.txt"
-#there can be more than one result file but I advise you to begin with one
-#then launch this python script : python analyze-scan-results.py
-#it will analyze the file(s) ending with "_binance_usdt_gotk.txt"
-#it will output its results in the file named "analyze_scan_results.txt"
-#what will be analyzed is the evolution of the assets that have got over their kijun sen line
+# you must launch Ichimoku2022_Multithreaded as the following example :
+# python Ichimoku_Multithreaded.py -e binance -f *usdt -gotk
+# the result file will be created in the ./ScanResults folder
+# the result file will look like "202210241557_scan_binance_usdt_gotk.txt"
+# there can be more than one result file but I advise you to begin with one
+# then launch this python script : python analyze-scan-results.py
+# it will analyze the file(s) ending with "_binance_usdt_gotk.txt"
+# it will output its results in the file named "analyze_scan_results.txt"
+# what will be analyzed is the evolution of the assets that have got over their kijun sen line
 #   relatively to the current value of these assets
 #   the results will never be the same because the analysis is done relatively to the current value
 #   (for the same result file analyzed twice or more, eg. "202210241557_scan_binance_usdt_gotk.txt")
@@ -99,8 +101,8 @@ for filename in os.listdir("ScanResults"):
     else:
         condition = filename in filename
 
-    #if "_scan_binance_usdt_iotc.txt" in filename: #filename == filename:
-    #if filename in filename: #filename == filename:
+    # if "_scan_binance_usdt_iotc.txt" in filename: #filename == filename:
+    # if filename in filename: #filename == filename:
     if condition is True:
         print("PROCESSING", filename)
         log_to_results("PROCESSING " + filename)
@@ -110,6 +112,8 @@ for filename in os.listdir("ScanResults"):
 
         dict_evol_tf_group = {}
         dict_assets_per_tf_group = {}
+
+        tickers_downloaded = False
 
         try:
             with open(os.path.join("ScanResults", filename), 'r') as f:
@@ -124,10 +128,36 @@ for filename in os.listdir("ScanResults"):
                         exchange_id = text.split(' ')[2]
                         exchange = exchanges[exchange_id]
 
+                        if not tickers_downloaded:
+                            tickers = exchange.fetch_tickers()
+                            tickers_downloaded = True
+
                         symbol = text.split(' ')[0]
+                        # print(symbol)
                         price = float(text.split('[')[2].split('= ')[1].split(']')[0])
-                        result = exchange.fetch_ohlcv(symbol, '1m', limit=1)
-                        currentprice = float(result[0][4])
+                        # result = exchange.fetch_ohlcv(symbol, '1m', limit=1)
+
+                        currentprice = 0
+                        symbol_found = False
+                        for symbol2, ticker in tickers.items():
+                            #print(symbol2)
+                            if exchange_id == 'binance':
+                                symbol2 = symbol2.replace('/', '')
+                            elif exchange_id == 'gateio':
+                                symbol = symbol.replace('_', '/')
+                            if symbol2 == symbol:
+                                #print(symbol2, ticker['datetime'], 'close: ' + str(ticker['close']))
+                                currentprice = float(ticker['close'])
+                                symbol_found = True
+                                break
+
+                        if symbol_found == False:
+                            print("symbol has not been found in tickers :", symbol, symbol2)
+                            exit(777)
+
+                        #currentprice = float(result[0][4])
+                        #tickers = exchange.fetch_tickers()
+
                         # evol = float("{:.2f}".format((currentprice - price)/price*100))
                         if price > 0:
                             evol = (currentprice - price) / price * 100
@@ -138,13 +168,15 @@ for filename in os.listdir("ScanResults"):
                         if only_positive_evol is True:
                             if evol < 0:
                                 bypass = True
-                        
+
                         if bypass is False:
 
-                            #To have less characters on outputs (this can be removed/commented if necessary)
+                            # To have less characters on outputs (this can be removed/commented if necessary)
                             if exchange_id == "gateio":
-                                if symbol.endswith('_USDT'):
+                                if symbol.endswith('_USDT'): # might be useless now with new way of getting tickers
                                     symbol = symbol.replace('_USDT', '')
+                                if symbol.endswith('/USDT'):
+                                    symbol = symbol.replace('/USDT', '')
                             elif exchange_id == "binance":
                                 if symbol.endswith('USDT'):
                                     symbol = symbol.replace('USDT', '')
@@ -156,13 +188,13 @@ for filename in os.listdir("ScanResults"):
 
                             parsed_group_of_timeframes = text.split('[')[0].split('spot')[2].strip()
 
-                            #print(parsed_group_of_timeframes)
+                            # print(parsed_group_of_timeframes)
                             if parsed_group_of_timeframes not in dict_assets_per_tf_group:
                                 dict_assets_per_tf_group[parsed_group_of_timeframes] = symbol
                             else:
                                 currentval = dict_assets_per_tf_group[parsed_group_of_timeframes]
                                 dict_assets_per_tf_group[parsed_group_of_timeframes] = currentval + ";" + symbol
-                            #print(dict_assets_per_tf_group)
+                            # print(dict_assets_per_tf_group)
 
                             if parsed_group_of_timeframes not in global_dict_assets_per_tf_group:
                                 global_dict_assets_per_tf_group[parsed_group_of_timeframes] = symbol
@@ -202,9 +234,9 @@ for filename in os.listdir("ScanResults"):
                                 else:
                                     global_dict_evol_tf_group[group_of_timeframes] = evol
 
-                                #To have a space between each group of timeframes, uncomment the 2 lines here after
-                                #print("")
-                                #log_to_results("")
+                                # To have a space between each group of timeframes, uncomment the 2 lines here after
+                                # print("")
+                                # log_to_results("")
                             else:
                                 # print("same group of timeframes detected =", current_group_of_timeframes)
                                 if group_of_timeframes in dict_evol_tf_group:
@@ -224,20 +256,24 @@ for filename in os.listdir("ScanResults"):
                             date_detect = text.split(' ')[3]
                             time_detect = text.split(' ')[4].split('.')[0]
 
-                            #print(filename, "\t", symbol, fill_symbol, date_detect + " " + time_detect, "\t[" + str(price) + "]", fill_price, "\t[" + str(currentprice) + "]", fill_currentprice, "\t[" + "{:.2f}".format(evol) + " %]", fill_evol,
+                            # print(filename, "\t", symbol, fill_symbol, date_detect + " " + time_detect, "\t[" + str(price) + "]", fill_price, "\t[" + str(currentprice) + "]", fill_currentprice, "\t[" + "{:.2f}".format(evol) + " %]", fill_evol,
                             #    "\t[" + text.split('[')[0].split('spot')[2] + "]")
-                            #log_to_results(filename + "\t" + symbol + fill_symbol + date_detect + " " + time_detect + "\t[" + str(price) + "]" + fill_price + "\t[" + str(currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(
+                            # log_to_results(filename + "\t" + symbol + fill_symbol + date_detect + " " + time_detect + "\t[" + str(price) + "]" + fill_price + "\t[" + str(currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(
                             #    evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split('spot')[2] + "]")
 
-                            print(symbol, fill_symbol, date_detect + " " + time_detect, "\t[" + str(price) + "]", fill_price, "\t[" + str(currentprice) + "]", fill_currentprice, "\t[" + "{:.2f}".format(evol) + " %]", fill_evol,
-                                "\t[" + text.split('[')[0].split('spot')[2] + "]")
-                            log_to_results(symbol + fill_symbol + date_detect + " " + time_detect + "\t[" + str(price) + "]" + fill_price + "\t[" + str(currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(
+                            print(symbol, fill_symbol, date_detect + " " + time_detect, "\t[" + str(price) + "]",
+                                  fill_price, "\t[" + str(currentprice) + "]", fill_currentprice,
+                                  "\t[" + "{:.2f}".format(evol) + " %]", fill_evol,
+                                  "\t[" + text.split('[')[0].split('spot')[2] + "]")
+                            log_to_results(symbol + fill_symbol + date_detect + " " + time_detect + "\t[" + str(
+                                price) + "]" + fill_price + "\t[" + str(
+                                currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(
                                 evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split('spot')[2] + "]")
 
                     line += 1
             # print(text)
         except:
-            #print(sys.exc_info())
+            # print(sys.exc_info())
             # exit(-10003)
             pass
 
@@ -269,13 +305,17 @@ for filename in os.listdir("ScanResults"):
             first_record_done = False
             for k in sorted(dict_evol_tf_group, key=lambda k: dict_evol_tf_group[k], reverse=True):
                 fill_key = "." * (48 - len(k))
-                #print("[" + k + "]", fill_key, "{:.2f}".format(dict_evol_tf_group[k]), "%")
-                #log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]) + "%")
-                print("[" + k + "]", fill_key, "{:.2f}".format(dict_evol_tf_group[k]), "%", 4*" ", dict_assets_per_tf_group[k])
-                log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]) + "%" + 4*" " + dict_assets_per_tf_group[k])
+                # print("[" + k + "]", fill_key, "{:.2f}".format(dict_evol_tf_group[k]), "%")
+                # log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]) + "%")
+                print("[" + k + "]", fill_key, "{:.2f}".format(dict_evol_tf_group[k]), "%", 4 * " ",
+                      dict_assets_per_tf_group[k])
+                log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]) + "%" + 4 * " " +
+                               dict_assets_per_tf_group[k])
 
                 if first_record_done is False:
-                    array_evol_tf_group_global.append("[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]) + "%" + 4*" " + dict_assets_per_tf_group[k])
+                    array_evol_tf_group_global.append(
+                        "[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]) + "%" + 4 * " " +
+                        dict_assets_per_tf_group[k])
                     first_record_done = True
 
             print("")
@@ -285,14 +325,15 @@ for filename in os.listdir("ScanResults"):
             print(100 * "*")
             print("")
 
-            log_to_results("Average total evol for this file " + "{:.2f}".format(total_evol / len(dict_evol_tf_group)) + " %")
+            log_to_results(
+                "Average total evol for this file " + "{:.2f}".format(total_evol / len(dict_evol_tf_group)) + " %")
             log_to_results(100 * "*")
             log_to_results("")
 
         print("")
         log_to_results("")
 
-#The first best group of timeframes from each file.
+# The first best group of timeframes from each file.
 print("GLOBAL Best groups of timeframes for each processed file")
 log_to_results("Best groups of timeframes for each processed file")
 for line in array_evol_tf_group_global:
@@ -302,12 +343,14 @@ for line in array_evol_tf_group_global:
 print("")
 log_to_results("")
 
-#All groups of timeframes from all files (ordered).
+# All groups of timeframes from all files (ordered).
 print("GLOBAL Average evol per group of timeframes (ordered) :")
 log_to_results("GLOBAL Average evol per group of timeframes (ordered) :")
 for k in sorted(global_dict_evol_tf_group, key=lambda k: global_dict_evol_tf_group[k], reverse=True):
     fill_key = "." * (48 - len(k))
-    print("[" + k + "]", fill_key, "{:.2f}".format(global_dict_evol_tf_group[k]), "%", 4*" ", global_dict_assets_per_tf_group[k])
-    log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(global_dict_evol_tf_group[k]) + "%" + 4*" " + global_dict_assets_per_tf_group[k])
+    print("[" + k + "]", fill_key, "{:.2f}".format(global_dict_evol_tf_group[k]), "%", 4 * " ",
+          global_dict_assets_per_tf_group[k])
+    log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(global_dict_evol_tf_group[k]) + "%" + 4 * " " +
+                   global_dict_assets_per_tf_group[k])
 
 
