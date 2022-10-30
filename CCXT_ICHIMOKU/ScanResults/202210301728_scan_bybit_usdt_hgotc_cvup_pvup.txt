@@ -1,0 +1,5 @@
+Scan results at : 2022-10-30 17:22:48.363503
+XRPUSDT swap bybit 2022-10-30 17:28:08.176351 bybit XRPUSDT swap 1m [-1.87 %] [price = 0.46120000]                                                                             
+LINKUSDT swap bybit 2022-10-30 17:21:01.284307 bybit LINKUSDT swap 12h [0.31 %] [price = 7.65600000]                                                                           
+BNBUSDT swap bybit 2022-10-30 17:13:21.780978 bybit BNBUSDT swap 1d [3.15 %] [price = 313.90000000] *** new highest evol in %                                                  
+EGLDUSDT swap bybit 2022-10-30 17:16:41.796505 bybit EGLDUSDT swap 1d [2.21 %] [price = 57.90000000]                                                                           

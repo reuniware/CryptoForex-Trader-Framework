@@ -1,0 +1,12 @@
+Scan results at : 2022-10-30 19:08:33.825856
+1000XECUSDT swap bybit 2022-10-30 19:09:00.943215 bybit 1000XECUSDT swap 1m [-0.96 %] [price = 0.03837000]                                                                     
+ALICEUSDT swap bybit 2022-10-30 19:09:51.983645 bybit ALICEUSDT swap 1m [2.05 %] [price = 1.74000000]                                                                          
+ALPHAUSDT swap bybit 2022-10-30 19:09:58.677758 bybit ALPHAUSDT swap 1m [1.73 %] [price = 0.12025000]                                                                          
+MANAUSDT swap bybit 2022-10-30 19:21:21.987228 bybit MANAUSDT swap 1m [3.10 %] [price = 0.68200000]                                                                            
+C98USDT swap bybit 2022-10-30 19:13:02.188034 bybit C98USDT swap 3m [-1.19 %] [price = 0.33350000]                                                                             
+GTCUSDT swap bybit 2022-10-30 19:18:01.156910 bybit GTCUSDT swap 5m [2.05 %] [price = 1.99000000]                                                                              
+LTCUSDT swap bybit 2022-10-30 19:21:08.722264 bybit LTCUSDT swap 5m [-1.75 %] [price = 55.58000000]                                                                            
+BLZUSDT swap bybit 2022-10-30 19:12:15.466049 bybit BLZUSDT swap 1h [-0.12 %] [price = 0.08130000]                                                                             
+BSWUSDT swap bybit 2022-10-30 19:12:49.254636 bybit BSWUSDT swap 5m 15m 2h [1.70 %] [price = 0.26360000]                                                                       
+ALGOUSDT swap bybit 2022-10-30 19:09:45.707743 bybit ALGOUSDT swap 12h [3.24 %] [price = 0.35050000] *** new highest evol in %                                                 
+ATOMUSDT swap bybit 2022-10-30 19:10:57.268859 bybit ATOMUSDT swap 1d [3.60 %] [price = 13.95500000] *** new highest evol in %                                                 

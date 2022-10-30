@@ -1,0 +1,8 @@
+Scan results at : 2022-10-30 17:48:53.481300
+ONTUSDT swap bybit 2022-10-30 18:02:31.701939 bybit ONTUSDT swap 1m [-0.68 %] [price = 0.22645000]                                                                             
+RSRUSDT swap bybit 2022-10-30 18:03:43.633884 bybit RSRUSDT swap 1m [4.76 %] [price = 0.00660000]                                                                              
+REEFUSDT swap bybit 2022-10-30 18:03:10.873605 bybit REEFUSDT swap 30m [2.50 %] [price = 0.00533500]                                                                           
+ALGOUSDT swap bybit 2022-10-30 17:50:04.629638 bybit ALGOUSDT swap 1h [3.53 %] [price = 0.35150000] *** new highest evol in %                                                  
+ATOMUSDT swap bybit 2022-10-30 17:51:15.348381 bybit ATOMUSDT swap 1h 2h [2.97 %] [price = 13.87000000]                                                                        
+CHZUSDT swap bybit 2022-10-30 17:53:49.254732 bybit CHZUSDT swap 6h [15.35 %] [price = 0.22735000] *** new highest evol in %                                                   
+CTCUSDT swap bybit 2022-10-30 17:54:33.623959 bybit CTCUSDT swap 6h 12h [12.73 %] [price = 0.52725000]                                                                         

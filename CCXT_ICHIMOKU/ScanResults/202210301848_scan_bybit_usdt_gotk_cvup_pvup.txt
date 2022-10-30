@@ -1,0 +1,7 @@
+Scan results at : 2022-10-30 18:28:13.777984
+ASTRUSDT swap bybit 2022-10-30 18:30:35.735129 bybit ASTRUSDT swap 1m [-0.81 %] [price = 0.03655000]                                                                           
+MASKUSDT swap bybit 2022-10-30 18:41:10.180550 bybit MASKUSDT swap 3m [-10.61 %] [price = 2.19000000]                                                                          
+IOTAUSDT swap bybit 2022-10-30 18:39:00.491433 bybit IOTAUSDT swap 30m [1.35 %] [price = 0.26200000]                                                                           
+FTTUSDT swap bybit 2022-10-30 18:37:05.150821 bybit FTTUSDT swap 1h [0.98 %] [price = 25.68000000]                                                                             
+FTMUSDT swap bybit 2022-10-30 18:36:58.196221 bybit FTMUSDT swap 1h 2h 4h [7.54 %] [price = 0.24250000]                                                                        
+CTCUSDT swap bybit 2022-10-30 18:34:15.096133 bybit CTCUSDT swap 12h [12.45 %] [price = 0.52595000] *** new highest evol in %                                                  
