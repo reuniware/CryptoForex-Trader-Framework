@@ -1,0 +1,12 @@
+Scan results at : 2022-10-30 19:28:32.402401
+ANKRUSDT swap bybit 2022-10-30 19:30:06.801735 bybit ANKRUSDT swap 1m [-0.34 %] [price = 0.02960000]                                                                           
+AUDIOUSDT swap bybit 2022-10-30 19:31:03.583130 bybit AUDIOUSDT swap 1m [1.00 %] [price = 0.20150000]                                                                          
+NEOUSDT swap bybit 2022-10-30 19:41:49.041578 bybit NEOUSDT swap 1m [-2.16 %] [price = 8.62000000]                                                                             
+CTSIUSDT swap bybit 2022-10-30 19:34:29.662316 bybit CTSIUSDT swap 5m [0.63 %] [price = 0.14295000]                                                                            
+1000LUNCUSDT swap bybit 2022-10-30 19:28:53.255490 bybit 1000LUNCUSDT swap 1h [3.29 %] [price = 0.24520000] *** new highest evol in %                                          
+CEEKUSDT swap bybit 2022-10-30 19:33:05.294277 bybit CEEKUSDT swap 1h [1.15 %] [price = 0.14455000]                                                                            
+LUNA2USDT swap bybit 2022-10-30 19:40:57.512022 bybit LUNA2USDT swap 1h [1.27 %] [price = 2.47000000]                                                                          
+BOBAUSDT swap bybit 2022-10-30 19:32:32.984264 bybit BOBAUSDT swap 2h [-0.86 %] [price = 0.28950000]                                                                           
+BSWUSDT swap bybit 2022-10-30 19:32:45.473950 bybit BSWUSDT swap 2h [2.01 %] [price = 0.26440000]                                                                              
+GLMRUSDT swap bybit 2022-10-30 19:37:31.508187 bybit GLMRUSDT swap 2h [-0.41 %] [price = 0.48300000]                                                                           
+ZILUSDT swap bybit 2022-10-30 19:48:14.401672 bybit ZILUSDT swap 4h [1.88 %] [price = 0.03145000]                                                                              

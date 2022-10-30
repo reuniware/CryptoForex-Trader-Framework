@@ -1,0 +1,2 @@
+Scan results at : 2022-10-30 19:53:19.786270
+BSWUSDT swap bybit 2022-10-30 19:52:33.683297 bybit BSWUSDT swap 2h [2.01 %] [price = 0.26440000] *** new highest evol in %                                                    

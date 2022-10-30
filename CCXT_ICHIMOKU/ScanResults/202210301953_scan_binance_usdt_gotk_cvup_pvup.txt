@@ -1,0 +1,18 @@
+Scan results at : 2022-10-30 19:48:21.817631
+COSUSDT spot binance 2022-10-30 19:09:07.215209 binance COSUSDT spot 1m [1.42 %] [price = 0.00570000]                                                                          
+ROSEUSDT spot binance 2022-10-30 19:29:03.934107 binance ROSEUSDT spot 1m [-1.63 %] [price = 0.06268000]                                                                       
+NKNUSDT spot binance 2022-10-30 19:12:07.627171 binance NKNUSDT spot 3m [0.66 %] [price = 0.09150000]                                                                          
+PEOPLEUSDT spot binance 2022-10-30 19:47:22.367594 binance PEOPLEUSDT spot 3m [-6.47 %] [price = 0.01979000]                                                                   
+SPELLUSDT spot binance 2022-10-30 19:47:39.440526 binance SPELLUSDT spot 3m [-0.01 %] [price = 0.00088960]                                                                     
+LTOUSDT spot binance 2022-10-30 19:14:49.999023 binance LTOUSDT spot 5m [-0.64 %] [price = 0.09250000]                                                                         
+OSMOUSDT spot binance 2022-10-30 19:53:18.593864 binance OSMOUSDT spot 5m [0.79 %] [price = 1.53500000]                                                                        
+WRXUSDT spot binance 2022-10-30 19:14:16.383371 binance WRXUSDT spot 15m [1.72 %] [price = 0.21330000]                                                                         
+MLNUSDT spot binance 2022-10-30 19:37:46.291719 binance MLNUSDT spot 15m [-0.08 %] [price = 23.84000000]                                                                       
+ERNUSDT spot binance 2022-10-30 19:37:09.663618 binance ERNUSDT spot 30m 1h [5.22 %] [price = 2.50000000]                                                                      
+KMDUSDT spot binance 2022-10-30 19:21:32.842147 binance KMDUSDT spot 2h [1.61 %] [price = 0.25820000]                                                                          
+VOXELUSDT spot binance 2022-10-30 19:46:54.881712 binance VOXELUSDT spot 1h 2h [0.61 %] [price = 0.24730000]                                                                   
+BSWUSDT spot binance 2022-10-30 19:50:30.029807 binance BSWUSDT spot 1h 2h [2.08 %] [price = 0.26490000]                                                                       
+FTMUSDT spot binance 2022-10-30 19:08:07.435868 binance FTMUSDT spot 2h 4h [5.81 %] [price = 0.23840000] *** new highest evol in %                                             
+UTKUSDT spot binance 2022-10-30 19:26:57.630794 binance UTKUSDT spot 4h 6h [1.42 %] [price = 0.13600000]                                                                       
+ADXUSDT spot binance 2022-10-30 19:43:27.456812 binance ADXUSDT spot 8h [-0.52 %] [price = 0.17170000]                                                                         
+MOVRUSDT spot binance 2022-10-30 19:44:02.548320 binance MOVRUSDT spot 2h 8h [1.27 %] [price = 11.14000000]                                                                    
