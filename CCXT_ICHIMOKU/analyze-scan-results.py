@@ -26,7 +26,7 @@ ope_for_filename = ""
 if only_positive_evol is True:
     ope_for_filename = "_ope"
 
-#file_filter = "_scan_bybit_usdt_hgotk_cvup.txt"
+#file_filter = "202210302125_scan_bybit_usdt_hgotk_cvup.txt"
 file_filter = ""
 
 logfilename = "./ScanResultsAnalyzer/" + stryear + strmonth + strday + strhour + strmin + "_analyzer_results_[" + file_filter.replace(
@@ -379,6 +379,25 @@ log_to_results("")
 print("GLOBAL evol per file (unordered) :")
 log_to_results("GLOBAL evol per file (unordered) :")
 for k in global_dict_evol_file:
+
+    filedatetime = k.split('_')[0]
+    #print(filedatetime)
+    date_time_obj = datetime.strptime(filedatetime, '%Y%m%d%H%M')
+    # print('Date:', date_time_obj.date())
+    # print('Time:', date_time_obj.time())
+    # print('Date-time:', date_time_obj)
+    diff = datetime.now() - date_time_obj
+    diff_sec = diff.total_seconds()
+    diff_min = diff_sec/60
+    diff_hour = diff_min/60
+    #print("diff_hour", diff_hour)
+
+    evol = global_dict_evol_file[k]
+    #print(evol)
+    avg_evol_per_hour = evol/diff_hour
+    avg_evol_per_min = evol/diff_min
+    avg_evol_per_sec = evol/diff_sec
+
     fill_key = "." * (64 - len(k))
-    print(k, fill_key, global_dict_evol_file[k])
-    log_to_results(k + fill_key + str(global_dict_evol_file[k]))
+    print(k + fill_key + str(global_dict_evol_file[k]) + " (avg/hour):" + str(avg_evol_per_hour) + " (avg/min):" + str(avg_evol_per_min))
+    log_to_results(k + fill_key + str(global_dict_evol_file[k]) + " (avg/hour):" + str(avg_evol_per_hour) + " (avg/min):" + str(avg_evol_per_min))
