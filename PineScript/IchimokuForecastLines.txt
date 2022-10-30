@@ -18,4 +18,8 @@ p2 = plot(leadLine2, offset = displacement - 1, color=#EF9A9A,
 	 title="Leading Span B")
 fill(p1, p2, color = leadLine1 > leadLine2 ? color.rgb(67, 160, 71, 90) : color.rgb(244, 67, 54, 90))
 
-line.new(x1=bar_index[1], y1=high[1], x2=bar_index+25, y2=leadLine1)
+if leadLine1>leadLine2
+	line.new(x1=bar_index[1], y1=high[1], x2=bar_index+25, y2=leadLine1, color = color.rgb(61, 62, 65))
+
+if leadLine2>leadLine1
+	line.new(x1=bar_index[1], y1=high[1], x2=bar_index+25, y2=leadLine2, color = color.rgb(61, 62, 65))
