@@ -129,6 +129,10 @@ for filename in os.listdir("ScanResults"):
                         exchange_id = text.split(' ')[2]
                         exchange = exchanges[exchange_id]
 
+                        split_term = 'spot'
+                        if exchange_id == 'bybit':
+                            split_term = 'swap'
+
                         if not tickers_downloaded:
                             tickers = exchange.fetch_tickers()
                             tickers_downloaded = True
@@ -187,7 +191,7 @@ for filename in os.listdir("ScanResults"):
                             fill_currentprice = " " * (16 - len(str(currentprice)))
                             fill_evol = " " * (16 - len(str(evol)))
 
-                            parsed_group_of_timeframes = text.split('[')[0].split('spot')[2].strip()
+                            parsed_group_of_timeframes = text.split('[')[0].split(split_term)[2].strip()
 
                             # print(parsed_group_of_timeframes)
                             if parsed_group_of_timeframes not in dict_assets_per_tf_group:
@@ -258,18 +262,18 @@ for filename in os.listdir("ScanResults"):
                             time_detect = text.split(' ')[4].split('.')[0]
 
                             # print(filename, "\t", symbol, fill_symbol, date_detect + " " + time_detect, "\t[" + str(price) + "]", fill_price, "\t[" + str(currentprice) + "]", fill_currentprice, "\t[" + "{:.2f}".format(evol) + " %]", fill_evol,
-                            #    "\t[" + text.split('[')[0].split('spot')[2] + "]")
+                            #    "\t[" + text.split('[')[0].split(split_term)[2] + "]")
                             # log_to_results(filename + "\t" + symbol + fill_symbol + date_detect + " " + time_detect + "\t[" + str(price) + "]" + fill_price + "\t[" + str(currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(
-                            #    evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split('spot')[2] + "]")
+                            #    evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split(split_term)[2] + "]")
 
                             print(symbol, fill_symbol, date_detect + " " + time_detect, "\t[" + str(price) + "]",
                                   fill_price, "\t[" + str(currentprice) + "]", fill_currentprice,
                                   "\t[" + "{:.2f}".format(evol) + " %]", fill_evol,
-                                  "\t[" + text.split('[')[0].split('spot')[2] + "]")
+                                  "\t[" + text.split('[')[0].split(split_term)[2] + "]")
                             log_to_results(symbol + fill_symbol + date_detect + " " + time_detect + "\t[" + str(
                                 price) + "]" + fill_price + "\t[" + str(
                                 currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(
-                                evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split('spot')[2] + "]")
+                                evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split(split_term)[2] + "]")
 
                     line += 1
             # print(text)
