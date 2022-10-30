@@ -1,0 +1,7 @@
+Scan results at : 2022-10-30 10:28:24.095148
+UNFIUSDT swap bybit 2022-10-30 10:45:56.820877 bybit UNFIUSDT swap 1m [1.45 %] [price = 6.12800000]                                                                            
+TRBUSDT swap bybit 2022-10-30 10:45:44.109877 bybit TRBUSDT swap 5m [-0.63 %] [price = 16.46000000]                                                                            
+LINAUSDT swap bybit 2022-10-30 10:39:42.077409 bybit LINAUSDT swap 15m [5.38 %] [price = 0.00881000]                                                                           
+ARUSDT swap bybit 2022-10-30 10:30:30.184811 bybit ARUSDT swap 2h [8.89 %] [price = 11.02000000] *** new highest evol in %                                                     
+GALAUSDT swap bybit 2022-10-30 10:36:57.378631 bybit GALAUSDT swap 2h [24.13 %] [price = 0.04542000] *** new highest evol in %                                                 
+SANDUSDT swap bybit 2022-10-30 10:43:31.483495 bybit SANDUSDT swap 2h [13.63 %] [price = 0.92180000]                                                                           

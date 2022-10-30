@@ -1,0 +1,8 @@
+Scan results at : 2022-10-30 16:33:18.971132
+ATOMUSDT swap bybit 2022-10-30 16:33:27.502240 bybit ATOMUSDT swap 15m [2.23 %] [price = 13.77000000] *** new highest evol in %                                                
+CHZUSDT swap bybit 2022-10-30 16:35:57.275886 bybit CHZUSDT swap 1h [14.00 %] [price = 0.22470000] *** new highest evol in %                                                   
+CROUSDT swap bybit 2022-10-30 16:36:28.279397 bybit CROUSDT swap 1h [4.02 %] [price = 0.11520000]                                                                              
+RNDRUSDT swap bybit 2022-10-30 16:45:15.111562 bybit RNDRUSDT swap 1h [3.65 %] [price = 0.56800000]                                                                            
+LINKUSDT swap bybit 2022-10-30 16:42:21.513204 bybit LINKUSDT swap 12h [-0.42 %] [price = 7.60000000]                                                                          
+BNBUSDT swap bybit 2022-10-30 16:34:47.734247 bybit BNBUSDT swap 1d [2.91 %] [price = 313.15000000] *** new highest evol in %                                                  
+EGLDUSDT swap bybit 2022-10-30 16:38:07.537581 bybit EGLDUSDT swap 15m 1d [2.29 %] [price = 57.95000000]                                                                       

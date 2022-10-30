@@ -1,0 +1,2 @@
+Scan results at : 2022-10-30 15:52:42.604682
+RNDRUSDT swap bybit 2022-10-30 16:06:57.941350 bybit RNDRUSDT swap 30m [2.19 %] [price = 0.56000000] *** new highest evol in %                                                 

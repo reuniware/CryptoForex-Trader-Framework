@@ -1,0 +1,10 @@
+Scan results at : 2022-10-30 13:01:31.357929
+PSGUSDT spot binance 2022-10-30 12:53:42.395377 binance PSGUSDT spot 5m [1.48 %] [price = 6.86000000]                                                                          
+GMTUSDT spot binance 2022-10-30 13:13:11.961197 binance GMTUSDT spot 15m [8.50 %] [price = 0.56140000]                                                                         
+DODOUSDT spot binance 2022-10-30 12:55:49.892806 binance DODOUSDT spot 30m [1.47 %] [price = 0.13800000]                                                                       
+ACMUSDT spot binance 2022-10-30 12:56:05.933140 binance ACMUSDT spot 30m [1.63 %] [price = 3.24600000]                                                                         
+FLUXUSDT spot binance 2022-10-30 13:09:53.205652 binance FLUXUSDT spot 1h [0.89 %] [price = 0.79000000]                                                                        
+SLPUSDT spot binance 2022-10-30 12:58:57.964140 binance SLPUSDT spot 4h [2.07 %] [price = 0.00345000] *** new highest evol in %                                                
+ARUSDT spot binance 2022-10-30 12:59:24.754666 binance ARUSDT spot 4h [10.17 %] [price = 11.16000000] *** new highest evol in %                                                
+GALAUSDT spot binance 2022-10-30 13:04:50.203019 binance GALAUSDT spot 4h [26.58 %] [price = 0.04634000] *** new highest evol in %                                             
+EGLDUSDT spot binance 2022-10-30 12:47:59.098927 binance EGLDUSDT spot 6h [1.94 %] [price = 57.70000000] *** new highest evol in %                                             

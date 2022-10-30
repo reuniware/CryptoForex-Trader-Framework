@@ -1,0 +1,13 @@
+Scan results at : 2022-10-30 10:09:18.360826
+AVAXUSDT swap bybit 2022-10-30 10:11:48.613581 bybit AVAXUSDT swap 3m [1.78 %] [price = 18.60500000]                                                                           
+ALICEUSDT swap bybit 2022-10-30 10:10:33.903092 bybit ALICEUSDT swap 2h [3.23 %] [price = 1.76000000] *** new highest evol in %                                                
+ARUSDT swap bybit 2022-10-30 10:11:23.799568 bybit ARUSDT swap 2h [9.19 %] [price = 11.05000000] *** new highest evol in %                                                     
+GALAUSDT swap bybit 2022-10-30 10:17:41.548178 bybit GALAUSDT swap 2h [21.89 %] [price = 0.04460000] *** new highest evol in %                                                 
+SANDUSDT swap bybit 2022-10-30 10:24:02.081008 bybit SANDUSDT swap 2h [11.74 %] [price = 0.90640000]                                                                           
+BSVUSDT swap bybit 2022-10-30 10:13:14.416072 bybit BSVUSDT swap 4h [0.83 %] [price = 48.35000000]                                                                             
+SPELLUSDT swap bybit 2022-10-30 10:25:00.388582 bybit SPELLUSDT swap 4h [4.55 %] [price = 0.00092000]                                                                          
+UNFIUSDT swap bybit 2022-10-30 10:26:29.886581 bybit UNFIUSDT swap 4h [1.18 %] [price = 6.11150000]                                                                            
+WAVESUSDT swap bybit 2022-10-30 10:26:55.350994 bybit WAVESUSDT swap 4h [7.47 %] [price = 3.59500000]                                                                          
+ZECUSDT swap bybit 2022-10-30 10:28:03.649348 bybit ZECUSDT swap 4h [1.11 %] [price = 54.85000000]                                                                             
+MASKUSDT swap bybit 2022-10-30 10:21:18.750418 bybit MASKUSDT swap 12h [-6.12 %] [price = 2.30000000]                                                                          
+MINAUSDT swap bybit 2022-10-30 10:21:31.250269 bybit MINAUSDT swap 12h [-4.60 %] [price = 0.68400000]                                                                          

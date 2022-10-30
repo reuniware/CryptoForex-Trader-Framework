@@ -1,0 +1,3 @@
+Scan results at : 2022-10-30 13:16:12.140298
+GALAUSDT swap bybit 2022-10-30 13:10:07.814317 bybit GALAUSDT swap 1m [27.88 %] [price = 0.04679000] *** new highest evol in %                                                 
+ZENUSDT swap bybit 2022-10-30 13:20:29.972346 bybit ZENUSDT swap 1m [0.72 %] [price = 13.95000000]                                                                             

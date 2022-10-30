@@ -1,0 +1,11 @@
+Scan results at : 2022-10-30 11:58:47.876599
+BELUSDT swap bybit 2022-10-30 11:48:56.546135 bybit BELUSDT swap 1m [1.21 %] [price = 0.57590000]                                                                              
+KAVAUSDT swap bybit 2022-10-30 11:56:05.073018 bybit KAVAUSDT swap 1m [1.41 %] [price = 1.51200000]                                                                            
+LINKUSDT swap bybit 2022-10-30 11:56:48.434316 bybit LINKUSDT swap 1m [-0.69 %] [price = 7.57900000]                                                                           
+LOOKSUSDT swap bybit 2022-10-30 11:57:00.594102 bybit LOOKSUSDT swap 1m [0.00 %] [price = 0.23000000]                                                                          
+OGNUSDT swap bybit 2022-10-30 11:58:27.467296 bybit OGNUSDT swap 5m [4.47 %] [price = 0.15200000]                                                                              
+JSTUSDT swap bybit 2022-10-30 11:55:58.801722 bybit JSTUSDT swap 15m [1.10 %] [price = 0.03034000]                                                                             
+ARUSDT swap bybit 2022-10-30 11:47:48.335227 bybit ARUSDT swap 1m 2h [9.98 %] [price = 11.13000000] *** new highest evol in %                                                  
+SPELLUSDT swap bybit 2022-10-30 12:01:15.908185 bybit SPELLUSDT swap 6h [3.41 %] [price = 0.00091000]                                                                          
+AGLDUSDT swap bybit 2022-10-30 11:46:40.240774 bybit AGLDUSDT swap 12h [8.47 %] [price = 0.37150000] *** new highest evol in %                                                 
+BNBUSDT swap bybit 2022-10-30 11:49:21.217069 bybit BNBUSDT swap 1d [2.45 %] [price = 311.75000000]                                                                            

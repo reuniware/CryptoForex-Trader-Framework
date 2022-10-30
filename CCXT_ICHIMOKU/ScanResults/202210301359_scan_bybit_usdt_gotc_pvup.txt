@@ -1,0 +1,2 @@
+Scan results at : 2022-10-30 13:40:47.073971
+EGLDUSDT swap bybit 2022-10-30 13:47:47.207748 bybit EGLDUSDT swap 1m [2.03 %] [price = 57.80000000] *** new highest evol in %                                                 

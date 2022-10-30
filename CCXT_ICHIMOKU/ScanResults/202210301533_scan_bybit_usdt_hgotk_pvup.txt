@@ -1,0 +1,3 @@
+Scan results at : 2022-10-30 15:14:58.540867
+CROUSDT swap bybit 2022-10-30 15:20:13.548050 bybit CROUSDT swap 30m [4.38 %] [price = 0.11560000] *** new highest evol in %                                                   
+EGLDUSDT swap bybit 2022-10-30 15:21:51.558456 bybit EGLDUSDT swap 6h [2.12 %] [price = 57.85000000]                                                                           

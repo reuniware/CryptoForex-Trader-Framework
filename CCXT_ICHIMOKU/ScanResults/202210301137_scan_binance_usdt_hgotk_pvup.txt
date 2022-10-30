@@ -1,0 +1,15 @@
+Scan results at : 2022-10-30 11:26:40.681538
+DOGEUSDT spot binance 2022-10-30 10:55:20.250523 binance DOGEUSDT spot 1s [3.30 %] [price = 0.12578000] *** new highest evol in %                                              
+DENTUSDT spot binance 2022-10-30 10:56:38.294506 binance DENTUSDT spot 3m [1.64 %] [price = 0.00092700]                                                                        
+ZENUSDT spot binance 2022-10-30 11:04:24.714387 binance ZENUSDT spot 30m [0.50 %] [price = 14.01000000]                                                                        
+RSRUSDT spot binance 2022-10-30 11:09:03.680335 binance RSRUSDT spot 30m [3.48 %] [price = 0.00654000]                                                                         
+AVAXUSDT spot binance 2022-10-30 11:12:23.828486 binance AVAXUSDT spot 30m [2.19 %] [price = 18.69000000]                                                                      
+CTKUSDT spot binance 2022-10-30 11:13:55.048647 binance CTKUSDT spot 30m [1.55 %] [price = 0.85100000]                                                                         
+ROSEUSDT spot binance 2022-10-30 11:14:47.675051 binance ROSEUSDT spot 30m [1.74 %] [price = 0.06483000]                                                                       
+SANDUSDT spot binance 2022-10-30 11:08:23.788131 binance SANDUSDT spot 2h [14.01 %] [price = 0.92520000] *** new highest evol in %                                             
+ARUSDT spot binance 2022-10-30 11:21:19.013603 binance ARUSDT spot 2h [8.88 %] [price = 11.03000000]                                                                           
+IDEXUSDT spot binance 2022-10-30 11:26:20.500116 binance IDEXUSDT spot 2h [1.22 %] [price = 0.05986000]                                                                        
+GALAUSDT spot binance 2022-10-30 11:26:39.811650 binance GALAUSDT spot 2h [24.31 %] [price = 0.04551000] *** new highest evol in %                                             
+FIDAUSDT spot binance 2022-10-30 11:27:20.391158 binance FIDAUSDT spot 3m 30m 2h [2.75 %] [price = 0.41520000]                                                                 
+ASRUSDT spot binance 2022-10-30 11:16:20.212545 binance ASRUSDT spot 4h [2.00 %] [price = 3.06500000]                                                                          
+CAKEUSDT spot binance 2022-10-30 11:17:54.452696 binance CAKEUSDT spot 1d [2.14 %] [price = 4.73600000]                                                                        

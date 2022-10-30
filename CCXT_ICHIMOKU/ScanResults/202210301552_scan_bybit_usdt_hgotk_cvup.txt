@@ -1,0 +1,11 @@
+Scan results at : 2022-10-30 15:44:04.701028
+AGLDUSDT swap bybit 2022-10-30 15:34:43.198058 bybit AGLDUSDT swap 1m [4.38 %] [price = 0.35750000] *** new highest evol in %                                                  
+CTCUSDT swap bybit 2022-10-30 15:39:10.886711 bybit CTCUSDT swap 15m [14.87 %] [price = 0.53725000] *** new highest evol in %                                                  
+ALICEUSDT swap bybit 2022-10-30 15:35:01.243626 bybit ALICEUSDT swap 4h [2.93 %] [price = 1.75500000]                                                                          
+BSWUSDT swap bybit 2022-10-30 15:37:45.150070 bybit BSWUSDT swap 4h [1.81 %] [price = 0.26390000]                                                                              
+GALAUSDT swap bybit 2022-10-30 15:42:06.039367 bybit GALAUSDT swap 4h [19.70 %] [price = 0.04380000] *** new highest evol in %                                                 
+SANDUSDT swap bybit 2022-10-30 15:48:25.887459 bybit SANDUSDT swap 4h [5.74 %] [price = 0.85780000]                                                                            
+SLPUSDT swap bybit 2022-10-30 15:49:03.556161 bybit SLPUSDT swap 4h [1.19 %] [price = 0.00341000]                                                                              
+EGLDUSDT swap bybit 2022-10-30 15:40:37.307266 bybit EGLDUSDT swap 6h [2.03 %] [price = 57.80000000]                                                                           
+BAKEUSDT swap bybit 2022-10-30 15:36:25.722419 bybit BAKEUSDT swap 12h [-4.38 %] [price = 0.25100000]                                                                          
+DOGEUSDT swap bybit 2022-10-30 15:40:12.783107 bybit DOGEUSDT swap 12h [-5.18 %] [price = 0.11540000]                                                                          

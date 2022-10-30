@@ -1,0 +1,14 @@
+Scan results at : 2022-10-30 12:42:14.862213
+DGBUSDT swap bybit 2022-10-30 12:48:38.075956 bybit DGBUSDT swap 5m [1.95 %] [price = 0.00941000]                                                                              
+ATOMUSDT swap bybit 2022-10-30 12:44:35.267373 bybit ATOMUSDT swap 15m [2.41 %] [price = 13.79500000] *** new highest evol in %                                                
+C98USDT swap bybit 2022-10-30 12:46:33.432928 bybit C98USDT swap 15m [1.93 %] [price = 0.34400000]                                                                             
+ANTUSDT swap bybit 2022-10-30 12:43:52.165803 bybit ANTUSDT swap 30m [1.10 %] [price = 1.83500000] *** new highest evol in %                                                   
+CELRUSDT swap bybit 2022-10-30 12:46:51.888052 bybit CELRUSDT swap 30m [2.57 %] [price = 0.01595000] *** new highest evol in %                                                 
+COMPUSDT swap bybit 2022-10-30 12:47:17.170832 bybit COMPUSDT swap 30m [2.65 %] [price = 52.35000000] *** new highest evol in %                                                
+DENTUSDT swap bybit 2022-10-30 12:48:31.913194 bybit DENTUSDT swap 30m [1.21 %] [price = 0.00092100]                                                                           
+GALUSDT swap bybit 2022-10-30 12:50:50.634027 bybit GALUSDT swap 30m [3.86 %] [price = 2.28500000] *** new highest evol in %                                                   
+IOSTUSDT swap bybit 2022-10-30 12:52:18.793874 bybit IOSTUSDT swap 30m [1.92 %] [price = 0.01168000]                                                                           
+KDAUSDT swap bybit 2022-10-30 12:52:56.771638 bybit KDAUSDT swap 30m [0.77 %] [price = 1.31500000]                                                                             
+RSRUSDT swap bybit 2022-10-30 12:56:44.238991 bybit RSRUSDT swap 30m [4.76 %] [price = 0.00660000] *** new highest evol in %                                                   
+SKLUSDT swap bybit 2022-10-30 12:57:39.578200 bybit SKLUSDT swap 30m [2.64 %] [price = 0.03885000]                                                                             
+KSMUSDT swap bybit 2022-10-30 12:53:16.967710 bybit KSMUSDT swap 15m 30m [1.67 %] [price = 36.55000000]                                                                        

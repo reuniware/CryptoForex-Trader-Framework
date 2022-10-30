@@ -1,0 +1,2 @@
+Scan results at : 2022-10-30 14:05:13.376948
+RNDRUSDT swap bybit 2022-10-30 14:14:00.062188 bybit RNDRUSDT swap 1h [-0.36 %] [price = 0.54600000]                                                                           

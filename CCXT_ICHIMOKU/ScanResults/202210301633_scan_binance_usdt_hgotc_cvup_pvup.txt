@@ -1,0 +1,8 @@
+Scan results at : 2022-10-30 16:31:09.275103
+IDEXUSDT spot binance 2022-10-30 16:21:29.888005 binance IDEXUSDT spot 15m [2.55 %] [price = 0.06065000]                                                                       
+CVPUSDT spot binance 2022-10-30 16:22:49.111995 binance CVPUSDT spot 15m [8.58 %] [price = 0.45060000]                                                                         
+ALPACAUSDT spot binance 2022-10-30 16:19:47.645407 binance ALPACAUSDT spot 1h [2.95 %] [price = 0.30030000] *** new highest evol in %                                          
+RNDRUSDT spot binance 2022-10-30 16:26:09.405611 binance RNDRUSDT spot 1h [1.83 %] [price = 0.55700000]                                                                        
+LAZIOUSDT spot binance 2022-10-30 16:23:29.123704 binance LAZIOUSDT spot 2h [26.32 %] [price = 5.17850000] *** new highest evol in %                                           
+GALAUSDT spot binance 2022-10-30 16:21:48.711784 binance GALAUSDT spot 8h [19.12 %] [price = 0.04361000] *** new highest evol in %                                             
+BNBUSDT spot binance 2022-10-30 15:44:36.082264 binance BNBUSDT spot 1d [2.43 %] [price = 311.90000000] *** new highest evol in %                                              

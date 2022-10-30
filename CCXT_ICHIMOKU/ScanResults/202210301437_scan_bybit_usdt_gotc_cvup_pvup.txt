@@ -1,0 +1,6 @@
+Scan results at : 2022-10-30 14:18:56.316264
+CTCUSDT swap bybit 2022-10-30 14:24:23.469612 bybit CTCUSDT swap 5m [-2.12 %] [price = 0.45780000]                                                                             
+ALGOUSDT swap bybit 2022-10-30 14:20:06.289379 bybit ALGOUSDT swap 30m [2.65 %] [price = 0.34850000] *** new highest evol in %                                                 
+CHZUSDT swap bybit 2022-10-30 14:23:41.046840 bybit CHZUSDT swap 30m 1h [8.45 %] [price = 0.21375000] *** new highest evol in %                                                
+CROUSDT swap bybit 2022-10-30 14:24:11.234116 bybit CROUSDT swap 2h [1.04 %] [price = 0.11190000]                                                                              
+USDCUSDT swap bybit 2022-10-30 14:36:07.054821 bybit USDCUSDT swap 12h [0.01 %] [price = 1.00000000]                                                                           

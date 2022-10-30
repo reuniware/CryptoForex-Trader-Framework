@@ -1,0 +1,10 @@
+Scan results at : 2022-10-30 13:20:43.299196
+1000BTTUSDT swap bybit 2022-10-30 13:20:58.644795 bybit 1000BTTUSDT swap 1m [-0.72 %] [price = 0.00082800]                                                                     
+BITUSDT swap bybit 2022-10-30 13:24:11.619925 bybit BITUSDT swap 1m [-1.14 %] [price = 0.43500000]                                                                             
+DARUSDT swap bybit 2022-10-30 13:26:48.959595 bybit DARUSDT swap 1m [3.62 %] [price = 0.21450000] *** new highest evol in %                                                    
+RSRUSDT swap bybit 2022-10-30 13:35:19.867929 bybit RSRUSDT swap 3m [3.97 %] [price = 0.00655000] *** new highest evol in %                                                    
+CHZUSDT swap bybit 2022-10-30 13:25:33.517086 bybit CHZUSDT swap 1m 3m [0.18 %] [price = 0.19745000]                                                                           
+SANDUSDT swap bybit 2022-10-30 13:35:44.575400 bybit SANDUSDT swap 1m 3m [12.12 %] [price = 0.90950000] *** new highest evol in %                                              
+BSVUSDT swap bybit 2022-10-30 13:24:42.643581 bybit BSVUSDT swap 30m [0.73 %] [price = 48.30000000] *** new highest evol in %                                                  
+C98USDT swap bybit 2022-10-30 13:25:02.102250 bybit C98USDT swap 12h [2.52 %] [price = 0.34600000] *** new highest evol in %                                                   
+USDCUSDT swap bybit 2022-10-30 13:38:36.216372 bybit USDCUSDT swap 12h [0.00 %] [price = 0.99990000]                                                                           
