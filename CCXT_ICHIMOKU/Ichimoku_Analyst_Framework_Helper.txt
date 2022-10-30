@@ -101,3 +101,13 @@ python3 Ichimoku2022_Multithreaded.py -e bybit -f *usdt -gotc -pvup;
 python3 Ichimoku2022_Multithreaded.py -e bybit -f *usdt -gotc -cvup;
 python3 Ichimoku2022_Multithreaded.py -e bybit -f *usdt -gotc -cvup -pvup; 
 done
+
+
+
+
+while true; do python3 Ichimoku2022_Multithreaded.py -e binance -f *usdt -gotk -cvup -pvup; done
+while true; do python3 Ichimoku2022_Multithreaded.py -e gateio -f *usdt -gotk -cvup -pvup; done
+while true; do python3 Ichimoku2022_Multithreaded.py -e bybit -f *usdt -gotk -cvup -pvup; done
+
+
+
