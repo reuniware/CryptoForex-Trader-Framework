@@ -399,5 +399,5 @@ for k in global_dict_evol_file:
     avg_evol_per_sec = evol/diff_sec
 
     fill_key = "." * (64 - len(k))
-    print(k + fill_key + str(global_dict_evol_file[k]) + " (avg/hour):" + str(avg_evol_per_hour) + " (avg/min):" + str(avg_evol_per_min))
-    log_to_results(k + fill_key + str(global_dict_evol_file[k]) + " (avg/hour):" + str(avg_evol_per_hour) + " (avg/min):" + str(avg_evol_per_min))
+    print(k + fill_key + "{:.8f}".format(global_dict_evol_file[k]) + " (avg/hour):" + "{:.8f}".format(avg_evol_per_hour) + " (avg/min):" + "{:.8f}".format(avg_evol_per_min))
+    log_to_results(k + fill_key + "{:.8f}".format(global_dict_evol_file[k]) + " (avg/hour):" + "{:.8f}".format(avg_evol_per_hour) + " (avg/min):" + "{:.8f}".format(avg_evol_per_min))
