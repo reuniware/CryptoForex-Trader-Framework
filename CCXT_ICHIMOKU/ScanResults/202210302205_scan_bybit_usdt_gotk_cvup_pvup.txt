@@ -1,0 +1,10 @@
+Scan results at : 2022-10-30 21:45:43.054567
+APTUSDT swap bybit 2022-10-30 21:47:40.985315 bybit APTUSDT swap 3m [-0.69 %] [price = 7.90000000]                                                                             
+CHZUSDT swap bybit 2022-10-30 21:50:43.070659 bybit CHZUSDT swap 3m [13.80 %] [price = 0.22430000] *** new highest evol in %                                                   
+ROSEUSDT swap bybit 2022-10-30 22:00:20.053702 bybit ROSEUSDT swap 3m [-1.41 %] [price = 0.06280000]                                                                           
+RUNEUSDT swap bybit 2022-10-30 22:00:40.092268 bybit RUNEUSDT swap 3m [-0.45 %] [price = 1.56400000]                                                                           
+BOBAUSDT swap bybit 2022-10-30 21:49:45.571154 bybit BOBAUSDT swap 2h [0.17 %] [price = 0.29250000] *** new highest evol in %                                                  
+DOTUSDT swap bybit 2022-10-30 21:52:39.266179 bybit DOTUSDT swap 2h [0.15 %] [price = 6.64500000]                                                                              
+CEEKUSDT swap bybit 2022-10-30 21:50:17.548206 bybit CEEKUSDT swap 30m 1h 2h [8.78 %] [price = 0.15545000] *** new highest evol in %                                           
+CTCUSDT swap bybit 2022-10-30 21:51:29.210351 bybit CTCUSDT swap 12h [14.31 %] [price = 0.53465000] *** new highest evol in %                                                  
+USDCUSDT swap bybit 2022-10-30 22:03:29.043924 bybit USDCUSDT swap 1m 12h [0.01 %] [price = 1.00000000]                                                                        

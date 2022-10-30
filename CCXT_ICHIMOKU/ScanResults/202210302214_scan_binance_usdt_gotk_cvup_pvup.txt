@@ -1,0 +1,14 @@
+Scan results at : 2022-10-30 22:05:08.370784
+XMRUSDT spot binance 2022-10-30 21:29:12.483498 binance XMRUSDT spot 5m [0.20 %] [price = 149.20000000]                                                                        
+BONDUSDT spot binance 2022-10-30 21:59:28.448034 binance BONDUSDT spot 5m [-0.71 %] [price = 4.89300000]                                                                       
+GALAUSDT spot binance 2022-10-30 22:03:01.128730 binance GALAUSDT spot 5m [20.87 %] [price = 0.04425000] *** new highest evol in %                                             
+LUNCUSDT spot binance 2022-10-30 22:13:33.448926 binance LUNCUSDT spot 3m 5m [4.29 %] [price = 0.00024779]                                                                     
+TRXDOWNUSDT spot binance 2022-10-30 21:47:16.833752 binance TRXDOWNUSDT spot 15m [3.84 %] [price = 1.10900000]                                                                 
+XRPDOWNUSDT spot binance 2022-10-30 21:47:35.718553 binance XRPDOWNUSDT spot 30m [5.34 %] [price = 0.00027220]                                                                 
+FETUSDT spot binance 2022-10-30 21:28:56.622425 binance FETUSDT spot 2h [1.43 %] [price = 0.08530000] *** new highest evol in %                                                
+DOTUSDT spot binance 2022-10-30 21:45:06.261401 binance DOTUSDT spot 2h [0.15 %] [price = 6.64000000]                                                                          
+KSMUSDT spot binance 2022-10-30 21:46:15.961228 binance KSMUSDT spot 2h [2.36 %] [price = 36.80000000]                                                                         
+DOTUPUSDT spot binance 2022-10-30 21:47:45.694840 binance DOTUPUSDT spot 2h [0.06 %] [price = 0.16350000]                                                                      
+ADXUSDT spot binance 2022-10-30 22:04:58.880737 binance ADXUSDT spot 8h [-0.29 %] [price = 0.17210000]                                                                         
+MOVRUSDT spot binance 2022-10-30 22:05:31.266392 binance MOVRUSDT spot 8h [0.45 %] [price = 11.05000000]                                                                       
+CHZUSDT spot binance 2022-10-30 21:33:46.364676 binance CHZUSDT spot 3d [13.33 %] [price = 0.22360000] *** new highest evol in %                                               

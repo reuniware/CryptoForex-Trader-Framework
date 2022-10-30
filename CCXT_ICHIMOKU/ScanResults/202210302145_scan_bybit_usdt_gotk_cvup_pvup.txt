@@ -1,0 +1,11 @@
+Scan results at : 2022-10-30 21:26:26.607811
+AAVEUSDT swap bybit 2022-10-30 21:27:05.816886 bybit AAVEUSDT swap 1m [-1.29 %] [price = 84.25000000]                                                                          
+AVAXUSDT swap bybit 2022-10-30 21:28:59.604831 bybit AVAXUSDT swap 1m [0.30 %] [price = 18.33500000]                                                                           
+1000LUNCUSDT swap bybit 2022-10-30 21:26:46.909726 bybit 1000LUNCUSDT swap 3m [3.33 %] [price = 0.24530000] *** new highest evol in %                                          
+SCRTUSDT swap bybit 2022-10-30 21:41:30.179511 bybit SCRTUSDT swap 3m 5m [-0.75 %] [price = 0.93200000]                                                                        
+PAXGUSDT swap bybit 2022-10-30 21:40:03.820801 bybit PAXGUSDT swap 1m 3m 5m [0.18 %] [price = 1639.00000000]                                                                   
+BOBAUSDT swap bybit 2022-10-30 21:30:21.902527 bybit BOBAUSDT swap 2h [0.17 %] [price = 0.29250000]                                                                            
+CEEKUSDT swap bybit 2022-10-30 21:30:53.236778 bybit CEEKUSDT swap 2h [3.92 %] [price = 0.14850000] *** new highest evol in %                                                  
+CELOUSDT swap bybit 2022-10-30 21:30:59.572454 bybit CELOUSDT swap 2h [0.84 %] [price = 0.72100000]                                                                            
+DOTUSDT swap bybit 2022-10-30 21:33:17.047485 bybit DOTUSDT swap 2h [0.23 %] [price = 6.65000000]                                                                              
+CTCUSDT swap bybit 2022-10-30 21:32:05.403557 bybit CTCUSDT swap 12h [13.44 %] [price = 0.53055000] *** new highest evol in %                                                  
