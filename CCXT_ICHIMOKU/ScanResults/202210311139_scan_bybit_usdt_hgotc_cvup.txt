@@ -1,0 +1,15 @@
+Scan results at : 2022-10-31 11:20:26.858896
+ACHUSDT swap bybit 2022-10-31 11:21:14.237024 bybit ACHUSDT swap 3m [2.90 %] [price = 0.01172000] *** new highest evol in %                                                    
+SCRTUSDT swap bybit 2022-10-31 11:35:24.911135 bybit SCRTUSDT swap 15m [0.76 %] [price = 0.92900000]                                                                           
+BNXUSDT swap bybit 2022-10-31 11:24:20.092223 bybit BNXUSDT swap 1h [5.38 %] [price = 151.70000000]                                                                            
+BSWUSDT swap bybit 2022-10-31 11:24:38.593153 bybit BSWUSDT swap 1h [0.46 %] [price = 0.26400000]                                                                              
+FLMUSDT swap bybit 2022-10-31 11:28:27.011171 bybit FLMUSDT swap 1h [4.13 %] [price = 0.11850000]                                                                              
+FTMUSDT swap bybit 2022-10-31 11:28:39.684423 bybit FTMUSDT swap 1h [1.27 %] [price = 0.24000000]                                                                              
+FTTUSDT swap bybit 2022-10-31 11:28:45.813497 bybit FTTUSDT swap 1h [2.81 %] [price = 26.33000000]                                                                             
+LITUSDT swap bybit 2022-10-31 11:31:50.095637 bybit LITUSDT swap 1h [11.56 %] [price = 0.93600000] *** new highest evol in %                                                   
+ASTRUSDT swap bybit 2022-10-31 11:22:43.706730 bybit ASTRUSDT swap 2h [7.79 %] [price = 0.03945000] *** new highest evol in %                                                  
+SUSHIUSDT swap bybit 2022-10-31 11:36:58.524861 bybit SUSHIUSDT swap 2h [4.36 %] [price = 1.77300000]                                                                          
+CELOUSDT swap bybit 2022-10-31 11:25:03.257338 bybit CELOUSDT swap 1h 2h [4.07 %] [price = 0.74100000]                                                                         
+GALAUSDT swap bybit 2022-10-31 11:28:58.117508 bybit GALAUSDT swap 12h [-1.98 %] [price = 0.04302000]                                                                          
+SANDUSDT swap bybit 2022-10-31 11:35:18.628124 bybit SANDUSDT swap 12h [2.57 %] [price = 0.88280000]                                                                           
+RSS3USDT swap bybit 2022-10-31 11:34:59.998547 bybit RSS3USDT swap 1d [4.29 %] [price = 0.13725000]                                                                            
