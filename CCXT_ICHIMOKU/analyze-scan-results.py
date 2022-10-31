@@ -26,8 +26,8 @@ ope_for_filename = ""
 if only_positive_evol is True:
     ope_for_filename = "_ope"
 
-#file_filter = "202210302125_scan_bybit_usdt_hgotk_cvup.txt"
-file_filter = ""
+file_filter = "20221031"
+#file_filter = ""
 
 logfilename = "./ScanResultsAnalyzer/" + stryear + strmonth + strday + strhour + strmin + "_analyzer_results_[" + file_filter.replace(
     '.txt', '') + "]" + ope_for_filename + ".txt"
@@ -376,6 +376,8 @@ print("")
 log_to_results("")
 
 # All evol per filename (unordered)
+highest_avg_per_hour = 0
+highest_avg_per_min = 0
 print("GLOBAL evol per file (unordered) :")
 log_to_results("GLOBAL evol per file (unordered) :")
 for k in global_dict_evol_file:
@@ -398,6 +400,16 @@ for k in global_dict_evol_file:
     avg_evol_per_min = evol/diff_min
     avg_evol_per_sec = evol/diff_sec
 
+    str_highest_avg_per_hour = ""
+    if avg_evol_per_hour > highest_avg_per_hour:
+        highest_avg_per_hour = avg_evol_per_hour
+        str_highest_avg_per_hour = " (*HAPH)"
+
+    str_highest_avg_per_min = ""
+    if avg_evol_per_min > highest_avg_per_min:
+        highest_avg_per_min = avg_evol_per_min
+        str_highest_avg_per_min = " (*HAPM)"
+
     fill_key = "." * (64 - len(k))
-    print(k + fill_key + "{:.8f}".format(global_dict_evol_file[k]) + " (avg/hour):" + "{:.8f}".format(avg_evol_per_hour) + " (avg/min):" + "{:.8f}".format(avg_evol_per_min))
-    log_to_results(k + fill_key + "{:.8f}".format(global_dict_evol_file[k]) + " (avg/hour):" + "{:.8f}".format(avg_evol_per_hour) + " (avg/min):" + "{:.8f}".format(avg_evol_per_min))
+    print(k + fill_key + "{:.8f}".format(global_dict_evol_file[k]) + " (avg/hour): " + "{:.8f}".format(avg_evol_per_hour) + " (avg/min): " + "{:.8f}".format(avg_evol_per_min) + str_highest_avg_per_hour + str_highest_avg_per_min)
+    log_to_results(k + fill_key + "{:.8f}".format(global_dict_evol_file[k]) + " (avg/hour): " + "{:.8f}".format(avg_evol_per_hour) + " (avg/min): " + "{:.8f}".format(avg_evol_per_min) + str_highest_avg_per_hour + str_highest_avg_per_min)
