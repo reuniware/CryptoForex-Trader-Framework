@@ -1,0 +1,5 @@
+Scan results at : 2022-10-30 23:45:35.119785
+CEEKUSDT swap bybit 2022-10-30 23:49:52.504447 bybit CEEKUSDT swap 1h [7.94 %] [price = 0.15425000] *** new highest evol in %                                                  
+ALGOUSDT swap bybit 2022-10-30 23:46:44.134589 bybit ALGOUSDT swap 4h [5.30 %] [price = 0.35750000] *** new highest evol in %                                                  
+CHZUSDT swap bybit 2022-10-30 23:50:16.684289 bybit CHZUSDT swap 4h [13.72 %] [price = 0.22415000] *** new highest evol in %                                                   
+GALAUSDT swap bybit 2022-10-30 23:53:49.690701 bybit GALAUSDT swap 6h [20.03 %] [price = 0.04392000] *** new highest evol in %                                                 

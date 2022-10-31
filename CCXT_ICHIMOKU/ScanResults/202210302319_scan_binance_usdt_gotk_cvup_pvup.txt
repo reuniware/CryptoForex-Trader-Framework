@@ -1,0 +1,5 @@
+Scan results at : 2022-10-30 23:18:42.736263
+LUNCUSDT spot binance 2022-10-30 23:18:57.715118 binance LUNCUSDT spot 5m [4.58 %] [price = 0.00024849] *** new highest evol in %                                              
+XVSUSDT spot binance 2022-10-30 22:55:04.078398 binance XVSUSDT spot 15m [2.46 %] [price = 5.00000000] *** new highest evol in %                                               
+QNTUSDT spot binance 2022-10-30 23:05:46.471772 binance QNTUSDT spot 1h [2.32 %] [price = 167.70000000]                                                                        
+MOVRUSDT spot binance 2022-10-30 23:11:06.655724 binance MOVRUSDT spot 8h [0.27 %] [price = 11.03000000]                                                                       

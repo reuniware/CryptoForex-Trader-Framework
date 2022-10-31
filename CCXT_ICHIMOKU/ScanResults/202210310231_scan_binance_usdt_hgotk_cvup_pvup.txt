@@ -1,0 +1,6 @@
+Scan results at : 2022-10-31 02:14:29.751974
+ADADOWNUSDT spot binance 2022-10-31 01:58:55.546098 binance ADADOWNUSDT spot 30m [1.60 %] [price = 0.00405700]                                                                 
+CHZUSDT spot binance 2022-10-31 01:51:24.703105 binance CHZUSDT spot 6h 8h [2.64 %] [price = 0.23300000] *** new highest evol in %                                             
+SANDUSDT spot binance 2022-10-31 02:02:11.321572 binance SANDUSDT spot 12h [2.01 %] [price = 0.87820000]                                                                       
+DOGEUSDT spot binance 2022-10-31 01:49:11.074177 binance DOGEUSDT spot 1d [1.83 %] [price = 0.11989000] *** new highest evol in %                                              
+UTKUSDT spot binance 2022-10-31 02:06:30.816112 binance UTKUSDT spot 1d [0.72 %] [price = 0.13970000]                                                                          

@@ -1,0 +1,4 @@
+Scan results at : 2022-10-31 02:32:59.660529
+CTCUSDT swap bybit 2022-10-31 02:38:26.543858 bybit CTCUSDT swap 3m [-0.56 %] [price = 0.52850000]                                                                             
+OGNUSDT swap bybit 2022-10-31 02:45:39.595199 bybit OGNUSDT swap 5m [0.75 %] [price = 0.14760000]                                                                              
+AVAXUSDT swap bybit 2022-10-31 02:35:27.938666 bybit AVAXUSDT swap 15m [1.23 %] [price = 18.46500000] *** new highest evol in %                                                

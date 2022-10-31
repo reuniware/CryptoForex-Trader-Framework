@@ -1,0 +1,6 @@
+Scan results at : 2022-10-31 00:55:10.360318
+GTOUSDT spot binance 2022-10-31 00:13:42.916672 binance GTOUSDT spot 5m [0.32 %] [price = 0.01887000] *** new highest evol in %                                                
+HIVEUSDT spot binance 2022-10-31 00:21:04.626079 binance HIVEUSDT spot 15m [0.13 %] [price = 0.47640000]                                                                       
+SOLUSDT spot binance 2022-10-31 00:20:46.178166 binance SOLUSDT spot 30m 1h [1.09 %] [price = 33.29000000] *** new highest evol in %                                           
+CHZUSDT spot binance 2022-10-31 00:16:08.663512 binance CHZUSDT spot 3d [-0.62 %] [price = 0.22560000]                                                                         
+VIDTUSDT spot binance 2022-10-31 00:44:59.196450 binance VIDTUSDT spot 3d [5.14 %] [price = 0.48510000] *** new highest evol in %                                              

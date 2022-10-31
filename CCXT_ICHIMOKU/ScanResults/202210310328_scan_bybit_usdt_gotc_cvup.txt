@@ -1,0 +1,7 @@
+Scan results at : 2022-10-31 03:19:17.439374
+AGLDUSDT swap bybit 2022-10-31 03:11:04.238008 bybit AGLDUSDT swap 1m [-1.19 %] [price = 0.33350000]                                                                           
+ATOMUSDT swap bybit 2022-10-31 03:12:23.128822 bybit ATOMUSDT swap 15m [0.50 %] [price = 13.99000000] *** new highest evol in %                                                
+DOTUSDT swap bybit 2022-10-31 03:16:36.479460 bybit DOTUSDT swap 30m [-0.08 %] [price = 6.64000000]                                                                            
+ENJUSDT swap bybit 2022-10-31 03:17:00.313950 bybit ENJUSDT swap 1h [-0.54 %] [price = 0.45700000]                                                                             
+IOTAUSDT swap bybit 2022-10-31 03:19:54.955842 bybit IOTAUSDT swap 1h [0.00 %] [price = 0.26050000]                                                                            
+AVAXUSDT swap bybit 2022-10-31 03:12:35.038446 bybit AVAXUSDT swap 30m 1h [1.54 %] [price = 18.52000000] *** new highest evol in %                                             

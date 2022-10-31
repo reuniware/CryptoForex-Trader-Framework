@@ -1,0 +1,8 @@
+Scan results at : 2022-10-31 05:56:20.846663
+LINKUSDT swap bybit 2022-10-31 06:07:12.572682 bybit LINKUSDT swap 3m [2.16 %] [price = 7.94500000]                                                                            
+XMRUSDT swap bybit 2022-10-31 06:13:49.968192 bybit XMRUSDT swap 30m [0.92 %] [price = 148.85000000]                                                                           
+AVAXUSDT swap bybit 2022-10-31 05:58:47.283580 bybit AVAXUSDT swap 1h [2.22 %] [price = 18.64500000] *** new highest evol in %                                                 
+SOLUSDT swap bybit 2022-10-31 06:11:24.772800 bybit SOLUSDT swap 1h [0.74 %] [price = 33.17000000]                                                                             
+XNOUSDT swap bybit 2022-10-31 06:13:56.157880 bybit XNOUSDT swap 1h [1.62 %] [price = 0.75350000]                                                                              
+GALAUSDT swap bybit 2022-10-31 06:04:29.740023 bybit GALAUSDT swap 12h [-3.78 %] [price = 0.04223000]                                                                          
+RSS3USDT swap bybit 2022-10-31 06:10:18.627946 bybit RSS3USDT swap 1d [2.05 %] [price = 0.13430000]                                                                            

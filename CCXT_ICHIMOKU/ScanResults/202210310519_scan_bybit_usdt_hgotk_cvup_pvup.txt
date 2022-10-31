@@ -1,0 +1,8 @@
+Scan results at : 2022-10-31 05:00:49.740498
+MATICUSDT swap bybit 2022-10-31 05:12:38.894416 bybit MATICUSDT swap 3m [0.32 %] [price = 0.91100000]                                                                          
+DOTUSDT swap bybit 2022-10-31 05:07:18.369994 bybit DOTUSDT swap 1h [1.20 %] [price = 6.72500000]                                                                              
+CHZUSDT swap bybit 2022-10-31 05:05:28.581620 bybit CHZUSDT swap 6h [0.90 %] [price = 0.22885000] *** new highest evol in %                                                    
+CTCUSDT swap bybit 2022-10-31 05:06:11.162894 bybit CTCUSDT swap 6h [3.37 %] [price = 0.54940000] *** new highest evol in %                                                    
+SANDUSDT swap bybit 2022-10-31 05:15:10.508829 bybit SANDUSDT swap 12h [3.16 %] [price = 0.88790000]                                                                           
+DOGEUSDT swap bybit 2022-10-31 05:07:12.227625 bybit DOGEUSDT swap 1m 1d [5.61 %] [price = 0.12420000] *** new highest evol in %                                               
+LINKUSDT swap bybit 2022-10-31 05:11:44.365327 bybit LINKUSDT swap 3m 1d [2.62 %] [price = 7.98100000]                                                                         

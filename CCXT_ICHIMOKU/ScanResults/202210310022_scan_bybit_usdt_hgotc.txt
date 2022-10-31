@@ -1,0 +1,17 @@
+Scan results at : 2022-10-31 00:07:50.196265
+CRVUSDT swap bybit 2022-10-31 00:09:41.454738 bybit CRVUSDT swap 1m [0.33 %] [price = 0.90900000]                                                                              
+DENTUSDT swap bybit 2022-10-31 00:10:29.565983 bybit DENTUSDT swap 3m [0.00 %] [price = 0.00089900]                                                                            
+DOGEUSDT swap bybit 2022-10-31 00:10:47.551467 bybit DOGEUSDT swap 3m [1.87 %] [price = 0.11980000] *** new highest evol in %                                                  
+FITFIUSDT swap bybit 2022-10-31 00:12:00.980677 bybit FITFIUSDT swap 3m [0.38 %] [price = 0.05320000]                                                                          
+KAVAUSDT swap bybit 2022-10-31 00:14:37.816284 bybit KAVAUSDT swap 3m [0.68 %] [price = 1.47500000]                                                                            
+BOBAUSDT swap bybit 2022-10-31 00:08:11.199648 bybit BOBAUSDT swap 5m [-0.17 %] [price = 0.29200000]                                                                           
+ETHWUSDT swap bybit 2022-10-31 00:11:49.028763 bybit ETHWUSDT swap 5m [0.95 %] [price = 6.87500000]                                                                            
+GLMRUSDT swap bybit 2022-10-31 00:12:49.827449 bybit GLMRUSDT swap 5m [0.83 %] [price = 0.48500000]                                                                            
+LRCUSDT swap bybit 2022-10-31 00:15:44.243120 bybit LRCUSDT swap 5m [0.72 %] [price = 0.27950000]                                                                              
+OPUSDT swap bybit 2022-10-31 00:17:20.357886 bybit OPUSDT swap 5m [3.12 %] [price = 1.07450000] *** new highest evol in %                                                      
+RVNUSDT swap bybit 2022-10-31 00:18:39.246769 bybit RVNUSDT swap 5m [0.63 %] [price = 0.03210000]                                                                              
+STXUSDT swap bybit 2022-10-31 00:20:09.886561 bybit STXUSDT swap 5m [0.63 %] [price = 0.31900000]                                                                              
+1000LUNCUSDT swap bybit 2022-10-31 00:04:43.788678 bybit 1000LUNCUSDT swap 2h [0.72 %] [price = 0.25120000] *** new highest evol in %                                          
+GALAUSDT swap bybit 2022-10-31 00:12:37.529078 bybit GALAUSDT swap 12h [-0.93 %] [price = 0.04348000]                                                                          
+SANDUSDT swap bybit 2022-10-31 00:18:45.216356 bybit SANDUSDT swap 5m 12h [1.58 %] [price = 0.87430000]                                                                        
+RSS3USDT swap bybit 2022-10-31 00:18:27.291665 bybit RSS3USDT swap 3m 1d [0.00 %] [price = 0.13160000]                                                                         

@@ -1,0 +1,3 @@
+Scan results at : 2022-10-31 00:22:53.943699
+ZILUSDT swap bybit 2022-10-31 00:41:19.365733 bybit ZILUSDT swap 3m [0.00 %] [price = 0.03110000]                                                                              
+SANDUSDT swap bybit 2022-10-31 00:37:15.822094 bybit SANDUSDT swap 12h [0.42 %] [price = 0.86430000] *** new highest evol in %                                                 

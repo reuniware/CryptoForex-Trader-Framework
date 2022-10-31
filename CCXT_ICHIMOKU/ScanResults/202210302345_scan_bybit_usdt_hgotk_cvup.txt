@@ -1,0 +1,17 @@
+Scan results at : 2022-10-30 23:26:56.471775
+1000BTTUSDT swap bybit 2022-10-30 23:27:10.575372 bybit 1000BTTUSDT swap 5m [-1.08 %] [price = 0.00082500]                                                                     
+1000LUNCUSDT swap bybit 2022-10-30 23:27:16.794881 bybit 1000LUNCUSDT swap 5m [5.18 %] [price = 0.24970000] *** new highest evol in %                                          
+1INCHUSDT swap bybit 2022-10-30 23:27:28.767290 bybit 1INCHUSDT swap 5m [-1.44 %] [price = 0.61600000]                                                                         
+ATOMUSDT swap bybit 2022-10-30 23:29:12.771326 bybit ATOMUSDT swap 15m [3.41 %] [price = 13.93000000]                                                                          
+BNBUSDT swap bybit 2022-10-30 23:30:32.624969 bybit BNBUSDT swap 30m [2.71 %] [price = 312.55000000]                                                                           
+EGLDUSDT swap bybit 2022-10-30 23:33:47.269845 bybit EGLDUSDT swap 30m [3.18 %] [price = 58.45000000]                                                                          
+CEEKUSDT swap bybit 2022-10-30 23:31:15.244142 bybit CEEKUSDT swap 1h [6.86 %] [price = 0.15270000] *** new highest evol in %                                                  
+FTMUSDT swap bybit 2022-10-30 23:34:54.814476 bybit FTMUSDT swap 2h [5.10 %] [price = 0.23700000]                                                                              
+CHZUSDT swap bybit 2022-10-30 23:31:39.244332 bybit CHZUSDT swap 4h [13.85 %] [price = 0.22440000] *** new highest evol in %                                                   
+CTCUSDT swap bybit 2022-10-30 23:32:21.426292 bybit CTCUSDT swap 4h [14.68 %] [price = 0.53635000] *** new highest evol in %                                                   
+ALGOUSDT swap bybit 2022-10-30 23:28:05.215056 bybit ALGOUSDT swap 15m 4h [5.60 %] [price = 0.35850000] *** new highest evol in %                                              
+CROUSDT swap bybit 2022-10-30 23:32:09.435961 bybit CROUSDT swap 30m 4h [3.52 %] [price = 0.11465000]                                                                          
+GALAUSDT swap bybit 2022-10-30 23:35:13.223401 bybit GALAUSDT swap 6h [20.14 %] [price = 0.04396000] *** new highest evol in %                                                 
+SANDUSDT swap bybit 2022-10-30 23:41:22.277437 bybit SANDUSDT swap 6h [6.31 %] [price = 0.86240000]                                                                            
+BAKEUSDT swap bybit 2022-10-30 23:29:37.072427 bybit BAKEUSDT swap 12h [-5.52 %] [price = 0.24800000]                                                                          
+DOGEUSDT swap bybit 2022-10-30 23:33:23.093742 bybit DOGEUSDT swap 12h [-4.68 %] [price = 0.11600000]                                                                          

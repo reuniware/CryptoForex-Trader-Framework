@@ -1,0 +1,4 @@
+Scan results at : 2022-10-31 01:43:12.926932
+USDCUSDT swap bybit 2022-10-31 01:54:26.302586 bybit USDCUSDT swap 5m [0.00 %] [price = 1.00000000]                                                                            
+CROUSDT swap bybit 2022-10-31 01:42:44.939358 bybit CROUSDT swap 1h [1.93 %] [price = 0.11630000] *** new highest evol in %                                                    
+LITUSDT swap bybit 2022-10-31 01:48:35.710060 bybit LITUSDT swap 4h [3.69 %] [price = 0.87000000] *** new highest evol in %                                                    

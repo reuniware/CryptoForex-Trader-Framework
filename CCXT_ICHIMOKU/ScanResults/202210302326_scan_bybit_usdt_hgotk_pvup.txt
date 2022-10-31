@@ -1,0 +1,7 @@
+Scan results at : 2022-10-30 23:19:40.618604
+LUNA2USDT swap bybit 2022-10-30 23:19:53.477471 bybit LUNA2USDT swap 1m [1.68 %] [price = 2.48000000]                                                                          
+TRXUSDT swap bybit 2022-10-30 23:24:58.779652 bybit TRXUSDT swap 1m [-1.87 %] [price = 0.06307000]                                                                             
+WOOUSDT swap bybit 2022-10-30 23:25:36.068485 bybit WOOUSDT swap 1m [-2.24 %] [price = 0.17930000]                                                                             
+LITUSDT swap bybit 2022-10-30 23:19:22.659392 bybit LITUSDT swap 15m [-3.00 %] [price = 0.84000000]                                                                            
+ALGOUSDT swap bybit 2022-10-30 23:09:26.883963 bybit ALGOUSDT swap 4h [5.30 %] [price = 0.35750000] *** new highest evol in %                                                  
+CHZUSDT swap bybit 2022-10-30 23:12:59.421204 bybit CHZUSDT swap 4h [12.91 %] [price = 0.22255000] *** new highest evol in %                                                   

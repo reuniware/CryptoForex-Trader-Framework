@@ -1,0 +1,13 @@
+Scan results at : 2022-10-31 00:41:26.885440
+CHZUSDT spot binance 2022-10-31 00:15:05.746484 binance CHZUSDT spot 3m [-0.48 %] [price = 0.22590000]                                                                         
+DARUSDT spot binance 2022-10-31 00:46:14.207705 binance DARUSDT spot 3m [0.47 %] [price = 0.21152000]                                                                          
+MLNUSDT spot binance 2022-10-31 00:40:36.300395 binance MLNUSDT spot 15m [0.97 %] [price = 23.89000000]                                                                        
+BNBUPUSDT spot binance 2022-10-31 00:24:04.960813 binance BNBUPUSDT spot 30m [0.34 %] [price = 43.76000000]                                                                    
+SOLUSDT spot binance 2022-10-31 00:19:45.690972 binance SOLUSDT spot 1h [1.06 %] [price = 33.28000000]                                                                         
+DOTUSDT spot binance 2022-10-31 00:26:20.937415 binance DOTUSDT spot 2h [0.45 %] [price = 6.68000000]                                                                          
+DOTUPUSDT spot binance 2022-10-31 00:28:52.590739 binance DOTUPUSDT spot 2h [0.79 %] [price = 0.16510000]                                                                      
+SANDUSDT spot binance 2022-10-31 00:25:57.485328 binance SANDUSDT spot 12h [0.73 %] [price = 0.86720000]                                                                       
+LINKUSDT spot binance 2022-10-31 00:09:32.069762 binance LINKUSDT spot 1d [0.95 %] [price = 7.85700000] *** new highest evol in %                                              
+DOGEUSDT spot binance 2022-10-31 00:12:50.126130 binance DOGEUSDT spot 1d [1.12 %] [price = 0.11906000] *** new highest evol in %                                              
+UTKUSDT spot binance 2022-10-31 00:30:14.329018 binance UTKUSDT spot 1d [0.22 %] [price = 0.13900000]                                                                          
+MASKUSDT spot binance 2022-10-31 00:39:09.674062 binance MASKUSDT spot 1d [1.17 %] [price = 2.24100000] *** new highest evol in %                                              

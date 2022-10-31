@@ -1,0 +1,8 @@
+Scan results at : 2022-10-31 04:23:54.930989
+SOLUSDT swap bybit 2022-10-31 04:39:00.723752 bybit SOLUSDT swap 30m [0.14 %] [price = 32.97000000]                                                                            
+AVAXUSDT swap bybit 2022-10-31 04:26:20.985666 bybit AVAXUSDT swap 1h [3.65 %] [price = 18.90500000] *** new highest evol in %                                                 
+CHZUSDT swap bybit 2022-10-31 04:28:33.434678 bybit CHZUSDT swap 6h [1.79 %] [price = 0.23085000]                                                                              
+CTCUSDT swap bybit 2022-10-31 04:29:15.148408 bybit CTCUSDT swap 6h [4.48 %] [price = 0.55530000] *** new highest evol in %                                                    
+SANDUSDT swap bybit 2022-10-31 04:38:12.675353 bybit SANDUSDT swap 12h [4.57 %] [price = 0.90000000] *** new highest evol in %                                                 
+DOGEUSDT swap bybit 2022-10-31 04:30:15.253760 bybit DOGEUSDT swap 1d [2.72 %] [price = 0.12080000]                                                                            
+LINKUSDT swap bybit 2022-10-31 04:34:47.756398 bybit LINKUSDT swap 1d [0.85 %] [price = 7.84300000]                                                                            

@@ -1,0 +1,8 @@
+Scan results at : 2022-10-31 05:37:48.664437
+SHIBUSDT spot binance 2022-10-31 05:26:50.944537 binance SHIBUSDT spot 1m [2.94 %] [price = 0.00001226]                                                                        
+DOGEUSDT spot binance 2022-10-31 05:01:25.023793 binance DOGEUSDT spot 15m [3.86 %] [price = 0.12229000] *** new highest evol in %                                             
+STMXUSDT spot binance 2022-10-31 05:09:28.086052 binance STMXUSDT spot 15m [0.76 %] [price = 0.00687200]                                                                       
+DOTUSDT spot binance 2022-10-31 05:14:44.036085 binance DOTUSDT spot 1h [1.20 %] [price = 6.73000000]                                                                          
+DOTUPUSDT spot binance 2022-10-31 05:17:19.487146 binance DOTUPUSDT spot 1h [2.26 %] [price = 0.16750000]                                                                      
+AVAXUSDT spot binance 2022-10-31 05:18:19.007181 binance AVAXUSDT spot 1h [2.68 %] [price = 18.74000000]                                                                       
+SANDUSDT spot binance 2022-10-31 05:14:20.476687 binance SANDUSDT spot 12h [3.18 %] [price = 0.88830000]                                                                       
