@@ -1,0 +1,9 @@
+Scan results at : 2022-10-31 14:15:21.072377
+KLAYUSDT spot binance 2022-10-31 14:16:28.063698 binance KLAYUSDT spot 3m [5.16 %] [price = 0.28130000]                                                                        
+DOTDOWNUSDT spot binance 2022-10-31 14:05:21.573165 binance DOTDOWNUSDT spot 5m [0.79 %] [price = 12.07500000]                                                                 
+PUNDIXUSDT spot binance 2022-10-31 14:13:42.447956 binance PUNDIXUSDT spot 30m [11.36 %] [price = 0.53900000] *** new highest evol in %                                        
+BNBUSDT spot binance 2022-10-31 13:43:48.142996 binance BNBUSDT spot 2h [5.71 %] [price = 331.50000000] *** new highest evol in %                                              
+VETUSDT spot binance 2022-10-31 13:45:45.516393 binance VETUSDT spot 2h [1.99 %] [price = 0.02403000]                                                                          
+FTMUSDT spot binance 2022-10-31 13:48:51.996933 binance FTMUSDT spot 2h [3.49 %] [price = 0.24590000]                                                                          
+LINKUSDT spot binance 2022-10-31 13:45:53.985708 binance LINKUSDT spot 1d [4.70 %] [price = 8.14900000]                                                                        
+DOGEUSDT spot binance 2022-10-31 13:49:15.503026 binance DOGEUSDT spot 1d [2.06 %] [price = 0.12016000]                                                                        

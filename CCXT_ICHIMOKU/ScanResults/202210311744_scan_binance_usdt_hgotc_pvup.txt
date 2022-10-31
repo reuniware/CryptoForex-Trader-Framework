@@ -1,0 +1,13 @@
+Scan results at : 2022-10-31 17:40:50.220838
+ACMUSDT spot binance 2022-10-31 17:24:33.406222 binance ACMUSDT spot 3m [-3.05 %] [price = 3.21300000]                                                                         
+APTUSDT spot binance 2022-10-31 17:43:55.000564 binance APTUSDT spot 3m [0.46 %] [price = 7.83720000]                                                                          
+BONDUSDT spot binance 2022-10-31 17:29:29.709354 binance BONDUSDT spot 5m [-0.33 %] [price = 4.87600000]                                                                       
+AUDIOUSDT spot binance 2022-10-31 17:20:17.364159 binance AUDIOUSDT spot 15m [0.00 %] [price = 0.20000000]                                                                     
+ALICEUSDT spot binance 2022-10-31 17:25:23.330148 binance ALICEUSDT spot 15m [-0.53 %] [price = 1.70300000]                                                                    
+ANTUSDT spot binance 2022-10-31 17:14:34.844236 binance ANTUSDT spot 1h [3.30 %] [price = 1.87700000] *** new highest evol in %                                                
+WNXMUSDT spot binance 2022-10-31 17:15:52.595253 binance WNXMUSDT spot 1h [2.47 %] [price = 17.44000000]                                                                       
+XNOUSDT spot binance 2022-10-31 17:40:25.036426 binance XNOUSDT spot 1h [1.62 %] [price = 0.75400000]                                                                          
+BUSDUSDT spot binance 2022-10-31 17:04:27.196715 binance BUSDUSDT spot 4h [0.02 %] [price = 1.00010000]                                                                        
+CELOUSDT spot binance 2022-10-31 17:23:00.198442 binance CELOUSDT spot 4h [4.49 %] [price = 0.74500000] *** new highest evol in %                                              
+ASTRUSDT spot binance 2022-10-31 17:40:57.413288 binance ASTRUSDT spot 8h [7.07 %] [price = 0.03940000] *** new highest evol in %                                              
+ALGOUSDT spot binance 2022-10-31 17:01:34.767132 binance ALGOUSDT spot 1m 3m 5m 12h [0.58 %] [price = 0.36120000] *** new highest evol in %                                    

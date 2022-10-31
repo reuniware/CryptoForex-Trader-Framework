@@ -1,0 +1,7 @@
+Scan results at : 2022-10-31 19:20:24.187677
+ETHUSDT spot binance 2022-10-31 18:33:06.431700 binance ETHUSDT spot 1m [-1.40 %] [price = 1568.23000000]                                                                      
+DODOUSDT spot binance 2022-10-31 19:01:32.299131 binance DODOUSDT spot 15m [0.08 %] [price = 0.13300000]                                                                       
+BELUSDT spot binance 2022-10-31 18:55:25.614652 binance BELUSDT spot 2h [3.00 %] [price = 0.58400000]                                                                          
+SCUSDT spot binance 2022-10-31 18:47:56.281459 binance SCUSDT spot 6h [1.21 %] [price = 0.00335000]                                                                            
+CELOUSDT spot binance 2022-10-31 19:00:12.376547 binance CELOUSDT spot 4h 6h [4.91 %] [price = 0.74800000] *** new highest evol in %                                           
+RENUSDT spot binance 2022-10-31 18:41:53.461710 binance RENUSDT spot 2h 8h [4.48 %] [price = 0.13050000] *** new highest evol in %                                             

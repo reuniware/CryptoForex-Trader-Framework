@@ -1,0 +1,13 @@
+Scan results at : 2022-10-31 15:33:18.143772
+DASHUSDT swap bybit 2022-10-31 15:39:24.076787 bybit DASHUSDT swap 1m [-0.60 %] [price = 41.70000000]                                                                          
+MINAUSDT swap bybit 2022-10-31 15:45:21.506638 bybit MINAUSDT swap 1m [-0.29 %] [price = 0.69000000]                                                                           
+RUNEUSDT swap bybit 2022-10-31 15:47:34.982268 bybit RUNEUSDT swap 1m [0.64 %] [price = 1.56500000]                                                                            
+WAVESUSDT swap bybit 2022-10-31 15:50:34.553665 bybit WAVESUSDT swap 1m [-2.99 %] [price = 3.40500000]                                                                         
+CELOUSDT swap bybit 2022-10-31 15:37:47.535854 bybit CELOUSDT swap 15m [4.21 %] [price = 0.74200000] *** new highest evol in %                                                 
+ANTUSDT swap bybit 2022-10-31 15:34:49.633955 bybit ANTUSDT swap 30m [1.10 %] [price = 1.83500000] *** new highest evol in %                                                   
+REEFUSDT swap bybit 2022-10-31 15:46:52.738746 bybit REEFUSDT swap 15m 30m [3.08 %] [price = 0.00536000]                                                                       
+BOBAUSDT swap bybit 2022-10-31 15:37:10.558751 bybit BOBAUSDT swap 4h [0.68 %] [price = 0.29450000]                                                                            
+CTCUSDT swap bybit 2022-10-31 15:38:48.052683 bybit CTCUSDT swap 12h [4.59 %] [price = 0.55590000] *** new highest evol in %                                                   
+DOGEUSDT swap bybit 2022-10-31 15:39:48.091490 bybit DOGEUSDT swap 1d [4.25 %] [price = 0.12260000]                                                                            
+LINKUSDT swap bybit 2022-10-31 15:44:20.822979 bybit LINKUSDT swap 1d [2.82 %] [price = 7.99600000]                                                                            
+MASKUSDT swap bybit 2022-10-31 15:45:09.379010 bybit MASKUSDT swap 1d [3.61 %] [price = 2.29500000]                                                                            

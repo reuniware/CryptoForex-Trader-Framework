@@ -1,0 +1,11 @@
+Scan results at : 2022-10-31 18:32:42.539575
+ICXUSDT swap bybit 2022-10-31 18:32:50.480785 bybit ICXUSDT swap 3m [-1.40 %] [price = 0.23200000]                                                                             
+SCRTUSDT swap bybit 2022-10-31 18:38:14.226645 bybit SCRTUSDT swap 3m [-0.98 %] [price = 0.91300000]                                                                           
+SANDUSDT swap bybit 2022-10-31 18:38:07.762213 bybit SANDUSDT swap 5m [2.45 %] [price = 0.88180000]                                                                            
+CELOUSDT swap bybit 2022-10-31 18:27:44.082407 bybit CELOUSDT swap 15m [4.63 %] [price = 0.74500000] *** new highest evol in %                                                 
+FTTUSDT swap bybit 2022-10-31 18:31:29.561509 bybit FTTUSDT swap 2h [1.25 %] [price = 25.93000000]                                                                             
+RENUSDT swap bybit 2022-10-31 18:37:17.591515 bybit RENUSDT swap 2h [4.16 %] [price = 0.13010000]                                                                              
+BELUSDT swap bybit 2022-10-31 18:26:29.908847 bybit BELUSDT swap 1m 2h [2.17 %] [price = 0.57970000] *** new highest evol in %                                                 
+SCUSDT swap bybit 2022-10-31 18:38:20.365367 bybit SCUSDT swap 4h [1.52 %] [price = 0.00335000]                                                                                
+GRTUSDT swap bybit 2022-10-31 18:32:12.875140 bybit GRTUSDT swap 2h 4h [1.20 %] [price = 0.08450000]                                                                           
+KDAUSDT swap bybit 2022-10-31 18:33:54.120306 bybit KDAUSDT swap 2h 4h [1.09 %] [price = 1.30400000]                                                                           

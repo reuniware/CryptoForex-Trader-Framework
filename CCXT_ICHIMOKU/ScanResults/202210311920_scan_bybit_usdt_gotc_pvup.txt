@@ -1,0 +1,6 @@
+Scan results at : 2022-10-31 19:01:21.166798
+REQUSDT swap bybit 2022-10-31 19:15:05.991108 bybit REQUSDT swap 1m 3m [-1.10 %] [price = 0.10740000]                                                                          
+ANKRUSDT swap bybit 2022-10-31 19:02:49.189233 bybit ANKRUSDT swap 2h [0.17 %] [price = 0.02940000] *** new highest evol in %                                                  
+GMXUSDT swap bybit 2022-10-31 19:10:01.939279 bybit GMXUSDT swap 1h 2h [3.59 %] [price = 42.81000000] *** new highest evol in %                                                
+KDAUSDT swap bybit 2022-10-31 19:11:46.712469 bybit KDAUSDT swap 4h 6h [0.85 %] [price = 1.30100000]                                                                           
+DODOUSDT swap bybit 2022-10-31 19:07:43.140987 bybit DODOUSDT swap 12h [0.08 %] [price = 0.13275000]                                                                           

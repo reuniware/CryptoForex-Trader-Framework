@@ -1,0 +1,4 @@
+Scan results at : 2022-10-31 17:59:32.108810
+CREAMUSDT swap bybit 2022-10-31 17:50:08.546093 bybit CREAMUSDT swap 1m 3m 5m [-1.27 %] [price = 11.70000000]                                                                  
+EOSUSDT swap bybit 2022-10-31 17:52:16.922496 bybit EOSUSDT swap 4h [1.35 %] [price = 1.12400000] *** new highest evol in %                                                    
+SCUSDT swap bybit 2022-10-31 18:00:19.209166 bybit SCUSDT swap 4h [1.21 %] [price = 0.00334000]                                                                                

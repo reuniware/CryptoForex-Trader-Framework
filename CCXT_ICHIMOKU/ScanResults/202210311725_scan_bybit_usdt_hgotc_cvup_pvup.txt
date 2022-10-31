@@ -1,0 +1,5 @@
+Scan results at : 2022-10-31 17:06:47.672929
+CREAMUSDT swap bybit 2022-10-31 17:11:55.614996 bybit CREAMUSDT swap 1m [-0.84 %] [price = 11.75000000]                                                                        
+STORJUSDT swap bybit 2022-10-31 17:22:44.734774 bybit STORJUSDT swap 15m [0.81 %] [price = 0.43750000]                                                                         
+CELOUSDT swap bybit 2022-10-31 17:11:12.410476 bybit CELOUSDT swap 4h [4.35 %] [price = 0.74300000] *** new highest evol in %                                                  
+SCUSDT swap bybit 2022-10-31 17:21:33.978848 bybit SCUSDT swap 4h [1.21 %] [price = 0.00334000]                                                                                

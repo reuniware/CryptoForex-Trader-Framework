@@ -1,0 +1,15 @@
+Scan results at : 2022-10-31 15:15:14.936417
+MLNUSDT spot binance 2022-10-31 15:04:41.036775 binance MLNUSDT spot 1m [9.13 %] [price = 25.82000000] *** new highest evol in %                                               
+DOTDOWNUSDT spot binance 2022-10-31 14:53:07.873557 binance DOTDOWNUSDT spot 3m [-0.59 %] [price = 11.90900000]                                                                
+REEFUSDT spot binance 2022-10-31 14:57:30.987014 binance REEFUSDT spot 3m [1.88 %] [price = 0.00529900]                                                                        
+FTMUSDT spot binance 2022-10-31 14:36:46.385477 binance FTMUSDT spot 15m [1.77 %] [price = 0.24180000]                                                                         
+BTCDOWNUSDT spot binance 2022-10-31 14:44:47.592672 binance BTCDOWNUSDT spot 30m [3.16 %] [price = 0.03013400] *** new highest evol in %                                       
+ETHDOWNUSDT spot binance 2022-10-31 14:46:37.501705 binance ETHDOWNUSDT spot 30m [4.56 %] [price = 0.73130000] *** new highest evol in %                                       
+XRPDOWNUSDT spot binance 2022-10-31 14:52:50.839684 binance XRPDOWNUSDT spot 30m [4.21 %] [price = 0.00028930]                                                                 
+TRXDOWNUSDT spot binance 2022-10-31 14:52:35.157137 binance TRXDOWNUSDT spot 30m 1h [2.12 %] [price = 1.15400000]                                                              
+PONDUSDT spot binance 2022-10-31 15:00:07.442025 binance PONDUSDT spot 15m 2h [1.76 %] [price = 0.01100000]                                                                    
+MOVRUSDT spot binance 2022-10-31 15:10:27.299139 binance MOVRUSDT spot 8h [-0.82 %] [price = 10.90000000]                                                                      
+LINKUSDT spot binance 2022-10-31 14:33:52.683329 binance LINKUSDT spot 1d [2.35 %] [price = 7.96600000] *** new highest evol in %                                              
+DOGEUSDT spot binance 2022-10-31 14:37:14.374973 binance DOGEUSDT spot 1d [-0.43 %] [price = 0.11723000]                                                                       
+UTKUSDT spot binance 2022-10-31 14:54:24.517794 binance UTKUSDT spot 1d [-2.88 %] [price = 0.13470000]                                                                         
+MASKUSDT spot binance 2022-10-31 15:03:17.685315 binance MASKUSDT spot 1d [2.35 %] [price = 2.26700000]                                                                        

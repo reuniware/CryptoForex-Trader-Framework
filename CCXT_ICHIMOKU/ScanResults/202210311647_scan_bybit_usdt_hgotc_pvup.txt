@@ -1,0 +1,3 @@
+Scan results at : 2022-10-31 16:29:15.623704
+ATOMUSDT swap bybit 2022-10-31 16:31:30.523132 bybit ATOMUSDT swap 15m [3.09 %] [price = 14.35000000] *** new highest evol in %                                                
+REEFUSDT swap bybit 2022-10-31 16:42:45.757607 bybit REEFUSDT swap 1h [4.13 %] [price = 0.00541500] *** new highest evol in %                                                  

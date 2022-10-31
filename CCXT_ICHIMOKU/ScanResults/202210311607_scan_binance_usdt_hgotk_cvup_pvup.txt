@@ -1,0 +1,8 @@
+Scan results at : 2022-10-31 15:52:00.398352
+RENUSDT spot binance 2022-10-31 15:28:03.915410 binance RENUSDT spot 15m [2.96 %] [price = 0.12860000]                                                                         
+ANTUSDT spot binance 2022-10-31 15:37:49.535788 binance ANTUSDT spot 30m [1.43 %] [price = 1.84300000]                                                                         
+REEFUSDT spot binance 2022-10-31 15:45:34.393511 binance REEFUSDT spot 30m [3.75 %] [price = 0.00539600]                                                                       
+PONDUSDT spot binance 2022-10-31 15:48:14.097738 binance PONDUSDT spot 2h [3.79 %] [price = 0.01122000]                                                                        
+LINKUSDT spot binance 2022-10-31 15:21:41.107177 binance LINKUSDT spot 1d [2.22 %] [price = 7.95600000] *** new highest evol in %                                              
+DOGEUSDT spot binance 2022-10-31 15:25:03.421069 binance DOGEUSDT spot 1d [4.73 %] [price = 0.12331000] *** new highest evol in %                                              
+MASKUSDT spot binance 2022-10-31 15:51:17.525675 binance MASKUSDT spot 1d [4.47 %] [price = 2.31400000]                                                                        

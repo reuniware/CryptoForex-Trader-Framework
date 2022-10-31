@@ -1,0 +1,10 @@
+Scan results at : 2022-10-31 15:19:01.355115
+NEARUSDT swap bybit 2022-10-31 15:26:54.303472 bybit NEARUSDT swap 1m [-0.61 %] [price = 3.08100000]                                                                           
+LITUSDT swap bybit 2022-10-31 15:25:38.808111 bybit LITUSDT swap 5m [11.08 %] [price = 0.93200000] *** new highest evol in %                                                   
+RENUSDT swap bybit 2022-10-31 15:28:15.360366 bybit RENUSDT swap 15m [3.12 %] [price = 0.12880000]                                                                             
+CELOUSDT swap bybit 2022-10-31 15:18:40.812077 bybit CELOUSDT swap 30m [3.93 %] [price = 0.74000000] *** new highest evol in %                                                 
+BOBAUSDT swap bybit 2022-10-31 15:18:03.010389 bybit BOBAUSDT swap 4h [1.03 %] [price = 0.29550000] *** new highest evol in %                                                  
+CTCUSDT swap bybit 2022-10-31 15:19:41.867409 bybit CTCUSDT swap 12h [4.39 %] [price = 0.55485000] *** new highest evol in %                                                   
+DOGEUSDT swap bybit 2022-10-31 15:20:45.186192 bybit DOGEUSDT swap 1d [4.68 %] [price = 0.12310000] *** new highest evol in %                                                  
+LINKUSDT swap bybit 2022-10-31 15:25:31.918884 bybit LINKUSDT swap 1d [2.40 %] [price = 7.96400000]                                                                            
+MASKUSDT swap bybit 2022-10-31 15:26:23.504159 bybit MASKUSDT swap 1d [4.06 %] [price = 2.30500000]                                                                            
