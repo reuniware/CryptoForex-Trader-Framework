@@ -1,0 +1,10 @@
+Scan results at : 2022-10-31 12:18:24.137783
+MOVRUSDT spot binance 2022-10-31 12:22:22.021507 binance MOVRUSDT spot 15m [1.00 %] [price = 11.10000000]                                                                      
+BTTCUSDT spot binance 2022-10-31 12:26:53.170080 binance BTTCUSDT spot 30m [1.20 %] [price = 0.00000084]                                                                       
+BIFIUSDT spot binance 2022-10-31 12:28:38.009215 binance BIFIUSDT spot 2h [14.99 %] [price = 418.10000000]                                                                     
+STEEMUSDT spot binance 2022-10-31 12:28:53.695712 binance STEEMUSDT spot 30m 1h 2h [1.02 %] [price = 0.23720000]                                                               
+RAYUSDT spot binance 2022-10-31 12:17:44.076019 binance RAYUSDT spot 8h [1.91 %] [price = 0.53300000]                                                                          
+LINKUPUSDT spot binance 2022-10-31 11:58:43.753947 binance LINKUPUSDT spot 12h [8.42 %] [price = 0.01313000] *** new highest evol in %                                         
+ASTRUSDT spot binance 2022-10-31 12:27:52.881105 binance ASTRUSDT spot 1d [14.40 %] [price = 0.04210000]                                                                       
+ALCXUSDT spot binance 2022-10-31 12:24:09.709073 binance ALCXUSDT spot 8h 1d [38.32 %] [price = 29.60000000] *** new highest evol in %                                         
+CHZUSDT spot binance 2022-10-31 11:51:02.993086 binance CHZUSDT spot 3d [-0.35 %] [price = 0.22620000]                                                                         

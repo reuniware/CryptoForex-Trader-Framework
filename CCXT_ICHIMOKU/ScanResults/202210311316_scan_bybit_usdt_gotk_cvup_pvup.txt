@@ -1,0 +1,13 @@
+Scan results at : 2022-10-31 12:56:48.078156
+FLOWUSDT swap bybit 2022-10-31 13:05:19.141492 bybit FLOWUSDT swap 3m [0.00 %] [price = 1.72000000]                                                                            
+ENJUSDT swap bybit 2022-10-31 13:04:19.633374 bybit ENJUSDT swap 5m [0.22 %] [price = 0.46050000]                                                                              
+LOOKSUSDT swap bybit 2022-10-31 13:08:49.099761 bybit LOOKSUSDT swap 5m [2.19 %] [price = 0.23300000]                                                                          
+KAVAUSDT swap bybit 2022-10-31 13:07:52.063192 bybit KAVAUSDT swap 15m [1.64 %] [price = 1.48900000]                                                                           
+KLAYUSDT swap bybit 2022-10-31 13:08:04.735324 bybit KLAYUSDT swap 15m [4.30 %] [price = 0.27900000] *** new highest evol in %                                                 
+RVNUSDT swap bybit 2022-10-31 13:12:07.045356 bybit RVNUSDT swap 15m [0.78 %] [price = 0.03215000]                                                                             
+TRBUSDT swap bybit 2022-10-31 13:14:28.271017 bybit TRBUSDT swap 15m [1.46 %] [price = 16.01500000]                                                                            
+BSWUSDT swap bybit 2022-10-31 13:01:03.467173 bybit BSWUSDT swap 2h [1.41 %] [price = 0.26650000]                                                                              
+XNOUSDT swap bybit 2022-10-31 13:15:46.436041 bybit XNOUSDT swap 2h [1.79 %] [price = 0.75480000]                                                                              
+ZILUSDT swap bybit 2022-10-31 13:16:28.982085 bybit ZILUSDT swap 2h [2.83 %] [price = 0.03198000]                                                                              
+1INCHUSDT swap bybit 2022-10-31 12:57:22.102609 bybit 1INCHUSDT swap 1h 2h [3.59 %] [price = 0.63500000] *** new highest evol in %                                             
+NEOUSDT swap bybit 2022-10-31 13:10:05.973259 bybit NEOUSDT swap 6h [1.98 %] [price = 8.76000000]                                                                              

@@ -1,0 +1,24 @@
+Scan results at : 2022-10-31 12:31:03.200425
+1000BTTUSDT swap bybit 2022-10-31 12:18:38.275289 bybit 1000BTTUSDT swap 1m [1.58 %] [price = 0.00083400] *** new highest evol in %                                            
+JASMYUSDT swap bybit 2022-10-31 12:28:45.017286 bybit JASMYUSDT swap 1m [0.00 %] [price = 0.00530000]                                                                          
+FTTUSDT swap bybit 2022-10-31 12:26:37.587026 bybit FTTUSDT swap 3m [3.16 %] [price = 26.42000000]                                                                             
+BCHUSDT swap bybit 2022-10-31 12:21:29.566049 bybit BCHUSDT swap 5m [0.86 %] [price = 117.15000000]                                                                            
+CELOUSDT swap bybit 2022-10-31 12:22:51.586405 bybit CELOUSDT swap 5m [3.51 %] [price = 0.73700000] *** new highest evol in %                                                  
+CVCUSDT swap bybit 2022-10-31 12:24:11.333117 bybit CVCUSDT swap 5m [1.22 %] [price = 0.12450000]                                                                              
+DOTUSDT swap bybit 2022-10-31 12:25:02.277939 bybit DOTUSDT swap 5m [2.18 %] [price = 6.79000000]                                                                              
+FLMUSDT swap bybit 2022-10-31 12:26:18.237896 bybit FLMUSDT swap 5m [4.83 %] [price = 0.11930000] *** new highest evol in %                                                    
+IOTXUSDT swap bybit 2022-10-31 12:28:37.199911 bybit IOTXUSDT swap 5m [1.22 %] [price = 0.02895000]                                                                            
+LINKUSDT swap bybit 2022-10-31 12:29:41.208646 bybit LINKUSDT swap 5m [4.59 %] [price = 8.13400000]                                                                            
+PEOPLEUSDT swap bybit 2022-10-31 12:31:56.080493 bybit PEOPLEUSDT swap 5m [2.81 %] [price = 0.02015000]                                                                        
+RVNUSDT swap bybit 2022-10-31 12:33:02.236618 bybit RVNUSDT swap 5m [0.94 %] [price = 0.03220000]                                                                              
+STXUSDT swap bybit 2022-10-31 12:34:34.013155 bybit STXUSDT swap 5m [0.63 %] [price = 0.31900000]                                                                              
+CTSIUSDT swap bybit 2022-10-31 12:24:05.322906 bybit CTSIUSDT swap 3m 5m [0.36 %] [price = 0.14130000]                                                                         
+SPELLUSDT swap bybit 2022-10-31 12:34:03.332809 bybit SPELLUSDT swap 1m 3m 5m [2.30 %] [price = 0.00089000]                                                                    
+FLOWUSDT swap bybit 2022-10-31 12:26:25.060398 bybit FLOWUSDT swap 15m [0.00 %] [price = 1.72000000]                                                                           
+TRBUSDT swap bybit 2022-10-31 12:35:16.676081 bybit TRBUSDT swap 15m [1.20 %] [price = 15.97500000]                                                                            
+ILVUSDT swap bybit 2022-10-31 12:28:05.975693 bybit ILVUSDT swap 2h [4.06 %] [price = 69.20000000]                                                                             
+KDAUSDT swap bybit 2022-10-31 12:29:03.497596 bybit KDAUSDT swap 2h [0.70 %] [price = 1.29900000]                                                                              
+TOMOUSDT swap bybit 2022-10-31 12:35:10.511847 bybit TOMOUSDT swap 2h [1.26 %] [price = 0.44150000]                                                                            
+XNOUSDT swap bybit 2022-10-31 12:36:41.960438 bybit XNOUSDT swap 30m 2h [1.34 %] [price = 0.75140000]                                                                          
+BSWUSDT swap bybit 2022-10-31 12:22:24.548963 bybit BSWUSDT swap 30m 1h 2h [3.39 %] [price = 0.27170000] *** new highest evol in %                                             
+NEOUSDT swap bybit 2022-10-31 12:31:07.237486 bybit NEOUSDT swap 2h 4h 6h [1.28 %] [price = 8.70000000]                                                                        
