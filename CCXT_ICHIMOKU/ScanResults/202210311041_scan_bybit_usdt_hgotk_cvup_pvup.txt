@@ -1,0 +1,9 @@
+Scan results at : 2022-10-31 10:31:44.311597
+ATOMUSDT swap bybit 2022-10-31 10:24:36.220212 bybit ATOMUSDT swap 15m [2.33 %] [price = 14.24500000]                                                                          
+ASTRUSDT swap bybit 2022-10-31 10:24:30.098827 bybit ASTRUSDT swap 1h [8.88 %] [price = 0.03985000] *** new highest evol in %                                                  
+LITUSDT swap bybit 2022-10-31 10:33:50.304695 bybit LITUSDT swap 4h [11.92 %] [price = 0.93900000] *** new highest evol in %                                                   
+UNFIUSDT swap bybit 2022-10-31 10:39:48.033043 bybit UNFIUSDT swap 4h [2.60 %] [price = 6.14750000]                                                                            
+SANDUSDT swap bybit 2022-10-31 10:37:26.115009 bybit SANDUSDT swap 12h [3.43 %] [price = 0.89020000]                                                                           
+DOGEUSDT swap bybit 2022-10-31 10:28:57.940290 bybit DOGEUSDT swap 1d [4.25 %] [price = 0.12260000]                                                                            
+LINKUSDT swap bybit 2022-10-31 10:33:43.915771 bybit LINKUSDT swap 1d [4.18 %] [price = 8.10200000]                                                                            
+MASKUSDT swap bybit 2022-10-31 10:34:36.582890 bybit MASKUSDT swap 1d [4.29 %] [price = 2.31000000]                                                                            
