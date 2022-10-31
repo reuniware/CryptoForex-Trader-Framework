@@ -1,0 +1,17 @@
+Scan results at : 2022-10-31 07:47:55.407660
+BCHUSDT swap bybit 2022-10-31 07:51:03.040064 bybit BCHUSDT swap 1m [-0.60 %] [price = 115.45000000]                                                                           
+CTSIUSDT swap bybit 2022-10-31 07:53:36.870301 bybit CTSIUSDT swap 1m [-0.39 %] [price = 0.14025000]                                                                           
+ETHUSDT swap bybit 2022-10-31 07:55:21.002083 bybit ETHUSDT swap 3m [-0.13 %] [price = 1587.45000000]                                                                          
+LTCUSDT swap bybit 2022-10-31 07:59:34.223086 bybit LTCUSDT swap 3m [-0.33 %] [price = 55.13000000]                                                                            
+OMGUSDT swap bybit 2022-10-31 08:00:49.232331 bybit OMGUSDT swap 3m [0.18 %] [price = 1.66700000]                                                                              
+DOTUSDT swap bybit 2022-10-31 07:54:31.960875 bybit DOTUSDT swap 5m [1.20 %] [price = 6.72500000]                                                                              
+LINKUSDT swap bybit 2022-10-31 07:59:03.240429 bybit LINKUSDT swap 5m [2.38 %] [price = 7.96200000] *** new highest evol in %                                                  
+ALPHAUSDT swap bybit 2022-10-31 07:49:17.029193 bybit ALPHAUSDT swap 30m [1.02 %] [price = 0.11935000] *** new highest evol in %                                               
+KSMUSDT swap bybit 2022-10-31 07:58:44.203406 bybit KSMUSDT swap 5m 1h [-0.96 %] [price = 36.15000000]                                                                         
+LUNA2USDT swap bybit 2022-10-31 07:59:40.275434 bybit LUNA2USDT swap 5m 1h [-1.40 %] [price = 2.46700000]                                                                      
+LPTUSDT swap bybit 2022-10-31 07:59:21.927171 bybit LPTUSDT swap 30m 1h [2.69 %] [price = 9.55000000] *** new highest evol in %                                                
+AAVEUSDT swap bybit 2022-10-31 07:48:33.871122 bybit AAVEUSDT swap 2h [0.30 %] [price = 84.10000000] *** new highest evol in %                                                 
+ASTRUSDT swap bybit 2022-10-31 07:50:06.758935 bybit ASTRUSDT swap 2h 4h 6h [0.82 %] [price = 0.03690000]                                                                      
+BICOUSDT swap bybit 2022-10-31 07:51:15.369764 bybit BICOUSDT swap 12h [1.25 %] [price = 0.40500000] *** new highest evol in %                                                 
+KAVAUSDT swap bybit 2022-10-31 07:58:19.997463 bybit KAVAUSDT swap 12h [1.23 %] [price = 1.48300000]                                                                           
+STGUSDT swap bybit 2022-10-31 08:03:40.873078 bybit STGUSDT swap 12h [1.00 %] [price = 0.50500000]                                                                             

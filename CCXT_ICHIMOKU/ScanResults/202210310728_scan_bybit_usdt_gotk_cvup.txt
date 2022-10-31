@@ -1,0 +1,5 @@
+Scan results at : 2022-10-31 07:19:24.897160
+ZENUSDT swap bybit 2022-10-31 07:28:46.722717 bybit ZENUSDT swap 1m [0.00 %] [price = 13.60000000]                                                                             
+INJUSDT swap bybit 2022-10-31 07:19:52.701696 bybit INJUSDT swap 2h [4.33 %] [price = 2.28900000] *** new highest evol in %                                                    
+BOBAUSDT swap bybit 2022-10-31 07:13:54.397000 bybit BOBAUSDT swap 1m 2h 4h [0.00 %] [price = 0.29250000]                                                                      
+UNFIUSDT swap bybit 2022-10-31 07:27:08.581593 bybit UNFIUSDT swap 6h [0.39 %] [price = 6.01550000]                                                                            

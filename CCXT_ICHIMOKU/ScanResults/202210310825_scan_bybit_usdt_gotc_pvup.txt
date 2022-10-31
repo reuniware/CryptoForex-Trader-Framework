@@ -1,0 +1,4 @@
+Scan results at : 2022-10-31 08:07:18.672378
+USDCUSDT swap bybit 2022-10-31 08:24:07.293484 bybit USDCUSDT swap 1m [0.00 %] [price = 1.00000000]                                                                            
+1000LUNCUSDT swap bybit 2022-10-31 08:07:05.180899 bybit 1000LUNCUSDT swap 15m [1.64 %] [price = 0.25350000] *** new highest evol in %                                         
+ASTRUSDT swap bybit 2022-10-31 08:08:57.919878 bybit ASTRUSDT swap 6h [1.23 %] [price = 0.03705000]                                                                            

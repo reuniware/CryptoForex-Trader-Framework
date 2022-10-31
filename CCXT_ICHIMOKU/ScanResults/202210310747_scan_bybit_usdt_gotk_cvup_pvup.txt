@@ -1,0 +1,5 @@
+Scan results at : 2022-10-31 07:29:00.044884
+DOTUSDT swap bybit 2022-10-31 07:35:37.351900 bybit DOTUSDT swap 15m [0.68 %] [price = 6.69000000] *** new highest evol in %                                                   
+INJUSDT swap bybit 2022-10-31 07:38:48.428621 bybit INJUSDT swap 2h [4.81 %] [price = 2.29950000] *** new highest evol in %                                                    
+LPTUSDT swap bybit 2022-10-31 07:40:28.070746 bybit LPTUSDT swap 2h [2.15 %] [price = 9.50000000]                                                                              
+BOBAUSDT swap bybit 2022-10-31 07:32:48.729502 bybit BOBAUSDT swap 4h [-0.17 %] [price = 0.29200000]                                                                           

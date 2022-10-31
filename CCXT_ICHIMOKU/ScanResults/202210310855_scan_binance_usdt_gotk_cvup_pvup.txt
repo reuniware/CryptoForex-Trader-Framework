@@ -1,0 +1,8 @@
+Scan results at : 2022-10-31 08:45:29.219808
+DOTUSDT spot binance 2022-10-31 08:26:47.898040 binance DOTUSDT spot 15m [0.75 %] [price = 6.70000000] *** new highest evol in %                                               
+DOTUPUSDT spot binance 2022-10-31 08:29:20.285784 binance DOTUPUSDT spot 15m [1.53 %] [price = 0.16630000] *** new highest evol in %                                           
+AVAUSDT spot binance 2022-10-31 08:32:54.892567 binance AVAUSDT spot 6h [2.49 %] [price = 0.74000000] *** new highest evol in %                                                
+PUNDIXUSDT spot binance 2022-10-31 08:37:52.299998 binance PUNDIXUSDT spot 6h [3.51 %] [price = 0.50100000] *** new highest evol in %                                          
+STRAXUSDT spot binance 2022-10-31 08:32:26.196345 binance STRAXUSDT spot 1h 2h 6h [1.31 %] [price = 0.54000000]                                                                
+ASTRUSDT spot binance 2022-10-31 08:52:23.129872 binance ASTRUSDT spot 1h 2h 4h 6h 8h [7.88 %] [price = 0.03970000] *** new highest evol in %                                  
+CHZUSDT spot binance 2022-10-31 08:15:38.759061 binance CHZUSDT spot 3d [-2.33 %] [price = 0.22170000]                                                                         
