@@ -1,0 +1,4 @@
+Scan results at : 2022-11-01 14:38:21.418484
+10000NFTUSDT swap bybit 2022-11-01 14:20:43.891314 bybit 10000NFTUSDT swap 1m [0.16 %] [price = 0.00621500] *** new highest evol in %                                          
+SUSHIUSDT swap bybit 2022-11-01 14:37:32.552797 bybit SUSHIUSDT swap 3m [3.82 %] [price = 1.65800000] *** new highest evol in %                                                
+RNDRUSDT swap bybit 2022-11-01 14:35:07.632117 bybit RNDRUSDT swap 1d [0.98 %] [price = 0.61600000] *** new highest evol in %                                                  

@@ -1,0 +1,4 @@
+Scan results at : 2022-11-01 15:57:16.402719
+IMXUSDT swap bybit 2022-11-01 16:07:00.230454 bybit IMXUSDT swap 5m [-0.84 %] [price = 0.59100000]                                                                             
+ATOMUSDT swap bybit 2022-11-01 15:59:35.950414 bybit ATOMUSDT swap 2h [-0.91 %] [price = 14.17500000]                                                                          
+DODOUSDT swap bybit 2022-11-01 16:03:39.076664 bybit DODOUSDT swap 6h [4.40 %] [price = 0.13870000] *** new highest evol in %                                                  

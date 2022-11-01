@@ -1,0 +1,7 @@
+Scan results at : 2022-11-01 15:49:46.990010
+1000XECUSDT swap bybit 2022-11-01 15:38:57.368949 bybit 1000XECUSDT swap 1m [-0.63 %] [price = 0.03810000]                                                                     
+BOBAUSDT swap bybit 2022-11-01 15:42:18.879941 bybit BOBAUSDT swap 1h [1.01 %] [price = 0.30150000] *** new highest evol in %                                                  
+ATOMUSDT swap bybit 2022-11-01 15:40:47.978415 bybit ATOMUSDT swap 2h [-1.26 %] [price = 14.12500000]                                                                          
+STMXUSDT swap bybit 2022-11-01 15:54:17.718340 bybit STMXUSDT swap 1h 2h [4.05 %] [price = 0.00707000]                                                                         
+BAKEUSDT swap bybit 2022-11-01 15:41:11.993679 bybit BAKEUSDT swap 4h 6h [-1.17 %] [price = 0.25400000]                                                                        
+DODOUSDT swap bybit 2022-11-01 15:44:52.484399 bybit DODOUSDT swap 3m 4h 6h [4.74 %] [price = 0.13915000] *** new highest evol in %                                            

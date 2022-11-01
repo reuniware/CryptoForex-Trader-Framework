@@ -1,0 +1,11 @@
+Scan results at : 2022-11-01 14:01:25.890275
+COMPUSDT spot binance 2022-11-01 13:28:20.437169 binance COMPUSDT spot 1s [-0.34 %] [price = 50.03000000]                                                                      
+MASKUSDT spot binance 2022-11-01 13:46:46.636672 binance MASKUSDT spot 1s [0.97 %] [price = 2.29200000]                                                                        
+ALPHAUSDT spot binance 2022-11-01 13:37:44.414005 binance ALPHAUSDT spot 3m [1.27 %] [price = 0.11970000]                                                                      
+SUSHIUSDT spot binance 2022-11-01 13:34:09.599898 binance SUSHIUSDT spot 3m 5m [2.63 %] [price = 1.63900000] *** new highest evol in %                                         
+NKNUSDT spot binance 2022-11-01 13:22:37.618247 binance NKNUSDT spot 2h [1.33 %] [price = 0.09170000] *** new highest evol in %                                                
+DODOUSDT spot binance 2022-11-01 13:42:39.232212 binance DODOUSDT spot 1h 2h [5.04 %] [price = 0.13960000] *** new highest evol in %                                           
+JUVUSDT spot binance 2022-11-01 13:40:16.064254 binance JUVUSDT spot 4h [1.02 %] [price = 3.95000000]                                                                          
+PSGUSDT spot binance 2022-11-01 13:40:27.780302 binance PSGUSDT spot 8h [2.00 %] [price = 7.13000000]                                                                          
+ETHUSDT spot binance 2022-11-01 13:13:03.531123 binance ETHUSDT spot 1d [1.27 %] [price = 1592.70000000] *** new highest evol in %                                             
+ASTRUSDT spot binance 2022-11-01 14:00:26.417234 binance ASTRUSDT spot 1d [4.10 %] [price = 0.04060000]                                                                        

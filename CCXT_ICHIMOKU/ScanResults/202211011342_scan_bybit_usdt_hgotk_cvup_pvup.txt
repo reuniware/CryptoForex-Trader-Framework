@@ -1,0 +1,6 @@
+Scan results at : 2022-11-01 13:22:48.309645
+ALGOUSDT swap bybit 2022-11-01 13:24:00.008392 bybit ALGOUSDT swap 2h [0.84 %] [price = 0.36150000] *** new highest evol in %                                                  
+API3USDT swap bybit 2022-11-01 13:24:36.928663 bybit API3USDT swap 6h [3.37 %] [price = 1.81100000] *** new highest evol in %                                                  
+BATUSDT swap bybit 2022-11-01 13:25:53.446956 bybit BATUSDT swap 6h [1.35 %] [price = 0.30100000]                                                                              
+ONTUSDT swap bybit 2022-11-01 13:36:17.445592 bybit ONTUSDT swap 6h [1.08 %] [price = 0.22540000]                                                                              
+SHIB1000USDT swap bybit 2022-11-01 13:38:18.848444 bybit SHIB1000USDT swap 4h 6h 12h [4.50 %] [price = 0.01299500] *** new highest evol in %                                   

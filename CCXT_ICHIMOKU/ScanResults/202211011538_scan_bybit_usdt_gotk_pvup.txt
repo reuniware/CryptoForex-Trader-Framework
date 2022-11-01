@@ -1,0 +1,16 @@
+Scan results at : 2022-11-01 15:19:03.474593
+1000BTTUSDT swap bybit 2022-11-01 15:19:16.916820 bybit 1000BTTUSDT swap 1m [-0.25 %] [price = 0.00081400]                                                                     
+ETHUSDT swap bybit 2022-11-01 15:26:47.624272 bybit ETHUSDT swap 1m [0.01 %] [price = 1572.20000000]                                                                           
+XTZUSDT swap bybit 2022-11-01 15:37:54.012550 bybit XTZUSDT swap 1m [-0.70 %] [price = 1.41400000]                                                                             
+USDCUSDT swap bybit 2022-11-01 15:36:51.733139 bybit USDCUSDT swap 5m [0.01 %] [price = 1.00010000]                                                                            
+SNXUSDT swap bybit 2022-11-01 15:35:02.980819 bybit SNXUSDT swap 15m [3.99 %] [price = 2.60400000]                                                                             
+ARUSDT swap bybit 2022-11-01 15:21:13.826506 bybit ARUSDT swap 30m [-1.06 %] [price = 10.28000000]                                                                             
+AUDIOUSDT swap bybit 2022-11-01 15:21:33.245108 bybit AUDIOUSDT swap 30m [5.74 %] [price = 0.21200000] *** new highest evol in %                                               
+EGLDUSDT swap bybit 2022-11-01 15:26:13.859017 bybit EGLDUSDT swap 30m [2.06 %] [price = 59.40000000]                                                                          
+IMXUSDT swap bybit 2022-11-01 15:29:07.994211 bybit IMXUSDT swap 30m [-0.34 %] [price = 0.59400000]                                                                            
+JASMYUSDT swap bybit 2022-11-01 15:29:40.788339 bybit JASMYUSDT swap 15m 30m [5.77 %] [price = 0.00550000] *** new highest evol in %                                           
+MTLUSDT swap bybit 2022-11-01 15:31:57.848472 bybit MTLUSDT swap 1h [1.48 %] [price = 1.02700000]                                                                              
+STMXUSDT swap bybit 2022-11-01 15:35:33.567647 bybit STMXUSDT swap 1h 2h [2.72 %] [price = 0.00698000]                                                                         
+SFPUSDT swap bybit 2022-11-01 15:34:38.018869 bybit SFPUSDT swap 6h [2.48 %] [price = 0.41350000]                                                                              
+DODOUSDT swap bybit 2022-11-01 15:25:41.965596 bybit DODOUSDT swap 4h 6h [5.49 %] [price = 0.14015000]                                                                         
+BAKEUSDT swap bybit 2022-11-01 15:21:51.747136 bybit BAKEUSDT swap 30m 4h 6h [-1.17 %] [price = 0.25400000]                                                                    

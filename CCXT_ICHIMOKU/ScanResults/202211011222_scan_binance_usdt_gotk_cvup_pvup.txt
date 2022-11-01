@@ -1,0 +1,10 @@
+Scan results at : 2022-11-01 12:03:48.393485
+SUPERUSDT spot binance 2022-11-01 12:04:05.723839 binance SUPERUSDT spot 5m [4.70 %] [price = 0.13810000]                                                                      
+APTUSDT spot binance 2022-11-01 12:22:25.382862 binance APTUSDT spot 15m [1.96 %] [price = 8.08950000]                                                                         
+PERPUSDT spot binance 2022-11-01 12:03:57.534192 binance PERPUSDT spot 5m 15m [8.01 %] [price = 0.58000000] *** new highest evol in %                                          
+BUSDUSDT spot binance 2022-11-01 11:42:36.569166 binance BUSDUSDT spot 30m [0.02 %] [price = 1.00030000]                                                                       
+JSTUSDT spot binance 2022-11-01 11:52:32.534245 binance JSTUSDT spot 30m [0.24 %] [price = 0.02908000]                                                                         
+RNDRUSDT spot binance 2022-11-01 12:15:34.479863 binance RNDRUSDT spot 30m [-0.16 %] [price = 0.60700000]                                                                      
+XNOUSDT spot binance 2022-11-01 12:18:55.285920 binance XNOUSDT spot 30m [0.66 %] [price = 0.75900000]                                                                         
+ALGOUSDT spot binance 2022-11-01 11:39:50.230738 binance ALGOUSDT spot 6h [0.50 %] [price = 0.36050000] *** new highest evol in %                                              
+AAVEUSDT spot binance 2022-11-01 11:57:57.202345 binance AAVEUSDT spot 12h [1.43 %] [price = 85.10000000] *** new highest evol in %                                            

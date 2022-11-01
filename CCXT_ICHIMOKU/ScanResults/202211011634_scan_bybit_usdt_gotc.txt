@@ -1,0 +1,13 @@
+Scan results at : 2022-11-01 16:34:41.308220
+FLMUSDT swap bybit 2022-11-01 16:23:59.243135 bybit FLMUSDT swap 1m [-1.83 %] [price = 0.11550000]                                                                             
+BCHUSDT swap bybit 2022-11-01 16:19:14.372928 bybit BCHUSDT swap 5m [0.22 %] [price = 115.20000000]                                                                            
+BNXUSDT swap bybit 2022-11-01 16:19:51.100177 bybit BNXUSDT swap 5m [-0.65 %] [price = 144.85000000]                                                                           
+KDAUSDT swap bybit 2022-11-01 16:26:38.188908 bybit KDAUSDT swap 5m [-3.66 %] [price = 1.34200000]                                                                             
+ARUSDT swap bybit 2022-11-01 16:18:12.683066 bybit ARUSDT swap 15m [-0.96 %] [price = 10.29000000]                                                                             
+CELOUSDT swap bybit 2022-11-01 16:20:34.400508 bybit CELOUSDT swap 1h [-2.40 %] [price = 0.73100000]                                                                           
+APTUSDT swap bybit 2022-11-01 16:18:00.630418 bybit APTUSDT swap 30m 1h [1.95 %] [price = 8.09000000] *** new highest evol in %                                                
+RAYUSDT swap bybit 2022-11-01 16:29:42.431506 bybit RAYUSDT swap 4h [-0.96 %] [price = 0.51500000]                                                                             
+SPELLUSDT swap bybit 2022-11-01 16:31:38.122023 bybit SPELLUSDT swap 4h [0.00 %] [price = 0.00086000]                                                                          
+JASMYUSDT swap bybit 2022-11-01 16:26:19.745800 bybit JASMYUSDT swap 12h [5.77 %] [price = 0.00550000] *** new highest evol in %                                               
+STMXUSDT swap bybit 2022-11-01 16:31:56.283119 bybit STMXUSDT swap 12h [7.51 %] [price = 0.00730500] *** new highest evol in %                                                 
+ASTRUSDT swap bybit 2022-11-01 16:18:18.796034 bybit ASTRUSDT swap 1d [5.13 %] [price = 0.04095000] *** new highest evol in %                                                  

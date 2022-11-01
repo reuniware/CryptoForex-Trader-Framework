@@ -1,0 +1,5 @@
+Scan results at : 2022-11-01 14:40:14.183906
+KLAYUSDT spot binance 2022-11-01 14:38:05.869502 binance KLAYUSDT spot 5m [0.62 %] [price = 0.26020000]                                                                        
+BTSUSDT spot binance 2022-11-01 14:15:36.535521 binance BTSUSDT spot 1h [1.44 %] [price = 0.01058000] *** new highest evol in %                                                
+SANTOSUSDT spot binance 2022-11-01 14:46:33.793173 binance SANTOSUSDT spot 2h [0.23 %] [price = 11.86900000]                                                                   
+ASTRUSDT spot binance 2022-11-01 14:50:15.260688 binance ASTRUSDT spot 1d [4.10 %] [price = 0.04060000] *** new highest evol in %                                              

@@ -1,0 +1,5 @@
+Scan results at : 2022-11-01 15:38:31.541214
+SXPUSDT spot binance 2022-11-01 15:11:06.323352 binance SXPUSDT spot 1m [-1.06 %] [price = 0.32550000]                                                                         
+AXSUSDT spot binance 2022-11-01 15:19:42.034803 binance AXSUSDT spot 1m [-0.98 %] [price = 9.12000000]                                                                         
+API3USDT spot binance 2022-11-01 15:39:46.345329 binance API3USDT spot 2h [3.75 %] [price = 1.82400000] *** new highest evol in %                                              
+ASTRUSDT spot binance 2022-11-01 15:40:59.393846 binance ASTRUSDT spot 1d [4.36 %] [price = 0.04070000] *** new highest evol in %                                              

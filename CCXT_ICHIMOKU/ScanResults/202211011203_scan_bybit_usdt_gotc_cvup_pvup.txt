@@ -1,0 +1,2 @@
+Scan results at : 2022-11-01 11:50:17.887865
+ASTRUSDT swap bybit 2022-11-01 11:46:09.611127 bybit ASTRUSDT swap 12h 1d [6.03 %] [price = 0.04130000] *** new highest evol in %                                              

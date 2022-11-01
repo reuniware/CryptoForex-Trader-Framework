@@ -1,0 +1,9 @@
+Scan results at : 2022-11-01 13:42:21.287203
+INJUSDT swap bybit 2022-11-01 13:52:16.048759 bybit INJUSDT swap 1m 15m [0.00 %] [price = 2.43350000]                                                                          
+ANKRUSDT swap bybit 2022-11-01 13:43:51.935544 bybit ANKRUSDT swap 6h [1.70 %] [price = 0.02990000] *** new highest evol in %                                                  
+BITUSDT swap bybit 2022-11-01 13:45:52.414082 bybit BITUSDT swap 6h [0.00 %] [price = 0.43100000]                                                                              
+DODOUSDT swap bybit 2022-11-01 13:48:50.880280 bybit DODOUSDT swap 12h [4.97 %] [price = 0.13945000] *** new highest evol in %                                                 
+ALGOUSDT swap bybit 2022-11-01 13:43:33.010750 bybit ALGOUSDT swap 1d [-0.28 %] [price = 0.35750000]                                                                           
+ATOMUSDT swap bybit 2022-11-01 13:44:42.633762 bybit ATOMUSDT swap 1d [-2.41 %] [price = 13.96000000]                                                                          
+LINKUSDT swap bybit 2022-11-01 13:53:36.129614 bybit LINKUSDT swap 1d [-2.17 %] [price = 7.67800000]                                                                           
+RNDRUSDT swap bybit 2022-11-01 13:56:30.842488 bybit RNDRUSDT swap 1d [1.31 %] [price = 0.61800000]                                                                            
