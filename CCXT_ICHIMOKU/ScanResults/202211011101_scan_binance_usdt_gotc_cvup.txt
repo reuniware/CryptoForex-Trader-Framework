@@ -1,0 +1,17 @@
+Scan results at : 2022-11-01 10:46:04.679886
+ADAUSDT spot binance 2022-11-01 10:14:21.564092 binance ADAUSDT spot 3m [1.85 %] [price = 0.41300000] *** new highest evol in %                                                
+IOTAUSDT spot binance 2022-11-01 10:14:45.151442 binance IOTAUSDT spot 3m [1.05 %] [price = 0.26100000]                                                                        
+XEMUSDT spot binance 2022-11-01 10:38:59.191806 binance XEMUSDT spot 5m [1.79 %] [price = 0.03970000]                                                                          
+PERPUSDT spot binance 2022-11-01 10:43:14.865146 binance PERPUSDT spot 5m [2.42 %] [price = 0.55000000]                                                                        
+KSMUSDT spot binance 2022-11-01 10:33:53.582527 binance KSMUSDT spot 15m [0.34 %] [price = 35.04000000]                                                                        
+BSWUSDT spot binance 2022-11-01 10:59:13.971125 binance BSWUSDT spot 15m [0.15 %] [price = 0.26220000]                                                                         
+TLMUSDT spot binance 2022-11-01 10:44:06.145367 binance TLMUSDT spot 30m [1.12 %] [price = 0.02170000]                                                                         
+RENUSDT spot binance 2022-11-01 10:22:14.427107 binance RENUSDT spot 4h [0.00 %] [price = 0.12920000]                                                                          
+CFXUSDT spot binance 2022-11-01 10:43:30.628454 binance CFXUSDT spot 4h [2.62 %] [price = 0.03910000] *** new highest evol in %                                                
+FORTHUSDT spot binance 2022-11-01 10:44:29.785669 binance FORTHUSDT spot 4h [1.66 %] [price = 4.28000000]                                                                      
+RAREUSDT spot binance 2022-11-01 10:52:09.587373 binance RAREUSDT spot 4h [3.16 %] [price = 0.15650000] *** new highest evol in %                                              
+XVGUSDT spot binance 2022-11-01 10:46:05.190271 binance XVGUSDT spot 6h [2.22 %] [price = 0.00322000]                                                                          
+ALPINEUSDT spot binance 2022-11-01 10:58:22.101124 binance ALPINEUSDT spot 6h [-0.07 %] [price = 3.05830000]                                                                   
+STEEMUSDT spot binance 2022-11-01 10:59:42.830269 binance STEEMUSDT spot 30m 12h [2.33 %] [price = 0.24110000]                                                                 
+YFIIUSDT spot binance 2022-11-01 10:33:45.759264 binance YFIIUSDT spot 1d [2.47 %] [price = 1321.50000000] *** new highest evol in %                                           
+ASTRUSDT spot binance 2022-11-01 10:58:42.415478 binance ASTRUSDT spot 12h 1d [8.21 %] [price = 0.04220000] *** new highest evol in %                                          

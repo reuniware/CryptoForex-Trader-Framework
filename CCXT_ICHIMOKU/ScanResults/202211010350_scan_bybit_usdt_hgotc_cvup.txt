@@ -1,0 +1,13 @@
+Scan results at : 2022-11-01 03:31:27.393948
+ARPAUSDT swap bybit 2022-11-01 03:33:26.759636 bybit ARPAUSDT swap 1h [1.44 %] [price = 0.03531000]                                                                            
+ALPHAUSDT swap bybit 2022-11-01 03:32:47.928899 bybit ALPHAUSDT swap 2h [1.27 %] [price = 0.11950000] *** new highest evol in %                                                
+AUDIOUSDT swap bybit 2022-11-01 03:33:51.271970 bybit AUDIOUSDT swap 2h [1.25 %] [price = 0.20300000]                                                                          
+DUSKUSDT swap bybit 2022-11-01 03:38:08.237086 bybit DUSKUSDT swap 2h [0.91 %] [price = 0.13330000]                                                                            
+EOSUSDT swap bybit 2022-11-01 03:38:38.771883 bybit EOSUSDT swap 2h [0.87 %] [price = 1.15700000]                                                                              
+OGNUSDT swap bybit 2022-11-01 03:44:07.849059 bybit OGNUSDT swap 2h [1.37 %] [price = 0.14780000]                                                                              
+STORJUSDT swap bybit 2022-11-01 03:47:16.624554 bybit STORJUSDT swap 2h [5.82 %] [price = 0.46350000] *** new highest evol in %                                                
+ZILUSDT swap bybit 2022-11-01 03:49:58.760345 bybit ZILUSDT swap 2h [0.81 %] [price = 0.03119000]                                                                              
+ANKRUSDT swap bybit 2022-11-01 03:32:54.088606 bybit ANKRUSDT swap 4h [4.08 %] [price = 0.03060000] *** new highest evol in %                                                  
+CELRUSDT swap bybit 2022-11-01 03:35:59.504988 bybit CELRUSDT swap 4h [0.98 %] [price = 0.01550000]                                                                            
+KDAUSDT swap bybit 2022-11-01 03:41:53.347228 bybit KDAUSDT swap 4h [-2.15 %] [price = 1.36300000]                                                                             
+RNDRUSDT swap bybit 2022-11-01 03:45:21.085194 bybit RNDRUSDT swap 1d [-1.15 %] [price = 0.60300000]                                                                           

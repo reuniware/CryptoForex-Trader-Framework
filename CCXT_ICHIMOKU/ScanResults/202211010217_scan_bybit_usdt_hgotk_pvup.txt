@@ -1,0 +1,13 @@
+Scan results at : 2022-11-01 01:59:13.835042
+UNFIUSDT swap bybit 2022-11-01 02:15:14.605019 bybit UNFIUSDT swap 30m [2.50 %] [price = 6.10000000]                                                                           
+UNIUSDT swap bybit 2022-11-01 02:15:20.756840 bybit UNIUSDT swap 30m [0.63 %] [price = 6.99900000]                                                                             
+FLMUSDT swap bybit 2022-11-01 02:06:08.484080 bybit FLMUSDT swap 1h [0.85 %] [price = 0.11865000]                                                                              
+ANKRUSDT swap bybit 2022-11-01 01:59:54.685418 bybit ANKRUSDT swap 4h [1.19 %] [price = 0.02975000] *** new highest evol in %                                                  
+ARPAUSDT swap bybit 2022-11-01 02:00:24.792997 bybit ARPAUSDT swap 4h [1.29 %] [price = 0.03526000] *** new highest evol in %                                                  
+EOSUSDT swap bybit 2022-11-01 02:05:32.448165 bybit EOSUSDT swap 4h [1.66 %] [price = 1.16600000] *** new highest evol in %                                                    
+GRTUSDT swap bybit 2022-11-01 02:07:14.840913 bybit GRTUSDT swap 4h [0.59 %] [price = 0.08500000]                                                                              
+XMRUSDT swap bybit 2022-11-01 02:16:09.775948 bybit XMRUSDT swap 4h [0.27 %] [price = 149.85000000]                                                                            
+STORJUSDT swap bybit 2022-11-01 02:14:13.651464 bybit STORJUSDT swap 1h 4h [4.22 %] [price = 0.45650000] *** new highest evol in %                                             
+SCUSDT swap bybit 2022-11-01 02:13:07.138238 bybit SCUSDT swap 2h 4h [0.60 %] [price = 0.00335000]                                                                             
+SNXUSDT swap bybit 2022-11-01 02:13:37.243534 bybit SNXUSDT swap 2h 4h [1.48 %] [price = 2.54100000]                                                                           
+CELOUSDT swap bybit 2022-11-01 02:02:49.155549 bybit CELOUSDT swap 12h [0.53 %] [price = 0.75300000]                                                                           

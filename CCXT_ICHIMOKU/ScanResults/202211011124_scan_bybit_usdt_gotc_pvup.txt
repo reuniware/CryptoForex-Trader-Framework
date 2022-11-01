@@ -1,0 +1,11 @@
+Scan results at : 2022-11-01 11:04:39.108323
+SUSHIUSDT swap bybit 2022-11-01 11:21:42.671798 bybit SUSHIUSDT swap 5m [2.76 %] [price = 1.64100000]                                                                          
+BSVUSDT swap bybit 2022-11-01 11:08:50.521431 bybit BSVUSDT swap 4h [0.31 %] [price = 47.95000000]                                                                             
+REQUSDT swap bybit 2022-11-01 11:19:11.875999 bybit REQUSDT swap 2h 4h [5.74 %] [price = 0.11610000]                                                                           
+ADAUSDT swap bybit 2022-11-01 11:05:31.484843 bybit ADAUSDT swap 12h [1.41 %] [price = 0.41100000] *** new highest evol in %                                                   
+ANKRUSDT swap bybit 2022-11-01 11:06:11.904278 bybit ANKRUSDT swap 12h [3.74 %] [price = 0.03050000] *** new highest evol in %                                                 
+ARPAUSDT swap bybit 2022-11-01 11:06:44.843172 bybit ARPAUSDT swap 12h [1.18 %] [price = 0.03522000]                                                                           
+GLMRUSDT swap bybit 2022-11-01 11:13:41.434171 bybit GLMRUSDT swap 12h [1.26 %] [price = 0.48300000]                                                                           
+ETHUSDT swap bybit 2022-11-01 11:12:32.974469 bybit ETHUSDT swap 1d [1.41 %] [price = 1594.25000000]                                                                           
+WOOUSDT swap bybit 2022-11-01 11:22:59.727179 bybit WOOUSDT swap 1d [1.49 %] [price = 0.17720000]                                                                              
+ASTRUSDT swap bybit 2022-11-01 11:06:58.331827 bybit ASTRUSDT swap 12h 1d [7.57 %] [price = 0.04190000] *** new highest evol in %                                              

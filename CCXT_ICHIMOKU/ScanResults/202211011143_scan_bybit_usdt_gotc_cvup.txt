@@ -1,0 +1,7 @@
+Scan results at : 2022-11-01 11:33:50.181258
+JSTUSDT swap bybit 2022-11-01 11:35:06.885050 bybit JSTUSDT swap 3m [0.28 %] [price = 0.02903000]                                                                              
+1000BTTUSDT swap bybit 2022-11-01 11:24:37.939928 bybit 1000BTTUSDT swap 15m [0.37 %] [price = 0.00081900] *** new highest evol in %                                           
+CRVUSDT swap bybit 2022-11-01 11:29:59.915366 bybit CRVUSDT swap 15m [0.90 %] [price = 0.89200000]                                                                             
+LOOKSUSDT swap bybit 2022-11-01 11:36:10.003925 bybit LOOKSUSDT swap 30m [0.00 %] [price = 0.22900000]                                                                         
+REQUSDT swap bybit 2022-11-01 11:38:49.602499 bybit REQUSDT swap 2h [3.28 %] [price = 0.11340000]                                                                              
+ASTRUSDT swap bybit 2022-11-01 11:26:41.871990 bybit ASTRUSDT swap 12h 1d [7.96 %] [price = 0.04205000] *** new highest evol in %                                              

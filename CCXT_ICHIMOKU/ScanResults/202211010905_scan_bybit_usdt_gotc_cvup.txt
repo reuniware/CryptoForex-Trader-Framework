@@ -1,0 +1,9 @@
+Scan results at : 2022-11-01 08:51:30.368414
+DOGEUSDT swap bybit 2022-11-01 08:52:50.891138 bybit DOGEUSDT swap 1m [15.39 %] [price = 0.14620000] *** new highest evol in %                                                 
+ALPHAUSDT swap bybit 2022-11-01 08:47:45.421355 bybit ALPHAUSDT swap 3m [1.65 %] [price = 0.11995000] *** new highest evol in %                                                
+OMGUSDT swap bybit 2022-11-01 08:59:07.196671 bybit OMGUSDT swap 15m [0.48 %] [price = 1.66300000]                                                                             
+CROUSDT swap bybit 2022-11-01 08:51:38.555273 bybit CROUSDT swap 1m 15m [-0.13 %] [price = 0.11470000]                                                                         
+GLMRUSDT swap bybit 2022-11-01 08:54:52.258027 bybit GLMRUSDT swap 30m [0.84 %] [price = 0.48100000]                                                                           
+SPELLUSDT swap bybit 2022-11-01 09:01:48.187617 bybit SPELLUSDT swap 30m [2.33 %] [price = 0.00088000]                                                                         
+DUSKUSDT swap bybit 2022-11-01 08:53:02.885750 bybit DUSKUSDT swap 1h [1.29 %] [price = 0.13380000]                                                                            
+ASTRUSDT swap bybit 2022-11-01 08:48:35.283225 bybit ASTRUSDT swap 12h 1d [7.45 %] [price = 0.04185000] *** new highest evol in %                                              

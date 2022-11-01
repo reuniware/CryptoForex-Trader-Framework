@@ -1,0 +1,10 @@
+Scan results at : 2022-11-01 09:05:11.103773
+PHAUSDT spot binance 2022-11-01 08:54:58.479710 binance PHAUSDT spot 5m [1.74 %] [price = 0.15770000]                                                                          
+CHZUSDT spot binance 2022-11-01 08:30:04.957371 binance CHZUSDT spot 15m [2.26 %] [price = 0.22610000] *** new highest evol in %                                               
+NEARUSDT spot binance 2022-11-01 08:45:42.142366 binance NEARUSDT spot 30m [0.61 %] [price = 3.12400000]                                                                       
+RIFUSDT spot binance 2022-11-01 08:48:51.404982 binance RIFUSDT spot 1h [3.14 %] [price = 0.05590000] *** new highest evol in %                                                
+MTLUSDT spot binance 2022-11-01 08:28:42.280810 binance MTLUSDT spot 4h [1.38 %] [price = 1.02500000] *** new highest evol in %                                                
+STMXUSDT spot binance 2022-11-01 08:35:52.331903 binance STMXUSDT spot 4h [1.56 %] [price = 0.00688900]                                                                        
+AAVEUSDT spot binance 2022-11-01 08:45:34.309772 binance AAVEUSDT spot 4h [1.91 %] [price = 85.50000000]                                                                       
+KDAUSDT spot binance 2022-11-01 09:06:49.039537 binance KDAUSDT spot 6h [-2.51 %] [price = 1.35800000]                                                                         
+BUSDUSDT spot binance 2022-11-01 08:30:21.267066 binance BUSDUSDT spot 12h [0.02 %] [price = 1.00030000]                                                                       

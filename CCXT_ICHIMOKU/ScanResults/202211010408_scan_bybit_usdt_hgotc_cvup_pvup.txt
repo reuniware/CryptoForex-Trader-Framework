@@ -1,0 +1,2 @@
+Scan results at : 2022-11-01 03:50:05.926829
+ANKRUSDT swap bybit 2022-11-01 03:51:31.542964 bybit ANKRUSDT swap 4h [3.57 %] [price = 0.03045000] *** new highest evol in %                                                  

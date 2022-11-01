@@ -1,0 +1,14 @@
+Scan results at : 2022-11-01 01:02:41.398780
+BCHUSDT spot binance 2022-11-01 00:24:35.278596 binance BCHUSDT spot 1m [0.09 %] [price = 115.10000000] *** new highest evol in %                                              
+SOLUSDT spot binance 2022-11-01 00:27:15.933236 binance SOLUSDT spot 1m [0.25 %] [price = 32.65000000] *** new highest evol in %                                               
+XVSUSDT spot binance 2022-11-01 00:37:58.621248 binance XVSUSDT spot 3m [0.00 %] [price = 5.11000000]                                                                          
+NEARUSDT spot binance 2022-11-01 00:38:27.971699 binance NEARUSDT spot 3m 5m [0.48 %] [price = 3.12000000]                                                                     
+STMXUSDT spot binance 2022-11-01 00:28:25.163236 binance STMXUSDT spot 15m [1.03 %] [price = 0.00685300] *** new highest evol in %                                             
+LINAUSDT spot binance 2022-11-01 00:44:13.928090 binance LINAUSDT spot 15m [0.99 %] [price = 0.00815000]                                                                       
+SANDUSDT spot binance 2022-11-01 00:33:27.908514 binance SANDUSDT spot 1h [0.86 %] [price = 0.87880000]                                                                        
+BAKEUSDT spot binance 2022-11-01 00:45:47.083485 binance BAKEUSDT spot 1h [1.44 %] [price = 0.26010000]                                                                        
+GMTUSDT spot binance 2022-11-01 00:59:54.713547 binance GMTUSDT spot 1h [1.03 %] [price = 0.54890000]                                                                          
+STEEMUSDT spot binance 2022-11-01 01:00:46.676948 binance STEEMUSDT spot 2h [0.93 %] [price = 0.23780000]                                                                      
+PLAUSDT spot binance 2022-11-01 00:55:36.836174 binance PLAUSDT spot 4h [0.67 %] [price = 0.30000000]                                                                          
+RAYUSDT spot binance 2022-11-01 00:49:29.067926 binance RAYUSDT spot 8h [1.54 %] [price = 0.52800000]                                                                          
+STRAXUSDT spot binance 2022-11-01 00:39:37.370410 binance STRAXUSDT spot 8h 12h 1d [19.68 %] [price = 0.66300000] *** new highest evol in %                                    

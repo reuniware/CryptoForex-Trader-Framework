@@ -1,0 +1,20 @@
+Scan results at : 2022-11-01 02:17:05.141849
+TOMOUSDT swap bybit 2022-11-01 02:33:22.404108 bybit TOMOUSDT swap 1m [1.38 %] [price = 0.44000000]                                                                            
+CELOUSDT swap bybit 2022-11-01 02:21:27.116104 bybit CELOUSDT swap 3m [0.93 %] [price = 0.75600000]                                                                            
+BICOUSDT swap bybit 2022-11-01 02:20:19.566045 bybit BICOUSDT swap 5m [1.25 %] [price = 0.40500000]                                                                            
+ASTRUSDT swap bybit 2022-11-01 02:19:13.431818 bybit ASTRUSDT swap 1h [3.34 %] [price = 0.04025000] *** new highest evol in %                                                  
+IOTXUSDT swap bybit 2022-11-01 02:26:57.816591 bybit IOTXUSDT swap 1h [4.24 %] [price = 0.02950000] *** new highest evol in %                                                  
+SANDUSDT swap bybit 2022-11-01 02:31:21.520408 bybit SANDUSDT swap 1h [2.86 %] [price = 0.89530000]                                                                            
+CROUSDT swap bybit 2022-11-01 02:22:15.470550 bybit CROUSDT swap 2h [-1.00 %] [price = 0.11370000]                                                                             
+EGLDUSDT swap bybit 2022-11-01 02:23:51.398057 bybit EGLDUSDT swap 2h [1.29 %] [price = 58.95000000]                                                                           
+RUNEUSDT swap bybit 2022-11-01 02:31:09.442294 bybit RUNEUSDT swap 3m 2h [1.20 %] [price = 1.59700000]                                                                         
+FLMUSDT swap bybit 2022-11-01 02:24:45.770281 bybit FLMUSDT swap 1h 2h [0.51 %] [price = 0.11825000]                                                                           
+ANKRUSDT swap bybit 2022-11-01 02:18:30.820692 bybit ANKRUSDT swap 4h [1.19 %] [price = 0.02975000] *** new highest evol in %                                                  
+ARPAUSDT swap bybit 2022-11-01 02:19:01.062898 bybit ARPAUSDT swap 4h [1.18 %] [price = 0.03522000]                                                                            
+EOSUSDT swap bybit 2022-11-01 02:24:09.706627 bybit EOSUSDT swap 4h [1.22 %] [price = 1.16100000]                                                                              
+GRTUSDT swap bybit 2022-11-01 02:25:46.138872 bybit GRTUSDT swap 4h [1.18 %] [price = 0.08550000]                                                                              
+KDAUSDT swap bybit 2022-11-01 02:27:22.226465 bybit KDAUSDT swap 4h [-2.01 %] [price = 1.36500000]                                                                             
+SCUSDT swap bybit 2022-11-01 02:31:33.591640 bybit SCUSDT swap 4h [0.30 %] [price = 0.00334000]                                                                                
+SNXUSDT swap bybit 2022-11-01 02:32:03.661739 bybit SNXUSDT swap 4h [2.00 %] [price = 2.55400000]                                                                              
+STORJUSDT swap bybit 2022-11-01 02:32:39.686895 bybit STORJUSDT swap 1h 4h [5.71 %] [price = 0.46300000] *** new highest evol in %                                             
+XMRUSDT swap bybit 2022-11-01 02:34:34.726654 bybit XMRUSDT swap 2h 4h [0.00 %] [price = 149.45000000]                                                                         

@@ -1,0 +1,8 @@
+Scan results at : 2022-11-01 08:31:47.819151
+CTCUSDT swap bybit 2022-11-01 08:33:10.624212 bybit CTCUSDT swap 5m 1h [17.18 %] [price = 0.62420000] *** new highest evol in %                                                
+STXUSDT swap bybit 2022-11-01 08:43:39.368816 bybit STXUSDT swap 2h [0.63 %] [price = 0.32000000]                                                                              
+QTUMUSDT swap bybit 2022-11-01 08:41:06.412145 bybit QTUMUSDT swap 4h [0.52 %] [price = 2.88000000]                                                                            
+BTCUSDT swap bybit 2022-11-01 08:31:52.348825 bybit BTCUSDT swap 6h [0.53 %] [price = 20589.00000000]                                                                          
+STMXUSDT swap bybit 2022-11-01 08:43:27.313910 bybit STMXUSDT swap 6h [1.47 %] [price = 0.00689500]                                                                            
+AAVEUSDT swap bybit 2022-11-01 08:28:22.819492 bybit AAVEUSDT swap 12h [2.03 %] [price = 85.45000000] *** new highest evol in %                                                
+ASTRUSDT swap bybit 2022-11-01 08:29:55.931160 bybit ASTRUSDT swap 12h [7.96 %] [price = 0.04205000] *** new highest evol in %                                                 

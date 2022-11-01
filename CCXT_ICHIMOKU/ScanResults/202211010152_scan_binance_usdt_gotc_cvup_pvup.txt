@@ -1,0 +1,11 @@
+Scan results at : 2022-11-01 01:39:57.943005
+BNBUPUSDT spot binance 2022-11-01 01:20:32.197328 binance BNBUPUSDT spot 3m [1.96 %] [price = 47.33000000]                                                                     
+PAXGUSDT spot binance 2022-11-01 01:23:21.882731 binance PAXGUSDT spot 5m [0.06 %] [price = 1629.00000000]                                                                     
+AKROUSDT spot binance 2022-11-01 01:28:13.468650 binance AKROUSDT spot 5m [0.85 %] [price = 0.00355000]                                                                        
+STMXUSDT spot binance 2022-11-01 01:17:18.588824 binance STMXUSDT spot 30m [1.34 %] [price = 0.00687400]                                                                       
+FXSUSDT spot binance 2022-11-01 01:45:59.662060 binance FXSUSDT spot 30m [0.18 %] [price = 6.86200000]                                                                         
+ANKRUSDT spot binance 2022-11-01 01:09:21.438768 binance ANKRUSDT spot 1h [1.40 %] [price = 0.02979000] *** new highest evol in %                                              
+MBLUSDT spot binance 2022-11-01 01:15:25.993753 binance MBLUSDT spot 1h [0.06 %] [price = 0.00320300]                                                                          
+GRTUSDT spot binance 2022-11-01 01:29:28.597523 binance GRTUSDT spot 1h [1.19 %] [price = 0.08530000]                                                                          
+STORJUSDT spot binance 2022-11-01 01:20:22.883910 binance STORJUSDT spot 8h [4.82 %] [price = 0.45910000] *** new highest evol in %                                            
+STRAXUSDT spot binance 2022-11-01 01:28:37.304552 binance STRAXUSDT spot 8h 12h 1d [20.04 %] [price = 0.66500000] *** new highest evol in %                                    

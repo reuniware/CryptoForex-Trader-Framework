@@ -1,0 +1,11 @@
+Scan results at : 2022-10-31 23:11:59.214113
+UNIUSDT spot binance 2022-10-31 22:54:28.476774 binance UNIUSDT spot 5m [0.73 %] [price = 6.94000000]                                                                          
+STGUSDT spot binance 2022-10-31 23:19:38.328774 binance STGUSDT spot 5m [0.76 %] [price = 0.50420000]                                                                          
+ICXUSDT spot binance 2022-10-31 22:33:47.148008 binance ICXUSDT spot 15m [-0.85 %] [price = 0.23340000]                                                                        
+RENUSDT spot binance 2022-10-31 22:40:37.160998 binance RENUSDT spot 1h [5.20 %] [price = 0.13140000] *** new highest evol in %                                                
+BUSDUSDT spot binance 2022-10-31 22:40:09.667815 binance BUSDUSDT spot 8h [0.02 %] [price = 1.00010000] *** new highest evol in %                                              
+XEMUSDT spot binance 2022-10-31 22:57:39.457732 binance XEMUSDT spot 8h [-0.51 %] [price = 0.03900000]                                                                         
+CITYUSDT spot binance 2022-10-31 23:11:56.005639 binance CITYUSDT spot 8h [-0.51 %] [price = 5.89000000]                                                                       
+KDAUSDT spot binance 2022-10-31 23:17:40.367275 binance KDAUSDT spot 6h 8h [8.06 %] [price = 1.39400000] *** new highest evol in %                                             
+MDTUSDT spot binance 2022-10-31 22:45:40.711677 binance MDTUSDT spot 1d [2.24 %] [price = 0.02871000]                                                                          
+CHZUSDT spot binance 2022-10-31 22:39:53.051903 binance CHZUSDT spot 3d [-2.56 %] [price = 0.22120000]                                                                         

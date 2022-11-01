@@ -1,0 +1,6 @@
+Scan results at : 2022-11-01 11:43:55.571447
+FXSUSDT spot binance 2022-11-01 11:44:12.145433 binance FXSUSDT spot 1s [-2.04 %] [price = 6.71000000]                                                                         
+ETHDOWNUSDT spot binance 2022-11-01 11:17:24.436649 binance ETHDOWNUSDT spot 5m [-1.61 %] [price = 0.70820000]                                                                 
+REPUSDT spot binance 2022-11-01 11:16:18.461624 binance REPUSDT spot 3m 5m [0.56 %] [price = 7.13000000] *** new highest evol in %                                             
+STEEMUSDT spot binance 2022-11-01 11:48:08.159266 binance STEEMUSDT spot 12h [1.27 %] [price = 0.23860000]                                                                     
+ASTRUSDT spot binance 2022-11-01 11:47:09.663543 binance ASTRUSDT spot 12h 1d [5.90 %] [price = 0.04130000] *** new highest evol in %                                          
