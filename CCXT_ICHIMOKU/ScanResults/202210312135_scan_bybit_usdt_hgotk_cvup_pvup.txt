@@ -1,0 +1,6 @@
+Scan results at : 2022-10-31 21:23:31.420564
+XRPUSDT swap bybit 2022-10-31 21:34:34.298524 bybit XRPUSDT swap 3m [-0.42 %] [price = 0.45590000]                                                                             
+SANDUSDT swap bybit 2022-10-31 21:30:56.846281 bybit SANDUSDT swap 2h [2.64 %] [price = 0.88340000]                                                                            
+CTCUSDT swap bybit 2022-10-31 21:21:36.545414 bybit CTCUSDT swap 12h [2.89 %] [price = 0.54685000] *** new highest evol in %                                                   
+DOGEUSDT swap bybit 2022-10-31 21:22:40.302437 bybit DOGEUSDT swap 1d [5.27 %] [price = 0.12380000] *** new highest evol in %                                                  
+MASKUSDT swap bybit 2022-10-31 21:28:12.063508 bybit MASKUSDT swap 1d [3.39 %] [price = 2.29000000]                                                                            

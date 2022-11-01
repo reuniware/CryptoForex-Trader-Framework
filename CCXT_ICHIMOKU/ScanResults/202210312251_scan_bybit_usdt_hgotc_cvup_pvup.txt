@@ -1,0 +1,7 @@
+Scan results at : 2022-10-31 22:35:47.024132
+CKBUSDT swap bybit 2022-10-31 22:37:58.059119 bybit CKBUSDT swap 1m [-1.45 %] [price = 0.00339500]                                                                             
+FXSUSDT swap bybit 2022-10-31 22:41:20.878099 bybit FXSUSDT swap 5m [1.05 %] [price = 6.71000000]                                                                              
+LUNA2USDT swap bybit 2022-10-31 22:44:51.003280 bybit LUNA2USDT swap 3m 5m [-2.32 %] [price = 2.44400000]                                                                      
+MANAUSDT swap bybit 2022-10-31 22:44:57.379892 bybit MANAUSDT swap 15m [0.60 %] [price = 0.67500000]                                                                           
+BAKEUSDT swap bybit 2022-10-31 22:35:49.079171 bybit BAKEUSDT swap 30m [2.61 %] [price = 0.25550000] *** new highest evol in %                                                 
+CELOUSDT swap bybit 2022-10-31 22:37:33.208579 bybit CELOUSDT swap 6h [4.35 %] [price = 0.74300000] *** new highest evol in %                                                  

@@ -1,0 +1,13 @@
+Scan results at : 2022-10-31 22:14:02.380993
+CELOUSDT spot binance 2022-10-31 22:10:09.152395 binance CELOUSDT spot 1m [3.93 %] [price = 0.74100000]                                                                        
+SYSUSDT spot binance 2022-10-31 22:20:35.280589 binance SYSUSDT spot 3m [-1.13 %] [price = 0.14840000]                                                                         
+XECUSDT spot binance 2022-10-31 22:19:37.029629 binance XECUSDT spot 5m [0.53 %] [price = 0.00003828]                                                                          
+FRONTUSDT spot binance 2022-10-31 22:21:02.605933 binance FRONTUSDT spot 15m 30m [0.64 %] [price = 0.23560000]                                                                 
+MFTUSDT spot binance 2022-10-31 21:50:09.901906 binance MFTUSDT spot 1h [2.46 %] [price = 0.00511900]                                                                          
+RNDRUSDT spot binance 2022-10-31 22:24:24.014316 binance RNDRUSDT spot 1h [4.20 %] [price = 0.59500000]                                                                        
+GALAUSDT spot binance 2022-10-31 22:20:11.341190 binance GALAUSDT spot 2h [-3.10 %] [price = 0.04253000]                                                                       
+GMTUSDT spot binance 2022-10-31 22:28:27.890787 binance GMTUSDT spot 2h [3.03 %] [price = 0.54790000]                                                                          
+KDAUSDT spot binance 2022-10-31 22:28:36.544414 binance KDAUSDT spot 6h 8h [5.97 %] [price = 1.36700000] *** new highest evol in %                                             
+RENUSDT spot binance 2022-10-31 21:51:44.243012 binance RENUSDT spot 12h [3.84 %] [price = 0.12970000]                                                                         
+BUSDUSDT spot binance 2022-10-31 21:51:16.833972 binance BUSDUSDT spot 1d [0.03 %] [price = 1.00020000]                                                                        
+DOGEUSDT spot binance 2022-10-31 21:48:46.518383 binance DOGEUSDT spot 3d [5.55 %] [price = 0.12427000] *** new highest evol in %                                              

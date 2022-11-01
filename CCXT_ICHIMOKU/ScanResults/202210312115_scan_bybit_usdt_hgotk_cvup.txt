@@ -1,0 +1,11 @@
+Scan results at : 2022-10-31 21:04:41.443457
+DUSKUSDT swap bybit 2022-10-31 21:03:19.516780 bybit DUSKUSDT swap 1m [-0.61 %] [price = 0.12990000]                                                                           
+JSTUSDT swap bybit 2022-10-31 21:06:52.916401 bybit JSTUSDT swap 1m [-1.40 %] [price = 0.02883000]                                                                             
+GLMRUSDT swap bybit 2022-10-31 21:05:08.678767 bybit GLMRUSDT swap 5m [-0.42 %] [price = 0.47900000]                                                                           
+KDAUSDT swap bybit 2022-10-31 21:07:04.915984 bybit KDAUSDT swap 1h [4.73 %] [price = 1.35100000]                                                                              
+SANDUSDT swap bybit 2022-10-31 21:11:12.241602 bybit SANDUSDT swap 2h [3.00 %] [price = 0.88650000]                                                                            
+CELOUSDT swap bybit 2022-10-31 21:01:04.773390 bybit CELOUSDT swap 6h [3.93 %] [price = 0.74000000] *** new highest evol in %                                                  
+STORJUSDT swap bybit 2022-10-31 21:12:37.517893 bybit STORJUSDT swap 6h [0.12 %] [price = 0.43450000]                                                                          
+CTCUSDT swap bybit 2022-10-31 21:02:06.042948 bybit CTCUSDT swap 12h [2.89 %] [price = 0.54685000]                                                                             
+DOGEUSDT swap bybit 2022-10-31 21:03:07.248841 bybit DOGEUSDT swap 1d [5.95 %] [price = 0.12460000] *** new highest evol in %                                                  
+MASKUSDT swap bybit 2022-10-31 21:08:31.559296 bybit MASKUSDT swap 1d [2.93 %] [price = 2.28000000]                                                                            

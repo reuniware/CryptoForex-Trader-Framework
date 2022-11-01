@@ -1,0 +1,14 @@
+Scan results at : 2022-10-31 21:47:06.913962
+DUSKUSDT swap bybit 2022-10-31 21:42:15.845589 bybit DUSKUSDT swap 1m [-0.92 %] [price = 0.12950000]                                                                           
+BTCUSDT swap bybit 2022-10-31 21:39:36.495263 bybit BTCUSDT swap 3m [-1.04 %] [price = 20399.50000000]                                                                         
+NEOUSDT swap bybit 2022-10-31 21:48:17.039917 bybit NEOUSDT swap 3m [-1.51 %] [price = 8.46000000]                                                                             
+QTUMUSDT swap bybit 2022-10-31 21:49:13.973715 bybit QTUMUSDT swap 3m [-0.35 %] [price = 2.84500000]                                                                           
+TRXUSDT swap bybit 2022-10-31 21:52:45.335695 bybit TRXUSDT swap 5m [-0.11 %] [price = 0.06301000]                                                                             
+GRTUSDT swap bybit 2022-10-31 21:44:30.147884 bybit GRTUSDT swap 2h [1.20 %] [price = 0.08450000]                                                                              
+XMRUSDT swap bybit 2022-10-31 21:53:47.262365 bybit XMRUSDT swap 2h [-0.20 %] [price = 147.20000000]                                                                           
+KDAUSDT swap bybit 2022-10-31 21:46:11.045630 bybit KDAUSDT swap 1h 2h [7.52 %] [price = 1.38700000] *** new highest evol in %                                                 
+ASTRUSDT swap bybit 2022-10-31 21:37:36.668673 bybit ASTRUSDT swap 6h [5.74 %] [price = 0.03870000] *** new highest evol in %                                                  
+CELOUSDT swap bybit 2022-10-31 21:39:54.980641 bybit CELOUSDT swap 6h [3.93 %] [price = 0.74000000]                                                                            
+ALGOUSDT swap bybit 2022-10-31 21:36:32.678970 bybit ALGOUSDT swap 12h [-0.97 %] [price = 0.35550000]                                                                          
+USDCUSDT swap bybit 2022-10-31 21:53:04.457705 bybit USDCUSDT swap 12h [-0.01 %] [price = 0.99990000]                                                                          
+RSS3USDT swap bybit 2022-10-31 21:50:04.657783 bybit RSS3USDT swap 1d [0.99 %] [price = 0.13290000]                                                                            

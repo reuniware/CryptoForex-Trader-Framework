@@ -1,0 +1,4 @@
+Scan results at : 2022-10-31 21:54:47.597786
+XRPUSDT swap bybit 2022-10-31 22:13:17.467141 bybit XRPUSDT swap 1m [-0.31 %] [price = 0.45640000]                                                                             
+CELOUSDT swap bybit 2022-10-31 21:59:22.232927 bybit CELOUSDT swap 6h [3.79 %] [price = 0.73900000] *** new highest evol in %                                                  
+USDCUSDT swap bybit 2022-10-31 22:12:20.932015 bybit USDCUSDT swap 12h [0.00 %] [price = 1.00000000]                                                                           

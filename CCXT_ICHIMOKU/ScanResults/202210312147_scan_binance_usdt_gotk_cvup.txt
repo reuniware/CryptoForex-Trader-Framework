@@ -1,0 +1,21 @@
+Scan results at : 2022-10-31 21:42:50.519721
+NULSUSDT spot binance 2022-10-31 21:00:58.018485 binance NULSUSDT spot 3m [-1.28 %] [price = 0.22320000]                                                                       
+ETHDOWNUSDT spot binance 2022-10-31 21:14:25.253634 binance ETHDOWNUSDT spot 5m [4.62 %] [price = 0.73170000]                                                                  
+ANCUSDT spot binance 2022-10-31 21:43:14.750121 binance ANCUSDT spot 5m [-3.46 %] [price = 0.08308000]                                                                         
+XRPDOWNUSDT spot binance 2022-10-31 21:20:45.447753 binance XRPDOWNUSDT spot 30m 1h [2.05 %] [price = 0.00028330]                                                              
+AVAXUSDT spot binance 2022-10-31 21:21:51.428417 binance AVAXUSDT spot 2h [3.67 %] [price = 18.92000000]                                                                       
+CTSIUSDT spot binance 2022-10-31 21:11:54.587097 binance CTSIUSDT spot 4h [-1.06 %] [price = 0.13940000]                                                                       
+DUSKUSDT spot binance 2022-10-31 21:04:52.507433 binance DUSKUSDT spot 6h [-0.92 %] [price = 0.12960000]                                                                       
+WRXUSDT spot binance 2022-10-31 21:10:09.543970 binance WRXUSDT spot 6h [-0.09 %] [price = 0.21170000]                                                                         
+BTTCUSDT spot binance 2022-10-31 21:42:57.613684 binance BTTCUSDT spot 6h [-1.20 %] [price = 0.00000082]                                                                       
+LTCUSDT spot binance 2022-10-31 20:59:21.917171 binance LTCUSDT spot 8h [-1.03 %] [price = 54.79000000]                                                                        
+TRXUSDT spot binance 2022-10-31 21:00:28.447651 binance TRXUSDT spot 8h [-0.14 %] [price = 0.06301000]                                                                         
+CELRUSDT spot binance 2022-10-31 21:02:51.978876 binance CELRUSDT spot 8h [-0.20 %] [price = 0.01531000]                                                                       
+BAKEUSDT spot binance 2022-10-31 21:30:06.204458 binance BAKEUSDT spot 8h [0.85 %] [price = 0.25040000]                                                                        
+API3USDT spot binance 2022-10-31 21:42:48.948686 binance API3USDT spot 8h [0.69 %] [price = 1.74200000]                                                                        
+KDAUSDT spot binance 2022-10-31 21:44:15.332798 binance KDAUSDT spot 6h 8h [7.60 %] [price = 1.38800000]                                                                       
+SUPERUSDT spot binance 2022-10-31 21:28:47.940968 binance SUPERUSDT spot 15m 30m 1h 2h 4h 6h 8h [8.85 %] [price = 0.14020000] *** new highest evol in %                        
+RENUSDT spot binance 2022-10-31 21:07:45.097175 binance RENUSDT spot 12h [4.00 %] [price = 0.12990000]                                                                         
+BUSDUSDT spot binance 2022-10-31 21:07:16.734308 binance BUSDUSDT spot 1d [0.02 %] [price = 1.00010000]                                                                        
+DOGEUSDT spot binance 2022-10-31 21:04:44.611920 binance DOGEUSDT spot 3d [5.95 %] [price = 0.12474000] *** new highest evol in %                                              
+CHZUSDT spot binance 2022-10-31 21:07:00.598469 binance CHZUSDT spot 3d [-2.29 %] [price = 0.22180000]                                                                         

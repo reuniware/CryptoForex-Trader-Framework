@@ -1,0 +1,5 @@
+Scan results at : 2022-10-31 20:58:33.370691
+BOBAUSDT swap bybit 2022-10-31 20:49:30.955124 bybit BOBAUSDT swap 15m [1.71 %] [price = 0.29750000] *** new highest evol in %                                                 
+FTTUSDT swap bybit 2022-10-31 20:53:58.000692 bybit FTTUSDT swap 30m [1.64 %] [price = 26.03000000]                                                                            
+MINAUSDT swap bybit 2022-10-31 20:58:00.943745 bybit MINAUSDT swap 4h [0.29 %] [price = 0.69400000]                                                                            
+KDAUSDT swap bybit 2022-10-31 20:56:21.230927 bybit KDAUSDT swap 6h [5.58 %] [price = 1.36200000] *** new highest evol in %                                                    
