@@ -1,0 +1,12 @@
+Scan results at : 2022-11-02 08:04:46.623162
+KLAYUSDT swap bybit 2022-11-02 08:02:06.391886 bybit KLAYUSDT swap 1m [2.65 %] [price = 0.25200000]                                                                            
+LINAUSDT swap bybit 2022-11-02 08:02:32.593790 bybit LINAUSDT swap 1m [0.26 %] [price = 0.00771000]                                                                            
+USDCUSDT swap bybit 2022-11-02 08:08:44.789687 bybit USDCUSDT swap 3m [0.02 %] [price = 1.00020000]                                                                            
+CHZUSDT swap bybit 2022-11-02 07:56:09.178677 bybit CHZUSDT swap 30m [1.84 %] [price = 0.23205000]                                                                             
+BNBUSDT swap bybit 2022-11-02 07:55:00.595626 bybit BNBUSDT swap 2h [-0.23 %] [price = 323.00000000]                                                                           
+ANTUSDT swap bybit 2022-11-02 07:52:51.641080 bybit ANTUSDT swap 4h [4.71 %] [price = 1.89000000] *** new highest evol in %                                                    
+GTCUSDT swap bybit 2022-11-02 08:00:24.916303 bybit GTCUSDT swap 12h [16.38 %] [price = 2.02500000] *** new highest evol in %                                                  
+LITUSDT swap bybit 2022-11-02 08:02:45.028412 bybit LITUSDT swap 12h [15.99 %] [price = 1.05900000]                                                                            
+BATUSDT swap bybit 2022-11-02 07:54:23.161201 bybit BATUSDT swap 2h 4h 6h 12h [11.15 %] [price = 0.32900000] *** new highest evol in %                                         
+MASKUSDT swap bybit 2022-11-02 08:03:28.875991 bybit MASKUSDT swap 12h 1d [58.01 %] [price = 3.65000000] *** new highest evol in %                                             
+RNDRUSDT swap bybit 2022-11-02 08:05:34.894150 bybit RNDRUSDT swap 6h 12h 1d [32.33 %] [price = 0.87600000]                                                                    

@@ -1,0 +1,15 @@
+Scan results at : 2022-11-02 10:32:37.660596
+PONDUSDT spot binance 2022-11-02 10:14:29.612000 binance PONDUSDT spot 3m [0.65 %] [price = 0.01081000]                                                                        
+ETCUSDT spot binance 2022-11-02 09:46:22.239031 binance ETCUSDT spot 5m [-0.62 %] [price = 23.87000000]                                                                        
+CHZUSDT spot binance 2022-11-02 09:52:44.976581 binance CHZUSDT spot 5m [1.45 %] [price = 0.23130000]                                                                          
+MDTUSDT spot binance 2022-11-02 09:58:38.510494 binance MDTUSDT spot 5m [6.93 %] [price = 0.03146000] *** new highest evol in %                                                
+TRXDOWNUSDT spot binance 2022-11-02 10:06:34.509717 binance TRXDOWNUSDT spot 5m [2.97 %] [price = 1.17800000]                                                                  
+QNTUSDT spot binance 2022-11-02 10:19:40.145362 binance QNTUSDT spot 5m [-1.47 %] [price = 160.40000000]                                                                       
+ADADOWNUSDT spot binance 2022-11-02 10:00:33.103176 binance ADADOWNUSDT spot 3m 5m [4.13 %] [price = 0.00423300]                                                               
+HBARUSDT spot binance 2022-11-02 09:53:45.764577 binance HBARUSDT spot 30m [2.06 %] [price = 0.05940000] *** new highest evol in %                                             
+BCHUSDT spot binance 2022-11-02 09:54:59.626185 binance BCHUSDT spot 30m [1.48 %] [price = 116.70000000]                                                                       
+GTCUSDT spot binance 2022-11-02 10:18:16.344477 binance GTCUSDT spot 4h [12.45 %] [price = 1.96000000] *** new highest evol in %                                               
+KEYUSDT spot binance 2022-11-02 09:52:04.518268 binance KEYUSDT spot 8h [1.90 %] [price = 0.00460400] *** new highest evol in %                                                
+STORJUSDT spot binance 2022-11-02 10:01:49.517694 binance STORJUSDT spot 12h [0.13 %] [price = 0.45240000]                                                                     
+ASTRUSDT spot binance 2022-11-02 10:30:39.801707 binance ASTRUSDT spot 12h [-1.70 %] [price = 0.04040000]                                                                      
+LTOUSDT spot binance 2022-11-02 09:56:34.287216 binance LTOUSDT spot 1d [-3.27 %] [price = 0.09170000]                                                                         

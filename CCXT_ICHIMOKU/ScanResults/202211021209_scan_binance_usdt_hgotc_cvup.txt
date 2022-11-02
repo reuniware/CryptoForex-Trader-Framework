@@ -1,0 +1,8 @@
+Scan results at : 2022-11-02 12:01:05.892855
+AGLDUSDT spot binance 2022-11-02 11:59:44.284092 binance AGLDUSDT spot 1m [0.61 %] [price = 0.33200000]                                                                        
+ONTUSDT spot binance 2022-11-02 11:23:22.982521 binance ONTUSDT spot 3m [-1.22 %] [price = 0.21880000]                                                                         
+QNTUSDT spot binance 2022-11-02 11:55:56.720978 binance QNTUSDT spot 3m [-1.23 %] [price = 160.80000000]                                                                       
+AUCTIONUSDT spot binance 2022-11-02 12:00:43.873376 binance AUCTIONUSDT spot 30m [0.66 %] [price = 6.09000000]                                                                 
+API3USDT spot binance 2022-11-02 12:05:31.784250 binance API3USDT spot 1h [0.95 %] [price = 1.79900000]                                                                        
+BATUSDT spot binance 2022-11-02 11:25:13.906400 binance BATUSDT spot 2h [9.16 %] [price = 0.32280000] *** new highest evol in %                                                
+KEYUSDT spot binance 2022-11-02 11:29:10.793750 binance KEYUSDT spot 8h [1.33 %] [price = 0.00457800]                                                                          

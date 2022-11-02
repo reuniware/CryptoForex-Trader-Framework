@@ -1,0 +1,7 @@
+Scan results at : 2022-11-02 08:10:25.848745
+ANTUSDT swap bybit 2022-11-02 07:58:04.583780 bybit ANTUSDT swap 4h [4.43 %] [price = 1.88500000] *** new highest evol in %                                                    
+GTCUSDT swap bybit 2022-11-02 08:05:28.436247 bybit GTCUSDT swap 12h [14.94 %] [price = 2.00000000] *** new highest evol in %                                                  
+LITUSDT swap bybit 2022-11-02 08:07:45.358628 bybit LITUSDT swap 12h [16.87 %] [price = 1.06700000] *** new highest evol in %                                                  
+BATUSDT swap bybit 2022-11-02 07:59:29.550946 bybit BATUSDT swap 1m 2h 4h 6h 12h [11.32 %] [price = 0.32950000] *** new highest evol in %                                      
+MASKUSDT swap bybit 2022-11-02 08:08:29.116359 bybit MASKUSDT swap 12h 1d [59.31 %] [price = 3.68000000] *** new highest evol in %                                             
+RNDRUSDT swap bybit 2022-11-02 08:10:32.204355 bybit RNDRUSDT swap 6h 12h 1d [30.06 %] [price = 0.86100000]                                                                    

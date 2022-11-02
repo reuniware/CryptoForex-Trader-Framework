@@ -1,0 +1,5 @@
+Scan results at : 2022-11-02 11:16:49.055740
+OSMOUSDT spot binance 2022-11-02 11:20:28.459210 binance OSMOUSDT spot 1m [-3.23 %] [price = 1.50000000]                                                                       
+PAXGUSDT spot binance 2022-11-02 10:52:23.369474 binance PAXGUSDT spot 2h [0.61 %] [price = 1649.00000000]                                                                     
+DIAUSDT spot binance 2022-11-02 10:53:22.102838 binance DIAUSDT spot 8h [2.79 %] [price = 0.40500000] *** new highest evol in %                                                
+CHZUSDT spot binance 2022-11-02 10:40:53.329038 binance CHZUSDT spot 1d [1.97 %] [price = 0.23250000] *** new highest evol in %                                                

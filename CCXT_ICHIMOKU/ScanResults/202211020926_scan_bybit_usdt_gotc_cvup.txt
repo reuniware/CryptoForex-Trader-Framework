@@ -1,0 +1,5 @@
+Scan results at : 2022-11-02 09:07:21.908315
+IMXUSDT swap bybit 2022-11-02 09:17:00.187986 bybit IMXUSDT swap 1m [-0.17 %] [price = 0.58500000]                                                                             
+BCHUSDT swap bybit 2022-11-02 09:10:27.757402 bybit BCHUSDT swap 2h [4.83 %] [price = 120.45000000] *** new highest evol in %                                                  
+BSVUSDT swap bybit 2022-11-02 09:11:16.924077 bybit BSVUSDT swap 4h [3.18 %] [price = 48.65000000]                                                                             
+LTCUSDT swap bybit 2022-11-02 09:18:57.225402 bybit LTCUSDT swap 2h 1d [10.71 %] [price = 60.98000000] *** new highest evol in %                                               

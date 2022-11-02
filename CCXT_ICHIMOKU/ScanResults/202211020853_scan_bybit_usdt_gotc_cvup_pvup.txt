@@ -1,0 +1,5 @@
+Scan results at : 2022-11-02 08:48:14.531880
+SCUSDT swap bybit 2022-11-02 08:49:20.448036 bybit SCUSDT swap 30m 2h [0.60 %] [price = 0.00335000]                                                                            
+LTCUSDT swap bybit 2022-11-02 08:46:08.219162 bybit LTCUSDT swap 1h 2h [5.12 %] [price = 57.90000000] *** new highest evol in %                                                
+ZRXUSDT swap bybit 2022-11-02 08:53:26.274115 bybit ZRXUSDT swap 1h 2h [2.60 %] [price = 0.26010000]                                                                           
+CHZUSDT swap bybit 2022-11-02 08:39:13.183489 bybit CHZUSDT swap 1d [2.00 %] [price = 0.23240000] *** new highest evol in %                                                    

@@ -1,0 +1,5 @@
+Scan results at : 2022-11-02 08:29:22.696491
+JASMYUSDT swap bybit 2022-11-02 08:25:44.214293 bybit JASMYUSDT swap 1m [1.89 %] [price = 0.00540000]                                                                          
+LTCUSDT swap bybit 2022-11-02 08:27:10.270125 bybit LTCUSDT swap 15m [0.18 %] [price = 55.18000000]                                                                            
+ZRXUSDT swap bybit 2022-11-02 08:34:26.797251 bybit ZRXUSDT swap 1h [1.97 %] [price = 0.25850000]                                                                              
+CHZUSDT swap bybit 2022-11-02 08:20:16.406668 bybit CHZUSDT swap 1d [3.31 %] [price = 0.23540000] *** new highest evol in %                                                    

@@ -1,0 +1,10 @@
+Scan results at : 2022-11-02 10:23:37.272110
+AUDUSDT spot binance 2022-11-02 10:01:31.894036 binance AUDUSDT spot 1m [0.55 %] [price = 0.64260000]                                                                          
+XRPDOWNUSDT spot binance 2022-11-02 10:05:54.566313 binance XRPDOWNUSDT spot 30m [4.19 %] [price = 0.00027630]                                                                 
+MDTUSDT spot binance 2022-11-02 09:57:44.031411 binance MDTUSDT spot 15m 30m [10.03 %] [price = 0.03237000] *** new highest evol in %                                          
+TRXDOWNUSDT spot binance 2022-11-02 10:05:38.429658 binance TRXDOWNUSDT spot 6h [2.97 %] [price = 1.17800000]                                                                  
+TRXUSDT spot binance 2022-11-02 09:45:12.953344 binance TRXUSDT spot 8h [-0.37 %] [price = 0.06254000]                                                                         
+DASHUSDT spot binance 2022-11-02 09:47:41.742146 binance DASHUSDT spot 8h [-0.12 %] [price = 41.05000000]                                                                      
+DIAUSDT spot binance 2022-11-02 10:04:53.157377 binance DIAUSDT spot 6h 8h 12h [4.82 %] [price = 0.41300000]                                                                   
+CHZUSDT spot binance 2022-11-02 09:51:49.435167 binance CHZUSDT spot 1d [1.32 %] [price = 0.23100000]                                                                          
+LTCUSDT spot binance 2022-11-02 09:44:02.051647 binance LTCUSDT spot 2h 1d [8.48 %] [price = 59.77000000] *** new highest evol in %                                            

@@ -1,0 +1,13 @@
+Scan results at : 2022-11-02 11:21:45.854772
+QTUMUSDT swap bybit 2022-11-02 11:35:40.869832 bybit QTUMUSDT swap 1m [0.53 %] [price = 2.82500000]                                                                            
+RVNUSDT swap bybit 2022-11-02 11:36:44.878424 bybit RVNUSDT swap 1m [-2.57 %] [price = 0.03035000]                                                                             
+SHIB1000USDT swap bybit 2022-11-02 11:37:16.968133 bybit SHIB1000USDT swap 3m [-5.64 %] [price = 0.01212500]                                                                   
+ZRXUSDT swap bybit 2022-11-02 11:41:15.089089 bybit ZRXUSDT swap 15m [0.36 %] [price = 0.25440000]                                                                             
+LINAUSDT swap bybit 2022-11-02 11:33:08.910399 bybit LINAUSDT swap 5m 15m [1.30 %] [price = 0.00779000]                                                                        
+EGLDUSDT swap bybit 2022-11-02 11:28:55.434493 bybit EGLDUSDT swap 30m [0.25 %] [price = 59.90000000]                                                                          
+LINKUSDT swap bybit 2022-11-02 11:33:14.947594 bybit LINKUSDT swap 30m [1.24 %] [price = 7.78300000]                                                                           
+BATUSDT swap bybit 2022-11-02 11:24:51.899120 bybit BATUSDT swap 2h [8.95 %] [price = 0.32250000] *** new highest evol in %                                                    
+GTCUSDT swap bybit 2022-11-02 11:31:01.114779 bybit GTCUSDT swap 4h [13.79 %] [price = 1.98000000] *** new highest evol in %                                                   
+ASTRUSDT swap bybit 2022-11-02 11:24:00.031894 bybit ASTRUSDT swap 12h [0.49 %] [price = 0.04120000] *** new highest evol in %                                                 
+REEFUSDT swap bybit 2022-11-02 11:35:54.103117 bybit REEFUSDT swap 1d [-2.39 %] [price = 0.00509500]                                                                           
+UNIUSDT swap bybit 2022-11-02 11:39:26.818059 bybit UNIUSDT swap 1d [-2.21 %] [price = 6.95900000]                                                                             

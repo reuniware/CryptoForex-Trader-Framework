@@ -1,0 +1,7 @@
+Scan results at : 2022-11-02 13:06:11.923287
+1INCHUSDT swap bybit 2022-11-02 13:07:01.058547 bybit 1INCHUSDT swap 1m [-2.06 %] [price = 0.59400000]                                                                         
+APTUSDT swap bybit 2022-11-02 13:08:55.900268 bybit APTUSDT swap 1m [-10.62 %] [price = 7.32000000]                                                                            
+LINAUSDT swap bybit 2022-11-02 13:21:45.006507 bybit LINAUSDT swap 5m [0.65 %] [price = 0.00774000] *** new highest evol in %                                                  
+LTCUSDT swap bybit 2022-11-02 13:22:40.134267 bybit LTCUSDT swap 1d [10.11 %] [price = 60.65000000] *** new highest evol in %                                                  
+MASKUSDT swap bybit 2022-11-02 13:23:09.103117 bybit MASKUSDT swap 1d [63.64 %] [price = 3.78000000] *** new highest evol in %                                                 
+RNDRUSDT swap bybit 2022-11-02 13:26:04.564445 bybit RNDRUSDT swap 1d [18.58 %] [price = 0.78500000]                                                                           

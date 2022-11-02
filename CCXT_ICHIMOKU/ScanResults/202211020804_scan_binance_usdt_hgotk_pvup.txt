@@ -1,0 +1,4 @@
+Scan results at : 2022-11-02 07:56:29.755650
+BTCDOWNUSDT spot binance 2022-11-02 07:29:03.505764 binance BTCDOWNUSDT spot 1h [0.90 %] [price = 0.02990600] *** new highest evol in %                                        
+TRXDOWNUSDT spot binance 2022-11-02 07:37:19.158728 binance TRXDOWNUSDT spot 1h [2.45 %] [price = 1.17200000] *** new highest evol in %                                        
+LAZIOUSDT spot binance 2022-11-02 07:54:55.653878 binance LAZIOUSDT spot 1h [4.48 %] [price = 5.03590000] *** new highest evol in %                                            

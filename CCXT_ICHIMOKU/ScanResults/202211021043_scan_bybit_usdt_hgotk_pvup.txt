@@ -1,0 +1,3 @@
+Scan results at : 2022-11-02 10:33:49.535286
+QTUMUSDT swap bybit 2022-11-02 10:37:33.555707 bybit QTUMUSDT swap 5m 15m [0.53 %] [price = 2.82500000]                                                                        
+PAXGUSDT swap bybit 2022-11-02 10:37:19.739121 bybit PAXGUSDT swap 1h [0.55 %] [price = 1648.00000000] *** new highest evol in %                                               

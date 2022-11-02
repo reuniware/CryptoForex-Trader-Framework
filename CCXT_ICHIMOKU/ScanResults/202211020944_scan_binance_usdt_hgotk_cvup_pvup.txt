@@ -1,0 +1,13 @@
+Scan results at : 2022-11-02 09:43:15.527705
+EOSUSDT spot binance 2022-11-02 08:55:52.158854 binance EOSUSDT spot 3m [1.84 %] [price = 1.16300000] *** new highest evol in %                                                
+ZRXUSDT spot binance 2022-11-02 08:57:53.293661 binance ZRXUSDT spot 15m [3.00 %] [price = 0.26120000] *** new highest evol in %                                               
+KMDUSDT spot binance 2022-11-02 09:13:18.427205 binance KMDUSDT spot 15m [1.29 %] [price = 0.25220000]                                                                         
+LPTUSDT spot binance 2022-11-02 09:27:51.872562 binance LPTUSDT spot 15m [0.53 %] [price = 9.47000000]                                                                         
+BATUSDT spot binance 2022-11-02 08:58:10.016535 binance BATUSDT spot 1h [12.28 %] [price = 0.33200000] *** new highest evol in %                                               
+ETHDOWNUSDT spot binance 2022-11-02 09:10:23.707712 binance ETHDOWNUSDT spot 1h [1.48 %] [price = 0.72180000]                                                                  
+RSRUSDT spot binance 2022-11-02 09:14:48.861730 binance RSRUSDT spot 2h [5.11 %] [price = 0.00658000]                                                                          
+LITUSDT spot binance 2022-11-02 09:23:18.263620 binance LITUSDT spot 2h [17.49 %] [price = 1.07500000] *** new highest evol in %                                               
+DIAUSDT spot binance 2022-11-02 09:15:57.892740 binance DIAUSDT spot 30m 2h [2.54 %] [price = 0.40400000]                                                                      
+MASKUSDT spot binance 2022-11-02 09:27:40.338547 binance MASKUSDT spot 2h 4h [67.79 %] [price = 3.88600000] *** new highest evol in %                                          
+KEYUSDT spot binance 2022-11-02 09:02:15.383749 binance KEYUSDT spot 1h 6h 8h [2.21 %] [price = 0.00461800]                                                                    
+BUSDUSDT spot binance 2022-11-02 09:03:16.224566 binance BUSDUSDT spot 1d [0.01 %] [price = 1.00020000]                                                                        

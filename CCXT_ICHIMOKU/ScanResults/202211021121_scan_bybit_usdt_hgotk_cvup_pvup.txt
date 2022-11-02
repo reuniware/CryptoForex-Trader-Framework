@@ -1,0 +1,5 @@
+Scan results at : 2022-11-02 11:21:41.759985
+CHZUSDT swap bybit 2022-11-02 11:07:28.839177 bybit CHZUSDT swap 30m [1.93 %] [price = 0.23225000]                                                                             
+RSS3USDT swap bybit 2022-11-02 11:17:09.080151 bybit RSS3USDT swap 30m [19.60 %] [price = 0.15345000]                                                                          
+BATUSDT swap bybit 2022-11-02 11:05:41.415215 bybit BATUSDT swap 2h [9.46 %] [price = 0.32400000] *** new highest evol in %                                                    
+MASKUSDT swap bybit 2022-11-02 11:14:45.185879 bybit MASKUSDT swap 4h [61.47 %] [price = 3.73000000] *** new highest evol in %                                                 
