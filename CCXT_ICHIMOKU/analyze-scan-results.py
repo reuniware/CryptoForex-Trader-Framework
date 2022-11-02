@@ -13,6 +13,9 @@ def signal_handler(sig, frame):
 
 signal.signal(signal.SIGINT, signal_handler)
 
+excludeSpecialSymbolsFromGateIo = True
+excludeSpecialSymbolsFromBinance = True
+
 currentDateAndTime = datetime.now()
 stryear = format(currentDateAndTime.year, '04')
 strmonth = format(currentDateAndTime.month, '02')
@@ -51,6 +54,9 @@ log_to_results("Current date and time = " + str(currentDateAndTime))
 
 print("Only positive evol :", only_positive_evol)
 log_to_results("Only positive evol : " + str(only_positive_evol))
+
+print("excludeSpecialSymbolsFromGateIo : " + str(excludeSpecialSymbolsFromGateIo))
+print("excludeSpecialSymbolsFromBinance : " + str(excludeSpecialSymbolsFromBinance))
 
 exchanges = {}
 for id in ccxt.exchanges:
@@ -138,12 +144,13 @@ for filename in os.listdir("ScanResults"):
                             tickers_downloaded = True
 
                         symbol = text.split(' ')[0]
-                        # Bypass special leverage symbols from gateio ; Remove this condition to enable them
-                        if symbol.endswith("3S_USDT") or symbol.endswith("3L_USDT") or symbol.endswith("5S_USDT") or symbol.endswith("5L_USDT"):
+                        # Bypass special leverage symbols from gateio ; Change variable excludeSpecialSymbolsFromGateIo to True if you need to include these
+                        if excludeSpecialSymbolsFromGateIo is True and (symbol.endswith("3S_USDT") or symbol.endswith("3L_USDT") or symbol.endswith("5S_USDT") or symbol.endswith("5L_USDT")):
                             #print("Bypassed : " + symbol)
                             #log_to_results("Bypassed : " + symbol)
                             continue
-                        if symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT"):
+                        # Bypass special symbols from binance ; Change variable excludeSpecialSymbolsFromBinance to True if you need to include these
+                        if excludeSpecialSymbolsFromBinance is True and (symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT")):
                             #print("Bypassed : " + symbol)
                             #log_to_results("Bypassed : " + symbol)                     
                             continue
