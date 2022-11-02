@@ -26,7 +26,7 @@ ope_for_filename = ""
 if only_positive_evol is True:
     ope_for_filename = "_ope"
 
-file_filter = "20221031"
+file_filter = "gateio"
 #file_filter = ""
 
 logfilename = "./ScanResultsAnalyzer/" + stryear + strmonth + strday + strhour + strmin + "_analyzer_results_[" + file_filter.replace(
@@ -138,6 +138,11 @@ for filename in os.listdir("ScanResults"):
                             tickers_downloaded = True
 
                         symbol = text.split(' ')[0]
+                        # Bypass special leverage symbols from gateio ; Remove this condition to enable them
+                        if symbol.endswith("3S_USDT") or symbol.endswith("3L_USDT") or symbol.endswith("5S_USDT") or symbol.endswith("5L_USDT"):
+                            #print("Bypassed : " + symbol)
+                            #log_to_results("Bypassed : " + symbol)
+                            continue
                         # print(symbol)
                         price = float(text.split('[')[2].split('= ')[1].split(']')[0])
                         # result = exchange.fetch_ohlcv(symbol, '1m', limit=1)
@@ -160,7 +165,7 @@ for filename in os.listdir("ScanResults"):
 
                         if symbol_found == False:
                             print("symbol has not been found in tickers :", symbol, symbol2)
-                            exit(777)
+                            continue
 
                         #currentprice = float(result[0][4])
                         #tickers = exchange.fetch_tickers()
