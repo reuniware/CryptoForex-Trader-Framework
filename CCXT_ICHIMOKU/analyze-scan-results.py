@@ -29,7 +29,7 @@ ope_for_filename = ""
 if only_positive_evol is True:
     ope_for_filename = "_ope"
 
-file_filter = "binance"
+file_filter = "gateio"
 #file_filter = ""
 
 logfilename = "./ScanResultsAnalyzer/" + stryear + strmonth + strday + strhour + strmin + "_analyzer_results_[" + file_filter.replace(
@@ -89,6 +89,8 @@ array_evol_tf_group_global = []
 global_dict_evol_file = {}
 global_dict_evol_tf_group = {}
 global_dict_assets_per_tf_group = {}
+
+special_gateio_results = []
 
 if file_filter.strip() != "":
     print("File filter condition = " + file_filter)
@@ -293,6 +295,14 @@ for filename in os.listdir("ScanResults"):
                                 currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(
                                 evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split(split_term)[2] + "]")
 
+                            #SPECIAL EXPERIMENTAL GATEIO SUPER PUMP FORECAST RESULTS
+                            if ("1m 4h 8h 1d" or "1m 5m 1h 4h 8h 1d" or "30m 1h 4h 8h 1d") in text.split('[')[0].split(split_term)[2]:
+                                special_gateio_results.append(symbol + fill_symbol + date_detect + " " + time_detect + "\t[" + str(
+                                price) + "]" + fill_price + "\t[" + str(
+                                currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(
+                                evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split(split_term)[2] + "]")
+
+
                     line += 1
             # print(text)
         except:
@@ -429,3 +439,12 @@ for k in global_dict_evol_file:
     fill_key = "." * (64 - len(k))
     print(k + fill_key + "{:.8f}".format(global_dict_evol_file[k]) + " (avg/hour): " + "{:.8f}".format(avg_evol_per_hour) + " (avg/min): " + "{:.8f}".format(avg_evol_per_min) + str_highest_avg_per_hour + str_highest_avg_per_min)
     log_to_results(k + fill_key + "{:.8f}".format(global_dict_evol_file[k]) + " (avg/hour): " + "{:.8f}".format(avg_evol_per_hour) + " (avg/min): " + "{:.8f}".format(avg_evol_per_min) + str_highest_avg_per_hour + str_highest_avg_per_min)
+
+print("")
+log_to_results("")
+
+print("SPECIAL GATEIO RESULTS")
+log_to_results("SPECIAL GATEIO RESULTS")
+for line in special_gateio_results:
+    print(line)
+    log_to_results(line)
