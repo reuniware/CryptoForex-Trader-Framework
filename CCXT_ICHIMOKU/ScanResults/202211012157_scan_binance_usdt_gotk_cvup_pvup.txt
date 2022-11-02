@@ -1,0 +1,9 @@
+Scan results at : 2022-11-01 21:48:41.381193
+CAKEUSDT spot binance 2022-11-01 21:37:59.378170 binance CAKEUSDT spot 1s [-2.39 %] [price = 4.62000000]                                                                       
+TVKUSDT spot binance 2022-11-01 21:44:04.127674 binance TVKUSDT spot 1m [0.27 %] [price = 0.03650000]                                                                          
+XEMUSDT spot binance 2022-11-01 21:35:12.018544 binance XEMUSDT spot 3m [0.51 %] [price = 0.03920000]                                                                          
+SKLUSDT spot binance 2022-11-01 21:35:19.941474 binance SKLUSDT spot 3m [-2.19 %] [price = 0.03665000]                                                                         
+LEVERUSDT spot binance 2022-11-01 21:56:33.616610 binance LEVERUSDT spot 15m [0.30 %] [price = 0.00165000]                                                                     
+ALGOUSDT spot binance 2022-11-01 21:15:12.186323 binance ALGOUSDT spot 30m [0.84 %] [price = 0.36170000] *** new highest evol in %                                             
+STMXUSDT spot binance 2022-11-01 21:23:33.911160 binance STMXUSDT spot 12h [6.55 %] [price = 0.00722700] *** new highest evol in %                                             
+CHZUSDT spot binance 2022-11-01 21:17:47.584404 binance CHZUSDT spot 3d [4.30 %] [price = 0.23060000] *** new highest evol in %                                                

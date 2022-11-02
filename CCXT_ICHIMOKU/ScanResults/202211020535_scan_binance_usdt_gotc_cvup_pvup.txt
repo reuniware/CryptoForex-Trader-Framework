@@ -1,0 +1,14 @@
+Scan results at : 2022-11-02 05:19:20.411543
+ETHUPUSDT spot binance 2022-11-02 05:01:55.920350 binance ETHUPUSDT spot 1m [1.66 %] [price = 4.71900000] *** new highest evol in %                                            
+POLSUSDT spot binance 2022-11-02 05:19:00.631441 binance POLSUSDT spot 3m [0.22 %] [price = 0.45100000]                                                                        
+JASMYUSDT spot binance 2022-11-02 05:27:53.372364 binance JASMYUSDT spot 15m [4.41 %] [price = 0.00551900]                                                                     
+OPUSDT spot binance 2022-11-02 05:34:25.955211 binance OPUSDT spot 15m [2.29 %] [price = 1.02800000]                                                                           
+MINAUSDT spot binance 2022-11-02 05:21:46.046159 binance MINAUSDT spot 30m [4.32 %] [price = 0.70000000]                                                                       
+TRIBEUSDT spot binance 2022-11-02 05:23:16.461733 binance TRIBEUSDT spot 30m [1.30 %] [price = 0.24860000]                                                                     
+LAZIOUSDT spot binance 2022-11-02 05:25:53.195948 binance LAZIOUSDT spot 30m [4.13 %] [price = 5.01930000]                                                                     
+BICOUSDT spot binance 2022-11-02 05:29:01.596655 binance BICOUSDT spot 30m [1.76 %] [price = 0.40400000]                                                                       
+MCUSDT spot binance 2022-11-02 05:28:52.737935 binance MCUSDT spot 1h [1.39 %] [price = 0.73000000]                                                                            
+UTKUSDT spot binance 2022-11-02 05:10:11.269769 binance UTKUSDT spot 1h 2h [6.11 %] [price = 0.14410000] *** new highest evol in %                                             
+GTCUSDT spot binance 2022-11-02 05:19:51.227413 binance GTCUSDT spot 1h 2h [21.34 %] [price = 2.11500000]                                                                      
+PEOPLEUSDT spot binance 2022-11-02 05:29:54.293313 binance PEOPLEUSDT spot 12h [21.06 %] [price = 0.02368000]                                                                  
+MASKUSDT spot binance 2022-11-02 05:19:18.957975 binance MASKUSDT spot 3d [67.66 %] [price = 3.88300000] *** new highest evol in %                                             

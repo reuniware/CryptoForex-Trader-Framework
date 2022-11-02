@@ -1,0 +1,5 @@
+Scan results at : 2022-11-01 19:00:52.942029
+HOTUSDT swap bybit 2022-11-01 19:03:01.759193 bybit HOTUSDT swap 1m [4.84 %] [price = 0.00212400] *** new highest evol in %                                                    
+BNBUSDT swap bybit 2022-11-01 18:57:05.097429 bybit BNBUSDT swap 3m [-0.23 %] [price = 324.85000000]                                                                           
+ACHUSDT swap bybit 2022-11-01 18:54:03.507036 bybit ACHUSDT swap 5m [-1.00 %] [price = 0.01184000]                                                                             
+INJUSDT swap bybit 2022-11-01 19:03:33.502001 bybit INJUSDT swap 6h [3.21 %] [price = 2.51150000]                                                                              

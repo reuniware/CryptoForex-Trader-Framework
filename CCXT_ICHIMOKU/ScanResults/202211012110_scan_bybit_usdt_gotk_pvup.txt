@@ -1,0 +1,11 @@
+Scan results at : 2022-11-01 21:09:30.390084
+ETHUSDT swap bybit 2022-11-01 20:58:31.133687 bybit ETHUSDT swap 1m [0.30 %] [price = 1576.75000000]                                                                           
+HNTUSDT swap bybit 2022-11-01 21:00:18.742467 bybit HNTUSDT swap 1m [-1.75 %] [price = 3.94000000]                                                                             
+CTCUSDT swap bybit 2022-11-01 20:56:28.819629 bybit CTCUSDT swap 3m [6.23 %] [price = 0.56590000] *** new highest evol in %                                                    
+LPTUSDT swap bybit 2022-11-01 21:02:37.089427 bybit LPTUSDT swap 3m [0.53 %] [price = 9.40000000]                                                                              
+BITUSDT swap bybit 2022-11-01 20:54:20.137793 bybit BITUSDT swap 1m 3m [0.00 %] [price = 0.43100000]                                                                           
+SPELLUSDT swap bybit 2022-11-01 21:06:48.723735 bybit SPELLUSDT swap 1m 3m [0.00 %] [price = 0.00086000]                                                                       
+BSWUSDT swap bybit 2022-11-01 20:54:58.048938 bybit BSWUSDT swap 5m [-0.57 %] [price = 0.26060000]                                                                             
+MKRUSDT swap bybit 2022-11-01 21:03:25.667751 bybit MKRUSDT swap 5m [-1.61 %] [price = 883.50000000]                                                                           
+THETAUSDT swap bybit 2022-11-01 21:07:44.833065 bybit THETAUSDT swap 5m [2.06 %] [price = 1.18900000]                                                                          
+USDCUSDT swap bybit 2022-11-01 21:08:28.760587 bybit USDCUSDT swap 15m [0.01 %] [price = 1.00010000]                                                                           

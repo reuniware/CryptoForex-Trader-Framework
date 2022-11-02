@@ -1,0 +1,6 @@
+Scan results at : 2022-11-02 06:25:36.017104
+LDOUSDT swap bybit 2022-11-02 06:26:31.647307 bybit LDOUSDT swap 5m [1.98 %] [price = 1.52050000]                                                                              
+BATUSDT swap bybit 2022-11-02 06:18:36.167435 bybit BATUSDT swap 15m [6.25 %] [price = 0.31450000] *** new highest evol in %                                                   
+CHZUSDT swap bybit 2022-11-02 06:20:21.534800 bybit CHZUSDT swap 15m [1.89 %] [price = 0.23215000]                                                                             
+MASKUSDT swap bybit 2022-11-02 06:27:33.273354 bybit MASKUSDT swap 2h [68.40 %] [price = 3.89000000] *** new highest evol in %                                                 
+ASTRUSDT swap bybit 2022-11-02 06:17:46.074768 bybit ASTRUSDT swap 12h [3.54 %] [price = 0.04245000] *** new highest evol in %                                                 

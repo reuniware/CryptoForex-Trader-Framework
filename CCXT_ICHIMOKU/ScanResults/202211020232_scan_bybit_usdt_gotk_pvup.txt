@@ -1,0 +1,6 @@
+Scan results at : 2022-11-02 02:18:31.269694
+BALUSDT swap bybit 2022-11-02 02:16:27.572484 bybit BALUSDT swap 3m [0.60 %] [price = 6.73000000]                                                                              
+PEOPLEUSDT swap bybit 2022-11-02 02:26:51.399314 bybit PEOPLEUSDT swap 3m [1.28 %] [price = 0.01980000]                                                                        
+USDCUSDT swap bybit 2022-11-02 02:30:38.140699 bybit USDCUSDT swap 1m 3m [0.01 %] [price = 1.00010000]                                                                         
+AAVEUSDT swap bybit 2022-11-02 02:14:19.794341 bybit AAVEUSDT swap 4h [0.95 %] [price = 84.95000000] *** new highest evol in %                                                 
+KDAUSDT swap bybit 2022-11-02 02:24:02.884985 bybit KDAUSDT swap 6h [1.44 %] [price = 1.33500000] *** new highest evol in %                                                    

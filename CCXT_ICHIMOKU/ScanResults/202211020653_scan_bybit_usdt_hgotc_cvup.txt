@@ -1,0 +1,10 @@
+Scan results at : 2022-11-02 06:34:26.873890
+CKBUSDT swap bybit 2022-11-02 06:39:17.600258 bybit CKBUSDT swap 5m [0.00 %] [price = 0.00338500]                                                                              
+BATUSDT swap bybit 2022-11-02 06:37:27.489521 bybit BATUSDT swap 30m [10.81 %] [price = 0.32800000] *** new highest evol in %                                                  
+RSRUSDT swap bybit 2022-11-02 06:48:48.509069 bybit RSRUSDT swap 30m [1.60 %] [price = 0.00635000]                                                                             
+INJUSDT swap bybit 2022-11-02 06:44:21.333270 bybit INJUSDT swap 1h [-0.52 %] [price = 2.49350000]                                                                             
+MASKUSDT swap bybit 2022-11-02 06:46:32.756801 bybit MASKUSDT swap 2h [81.39 %] [price = 4.19000000] *** new highest evol in %                                                 
+PEOPLEUSDT swap bybit 2022-11-02 06:47:59.929072 bybit PEOPLEUSDT swap 2h [17.14 %] [price = 0.02290000]                                                                       
+ANTUSDT swap bybit 2022-11-02 06:36:01.046902 bybit ANTUSDT swap 1h 2h [4.43 %] [price = 1.88500000] *** new highest evol in %                                                 
+GLMRUSDT swap bybit 2022-11-02 06:43:06.594656 bybit GLMRUSDT swap 4h [-1.04 %] [price = 0.47800000]                                                                           
+ASTRUSDT swap bybit 2022-11-02 06:36:38.749241 bybit ASTRUSDT swap 12h [2.32 %] [price = 0.04195000]                                                                           

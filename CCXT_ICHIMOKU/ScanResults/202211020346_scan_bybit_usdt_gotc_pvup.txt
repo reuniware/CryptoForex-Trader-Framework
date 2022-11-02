@@ -1,0 +1,11 @@
+Scan results at : 2022-11-02 03:27:51.001144
+AGLDUSDT swap bybit 2022-11-02 03:28:47.472855 bybit AGLDUSDT swap 3m [0.15 %] [price = 0.32950000]                                                                            
+ETHWUSDT swap bybit 2022-11-02 03:35:13.753025 bybit ETHWUSDT swap 3m [1.28 %] [price = 6.31500000]                                                                            
+ARPAUSDT swap bybit 2022-11-02 03:29:47.843187 bybit ARPAUSDT swap 5m [-0.03 %] [price = 0.03464000]                                                                           
+ANTUSDT swap bybit 2022-11-02 03:29:23.724225 bybit ANTUSDT swap 15m [2.22 %] [price = 1.84500000] *** new highest evol in %                                                   
+LITUSDT swap bybit 2022-11-02 03:38:52.996935 bybit LITUSDT swap 1h [2.19 %] [price = 0.93300000]                                                                              
+MASKUSDT swap bybit 2022-11-02 03:39:36.000929 bybit MASKUSDT swap 1h 2h [21.65 %] [price = 2.81000000] *** new highest evol in %                                              
+PAXGUSDT swap bybit 2022-11-02 03:40:55.393815 bybit PAXGUSDT swap 6h [0.49 %] [price = 1647.00000000]                                                                         
+AAVEUSDT swap bybit 2022-11-02 03:28:29.314215 bybit AAVEUSDT swap 15m 6h [1.25 %] [price = 85.20000000] *** new highest evol in %                                             
+PEOPLEUSDT swap bybit 2022-11-02 03:41:01.589366 bybit PEOPLEUSDT swap 1h 2h 12h [17.14 %] [price = 0.02290000]                                                                
+ETHUSDT swap bybit 2022-11-02 03:35:07.818424 bybit ETHUSDT swap 1d [0.78 %] [price = 1589.95000000]                                                                           

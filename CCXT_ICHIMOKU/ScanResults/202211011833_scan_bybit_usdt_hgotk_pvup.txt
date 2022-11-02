@@ -1,0 +1,6 @@
+Scan results at : 2022-11-01 18:13:06.383519
+XMRUSDT swap bybit 2022-11-01 18:31:54.354924 bybit XMRUSDT swap 15m [0.33 %] [price = 149.95000000]                                                                           
+BOBAUSDT swap bybit 2022-11-01 18:17:06.574525 bybit BOBAUSDT swap 1h [2.68 %] [price = 0.30650000] *** new highest evol in %                                                  
+STMXUSDT swap bybit 2022-11-01 18:29:41.578930 bybit STMXUSDT swap 1h [6.03 %] [price = 0.00720500] *** new highest evol in %                                                  
+ATOMUSDT swap bybit 2022-11-01 18:15:31.476925 bybit ATOMUSDT swap 2h [-1.15 %] [price = 14.14000000]                                                                          
+INJUSDT swap bybit 2022-11-01 18:23:17.202471 bybit INJUSDT swap 6h [1.68 %] [price = 2.47450000]                                                                              

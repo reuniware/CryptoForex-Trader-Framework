@@ -1,0 +1,10 @@
+Scan results at : 2022-11-01 18:34:53.425729
+ADAUSDT swap bybit 2022-11-01 18:34:01.652828 bybit ADAUSDT swap 3m [-0.54 %] [price = 0.40310000]                                                                             
+STXUSDT swap bybit 2022-11-01 18:50:28.543000 bybit STXUSDT swap 3m [-0.31 %] [price = 0.31700000]                                                                             
+APTUSDT swap bybit 2022-11-01 18:35:13.799214 bybit APTUSDT swap 1h [3.34 %] [price = 8.20000000] *** new highest evol in %                                                    
+STMXUSDT swap bybit 2022-11-01 18:50:16.207511 bybit STMXUSDT swap 1h [5.59 %] [price = 0.00717500] *** new highest evol in %                                                  
+BOBAUSDT swap bybit 2022-11-01 18:37:17.246550 bybit BOBAUSDT swap 3m 1h [2.51 %] [price = 0.30600000]                                                                         
+ATOMUSDT swap bybit 2022-11-01 18:35:40.316368 bybit ATOMUSDT swap 2h [-1.36 %] [price = 14.11000000]                                                                          
+ALGOUSDT swap bybit 2022-11-01 18:34:21.940646 bybit ALGOUSDT swap 6h [-1.12 %] [price = 0.35450000]                                                                           
+INJUSDT swap bybit 2022-11-01 18:43:29.967983 bybit INJUSDT swap 6h [2.12 %] [price = 2.48500000]                                                                              
+SHIB1000USDT swap bybit 2022-11-01 18:49:24.895276 bybit SHIB1000USDT swap 12h [2.33 %] [price = 0.01272500]                                                                   

@@ -1,0 +1,4 @@
+Scan results at : 2022-11-01 21:20:34.288171
+CHZUSDT spot binance 2022-11-01 20:48:10.437937 binance CHZUSDT spot 1h [4.43 %] [price = 0.23090000] *** new highest evol in %                                                
+ALGOUSDT spot binance 2022-11-01 20:45:31.693879 binance ALGOUSDT spot 1d [0.50 %] [price = 0.36050000] *** new highest evol in %                                              
+RNDRUSDT spot binance 2022-11-01 21:21:51.267604 binance RNDRUSDT spot 1d [5.43 %] [price = 0.64100000] *** new highest evol in %                                              

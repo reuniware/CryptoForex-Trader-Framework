@@ -1,0 +1,10 @@
+Scan results at : 2022-11-01 22:28:11.400677
+BSWUSDT spot binance 2022-11-01 22:43:03.452576 binance BSWUSDT spot 3m [-0.15 %] [price = 0.26140000]                                                                         
+ATOMUSDT spot binance 2022-11-01 22:02:41.776571 binance ATOMUSDT spot 5m [-1.29 %] [price = 14.13600000]                                                                      
+MATICUSDT spot binance 2022-11-01 22:02:33.775122 binance MATICUSDT spot 3m 5m [-2.37 %] [price = 0.88120000]                                                                  
+TROYUSDT spot binance 2022-11-01 22:08:02.237350 binance TROYUSDT spot 1m 3m 5m [-0.87 %] [price = 0.00354200]                                                                 
+BEAMUSDT spot binance 2022-11-01 22:06:11.681281 binance BEAMUSDT spot 15m [0.71 %] [price = 0.17110000] *** new highest evol in %                                             
+DFUSDT spot binance 2022-11-01 22:35:04.244677 binance DFUSDT spot 1h [3.19 %] [price = 0.04850000] *** new highest evol in %                                                  
+RLCUSDT spot binance 2022-11-01 22:07:37.830661 binance RLCUSDT spot 4h [1.60 %] [price = 1.07700000] *** new highest evol in %                                                
+FRONTUSDT spot binance 2022-11-01 22:35:20.627601 binance FRONTUSDT spot 8h [-0.30 %] [price = 0.23570000]                                                                     
+ASTRUSDT spot binance 2022-11-01 22:42:30.810438 binance ASTRUSDT spot 1d [6.92 %] [price = 0.04170000] *** new highest evol in %                                              

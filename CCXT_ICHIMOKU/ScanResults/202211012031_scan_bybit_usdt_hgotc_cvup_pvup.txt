@@ -1,0 +1,3 @@
+Scan results at : 2022-11-01 20:30:19.366413
+ALGOUSDT swap bybit 2022-11-01 20:13:04.776721 bybit ALGOUSDT swap 1d [0.84 %] [price = 0.36150000] *** new highest evol in %                                                  
+RNDRUSDT swap bybit 2022-11-01 20:26:19.815795 bybit RNDRUSDT swap 1d [3.44 %] [price = 0.63100000] *** new highest evol in %                                                  

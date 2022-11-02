@@ -1,0 +1,6 @@
+Scan results at : 2022-11-02 04:05:04.826483
+CVXUSDT swap bybit 2022-11-02 04:10:53.370326 bybit CVXUSDT swap 15m [0.77 %] [price = 5.24000000]                                                                             
+YGGUSDT swap bybit 2022-11-02 04:23:13.323664 bybit YGGUSDT swap 15m [2.14 %] [price = 0.28600000]                                                                             
+RSS3USDT swap bybit 2022-11-02 04:19:10.526257 bybit RSS3USDT swap 30m [8.07 %] [price = 0.13865000] *** new highest evol in %                                                 
+DOGEUSDT swap bybit 2022-11-02 04:11:29.425897 bybit DOGEUSDT swap 15m 30m [3.59 %] [price = 0.14700000] *** new highest evol in %                                             
+AAVEUSDT swap bybit 2022-11-02 04:05:43.881135 bybit AAVEUSDT swap 6h [1.54 %] [price = 85.45000000] *** new highest evol in %                                                 

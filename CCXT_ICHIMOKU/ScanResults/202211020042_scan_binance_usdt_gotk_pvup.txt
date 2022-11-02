@@ -1,0 +1,13 @@
+Scan results at : 2022-11-02 00:40:48.646129
+BUSDUSDT spot binance 2022-11-02 00:02:30.960130 binance BUSDUSDT spot 3m 5m [0.01 %] [price = 1.00020000]                                                                     
+ETHDOWNUSDT spot binance 2022-11-02 00:09:32.135173 binance ETHDOWNUSDT spot 15m [0.69 %] [price = 0.71620000]                                                                 
+CFXUSDT spot binance 2022-11-02 00:24:09.512600 binance CFXUSDT spot 15m [0.25 %] [price = 0.04090000]                                                                         
+ADADOWNUSDT spot binance 2022-11-02 00:09:51.096080 binance ADADOWNUSDT spot 5m 15m [2.09 %] [price = 0.00415000]                                                              
+BTCDOWNUSDT spot binance 2022-11-02 00:07:44.406868 binance BTCDOWNUSDT spot 15m 30m [0.82 %] [price = 0.02988000]                                                             
+LINKDOWNUSDT spot binance 2022-11-02 00:10:07.486281 binance LINKDOWNUSDT spot 15m 30m [3.55 %] [price = 0.00466200]                                                           
+DOGEUSDT spot binance 2022-11-01 23:59:56.275570 binance DOGEUSDT spot 1h [11.95 %] [price = 0.14201000] *** new highest evol in %                                             
+AVAUSDT spot binance 2022-11-02 00:19:37.312280 binance AVAUSDT spot 15m 1h [0.26 %] [price = 0.75900000]                                                                      
+POLYXUSDT spot binance 2022-11-02 00:41:59.749704 binance POLYXUSDT spot 2h [3.62 %] [price = 0.18870000]                                                                      
+THETAUSDT spot binance 2022-11-01 23:58:33.891356 binance THETAUSDT spot 4h [3.26 %] [price = 1.20300000] *** new highest evol in %                                            
+POWRUSDT spot binance 2022-11-02 00:34:30.973554 binance POWRUSDT spot 5m 4h [1.21 %] [price = 0.20920000]                                                                     
+CHZUSDT spot binance 2022-11-02 00:02:15.330407 binance CHZUSDT spot 3d [0.04 %] [price = 0.22810000]                                                                          

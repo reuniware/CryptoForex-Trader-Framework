@@ -1,0 +1,5 @@
+Scan results at : 2022-11-01 17:53:34.845277
+LUNAUSDT spot binance 2022-11-01 17:43:24.927556 binance LUNAUSDT spot 5m [-0.55 %] [price = 2.42730000]                                                                       
+MTLUSDT spot binance 2022-11-01 17:30:40.049871 binance MTLUSDT spot 6h [2.18 %] [price = 1.03300000] *** new highest evol in %                                                
+STMXUSDT spot binance 2022-11-01 17:37:51.978675 binance STMXUSDT spot 8h [6.74 %] [price = 0.00724000] *** new highest evol in %                                              
+ASTRUSDT spot binance 2022-11-01 18:09:09.999256 binance ASTRUSDT spot 8h [4.62 %] [price = 0.04080000]                                                                        

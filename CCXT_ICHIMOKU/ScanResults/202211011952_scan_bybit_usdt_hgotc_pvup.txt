@@ -1,0 +1,4 @@
+Scan results at : 2022-11-01 19:50:03.373921
+CREAMUSDT swap bybit 2022-11-01 19:38:05.476544 bybit CREAMUSDT swap 15m [1.28 %] [price = 11.85000000] *** new highest evol in %                                              
+DODOUSDT swap bybit 2022-11-01 19:39:21.182996 bybit DODOUSDT swap 12h [1.05 %] [price = 0.13425000]                                                                           
+RNDRUSDT swap bybit 2022-11-01 19:47:07.985516 bybit RNDRUSDT swap 1d [3.61 %] [price = 0.63200000] *** new highest evol in %                                                  

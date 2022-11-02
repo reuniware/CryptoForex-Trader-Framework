@@ -1,0 +1,8 @@
+Scan results at : 2022-11-01 22:45:37.013158
+APEUSDT swap bybit 2022-11-01 22:29:54.540882 bybit APEUSDT swap 1m [-4.76 %] [price = 4.50000000]                                                                             
+ANTUSDT swap bybit 2022-11-01 22:29:48.290469 bybit ANTUSDT swap 5m [-2.16 %] [price = 1.81000000]                                                                             
+CTSIUSDT swap bybit 2022-11-01 22:34:08.407579 bybit CTSIUSDT swap 5m [-1.93 %] [price = 0.13750000]                                                                           
+GLMRUSDT swap bybit 2022-11-01 22:37:07.473178 bybit GLMRUSDT swap 4h [1.47 %] [price = 0.48400000]                                                                            
+SPELLUSDT swap bybit 2022-11-01 22:44:19.520013 bybit SPELLUSDT swap 4h [0.00 %] [price = 0.00086000]                                                                          
+STMXUSDT swap bybit 2022-11-01 22:44:38.553311 bybit STMXUSDT swap 12h [5.89 %] [price = 0.00719500]                                                                           
+ASTRUSDT swap bybit 2022-11-01 22:30:28.180472 bybit ASTRUSDT swap 1d [6.42 %] [price = 0.04145000] *** new highest evol in %                                                  

@@ -1,0 +1,4 @@
+Scan results at : 2022-11-02 00:59:30.323387
+BNBUSDT swap bybit 2022-11-02 01:03:05.167126 bybit BNBUSDT swap 15m [0.40 %] [price = 325.05000000] *** new highest evol in %                                                 
+ASTRUSDT swap bybit 2022-11-02 01:01:39.964327 bybit ASTRUSDT swap 12h [0.12 %] [price = 0.04105000] *** new highest evol in %                                                 
+UNIUSDT swap bybit 2022-11-02 01:16:20.005458 bybit UNIUSDT swap 1d [1.17 %] [price = 7.19900000] *** new highest evol in %                                                    

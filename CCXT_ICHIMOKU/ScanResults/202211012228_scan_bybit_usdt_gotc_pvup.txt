@@ -1,0 +1,8 @@
+Scan results at : 2022-11-01 22:17:34.621408
+LITUSDT swap bybit 2022-11-01 22:20:23.525378 bybit LITUSDT swap 1m [-5.04 %] [price = 0.90500000]                                                                             
+JSTUSDT swap bybit 2022-11-01 22:19:25.752204 bybit JSTUSDT swap 1m 5m [-0.03 %] [price = 0.02894000]                                                                          
+ALGOUSDT swap bybit 2022-11-01 22:09:48.799886 bybit ALGOUSDT swap 1h [0.84 %] [price = 0.36150000] *** new highest evol in %                                                  
+ATOMUSDT swap bybit 2022-11-01 22:11:01.240270 bybit ATOMUSDT swap 15m 1h [-1.08 %] [price = 14.15000000]                                                                      
+THETAUSDT swap bybit 2022-11-01 22:25:46.650105 bybit THETAUSDT swap 1h 2h [3.52 %] [price = 1.20600000]                                                                       
+STMXUSDT swap bybit 2022-11-01 22:25:08.723363 bybit STMXUSDT swap 12h [5.74 %] [price = 0.00718500]                                                                           
+ASTRUSDT swap bybit 2022-11-01 22:10:54.300514 bybit ASTRUSDT swap 1d [6.16 %] [price = 0.04135000] *** new highest evol in %                                                  

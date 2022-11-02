@@ -1,0 +1,7 @@
+Scan results at : 2022-11-01 20:50:40.162541
+BANDUSDT swap bybit 2022-11-01 20:53:07.429096 bybit BANDUSDT swap 1m [-1.95 %] [price = 1.15900000]                                                                           
+CTKUSDT swap bybit 2022-11-01 20:55:56.946643 bybit CTKUSDT swap 1m [-1.09 %] [price = 0.81900000]                                                                             
+RSRUSDT swap bybit 2022-11-01 21:04:47.005085 bybit RSRUSDT swap 1m [0.81 %] [price = 0.00625000]                                                                              
+LDOUSDT swap bybit 2022-11-01 21:01:29.316587 bybit LDOUSDT swap 3m [-2.81 %] [price = 1.48500000]                                                                             
+STMXUSDT swap bybit 2022-11-01 21:06:27.204138 bybit STMXUSDT swap 12h [6.25 %] [price = 0.00722000] *** new highest evol in %                                                 
+ASTRUSDT swap bybit 2022-11-01 20:52:21.620106 bybit ASTRUSDT swap 1d [5.26 %] [price = 0.04100000] *** new highest evol in %                                                  

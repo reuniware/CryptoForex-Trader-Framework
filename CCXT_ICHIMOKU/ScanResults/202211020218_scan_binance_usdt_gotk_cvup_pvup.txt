@@ -1,0 +1,8 @@
+Scan results at : 2022-11-02 02:13:42.417382
+MATICUSDT spot binance 2022-11-02 01:35:03.238513 binance MATICUSDT spot 1m [-0.31 %] [price = 0.87120000]                                                                     
+MLNUSDT spot binance 2022-11-02 02:03:39.330683 binance MLNUSDT spot 1m 3m [0.68 %] [price = 23.59000000]                                                                      
+XMRUSDT spot binance 2022-11-02 01:33:45.566483 binance XMRUSDT spot 1h [0.27 %] [price = 150.10000000] *** new highest evol in %                                              
+POLYXUSDT spot binance 2022-11-02 02:17:47.387131 binance POLYXUSDT spot 30m 1h [6.32 %] [price = 0.19360000] *** new highest evol in %                                        
+KEYUSDT spot binance 2022-11-02 01:37:33.922757 binance KEYUSDT spot 4h [0.58 %] [price = 0.00454400] *** new highest evol in %                                                
+POWRUSDT spot binance 2022-11-02 02:10:17.768561 binance POWRUSDT spot 4h [1.31 %] [price = 0.20940000]                                                                        
+AAVEUSDT spot binance 2022-11-02 01:53:44.063115 binance AAVEUSDT spot 1h 2h 4h [1.31 %] [price = 85.30000000] *** new highest evol in %                                       

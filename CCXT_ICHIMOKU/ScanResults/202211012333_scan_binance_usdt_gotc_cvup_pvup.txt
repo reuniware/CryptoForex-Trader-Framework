@@ -1,0 +1,7 @@
+Scan results at : 2022-11-01 23:25:55.446833
+NEARUSDT spot binance 2022-11-01 23:09:47.136129 binance NEARUSDT spot 1m [-2.58 %] [price = 3.02500000]                                                                       
+LINKDOWNUSDT spot binance 2022-11-01 23:01:46.401192 binance LINKDOWNUSDT spot 3m [6.25 %] [price = 0.00455800] *** new highest evol in %                                      
+LEVERUSDT spot binance 2022-11-01 23:32:58.044137 binance LEVERUSDT spot 1h [1.22 %] [price = 0.00166500]                                                                      
+THETAUSDT spot binance 2022-11-01 22:50:17.344438 binance THETAUSDT spot 2h [3.18 %] [price = 1.20200000] *** new highest evol in %                                            
+STEEMUSDT spot binance 2022-11-01 23:31:49.605968 binance STEEMUSDT spot 12h [1.27 %] [price = 0.23860000]                                                                     
+ASTRUSDT spot binance 2022-11-01 23:30:50.147706 binance ASTRUSDT spot 1d [5.90 %] [price = 0.04130000]                                                                        

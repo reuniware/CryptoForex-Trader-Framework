@@ -1,0 +1,8 @@
+Scan results at : 2022-11-02 04:42:11.039357
+ASTRUSDT spot binance 2022-11-02 04:42:46.526336 binance ASTRUSDT spot 15m [2.92 %] [price = 0.04230000]                                                                       
+PNTUSDT spot binance 2022-11-02 04:11:35.142599 binance PNTUSDT spot 30m [0.80 %] [price = 0.23820000]                                                                         
+GLMRUSDT spot binance 2022-11-02 04:41:12.214796 binance GLMRUSDT spot 30m [-0.62 %] [price = 0.48380000]                                                                      
+SHIBUSDT spot binance 2022-11-02 04:28:59.956120 binance SHIBUSDT spot 1h [0.23 %] [price = 0.00001287]                                                                        
+TOMOUSDT spot binance 2022-11-02 04:03:49.211432 binance TOMOUSDT spot 8h [0.42 %] [price = 0.42750000]                                                                        
+KDAUSDT spot binance 2022-11-02 04:43:05.762420 binance KDAUSDT spot 8h [0.61 %] [price = 1.32000000]                                                                          
+TFUELUSDT spot binance 2022-11-02 04:02:03.920254 binance TFUELUSDT spot 1d [10.76 %] [price = 0.06380000] *** new highest evol in %                                           

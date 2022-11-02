@@ -1,0 +1,11 @@
+Scan results at : 2022-11-01 22:08:35.700016
+LAZIOUSDT spot binance 2022-11-01 22:07:55.841778 binance LAZIOUSDT spot 1m [1.39 %] [price = 4.83580000]                                                                      
+PLAUSDT spot binance 2022-11-01 22:10:12.116861 binance PLAUSDT spot 1m [0.00 %] [price = 0.29800000]                                                                          
+EPXUSDT spot binance 2022-11-01 22:16:16.980818 binance EPXUSDT spot 3m [0.00 %] [price = 0.00048200]                                                                          
+LDOUSDT spot binance 2022-11-01 22:16:09.025212 binance LDOUSDT spot 5m [-2.95 %] [price = 1.48300000]                                                                         
+MDTUSDT spot binance 2022-11-01 21:43:01.859516 binance MDTUSDT spot 15m [-0.30 %] [price = 0.02966000]                                                                        
+LTOUSDT spot binance 2022-11-01 21:41:01.479576 binance LTOUSDT spot 1m 1h [4.15 %] [price = 0.09530000] *** new highest evol in %                                             
+PHAUSDT spot binance 2022-11-01 22:02:35.938502 binance PHAUSDT spot 2h [26.26 %] [price = 0.19570000] *** new highest evol in %                                               
+STORJUSDT spot binance 2022-11-01 21:46:09.567065 binance STORJUSDT spot 8h [1.92 %] [price = 0.44640000]                                                                      
+RNDRUSDT spot binance 2022-11-01 22:10:32.419668 binance RNDRUSDT spot 5m 1d [5.59 %] [price = 0.64200000]                                                                     
+ALGOUSDT spot binance 2022-11-01 21:34:44.825524 binance ALGOUSDT spot 15m 1d [0.59 %] [price = 0.36080000] *** new highest evol in %                                          

@@ -1,0 +1,8 @@
+Scan results at : 2022-11-02 00:22:09.630016
+DGBUSDT swap bybit 2022-11-02 00:28:22.138703 bybit DGBUSDT swap 3m [0.00 %] [price = 0.00888000]                                                                              
+BTCUSDT swap bybit 2022-11-02 00:26:15.043952 bybit BTCUSDT swap 5m [-0.03 %] [price = 20466.00000000]                                                                         
+CRVUSDT swap bybit 2022-11-02 00:27:27.353586 bybit CRVUSDT swap 5m [0.11 %] [price = 0.89100000] *** new highest evol in %                                                    
+DOGEUSDT swap bybit 2022-11-02 00:28:34.222435 bybit DOGEUSDT swap 5m [1.13 %] [price = 0.14350000] *** new highest evol in %                                                  
+MASKUSDT swap bybit 2022-11-02 00:33:57.282792 bybit MASKUSDT swap 5m [1.52 %] [price = 2.34500000] *** new highest evol in %                                                  
+SHIB1000USDT swap bybit 2022-11-02 00:37:01.239402 bybit SHIB1000USDT swap 5m [0.70 %] [price = 0.01294000]                                                                    
+RNDRUSDT swap bybit 2022-11-02 00:35:59.018354 bybit RNDRUSDT swap 1h [1.21 %] [price = 0.67000000]                                                                            

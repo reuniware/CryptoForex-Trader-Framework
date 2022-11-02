@@ -1,0 +1,6 @@
+Scan results at : 2022-11-02 00:04:59.625196
+OPUSDT swap bybit 2022-11-02 00:16:33.991881 bybit OPUSDT swap 3m [0.94 %] [price = 1.01500000] *** new highest evol in %                                                      
+WOOUSDT swap bybit 2022-11-02 00:20:49.658922 bybit WOOUSDT swap 5m [0.00 %] [price = 0.17220000]                                                                              
+RNDRUSDT swap bybit 2022-11-02 00:17:22.560485 bybit RNDRUSDT swap 1h [0.30 %] [price = 0.66400000]                                                                            
+STMXUSDT swap bybit 2022-11-02 00:19:12.214920 bybit STMXUSDT swap 6h [-0.49 %] [price = 0.00710000]                                                                           
+ASTRUSDT swap bybit 2022-11-02 00:05:43.201373 bybit ASTRUSDT swap 12h 1d [0.61 %] [price = 0.04125000] *** new highest evol in %                                              

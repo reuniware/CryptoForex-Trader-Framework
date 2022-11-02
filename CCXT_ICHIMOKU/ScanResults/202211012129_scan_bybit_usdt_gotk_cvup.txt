@@ -1,0 +1,7 @@
+Scan results at : 2022-11-01 21:28:53.249669
+DYDXUSDT swap bybit 2022-11-01 21:17:04.984948 bybit DYDXUSDT swap 1m [-1.22 %] [price = 1.61500000]                                                                           
+ALGOUSDT swap bybit 2022-11-01 21:11:23.172983 bybit ALGOUSDT swap 30m [0.70 %] [price = 0.36100000] *** new highest evol in %                                                 
+XCNUSDT swap bybit 2022-11-01 21:28:19.296524 bybit XCNUSDT swap 30m [-0.38 %] [price = 0.06470000]                                                                            
+AVAXUSDT swap bybit 2022-11-01 21:12:43.949814 bybit AVAXUSDT swap 4h [-2.96 %] [price = 18.69000000]                                                                          
+THETAUSDT swap bybit 2022-11-01 21:27:11.254962 bybit THETAUSDT swap 4h [2.23 %] [price = 1.19100000] *** new highest evol in %                                                
+SOLUSDT swap bybit 2022-11-01 21:26:09.235511 bybit SOLUSDT swap 6h [-0.54 %] [price = 32.37000000]                                                                            

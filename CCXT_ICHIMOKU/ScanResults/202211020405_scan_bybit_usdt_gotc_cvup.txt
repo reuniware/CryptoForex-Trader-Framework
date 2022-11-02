@@ -1,0 +1,8 @@
+Scan results at : 2022-11-02 03:56:35.233402
+GTCUSDT swap bybit 2022-11-02 03:55:19.733613 bybit GTCUSDT swap 30m [7.18 %] [price = 1.86500000] *** new highest evol in %                                                   
+MINAUSDT swap bybit 2022-11-02 03:58:29.923621 bybit MINAUSDT swap 15m 30m 1h [5.81 %] [price = 0.71000000]                                                                    
+ANTUSDT swap bybit 2022-11-02 03:48:01.899120 bybit ANTUSDT swap 2h [1.94 %] [price = 1.84000000] *** new highest evol in %                                                    
+API3USDT swap bybit 2022-11-02 03:48:13.863473 bybit API3USDT swap 1h 2h [0.17 %] [price = 1.78300000]                                                                         
+MASKUSDT swap bybit 2022-11-02 03:58:17.865646 bybit MASKUSDT swap 1h 2h [32.47 %] [price = 3.06000000] *** new highest evol in %                                              
+PEOPLEUSDT swap bybit 2022-11-02 03:59:42.631821 bybit PEOPLEUSDT swap 1h 2h [16.62 %] [price = 0.02280000]                                                                    
+AAVEUSDT swap bybit 2022-11-02 03:47:06.344032 bybit AAVEUSDT swap 6h [1.31 %] [price = 85.25000000] *** new highest evol in %                                                 

@@ -1,0 +1,5 @@
+Scan results at : 2022-11-01 20:39:39.384498
+CHZUSDT swap bybit 2022-11-01 20:35:19.583249 bybit CHZUSDT swap 15m [4.25 %] [price = 0.23040000]                                                                             
+LITUSDT swap bybit 2022-11-01 20:42:00.368110 bybit LITUSDT swap 15m [-4.72 %] [price = 0.90800000]                                                                            
+STMXUSDT swap bybit 2022-11-01 20:47:00.398659 bybit STMXUSDT swap 12h [6.03 %] [price = 0.00720500] *** new highest evol in %                                                 
+ASTRUSDT swap bybit 2022-11-01 20:32:37.331890 bybit ASTRUSDT swap 1d [5.01 %] [price = 0.04090000] *** new highest evol in %                                                  

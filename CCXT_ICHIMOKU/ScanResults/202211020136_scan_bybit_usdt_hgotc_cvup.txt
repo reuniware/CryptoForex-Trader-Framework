@@ -1,0 +1,4 @@
+Scan results at : 2022-11-02 01:30:05.537999
+CTSIUSDT swap bybit 2022-11-02 01:23:39.427205 bybit CTSIUSDT swap 5m [0.26 %] [price = 0.13760000] *** new highest evol in %                                                  
+BSWUSDT swap bybit 2022-11-02 01:22:03.177261 bybit BSWUSDT swap 15m [0.00 %] [price = 0.26100000]                                                                             
+UNIUSDT swap bybit 2022-11-02 01:34:53.462490 bybit UNIUSDT swap 1d [1.48 %] [price = 7.22100000] *** new highest evol in %                                                    

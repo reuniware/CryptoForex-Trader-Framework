@@ -1,0 +1,3 @@
+Scan results at : 2022-11-02 01:36:37.560990
+AKROUSDT swap bybit 2022-11-02 01:37:40.300272 bybit AKROUSDT swap 1m [0.96 %] [price = 0.00358600] *** new highest evol in %                                                  
+UNIUSDT swap bybit 2022-11-02 01:53:29.034631 bybit UNIUSDT swap 1d [1.15 %] [price = 7.19800000] *** new highest evol in %                                                    
