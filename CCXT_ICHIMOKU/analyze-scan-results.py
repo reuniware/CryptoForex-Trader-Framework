@@ -26,7 +26,7 @@ ope_for_filename = ""
 if only_positive_evol is True:
     ope_for_filename = "_ope"
 
-file_filter = "gateio"
+file_filter = "binance"
 #file_filter = ""
 
 logfilename = "./ScanResultsAnalyzer/" + stryear + strmonth + strday + strhour + strmin + "_analyzer_results_[" + file_filter.replace(
@@ -142,6 +142,10 @@ for filename in os.listdir("ScanResults"):
                         if symbol.endswith("3S_USDT") or symbol.endswith("3L_USDT") or symbol.endswith("5S_USDT") or symbol.endswith("5L_USDT"):
                             #print("Bypassed : " + symbol)
                             #log_to_results("Bypassed : " + symbol)
+                            continue
+                        if symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT"):
+                            #print("Bypassed : " + symbol)
+                            #log_to_results("Bypassed : " + symbol)                     
                             continue
                         # print(symbol)
                         price = float(text.split('[')[2].split('= ')[1].split(']')[0])
