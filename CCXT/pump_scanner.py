@@ -1,5 +1,3 @@
-# Ce script liste les assets qui évoluent constamment
-
 import os
 import ccxt
 import signal
@@ -82,7 +80,9 @@ while True:
                     evol0 = (current_close - dict_close0[symbol])/dict_close0[symbol]*100
                     if evol0 > dict_evol0[symbol]:
                         print(symbol, evol0, "%(t0)")
+                        log_to_results(str(datetime.now()) + " " + symbol + " " + str(evol0) + " %(t0)")
                         dict_evol0[symbol] = evol0
+
 
             dict_close[symbol] = current_close
 
