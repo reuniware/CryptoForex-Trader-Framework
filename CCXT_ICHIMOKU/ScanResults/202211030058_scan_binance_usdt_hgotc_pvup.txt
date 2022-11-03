@@ -1,0 +1,12 @@
+Scan results at : 2022-11-03 00:45:11.176660
+HBARUSDT spot binance 2022-11-03 00:19:40.032826 binance HBARUSDT spot 5m [0.34 %] [price = 0.05890000] *** new highest evol in %                                              
+LUNAUSDT spot binance 2022-11-03 00:29:55.819153 binance LUNAUSDT spot 5m [0.31 %] [price = 2.31340000]                                                                        
+IMXUSDT spot binance 2022-11-03 00:53:29.184931 binance IMXUSDT spot 5m [1.74 %] [price = 0.58500000]                                                                          
+REEFUSDT spot binance 2022-11-03 00:36:51.402705 binance REEFUSDT spot 15m [2.25 %] [price = 0.00522200] *** new highest evol in %                                             
+MINAUSDT spot binance 2022-11-03 00:44:56.076730 binance MINAUSDT spot 15m [6.02 %] [price = 0.74000000]                                                                       
+AGLDUSDT spot binance 2022-11-03 00:48:15.498191 binance AGLDUSDT spot 30m [2.69 %] [price = 0.34300000]                                                                       
+ARUSDT spot binance 2022-11-03 00:42:04.371131 binance ARUSDT spot 1h [22.81 %] [price = 13.89000000] *** new highest evol in %                                                
+EGLDUSDT spot binance 2022-11-03 00:31:03.033138 binance EGLDUSDT spot 2h [0.97 %] [price = 60.15000000] *** new highest evol in %                                             
+OXTUSDT spot binance 2022-11-03 00:32:59.981366 binance OXTUSDT spot 2h [0.42 %] [price = 0.09530000]                                                                          
+PEOPLEUSDT spot binance 2022-11-03 00:52:50.079169 binance PEOPLEUSDT spot 12h [0.85 %] [price = 0.02372000]                                                                   
+ASTRUSDT spot binance 2022-11-03 00:55:11.004444 binance ASTRUSDT spot 1d [1.75 %] [price = 0.04060000]                                                                        

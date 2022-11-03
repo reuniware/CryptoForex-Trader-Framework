@@ -1,0 +1,10 @@
+Scan results at : 2022-11-03 00:10:27.866795
+LINKUSDT swap bybit 2022-11-03 00:18:52.022280 bybit LINKUSDT swap 1m [0.19 %] [price = 7.44800000]                                                                            
+WAVESUSDT swap bybit 2022-11-03 00:25:00.442553 bybit WAVESUSDT swap 1m [0.47 %] [price = 3.23000000]                                                                          
+10000NFTUSDT swap bybit 2022-11-03 00:08:07.712537 bybit 10000NFTUSDT swap 3m [0.48 %] [price = 0.00630000] *** new highest evol in %                                          
+SRMUSDT swap bybit 2022-11-03 00:23:17.374497 bybit SRMUSDT swap 3m [0.41 %] [price = 0.74000000]                                                                              
+INJUSDT swap bybit 2022-11-03 00:17:33.709892 bybit INJUSDT swap 30m [-0.02 %] [price = 2.52350000]                                                                            
+ARUSDT swap bybit 2022-11-03 00:10:02.471699 bybit ARUSDT swap 1h [13.59 %] [price = 12.79000000] *** new highest evol in %                                                    
+LINAUSDT swap bybit 2022-11-03 00:18:46.011204 bybit LINAUSDT swap 1h [0.37 %] [price = 0.00823000]                                                                            
+EGLDUSDT swap bybit 2022-11-03 00:14:45.351986 bybit EGLDUSDT swap 2h [0.17 %] [price = 59.70000000]                                                                           
+ASTRUSDT swap bybit 2022-11-03 00:10:08.505635 bybit ASTRUSDT swap 1d [0.63 %] [price = 0.04020000]                                                                            

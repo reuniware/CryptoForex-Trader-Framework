@@ -1,0 +1,11 @@
+Scan results at : 2022-11-02 23:49:31.507193
+DGBUSDT swap bybit 2022-11-02 23:55:41.291206 bybit DGBUSDT swap 15m [-1.69 %] [price = 0.00873000]                                                                            
+ETHWUSDT swap bybit 2022-11-02 23:56:54.358223 bybit ETHWUSDT swap 15m [0.80 %] [price = 6.28500000]                                                                           
+GALUSDT swap bybit 2022-11-02 23:57:48.835805 bybit GALUSDT swap 15m [-0.48 %] [price = 2.07500000]                                                                            
+ARUSDT swap bybit 2022-11-02 23:51:33.746823 bybit ARUSDT swap 30m [7.95 %] [price = 11.00000000] *** new highest evol in %                                                    
+LDOUSDT swap bybit 2022-11-03 00:00:14.349346 bybit LDOUSDT swap 30m [-0.20 %] [price = 1.52550000]                                                                            
+LINAUSDT swap bybit 2022-11-03 00:00:20.380580 bybit LINAUSDT swap 1h [0.00 %] [price = 0.00820000]                                                                            
+AUDIOUSDT swap bybit 2022-11-02 23:51:52.568162 bybit AUDIOUSDT swap 2h [-1.65 %] [price = 0.20800000]                                                                         
+CHZUSDT swap bybit 2022-11-02 23:54:11.192444 bybit CHZUSDT swap 2h [5.31 %] [price = 0.23995000]                                                                              
+INJUSDT swap bybit 2022-11-02 23:59:07.388372 bybit INJUSDT swap 2h [0.58 %] [price = 2.52100000]                                                                              
+PEOPLEUSDT swap bybit 2022-11-03 00:02:39.173804 bybit PEOPLEUSDT swap 12h [-0.43 %] [price = 0.02340000]                                                                      

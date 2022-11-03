@@ -1,0 +1,13 @@
+Scan results at : 2022-11-03 02:36:02.160301
+1000BTTUSDT swap bybit 2022-11-03 02:18:23.783246 bybit 1000BTTUSDT swap 5m [0.76 %] [price = 0.00079300] *** new highest evol in %                                            
+LITUSDT swap bybit 2022-11-03 02:29:20.941171 bybit LITUSDT swap 5m [0.78 %] [price = 1.03800000]                                                                              
+FLMUSDT swap bybit 2022-11-03 02:25:58.288471 bybit FLMUSDT swap 15m [2.23 %] [price = 0.10985000]                                                                             
+IOSTUSDT swap bybit 2022-11-03 02:27:59.891926 bybit IOSTUSDT swap 15m [1.54 %] [price = 0.01121000]                                                                           
+CTCUSDT swap bybit 2022-11-03 02:23:37.068868 bybit CTCUSDT swap 3m 15m [0.02 %] [price = 0.55775000]                                                                          
+INJUSDT swap bybit 2022-11-03 02:27:53.879477 bybit INJUSDT swap 30m [2.40 %] [price = 2.58450000]                                                                             
+CKBUSDT swap bybit 2022-11-03 02:22:59.906046 bybit CKBUSDT swap 1h [2.39 %] [price = 0.00342500]                                                                              
+OPUSDT swap bybit 2022-11-03 02:31:17.956270 bybit OPUSDT swap 1h [1.80 %] [price = 1.04700000]                                                                                
+BANDUSDT swap bybit 2022-11-03 02:21:03.462915 bybit BANDUSDT swap 4h [7.86 %] [price = 1.22100000] *** new highest evol in %                                                  
+LPTUSDT swap bybit 2022-11-03 02:29:33.035620 bybit LPTUSDT swap 4h [7.14 %] [price = 9.75000000]                                                                              
+GALUSDT swap bybit 2022-11-03 02:26:34.311175 bybit GALUSDT swap 6h [7.47 %] [price = 2.23000000]                                                                              
+1INCHUSDT swap bybit 2022-11-03 02:18:41.838789 bybit 1INCHUSDT swap 12h [2.04 %] [price = 0.60150000] *** new highest evol in %                                               
