@@ -1,0 +1,12 @@
+Scan results at : 2022-11-03 12:15:13.470645
+DUSKUSDT swap bybit 2022-11-03 12:13:40.005171 bybit DUSKUSDT swap 15m [11.66 %] [price = 0.13890000]                                                                          
+ANTUSDT swap bybit 2022-11-03 12:08:28.793122 bybit ANTUSDT swap 2h 4h [4.32 %] [price = 1.93000000] *** new highest evol in %                                                 
+DODOUSDT swap bybit 2022-11-03 12:13:21.209396 bybit DODOUSDT swap 2h 4h [9.02 %] [price = 0.14390000]                                                                         
+AVAXUSDT swap bybit 2022-11-03 12:09:23.881980 bybit AVAXUSDT swap 6h [2.65 %] [price = 18.37500000]                                                                           
+DARUSDT swap bybit 2022-11-03 12:12:55.468323 bybit DARUSDT swap 5m 15m 30m 6h [12.05 %] [price = 0.21850000]                                                                  
+ROSEUSDT swap bybit 2022-11-03 12:21:08.376640 bybit ROSEUSDT swap 12h [5.51 %] [price = 0.06130000]                                                                           
+API3USDT swap bybit 2022-11-03 12:08:41.202771 bybit API3USDT swap 1d [13.14 %] [price = 2.14400000] *** new highest evol in %                                                 
+ARUSDT swap bybit 2022-11-03 12:08:59.276232 bybit ARUSDT swap 1d [36.86 %] [price = 15.41000000] *** new highest evol in %                                                    
+BANDUSDT swap bybit 2022-11-03 12:09:48.073757 bybit BANDUSDT swap 1d [49.73 %] [price = 1.69500000] *** new highest evol in %                                                 
+GTCUSDT swap bybit 2022-11-03 12:15:57.406726 bybit GTCUSDT swap 1d [41.09 %] [price = 2.73000000]                                                                             
+SFPUSDT swap bybit 2022-11-03 12:21:58.677363 bybit SFPUSDT swap 30m 1h 2h 4h 6h 12h 1d [18.93 %] [price = 0.46800000]                                                         

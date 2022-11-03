@@ -1,0 +1,16 @@
+Scan results at : 2022-11-03 07:41:40.224304
+XNOUSDT swap bybit 2022-11-03 07:55:15.969338 bybit XNOUSDT swap 1h [4.55 %] [price = 0.75430000]                                                                              
+SFPUSDT swap bybit 2022-11-03 07:52:07.062937 bybit SFPUSDT swap 4h [8.39 %] [price = 0.42650000]                                                                              
+1000BTTUSDT swap bybit 2022-11-03 07:37:07.684352 bybit 1000BTTUSDT swap 12h [1.78 %] [price = 0.00080100] *** new highest evol in %                                           
+1INCHUSDT swap bybit 2022-11-03 07:37:26.305325 bybit 1INCHUSDT swap 12h [2.37 %] [price = 0.60350000] *** new highest evol in %                                               
+ARPAUSDT swap bybit 2022-11-03 07:38:54.366350 bybit ARPAUSDT swap 12h [5.30 %] [price = 0.03556000]                                                                           
+BICOUSDT swap bybit 2022-11-03 07:40:15.966825 bybit BICOUSDT swap 12h [8.97 %] [price = 0.42500000]                                                                           
+DASHUSDT swap bybit 2022-11-03 07:43:06.197674 bybit DASHUSDT swap 12h [3.43 %] [price = 42.20000000]                                                                          
+FILUSDT swap bybit 2022-11-03 07:44:39.945157 bybit FILUSDT swap 12h [15.33 %] [price = 6.02000000]                                                                            
+GLMRUSDT swap bybit 2022-11-03 07:45:40.125300 bybit GLMRUSDT swap 12h [3.61 %] [price = 0.48800000]                                                                           
+ALPHAUSDT swap bybit 2022-11-03 07:38:15.928020 bybit ALPHAUSDT swap 4h 12h [10.87 %] [price = 0.12345000] *** new highest evol in %                                           
+ANTUSDT swap bybit 2022-11-03 07:38:28.367567 bybit ANTUSDT swap 1d [8.11 %] [price = 2.00000000]                                                                              
+GTCUSDT swap bybit 2022-11-03 07:46:04.844797 bybit GTCUSDT swap 1d [45.48 %] [price = 2.81500000] *** new highest evol in %                                                   
+LINKUSDT swap bybit 2022-11-03 07:48:14.732654 bybit LINKUSDT swap 1d [4.83 %] [price = 7.79300000]                                                                            
+BANDUSDT swap bybit 2022-11-03 07:39:50.326845 bybit BANDUSDT swap 12h 1d [36.75 %] [price = 1.54800000] *** new highest evol in %                                             
+DODOUSDT swap bybit 2022-11-03 07:43:25.666943 bybit DODOUSDT swap 12h 1d [7.99 %] [price = 0.14255000]                                                                        

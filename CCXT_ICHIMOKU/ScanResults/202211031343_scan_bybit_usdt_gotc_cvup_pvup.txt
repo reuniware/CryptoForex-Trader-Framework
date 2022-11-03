@@ -1,0 +1,12 @@
+Scan results at : 2022-11-03 13:36:01.050251
+IOTXUSDT swap bybit 2022-11-03 13:34:29.302087 bybit IOTXUSDT swap 5m [7.94 %] [price = 0.02990000]                                                                            
+XEMUSDT swap bybit 2022-11-03 13:42:11.660766 bybit XEMUSDT swap 5m [3.18 %] [price = 0.03890000]                                                                              
+BICOUSDT swap bybit 2022-11-03 13:27:36.786098 bybit BICOUSDT swap 2h [7.69 %] [price = 0.42000000]                                                                            
+ZRXUSDT swap bybit 2022-11-03 13:43:18.511874 bybit ZRXUSDT swap 6h [4.11 %] [price = 0.26090000]                                                                              
+ALPHAUSDT swap bybit 2022-11-03 13:25:37.331119 bybit ALPHAUSDT swap 1d [18.28 %] [price = 0.13170000] *** new highest evol in %                                               
+ANTUSDT swap bybit 2022-11-03 13:25:49.733707 bybit ANTUSDT swap 1d [4.32 %] [price = 1.93000000]                                                                              
+BANDUSDT swap bybit 2022-11-03 13:27:10.716322 bybit BANDUSDT swap 1d [48.14 %] [price = 1.67700000] *** new highest evol in %                                                 
+DODOUSDT swap bybit 2022-11-03 13:30:44.232723 bybit DODOUSDT swap 1d [7.65 %] [price = 0.14210000]                                                                            
+GTCUSDT swap bybit 2022-11-03 13:33:19.755761 bybit GTCUSDT swap 1d [39.53 %] [price = 2.70000000]                                                                             
+LINKUSDT swap bybit 2022-11-03 13:35:33.101298 bybit LINKUSDT swap 1d [4.41 %] [price = 7.76200000]                                                                            
+THETAUSDT swap bybit 2022-11-03 13:40:57.737530 bybit THETAUSDT swap 1d [8.91 %] [price = 1.24700000]                                                                          

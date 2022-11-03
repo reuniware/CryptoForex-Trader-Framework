@@ -1,0 +1,14 @@
+Scan results at : 2022-11-03 12:45:17.767819
+EOSUSDT swap bybit 2022-11-03 12:52:37.291661 bybit EOSUSDT swap 1m [1.88 %] [price = 1.13900000]                                                                              
+GMTUSDT swap bybit 2022-11-03 12:54:02.336867 bybit GMTUSDT swap 1m [2.75 %] [price = 0.50050000]                                                                              
+SNXUSDT swap bybit 2022-11-03 13:00:41.138208 bybit SNXUSDT swap 1m [4.22 %] [price = 2.47100000]                                                                              
+LUNA2USDT swap bybit 2022-11-03 12:57:05.418468 bybit LUNA2USDT swap 15m 1h [4.94 %] [price = 2.42200000]                                                                      
+OGNUSDT swap bybit 2022-11-03 12:58:06.342454 bybit OGNUSDT swap 4h [6.90 %] [price = 0.14720000]                                                                              
+ZRXUSDT swap bybit 2022-11-03 13:04:12.046045 bybit ZRXUSDT swap 6h [2.99 %] [price = 0.25810000]                                                                              
+ALPHAUSDT swap bybit 2022-11-03 12:46:42.758142 bybit ALPHAUSDT swap 1d [13.96 %] [price = 0.12690000] *** new highest evol in %                                               
+BANDUSDT swap bybit 2022-11-03 12:48:14.948869 bybit BANDUSDT swap 1d [46.11 %] [price = 1.65400000] *** new highest evol in %                                                 
+GTCUSDT swap bybit 2022-11-03 12:54:20.559246 bybit GTCUSDT swap 1d [38.76 %] [price = 2.68500000]                                                                             
+LINAUSDT swap bybit 2022-11-03 12:56:22.397963 bybit LINAUSDT swap 1d [5.98 %] [price = 0.00869000]                                                                            
+LINKUSDT swap bybit 2022-11-03 12:56:28.478702 bybit LINKUSDT swap 1d [4.83 %] [price = 7.79300000]                                                                            
+LPTUSDT swap bybit 2022-11-03 12:56:47.178742 bybit LPTUSDT swap 1d [13.74 %] [price = 10.35000000]                                                                            
+THETAUSDT swap bybit 2022-11-03 13:01:49.776754 bybit THETAUSDT swap 1d [7.16 %] [price = 1.22700000]                                                                          
