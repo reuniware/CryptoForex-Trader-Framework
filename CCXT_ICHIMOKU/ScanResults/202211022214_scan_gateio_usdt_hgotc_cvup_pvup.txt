@@ -1,0 +1,16 @@
+Scan results at : 2022-11-02 22:12:08.974176
+KINGSHIB_USDT spot gateio 2022-11-02 20:55:26.973810 gateio KINGSHIB_USDT spot 15m [-1.13 %] [price = 0.00324200]                                                              
+PRISM_USDT spot gateio 2022-11-02 21:48:53.778144 gateio PRISM_USDT spot 15m [0.67 %] [price = 0.00541100]                                                                     
+BTC3S_USDT spot gateio 2022-11-02 20:15:32.154709 gateio BTC3S_USDT spot 30m [2.50 %] [price = 0.90948000]                                                                     
+LINK3S_USDT spot gateio 2022-11-02 20:23:43.441133 gateio LINK3S_USDT spot 30m [6.60 %] [price = 0.02650000]                                                                   
+DOT5S_USDT spot gateio 2022-11-02 19:55:20.422649 gateio DOT5S_USDT spot 15m 30m [11.80 %] [price = 0.29251900] *** new highest evol in %                                      
+SCCP_USDT spot gateio 2022-11-02 20:06:22.153679 gateio SCCP_USDT spot 1h [4.14 %] [price = 0.71657000]                                                                        
+SPFC_USDT spot gateio 2022-11-02 20:07:05.932678 gateio SPFC_USDT spot 1h [4.83 %] [price = 0.46530000]                                                                        
+FUEL_USDT spot gateio 2022-11-02 20:20:49.338881 gateio FUEL_USDT spot 1h [0.76 %] [price = 0.00027313]                                                                        
+YFDAI_USDT spot gateio 2022-11-02 20:41:10.613186 gateio YFDAI_USDT spot 1h [10.13 %] [price = 35.58700000]                                                                    
+OLY_USDT spot gateio 2022-11-02 21:33:01.750132 gateio OLY_USDT spot 1h [0.79 %] [price = 0.00063800]                                                                          
+CFG_USDT spot gateio 2022-11-02 20:50:13.340660 gateio CFG_USDT spot 4h [15.93 %] [price = 0.27000000] *** new highest evol in %                                               
+BZZ_USDT spot gateio 2022-11-02 20:22:21.603908 gateio BZZ_USDT spot 8h [4.29 %] [price = 0.49718000]                                                                          
+PEOPLE3L_USDT spot gateio 2022-11-02 21:54:46.454348 gateio PEOPLE3L_USDT spot 8h [50.19 %] [price = 0.31210000] *** new highest evol in %                                     
+LON3L_USDT spot gateio 2022-11-02 19:54:08.479601 gateio LON3L_USDT spot 7d 1w [6.12 %] [price = 1.79842000] *** new highest evol in %                                         
+LTC3L_USDT spot gateio 2022-11-02 20:16:59.272596 gateio LTC3L_USDT spot 7d 1w [11.69 %] [price = 1.54202000]                                                                  

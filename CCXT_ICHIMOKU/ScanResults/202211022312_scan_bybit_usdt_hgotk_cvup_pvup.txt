@@ -1,0 +1,2 @@
+Scan results at : 2022-11-02 23:00:13.770042
+INJUSDT swap bybit 2022-11-02 23:03:19.692482 bybit INJUSDT swap 1m 2h [0.74 %] [price = 2.52500000] *** new highest evol in %                                                 

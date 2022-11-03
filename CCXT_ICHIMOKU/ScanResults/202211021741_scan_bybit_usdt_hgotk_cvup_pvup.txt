@@ -1,0 +1,5 @@
+Scan results at : 2022-11-02 17:23:09.413711
+FLMUSDT swap bybit 2022-11-02 17:30:56.246061 bybit FLMUSDT swap 5m [-3.78 %] [price = 0.10940000]                                                                             
+LDOUSDT swap bybit 2022-11-02 17:33:58.380000 bybit LDOUSDT swap 30m [2.65 %] [price = 1.53050000] *** new highest evol in %                                                   
+MASKUSDT swap bybit 2022-11-02 17:34:58.959664 bybit MASKUSDT swap 6h [72.08 %] [price = 3.97500000] *** new highest evol in %                                                 
+PEOPLEUSDT swap bybit 2022-11-02 17:36:24.304022 bybit PEOPLEUSDT swap 30m 6h [21.23 %] [price = 0.02370000]                                                                   

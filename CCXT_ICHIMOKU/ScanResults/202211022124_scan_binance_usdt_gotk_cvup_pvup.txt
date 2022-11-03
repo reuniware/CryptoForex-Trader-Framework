@@ -1,0 +1,8 @@
+Scan results at : 2022-11-02 21:18:08.089873
+ATAUSDT spot binance 2022-11-02 21:08:39.196150 binance ATAUSDT spot 15m [6.02 %] [price = 0.16370000]                                                                         
+MINAUSDT spot binance 2022-11-02 21:10:44.012290 binance MINAUSDT spot 2h [8.20 %] [price = 0.72600000]                                                                        
+LAZIOUSDT spot binance 2022-11-02 21:14:43.431118 binance LAZIOUSDT spot 6h [3.68 %] [price = 4.99720000]                                                                      
+ORNUSDT spot binance 2022-11-02 20:59:09.432356 binance ORNUSDT spot 1h 2h 4h 6h 8h 12h [8.94 %] [price = 1.19400000] *** new highest evol in %                                
+MASKUSDT spot binance 2022-11-02 21:08:14.244201 binance MASKUSDT spot 1d [66.80 %] [price = 3.86300000] *** new highest evol in %                                             
+RNDRUSDT spot binance 2022-11-02 21:17:17.904495 binance RNDRUSDT spot 1d [13.57 %] [price = 0.75300000]                                                                       
+CHZUSDT spot binance 2022-11-02 20:43:55.112861 binance CHZUSDT spot 3d [4.34 %] [price = 0.23790000] *** new highest evol in %                                                

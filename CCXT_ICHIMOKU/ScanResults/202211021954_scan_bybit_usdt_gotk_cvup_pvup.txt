@@ -1,0 +1,9 @@
+Scan results at : 2022-11-02 19:39:22.377168
+CHZUSDT swap bybit 2022-11-02 19:39:55.810156 bybit CHZUSDT swap 2h [6.58 %] [price = 0.24285000]                                                                              
+LITUSDT swap bybit 2022-11-02 19:46:49.039871 bybit LITUSDT swap 2h [15.12 %] [price = 1.05100000] *** new highest evol in %                                                   
+INJUSDT swap bybit 2022-11-02 19:45:15.532406 bybit INJUSDT swap 1h 4h [1.88 %] [price = 2.55350000]                                                                           
+API3USDT swap bybit 2022-11-02 19:36:49.643302 bybit API3USDT swap 2h 4h 6h 12h [8.93 %] [price = 1.93900000] *** new highest evol in %                                        
+LTCUSDT swap bybit 2022-11-02 19:47:15.297822 bybit LTCUSDT swap 1d [8.02 %] [price = 59.50000000]                                                                             
+MASKUSDT swap bybit 2022-11-02 19:47:34.338205 bybit MASKUSDT swap 1d [66.02 %] [price = 3.83500000] *** new highest evol in %                                                 
+PEOPLEUSDT swap bybit 2022-11-02 19:49:07.229907 bybit PEOPLEUSDT swap 1d [24.55 %] [price = 0.02435000]                                                                       
+RNDRUSDT swap bybit 2022-11-02 19:49:45.911462 bybit RNDRUSDT swap 1d [15.26 %] [price = 0.76300000]                                                                           

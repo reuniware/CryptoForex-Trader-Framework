@@ -1,0 +1,18 @@
+Scan results at : 2022-11-02 17:41:53.207787
+RENUSDT spot binance 2022-11-02 17:06:01.488940 binance RENUSDT spot 3m [-2.47 %] [price = 0.12220000]                                                                         
+PONDUSDT spot binance 2022-11-02 17:26:10.797344 binance PONDUSDT spot 3m [1.12 %] [price = 0.01086000]                                                                        
+ICXUSDT spot binance 2022-11-02 16:59:10.855618 binance ICXUSDT spot 5m [-2.54 %] [price = 0.22220000]                                                                         
+RIFUSDT spot binance 2022-11-02 17:24:11.683925 binance RIFUSDT spot 5m [-1.48 %] [price = 0.05340000]                                                                         
+ARUSDT spot binance 2022-11-02 17:28:50.145675 binance ARUSDT spot 5m [-0.79 %] [price = 10.11000000]                                                                          
+DFUSDT spot binance 2022-11-02 17:34:27.983229 binance DFUSDT spot 5m [-2.71 %] [price = 0.04660000]                                                                           
+JASMYUSDT spot binance 2022-11-02 17:37:29.168192 binance JASMYUSDT spot 5m [-1.51 %] [price = 0.00520600]                                                                     
+ICPUSDT spot binance 2022-11-02 17:28:42.294677 binance ICPUSDT spot 1m 5m [-2.32 %] [price = 5.06000000]                                                                      
+BTCUSDT spot binance 2022-11-02 16:57:10.187251 binance BTCUSDT spot 15m [0.02 %] [price = 20486.09000000] *** new highest evol in %                                           
+BNBUSDT spot binance 2022-11-02 16:57:26.747865 binance BNBUSDT spot 15m [0.28 %] [price = 324.70000000] *** new highest evol in %                                             
+TRXUSDT spot binance 2022-11-02 16:58:55.200835 binance TRXUSDT spot 15m [-0.27 %] [price = 0.06260000]                                                                        
+TWTUSDT spot binance 2022-11-02 17:24:43.860765 binance TWTUSDT spot 15m [-1.46 %] [price = 1.18390000]                                                                        
+LINKDOWNUSDT spot binance 2022-11-02 17:13:01.869123 binance LINKDOWNUSDT spot 15m 30m [0.69 %] [price = 0.00453300]                                                           
+XRPUSDT spot binance 2022-11-02 16:58:09.933726 binance XRPUSDT spot 1h [-0.69 %] [price = 0.46030000]                                                                         
+MINAUSDT spot binance 2022-11-02 17:31:39.554453 binance MINAUSDT spot 2h [6.11 %] [price = 0.71200000]                                                                        
+LTCUSDT spot binance 2022-11-02 16:57:46.349859 binance LTCUSDT spot 1d [10.69 %] [price = 60.99000000] *** new highest evol in %                                              
+MASKUSDT spot binance 2022-11-02 17:29:18.450245 binance MASKUSDT spot 3d [73.45 %] [price = 4.01700000] *** new highest evol in %                                             

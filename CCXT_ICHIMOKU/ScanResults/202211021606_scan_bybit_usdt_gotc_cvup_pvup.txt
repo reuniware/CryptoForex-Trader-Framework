@@ -1,0 +1,4 @@
+Scan results at : 2022-11-02 15:46:00.566533
+BALUSDT swap bybit 2022-11-02 15:49:48.379235 bybit BALUSDT swap 1h [2.62 %] [price = 6.86500000]                                                                              
+ANTUSDT swap bybit 2022-11-02 15:48:09.180299 bybit ANTUSDT swap 15m 1h [3.32 %] [price = 1.86500000] *** new highest evol in %                                                
+LTCUSDT swap bybit 2022-11-02 15:59:19.812633 bybit LTCUSDT swap 1d [10.51 %] [price = 60.87000000] *** new highest evol in %                                                  

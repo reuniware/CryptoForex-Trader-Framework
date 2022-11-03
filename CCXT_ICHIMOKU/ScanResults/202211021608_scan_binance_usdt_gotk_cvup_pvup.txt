@@ -1,0 +1,11 @@
+Scan results at : 2022-11-02 16:06:39.795526
+AVAXUSDT spot binance 2022-11-02 15:43:54.099209 binance AVAXUSDT spot 3m [-3.01 %] [price = 18.07000000]                                                                      
+FUNUSDT spot binance 2022-11-02 15:29:04.789654 binance FUNUSDT spot 1m 3m [-0.13 %] [price = 0.00751000]                                                                      
+BETAUSDT spot binance 2022-11-02 15:59:12.733954 binance BETAUSDT spot 5m [-2.75 %] [price = 0.08231000]                                                                       
+YGGUSDT spot binance 2022-11-02 15:58:04.987524 binance YGGUSDT spot 30m [3.36 %] [price = 0.28950000]                                                                         
+UTKUSDT spot binance 2022-11-02 15:44:18.190070 binance UTKUSDT spot 4h [7.88 %] [price = 0.14650000]                                                                          
+ANTUSDT spot binance 2022-11-02 15:39:42.254076 binance ANTUSDT spot 30m 1h 2h 4h 6h [3.27 %] [price = 1.86500000]                                                             
+BALUSDT spot binance 2022-11-02 15:38:52.746783 binance BALUSDT spot 6h 8h [4.00 %] [price = 6.94400000]                                                                       
+RNDRUSDT spot binance 2022-11-02 16:02:02.055884 binance RNDRUSDT spot 1d [17.65 %] [price = 0.78000000]                                                                       
+LTCUSDT spot binance 2022-11-02 15:21:55.051627 binance LTCUSDT spot 8h 1d [10.24 %] [price = 60.74000000] *** new highest evol in %                                           
+MASKUSDT spot binance 2022-11-02 15:53:06.683415 binance MASKUSDT spot 5m 1d 3d [70.25 %] [price = 3.94300000] *** new highest evol in %                                       

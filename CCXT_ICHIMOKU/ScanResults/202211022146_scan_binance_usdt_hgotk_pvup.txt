@@ -1,0 +1,4 @@
+Scan results at : 2022-11-02 21:37:26.211172
+SUSHIUSDT spot binance 2022-11-02 21:18:52.113443 binance SUSHIUSDT spot 15m [1.58 %] [price = 1.60800000] *** new highest evol in %                                           
+PEOPLEUSDT spot binance 2022-11-02 21:41:06.240211 binance PEOPLEUSDT spot 8h [22.60 %] [price = 0.02398000] *** new highest evol in %                                         
+ATAUSDT spot binance 2022-11-02 21:31:10.349236 binance ATAUSDT spot 15m 30m 4h 8h [5.76 %] [price = 0.16330000] *** new highest evol in %                                     

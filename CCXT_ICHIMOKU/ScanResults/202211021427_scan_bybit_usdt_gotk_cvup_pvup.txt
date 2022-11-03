@@ -1,0 +1,14 @@
+Scan results at : 2022-11-02 14:04:49.650572
+AKROUSDT swap bybit 2022-11-02 14:01:58.358755 bybit AKROUSDT swap 1m [-1.80 %] [price = 0.00348800]                                                                           
+GRTUSDT swap bybit 2022-11-02 14:12:56.330377 bybit GRTUSDT swap 1m [-1.82 %] [price = 0.08100000]                                                                             
+ICXUSDT swap bybit 2022-11-02 14:13:50.100647 bybit ICXUSDT swap 1m [-2.42 %] [price = 0.22210000]                                                                             
+BSWUSDT swap bybit 2022-11-02 14:06:06.848868 bybit BSWUSDT swap 3m [-2.34 %] [price = 0.25490000]                                                                             
+ICPUSDT swap bybit 2022-11-02 14:13:39.956233 bybit ICPUSDT swap 1m 3m [-2.12 %] [price = 5.07000000]                                                                          
+IMXUSDT swap bybit 2022-11-02 14:14:07.062035 bybit IMXUSDT swap 1m 3m [-0.85 %] [price = 0.58100000]                                                                          
+HBARUSDT swap bybit 2022-11-02 14:13:14.424376 bybit HBARUSDT swap 15m [1.89 %] [price = 0.05935000] *** new highest evol in %                                                 
+YGGUSDT swap bybit 2022-11-02 14:26:29.158071 bybit YGGUSDT swap 30m [3.93 %] [price = 0.29100000]                                                                             
+USDCUSDT swap bybit 2022-11-02 14:24:46.281459 bybit USDCUSDT swap 2h [0.01 %] [price = 1.00010000]                                                                            
+MINAUSDT swap bybit 2022-11-02 14:17:39.218102 bybit MINAUSDT swap 6h [3.58 %] [price = 0.69500000]                                                                            
+LTCUSDT swap bybit 2022-11-02 14:16:55.982323 bybit LTCUSDT swap 1d [11.02 %] [price = 61.15000000] *** new highest evol in %                                                  
+MASKUSDT swap bybit 2022-11-02 14:17:22.277054 bybit MASKUSDT swap 1d [65.80 %] [price = 3.83000000] *** new highest evol in %                                                 
+RNDRUSDT swap bybit 2022-11-02 14:20:18.644244 bybit RNDRUSDT swap 1d [17.07 %] [price = 0.77500000]                                                                           

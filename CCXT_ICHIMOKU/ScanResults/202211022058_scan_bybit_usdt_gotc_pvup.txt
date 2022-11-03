@@ -1,0 +1,5 @@
+Scan results at : 2022-11-02 20:39:35.636472
+SUSHIUSDT swap bybit 2022-11-02 20:55:55.607857 bybit SUSHIUSDT swap 30m [1.45 %] [price = 1.60700000]                                                                         
+CHZUSDT swap bybit 2022-11-02 20:44:22.272255 bybit CHZUSDT swap 1d [4.52 %] [price = 0.23815000] *** new highest evol in %                                                    
+LTCUSDT swap bybit 2022-11-02 20:51:15.299092 bybit LTCUSDT swap 1d [7.08 %] [price = 58.98000000] *** new highest evol in %                                                   
+MINAUSDT swap bybit 2022-11-02 20:51:45.863850 bybit MINAUSDT swap 1d [8.20 %] [price = 0.72600000] *** new highest evol in %                                                  

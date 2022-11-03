@@ -1,0 +1,5 @@
+Scan results at : 2022-11-02 21:24:12.413121
+ALICEUSDT swap bybit 2022-11-02 21:19:25.502517 bybit ALICEUSDT swap 1m [-5.14 %] [price = 1.57000000]                                                                         
+MKRUSDT swap bybit 2022-11-02 21:30:39.457142 bybit MKRUSDT swap 1m [-5.17 %] [price = 834.00000000]                                                                           
+CHZUSDT swap bybit 2022-11-02 21:23:00.867139 bybit CHZUSDT swap 1d [5.09 %] [price = 0.23945000] *** new highest evol in %                                                    
+LTCUSDT swap bybit 2022-11-02 21:30:00.382889 bybit LTCUSDT swap 1d [7.48 %] [price = 59.20000000] *** new highest evol in %                                                   

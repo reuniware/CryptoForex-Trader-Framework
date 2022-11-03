@@ -1,0 +1,16 @@
+Scan results at : 2022-11-02 22:34:39.258264
+HBARUSDT spot binance 2022-11-02 21:55:55.994371 binance HBARUSDT spot 1m [0.69 %] [price = 0.05860000]                                                                        
+IOTXUSDT spot binance 2022-11-02 21:56:35.581062 binance IOTXUSDT spot 1m [-2.60 %] [price = 0.02775000]                                                                       
+CTXCUSDT spot binance 2022-11-02 21:56:56.651013 binance CTXCUSDT spot 1m [-3.57 %] [price = 0.10520000]                                                                       
+BCHUSDT spot binance 2022-11-02 21:57:05.318300 binance BCHUSDT spot 1m [-1.65 %] [price = 113.10000000]                                                                       
+AIONUSDT spot binance 2022-11-02 21:58:46.837112 binance AIONUSDT spot 1m [-2.80 %] [price = 0.03753000]                                                                       
+OXTUSDT spot binance 2022-11-02 22:09:20.904949 binance OXTUSDT spot 30m [1.83 %] [price = 0.09470000]                                                                         
+CHZUSDT spot binance 2022-11-02 21:54:57.615694 binance CHZUSDT spot 1h [6.40 %] [price = 0.24260000]                                                                          
+JASMYUSDT spot binance 2022-11-02 22:27:13.318349 binance JASMYUSDT spot 1h [2.61 %] [price = 0.00542400]                                                                      
+LTCUSDT spot binance 2022-11-02 21:47:23.831770 binance LTCUSDT spot 6h [8.33 %] [price = 59.69000000] *** new highest evol in %                                               
+UTKUSDT spot binance 2022-11-02 22:10:04.677481 binance UTKUSDT spot 8h [7.44 %] [price = 0.14590000]                                                                          
+LITUSDT spot binance 2022-11-02 22:14:40.221235 binance LITUSDT spot 8h [11.48 %] [price = 1.02000000] *** new highest evol in %                                               
+MASKUSDT spot binance 2022-11-02 22:18:56.947821 binance MASKUSDT spot 8h [70.47 %] [price = 3.94800000] *** new highest evol in %                                             
+GTCUSDT spot binance 2022-11-02 22:19:29.016741 binance GTCUSDT spot 8h [8.72 %] [price = 1.89500000]                                                                          
+PEOPLEUSDT spot binance 2022-11-02 22:29:11.885063 binance PEOPLEUSDT spot 8h [22.44 %] [price = 0.02395000]                                                                   
+RNDRUSDT spot binance 2022-11-02 22:27:46.011721 binance RNDRUSDT spot 6h 8h [12.97 %] [price = 0.74900000]                                                                    

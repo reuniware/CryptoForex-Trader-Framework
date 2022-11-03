@@ -1,0 +1,10 @@
+Scan results at : 2022-11-02 21:56:42.878316
+MITHUSDT spot binance 2022-11-02 21:29:02.572599 binance MITHUSDT spot 1m [-1.81 %] [price = 0.01894000]                                                                       
+SUSHIUSDT spot binance 2022-11-02 21:44:29.557372 binance SUSHIUSDT spot 5m [2.53 %] [price = 1.62300000]                                                                      
+UTKUSDT spot binance 2022-11-02 21:47:38.173417 binance UTKUSDT spot 30m [6.77 %] [price = 0.14500000]                                                                         
+OXTUSDT spot binance 2022-11-02 21:46:55.543864 binance OXTUSDT spot 1h [2.04 %] [price = 0.09490000]                                                                          
+LINAUSDT spot binance 2022-11-02 21:53:51.390353 binance LINAUSDT spot 8h [4.03 %] [price = 0.00800000]                                                                        
+ORNUSDT spot binance 2022-11-02 21:47:27.653245 binance ORNUSDT spot 6h 8h 12h [5.02 %] [price = 1.15100000]                                                                   
+LTCUSDT spot binance 2022-11-02 21:24:57.608215 binance LTCUSDT spot 1d [7.73 %] [price = 59.36000000] *** new highest evol in %                                               
+CHZUSDT spot binance 2022-11-02 21:32:28.534684 binance CHZUSDT spot 1d [5.48 %] [price = 0.24050000]                                                                          
+MASKUSDT spot binance 2022-11-02 21:56:28.358202 binance MASKUSDT spot 3d [72.32 %] [price = 3.99100000] *** new highest evol in %                                             

@@ -1,0 +1,6 @@
+Scan results at : 2022-11-02 22:53:27.423340
+KEYUSDT spot binance 2022-11-02 22:19:39.183309 binance KEYUSDT spot 6h [5.71 %] [price = 0.00477600]                                                                          
+ORNUSDT spot binance 2022-11-02 22:35:26.792027 binance ORNUSDT spot 6h 8h 12h [8.39 %] [price = 1.18800000] *** new highest evol in %                                         
+LTCUSDT spot binance 2022-11-02 22:12:54.136773 binance LTCUSDT spot 1d [7.84 %] [price = 59.42000000] *** new highest evol in %                                               
+CHZUSDT spot binance 2022-11-02 22:20:24.451409 binance CHZUSDT spot 1d [5.53 %] [price = 0.24060000]                                                                          
+MASKUSDT spot binance 2022-11-02 22:44:28.772579 binance MASKUSDT spot 3d [73.19 %] [price = 4.01100000] *** new highest evol in %                                             

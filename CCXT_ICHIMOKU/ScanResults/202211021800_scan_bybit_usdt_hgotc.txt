@@ -1,0 +1,9 @@
+Scan results at : 2022-11-02 17:44:58.037554
+ANKRUSDT swap bybit 2022-11-02 17:43:22.370460 bybit ANKRUSDT swap 1m [-2.88 %] [price = 0.02870000]                                                                           
+RSS3USDT swap bybit 2022-11-02 17:56:09.350720 bybit RSS3USDT swap 1m [11.73 %] [price = 0.14335000] *** new highest evol in %                                                 
+CVXUSDT swap bybit 2022-11-02 17:47:45.470513 bybit CVXUSDT swap 15m [-0.87 %] [price = 5.15500000]                                                                            
+LDOUSDT swap bybit 2022-11-02 17:52:45.689939 bybit LDOUSDT swap 30m [1.68 %] [price = 1.51600000]                                                                             
+MINAUSDT swap bybit 2022-11-02 17:53:58.302903 bybit MINAUSDT swap 30m [5.37 %] [price = 0.70700000] *** new highest evol in %                                                 
+10000NFTUSDT swap bybit 2022-11-02 17:42:00.637510 bybit 10000NFTUSDT swap 1h [0.24 %] [price = 0.00632000] *** new highest evol in %                                          
+ANTUSDT swap bybit 2022-11-02 17:43:28.452293 bybit ANTUSDT swap 1h [2.49 %] [price = 1.85000000] *** new highest evol in %                                                    
+BALUSDT swap bybit 2022-11-02 17:44:42.877595 bybit BALUSDT swap 1h 4h [4.26 %] [price = 6.97500000] *** new highest evol in %                                                 

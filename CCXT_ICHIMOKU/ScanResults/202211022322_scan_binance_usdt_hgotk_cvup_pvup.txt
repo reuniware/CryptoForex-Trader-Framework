@@ -1,0 +1,5 @@
+Scan results at : 2022-11-02 23:12:23.962586
+ALGOUSDT spot binance 2022-11-02 22:40:26.031832 binance ALGOUSDT spot 30m [0.53 %] [price = 0.36200000] *** new highest evol in %                                             
+UTKUSDT spot binance 2022-11-02 22:58:03.079161 binance UTKUSDT spot 8h [9.57 %] [price = 0.14880000] *** new highest evol in %                                                
+MASKUSDT spot binance 2022-11-02 23:06:53.719751 binance MASKUSDT spot 8h [73.58 %] [price = 4.02000000] *** new highest evol in %                                             
+PEOPLEUSDT spot binance 2022-11-02 23:17:09.197969 binance PEOPLEUSDT spot 8h [23.31 %] [price = 0.02412000]                                                                   

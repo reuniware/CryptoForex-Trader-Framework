@@ -1,0 +1,16 @@
+Scan results at : 2022-11-02 23:22:39.259661
+ALICEUSDT swap bybit 2022-11-02 23:13:39.735890 bybit ALICEUSDT swap 1m [-5.14 %] [price = 1.57000000]                                                                         
+APEUSDT swap bybit 2022-11-02 23:14:03.851751 bybit APEUSDT swap 1m [-6.47 %] [price = 4.21000000]                                                                             
+1INCHUSDT swap bybit 2022-11-02 23:12:56.520508 bybit 1INCHUSDT swap 3m [-3.05 %] [price = 0.58800000]                                                                         
+ARPAUSDT swap bybit 2022-11-02 23:14:22.045327 bybit ARPAUSDT swap 3m [-2.60 %] [price = 0.03375000]                                                                           
+AXSUSDT swap bybit 2022-11-02 23:14:58.125954 bybit AXSUSDT swap 3m [-5.32 %] [price = 8.63000000]                                                                             
+BANDUSDT swap bybit 2022-11-02 23:15:16.490785 bybit BANDUSDT swap 3m [-2.42 %] [price = 1.12900000]                                                                           
+C98USDT swap bybit 2022-11-02 23:16:36.174656 bybit C98USDT swap 3m [-2.88 %] [price = 0.30300000]                                                                             
+ARUSDT swap bybit 2022-11-02 23:14:28.089344 bybit ARUSDT swap 15m [2.26 %] [price = 10.42000000] *** new highest evol in %                                                    
+JASMYUSDT swap bybit 2022-11-02 23:22:28.588718 bybit JASMYUSDT swap 1h [3.77 %] [price = 0.00550000]                                                                          
+AUDIOUSDT swap bybit 2022-11-02 23:14:46.008102 bybit AUDIOUSDT swap 2h [-2.13 %] [price = 0.20700000]                                                                         
+INJUSDT swap bybit 2022-11-02 23:22:04.101960 bybit INJUSDT swap 2h [1.18 %] [price = 2.53600000]                                                                              
+CHZUSDT swap bybit 2022-11-02 23:17:06.364211 bybit CHZUSDT swap 3m 5m 2h [6.03 %] [price = 0.24160000] *** new highest evol in %                                              
+BNXUSDT swap bybit 2022-11-02 23:16:05.723352 bybit BNXUSDT swap 4h [0.94 %] [price = 145.05000000]                                                                            
+REEFUSDT swap bybit 2022-11-02 23:25:54.735274 bybit REEFUSDT swap 1d [-2.39 %] [price = 0.00509500]                                                                           
+UNIUSDT swap bybit 2022-11-02 23:29:14.755245 bybit UNIUSDT swap 2h 1d [-0.37 %] [price = 7.09000000]                                                                          

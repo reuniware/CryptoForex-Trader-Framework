@@ -1,0 +1,5 @@
+Scan results at : 2022-11-02 20:58:40.572899
+ALGOUSDT swap bybit 2022-11-02 20:59:49.541165 bybit ALGOUSDT swap 15m [-2.23 %] [price = 0.35150000]                                                                          
+MASKUSDT swap bybit 2022-11-02 21:11:00.802291 bybit MASKUSDT swap 15m [66.45 %] [price = 3.84500000] *** new highest evol in %                                                
+CHZUSDT swap bybit 2022-11-02 21:03:31.090856 bybit CHZUSDT swap 1d [5.53 %] [price = 0.24045000] *** new highest evol in %                                                    
+LTCUSDT swap bybit 2022-11-02 21:10:41.292874 bybit LTCUSDT swap 1d [7.57 %] [price = 59.25000000] *** new highest evol in %                                                   

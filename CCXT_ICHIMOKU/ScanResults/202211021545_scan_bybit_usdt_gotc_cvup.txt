@@ -1,0 +1,5 @@
+Scan results at : 2022-11-02 15:21:06.647527
+BSWUSDT swap bybit 2022-11-02 15:25:47.473461 bybit BSWUSDT swap 1m [-2.18 %] [price = 0.25530000]                                                                             
+BTCUSDT swap bybit 2022-11-02 15:25:55.667497 bybit BTCUSDT swap 3m [-0.28 %] [price = 20416.00000000]                                                                         
+BALUSDT swap bybit 2022-11-02 15:24:06.614532 bybit BALUSDT swap 1h [2.84 %] [price = 6.88000000] *** new highest evol in %                                                    
+LTCUSDT swap bybit 2022-11-02 15:36:09.363826 bybit LTCUSDT swap 1d [10.08 %] [price = 60.63000000] *** new highest evol in %                                                  

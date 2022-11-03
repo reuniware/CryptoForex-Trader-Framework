@@ -1,0 +1,2 @@
+Scan results at : 2022-11-02 18:41:05.938632
+UNIUSDT swap bybit 2022-11-02 18:58:52.226812 bybit UNIUSDT swap 1d [0.91 %] [price = 7.18100000] *** new highest evol in %                                                    

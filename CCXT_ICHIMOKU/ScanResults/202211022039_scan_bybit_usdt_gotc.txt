@@ -1,0 +1,5 @@
+Scan results at : 2022-11-02 20:35:31.293031
+CTCUSDT swap bybit 2022-11-02 20:25:25.972886 bybit CTCUSDT swap 2h [-1.80 %] [price = 0.55135000]                                                                             
+LINAUSDT swap bybit 2022-11-02 20:31:16.953095 bybit LINAUSDT swap 6h [2.34 %] [price = 0.00787000]                                                                            
+BICOUSDT swap bybit 2022-11-02 20:23:12.005033 bybit BICOUSDT swap 12h [-1.25 %] [price = 0.39500000]                                                                          
+CHZUSDT swap bybit 2022-11-02 20:24:40.918798 bybit CHZUSDT swap 1d [3.49 %] [price = 0.23580000] *** new highest evol in %                                                    

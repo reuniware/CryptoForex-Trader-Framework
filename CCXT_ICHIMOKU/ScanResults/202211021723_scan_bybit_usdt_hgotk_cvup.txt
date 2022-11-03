@@ -1,0 +1,14 @@
+Scan results at : 2022-11-02 17:04:19.769008
+XRPUSDT swap bybit 2022-11-02 17:22:25.304144 bybit XRPUSDT swap 1m [-0.35 %] [price = 0.46190000]                                                                             
+DASHUSDT swap bybit 2022-11-02 17:10:24.914315 bybit DASHUSDT swap 15m [-0.12 %] [price = 41.00000000]                                                                         
+LINAUSDT swap bybit 2022-11-02 17:15:21.660602 bybit LINAUSDT swap 15m [1.30 %] [price = 0.00779000]                                                                           
+MINAUSDT swap bybit 2022-11-02 17:16:29.402036 bybit MINAUSDT swap 15m [4.02 %] [price = 0.69800000]                                                                           
+10000NFTUSDT swap bybit 2022-11-02 17:04:27.801340 bybit 10000NFTUSDT swap 1h [0.08 %] [price = 0.00631000] *** new highest evol in %                                          
+ANTUSDT swap bybit 2022-11-02 17:05:53.279864 bybit ANTUSDT swap 1h [3.05 %] [price = 1.86000000] *** new highest evol in %                                                    
+EOSUSDT swap bybit 2022-11-02 17:11:32.778484 bybit EOSUSDT swap 2h [0.61 %] [price = 1.14800000]                                                                              
+LTCUSDT swap bybit 2022-11-02 17:15:58.692078 bybit LTCUSDT swap 4h [10.15 %] [price = 60.67000000]                                                                            
+GTCUSDT swap bybit 2022-11-02 17:13:18.121816 bybit GTCUSDT swap 6h [12.64 %] [price = 1.96000000] *** new highest evol in %                                                   
+LITUSDT swap bybit 2022-11-02 17:15:34.048946 bybit LITUSDT swap 6h [13.80 %] [price = 1.03900000] *** new highest evol in %                                                   
+MASKUSDT swap bybit 2022-11-02 17:16:17.226125 bybit MASKUSDT swap 6h [72.51 %] [price = 3.98500000] *** new highest evol in %                                                 
+PEOPLEUSDT swap bybit 2022-11-02 17:17:44.308617 bybit PEOPLEUSDT swap 6h [18.67 %] [price = 0.02320000]                                                                       
+ASTRUSDT swap bybit 2022-11-02 17:06:30.607850 bybit ASTRUSDT swap 1d [-2.44 %] [price = 0.04000000]                                                                           
