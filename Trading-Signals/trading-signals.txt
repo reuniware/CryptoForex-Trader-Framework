@@ -7,3 +7,5 @@
 03/11/2022 16:54:15|SOL-USD|Hourly Candle|Buy |31,1345=03/11/2022 17:54:15|Sell |33,69517=03/11/2022 19:54:15|8,22
 
 03/11/2022 16:57:20|BTC-USD|Hourly Candle|Buy |20458,66=03/11/2022 17:57:20|Sell |21108,21=04/11/2022 16:57:20|3,17
+
+04/11/2022 10:49:20 | AAVE-USD | Hourly Candle | Market Dip Detected | Current Value: $86,18877| Predicted Value: $84,47305| Change: -2%
