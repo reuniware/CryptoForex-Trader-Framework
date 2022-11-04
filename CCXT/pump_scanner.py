@@ -58,6 +58,9 @@ dict_close0 = {}
 dict_close = {}
 dict_evol0 = {}
 
+last_symbol_printed = ""
+last_evol_printed = 0
+
 while True:
     tickers = exchange.fetch_tickers()
     for symbol, ticker in tickers.items():
@@ -81,11 +84,25 @@ while True:
                 if dict_close0[symbol]>0:
                     evol0 = (current_close - dict_close0[symbol])/dict_close0[symbol]*100
                     if evol0 > dict_evol0[symbol]:
-                        print(symbol, "{:.2f}".format(evol0), "%(t0)")
+                        #print(symbol, "{:.2f}".format(evol0), "%(t0)")
                         log_to_results(str(datetime.now()) + " " + symbol + " " + "{:.2f}".format(evol0) + " %(t0)")
                         dict_evol0[symbol] = evol0
 
-
             dict_close[symbol] = current_close
+
+            first_printed = False
+            for k in sorted(dict_evol0, key=lambda k: dict_evol0[k], reverse=True):
+                if first_printed == False:
+                    symbol = k
+                    evol0 = dict_evol0[k]
+
+                    if last_symbol_printed != k and last_evol_printed != dict_evol0[k]:
+                        print(symbol, "{:.2f}".format(evol0))
+
+                    first_printed = True
+                    last_symbol_printed = k
+                    last_evol_printed = evol0
+
+
 
             
