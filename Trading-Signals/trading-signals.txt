@@ -1,11 +1,61 @@
 03/11/2022 16:10:30|BTC-USD|Daily Candle|Buy |20748,63=04/11/2022 16:10:30|Sell |21963,08=09/11/2022 16:10:30|5,85
-
 03/11/2022 16:15:29|ETH-USD|Daily Candle|Buy |1545,476=04/11/2022 16:15:29|Sell |1613,292=10/11/2022 16:15:29|4,39
-
 03/11/2022 17:10:33|BTC-USD|Daily Candle|Buy |20748,63=04/11/2022 17:10:33|Sell |21963,08=09/11/2022 17:10:33|5,85
+04/11/2022 10:51:31|SOL-USD|Daily Candle|Buy |31,54237=05/11/2022 10:51:31|Sell |33,17988=07/11/2022 10:51:31|5,19
+04/11/2022 11:10:37|BTC-USD|Daily Candle|Buy |18577,62=05/11/2022 11:10:37|Sell |19002,44=07/11/2022 11:10:37|2,29
+04/11/2022 12:51:36|SOL-USD|Daily Candle|Buy |31,54237=05/11/2022 12:51:36|Sell |33,17988=07/11/2022 12:51:36|5,19
+04/11/2022 13:10:34|BTC-USD|Daily Candle|Buy |18577,62=05/11/2022 13:10:34|Sell |19002,44=07/11/2022 13:10:34|2,29
+04/11/2022 13:51:35|SOL-USD|Daily Candle|Buy |31,54237=05/11/2022 13:51:35|Sell |33,17988=07/11/2022 13:51:35|5,19
+04/11/2022 14:10:29|BTC-USD|Daily Candle|Buy |18577,62=05/11/2022 14:10:29|Sell |19002,44=07/11/2022 14:10:29|2,29
+04/11/2022 14:51:29|SOL-USD|Daily Candle|Buy |31,54237=05/11/2022 14:51:29|Sell |33,17988=07/11/2022 14:51:29|5,19
+04/11/2022 15:10:30|BTC-USD|Daily Candle|Buy |18577,62=05/11/2022 15:10:30|Sell |19002,44=07/11/2022 15:10:30|2,29
+04/11/2022 15:51:28|SOL-USD|Daily Candle|Buy |31,54237=05/11/2022 15:51:28|Sell |33,17988=07/11/2022 15:51:28|5,19
+04/11/2022 16:10:29|BTC-USD|Daily Candle|Buy |18577,62=05/11/2022 16:10:29|Sell |19002,44=07/11/2022 16:10:29|2,29
+04/11/2022 16:51:29|SOL-USD|Daily Candle|Buy |31,54237=05/11/2022 16:51:29|Sell |33,17988=07/11/2022 16:51:29|5,19
+04/11/2022 17:10:42|BTC-USD|Daily Candle|Buy |18577,62=05/11/2022 17:10:42|Sell |19002,44=07/11/2022 17:10:42|2,29
+
+
+
+
 
 03/11/2022 16:54:15|SOL-USD|Hourly Candle|Buy |31,1345=03/11/2022 17:54:15|Sell |33,69517=03/11/2022 19:54:15|8,22
-
 03/11/2022 16:57:20|BTC-USD|Hourly Candle|Buy |20458,66=03/11/2022 17:57:20|Sell |21108,21=04/11/2022 16:57:20|3,17
+04/11/2022 10:53:18|SOL-USD|Hourly Candle|Buy |30,60114=04/11/2022 11:53:18|Sell |33,02922=04/11/2022 14:53:18|7,93
+04/11/2022 10:55:21|ETH-USD|Hourly Candle|Buy |1586,14=04/11/2022 11:55:21|Sell |1769,938=04/11/2022 15:55:21|11,59
+04/11/2022 10:57:19|BTC-USD|Hourly Candle|Buy |20827,98=04/11/2022 11:57:19|Sell |21079,94=04/11/2022 14:57:19|1,21
+04/11/2022 14:55:19|ETH-USD|Hourly Candle|Buy |1526,364=04/11/2022 15:55:19|Sell |1554,303=05/11/2022 14:55:19|1,83
+04/11/2022 15:53:23|SOL-USD|Hourly Candle|Buy |31,33887=04/11/2022 16:53:23|Sell |31,98207=05/11/2022 06:53:23|2,05
+04/11/2022 15:57:18|BTC-USD|Hourly Candle|Buy |20540,45=04/11/2022 16:57:18|Sell |20764,46=05/11/2022 15:57:18|1,09
+04/11/2022 16:45:21|DASH-USD|Hourly Candle|Buy |43,30275=04/11/2022 17:45:21|Sell |43,73737=04/11/2022 23:45:21|1,00
+04/11/2022 16:55:21|ETH-USD|Hourly Candle|Buy |1668,304=04/11/2022 17:55:21|Sell |1730,341=05/11/2022 14:55:21|3,72
+04/11/2022 17:45:19|DASH-USD|Hourly Candle|Buy |43,60751=04/11/2022 18:45:19|Sell |44,12782=05/11/2022 02:45:19|1,19
+
+
+
+
 
 04/11/2022 10:49:20 | AAVE-USD | Hourly Candle | Market Dip Detected | Current Value: $86,18877| Predicted Value: $84,47305| Change: -2%
+04/11/2022 12:47:19 | MKR-USD | Hourly Candle | Market Crash Detected - Entering insurance mode! | Current Value: $870,1074| Predicted Value: $808,7299| Change: -7,1%|Exit Deadline: 05/11/2022 12:47:19
+04/11/2022 12:49:19 | AAVE-USD | Hourly Candle | Market Dip Detected | Current Value: $90,53626| Predicted Value: $89,53419| Change: -1,1%
+04/11/2022 13:43:20 | COMP-USD | Hourly Candle | Market Crash Detected - Entering insurance mode! | Current Value: $50,28468| Predicted Value: $46,52094| Change: -7,5%|Exit Deadline: 04/11/2022 23:43:20
+04/11/2022 13:45:20 | DASH-USD | Hourly Candle | Market Drop Detected | Current Value: $42,8865| Predicted Value: $41,25329| Change: -3,8%
+04/11/2022 13:47:20 | MKR-USD | Hourly Candle | Market Drop Detected | Current Value: $870,9753| Predicted Value: $839,1921| Change: -3,6%
+04/11/2022 13:49:21 | AAVE-USD | Hourly Candle | Market Dip Detected | Current Value: $91,48669| Predicted Value: $90,39872| Change: -1,2%
+04/11/2022 13:53:26 | SOL-USD | Hourly Candle | Market Crash Detected - Entering insurance mode! | Current Value: $32,45921| Predicted Value: $29,71209| Change: -8,5%|Exit Deadline: 04/11/2022 17:53:26
+04/11/2022 13:55:19 | ETH-USD | Hourly Candle | Market Drop Detected | Current Value: $1677,696| Predicted Value: $1609,664| Change: -4,1%
+04/11/2022 14:43:20 | COMP-USD | Hourly Candle | Market Drop Detected | Current Value: $49,56754| Predicted Value: $47,64373| Change: -3,9%
+04/11/2022 14:45:18 | DASH-USD | Hourly Candle | Market Drop Detected | Current Value: $44,10178| Predicted Value: $42,22129| Change: -4,3%
+04/11/2022 14:47:19 | MKR-USD | Hourly Candle | Market Dip Detected | Current Value: $865,0428| Predicted Value: $845,4052| Change: -2,3%
+04/11/2022 14:49:19 | AAVE-USD | Hourly Candle | Market Dip Detected | Current Value: $92,70082| Predicted Value: $91,09159| Change: -1,7%
+04/11/2022 14:53:18 | SOL-USD | Hourly Candle | Market Crash Detected - Entering insurance mode! | Current Value: $32,15244| Predicted Value: $29,13495| Change: -9,4%|Exit Deadline: 04/11/2022 18:53:18
+04/11/2022 15:43:19 | COMP-USD | Hourly Candle | Market Drop Detected | Current Value: $49,75058| Predicted Value: $47,78576| Change: -3,9%
+04/11/2022 15:45:20 | DASH-USD | Hourly Candle | Market Drop Detected | Current Value: $44,21168| Predicted Value: $42,82003| Change: -3,1%
+04/11/2022 15:47:18 | MKR-USD | Hourly Candle | Market Dip Detected | Current Value: $870,454| Predicted Value: $850,2549| Change: -2,3%
+04/11/2022 15:49:19 | AAVE-USD | Hourly Candle | Market Dip Detected | Current Value: $93,42255| Predicted Value: $91,38641| Change: -2,2%
+04/11/2022 15:55:18 | ETH-USD | Hourly Candle | Market Drop Detected | Current Value: $1636,582| Predicted Value: $1576,557| Change: -3,7%
+04/11/2022 16:43:18 | COMP-USD | Hourly Candle | Market Drop Detected | Current Value: $49,91576| Predicted Value: $47,81476| Change: -4,2%
+04/11/2022 16:47:19 | MKR-USD | Hourly Candle | Market Dip Detected | Current Value: $885,1152| Predicted Value: $863,6255| Change: -2,4%
+04/11/2022 16:49:19 | AAVE-USD | Hourly Candle | Market Dip Detected | Current Value: $93,99677| Predicted Value: $91,72716| Change: -2,4%
+04/11/2022 16:53:19 | SOL-USD | Hourly Candle | Market Drop Detected | Current Value: $31,82847| Predicted Value: $29,68153| Change: -6,7%
+04/11/2022 16:57:20 | BTC-USD | Hourly Candle | Market Dip Detected | Current Value: $21410,86| Predicted Value: $21032,27| Change: -1,8%
+04/11/2022 17:43:19 | COMP-USD | Hourly Candle | Market Crash Detected - Entering insurance mode! | Current Value: $49,67116| Predicted Value: $45,77201| Change: -7,8%|Exit Deadline: 05/11/2022 03:43:19
