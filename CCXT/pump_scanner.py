@@ -57,6 +57,7 @@ exchange = exchanges[exchange_id]
 dict_close0 = {}
 dict_close = {}
 dict_evol0 = {}
+dict_count = {}
 
 while True:
     tickers = exchange.fetch_tickers()
@@ -72,6 +73,7 @@ while True:
             dict_close0[symbol] = current_close
             dict_close[symbol] = current_close
             dict_evol0[symbol] = 0
+            dict_count[symbol] = 0
         else:
             previous_close = dict_close[symbol]
             if previous_close!=0:
@@ -81,9 +83,10 @@ while True:
                 if dict_close0[symbol]!=0:
                     evol0 = (current_close - dict_close0[symbol])/dict_close0[symbol]*100
                     if evol0 > dict_evol0[symbol]:
-                        print(symbol, "{:.2f}".format(evol0), "%(t0)")
-                        log_to_results(str(datetime.now()) + " " + symbol + " " + "{:.2f}".format(evol0) + " %(t0)")
+                        print(symbol, "{:.2f}".format(evol0), "%(t0)", dict_count[symbol])
+                        log_to_results(str(datetime.now()) + " " + symbol + " " + "{:.2f}".format(evol0) + " %(t0)" + " " + str(dict_count[symbol]))
                         dict_evol0[symbol] = evol0
+                        dict_count[symbol] = dict_count[symbol] + 1
 
             dict_close[symbol] = current_close
 
