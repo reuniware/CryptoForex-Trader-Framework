@@ -51,7 +51,7 @@ for id in ccxt.exchanges:
     except:
         continue
 
-exchange_id = "gateio"
+exchange_id = "bybit"
 exchange = exchanges[exchange_id]
 
 dict_close0 = {}
@@ -61,8 +61,10 @@ dict_evol0 = {}
 while True:
     tickers = exchange.fetch_tickers()
     for symbol, ticker in tickers.items():
-        if not symbol.endswith("/USDT") or symbol.endswith("3L/USDT") or symbol.endswith("3S/USDT") or symbol.endswith("5L/USDT") or symbol.endswith("5S/USDT"):
-            continue
+        #print(symbol)
+        if exchange_id == "gateio":
+            if not symbol.endswith("/USDT") or symbol.endswith("3L/USDT") or symbol.endswith("3S/USDT") or symbol.endswith("5L/USDT") or symbol.endswith("5S/USDT"):
+                continue
         
         current_close = float(ticker['close'])
 
@@ -79,8 +81,8 @@ while True:
                 if dict_close0[symbol]>0:
                     evol0 = (current_close - dict_close0[symbol])/dict_close0[symbol]*100
                     if evol0 > dict_evol0[symbol]:
-                        print(symbol, evol0, "%(t0)")
-                        log_to_results(str(datetime.now()) + " " + symbol + " " + str(evol0) + " %(t0)")
+                        print(symbol, "{:.2f}".format(evol0), "%(t0)")
+                        log_to_results(str(datetime.now()) + " " + symbol + " " + "{:.2f}".format(evol0) + " %(t0)")
                         dict_evol0[symbol] = evol0
 
 
