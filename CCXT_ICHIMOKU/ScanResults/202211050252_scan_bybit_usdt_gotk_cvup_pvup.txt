@@ -1,0 +1,14 @@
+Scan results at : 2022-11-05 02:33:37.360675
+CTCUSDT swap bybit 2022-11-05 02:38:59.898386 bybit CTCUSDT swap 1m [1.74 %] [price = 0.56460000]                                                                              
+MKRUSDT swap bybit 2022-11-05 02:45:38.496650 bybit MKRUSDT swap 1m [0.33 %] [price = 916.50000000]                                                                            
+ACHUSDT swap bybit 2022-11-05 02:34:21.505906 bybit ACHUSDT swap 5m [-0.64 %] [price = 0.01244000]                                                                             
+SFPUSDT swap bybit 2022-11-05 02:48:15.707591 bybit SFPUSDT swap 5m [2.55 %] [price = 0.46250000]                                                                              
+SNXUSDT swap bybit 2022-11-05 02:48:39.527684 bybit SNXUSDT swap 5m [1.07 %] [price = 2.74800000]                                                                              
+DODOUSDT swap bybit 2022-11-05 02:39:54.071757 bybit DODOUSDT swap 15m [0.60 %] [price = 0.15200000]                                                                           
+EOSUSDT swap bybit 2022-11-05 02:40:42.374702 bybit EOSUSDT swap 15m [0.33 %] [price = 1.20000000]                                                                             
+EGLDUSDT swap bybit 2022-11-05 02:40:24.223749 bybit EGLDUSDT swap 4h [0.58 %] [price = 60.85000000]                                                                           
+WAVESUSDT swap bybit 2022-11-05 02:50:46.427916 bybit WAVESUSDT swap 6h [4.10 %] [price = 3.68500000]                                                                          
+AXSUSDT swap bybit 2022-11-05 02:36:10.231991 bybit AXSUSDT swap 4h 6h [15.59 %] [price = 11.19500000] *** new highest evol in %                                               
+SANDUSDT swap bybit 2022-11-05 02:47:57.709826 bybit SANDUSDT swap 1m 4h 6h [7.68 %] [price = 0.95530000]                                                                      
+ILVUSDT swap bybit 2022-11-05 02:43:01.166263 bybit ILVUSDT swap 12h [1.67 %] [price = 67.00000000]                                                                            
+ENSUSDT swap bybit 2022-11-05 02:40:36.381824 bybit ENSUSDT swap 1d [1.51 %] [price = 18.16000000]                                                                             

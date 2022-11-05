@@ -1,0 +1,12 @@
+Scan results at : 2022-11-05 06:17:37.852299
+SCUSDT swap bybit 2022-11-05 06:25:03.391497 bybit SCUSDT swap 1m [1.45 %] [price = 0.00351000]                                                                                
+CRVUSDT swap bybit 2022-11-05 06:15:42.807787 bybit CRVUSDT swap 5m [0.39 %] [price = 1.02800000]                                                                              
+BATUSDT swap bybit 2022-11-05 06:13:23.316127 bybit BATUSDT swap 15m [0.15 %] [price = 0.33900000]                                                                             
+OGNUSDT swap bybit 2022-11-05 06:23:01.421607 bybit OGNUSDT swap 30m [0.62 %] [price = 0.16300000]                                                                             
+TRBUSDT swap bybit 2022-11-05 06:27:04.722909 bybit TRBUSDT swap 30m [-2.55 %] [price = 17.59000000]                                                                           
+UNFIUSDT swap bybit 2022-11-05 06:27:17.036838 bybit UNFIUSDT swap 30m [1.52 %] [price = 6.76550000]                                                                           
+SHIB1000USDT swap bybit 2022-11-05 06:25:15.545108 bybit SHIB1000USDT swap 4h [5.03 %] [price = 0.01315000]                                                                    
+HNTUSDT swap bybit 2022-11-05 06:19:27.834263 bybit HNTUSDT swap 6h [1.66 %] [price = 4.28000000]                                                                              
+AGLDUSDT swap bybit 2022-11-05 06:11:21.792562 bybit AGLDUSDT swap 1d [11.05 %] [price = 0.41200000] *** new highest evol in %                                                 
+SOLUSDT swap bybit 2022-11-05 06:25:39.511825 bybit SOLUSDT swap 1d [3.43 %] [price = 34.87500000]                                                                             
+SRMUSDT swap bybit 2022-11-05 06:25:51.581566 bybit SRMUSDT swap 1d [4.28 %] [price = 0.82800000]                                                                              

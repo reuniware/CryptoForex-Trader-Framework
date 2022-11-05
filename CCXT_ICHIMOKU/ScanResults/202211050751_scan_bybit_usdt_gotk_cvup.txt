@@ -1,0 +1,20 @@
+Scan results at : 2022-11-05 07:35:50.368716
+BELUSDT swap bybit 2022-11-05 07:35:35.275937 bybit BELUSDT swap 3m [1.83 %] [price = 0.63380000]                                                                              
+LITUSDT swap bybit 2022-11-05 07:43:32.472419 bybit LITUSDT swap 3m [1.84 %] [price = 1.27600000]                                                                              
+IMXUSDT swap bybit 2022-11-05 07:41:59.708081 bybit IMXUSDT swap 5m [6.03 %] [price = 0.70300000]                                                                              
+LINKUSDT swap bybit 2022-11-05 07:43:26.465941 bybit LINKUSDT swap 5m [0.56 %] [price = 8.76200000]                                                                            
+SRMUSDT swap bybit 2022-11-05 07:48:00.350750 bybit SRMUSDT swap 5m [6.42 %] [price = 0.84500000]                                                                              
+WOOUSDT swap bybit 2022-11-05 07:49:56.971090 bybit WOOUSDT swap 3m 5m [0.26 %] [price = 0.19250000]                                                                           
+ATOMUSDT swap bybit 2022-11-05 07:34:40.558358 bybit ATOMUSDT swap 15m [1.76 %] [price = 15.29000000]                                                                          
+ALGOUSDT swap bybit 2022-11-05 07:33:33.782345 bybit ALGOUSDT swap 30m [-0.24 %] [price = 0.41450000]                                                                          
+DODOUSDT swap bybit 2022-11-05 07:38:43.901937 bybit DODOUSDT swap 30m [8.44 %] [price = 0.16385000]                                                                           
+MKRUSDT swap bybit 2022-11-05 07:44:35.050074 bybit MKRUSDT swap 30m [-0.33 %] [price = 910.50000000]                                                                          
+BANDUSDT swap bybit 2022-11-05 07:35:17.222767 bybit BANDUSDT swap 1h [11.14 %] [price = 3.07300000] *** new highest evol in %                                                 
+OCEANUSDT swap bybit 2022-11-05 07:44:59.901260 bybit OCEANUSDT swap 3m 5m 1h [2.69 %] [price = 0.24080000]                                                                    
+AUDIOUSDT swap bybit 2022-11-05 07:34:46.687141 bybit AUDIOUSDT swap 2h [3.25 %] [price = 0.23800000]                                                                          
+SHIB1000USDT swap bybit 2022-11-05 07:47:22.762076 bybit SHIB1000USDT swap 4h [3.27 %] [price = 0.01293000]                                                                    
+IOTXUSDT swap bybit 2022-11-05 07:42:24.770465 bybit IOTXUSDT swap 2h 4h 6h [12.75 %] [price = 0.03625000] *** new highest evol in %                                           
+AGLDUSDT swap bybit 2022-11-05 07:33:21.759715 bybit AGLDUSDT swap 12h [7.14 %] [price = 0.39750000] *** new highest evol in %                                                 
+ILVUSDT swap bybit 2022-11-05 07:41:53.581180 bybit ILVUSDT swap 12h [1.82 %] [price = 67.10000000]                                                                            
+SLPUSDT swap bybit 2022-11-05 07:47:34.874574 bybit SLPUSDT swap 12h [8.31 %] [price = 0.00378000]                                                                             
+ASTRUSDT swap bybit 2022-11-05 07:34:34.240474 bybit ASTRUSDT swap 6h 12h [1.59 %] [price = 0.04485000]                                                                        

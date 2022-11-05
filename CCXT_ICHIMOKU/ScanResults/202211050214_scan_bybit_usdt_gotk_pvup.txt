@@ -1,0 +1,16 @@
+Scan results at : 2022-11-05 01:56:06.013510
+STGUSDT swap bybit 2022-11-05 02:11:52.697480 bybit STGUSDT swap 3m [2.62 %] [price = 0.52850000]                                                                              
+CRVUSDT swap bybit 2022-11-05 02:01:33.894714 bybit CRVUSDT swap 5m [0.39 %] [price = 1.02800000]                                                                              
+RENUSDT swap bybit 2022-11-05 02:09:56.839114 bybit RENUSDT swap 5m [0.79 %] [price = 0.14020000]                                                                              
+ANKRUSDT swap bybit 2022-11-05 01:57:37.252967 bybit ANKRUSDT swap 15m [0.16 %] [price = 0.03205000]                                                                           
+BCHUSDT swap bybit 2022-11-05 01:59:16.459888 bybit BCHUSDT swap 15m [-0.04 %] [price = 124.35000000]                                                                          
+BELUSDT swap bybit 2022-11-05 01:59:22.866636 bybit BELUSDT swap 15m [0.87 %] [price = 0.62780000]                                                                             
+CTKUSDT swap bybit 2022-11-05 02:01:45.853361 bybit CTKUSDT swap 15m 30m [-0.22 %] [price = 0.88700000]                                                                        
+AGLDUSDT swap bybit 2022-11-05 01:57:05.291293 bybit AGLDUSDT swap 1h [3.77 %] [price = 0.38500000] *** new highest evol in %                                                  
+BANDUSDT swap bybit 2022-11-05 01:59:03.152050 bybit BANDUSDT swap 1h [6.26 %] [price = 2.93800000]                                                                            
+EGLDUSDT swap bybit 2022-11-05 02:03:04.450398 bybit EGLDUSDT swap 4h [0.83 %] [price = 61.00000000]                                                                           
+WAVESUSDT swap bybit 2022-11-05 02:13:35.857048 bybit WAVESUSDT swap 6h [5.51 %] [price = 3.73500000]                                                                          
+SANDUSDT swap bybit 2022-11-05 02:10:45.838979 bybit SANDUSDT swap 4h 6h [7.26 %] [price = 0.95160000]                                                                         
+CEEKUSDT swap bybit 2022-11-05 02:00:31.241846 bybit CEEKUSDT swap 12h [2.66 %] [price = 0.14475000]                                                                           
+AXSUSDT swap bybit 2022-11-05 01:58:45.031733 bybit AXSUSDT swap 2h 4h 6h 12h [17.14 %] [price = 11.34500000] *** new highest evol in %                                        
+ENSUSDT swap bybit 2022-11-05 02:03:16.392411 bybit ENSUSDT swap 1d [0.50 %] [price = 17.98000000]                                                                             

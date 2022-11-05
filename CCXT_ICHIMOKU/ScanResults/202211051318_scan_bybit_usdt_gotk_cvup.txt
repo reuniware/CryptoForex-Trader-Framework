@@ -1,0 +1,10 @@
+Scan results at : 2022-11-05 12:59:27.723141
+GMTUSDT swap bybit 2022-11-05 13:08:26.153041 bybit GMTUSDT swap 30m [6.20 %] [price = 0.57030000] *** new highest evol in %                                                   
+PEOPLEUSDT swap bybit 2022-11-05 13:13:19.775531 bybit PEOPLEUSDT swap 30m [10.43 %] [price = 0.03070000] *** new highest evol in %                                            
+REQUSDT swap bybit 2022-11-05 13:13:51.238214 bybit REQUSDT swap 15m 30m [0.69 %] [price = 0.11600000]                                                                         
+ICPUSDT swap bybit 2022-11-05 13:09:09.903662 bybit ICPUSDT swap 1h [-0.18 %] [price = 5.61000000]                                                                             
+JSTUSDT swap bybit 2022-11-05 13:10:07.478047 bybit JSTUSDT swap 1h [-0.68 %] [price = 0.02919000]                                                                             
+SHIB1000USDT swap bybit 2022-11-05 13:15:00.602576 bybit SHIB1000USDT swap 1h [1.56 %] [price = 0.01271500]                                                                    
+GMXUSDT swap bybit 2022-11-05 13:08:32.509926 bybit GMXUSDT swap 1m 1h [-2.76 %] [price = 41.94000000]                                                                         
+RNDRUSDT swap bybit 2022-11-05 13:13:57.795208 bybit RNDRUSDT swap 4h [11.37 %] [price = 0.82300000] *** new highest evol in %                                                 
+ASTRUSDT swap bybit 2022-11-05 13:01:45.304969 bybit ASTRUSDT swap 6h 12h [2.94 %] [price = 0.04545000] *** new highest evol in %                                              

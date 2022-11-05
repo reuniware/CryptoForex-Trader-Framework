@@ -1,0 +1,11 @@
+Scan results at : 2022-11-05 08:39:43.194890
+DUSKUSDT swap bybit 2022-11-05 08:36:20.045010 bybit DUSKUSDT swap 15m [0.69 %] [price = 0.14690000]                                                                           
+BSWUSDT swap bybit 2022-11-05 08:33:37.202648 bybit BSWUSDT swap 5m 15m [0.82 %] [price = 0.27160000]                                                                          
+INJUSDT swap bybit 2022-11-05 08:39:32.040831 bybit INJUSDT swap 1h [3.39 %] [price = 2.80600000]                                                                              
+MASKUSDT swap bybit 2022-11-05 08:41:45.205926 bybit MASKUSDT swap 30m 1h [10.91 %] [price = 5.08500000]                                                                       
+AXSUSDT swap bybit 2022-11-05 08:32:09.163569 bybit AXSUSDT swap 12h [13.89 %] [price = 11.03000000] *** new highest evol in %                                                 
+IMXUSDT swap bybit 2022-11-05 08:39:25.078572 bybit IMXUSDT swap 12h [3.17 %] [price = 0.68400000]                                                                             
+AGLDUSDT swap bybit 2022-11-05 08:30:25.170507 bybit AGLDUSDT swap 1d [4.85 %] [price = 0.38900000] *** new highest evol in %                                                  
+DASHUSDT swap bybit 2022-11-05 08:35:41.882413 bybit DASHUSDT swap 1d [1.91 %] [price = 45.40000000]                                                                           
+SOLUSDT swap bybit 2022-11-05 08:45:23.644142 bybit SOLUSDT swap 1d [3.40 %] [price = 34.86500000]                                                                             
+SRMUSDT swap bybit 2022-11-05 08:45:38.615075 bybit SRMUSDT swap 1d [6.05 %] [price = 0.84200000]                                                                              

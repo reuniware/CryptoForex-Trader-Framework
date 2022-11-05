@@ -1,0 +1,4 @@
+Scan results at : 2022-11-05 08:49:07.855525
+CTCUSDT swap bybit 2022-11-05 08:54:53.967577 bybit CTCUSDT swap 5m [1.46 %] [price = 0.56305000] *** new highest evol in %                                                    
+SOLUSDT swap bybit 2022-11-05 09:05:06.231119 bybit SOLUSDT swap 1d [3.45 %] [price = 34.88500000] *** new highest evol in %                                                   
+SRMUSDT swap bybit 2022-11-05 09:05:18.967700 bybit SRMUSDT swap 1d [6.42 %] [price = 0.84500000] *** new highest evol in %                                                    

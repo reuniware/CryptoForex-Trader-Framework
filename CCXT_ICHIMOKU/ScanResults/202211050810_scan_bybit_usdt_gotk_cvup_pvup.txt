@@ -1,0 +1,9 @@
+Scan results at : 2022-11-05 07:56:56.136523
+FITFIUSDT swap bybit 2022-11-05 07:59:00.457652 bybit FITFIUSDT swap 15m [3.84 %] [price = 0.05810000]                                                                         
+BANDUSDT swap bybit 2022-11-05 07:54:12.611119 bybit BANDUSDT swap 1h [11.79 %] [price = 3.09100000] *** new highest evol in %                                                 
+AUDIOUSDT swap bybit 2022-11-05 07:53:41.662032 bybit AUDIOUSDT swap 2h [4.34 %] [price = 0.24050000]                                                                          
+IOTXUSDT swap bybit 2022-11-05 08:01:22.637200 bybit IOTXUSDT swap 6h [12.75 %] [price = 0.03625000] *** new highest evol in %                                                 
+RNDRUSDT swap bybit 2022-11-05 08:05:21.945911 bybit RNDRUSDT swap 6h [1.76 %] [price = 0.75200000]                                                                            
+AGLDUSDT swap bybit 2022-11-05 07:52:15.854311 bybit AGLDUSDT swap 12h [6.33 %] [price = 0.39450000] *** new highest evol in %                                                 
+ILVUSDT swap bybit 2022-11-05 08:00:51.330326 bybit ILVUSDT swap 12h [2.43 %] [price = 67.50000000]                                                                            
+SLPUSDT swap bybit 2022-11-05 08:06:37.740584 bybit SLPUSDT swap 12h [8.31 %] [price = 0.00378000]                                                                             
