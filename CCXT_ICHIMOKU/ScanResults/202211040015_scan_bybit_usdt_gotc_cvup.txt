@@ -1,0 +1,6 @@
+Scan results at : 2022-11-03 23:56:47.514317
+WOOUSDT swap bybit 2022-11-04 00:14:06.468783 bybit WOOUSDT swap 1m [0.17 %] [price = 0.18130000]                                                                              
+FITFIUSDT swap bybit 2022-11-04 00:04:32.303319 bybit FITFIUSDT swap 5m [0.57 %] [price = 0.05285000]                                                                          
+MATICUSDT swap bybit 2022-11-04 00:08:46.712390 bybit MATICUSDT swap 5m [1.77 %] [price = 0.96780000]                                                                          
+ALPHAUSDT swap bybit 2022-11-03 23:58:09.516950 bybit ALPHAUSDT swap 1d [22.86 %] [price = 0.13680000] *** new highest evol in %                                               
+BANDUSDT swap bybit 2022-11-03 23:59:41.375968 bybit BANDUSDT swap 1d [118.02 %] [price = 2.46800000] *** new highest evol in %                                                
