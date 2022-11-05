@@ -1,0 +1,14 @@
+Scan results at : 2022-11-03 21:20:12.536155
+DOGEUSDT swap bybit 2022-11-03 21:13:32.683154 bybit DOGEUSDT swap 5m [1.65 %] [price = 0.12970000]                                                                            
+MANAUSDT swap bybit 2022-11-03 21:19:04.540485 bybit MANAUSDT swap 5m [3.94 %] [price = 0.64650000]                                                                            
+RAYUSDT swap bybit 2022-11-03 21:20:51.550531 bybit RAYUSDT swap 5m [2.26 %] [price = 0.49800000]                                                                              
+HOTUSDT swap bybit 2022-11-03 21:16:23.445895 bybit HOTUSDT swap 15m [3.63 %] [price = 0.00205600]                                                                             
+PEOPLEUSDT swap bybit 2022-11-03 21:20:39.480031 bybit PEOPLEUSDT swap 30m [15.11 %] [price = 0.02705000] *** new highest evol in %                                            
+CTKUSDT swap bybit 2022-11-03 21:12:35.588942 bybit CTKUSDT swap 2h [7.66 %] [price = 0.85700000]                                                                              
+ONTUSDT swap bybit 2022-11-03 21:20:20.623946 bybit ONTUSDT swap 2h [5.62 %] [price = 0.22660000]                                                                              
+TRBUSDT swap bybit 2022-11-03 21:24:08.490987 bybit TRBUSDT swap 2h [21.10 %] [price = 17.44500000] *** new highest evol in %                                                  
+ZRXUSDT swap bybit 2022-11-03 21:26:10.699729 bybit ZRXUSDT swap 4h [6.03 %] [price = 0.26570000]                                                                              
+ARPAUSDT swap bybit 2022-11-03 21:08:55.779267 bybit ARPAUSDT swap 6h [8.71 %] [price = 0.03671000] *** new highest evol in %                                                  
+LINAUSDT swap bybit 2022-11-03 21:18:13.586983 bybit LINAUSDT swap 12h [13.78 %] [price = 0.00933000]                                                                          
+JASMYUSDT swap bybit 2022-11-03 21:17:22.474152 bybit JASMYUSDT swap 2h 12h [7.27 %] [price = 0.00590000]                                                                      
+ASTRUSDT swap bybit 2022-11-03 21:09:08.634301 bybit ASTRUSDT swap 1d [14.14 %] [price = 0.04560000] *** new highest evol in %                                                 

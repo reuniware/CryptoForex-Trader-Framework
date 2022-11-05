@@ -1,0 +1,8 @@
+Scan results at : 2022-11-03 21:45:14.228729
+BNBUSDT swap bybit 2022-11-03 21:48:53.067781 bybit BNBUSDT swap 15m [4.00 %] [price = 332.80000000]                                                                           
+CTKUSDT swap bybit 2022-11-03 21:50:50.558768 bybit CTKUSDT swap 2h [7.41 %] [price = 0.85500000]                                                                              
+ONTUSDT swap bybit 2022-11-03 21:58:26.315996 bybit ONTUSDT swap 2h [5.80 %] [price = 0.22700000]                                                                              
+OGNUSDT swap bybit 2022-11-03 21:58:08.181105 bybit OGNUSDT swap 4h [22.00 %] [price = 0.16800000] *** new highest evol in %                                                   
+ARPAUSDT swap bybit 2022-11-03 21:47:13.244046 bybit ARPAUSDT swap 6h [8.91 %] [price = 0.03678000] *** new highest evol in %                                                  
+LINAUSDT swap bybit 2022-11-03 21:56:24.729077 bybit LINAUSDT swap 12h [14.27 %] [price = 0.00937000] *** new highest evol in %                                                
+ASTRUSDT swap bybit 2022-11-03 21:47:25.522781 bybit ASTRUSDT swap 1d [13.14 %] [price = 0.04520000] *** new highest evol in %                                                 

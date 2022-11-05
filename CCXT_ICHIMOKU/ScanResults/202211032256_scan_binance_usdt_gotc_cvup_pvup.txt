@@ -1,0 +1,17 @@
+Scan results at : 2022-11-03 22:41:43.772255
+KMDUSDT spot binance 2022-11-03 22:26:45.087586 binance KMDUSDT spot 3m 5m [2.02 %] [price = 0.25230000]                                                                       
+BTCDOWNUSDT spot binance 2022-11-03 22:22:05.524904 binance BTCDOWNUSDT spot 15m [0.22 %] [price = 0.03080100]                                                                 
+ETHDOWNUSDT spot binance 2022-11-03 22:23:56.361837 binance ETHDOWNUSDT spot 30m [-1.01 %] [price = 0.77410000]                                                                
+PERPUSDT spot binance 2022-11-03 22:38:17.131671 binance PERPUSDT spot 4h [7.02 %] [price = 0.56400000]                                                                        
+GLMRUSDT spot binance 2022-11-03 22:52:01.120500 binance GLMRUSDT spot 6h [5.32 %] [price = 0.49730000]                                                                        
+CTKUSDT spot binance 2022-11-03 22:33:02.246766 binance CTKUSDT spot 8h [6.40 %] [price = 0.84800000]                                                                          
+LINKUSDT spot binance 2022-11-03 22:10:56.787232 binance LINKUSDT spot 1d [4.69 %] [price = 7.78500000] *** new highest evol in %                                              
+THETAUSDT spot binance 2022-11-03 22:12:57.635262 binance THETAUSDT spot 1d [8.46 %] [price = 1.24400000] *** new highest evol in %                                            
+BANDUSDT spot binance 2022-11-03 22:16:49.033598 binance BANDUSDT spot 1d [132.01 %] [price = 2.63100000] *** new highest evol in %                                            
+IOTXUSDT spot binance 2022-11-03 22:18:20.900626 binance IOTXUSDT spot 1d [13.09 %] [price = 0.03136000]                                                                       
+DIAUSDT spot binance 2022-11-03 22:29:19.851753 binance DIAUSDT spot 1d [7.05 %] [price = 0.42500000]                                                                          
+ORNUSDT spot binance 2022-11-03 22:31:46.718052 binance ORNUSDT spot 1d [12.14 %] [price = 1.30200000]                                                                         
+ALPHAUSDT spot binance 2022-11-03 22:32:11.143809 binance ALPHAUSDT spot 1d [22.55 %] [price = 0.13640000]                                                                     
+LINAUSDT spot binance 2022-11-03 22:38:06.646146 binance LINAUSDT spot 1d [11.22 %] [price = 0.00912000]                                                                       
+GTCUSDT spot binance 2022-11-03 22:41:23.434515 binance GTCUSDT spot 1d [54.93 %] [price = 3.01500000]                                                                         
+MASKUSDT spot binance 2022-11-03 22:40:47.430968 binance MASKUSDT spot 3d [25.69 %] [price = 5.47400000]                                                                       

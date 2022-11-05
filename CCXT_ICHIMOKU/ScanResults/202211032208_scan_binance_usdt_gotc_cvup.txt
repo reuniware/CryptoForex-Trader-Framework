@@ -1,0 +1,24 @@
+Scan results at : 2022-11-03 22:04:16.270000
+QUICKUSDT spot binance 2022-11-03 21:55:26.700873 binance QUICKUSDT spot 1m [5.92 %] [price = 62.60000000]                                                                     
+LUNCUSDT spot binance 2022-11-03 22:07:35.581216 binance LUNCUSDT spot 1m [4.23 %] [price = 0.00022226]                                                                        
+BETAUSDT spot binance 2022-11-03 21:58:33.240636 binance BETAUSDT spot 3m [12.57 %] [price = 0.09162000]                                                                       
+AUCTIONUSDT spot binance 2022-11-03 21:59:15.413169 binance AUCTIONUSDT spot 5m [9.80 %] [price = 6.61000000]                                                                  
+EGLDUSDT spot binance 2022-11-03 21:40:57.112970 binance EGLDUSDT spot 1h [0.25 %] [price = 59.72000000]                                                                       
+DATAUSDT spot binance 2022-11-03 21:33:02.681688 binance DATAUSDT spot 4h [6.51 %] [price = 0.03239000]                                                                        
+MFTUSDT spot binance 2022-11-03 21:27:39.084607 binance MFTUSDT spot 6h [2.39 %] [price = 0.00526100]                                                                          
+GLMRUSDT spot binance 2022-11-03 22:03:37.642560 binance GLMRUSDT spot 6h [5.46 %] [price = 0.49800000]                                                                        
+CTKUSDT spot binance 2022-11-03 21:44:43.476873 binance CTKUSDT spot 8h [7.15 %] [price = 0.85400000]                                                                          
+ATAUSDT spot binance 2022-11-03 21:52:56.041822 binance ATAUSDT spot 12h [12.29 %] [price = 0.18360000]                                                                        
+LINKUSDT spot binance 2022-11-03 21:22:49.423903 binance LINKUSDT spot 1d [4.65 %] [price = 7.78200000] *** new highest evol in %                                              
+THETAUSDT spot binance 2022-11-03 21:24:49.705794 binance THETAUSDT spot 1d [9.85 %] [price = 1.26000000] *** new highest evol in %                                            
+BANDUSDT spot binance 2022-11-03 21:28:38.612771 binance BANDUSDT spot 1d [128.40 %] [price = 2.59000000] *** new highest evol in %                                            
+IOTXUSDT spot binance 2022-11-03 21:30:10.911123 binance IOTXUSDT spot 1d [13.42 %] [price = 0.03145000]                                                                       
+DIAUSDT spot binance 2022-11-03 21:41:05.007257 binance DIAUSDT spot 1d [7.05 %] [price = 0.42500000]                                                                          
+ORNUSDT spot binance 2022-11-03 21:43:26.361621 binance ORNUSDT spot 1d [11.54 %] [price = 1.29500000]                                                                         
+ALPHAUSDT spot binance 2022-11-03 21:43:53.153108 binance ALPHAUSDT spot 1d [26.06 %] [price = 0.14030000]                                                                     
+LINAUSDT spot binance 2022-11-03 21:49:48.559570 binance LINAUSDT spot 1d [13.54 %] [price = 0.00931000]                                                                       
+GTCUSDT spot binance 2022-11-03 21:53:04.547441 binance GTCUSDT spot 1d [61.00 %] [price = 3.13300000]                                                                         
+CVPUSDT spot binance 2022-11-03 21:58:09.007533 binance CVPUSDT spot 1d [3.57 %] [price = 0.42410000]                                                                          
+BIFIUSDT spot binance 2022-11-03 22:05:52.888992 binance BIFIUSDT spot 1d [6.48 %] [price = 397.90000000]                                                                      
+LITUSDT spot binance 2022-11-03 21:48:15.518433 binance LITUSDT spot 3d [28.35 %] [price = 1.32200000]                                                                         
+MASKUSDT spot binance 2022-11-03 21:52:28.574290 binance MASKUSDT spot 3d [28.56 %] [price = 5.59900000]                                                                       
