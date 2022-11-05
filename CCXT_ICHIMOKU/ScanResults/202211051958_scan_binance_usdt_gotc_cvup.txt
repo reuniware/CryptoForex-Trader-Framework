@@ -1,0 +1,12 @@
+Scan results at : 2022-11-05 19:51:46.081187
+PYRUSDT spot binance 2022-11-05 19:51:15.664712 binance PYRUSDT spot 1s [2.73 %] [price = 4.90000000]                                                                          
+BTCUPUSDT spot binance 2022-11-05 19:23:25.830287 binance BTCUPUSDT spot 5m [1.92 %] [price = 4.55400000]                                                                      
+ARDRUSDT spot binance 2022-11-05 19:23:42.225519 binance ARDRUSDT spot 5m [-0.10 %] [price = 0.10060000]                                                                       
+BEAMUSDT spot binance 2022-11-05 19:18:35.232684 binance BEAMUSDT spot 15m [1.43 %] [price = 0.17740000]                                                                       
+KSMUSDT spot binance 2022-11-05 19:30:29.367862 binance KSMUSDT spot 1m 8h [8.20 %] [price = 39.33000000] *** new highest evol in %                                            
+DEGOUSDT spot binance 2022-11-05 19:39:19.082954 binance DEGOUSDT spot 12h [3.61 %] [price = 1.95400000]                                                                       
+SOLUSDT spot binance 2022-11-05 19:22:52.824388 binance SOLUSDT spot 1d [7.44 %] [price = 36.24000000] *** new highest evol in %                                               
+DODOUSDT spot binance 2022-11-05 19:38:17.560570 binance DODOUSDT spot 1d [7.54 %] [price = 0.16250000]                                                                        
+LAZIOUSDT spot binance 2022-11-05 19:48:48.558581 binance LAZIOUSDT spot 1d [40.86 %] [price = 7.58440000] *** new highest evol in %                                           
+HIGHUSDT spot binance 2022-11-05 19:52:34.222971 binance HIGHUSDT spot 1d [8.54 %] [price = 1.71600000]                                                                        
+MATICUSDT spot binance 2022-11-05 19:14:55.333893 binance MATICUSDT spot 3d [1.66 %] [price = 1.18850000] *** new highest evol in %                                            

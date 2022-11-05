@@ -1,0 +1,6 @@
+Scan results at : 2022-11-05 14:17:19.167747
+ENSUSDT swap bybit 2022-11-05 14:24:40.324996 bybit ENSUSDT swap 1m [-1.79 %] [price = 17.57000000]                                                                            
+1INCHUSDT swap bybit 2022-11-05 14:17:52.221465 bybit 1INCHUSDT swap 3m [0.23 %] [price = 0.65500000] *** new highest evol in %                                                
+AVAXUSDT swap bybit 2022-11-05 14:19:53.656781 bybit AVAXUSDT swap 3m [0.28 %] [price = 19.42000000] *** new highest evol in %                                                 
+SOLUSDT swap bybit 2022-11-05 14:33:14.865751 bybit SOLUSDT swap 1d [2.61 %] [price = 34.60000000] *** new highest evol in %                                                   
+SRMUSDT swap bybit 2022-11-05 14:33:27.253073 bybit SRMUSDT swap 1d [3.40 %] [price = 0.82100000] *** new highest evol in %                                                    

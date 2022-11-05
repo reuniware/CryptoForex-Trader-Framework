@@ -1,0 +1,2 @@
+Scan results at : 2022-11-05 19:09:51.378163
+ZENUSDT swap bybit 2022-11-05 19:12:01.861660 bybit ZENUSDT swap 1h [1.74 %] [price = 14.60000000] *** new highest evol in %                                                   

@@ -1,0 +1,12 @@
+Scan results at : 2022-11-05 19:58:24.632365
+ARUSDT swap bybit 2022-11-05 19:53:05.447528 bybit ARUSDT swap 1m [-0.20 %] [price = 15.13000000]                                                                              
+BALUSDT swap bybit 2022-11-05 19:53:49.067674 bybit BALUSDT swap 1m [-1.13 %] [price = 7.00500000]                                                                             
+EOSUSDT swap bybit 2022-11-05 19:58:29.297047 bybit EOSUSDT swap 1m [-1.09 %] [price = 1.18300000]                                                                             
+KAVAUSDT swap bybit 2022-11-05 20:01:47.247949 bybit KAVAUSDT swap 1m [0.41 %] [price = 1.46200000]                                                                            
+PAXGUSDT swap bybit 2022-11-05 20:04:46.395236 bybit PAXGUSDT swap 5m [0.00 %] [price = 1671.00000000]                                                                         
+DOTUSDT swap bybit 2022-11-05 19:57:50.303024 bybit DOTUSDT swap 15m [1.13 %] [price = 7.13000000]                                                                             
+REQUSDT swap bybit 2022-11-05 20:05:23.160653 bybit REQUSDT swap 15m [0.52 %] [price = 0.11580000]                                                                             
+AKROUSDT swap bybit 2022-11-05 19:51:59.954976 bybit AKROUSDT swap 4h [4.54 %] [price = 0.00389500] *** new highest evol in %                                                  
+FITFIUSDT swap bybit 2022-11-05 19:59:02.190544 bybit FITFIUSDT swap 6h [10.01 %] [price = 0.06155000] *** new highest evol in %                                               
+SOLUSDT swap bybit 2022-11-05 20:06:59.450890 bybit SOLUSDT swap 1d [9.24 %] [price = 36.83500000]                                                                             
+SRMUSDT swap bybit 2022-11-05 20:07:11.520848 bybit SRMUSDT swap 1d [3.78 %] [price = 0.82400000]                                                                              

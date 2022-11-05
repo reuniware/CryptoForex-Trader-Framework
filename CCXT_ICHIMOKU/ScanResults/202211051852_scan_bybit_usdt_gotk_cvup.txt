@@ -1,0 +1,6 @@
+Scan results at : 2022-11-05 18:50:29.633362
+CROUSDT swap bybit 2022-11-05 18:38:42.624223 bybit CROUSDT swap 15m [3.50 %] [price = 0.12110000]                                                                             
+BCHUSDT swap bybit 2022-11-05 18:36:27.244451 bybit BCHUSDT swap 30m [-0.04 %] [price = 124.35000000]                                                                          
+ICXUSDT swap bybit 2022-11-05 18:43:02.823928 bybit ICXUSDT swap 15m 30m [1.75 %] [price = 0.24360000]                                                                         
+AKROUSDT swap bybit 2022-11-05 18:34:18.716766 bybit AKROUSDT swap 5m 15m 30m [5.15 %] [price = 0.00391800] *** new highest evol in %                                          
+ASTRUSDT swap bybit 2022-11-05 18:35:30.077804 bybit ASTRUSDT swap 3m 12h [1.47 %] [price = 0.04480000]                                                                        

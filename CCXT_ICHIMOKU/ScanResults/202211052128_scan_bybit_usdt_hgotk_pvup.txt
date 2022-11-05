@@ -1,0 +1,13 @@
+Scan results at : 2022-11-05 21:09:26.524169
+BSVUSDT swap bybit 2022-11-05 21:13:29.587946 bybit BSVUSDT swap 1h [0.72 %] [price = 49.20000000]                                                                             
+UNIUSDT swap bybit 2022-11-05 21:27:08.891040 bybit UNIUSDT swap 1h [2.16 %] [price = 7.71600000]                                                                              
+APEUSDT swap bybit 2022-11-05 21:11:10.058270 bybit APEUSDT swap 12h [8.70 %] [price = 5.13400000] *** new highest evol in %                                                   
+RNDRUSDT swap bybit 2022-11-05 21:23:50.683605 bybit RNDRUSDT swap 4h 6h 12h [21.65 %] [price = 0.89900000] *** new highest evol in %                                          
+BANDUSDT swap bybit 2022-11-05 21:12:25.690599 bybit BANDUSDT swap 1d [1.59 %] [price = 2.80900000]                                                                            
+DASHUSDT swap bybit 2022-11-05 21:15:42.996602 bybit DASHUSDT swap 1d [2.47 %] [price = 45.65000000]                                                                           
+DODOUSDT swap bybit 2022-11-05 21:16:01.190813 bybit DODOUSDT swap 1d [5.53 %] [price = 0.15945000]                                                                            
+FILUSDT swap bybit 2022-11-05 21:17:16.503471 bybit FILUSDT swap 1d [0.98 %] [price = 6.21000000]                                                                              
+FTMUSDT swap bybit 2022-11-05 21:17:41.497183 bybit FTMUSDT swap 1d [4.91 %] [price = 0.28850000]                                                                              
+GLMRUSDT swap bybit 2022-11-05 21:18:13.544919 bybit GLMRUSDT swap 1d [1.32 %] [price = 0.53600000]                                                                            
+OCEANUSDT swap bybit 2022-11-05 21:22:28.350763 bybit OCEANUSDT swap 1d [5.46 %] [price = 0.24730000]                                                                          
+IOTXUSDT swap bybit 2022-11-05 21:19:49.616791 bybit IOTXUSDT swap 6h 1d [11.82 %] [price = 0.03595000] *** new highest evol in %                                              

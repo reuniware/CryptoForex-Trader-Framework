@@ -1,0 +1,15 @@
+Scan results at : 2022-11-05 19:12:15.203195
+TRXUSDT swap bybit 2022-11-05 19:29:08.368379 bybit TRXUSDT swap 3m [0.25 %] [price = 0.06394000]                                                                              
+QTUMUSDT swap bybit 2022-11-05 19:25:35.187301 bybit QTUMUSDT swap 15m [1.16 %] [price = 3.04000000]                                                                           
+SXPUSDT swap bybit 2022-11-05 19:28:36.875138 bybit SXPUSDT swap 15m [1.46 %] [price = 0.34800000]                                                                             
+FITFIUSDT swap bybit 2022-11-05 19:19:54.680884 bybit FITFIUSDT swap 30m [4.38 %] [price = 0.05840000] *** new highest evol in %                                               
+NEARUSDT swap bybit 2022-11-05 19:24:34.381064 bybit NEARUSDT swap 30m [0.70 %] [price = 3.33100000]                                                                           
+ETHWUSDT swap bybit 2022-11-05 19:19:42.530502 bybit ETHWUSDT swap 1h [0.54 %] [price = 6.49500000]                                                                            
+ICPUSDT swap bybit 2022-11-05 19:21:31.786590 bybit ICPUSDT swap 1h [-0.36 %] [price = 5.60000000]                                                                             
+OGNUSDT swap bybit 2022-11-05 19:24:52.568269 bybit OGNUSDT swap 1h [-1.42 %] [price = 0.15970000]                                                                             
+THETAUSDT swap bybit 2022-11-05 19:28:43.467182 bybit THETAUSDT swap 1h [-0.77 %] [price = 1.28400000]                                                                         
+KSMUSDT swap bybit 2022-11-05 19:22:57.111262 bybit KSMUSDT swap 1m 12h [8.53 %] [price = 39.45000000] *** new highest evol in %                                               
+SLPUSDT swap bybit 2022-11-05 19:27:19.670139 bybit SLPUSDT swap 1d [6.02 %] [price = 0.00370000]                                                                              
+SOLUSDT swap bybit 2022-11-05 19:27:32.314568 bybit SOLUSDT swap 1d [7.56 %] [price = 36.27000000]                                                                             
+SRMUSDT swap bybit 2022-11-05 19:27:45.397792 bybit SRMUSDT swap 1d [3.15 %] [price = 0.81900000]                                                                              
+DASHUSDT swap bybit 2022-11-05 19:18:17.952878 bybit DASHUSDT swap 30m 1d [1.23 %] [price = 45.10000000] *** new highest evol in %                                             

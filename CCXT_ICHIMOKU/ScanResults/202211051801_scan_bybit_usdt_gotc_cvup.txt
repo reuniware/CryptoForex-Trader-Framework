@@ -1,0 +1,5 @@
+Scan results at : 2022-11-05 17:53:17.124579
+XNOUSDT swap bybit 2022-11-05 18:00:23.264697 bybit XNOUSDT swap 3m [0.86 %] [price = 0.79350000]                                                                              
+TRXUSDT swap bybit 2022-11-05 17:59:12.784935 bybit TRXUSDT swap 5m [0.36 %] [price = 0.06401000]                                                                              
+SOLUSDT swap bybit 2022-11-05 17:57:34.837091 bybit SOLUSDT swap 1d [9.45 %] [price = 36.90500000] *** new highest evol in %                                                   
+SRMUSDT swap bybit 2022-11-05 17:57:47.713391 bybit SRMUSDT swap 1d [6.17 %] [price = 0.84300000]                                                                              

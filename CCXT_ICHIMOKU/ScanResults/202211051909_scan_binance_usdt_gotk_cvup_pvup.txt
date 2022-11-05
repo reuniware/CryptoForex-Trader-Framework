@@ -1,0 +1,8 @@
+Scan results at : 2022-11-05 19:03:21.568466
+MBOXUSDT spot binance 2022-11-05 18:57:06.127041 binance MBOXUSDT spot 1m 3m [1.97 %] [price = 0.67300000]                                                                     
+XRPUSDT spot binance 2022-11-05 18:22:52.553566 binance XRPUSDT spot 30m [-0.97 %] [price = 0.50140000]                                                                        
+XRPUPUSDT spot binance 2022-11-05 18:43:27.012338 binance XRPUPUSDT spot 30m [-2.31 %] [price = 0.22810000]                                                                    
+AVAUSDT spot binance 2022-11-05 18:47:16.370108 binance AVAUSDT spot 1h [2.30 %] [price = 0.80000000] *** new highest evol in %                                                
+HIGHUSDT spot binance 2022-11-05 19:04:02.229753 binance HIGHUSDT spot 1d [8.16 %] [price = 1.71000000]                                                                        
+MATICUSDT spot binance 2022-11-05 18:26:41.529678 binance MATICUSDT spot 3d [1.72 %] [price = 1.18920000] *** new highest evol in %                                            
+LAZIOUSDT spot binance 2022-11-05 19:00:23.491493 binance LAZIOUSDT spot 1d 3d [43.75 %] [price = 7.73970000] *** new highest evol in %                                        

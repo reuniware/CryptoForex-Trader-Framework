@@ -1,0 +1,9 @@
+Scan results at : 2022-11-05 21:48:07.090861
+SLPUSDT swap bybit 2022-11-05 22:03:45.197417 bybit SLPUSDT swap 3m 1h [7.74 %] [price = 0.00376000]                                                                           
+RNDRUSDT swap bybit 2022-11-05 22:02:28.666010 bybit RNDRUSDT swap 4h 6h 12h [24.90 %] [price = 0.92300000] *** new highest evol in %                                          
+API3USDT swap bybit 2022-11-05 21:49:56.623559 bybit API3USDT swap 1d [0.14 %] [price = 2.11700000] *** new highest evol in %                                                  
+BANDUSDT swap bybit 2022-11-05 21:51:04.501888 bybit BANDUSDT swap 1d [1.63 %] [price = 2.81000000] *** new highest evol in %                                                  
+DODOUSDT swap bybit 2022-11-05 21:54:38.403842 bybit DODOUSDT swap 1d [5.10 %] [price = 0.15880000] *** new highest evol in %                                                  
+FTMUSDT swap bybit 2022-11-05 21:56:20.317619 bybit FTMUSDT swap 1d [4.91 %] [price = 0.28850000]                                                                              
+OCEANUSDT swap bybit 2022-11-05 22:01:06.490892 bybit OCEANUSDT swap 1d [6.44 %] [price = 0.24960000]                                                                          
+IOTXUSDT swap bybit 2022-11-05 21:58:29.330770 bybit IOTXUSDT swap 6h 1d [12.60 %] [price = 0.03620000] *** new highest evol in %                                              

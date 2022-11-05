@@ -1,0 +1,11 @@
+Scan results at : 2022-11-05 17:41:14.293257
+OMGUSDT swap bybit 2022-11-05 17:46:52.331121 bybit OMGUSDT swap 1m [1.34 %] [price = 1.81200000]                                                                              
+APEUSDT swap bybit 2022-11-05 17:34:50.927432 bybit APEUSDT swap 6h [8.66 %] [price = 5.13200000] *** new highest evol in %                                                    
+KSMUSDT swap bybit 2022-11-05 17:44:38.159112 bybit KSMUSDT swap 6h [7.98 %] [price = 39.25000000]                                                                             
+RAYUSDT swap bybit 2022-11-05 17:47:35.933124 bybit RAYUSDT swap 12h [8.35 %] [price = 0.58400000]                                                                             
+AAVEUSDT swap bybit 2022-11-05 17:33:40.124149 bybit AAVEUSDT swap 1d [2.70 %] [price = 97.10000000] *** new highest evol in %                                                 
+BANDUSDT swap bybit 2022-11-05 17:36:11.211776 bybit BANDUSDT swap 1d [2.60 %] [price = 2.83700000]                                                                            
+DODOUSDT swap bybit 2022-11-05 17:39:53.091800 bybit DODOUSDT swap 1d [12.41 %] [price = 0.16985000] *** new highest evol in %                                                 
+GTCUSDT swap bybit 2022-11-05 17:42:40.977954 bybit GTCUSDT swap 1d [0.77 %] [price = 2.61500000]                                                                              
+IOTXUSDT swap bybit 2022-11-05 17:43:53.985105 bybit IOTXUSDT swap 1d [12.29 %] [price = 0.03610000]                                                                           
+LINKUSDT swap bybit 2022-11-05 17:45:00.399097 bybit LINKUSDT swap 1d [2.15 %] [price = 8.90000000]                                                                            

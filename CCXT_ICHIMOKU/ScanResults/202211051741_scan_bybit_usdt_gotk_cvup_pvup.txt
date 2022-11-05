@@ -1,0 +1,6 @@
+Scan results at : 2022-11-05 17:32:55.187467
+ANKRUSDT swap bybit 2022-11-05 17:23:35.942697 bybit ANKRUSDT swap 3m [-0.94 %] [price = 0.03170000]                                                                           
+DENTUSDT swap bybit 2022-11-05 17:28:17.146850 bybit DENTUSDT swap 15m [1.46 %] [price = 0.00097600]                                                                           
+INJUSDT swap bybit 2022-11-05 17:31:50.850554 bybit INJUSDT swap 15m [5.95 %] [price = 2.87550000] *** new highest evol in %                                                   
+APTUSDT swap bybit 2022-11-05 17:24:00.588119 bybit APTUSDT swap 30m [3.14 %] [price = 7.89500000] *** new highest evol in %                                                   
+FILUSDT swap bybit 2022-11-05 17:29:42.612105 bybit FILUSDT swap 2h [2.28 %] [price = 6.29000000]                                                                              
