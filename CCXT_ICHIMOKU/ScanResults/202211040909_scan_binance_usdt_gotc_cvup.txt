@@ -1,0 +1,21 @@
+Scan results at : 2022-11-04 08:49:46.617125
+WTCUSDT spot binance 2022-11-04 08:34:17.863398 binance WTCUSDT spot 3m [1.96 %] [price = 0.27030000]                                                                          
+AUDUSDT spot binance 2022-11-04 08:39:15.372989 binance AUDUSDT spot 5m [1.00 %] [price = 0.63470000]                                                                          
+FIDAUSDT spot binance 2022-11-04 08:59:24.949679 binance FIDAUSDT spot 4h [3.80 %] [price = 0.41530000]                                                                        
+TLMUSDT spot binance 2022-11-04 08:52:19.832612 binance TLMUSDT spot 2h 4h [4.63 %] [price = 0.02305000]                                                                       
+ARPAUSDT spot binance 2022-11-04 08:31:26.114652 binance ARPAUSDT spot 6h [1.07 %] [price = 0.03680000]                                                                        
+WRXUSDT spot binance 2022-11-04 08:33:00.785908 binance WRXUSDT spot 6h [3.09 %] [price = 0.21020000]                                                                          
+LDOUSDT spot binance 2022-11-04 09:08:25.690455 binance LDOUSDT spot 6h [6.42 %] [price = 1.72500000]                                                                          
+KP3RUSDT spot binance 2022-11-04 09:01:41.991831 binance KP3RUSDT spot 3m 6h [4.05 %] [price = 101.00000000]                                                                   
+LOKAUSDT spot binance 2022-11-04 09:05:21.465207 binance LOKAUSDT spot 4h 6h [8.22 %] [price = 0.48850000]                                                                     
+TRXUSDT spot binance 2022-11-04 08:23:29.595133 binance TRXUSDT spot 12h [1.35 %] [price = 0.06254000] *** new highest evol in %                                               
+RENUSDT spot binance 2022-11-04 08:30:34.712513 binance RENUSDT spot 12h [9.59 %] [price = 0.13710000]                                                                         
+YFIUSDT spot binance 2022-11-04 08:39:23.192162 binance YFIUSDT spot 12h [5.31 %] [price = 8343.00000000]                                                                      
+FISUSDT spot binance 2022-11-04 08:50:35.596433 binance FISUSDT spot 12h [3.60 %] [price = 0.37650000]                                                                         
+YGGUSDT spot binance 2022-11-04 08:59:01.488587 binance YGGUSDT spot 12h [39.33 %] [price = 0.42690000] *** new highest evol in %                                              
+BTTCUSDT spot binance 2022-11-04 09:05:44.946467 binance BTTCUSDT spot 12h [1.27 %] [price = 0.00000080]                                                                       
+HBARUSDT spot binance 2022-11-04 08:30:50.674414 binance HBARUSDT spot 6h 8h 12h [4.86 %] [price = 0.06260000]                                                                 
+ATOMUSDT spot binance 2022-11-04 08:26:46.526995 binance ATOMUSDT spot 1d [10.20 %] [price = 14.88800000]                                                                      
+JSTUSDT spot binance 2022-11-04 08:40:05.424607 binance JSTUSDT spot 1d [2.91 %] [price = 0.02865000]                                                                          
+LINKUPUSDT spot binance 2022-11-04 08:37:31.741471 binance LINKUPUSDT spot 12h 1d [14.47 %] [price = 0.01353000]                                                               
+MATICUSDT spot binance 2022-11-04 08:26:38.700749 binance MATICUSDT spot 3d [19.04 %] [price = 1.13230000] *** new highest evol in %                                           

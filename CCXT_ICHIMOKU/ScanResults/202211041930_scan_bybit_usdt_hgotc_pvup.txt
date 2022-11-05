@@ -1,0 +1,22 @@
+Scan results at : 2022-11-04 19:14:09.411779
+UNFIUSDT swap bybit 2022-11-04 19:28:55.281832 bybit UNFIUSDT swap 1m [0.89 %] [price = 6.42300000]                                                                            
+APTUSDT swap bybit 2022-11-04 19:12:53.040133 bybit APTUSDT swap 5m [2.98 %] [price = 7.44000000]                                                                              
+BTCUSDT swap bybit 2022-11-04 19:15:17.208869 bybit BTCUSDT swap 5m [3.97 %] [price = 21000.50000000]                                                                          
+CVXUSDT swap bybit 2022-11-04 19:17:06.654739 bybit CVXUSDT swap 5m [7.89 %] [price = 5.54000000] *** new highest evol in %                                                    
+LPTUSDT swap bybit 2022-11-04 19:22:56.826188 bybit LPTUSDT swap 1h [4.41 %] [price = 10.65000000]                                                                             
+REQUSDT swap bybit 2022-11-04 19:25:32.565142 bybit REQUSDT swap 1h [5.34 %] [price = 0.11450000]                                                                              
+MKRUSDT swap bybit 2022-11-04 19:23:48.504272 bybit MKRUSDT swap 2h [5.67 %] [price = 895.00000000]                                                                            
+HBARUSDT swap bybit 2022-11-04 19:20:28.084692 bybit HBARUSDT swap 6h [4.85 %] [price = 0.06275000]                                                                            
+RAYUSDT swap bybit 2022-11-04 19:25:12.807157 bybit RAYUSDT swap 6h [7.54 %] [price = 0.52800000]                                                                              
+XRPUSDT swap bybit 2022-11-04 19:30:06.570037 bybit XRPUSDT swap 6h [8.42 %] [price = 0.49300000]                                                                              
+ZILUSDT swap bybit 2022-11-04 19:30:46.105586 bybit ZILUSDT swap 6h [6.90 %] [price = 0.03254000]                                                                              
+1000XECUSDT swap bybit 2022-11-04 19:11:22.326810 bybit 1000XECUSDT swap 5m 6h [4.36 %] [price = 0.03881000] *** new highest evol in %                                         
+XLMUSDT swap bybit 2022-11-04 19:29:47.198159 bybit XLMUSDT swap 4h 6h [4.88 %] [price = 0.11400000]                                                                           
+CTKUSDT swap bybit 2022-11-04 19:16:47.410487 bybit CTKUSDT swap 12h [4.37 %] [price = 0.88300000] *** new highest evol in %                                                   
+FLMUSDT swap bybit 2022-11-04 19:19:09.491874 bybit FLMUSDT swap 12h [7.32 %] [price = 0.12385000]                                                                             
+LRCUSDT swap bybit 2022-11-04 19:23:03.188009 bybit LRCUSDT swap 12h [45.27 %] [price = 0.39950000] *** new highest evol in %                                                  
+MTLUSDT swap bybit 2022-11-04 19:23:54.868696 bybit MTLUSDT swap 12h [6.95 %] [price = 1.07700000]                                                                             
+OMGUSDT swap bybit 2022-11-04 19:24:28.159198 bybit OMGUSDT swap 12h [6.98 %] [price = 1.76300000]                                                                             
+CHZUSDT swap bybit 2022-11-04 19:15:55.914805 bybit CHZUSDT swap 1d [4.01 %] [price = 0.24880000]                                                                              
+LTCUSDT swap bybit 2022-11-04 19:23:09.611249 bybit LTCUSDT swap 1d [10.87 %] [price = 68.54000000]                                                                            
+OCEANUSDT swap bybit 2022-11-04 19:24:14.433931 bybit OCEANUSDT swap 1d [12.35 %] [price = 0.25830000]                                                                         

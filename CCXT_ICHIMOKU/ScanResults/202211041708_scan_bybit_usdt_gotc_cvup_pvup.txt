@@ -1,0 +1,11 @@
+Scan results at : 2022-11-04 16:48:51.797895
+SWEATUSDT swap bybit 2022-11-04 17:06:01.680503 bybit SWEATUSDT swap 3m [10.98 %] [price = 0.02344000]                                                                         
+GMXUSDT swap bybit 2022-11-04 16:58:07.196220 bybit GMXUSDT swap 1h [5.91 %] [price = 42.64000000]                                                                             
+FITFIUSDT swap bybit 2022-11-04 16:57:02.593783 bybit FITFIUSDT swap 4h [4.76 %] [price = 0.05505000]                                                                          
+ANKRUSDT swap bybit 2022-11-04 16:50:24.282552 bybit ANKRUSDT swap 6h [4.55 %] [price = 0.03100000] *** new highest evol in %                                                  
+PAXGUSDT swap bybit 2022-11-04 17:02:50.582264 bybit PAXGUSDT swap 6h [2.34 %] [price = 1662.00000000]                                                                         
+LOOKSUSDT swap bybit 2022-11-04 17:00:49.700009 bybit LOOKSUSDT swap 2h 4h 6h 12h [15.61 %] [price = 0.23700000] *** new highest evol in %                                     
+ATOMUSDT swap bybit 2022-11-04 16:51:15.659867 bybit ATOMUSDT swap 1d [9.97 %] [price = 14.83500000] *** new highest evol in %                                                 
+JSTUSDT swap bybit 2022-11-04 16:59:44.354591 bybit JSTUSDT swap 1d [4.34 %] [price = 0.02906000]                                                                              
+LRCUSDT swap bybit 2022-11-04 17:01:02.574690 bybit LRCUSDT swap 1d [52.55 %] [price = 0.41950000] *** new highest evol in %                                                   
+OPUSDT swap bybit 2022-11-04 17:02:44.362855 bybit OPUSDT swap 1d [16.13 %] [price = 1.29600000]                                                                               
