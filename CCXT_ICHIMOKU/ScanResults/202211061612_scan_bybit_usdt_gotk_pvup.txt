@@ -1,0 +1,16 @@
+Scan results at : 2022-11-06 15:53:30.610296
+RNDRUSDT swap bybit 2022-11-06 16:07:27.892583 bybit RNDRUSDT swap 1m 3m [10.23 %] [price = 0.99100000] *** new highest evol in %                                              
+GMXUSDT swap bybit 2022-11-06 16:02:18.572451 bybit GMXUSDT swap 3m 5m [-0.69 %] [price = 40.77500000]                                                                         
+BICOUSDT swap bybit 2022-11-06 15:56:54.314234 bybit BICOUSDT swap 15m [0.00 %] [price = 0.44000000]                                                                           
+FITFIUSDT swap bybit 2022-11-06 16:01:17.748426 bybit FITFIUSDT swap 15m [-2.30 %] [price = 0.06155000]                                                                        
+1000XECUSDT swap bybit 2022-11-06 15:53:58.441345 bybit 1000XECUSDT swap 1h [0.28 %] [price = 0.03917000] *** new highest evol in %                                            
+BSVUSDT swap bybit 2022-11-06 15:57:31.881309 bybit BSVUSDT swap 1h [0.93 %] [price = 48.90000000]                                                                             
+ALICEUSDT swap bybit 2022-11-06 15:54:47.740137 bybit ALICEUSDT swap 2h [0.83 %] [price = 1.83000000] *** new highest evol in %                                                
+BAKEUSDT swap bybit 2022-11-06 15:56:16.902657 bybit BAKEUSDT swap 2h [0.75 %] [price = 0.26950000]                                                                            
+BALUSDT swap bybit 2022-11-06 15:56:22.987159 bybit BALUSDT swap 2h [1.36 %] [price = 7.05500000] *** new highest evol in %                                                    
+COMPUSDT swap bybit 2022-11-06 15:58:33.183650 bybit COMPUSDT swap 2h [-0.87 %] [price = 51.35000000]                                                                          
+CRVUSDT swap bybit 2022-11-06 15:58:57.541757 bybit CRVUSDT swap 2h [2.51 %] [price = 1.02100000] *** new highest evol in %                                                    
+CVXUSDT swap bybit 2022-11-06 15:59:28.028943 bybit CVXUSDT swap 2h [-0.09 %] [price = 5.41000000]                                                                             
+DENTUSDT swap bybit 2022-11-06 15:59:46.636902 bybit DENTUSDT swap 2h [-0.10 %] [price = 0.00095700]                                                                           
+USDCUSDT swap bybit 2022-11-06 16:10:44.059911 bybit USDCUSDT swap 15m 30m 1h 2h 4h [0.01 %] [price = 1.00010000]                                                              
+BITUSDT swap bybit 2022-11-06 15:57:00.424120 bybit BITUSDT swap 12h [0.70 %] [price = 0.42900000]                                                                             

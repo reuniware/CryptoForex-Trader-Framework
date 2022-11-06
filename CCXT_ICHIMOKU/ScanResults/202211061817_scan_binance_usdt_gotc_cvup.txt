@@ -1,0 +1,9 @@
+Scan results at : 2022-11-06 18:15:33.715128
+CLVUSDT spot binance 2022-11-06 18:03:46.622205 binance CLVUSDT spot 5m [0.64 %] [price = 0.09032000]                                                                          
+DFUSDT spot binance 2022-11-06 18:07:06.200494 binance DFUSDT spot 5m [7.48 %] [price = 0.05030000]                                                                            
+LTOUSDT spot binance 2022-11-06 17:41:41.489168 binance LTOUSDT spot 4h [9.73 %] [price = 0.10260000] *** new highest evol in %                                                
+POLYXUSDT spot binance 2022-11-06 18:17:17.298063 binance POLYXUSDT spot 2h 4h [9.28 %] [price = 0.18850000]                                                                   
+BIFIUSDT spot binance 2022-11-06 18:15:13.401798 binance BIFIUSDT spot 12h [15.59 %] [price = 476.00000000]                                                                    
+FETUSDT spot binance 2022-11-06 17:33:18.757065 binance FETUSDT spot 1d [3.04 %] [price = 0.09140000] *** new highest evol in %                                                
+ALCXUSDT spot binance 2022-11-06 18:10:56.373977 binance ALCXUSDT spot 8h 1d [8.26 %] [price = 26.20000000]                                                                    
+PHAUSDT spot binance 2022-11-06 18:03:03.933101 binance PHAUSDT spot 4h 3d [60.91 %] [price = 0.26180000] *** new highest evol in %                                            

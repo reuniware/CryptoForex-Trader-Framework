@@ -1,0 +1,13 @@
+Scan results at : 2022-11-06 20:22:06.473921
+SKLUSDT swap bybit 2022-11-06 20:37:12.714013 bybit SKLUSDT swap 1m [-3.53 %] [price = 0.04100000]                                                                             
+BNBUSDT swap bybit 2022-11-06 20:25:43.547037 bybit BNBUSDT swap 15m [1.03 %] [price = 352.65000000] *** new highest evol in %                                                 
+FITFIUSDT swap bybit 2022-11-06 20:29:49.622842 bybit FITFIUSDT swap 12h [0.16 %] [price = 0.06310000]                                                                         
+ATOMUSDT swap bybit 2022-11-06 20:24:23.354609 bybit ATOMUSDT swap 1d [-4.36 %] [price = 14.70000000]                                                                          
+BTCUSDT swap bybit 2022-11-06 20:26:14.488646 bybit BTCUSDT swap 1d [-0.56 %] [price = 21170.50000000]                                                                         
+CROUSDT swap bybit 2022-11-06 20:27:21.710783 bybit CROUSDT swap 1d [0.66 %] [price = 0.12250000]                                                                              
+HOTUSDT swap bybit 2022-11-06 20:31:21.778728 bybit HOTUSDT swap 1d [-0.94 %] [price = 0.00211700]                                                                             
+OPUSDT swap bybit 2022-11-06 20:35:15.719571 bybit OPUSDT swap 1d [-0.38 %] [price = 1.31200000]                                                                               
+ROSEUSDT swap bybit 2022-11-06 20:36:10.746446 bybit ROSEUSDT swap 1d [-2.78 %] [price = 0.06650000]                                                                           
+TRXUSDT swap bybit 2022-11-06 20:39:02.476522 bybit TRXUSDT swap 1d [0.22 %] [price = 0.06373000]                                                                              
+VETUSDT swap bybit 2022-11-06 20:39:27.685079 bybit VETUSDT swap 1d [-1.93 %] [price = 0.02545000]                                                                             
+XMRUSDT swap bybit 2022-11-06 20:40:04.601474 bybit XMRUSDT swap 1d [-0.25 %] [price = 156.75000000]                                                                           

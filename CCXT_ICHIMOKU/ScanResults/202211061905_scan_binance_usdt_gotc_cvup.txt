@@ -1,0 +1,15 @@
+Scan results at : 2022-11-06 19:05:37.994964
+FRONTUSDT spot binance 2022-11-06 18:55:01.211501 binance FRONTUSDT spot 1m [3.69 %] [price = 0.25280000]                                                                      
+QUICKUSDT spot binance 2022-11-06 18:52:15.278473 binance QUICKUSDT spot 15m [0.15 %] [price = 66.70000000]                                                                    
+TRUUSDT spot binance 2022-11-06 18:43:54.286854 binance TRUUSDT spot 30m [1.31 %] [price = 0.05420000]                                                                         
+CLVUSDT spot binance 2022-11-06 18:50:59.186327 binance CLVUSDT spot 30m [3.30 %] [price = 0.09271000]                                                                         
+NEBLUSDT spot binance 2022-11-06 19:05:31.716889 binance NEBLUSDT spot 30m [1.19 %] [price = 2.03500000]                                                                       
+CTKUSDT spot binance 2022-11-06 18:40:47.681193 binance CTKUSDT spot 1h [1.69 %] [price = 0.90300000]                                                                          
+LTOUSDT spot binance 2022-11-06 18:27:43.087807 binance LTOUSDT spot 4h [18.61 %] [price = 0.11090000] *** new highest evol in %                                               
+POLYXUSDT spot binance 2022-11-06 19:05:39.738664 binance POLYXUSDT spot 2h 4h [11.54 %] [price = 0.19240000]                                                                  
+MDTUSDT spot binance 2022-11-06 18:29:45.519286 binance MDTUSDT spot 6h [2.87 %] [price = 0.03192000]                                                                          
+BIFIUSDT spot binance 2022-11-06 19:03:31.003519 binance BIFIUSDT spot 12h [13.82 %] [price = 468.70000000]                                                                    
+FETUSDT spot binance 2022-11-06 18:19:07.440903 binance FETUSDT spot 1d [2.93 %] [price = 0.09130000] *** new highest evol in %                                                
+ADXUSDT spot binance 2022-11-06 18:56:18.299028 binance ADXUSDT spot 1d [5.46 %] [price = 0.17950000]                                                                          
+ALCXUSDT spot binance 2022-11-06 18:59:00.269685 binance ALCXUSDT spot 4h 8h 1d [9.09 %] [price = 26.40000000]                                                                 
+PHAUSDT spot binance 2022-11-06 18:50:10.947352 binance PHAUSDT spot 4h 3d [50.52 %] [price = 0.24490000] *** new highest evol in %                                            

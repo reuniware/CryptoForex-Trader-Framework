@@ -1,0 +1,18 @@
+Scan results at : 2022-11-06 16:28:53.009485
+BANDUSDT swap bybit 2022-11-06 16:15:16.074027 bybit BANDUSDT swap 3m [-5.43 %] [price = 2.62800000]                                                                           
+CRVUSDT swap bybit 2022-11-06 16:17:44.457723 bybit CRVUSDT swap 3m [1.91 %] [price = 1.01500000]                                                                              
+CHZUSDT swap bybit 2022-11-06 16:17:07.110016 bybit CHZUSDT swap 5m [5.37 %] [price = 0.28330000] *** new highest evol in %                                                    
+DARUSDT swap bybit 2022-11-06 16:18:22.150882 bybit DARUSDT swap 5m [1.33 %] [price = 0.22850000]                                                                              
+MATICUSDT swap bybit 2022-11-06 16:24:35.612983 bybit MATICUSDT swap 5m [-1.64 %] [price = 1.16510000]                                                                         
+BTCUSDT swap bybit 2022-11-06 16:16:30.249453 bybit BTCUSDT swap 3m 5m [-0.31 %] [price = 21224.50000000]                                                                      
+CTSIUSDT swap bybit 2022-11-06 16:18:03.297079 bybit CTSIUSDT swap 3m 5m [1.19 %] [price = 0.15300000]                                                                         
+KDAUSDT swap bybit 2022-11-06 16:22:59.819485 bybit KDAUSDT swap 15m [-0.07 %] [price = 1.38500000]                                                                            
+LTCUSDT swap bybit 2022-11-06 16:24:10.593056 bybit LTCUSDT swap 15m [0.95 %] [price = 69.86000000]                                                                            
+RUNEUSDT swap bybit 2022-11-06 16:26:58.562608 bybit RUNEUSDT swap 15m [1.62 %] [price = 1.69300000]                                                                           
+DOTUSDT swap bybit 2022-11-06 16:18:59.698649 bybit DOTUSDT swap 5m 15m [0.85 %] [price = 7.08500000]                                                                          
+FITFIUSDT swap bybit 2022-11-06 16:20:08.138850 bybit FITFIUSDT swap 30m [-1.83 %] [price = 0.06185000]                                                                        
+MKRUSDT swap bybit 2022-11-06 16:24:47.911992 bybit MKRUSDT swap 2h [1.62 %] [price = 911.00000000]                                                                            
+OPUSDT swap bybit 2022-11-06 16:25:44.335189 bybit OPUSDT swap 2h [1.14 %] [price = 1.33200000]                                                                                
+RSRUSDT swap bybit 2022-11-06 16:26:45.763000 bybit RSRUSDT swap 2h [4.20 %] [price = 0.00745000]                                                                              
+BOBAUSDT swap bybit 2022-11-06 16:16:11.762677 bybit BOBAUSDT swap 12h [-4.04 %] [price = 0.30900000]                                                                          
+SHIB1000USDT swap bybit 2022-11-06 16:27:36.809057 bybit SHIB1000USDT swap 12h [1.04 %] [price = 0.01259500]                                                                   

@@ -1,0 +1,11 @@
+Scan results at : 2022-11-06 16:41:43.163957
+CHZUSDT swap bybit 2022-11-06 16:33:39.361766 bybit CHZUSDT swap 5m [5.37 %] [price = 0.28330000] *** new highest evol in %                                                    
+DARUSDT swap bybit 2022-11-06 16:34:54.593639 bybit DARUSDT swap 5m [1.33 %] [price = 0.22850000]                                                                              
+KLAYUSDT swap bybit 2022-11-06 16:39:33.144751 bybit KLAYUSDT swap 15m [1.08 %] [price = 0.23400000]                                                                           
+KSMUSDT swap bybit 2022-11-06 16:39:45.667303 bybit KSMUSDT swap 1h [-0.78 %] [price = 38.35000000]                                                                            
+LTCUSDT swap bybit 2022-11-06 16:40:35.319730 bybit LTCUSDT swap 1h [1.55 %] [price = 70.27000000]                                                                             
+ICXUSDT swap bybit 2022-11-06 16:38:25.327136 bybit ICXUSDT swap 2h [0.29 %] [price = 0.24060000]                                                                              
+MKRUSDT swap bybit 2022-11-06 16:41:12.558622 bybit MKRUSDT swap 2h [1.56 %] [price = 910.50000000]                                                                            
+OPUSDT swap bybit 2022-11-06 16:42:07.950696 bybit OPUSDT swap 2h [2.43 %] [price = 1.34900000]                                                                                
+RSRUSDT swap bybit 2022-11-06 16:43:09.486780 bybit RSRUSDT swap 2h [3.50 %] [price = 0.00740000]                                                                              
+SHIB1000USDT swap bybit 2022-11-06 16:44:00.178654 bybit SHIB1000USDT swap 15m 12h [1.81 %] [price = 0.01269000]                                                               

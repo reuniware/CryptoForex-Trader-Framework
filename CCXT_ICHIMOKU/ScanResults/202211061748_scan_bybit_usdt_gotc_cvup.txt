@@ -1,0 +1,2 @@
+Scan results at : 2022-11-06 17:29:49.016861
+SUNUSDT swap bybit 2022-11-06 17:45:26.321982 bybit SUNUSDT swap 4h 6h [1.93 %] [price = 0.00687500] *** new highest evol in %                                                 

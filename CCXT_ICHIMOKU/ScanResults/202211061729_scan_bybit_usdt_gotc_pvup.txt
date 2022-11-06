@@ -1,0 +1,5 @@
+Scan results at : 2022-11-06 17:26:29.443123
+TRXUSDT swap bybit 2022-11-06 17:27:06.193514 bybit TRXUSDT swap 1m [1.16 %] [price = 0.06433000]                                                                              
+ARPAUSDT swap bybit 2022-11-06 17:12:11.233828 bybit ARPAUSDT swap 5m [0.91 %] [price = 0.03774000] *** new highest evol in %                                                  
+SUNUSDT swap bybit 2022-11-06 17:26:14.651487 bybit SUNUSDT swap 4h [1.33 %] [price = 0.00683500] *** new highest evol in %                                                    
+USDCUSDT swap bybit 2022-11-06 17:27:25.373323 bybit USDCUSDT swap 2h 4h [0.01 %] [price = 1.00010000]                                                                         

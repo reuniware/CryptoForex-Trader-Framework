@@ -1,0 +1,9 @@
+Scan results at : 2022-11-06 17:07:12.307842
+DYDXUSDT swap bybit 2022-11-06 16:57:25.408085 bybit DYDXUSDT swap 1m [3.43 %] [price = 1.96000000] *** new highest evol in %                                                  
+FTTUSDT swap bybit 2022-11-06 16:58:45.932404 bybit FTTUSDT swap 1m [-4.16 %] [price = 23.06000000]                                                                            
+STGUSDT swap bybit 2022-11-06 17:06:47.232834 bybit STGUSDT swap 1m [1.75 %] [price = 0.52350000]                                                                              
+FXSUSDT swap bybit 2022-11-06 16:58:52.421365 bybit FXSUSDT swap 3m [0.86 %] [price = 7.06000000]                                                                              
+CTSIUSDT swap bybit 2022-11-06 16:56:17.586351 bybit CTSIUSDT swap 1m 5m [0.96 %] [price = 0.15265000]                                                                         
+BNBUSDT swap bybit 2022-11-06 16:54:14.494556 bybit BNBUSDT swap 30m [1.56 %] [price = 354.50000000] *** new highest evol in %                                                 
+CTCUSDT swap bybit 2022-11-06 16:56:05.400374 bybit CTCUSDT swap 1h [-1.85 %] [price = 0.56070000]                                                                             
+SUNUSDT swap bybit 2022-11-06 17:07:15.416315 bybit SUNUSDT swap 4h [0.67 %] [price = 0.00679000]                                                                              

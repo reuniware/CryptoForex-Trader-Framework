@@ -1,0 +1,19 @@
+Scan results at : 2022-11-06 18:07:12.032157
+JSTUSDT spot binance 2022-11-06 17:45:16.738813 binance JSTUSDT spot 1m [0.28 %] [price = 0.02916000]                                                                          
+NMRUSDT spot binance 2022-11-06 17:46:08.382354 binance NMRUSDT spot 3m 15m [-0.89 %] [price = 15.63000000]                                                                    
+BEAMUSDT spot binance 2022-11-06 17:35:19.536826 binance BEAMUSDT spot 3m 30m [2.55 %] [price = 0.18500000]                                                                    
+XRPDOWNUSDT spot binance 2022-11-06 17:48:44.736264 binance XRPDOWNUSDT spot 5m 15m 30m [2.44 %] [price = 0.00023920]                                                          
+NULSUSDT spot binance 2022-11-06 17:28:52.773616 binance NULSUSDT spot 2h [4.57 %] [price = 0.24010000] *** new highest evol in %                                              
+MKRUSDT spot binance 2022-11-06 17:43:32.919598 binance MKRUSDT spot 2h [1.23 %] [price = 908.00000000]                                                                        
+RSRUSDT spot binance 2022-11-06 17:46:36.896388 binance RSRUSDT spot 2h [3.50 %] [price = 0.00739000]                                                                          
+SUNUSDT spot binance 2022-11-06 17:49:44.056803 binance SUNUSDT spot 2h [1.19 %] [price = 0.00681000]                                                                          
+MDXUSDT spot binance 2022-11-06 17:59:09.391796 binance MDXUSDT spot 30m 2h [10.27 %] [price = 0.12350000]                                                                     
+PHAUSDT spot binance 2022-11-06 18:00:28.128853 binance PHAUSDT spot 4h [53.04 %] [price = 0.24900000] *** new highest evol in %                                               
+LTOUSDT spot binance 2022-11-06 17:38:38.355156 binance LTOUSDT spot 5m 15m 30m 2h 4h [10.37 %] [price = 0.10320000] *** new highest evol in %                                 
+POLYXUSDT spot binance 2022-11-06 18:15:15.960791 binance POLYXUSDT spot 30m 1h 2h 4h [10.43 %] [price = 0.19050000]                                                           
+COCOSUSDT spot binance 2022-11-06 17:33:19.346153 binance COCOSUSDT spot 6h [2.82 %] [price = 0.61930000]                                                                      
+KEYUSDT spot binance 2022-11-06 17:34:12.415996 binance KEYUSDT spot 6h [1.25 %] [price = 0.00471000]                                                                          
+BURGERUSDT spot binance 2022-11-06 17:58:19.130913 binance BURGERUSDT spot 2h 6h [16.59 %] [price = 1.01200000] *** new highest evol in %                                      
+SHIBUSDT spot binance 2022-11-06 17:58:37.481679 binance SHIBUSDT spot 12h [1.29 %] [price = 0.00001261]                                                                       
+ADXUSDT spot binance 2022-11-06 18:06:07.838414 binance ADXUSDT spot 12h [4.82 %] [price = 0.17840000]                                                                         
+ALCXUSDT spot binance 2022-11-06 18:08:34.092815 binance ALCXUSDT spot 12h [8.68 %] [price = 26.30000000]                                                                      

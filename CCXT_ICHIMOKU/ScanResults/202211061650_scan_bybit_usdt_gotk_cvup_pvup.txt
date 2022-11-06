@@ -1,0 +1,9 @@
+Scan results at : 2022-11-06 16:47:55.179608
+KLAYUSDT swap bybit 2022-11-06 16:42:12.492129 bybit KLAYUSDT swap 15m [1.51 %] [price = 0.23500000]                                                                           
+BALUSDT swap bybit 2022-11-06 16:34:22.025787 bybit BALUSDT swap 2h [1.72 %] [price = 7.08000000] *** new highest evol in %                                                    
+ICXUSDT swap bybit 2022-11-06 16:41:04.476474 bybit ICXUSDT swap 2h [0.17 %] [price = 0.24030000]                                                                              
+INJUSDT swap bybit 2022-11-06 16:41:23.474981 bybit INJUSDT swap 2h [6.78 %] [price = 2.86700000] *** new highest evol in %                                                    
+MKRUSDT swap bybit 2022-11-06 16:43:51.821811 bybit MKRUSDT swap 2h [1.56 %] [price = 910.50000000]                                                                            
+OPUSDT swap bybit 2022-11-06 16:44:47.943258 bybit OPUSDT swap 2h [1.59 %] [price = 1.33800000]                                                                                
+RSRUSDT swap bybit 2022-11-06 16:45:50.131846 bybit RSRUSDT swap 2h [3.50 %] [price = 0.00740000]                                                                              
+SHIB1000USDT swap bybit 2022-11-06 16:46:39.882991 bybit SHIB1000USDT swap 12h [1.36 %] [price = 0.01263500]                                                                   
