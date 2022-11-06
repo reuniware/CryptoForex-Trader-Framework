@@ -29,11 +29,12 @@ ope_for_filename = ""
 if only_positive_evol is True:
     ope_for_filename = "_ope"
 
-file_filter = "gateio"
+file_filter = "20221106"
+file_filter2 = ""
 #file_filter = ""
 
 logfilename = "./ScanResultsAnalyzer/" + stryear + strmonth + strday + strhour + strmin + "_analyzer_results_[" + file_filter.replace(
-    '.txt', '') + "]" + ope_for_filename + ".txt"
+    '.txt', '') + "]"  + "[" + file_filter2.replace('.txt', '') + "]" + ope_for_filename + ".txt"
 
 
 def log_to_results(str_to_log):
@@ -99,6 +100,13 @@ else:
     print("File filter condition = ALL FILES")
     log_to_results("File filter condition = ALL FILES")
 
+if file_filter2.strip() != "":
+    print("File filter 2 condition = " + file_filter2)
+    log_to_results("File filter 2 condition = " + file_filter2)
+else:
+    print("File filter 2 condition = ALL FILES")
+    log_to_results("File filter 2 condition = ALL FILES")
+
 print("")
 log_to_results("")
 
@@ -107,6 +115,8 @@ for filename in os.listdir("ScanResults"):
     condition = False
     if file_filter.strip() != "":
         condition = file_filter in filename
+        if file_filter2.strip() != "":
+            condition = condition and (file_filter2 in filename)
     else:
         condition = filename in filename
 
