@@ -1,0 +1,5 @@
+Scan results at : 2022-11-06 05:18:14.673308
+GMTUSDT spot binance 2022-11-06 05:25:23.919416 binance GMTUSDT spot 1s [-0.32 %] [price = 0.56740000]                                                                         
+ETHDOWNUSDT spot binance 2022-11-06 04:56:13.762550 binance ETHDOWNUSDT spot 3m [1.45 %] [price = 0.65030000] *** new highest evol in %                                        
+BNBUSDT spot binance 2022-11-06 04:41:23.340390 binance BNBUSDT spot 15m [1.12 %] [price = 353.00000000] *** new highest evol in %                                             
+ZILUSDT spot binance 2022-11-06 04:44:05.842780 binance ZILUSDT spot 6h [0.68 %] [price = 0.03267000]                                                                          

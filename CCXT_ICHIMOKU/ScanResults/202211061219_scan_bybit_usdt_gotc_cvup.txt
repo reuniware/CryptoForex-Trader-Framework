@@ -1,0 +1,2 @@
+Scan results at : 2022-11-06 12:00:58.607185
+XMRUSDT swap bybit 2022-11-06 12:18:50.848777 bybit XMRUSDT swap 5m 30m [1.56 %] [price = 159.60000000] *** new highest evol in %                                              

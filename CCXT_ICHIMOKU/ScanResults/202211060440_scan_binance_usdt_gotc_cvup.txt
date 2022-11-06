@@ -1,0 +1,10 @@
+Scan results at : 2022-11-06 04:22:29.604379
+ASTRUSDT spot binance 2022-11-06 04:37:49.990849 binance ASTRUSDT spot 1m [0.92 %] [price = 0.04390000]                                                                        
+MITHUSDT spot binance 2022-11-06 03:58:02.666591 binance MITHUSDT spot 3m [0.30 %] [price = 0.02018000]                                                                        
+RUNEUSDT spot binance 2022-11-06 04:14:00.873147 binance RUNEUSDT spot 5m [0.12 %] [price = 1.66700000]                                                                        
+BSWUSDT spot binance 2022-11-06 04:38:22.044092 binance BSWUSDT spot 5m [0.30 %] [price = 0.26870000]                                                                          
+FUNUSDT spot binance 2022-11-06 04:01:11.203735 binance FUNUSDT spot 15m [0.26 %] [price = 0.00765000]                                                                         
+ONTUSDT spot binance 2022-11-06 03:54:58.508566 binance ONTUSDT spot 15m 30m [1.70 %] [price = 0.24500000] *** new highest evol in %                                           
+THETAUSDT spot binance 2022-11-06 03:57:42.463181 binance THETAUSDT spot 1h [2.49 %] [price = 1.31900000] *** new highest evol in %                                            
+MLNUSDT spot binance 2022-11-06 04:26:37.889171 binance MLNUSDT spot 2h [5.84 %] [price = 26.11000000] *** new highest evol in %                                               
+ZILUSDT spot binance 2022-11-06 03:56:19.453057 binance ZILUSDT spot 6h [0.99 %] [price = 0.03277000]                                                                          

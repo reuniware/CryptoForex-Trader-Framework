@@ -1,0 +1,14 @@
+Scan results at : 2022-11-06 03:05:18.470110
+EOSUSDT swap bybit 2022-11-06 02:56:12.104532 bybit EOSUSDT swap 1m [-0.51 %] [price = 1.16100000]                                                                             
+IOTAUSDT swap bybit 2022-11-06 02:58:55.624941 bybit IOTAUSDT swap 1m [0.55 %] [price = 0.27400000]                                                                            
+TLMUSDT swap bybit 2022-11-06 03:05:32.402098 bybit TLMUSDT swap 1m [0.43 %] [price = 0.02320000]                                                                              
+XCNUSDT swap bybit 2022-11-06 03:06:33.473230 bybit XCNUSDT swap 3m [1.07 %] [price = 0.05296000]                                                                              
+THETAUSDT swap bybit 2022-11-06 03:05:25.764151 bybit THETAUSDT swap 5m [0.62 %] [price = 1.29400000]                                                                          
+1INCHUSDT swap bybit 2022-11-06 02:49:35.928848 bybit 1INCHUSDT swap 1h [3.64 %] [price = 0.66950000] *** new highest evol in %                                                
+SLPUSDT swap bybit 2022-11-06 03:04:07.064447 bybit SLPUSDT swap 2h 12h [-1.44 %] [price = 0.00412000]                                                                         
+ANTUSDT swap bybit 2022-11-06 02:50:37.025983 bybit ANTUSDT swap 1d [-0.99 %] [price = 2.00000000]                                                                             
+HOTUSDT swap bybit 2022-11-06 02:58:13.201518 bybit HOTUSDT swap 1d [-0.75 %] [price = 0.00212100]                                                                             
+MATICUSDT swap bybit 2022-11-06 03:00:57.631548 bybit MATICUSDT swap 1d [-3.06 %] [price = 1.14830000]                                                                         
+RENUSDT swap bybit 2022-11-06 03:02:42.278809 bybit RENUSDT swap 1d [-0.07 %] [price = 0.13410000]                                                                             
+SFPUSDT swap bybit 2022-11-06 03:03:49.048986 bybit SFPUSDT swap 1d [-0.66 %] [price = 0.44900000]                                                                             
+DYDXUSDT swap bybit 2022-11-06 02:55:47.502141 bybit DYDXUSDT swap 1m 1d [-1.06 %] [price = 1.87500000]                                                                        

@@ -1,0 +1,11 @@
+Scan results at : 2022-11-06 03:53:10.976138
+AXSUSDT swap bybit 2022-11-06 03:47:46.861725 bybit AXSUSDT swap 3m [0.14 %] [price = 10.62500000]                                                                             
+BELUSDT swap bybit 2022-11-06 03:48:23.252772 bybit BELUSDT swap 15m [1.58 %] [price = 0.61870000]                                                                             
+API3USDT swap bybit 2022-11-06 03:46:57.668206 bybit API3USDT swap 30m [2.50 %] [price = 2.17600000]                                                                           
+CHZUSDT swap bybit 2022-11-06 03:49:54.249564 bybit CHZUSDT swap 15m 30m [2.49 %] [price = 0.27555000]                                                                         
+1INCHUSDT swap bybit 2022-11-06 03:45:45.376445 bybit 1INCHUSDT swap 1d [4.02 %] [price = 0.67200000] *** new highest evol in %                                                
+DOTUSDT swap bybit 2022-11-06 03:51:43.102970 bybit DOTUSDT swap 1d [0.36 %] [price = 7.05000000]                                                                              
+FILUSDT swap bybit 2022-11-06 03:52:43.831278 bybit FILUSDT swap 1d [0.32 %] [price = 6.18000000]                                                                              
+FLMUSDT swap bybit 2022-11-06 03:52:55.844559 bybit FLMUSDT swap 1d [1.00 %] [price = 0.12155000]                                                                              
+ONTUSDT swap bybit 2022-11-06 03:58:05.598759 bybit ONTUSDT swap 1d [0.89 %] [price = 0.24305000]                                                                              
+XMRUSDT swap bybit 2022-11-06 04:02:56.932117 bybit XMRUSDT swap 1d [0.99 %] [price = 158.70000000]                                                                            

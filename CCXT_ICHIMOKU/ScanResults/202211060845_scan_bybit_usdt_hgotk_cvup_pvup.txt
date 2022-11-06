@@ -1,0 +1,9 @@
+Scan results at : 2022-11-06 08:39:32.616784
+QTUMUSDT swap bybit 2022-11-06 08:39:30.722662 bybit QTUMUSDT swap 1m [-0.99 %] [price = 2.99500000]                                                                           
+SXPUSDT swap bybit 2022-11-06 08:42:34.732201 bybit SXPUSDT swap 3m [-0.58 %] [price = 0.34300000]                                                                             
+XRPUSDT swap bybit 2022-11-06 08:44:21.855545 bybit XRPUSDT swap 3m [-0.37 %] [price = 0.49090000]                                                                             
+YFIUSDT swap bybit 2022-11-06 08:44:33.997876 bybit YFIUSDT swap 3m [-0.30 %] [price = 8250.00000000]                                                                          
+ZILUSDT swap bybit 2022-11-06 08:44:58.421048 bybit ZILUSDT swap 3m [0.56 %] [price = 0.03261000]                                                                              
+ZRXUSDT swap bybit 2022-11-06 08:45:04.672306 bybit ZRXUSDT swap 3m [-1.13 %] [price = 0.27090000]                                                                             
+ALGOUSDT swap bybit 2022-11-06 08:26:57.064815 bybit ALGOUSDT swap 1h [4.60 %] [price = 0.44300000] *** new highest evol in %                                                  
+TRXUSDT swap bybit 2022-11-06 08:43:06.189875 bybit TRXUSDT swap 1d [0.52 %] [price = 0.06392000]                                                                              

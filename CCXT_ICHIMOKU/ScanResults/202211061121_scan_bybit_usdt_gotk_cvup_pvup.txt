@@ -1,0 +1,6 @@
+Scan results at : 2022-11-06 11:10:37.861821
+ARUSDT swap bybit 2022-11-06 11:03:27.786797 bybit ARUSDT swap 2h [13.13 %] [price = 16.97000000] *** new highest evol in %                                                    
+BNBUSDT swap bybit 2022-11-06 11:05:06.579517 bybit BNBUSDT swap 2h [1.07 %] [price = 352.80000000]                                                                            
+FILUSDT swap bybit 2022-11-06 11:09:23.965937 bybit FILUSDT swap 2h [1.95 %] [price = 6.28000000]                                                                              
+ZILUSDT swap bybit 2022-11-06 11:21:22.827107 bybit ZILUSDT swap 2h [3.36 %] [price = 0.03352000]                                                                              
+ASTRUSDT swap bybit 2022-11-06 11:03:34.464129 bybit ASTRUSDT swap 6h [3.23 %] [price = 0.04480000]                                                                            

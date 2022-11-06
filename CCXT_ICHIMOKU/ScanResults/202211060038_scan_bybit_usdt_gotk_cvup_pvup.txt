@@ -1,0 +1,13 @@
+Scan results at : 2022-11-06 00:19:51.896297
+BELUSDT swap bybit 2022-11-06 00:23:01.314990 bybit BELUSDT swap 1m [0.57 %] [price = 0.61260000]                                                                              
+SLPUSDT swap bybit 2022-11-06 00:34:51.472419 bybit SLPUSDT swap 3m [-2.39 %] [price = 0.00408000]                                                                             
+CROUSDT swap bybit 2022-11-06 00:25:03.124258 bybit CROUSDT swap 5m [-0.16 %] [price = 0.12150000]                                                                             
+RNDRUSDT swap bybit 2022-11-06 00:33:39.410619 bybit RNDRUSDT swap 5m [6.90 %] [price = 0.96100000] *** new highest evol in %                                                  
+ENSUSDT swap bybit 2022-11-06 00:26:51.780468 bybit ENSUSDT swap 15m [0.17 %] [price = 18.02000000]                                                                            
+NEOUSDT swap bybit 2022-11-06 00:32:14.622111 bybit NEOUSDT swap 1h [0.22 %] [price = 9.05000000]                                                                              
+SFPUSDT swap bybit 2022-11-06 00:34:33.482514 bybit SFPUSDT swap 1h [1.33 %] [price = 0.45800000]                                                                              
+SXPUSDT swap bybit 2022-11-06 00:36:05.448554 bybit SXPUSDT swap 1h [0.58 %] [price = 0.34700000]                                                                              
+XTZUSDT swap bybit 2022-11-06 00:37:54.789792 bybit XTZUSDT swap 1h [0.55 %] [price = 1.45400000]                                                                              
+1INCHUSDT swap bybit 2022-11-06 00:20:24.005562 bybit 1INCHUSDT swap 30m 1h [2.40 %] [price = 0.66150000] *** new highest evol in %                                            
+FLMUSDT swap bybit 2022-11-06 00:27:34.487122 bybit FLMUSDT swap 2h [1.08 %] [price = 0.12165000]                                                                              
+C98USDT swap bybit 2022-11-06 00:24:01.709700 bybit C98USDT swap 5m 2h [1.18 %] [price = 0.34350000]                                                                           

@@ -1,0 +1,2 @@
+Scan results at : 2022-11-06 05:35:35.653135
+AGLDUSDT swap bybit 2022-11-06 05:19:10.668725 bybit AGLDUSDT swap 12h [0.67 %] [price = 0.37700000] *** new highest evol in %                                                 

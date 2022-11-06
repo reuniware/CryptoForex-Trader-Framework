@@ -1,0 +1,9 @@
+Scan results at : 2022-11-06 06:32:38.337412
+ICXUSDT spot binance 2022-11-06 05:56:24.382283 binance ICXUSDT spot 1s [-1.00 %] [price = 0.23770000]                                                                         
+FARMUSDT spot binance 2022-11-06 06:29:01.546590 binance FARMUSDT spot 3m 5m [1.50 %] [price = 40.50000000]                                                                    
+MASKUSDT spot binance 2022-11-06 06:26:19.183905 binance MASKUSDT spot 15m [4.68 %] [price = 4.88000000]                                                                       
+SANTOSUSDT spot binance 2022-11-06 06:35:30.448704 binance SANTOSUSDT spot 1h [6.35 %] [price = 13.65700000]                                                                   
+MLNUSDT spot binance 2022-11-06 06:27:42.912950 binance MLNUSDT spot 30m 1h 2h 4h [12.36 %] [price = 27.72000000] *** new highest evol in %                                    
+ATMUSDT spot binance 2022-11-06 06:20:48.336433 binance ATMUSDT spot 8h [2.45 %] [price = 3.77000000] *** new highest evol in %                                                
+BARUSDT spot binance 2022-11-06 06:24:56.116436 binance BARUSDT spot 8h [4.73 %] [price = 4.87000000] *** new highest evol in %                                                
+ALCXUSDT spot binance 2022-11-06 06:35:22.591225 binance ALCXUSDT spot 1h 12h [7.02 %] [price = 25.90000000]                                                                   

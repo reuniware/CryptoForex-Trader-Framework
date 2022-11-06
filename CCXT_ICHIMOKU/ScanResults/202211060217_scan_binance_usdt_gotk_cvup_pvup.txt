@@ -1,0 +1,11 @@
+Scan results at : 2022-11-06 02:13:59.501834
+LTOUSDT spot binance 2022-11-06 01:41:11.977233 binance LTOUSDT spot 1m [0.53 %] [price = 0.09400000]                                                                          
+MASKUSDT spot binance 2022-11-06 02:01:33.360428 binance MASKUSDT spot 3m [4.76 %] [price = 4.88400000] *** new highest evol in %                                              
+PERLUSDT spot binance 2022-11-06 01:36:22.687153 binance PERLUSDT spot 15m [0.87 %] [price = 0.02315000] *** new highest evol in %                                             
+AUDUSDT spot binance 2022-11-06 01:46:50.707118 binance AUDUSDT spot 30m [0.02 %] [price = 0.64590000]                                                                         
+GMTUSDT spot binance 2022-11-06 02:14:20.027978 binance GMTUSDT spot 30m [0.46 %] [price = 0.57180000]                                                                         
+APTUSDT spot binance 2022-11-06 02:17:05.813558 binance APTUSDT spot 30m 1h [1.99 %] [price = 7.77300000]                                                                      
+C98USDT spot binance 2022-11-06 02:03:16.442912 binance C98USDT spot 5m 2h [1.32 %] [price = 0.34450000]                                                                       
+ERNUSDT spot binance 2022-11-06 02:02:25.527560 binance ERNUSDT spot 4h [7.74 %] [price = 2.75500000] *** new highest evol in %                                                
+LEVERUSDT spot binance 2022-11-06 02:16:16.923298 binance LEVERUSDT spot 4h [1.97 %] [price = 0.00170900]                                                                      
+API3USDT spot binance 2022-11-06 02:13:01.566939 binance API3USDT spot 30m 4h [0.33 %] [price = 2.12300000]                                                                    

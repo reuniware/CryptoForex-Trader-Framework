@@ -1,0 +1,19 @@
+Scan results at : 2022-11-06 07:47:27.628032
+TRIBEUSDT spot binance 2022-11-06 07:39:35.104473 binance TRIBEUSDT spot 5m [0.04 %] [price = 0.25140000]                                                                      
+BETAUSDT spot binance 2022-11-06 07:41:50.272793 binance BETAUSDT spot 3m 5m [1.05 %] [price = 0.09239000]                                                                     
+LINKDOWNUSDT spot binance 2022-11-06 07:19:35.084448 binance LINKDOWNUSDT spot 15m [1.13 %] [price = 0.00322300]                                                               
+ALGOUSDT spot binance 2022-11-06 07:09:24.536186 binance ALGOUSDT spot 30m [4.36 %] [price = 0.44250000] *** new highest evol in %                                             
+SKLUSDT spot binance 2022-11-06 07:29:16.878994 binance SKLUSDT spot 2h [1.01 %] [price = 0.04297000]                                                                          
+C98USDT spot binance 2022-11-06 07:37:28.094340 binance C98USDT spot 2h [1.94 %] [price = 0.34660000]                                                                          
+OGUSDT spot binance 2022-11-06 07:30:07.996837 binance OGUSDT spot 8h [2.16 %] [price = 4.25500000]                                                                            
+LAZIOUSDT spot binance 2022-11-06 07:42:09.792246 binance LAZIOUSDT spot 8h [3.58 %] [price = 7.65160000]                                                                      
+PORTOUSDT spot binance 2022-11-06 07:43:40.941531 binance PORTOUSDT spot 8h [6.22 %] [price = 5.21030000] *** new highest evol in %                                            
+ALPINEUSDT spot binance 2022-11-06 07:48:05.611323 binance ALPINEUSDT spot 8h [1.52 %] [price = 3.37990000]                                                                    
+JUVUSDT spot binance 2022-11-06 07:29:33.357805 binance JUVUSDT spot 2h 8h [5.39 %] [price = 4.69000000] *** new highest evol in %                                             
+SANTOSUSDT spot binance 2022-11-06 07:44:54.092549 binance SANTOSUSDT spot 2h 8h [4.84 %] [price = 13.46400000]                                                                
+CITYUSDT spot binance 2022-11-06 07:43:09.281178 binance CITYUSDT spot 12h [0.66 %] [price = 6.13000000]                                                                       
+TRXUSDT spot binance 2022-11-06 07:05:40.998623 binance TRXUSDT spot 1d [0.02 %] [price = 0.06363000] *** new highest evol in %                                                
+EURUSDT spot binance 2022-11-06 07:14:29.532826 binance EURUSDT spot 1d [0.01 %] [price = 0.99430000]                                                                          
+TRXUPUSDT spot binance 2022-11-06 07:24:58.826153 binance TRXUPUSDT spot 1d [0.02 %] [price = 0.05633000]                                                                      
+DYDXUSDT spot binance 2022-11-06 07:40:09.967793 binance DYDXUSDT spot 1d [0.16 %] [price = 1.89900000]                                                                        
+DOGEUSDT spot binance 2022-11-06 07:09:43.462099 binance DOGEUSDT spot 3d [-0.62 %] [price = 0.12367000]                                                                       

@@ -1,0 +1,15 @@
+Scan results at : 2022-11-06 09:04:22.748277
+UNIUSDT swap bybit 2022-11-06 09:22:12.758234 bybit UNIUSDT swap 5m [-1.21 %] [price = 7.59300000]                                                                             
+CHRUSDT swap bybit 2022-11-06 09:09:17.547888 bybit CHRUSDT swap 15m [1.41 %] [price = 0.16590000]                                                                             
+DOGEUSDT swap bybit 2022-11-06 09:11:10.506618 bybit DOGEUSDT swap 15m [0.00 %] [price = 0.12440000]                                                                           
+ASTRUSDT swap bybit 2022-11-06 09:06:42.639772 bybit ASTRUSDT swap 30m [3.80 %] [price = 0.04505000] *** new highest evol in %                                                 
+DYDXUSDT swap bybit 2022-11-06 09:11:29.212690 bybit DYDXUSDT swap 15m 1h [1.58 %] [price = 1.92500000]                                                                        
+FITFIUSDT swap bybit 2022-11-06 09:12:27.327188 bybit FITFIUSDT swap 6h [-2.86 %] [price = 0.06120000]                                                                         
+1INCHUSDT swap bybit 2022-11-06 09:04:55.224221 bybit 1INCHUSDT swap 1d [2.24 %] [price = 0.66050000] *** new highest evol in %                                                
+CROUSDT swap bybit 2022-11-06 09:09:54.404218 bybit CROUSDT swap 1d [1.15 %] [price = 0.12310000]                                                                              
+DOTUSDT swap bybit 2022-11-06 09:11:16.790461 bybit DOTUSDT swap 1d [0.14 %] [price = 7.03500000]                                                                              
+FLMUSDT swap bybit 2022-11-06 09:12:33.905261 bybit FLMUSDT swap 1d [0.91 %] [price = 0.12145000]                                                                              
+JSTUSDT swap bybit 2022-11-06 09:15:06.992303 bybit JSTUSDT swap 1d [0.28 %] [price = 0.02913000]                                                                              
+ROSEUSDT swap bybit 2022-11-06 09:19:04.004135 bybit ROSEUSDT swap 1d [1.02 %] [price = 0.06910000]                                                                            
+XMRUSDT swap bybit 2022-11-06 09:23:02.208230 bybit XMRUSDT swap 1d [1.40 %] [price = 159.35000000]                                                                            
+TRXUSDT swap bybit 2022-11-06 09:22:00.429208 bybit TRXUSDT swap 1h 1d [1.93 %] [price = 0.06482000]                                                                           

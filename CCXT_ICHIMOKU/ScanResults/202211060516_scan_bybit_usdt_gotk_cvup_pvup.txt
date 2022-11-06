@@ -1,0 +1,5 @@
+Scan results at : 2022-11-06 04:59:39.295312
+1000BTTUSDT swap bybit 2022-11-06 04:58:34.281326 bybit 1000BTTUSDT swap 1m [0.24 %] [price = 0.00082700] *** new highest evol in %                                            
+ICPUSDT swap bybit 2022-11-06 05:07:32.390266 bybit ICPUSDT swap 3m [-0.36 %] [price = 5.54000000]                                                                             
+LDOUSDT swap bybit 2022-11-06 05:09:03.003752 bybit LDOUSDT swap 3m [0.00 %] [price = 1.69950000]                                                                              
+BANDUSDT swap bybit 2022-11-06 05:01:12.025073 bybit BANDUSDT swap 5m [2.81 %] [price = 2.85700000] *** new highest evol in %                                                  

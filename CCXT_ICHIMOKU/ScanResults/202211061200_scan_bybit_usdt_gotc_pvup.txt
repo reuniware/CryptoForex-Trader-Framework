@@ -1,0 +1,9 @@
+Scan results at : 2022-11-06 11:51:35.293026
+YFIUSDT swap bybit 2022-11-06 12:00:26.590081 bybit YFIUSDT swap 1m [-0.36 %] [price = 8245.00000000]                                                                          
+ZECUSDT swap bybit 2022-11-06 12:00:38.879739 bybit ZECUSDT swap 3m [-0.09 %] [price = 53.55000000]                                                                            
+FLOWUSDT swap bybit 2022-11-06 11:49:45.936710 bybit FLOWUSDT swap 5m [-1.09 %] [price = 1.82000000]                                                                           
+ARPAUSDT swap bybit 2022-11-06 11:43:24.973069 bybit ARPAUSDT swap 15m [0.45 %] [price = 0.03757000] *** new highest evol in %                                                 
+SNXUSDT swap bybit 2022-11-06 11:57:23.587091 bybit SNXUSDT swap 5m 15m [0.11 %] [price = 2.65800000]                                                                          
+ASTRUSDT swap bybit 2022-11-06 11:43:38.857879 bybit ASTRUSDT swap 30m [3.11 %] [price = 0.04475000] *** new highest evol in %                                                 
+HOTUSDT swap bybit 2022-11-06 11:51:10.009289 bybit HOTUSDT swap 6h [1.03 %] [price = 0.00215900]                                                                              
+DUSKUSDT swap bybit 2022-11-06 11:48:26.967120 bybit DUSKUSDT swap 1d [0.71 %] [price = 0.14180000]                                                                            

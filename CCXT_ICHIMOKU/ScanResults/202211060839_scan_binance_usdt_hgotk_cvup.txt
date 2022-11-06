@@ -1,0 +1,24 @@
+Scan results at : 2022-11-06 08:27:12.453548
+NULSUSDT spot binance 2022-11-06 07:53:50.064286 binance NULSUSDT spot 1m [0.52 %] [price = 0.23080000]                                                                        
+PHAUSDT spot binance 2022-11-06 08:24:53.760333 binance PHAUSDT spot 1m [0.18 %] [price = 0.16300000]                                                                          
+CTSIUSDT spot binance 2022-11-06 08:04:34.169918 binance CTSIUSDT spot 3m [1.06 %] [price = 0.15300000]                                                                        
+BNBUSDT spot binance 2022-11-06 07:51:58.904024 binance BNBUSDT spot 15m [0.92 %] [price = 352.30000000] *** new highest evol in %                                             
+WAXPUSDT spot binance 2022-11-06 08:27:23.336582 binance WAXPUSDT spot 30m [1.73 %] [price = 0.08810000]                                                                       
+APTUSDT spot binance 2022-11-06 08:39:23.600390 binance APTUSDT spot 30m [5.59 %] [price = 8.04790000]                                                                         
+OGUSDT spot binance 2022-11-06 08:18:06.393831 binance OGUSDT spot 1h [4.63 %] [price = 4.35800000] *** new highest evol in %                                                  
+SANTOSUSDT spot binance 2022-11-06 08:32:56.266096 binance SANTOSUSDT spot 1h [3.36 %] [price = 13.27300000]                                                                   
+THETAUSDT spot binance 2022-11-06 07:56:04.742306 binance THETAUSDT spot 2h [1.32 %] [price = 1.30400000] *** new highest evol in %                                            
+BARUSDT spot binance 2022-11-06 08:22:19.702426 binance BARUSDT spot 2h [5.81 %] [price = 4.92000000] *** new highest evol in %                                                
+API3USDT spot binance 2022-11-06 08:35:19.294142 binance API3USDT spot 4h [0.33 %] [price = 2.12300000]                                                                        
+ATMUSDT spot binance 2022-11-06 08:18:14.208871 binance ATMUSDT spot 2h 4h [2.99 %] [price = 3.79000000]                                                                       
+FORUSDT spot binance 2022-11-06 08:26:59.145582 binance FORUSDT spot 12h [-0.15 %] [price = 0.02064000]                                                                        
+CITYUSDT spot binance 2022-11-06 08:31:04.706367 binance CITYUSDT spot 12h [0.82 %] [price = 6.14000000]                                                                       
+HIGHUSDT spot binance 2022-11-06 08:33:43.885317 binance HIGHUSDT spot 12h [-2.60 %] [price = 1.72400000]                                                                      
+SLPUSDT spot binance 2022-11-06 08:22:55.087505 binance SLPUSDT spot 1m 12h [-6.21 %] [price = 0.00393000]                                                                     
+TRXUSDT spot binance 2022-11-06 07:53:26.090409 binance TRXUSDT spot 1d [0.42 %] [price = 0.06389000]                                                                          
+HOTUSDT spot binance 2022-11-06 07:54:33.277216 binance HOTUSDT spot 1d [0.51 %] [price = 0.00215000]                                                                          
+MATICUSDT spot binance 2022-11-06 07:56:31.237181 binance MATICUSDT spot 1d [-2.53 %] [price = 1.15490000]                                                                     
+RENUSDT spot binance 2022-11-06 08:00:28.397509 binance RENUSDT spot 1d [-0.45 %] [price = 0.13370000]                                                                         
+LINKUPUSDT spot binance 2022-11-06 08:07:24.295139 binance LINKUPUSDT spot 1d [0.27 %] [price = 0.01499000]                                                                    
+SFPUSDT spot binance 2022-11-06 08:19:39.685671 binance SFPUSDT spot 1d [-1.02 %] [price = 0.44780000]                                                                         
+DYDXUSDT spot binance 2022-11-06 08:28:05.758659 binance DYDXUSDT spot 1d [-0.90 %] [price = 1.87900000]                                                                       

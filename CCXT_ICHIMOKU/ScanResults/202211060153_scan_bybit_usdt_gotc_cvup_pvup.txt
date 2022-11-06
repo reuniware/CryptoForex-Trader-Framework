@@ -1,0 +1,2 @@
+Scan results at : 2022-11-06 01:34:32.419274
+GTCUSDT swap bybit 2022-11-06 01:43:18.355999 bybit GTCUSDT swap 15m 30m [6.63 %] [price = 2.73500000] *** new highest evol in %                                               

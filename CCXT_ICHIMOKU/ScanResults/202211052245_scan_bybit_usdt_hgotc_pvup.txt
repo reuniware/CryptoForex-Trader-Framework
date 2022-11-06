@@ -1,0 +1,13 @@
+Scan results at : 2022-11-05 22:26:59.909362
+AXSUSDT swap bybit 2022-11-05 22:29:38.092569 bybit AXSUSDT swap 3m [9.14 %] [price = 10.57000000] *** new highest evol in %                                                   
+CTSIUSDT swap bybit 2022-11-05 22:32:43.160558 bybit CTSIUSDT swap 3m [-1.49 %] [price = 0.15225000]                                                                           
+API3USDT swap bybit 2022-11-05 22:28:48.358487 bybit API3USDT swap 15m [0.28 %] [price = 2.12000000]                                                                           
+SWEATUSDT swap bybit 2022-11-05 22:43:20.761475 bybit SWEATUSDT swap 30m [7.70 %] [price = 0.02489000]                                                                         
+NEARUSDT swap bybit 2022-11-05 22:39:27.052224 bybit NEARUSDT swap 12h [1.51 %] [price = 3.35800000]                                                                           
+RAYUSDT swap bybit 2022-11-05 22:40:34.434211 bybit RAYUSDT swap 12h [6.68 %] [price = 0.57500000]                                                                             
+SLPUSDT swap bybit 2022-11-05 22:42:11.476095 bybit SLPUSDT swap 12h [7.74 %] [price = 0.00376000]                                                                             
+AAVEUSDT swap bybit 2022-11-05 22:27:39.843105 bybit AAVEUSDT swap 1d [2.33 %] [price = 96.75000000] *** new highest evol in %                                                 
+BANDUSDT swap bybit 2022-11-05 22:29:58.000333 bybit BANDUSDT swap 1d [0.98 %] [price = 2.79200000]                                                                            
+DODOUSDT swap bybit 2022-11-05 22:33:25.542376 bybit DODOUSDT swap 1d [6.09 %] [price = 0.16030000]                                                                            
+IOTXUSDT swap bybit 2022-11-05 22:37:06.067247 bybit IOTXUSDT swap 1d [14.31 %] [price = 0.03675000] *** new highest evol in %                                                 
+LINKUSDT swap bybit 2022-11-05 22:38:07.205552 bybit LINKUSDT swap 1d [0.20 %] [price = 8.73000000]                                                                            

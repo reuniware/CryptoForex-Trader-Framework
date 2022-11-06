@@ -1,0 +1,6 @@
+Scan results at : 2022-11-06 07:51:30.472335
+CTCUSDT swap bybit 2022-11-06 07:52:54.785224 bybit CTCUSDT swap 3m [-1.23 %] [price = 0.56425000]                                                                             
+BNBUSDT swap bybit 2022-11-06 07:51:04.898001 bybit BNBUSDT swap 15m [0.82 %] [price = 351.90000000] *** new highest evol in %                                                 
+FITFIUSDT swap bybit 2022-11-06 07:55:09.469218 bybit FITFIUSDT swap 15m [-0.71 %] [price = 0.06255000]                                                                        
+FXSUSDT swap bybit 2022-11-06 07:55:40.534354 bybit FXSUSDT swap 15m [3.29 %] [price = 7.23000000] *** new highest evol in %                                                   
+TRXUSDT swap bybit 2022-11-06 08:04:30.765290 bybit TRXUSDT swap 1d [0.42 %] [price = 0.06386000]                                                                              

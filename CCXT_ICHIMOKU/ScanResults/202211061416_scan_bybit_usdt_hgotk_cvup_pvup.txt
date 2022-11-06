@@ -1,0 +1,2 @@
+Scan results at : 2022-11-06 14:15:53.829538
+TRXUSDT swap bybit 2022-11-06 14:14:32.268790 bybit TRXUSDT swap 1d [0.88 %] [price = 0.06415000] *** new highest evol in %                                                    

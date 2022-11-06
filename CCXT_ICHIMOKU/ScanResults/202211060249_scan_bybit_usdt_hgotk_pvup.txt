@@ -1,0 +1,6 @@
+Scan results at : 2022-11-06 02:30:23.916528
+DOGEUSDT swap bybit 2022-11-06 02:36:47.524899 bybit DOGEUSDT swap 1m [-0.64 %] [price = 0.12360000]                                                                           
+ENSUSDT swap bybit 2022-11-06 02:37:24.335918 bybit ENSUSDT swap 1m [0.44 %] [price = 18.07000000]                                                                             
+STGUSDT swap bybit 2022-11-06 02:45:53.958762 bybit STGUSDT swap 5m [1.07 %] [price = 0.52000000]                                                                              
+1INCHUSDT swap bybit 2022-11-06 02:30:56.664123 bybit 1INCHUSDT swap 1h [3.48 %] [price = 0.66850000] *** new highest evol in %                                                
+GTCUSDT swap bybit 2022-11-06 02:39:14.212588 bybit GTCUSDT swap 1h [7.99 %] [price = 2.77000000] *** new highest evol in %                                                    

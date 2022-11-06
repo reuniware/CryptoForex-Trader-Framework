@@ -1,0 +1,10 @@
+Scan results at : 2022-11-06 04:40:55.866139
+DYDXUSDT swap bybit 2022-11-06 04:29:09.239925 bybit DYDXUSDT swap 30m 1h [1.85 %] [price = 1.93000000]                                                                        
+1INCHUSDT swap bybit 2022-11-06 04:23:01.326610 bybit 1INCHUSDT swap 1d [3.79 %] [price = 0.67050000] *** new highest evol in %                                                
+LRCUSDT swap bybit 2022-11-06 04:33:46.342793 bybit LRCUSDT swap 1d [0.27 %] [price = 0.36750000]                                                                              
+ONTUSDT swap bybit 2022-11-06 04:35:16.604239 bybit ONTUSDT swap 1d [0.42 %] [price = 0.24190000]                                                                              
+OPUSDT swap bybit 2022-11-06 04:35:22.595158 bybit OPUSDT swap 1d [0.11 %] [price = 1.31850000]                                                                                
+ROSEUSDT swap bybit 2022-11-06 04:36:16.977890 bybit ROSEUSDT swap 1d [0.29 %] [price = 0.06860000]                                                                            
+TRXUSDT swap bybit 2022-11-06 04:39:06.888667 bybit TRXUSDT swap 1d [0.08 %] [price = 0.06364000]                                                                              
+VETUSDT swap bybit 2022-11-06 04:39:30.875526 bybit VETUSDT swap 1d [0.77 %] [price = 0.02615000]                                                                              
+XMRUSDT swap bybit 2022-11-06 04:40:07.390352 bybit XMRUSDT swap 1d [0.89 %] [price = 158.55000000]                                                                            

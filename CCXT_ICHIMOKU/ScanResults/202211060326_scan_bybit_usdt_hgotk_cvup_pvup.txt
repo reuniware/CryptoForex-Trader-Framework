@@ -1,0 +1,8 @@
+Scan results at : 2022-11-06 03:07:47.505161
+BSVUSDT swap bybit 2022-11-06 03:11:37.596834 bybit BSVUSDT swap 3m [0.52 %] [price = 48.70000000]                                                                             
+API3USDT swap bybit 2022-11-06 03:09:31.291147 bybit API3USDT swap 30m [1.88 %] [price = 2.16300000] *** new highest evol in %                                                 
+IOTAUSDT swap bybit 2022-11-06 03:17:35.111121 bybit IOTAUSDT swap 30m [1.28 %] [price = 0.27600000]                                                                           
+THETAUSDT swap bybit 2022-11-06 03:24:04.535550 bybit THETAUSDT swap 30m [1.09 %] [price = 1.30000000]                                                                         
+SLPUSDT swap bybit 2022-11-06 03:22:45.735728 bybit SLPUSDT swap 2h [-2.63 %] [price = 0.00407000]                                                                             
+LRCUSDT swap bybit 2022-11-06 03:19:06.355249 bybit LRCUSDT swap 1d [0.68 %] [price = 0.36900000]                                                                              
+SFPUSDT swap bybit 2022-11-06 03:22:27.035066 bybit SFPUSDT swap 1d [0.33 %] [price = 0.45350000]                                                                              

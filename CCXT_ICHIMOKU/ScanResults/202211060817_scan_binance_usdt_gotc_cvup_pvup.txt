@@ -1,0 +1,6 @@
+Scan results at : 2022-11-06 08:06:29.859176
+MDTUSDT spot binance 2022-11-06 07:43:43.876940 binance MDTUSDT spot 1m [-0.19 %] [price = 0.03097000]                                                                         
+FORUSDT spot binance 2022-11-06 08:05:28.981933 binance FORUSDT spot 3m [0.00 %] [price = 0.02067000]                                                                          
+LTOUSDT spot binance 2022-11-06 07:41:44.273437 binance LTOUSDT spot 5m [0.11 %] [price = 0.09360000] *** new highest evol in %                                                
+ATMUSDT spot binance 2022-11-06 07:56:45.335599 binance ATMUSDT spot 4h [3.80 %] [price = 3.82000000]                                                                          
+OGUSDT spot binance 2022-11-06 07:56:37.277854 binance OGUSDT spot 8h [7.06 %] [price = 4.45900000] *** new highest evol in %                                                  
