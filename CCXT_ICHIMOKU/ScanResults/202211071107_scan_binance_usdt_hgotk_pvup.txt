@@ -1,0 +1,10 @@
+Scan results at : 2022-11-07 10:54:05.287342
+BURGERUSDT spot binance 2022-11-07 10:50:58.567592 binance BURGERUSDT spot 3m [1.60 %] [price = 0.95300000]                                                                    
+GMTUSDT spot binance 2022-11-07 11:04:57.313280 binance GMTUSDT spot 30m [10.54 %] [price = 0.60630000] *** new highest evol in %                                              
+DASHUSDT spot binance 2022-11-07 10:24:01.364791 binance DASHUSDT spot 1h [4.60 %] [price = 45.68000000] *** new highest evol in %                                             
+WANUSDT spot binance 2022-11-07 10:27:36.616532 binance WANUSDT spot 1h [3.96 %] [price = 0.19420000]                                                                          
+EURUSDT spot binance 2022-11-07 10:30:39.162739 binance EURUSDT spot 1h [0.77 %] [price = 0.99820000]                                                                          
+CTSIUSDT spot binance 2022-11-07 10:32:47.588786 binance CTSIUSDT spot 1h [7.11 %] [price = 0.15370000] *** new highest evol in %                                              
+GBPUSDT spot binance 2022-11-07 10:36:12.018918 binance GBPUSDT spot 1h [1.15 %] [price = 1.14500000]                                                                          
+TRBUSDT spot binance 2022-11-07 10:39:52.216277 binance TRBUSDT spot 1h [8.95 %] [price = 17.53000000] *** new highest evol in %                                               
+TRXDOWNUSDT spot binance 2022-11-07 10:41:14.857511 binance TRXDOWNUSDT spot 6h [1.22 %] [price = 1.16400000]                                                                  

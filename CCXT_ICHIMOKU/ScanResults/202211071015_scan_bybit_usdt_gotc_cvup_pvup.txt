@@ -1,0 +1,7 @@
+Scan results at : 2022-11-07 10:09:43.540907
+HOTUSDT swap bybit 2022-11-07 10:05:46.858017 bybit HOTUSDT swap 1m [0.44 %] [price = 0.00205300]                                                                              
+ICXUSDT swap bybit 2022-11-07 10:05:59.044568 bybit ICXUSDT swap 1m [0.48 %] [price = 0.22970000]                                                                              
+DODOUSDT swap bybit 2022-11-07 10:02:48.472883 bybit DODOUSDT swap 5m [5.70 %] [price = 0.15950000] *** new highest evol in %                                                  
+GMTUSDT swap bybit 2022-11-07 10:05:07.898221 bybit GMTUSDT swap 1h [5.60 %] [price = 0.57880000]                                                                              
+STMXUSDT swap bybit 2022-11-07 10:12:21.769626 bybit STMXUSDT swap 4h [3.10 %] [price = 0.00715000]                                                                            
+CTSIUSDT swap bybit 2022-11-07 10:02:05.294702 bybit CTSIUSDT swap 1d [5.48 %] [price = 0.15110000] *** new highest evol in %                                                  

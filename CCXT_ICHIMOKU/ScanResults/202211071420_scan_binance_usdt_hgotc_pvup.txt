@@ -1,0 +1,12 @@
+Scan results at : 2022-11-07 14:10:00.083734
+ENJUSDT spot binance 2022-11-07 13:37:25.249888 binance ENJUSDT spot 3m [1.70 %] [price = 0.45470000]                                                                          
+SUSHIUSDT spot binance 2022-11-07 13:52:56.630764 binance SUSHIUSDT spot 30m [5.47 %] [price = 1.81100000]                                                                     
+VETUSDT spot binance 2022-11-07 13:35:10.063003 binance VETUSDT spot 2h [5.19 %] [price = 0.02595000] *** new highest evol in %                                                
+DASHUSDT spot binance 2022-11-07 13:37:00.369253 binance DASHUSDT spot 2h [7.05 %] [price = 46.75000000] *** new highest evol in %                                             
+MATICUSDT spot binance 2022-11-07 13:37:40.926607 binance MATICUSDT spot 2h [5.50 %] [price = 1.19720000]                                                                      
+ALGOUSDT spot binance 2022-11-07 13:38:24.696733 binance ALGOUSDT spot 2h [6.78 %] [price = 0.42980000]                                                                        
+CTXCUSDT spot binance 2022-11-07 13:42:57.084424 binance CTXCUSDT spot 2h [2.07 %] [price = 0.11330000]                                                                        
+GBPUSDT spot binance 2022-11-07 13:49:05.741008 binance GBPUSDT spot 2h [1.15 %] [price = 1.14500000]                                                                          
+TRXDOWNUSDT spot binance 2022-11-07 13:54:13.771671 binance TRXDOWNUSDT spot 4h [1.39 %] [price = 1.16600000]                                                                  
+COTIUSDT spot binance 2022-11-07 13:45:03.426314 binance COTIUSDT spot 6h [8.92 %] [price = 0.11230000] *** new highest evol in %                                              
+ALCXUSDT spot binance 2022-11-07 14:14:05.965374 binance ALCXUSDT spot 8h [4.30 %] [price = 26.70000000]                                                                       

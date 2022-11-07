@@ -1,0 +1,11 @@
+Scan results at : 2022-11-07 12:31:01.408165
+HIVEUSDT spot binance 2022-11-07 12:09:22.302911 binance HIVEUSDT spot 3m [0.21 %] [price = 0.48850000]                                                                        
+LRCUSDT spot binance 2022-11-07 12:10:41.240785 binance LRCUSDT spot 3m [-1.68 %] [price = 0.32800000]                                                                         
+BALUSDT spot binance 2022-11-07 12:14:03.312181 binance BALUSDT spot 3m [2.45 %] [price = 6.82000000]                                                                          
+ALPINEUSDT spot binance 2022-11-07 12:41:01.199032 binance ALPINEUSDT spot 5m [1.89 %] [price = 3.15130000]                                                                    
+WANUSDT spot binance 2022-11-07 12:04:00.341589 binance WANUSDT spot 1h [9.15 %] [price = 0.20390000] *** new highest evol in %                                                
+EURUSDT spot binance 2022-11-07 12:07:07.992741 binance EURUSDT spot 2h [0.66 %] [price = 0.99710000]                                                                          
+MDXUSDT spot binance 2022-11-07 12:28:23.560092 binance MDXUSDT spot 30m 2h [15.07 %] [price = 0.13130000] *** new highest evol in %                                           
+COTIUSDT spot binance 2022-11-07 12:08:32.016842 binance COTIUSDT spot 6h [8.05 %] [price = 0.11140000]                                                                        
+CTSIUSDT spot binance 2022-11-07 12:09:14.492926 binance CTSIUSDT spot 6h [9.41 %] [price = 0.15700000] *** new highest evol in %                                              
+TRBUSDT spot binance 2022-11-07 12:16:22.109751 binance TRBUSDT spot 2h 6h [11.44 %] [price = 17.93000000] *** new highest evol in %                                           

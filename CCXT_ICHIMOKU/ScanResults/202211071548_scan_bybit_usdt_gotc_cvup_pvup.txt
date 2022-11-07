@@ -1,0 +1,7 @@
+Scan results at : 2022-11-07 15:37:41.521622
+WOOUSDT swap bybit 2022-11-07 15:47:25.958823 bybit WOOUSDT swap 3m [2.14 %] [price = 0.17660000]                                                                              
+ONTUSDT swap bybit 2022-11-07 15:42:37.061901 bybit ONTUSDT swap 5m [1.21 %] [price = 0.22935000]                                                                              
+USDCUSDT swap bybit 2022-11-07 15:47:07.440739 bybit USDCUSDT swap 30m 2h 6h [0.02 %] [price = 1.00010000]                                                                     
+FITFIUSDT swap bybit 2022-11-07 15:36:55.428246 bybit FITFIUSDT swap 12h [4.91 %] [price = 0.06300000]                                                                         
+CTSIUSDT swap bybit 2022-11-07 15:34:43.600774 bybit CTSIUSDT swap 1d [7.16 %] [price = 0.15350000] *** new highest evol in %                                                  
+DASHUSDT swap bybit 2022-11-07 15:35:09.783184 bybit DASHUSDT swap 1d [7.33 %] [price = 46.85000000] *** new highest evol in %                                                 

@@ -1,0 +1,12 @@
+Scan results at : 2022-11-07 13:50:10.515883
+ETCUSDT swap bybit 2022-11-07 13:57:43.880291 bybit ETCUSDT swap 5m [1.81 %] [price = 25.26000000]                                                                             
+ICXUSDT swap bybit 2022-11-07 14:00:00.086912 bybit ICXUSDT swap 5m [1.27 %] [price = 0.23150000]                                                                              
+RSRUSDT swap bybit 2022-11-07 14:04:59.753759 bybit RSRUSDT swap 5m [1.47 %] [price = 0.00690000]                                                                              
+BALUSDT swap bybit 2022-11-07 13:53:07.108937 bybit BALUSDT swap 3m 5m [1.87 %] [price = 6.80000000]                                                                           
+JASMYUSDT swap bybit 2022-11-07 14:00:48.932071 bybit JASMYUSDT swap 1m 3m 5m [1.85 %] [price = 0.00550000]                                                                    
+MATICUSDT swap bybit 2022-11-07 14:02:43.809721 bybit MATICUSDT swap 30m [5.67 %] [price = 1.19900000]                                                                         
+FITFIUSDT swap bybit 2022-11-07 13:58:10.142352 bybit FITFIUSDT swap 2h [0.58 %] [price = 0.06040000]                                                                          
+LINKUSDT swap bybit 2022-11-07 14:01:46.485393 bybit LINKUSDT swap 4h [2.84 %] [price = 8.33000000]                                                                            
+IOTAUSDT swap bybit 2022-11-07 14:00:36.700753 bybit IOTAUSDT swap 6h [1.15 %] [price = 0.26350000]                                                                            
+ASTRUSDT swap bybit 2022-11-07 13:52:26.137838 bybit ASTRUSDT swap 3m 5m 6h [4.05 %] [price = 0.04625000] *** new highest evol in %                                            
+CTSIUSDT swap bybit 2022-11-07 13:56:02.437878 bybit CTSIUSDT swap 1d [8.69 %] [price = 0.15570000] *** new highest evol in %                                                  

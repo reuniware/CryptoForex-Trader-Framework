@@ -1,0 +1,12 @@
+Scan results at : 2022-11-07 14:49:04.193542
+SHIB1000USDT swap bybit 2022-11-07 15:04:28.046840 bybit SHIB1000USDT swap 1m [0.55 %] [price = 0.01190500]                                                                    
+REQUSDT swap bybit 2022-11-07 15:03:17.642432 bybit REQUSDT swap 5m [-1.45 %] [price = 0.10910000]                                                                             
+XLMUSDT swap bybit 2022-11-07 15:07:34.030569 bybit XLMUSDT swap 15m [1.47 %] [price = 0.11055000]                                                                             
+XRPUSDT swap bybit 2022-11-07 15:07:55.637191 bybit XRPUSDT swap 15m [0.51 %] [price = 0.47310000]                                                                             
+YFIUSDT swap bybit 2022-11-07 15:08:09.056862 bybit YFIUSDT swap 15m [1.26 %] [price = 8030.00000000]                                                                          
+ZRXUSDT swap bybit 2022-11-07 15:08:39.589755 bybit ZRXUSDT swap 15m [1.25 %] [price = 0.25960000]                                                                             
+SUSHIUSDT swap bybit 2022-11-07 15:05:45.504701 bybit SUSHIUSDT swap 3m 30m [6.00 %] [price = 1.81900000]                                                                      
+COTIUSDT swap bybit 2022-11-07 14:54:15.502817 bybit COTIUSDT swap 12h [7.75 %] [price = 0.11120000] *** new highest evol in %                                                 
+FITFIUSDT swap bybit 2022-11-07 14:56:59.170759 bybit FITFIUSDT swap 1h 12h [3.33 %] [price = 0.06205000]                                                                      
+CTSIUSDT swap bybit 2022-11-07 14:54:54.767485 bybit CTSIUSDT swap 1d [6.39 %] [price = 0.15240000]                                                                            
+DASHUSDT swap bybit 2022-11-07 14:55:19.687093 bybit DASHUSDT swap 1d [6.19 %] [price = 46.35000000]                                                                           

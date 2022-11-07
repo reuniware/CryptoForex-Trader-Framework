@@ -1,0 +1,10 @@
+Scan results at : 2022-11-07 11:13:29.221914
+SANDUSDT swap bybit 2022-11-07 11:28:29.704438 bybit SANDUSDT swap 1m [-0.59 %] [price = 0.84050000]                                                                           
+SNXUSDT swap bybit 2022-11-07 11:29:14.658796 bybit SNXUSDT swap 1m [3.66 %] [price = 2.60500000]                                                                              
+SRMUSDT swap bybit 2022-11-07 11:29:34.048301 bybit SRMUSDT swap 1m [-0.79 %] [price = 0.75400000]                                                                             
+STORJUSDT swap bybit 2022-11-07 11:29:52.232119 bybit STORJUSDT swap 1m [1.10 %] [price = 0.46100000]                                                                          
+ZILUSDT swap bybit 2022-11-07 11:32:51.386010 bybit ZILUSDT swap 1m [2.02 %] [price = 0.03187000]                                                                              
+GMXUSDT swap bybit 2022-11-07 11:22:26.368520 bybit GMXUSDT swap 3m [1.32 %] [price = 38.66500000]                                                                             
+GMTUSDT swap bybit 2022-11-07 11:22:20.287403 bybit GMTUSDT swap 30m [10.40 %] [price = 0.60510000] *** new highest evol in %                                                  
+LTCUSDT swap bybit 2022-11-07 11:25:26.897381 bybit LTCUSDT swap 30m [3.52 %] [price = 70.64000000]                                                                            
+ASTRUSDT swap bybit 2022-11-07 11:15:45.329039 bybit ASTRUSDT swap 12h [2.02 %] [price = 0.04535000] *** new highest evol in %                                                 

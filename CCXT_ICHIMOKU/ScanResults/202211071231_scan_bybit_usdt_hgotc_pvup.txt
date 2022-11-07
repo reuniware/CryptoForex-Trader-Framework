@@ -1,0 +1,9 @@
+Scan results at : 2022-11-07 12:11:29.392644
+BANDUSDT swap bybit 2022-11-07 12:14:25.882842 bybit BANDUSDT swap 3m [-6.83 %] [price = 2.48400000]                                                                           
+CROUSDT swap bybit 2022-11-07 12:16:48.412994 bybit CROUSDT swap 1h [3.56 %] [price = 0.12225000]                                                                              
+DASHUSDT swap bybit 2022-11-07 12:17:37.827500 bybit DASHUSDT swap 1h [5.50 %] [price = 46.05000000]                                                                           
+GMTUSDT swap bybit 2022-11-07 12:20:19.878027 bybit GMTUSDT swap 1h [11.29 %] [price = 0.61000000] *** new highest evol in %                                                   
+ALGOUSDT swap bybit 2022-11-07 12:12:40.669197 bybit ALGOUSDT swap 2h [7.34 %] [price = 0.43150000] *** new highest evol in %                                                  
+VETUSDT swap bybit 2022-11-07 12:29:22.754793 bybit VETUSDT swap 2h [5.27 %] [price = 0.02595000]                                                                              
+XMRUSDT swap bybit 2022-11-07 12:30:01.640750 bybit XMRUSDT swap 2h [1.84 %] [price = 157.75000000]                                                                            
+COTIUSDT swap bybit 2022-11-07 12:16:35.328714 bybit COTIUSDT swap 6h [8.82 %] [price = 0.11230000] *** new highest evol in %                                                  

@@ -1,0 +1,4 @@
+Scan results at : 2022-11-07 14:27:04.229545
+XRPUSDT swap bybit 2022-11-07 14:28:37.957211 bybit XRPUSDT swap 3m [0.87 %] [price = 0.47480000]                                                                              
+MATICUSDT swap bybit 2022-11-07 14:22:18.581776 bybit MATICUSDT swap 30m [5.77 %] [price = 1.20020000]                                                                         
+CTSIUSDT swap bybit 2022-11-07 14:15:46.754030 bybit CTSIUSDT swap 1d [8.13 %] [price = 0.15490000] *** new highest evol in %                                                  

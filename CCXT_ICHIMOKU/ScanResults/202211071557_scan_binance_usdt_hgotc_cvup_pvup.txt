@@ -1,0 +1,8 @@
+Scan results at : 2022-11-07 15:48:54.505474
+BANDUSDT spot binance 2022-11-07 15:17:36.635862 binance BANDUSDT spot 1m [-8.31 %] [price = 2.44800000]                                                                       
+TRXUSDT spot binance 2022-11-07 15:11:06.349167 binance TRXUSDT spot 3m [-0.48 %] [price = 0.06238000]                                                                         
+BCHUSDT spot binance 2022-11-07 15:19:33.940571 binance BCHUSDT spot 3m [1.71 %] [price = 118.70000000]                                                                        
+LUNCUSDT spot binance 2022-11-07 15:56:34.055376 binance LUNCUSDT spot 3m [1.21 %] [price = 0.00023468]                                                                        
+ALGOUSDT spot binance 2022-11-07 15:14:55.852829 binance ALGOUSDT spot 5m [9.02 %] [price = 0.43880000] *** new highest evol in %                                              
+COTIUSDT spot binance 2022-11-07 15:21:31.070559 binance COTIUSDT spot 6h [9.21 %] [price = 0.11260000] *** new highest evol in %                                              
+ALCXUSDT spot binance 2022-11-07 15:50:23.554453 binance ALCXUSDT spot 8h [3.52 %] [price = 26.50000000]                                                                       
