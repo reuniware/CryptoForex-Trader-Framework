@@ -1,0 +1,2 @@
+Scan results at : 2022-11-07 07:25:47.666463
+CELOUSDT swap bybit 2022-11-07 07:26:31.957278 bybit CELOUSDT swap 1h [6.06 %] [price = 0.77000000] *** new highest evol in %                                                  

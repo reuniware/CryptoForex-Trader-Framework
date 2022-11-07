@@ -1,0 +1,5 @@
+Scan results at : 2022-11-06 22:56:15.277653
+LTOUSDT spot binance 2022-11-06 22:31:33.105768 binance LTOUSDT spot 3m 15m [18.18 %] [price = 0.11050000] *** new highest evol in %                                           
+CVPUSDT spot binance 2022-11-06 22:57:45.126425 binance CVPUSDT spot 1h [9.41 %] [price = 0.47070000]                                                                          
+ADXUSDT spot binance 2022-11-06 22:58:45.795326 binance ADXUSDT spot 4h [6.76 %] [price = 0.18170000]                                                                          
+MITHUSDT spot binance 2022-11-06 22:24:26.458558 binance MITHUSDT spot 6h [5.17 %] [price = 0.02116000] *** new highest evol in %                                              

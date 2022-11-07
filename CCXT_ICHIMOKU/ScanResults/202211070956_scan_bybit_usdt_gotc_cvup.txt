@@ -1,0 +1,12 @@
+Scan results at : 2022-11-07 09:37:15.859281
+PAXGUSDT swap bybit 2022-11-07 09:50:34.291234 bybit PAXGUSDT swap 1h [0.66 %] [price = 1673.00000000]                                                                         
+ADAUSDT swap bybit 2022-11-07 09:38:07.729514 bybit ADAUSDT swap 4h [0.75 %] [price = 0.40500000] *** new highest evol in %                                                    
+ALICEUSDT swap bybit 2022-11-07 09:38:32.108591 bybit ALICEUSDT swap 4h [1.17 %] [price = 1.72500000] *** new highest evol in %                                                
+IOTAUSDT swap bybit 2022-11-07 09:47:16.727951 bybit IOTAUSDT swap 4h [-0.77 %] [price = 0.25850000]                                                                           
+NEARUSDT swap bybit 2022-11-07 09:49:44.106488 bybit NEARUSDT swap 4h [-1.55 %] [price = 3.04400000]                                                                           
+OMGUSDT swap bybit 2022-11-07 09:50:08.995318 bybit OMGUSDT swap 4h [0.12 %] [price = 1.66900000]                                                                              
+QTUMUSDT swap bybit 2022-11-07 09:50:46.791305 bybit QTUMUSDT swap 4h [0.53 %] [price = 2.86500000]                                                                            
+SNXUSDT swap bybit 2022-11-07 09:52:37.888044 bybit SNXUSDT swap 4h [1.55 %] [price = 2.55200000]                                                                              
+STMXUSDT swap bybit 2022-11-07 09:53:08.283807 bybit STMXUSDT swap 4h [2.67 %] [price = 0.00712000]                                                                            
+ZILUSDT swap bybit 2022-11-07 09:56:11.356847 bybit ZILUSDT swap 4h [0.83 %] [price = 0.03150000]                                                                              
+CTSIUSDT swap bybit 2022-11-07 09:42:58.976154 bybit CTSIUSDT swap 1d [5.55 %] [price = 0.15120000] *** new highest evol in %                                                  

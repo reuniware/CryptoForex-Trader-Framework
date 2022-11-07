@@ -1,0 +1,5 @@
+Scan results at : 2022-11-07 01:21:23.010508
+KLAYUSDT swap bybit 2022-11-07 01:18:49.280469 bybit KLAYUSDT swap 1m [0.45 %] [price = 0.22100000] *** new highest evol in %                                                  
+LUNA2USDT swap bybit 2022-11-07 01:19:55.720175 bybit LUNA2USDT swap 1m [-0.55 %] [price = 2.37200000]                                                                         
+STGUSDT swap bybit 2022-11-07 01:23:52.755076 bybit STGUSDT swap 3m [0.99 %] [price = 0.50900000]                                                                              
+LTCUSDT swap bybit 2022-11-07 01:19:49.755621 bybit LTCUSDT swap 15m [3.27 %] [price = 70.47000000] *** new highest evol in %                                                  

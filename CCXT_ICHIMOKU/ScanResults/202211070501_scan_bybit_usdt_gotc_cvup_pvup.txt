@@ -1,0 +1,3 @@
+Scan results at : 2022-11-07 04:51:56.938027
+JASMYUSDT swap bybit 2022-11-07 04:52:59.647128 bybit JASMYUSDT swap 3m [3.70 %] [price = 0.00560000]                                                                          
+CTSIUSDT swap bybit 2022-11-07 04:48:32.750505 bybit CTSIUSDT swap 1d [5.90 %] [price = 0.15170000] *** new highest evol in %                                                  

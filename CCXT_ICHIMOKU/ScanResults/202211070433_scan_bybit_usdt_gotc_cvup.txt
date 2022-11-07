@@ -1,0 +1,6 @@
+Scan results at : 2022-11-07 04:24:16.613255
+BLZUSDT swap bybit 2022-11-07 04:18:11.356680 bybit BLZUSDT swap 6h [2.70 %] [price = 0.08165000] *** new highest evol in %                                                    
+COTIUSDT swap bybit 2022-11-07 04:19:42.465810 bybit COTIUSDT swap 6h [3.59 %] [price = 0.10690000] *** new highest evol in %                                                  
+ZRXUSDT swap bybit 2022-11-07 04:33:20.463839 bybit ZRXUSDT swap 6h [1.21 %] [price = 0.25950000]                                                                              
+ANKRUSDT swap bybit 2022-11-07 04:16:10.520550 bybit ANKRUSDT swap 12h [1.54 %] [price = 0.02975000] *** new highest evol in %                                                 
+CTSIUSDT swap bybit 2022-11-07 04:20:18.843556 bybit CTSIUSDT swap 1d [5.97 %] [price = 0.15180000] *** new highest evol in %                                                  

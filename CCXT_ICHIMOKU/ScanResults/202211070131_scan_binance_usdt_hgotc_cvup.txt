@@ -1,0 +1,13 @@
+Scan results at : 2022-11-07 01:27:01.478076
+STMXUSDT spot binance 2022-11-07 00:57:41.739270 binance STMXUSDT spot 1m [0.84 %] [price = 0.00699000]                                                                        
+TFUELUSDT spot binance 2022-11-07 00:48:50.453023 binance TFUELUSDT spot 3m [4.71 %] [price = 0.06230000] *** new highest evol in %                                            
+ASTRUSDT spot binance 2022-11-07 01:28:36.131253 binance ASTRUSDT spot 30m [2.71 %] [price = 0.04550000]                                                                       
+BNBDOWNUSDT spot binance 2022-11-07 01:00:56.172403 binance BNBDOWNUSDT spot 1h [2.67 %] [price = 0.02343000]                                                                  
+TRXDOWNUSDT spot binance 2022-11-07 01:05:10.333315 binance TRXDOWNUSDT spot 1h [0.43 %] [price = 1.15500000]                                                                  
+XRPDOWNUSDT spot binance 2022-11-07 01:05:25.997601 binance XRPDOWNUSDT spot 1h [-0.72 %] [price = 0.00024950]                                                                 
+PHAUSDT spot binance 2022-11-07 01:17:00.652018 binance PHAUSDT spot 4h [-5.10 %] [price = 0.23270000]                                                                         
+BONDUSDT spot binance 2022-11-07 01:17:08.477466 binance BONDUSDT spot 6h [2.00 %] [price = 5.10600000]                                                                        
+ADXUSDT spot binance 2022-11-07 01:22:33.250098 binance ADXUSDT spot 6h [-0.11 %] [price = 0.17500000]                                                                         
+BARUSDT spot binance 2022-11-07 01:14:29.142163 binance BARUSDT spot 12h [3.74 %] [price = 5.55000000]                                                                         
+ALCXUSDT spot binance 2022-11-07 01:24:54.959056 binance ALCXUSDT spot 12h [6.64 %] [price = 27.30000000] *** new highest evol in %                                            
+MASKUSDT spot binance 2022-11-07 01:15:53.113860 binance MASKUSDT spot 3d [1.75 %] [price = 4.82400000]                                                                        

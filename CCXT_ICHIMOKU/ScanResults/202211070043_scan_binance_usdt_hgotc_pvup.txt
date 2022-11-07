@@ -1,0 +1,6 @@
+Scan results at : 2022-11-07 00:31:06.336921
+EURUSDT spot binance 2022-11-07 00:06:31.257241 binance EURUSDT spot 3m [0.11 %] [price = 0.99170000] *** new highest evol in %                                                
+BARUSDT spot binance 2022-11-07 00:26:16.006521 binance BARUSDT spot 12h [3.55 %] [price = 5.54000000] *** new highest evol in %                                               
+ALCXUSDT spot binance 2022-11-07 00:36:45.629708 binance ALCXUSDT spot 12h [1.95 %] [price = 26.10000000]                                                                      
+BNBUSDT spot binance 2022-11-06 23:56:08.374531 binance BNBUSDT spot 3d [-3.09 %] [price = 338.30000000]                                                                       
+MASKUSDT spot binance 2022-11-07 00:27:42.068910 binance MASKUSDT spot 3d [2.32 %] [price = 4.85100000]                                                                        

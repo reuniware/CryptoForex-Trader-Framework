@@ -1,0 +1,10 @@
+Scan results at : 2022-11-07 04:05:38.052921
+SPELLUSDT swap bybit 2022-11-07 04:11:22.814932 bybit SPELLUSDT swap 3m [3.33 %] [price = 0.00093000]                                                                          
+HNTUSDT swap bybit 2022-11-07 04:05:06.061594 bybit HNTUSDT swap 1m 3m [2.06 %] [price = 3.96000000]                                                                           
+SWEATUSDT swap bybit 2022-11-07 04:12:11.318579 bybit SWEATUSDT swap 1m 3m [2.59 %] [price = 0.02220000]                                                                       
+IOTXUSDT swap bybit 2022-11-07 04:06:00.774822 bybit IOTXUSDT swap 1h [3.22 %] [price = 0.03525000]                                                                            
+APEUSDT swap bybit 2022-11-07 03:57:46.181717 bybit APEUSDT swap 12h [0.91 %] [price = 4.77900000] *** new highest evol in %                                                   
+FITFIUSDT swap bybit 2022-11-07 04:03:41.654160 bybit FITFIUSDT swap 12h [1.83 %] [price = 0.06115000]                                                                         
+GMTUSDT swap bybit 2022-11-07 04:04:35.798251 bybit GMTUSDT swap 12h [7.77 %] [price = 0.59070000] *** new highest evol in %                                                   
+CTSIUSDT swap bybit 2022-11-07 04:01:41.659187 bybit CTSIUSDT swap 1d [6.39 %] [price = 0.15240000] *** new highest evol in %                                                  
+DASHUSDT swap bybit 2022-11-07 04:02:05.607546 bybit DASHUSDT swap 1d [3.32 %] [price = 45.10000000]                                                                           

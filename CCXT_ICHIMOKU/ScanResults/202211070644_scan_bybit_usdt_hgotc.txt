@@ -1,0 +1,14 @@
+Scan results at : 2022-11-07 06:37:16.025404
+LTCUSDT swap bybit 2022-11-07 06:36:50.790383 bybit LTCUSDT swap 1m [4.70 %] [price = 71.45000000]                                                                             
+10000NFTUSDT swap bybit 2022-11-07 06:25:23.753654 bybit 10000NFTUSDT swap 3m [0.42 %] [price = 0.00595500] *** new highest evol in %                                          
+AAVEUSDT swap bybit 2022-11-07 06:25:53.878352 bybit AAVEUSDT swap 3m [1.39 %] [price = 87.45000000]                                                                           
+SHIB1000USDT swap bybit 2022-11-07 06:40:12.787678 bybit SHIB1000USDT swap 3m [1.69 %] [price = 0.01204000]                                                                    
+ARPAUSDT swap bybit 2022-11-07 06:27:12.712084 bybit ARPAUSDT swap 5m [0.78 %] [price = 0.03596000]                                                                            
+CREAMUSDT swap bybit 2022-11-07 06:30:23.114928 bybit CREAMUSDT swap 5m [0.83 %] [price = 12.15000000]                                                                         
+1INCHUSDT swap bybit 2022-11-07 06:25:47.884431 bybit 1INCHUSDT swap 15m [2.76 %] [price = 0.65100000] *** new highest evol in %                                               
+DODOUSDT swap bybit 2022-11-07 06:31:35.610793 bybit DODOUSDT swap 15m [4.97 %] [price = 0.15840000]                                                                           
+BATUSDT swap bybit 2022-11-07 06:28:13.854306 bybit BATUSDT swap 30m [6.51 %] [price = 0.33550000] *** new highest evol in %                                                   
+CELOUSDT swap bybit 2022-11-07 06:29:40.787809 bybit CELOUSDT swap 30m [5.23 %] [price = 0.76400000]                                                                           
+DASHUSDT swap bybit 2022-11-07 06:31:17.206739 bybit DASHUSDT swap 1h [3.89 %] [price = 45.35000000]                                                                           
+CTSIUSDT swap bybit 2022-11-07 06:30:53.163762 bybit CTSIUSDT swap 2h [7.40 %] [price = 0.15385000] *** new highest evol in %                                                  
+TRBUSDT swap bybit 2022-11-07 06:42:03.142835 bybit TRBUSDT swap 2h [7.67 %] [price = 17.34000000] *** new highest evol in %                                                   

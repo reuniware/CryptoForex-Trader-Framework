@@ -1,0 +1,3 @@
+Scan results at : 2022-11-07 04:43:00.913487
+RSS3USDT swap bybit 2022-11-07 04:47:22.392048 bybit RSS3USDT swap 1m [-1.45 %] [price = 0.18660000]                                                                           
+CTSIUSDT swap bybit 2022-11-07 04:38:54.322276 bybit CTSIUSDT swap 1d [5.97 %] [price = 0.15180000] *** new highest evol in %                                                  

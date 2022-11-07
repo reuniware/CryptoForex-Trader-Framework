@@ -1,0 +1,7 @@
+Scan results at : 2022-11-06 20:42:45.795816
+ZRXUSDT swap bybit 2022-11-06 21:00:01.903659 bybit ZRXUSDT swap 1m [-2.74 %] [price = 0.26650000]                                                                             
+BANDUSDT swap bybit 2022-11-06 20:43:56.792408 bybit BANDUSDT swap 5m [-3.96 %] [price = 2.66900000]                                                                           
+FITFIUSDT swap bybit 2022-11-06 20:48:46.823390 bybit FITFIUSDT swap 1m 12h [0.71 %] [price = 0.06345000] *** new highest evol in %                                            
+CROUSDT swap bybit 2022-11-06 20:46:18.559853 bybit CROUSDT swap 1d [0.58 %] [price = 0.12240000] *** new highest evol in %                                                    
+OPUSDT swap bybit 2022-11-06 20:54:13.457851 bybit OPUSDT swap 1d [0.23 %] [price = 1.32000000]                                                                                
+TRXUSDT swap bybit 2022-11-06 20:58:02.605159 bybit TRXUSDT swap 1d [0.35 %] [price = 0.06381000]                                                                              

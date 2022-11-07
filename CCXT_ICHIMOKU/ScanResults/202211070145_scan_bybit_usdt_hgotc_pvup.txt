@@ -1,0 +1,4 @@
+Scan results at : 2022-11-07 01:31:43.323968
+ETCUSDT swap bybit 2022-11-07 01:34:14.083810 bybit ETCUSDT swap 1m [0.91 %] [price = 25.03500000]                                                                             
+CTSIUSDT swap bybit 2022-11-07 01:32:37.343749 bybit CTSIUSDT swap 3m [3.39 %] [price = 0.14810000] *** new highest evol in %                                                  
+XMRUSDT swap bybit 2022-11-07 01:44:44.165401 bybit XMRUSDT swap 3m [1.07 %] [price = 156.55000000]                                                                            

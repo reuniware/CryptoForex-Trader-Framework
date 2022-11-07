@@ -1,0 +1,5 @@
+Scan results at : 2022-11-06 22:19:28.429950
+MASKUSDT swap bybit 2022-11-06 22:30:06.046105 bybit MASKUSDT swap 3m [10.32 %] [price = 5.13000000] *** new highest evol in %                                                 
+PAXGUSDT swap bybit 2022-11-06 22:31:24.505049 bybit PAXGUSDT swap 1h [0.06 %] [price = 1671.00000000]                                                                         
+SLPUSDT swap bybit 2022-11-06 22:33:21.613007 bybit SLPUSDT swap 1h [-11.00 %] [price = 0.00372000]                                                                            
+SUNUSDT swap bybit 2022-11-06 22:34:18.624967 bybit SUNUSDT swap 4h [0.74 %] [price = 0.00679500]                                                                              

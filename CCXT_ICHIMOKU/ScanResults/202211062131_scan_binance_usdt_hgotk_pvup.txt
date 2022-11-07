@@ -1,0 +1,15 @@
+Scan results at : 2022-11-06 21:19:01.801564
+IOTXUSDT spot binance 2022-11-06 20:52:47.256143 binance IOTXUSDT spot 1m [-4.91 %] [price = 0.03447000]                                                                       
+WANUSDT spot binance 2022-11-06 20:50:40.055402 binance WANUSDT spot 5m [2.01 %] [price = 0.19250000]                                                                          
+PEOPLEUSDT spot binance 2022-11-06 21:25:41.010657 binance PEOPLEUSDT spot 15m [-1.24 %] [price = 0.02793000]                                                                  
+ASTRUSDT spot binance 2022-11-06 21:28:05.708708 binance ASTRUSDT spot 15m [7.59 %] [price = 0.04680000]                                                                       
+OPUSDT spot binance 2022-11-06 21:30:03.459734 binance OPUSDT spot 15m [1.37 %] [price = 1.33400000]                                                                           
+IRISUSDT spot binance 2022-11-06 21:01:02.724944 binance IRISUSDT spot 3m 30m [2.49 %] [price = 0.01936000]                                                                    
+PHAUSDT spot binance 2022-11-06 21:16:24.262213 binance PHAUSDT spot 2h [56.12 %] [price = 0.25400000] *** new highest evol in %                                               
+ADXUSDT spot binance 2022-11-06 21:21:57.767116 binance ADXUSDT spot 4h [6.70 %] [price = 0.18160000]                                                                          
+TORNUSDT spot binance 2022-11-06 21:16:00.774287 binance TORNUSDT spot 6h [3.65 %] [price = 6.53000000]                                                                        
+MITHUSDT spot binance 2022-11-06 20:47:41.598878 binance MITHUSDT spot 15m 6h [5.22 %] [price = 0.02117000] *** new highest evol in %                                          
+ATMUSDT spot binance 2022-11-06 21:09:45.902598 binance ATMUSDT spot 8h [3.80 %] [price = 3.82000000]                                                                          
+TRXUSDT spot binance 2022-11-06 20:44:43.297030 binance TRXUSDT spot 1d [0.05 %] [price = 0.06365000] *** new highest evol in %                                                
+MATICUSDT spot binance 2022-11-06 20:47:49.708354 binance MATICUSDT spot 1d [0.58 %] [price = 1.19180000]                                                                      
+TRXUPUSDT spot binance 2022-11-06 21:04:20.442472 binance TRXUPUSDT spot 1d [0.87 %] [price = 0.05681000]                                                                      

@@ -1,0 +1,7 @@
+Scan results at : 2022-11-07 06:44:05.367873
+10000NFTUSDT swap bybit 2022-11-07 06:44:13.355225 bybit 10000NFTUSDT swap 5m [0.59 %] [price = 0.00596500] *** new highest evol in %                                          
+CVCUSDT swap bybit 2022-11-07 06:49:53.907269 bybit CVCUSDT swap 5m [4.69 %] [price = 0.13400000]                                                                              
+FLMUSDT swap bybit 2022-11-07 06:51:56.530419 bybit FLMUSDT swap 5m [2.62 %] [price = 0.11565000]                                                                              
+LINAUSDT swap bybit 2022-11-07 06:55:08.179779 bybit LINAUSDT swap 15m [4.03 %] [price = 0.00878000]                                                                           
+TRBUSDT swap bybit 2022-11-07 07:01:03.685917 bybit TRBUSDT swap 2h [8.44 %] [price = 17.46500000] *** new highest evol in %                                                   
+CTSIUSDT swap bybit 2022-11-07 06:49:47.756557 bybit CTSIUSDT swap 1m 2h [7.47 %] [price = 0.15395000] *** new highest evol in %                                               

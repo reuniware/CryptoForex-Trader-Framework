@@ -1,0 +1,2 @@
+Scan results at : 2022-11-07 00:49:39.116600
+FLMUSDT swap bybit 2022-11-07 00:57:24.491920 bybit FLMUSDT swap 1m [1.86 %] [price = 0.11480000] *** new highest evol in %                                                    

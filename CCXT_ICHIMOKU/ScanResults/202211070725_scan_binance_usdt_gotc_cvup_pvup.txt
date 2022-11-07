@@ -1,0 +1,5 @@
+Scan results at : 2022-11-07 07:21:53.915523
+UNIUSDT spot binance 2022-11-07 06:59:57.637112 binance UNIUSDT spot 4h [4.40 %] [price = 7.36000000]                                                                          
+CTSIUSDT spot binance 2022-11-07 06:50:19.750117 binance CTSIUSDT spot 1d [7.46 %] [price = 0.15420000] *** new highest evol in %                                              
+DODOUSDT spot binance 2022-11-07 07:05:46.355161 binance DODOUSDT spot 1d [4.97 %] [price = 0.15840000]                                                                        
+ADXUSDT spot binance 2022-11-07 07:16:28.085256 binance ADXUSDT spot 1d [2.97 %] [price = 0.18040000]                                                                          

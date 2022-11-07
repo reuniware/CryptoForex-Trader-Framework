@@ -1,0 +1,8 @@
+Scan results at : 2022-11-07 07:41:16.877759
+BTCDOWNUSDT spot binance 2022-11-07 07:20:53.643599 binance BTCDOWNUSDT spot 1h [1.62 %] [price = 0.02850300]                                                                  
+DOTDOWNUSDT spot binance 2022-11-07 07:29:16.915115 binance DOTDOWNUSDT spot 1h [0.89 %] [price = 11.09800000]                                                                 
+UNIUSDT spot binance 2022-11-07 07:29:41.067787 binance UNIUSDT spot 4h [3.40 %] [price = 7.29000000]                                                                          
+DIAUSDT spot binance 2022-11-07 07:28:01.405630 binance DIAUSDT spot 12h [1.49 %] [price = 0.40800000]                                                                         
+CTSIUSDT spot binance 2022-11-07 07:20:19.183612 binance CTSIUSDT spot 1d [5.30 %] [price = 0.15110000] *** new highest evol in %                                              
+DODOUSDT spot binance 2022-11-07 07:35:27.991608 binance DODOUSDT spot 1d [4.57 %] [price = 0.15780000]                                                                        
+PHAUSDT spot binance 2022-11-07 07:40:28.929335 binance PHAUSDT spot 3d [-5.06 %] [price = 0.23280000]                                                                         

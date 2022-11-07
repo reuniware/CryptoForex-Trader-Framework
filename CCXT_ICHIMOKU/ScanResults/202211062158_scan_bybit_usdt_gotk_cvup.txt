@@ -1,0 +1,10 @@
+Scan results at : 2022-11-06 21:38:43.689091
+COTIUSDT swap bybit 2022-11-06 21:44:00.728249 bybit COTIUSDT swap 1m [-3.17 %] [price = 0.10680000]                                                                           
+IMXUSDT swap bybit 2022-11-06 21:48:50.141516 bybit IMXUSDT swap 1m [-6.04 %] [price = 0.62200000]                                                                             
+TRBUSDT swap bybit 2022-11-06 21:56:18.040899 bybit TRBUSDT swap 1m [-3.60 %] [price = 16.61000000]                                                                            
+CVXUSDT swap bybit 2022-11-06 21:44:51.538061 bybit CVXUSDT swap 3m [-0.09 %] [price = 5.41000000]                                                                             
+INJUSDT swap bybit 2022-11-06 21:48:56.742702 bybit INJUSDT swap 2h [4.56 %] [price = 2.80750000]                                                                              
+OPUSDT swap bybit 2022-11-06 21:52:29.093860 bybit OPUSDT swap 2h [1.59 %] [price = 1.33800000]                                                                                
+SUNUSDT swap bybit 2022-11-06 21:55:34.407576 bybit SUNUSDT swap 2h [1.26 %] [price = 0.00683000]                                                                              
+XMRUSDT swap bybit 2022-11-06 21:57:27.152886 bybit XMRUSDT swap 2h [0.45 %] [price = 157.85000000]                                                                            
+ASTRUSDT swap bybit 2022-11-06 21:40:58.724058 bybit ASTRUSDT swap 4h 6h [6.80 %] [price = 0.04635000] *** new highest evol in %                                               

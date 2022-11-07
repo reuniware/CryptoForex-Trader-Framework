@@ -1,0 +1,8 @@
+Scan results at : 2022-11-07 08:43:34.283265
+SPELLUSDT swap bybit 2022-11-07 08:55:51.210048 bybit SPELLUSDT swap 1m [1.11 %] [price = 0.00091000]                                                                          
+CTKUSDT swap bybit 2022-11-07 08:45:37.119554 bybit CTKUSDT swap 1h [2.63 %] [price = 0.89600000]                                                                              
+LTCUSDT swap bybit 2022-11-07 08:51:51.621427 bybit LTCUSDT swap 30m 2h [3.41 %] [price = 70.57000000]                                                                         
+COTIUSDT swap bybit 2022-11-07 08:45:06.261844 bybit COTIUSDT swap 4h [4.75 %] [price = 0.10810000] *** new highest evol in %                                                  
+CVCUSDT swap bybit 2022-11-07 08:45:50.092396 bybit CVCUSDT swap 12h [2.73 %] [price = 0.13150000]                                                                             
+TRBUSDT swap bybit 2022-11-07 08:57:11.083239 bybit TRBUSDT swap 4h 12h [7.14 %] [price = 17.25500000] *** new highest evol in %                                               
+CTSIUSDT swap bybit 2022-11-07 08:45:43.693323 bybit CTSIUSDT swap 1d [5.51 %] [price = 0.15115000] *** new highest evol in %                                                  

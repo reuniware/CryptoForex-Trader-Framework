@@ -1,0 +1,10 @@
+Scan results at : 2022-11-07 05:49:32.364336
+ACHUSDT swap bybit 2022-11-07 05:48:35.501284 bybit ACHUSDT swap 1m [2.62 %] [price = 0.01214000] *** new highest evol in %                                                    
+ALGOUSDT swap bybit 2022-11-07 05:48:59.576190 bybit ALGOUSDT swap 1m [5.47 %] [price = 0.42400000] *** new highest evol in %                                                  
+CTCUSDT swap bybit 2022-11-07 05:53:13.159146 bybit CTCUSDT swap 1m [-1.50 %] [price = 0.53920000]                                                                             
+GLMRUSDT swap bybit 2022-11-07 05:56:14.964159 bybit GLMRUSDT swap 1m [1.61 %] [price = 0.50400000]                                                                            
+CELOUSDT swap bybit 2022-11-07 05:52:13.331137 bybit CELOUSDT swap 30m [5.92 %] [price = 0.76900000] *** new highest evol in %                                                 
+CTKUSDT swap bybit 2022-11-07 05:53:19.197452 bybit CTKUSDT swap 1h [5.38 %] [price = 0.92000000]                                                                              
+GMTUSDT swap bybit 2022-11-07 05:56:20.913310 bybit GMTUSDT swap 2h [6.81 %] [price = 0.58540000] *** new highest evol in %                                                    
+LTCUSDT swap bybit 2022-11-07 05:59:16.418060 bybit LTCUSDT swap 2h [4.32 %] [price = 71.19000000]                                                                             
+ASTRUSDT swap bybit 2022-11-07 05:49:59.838477 bybit ASTRUSDT swap 30m 2h 12h [4.39 %] [price = 0.04640000]                                                                    

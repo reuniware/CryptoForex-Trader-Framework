@@ -1,0 +1,8 @@
+Scan results at : 2022-11-07 08:20:35.321108
+IOTXUSDT swap bybit 2022-11-07 08:30:53.691907 bybit IOTXUSDT swap 4h [-1.17 %] [price = 0.03375000]                                                                           
+VETUSDT swap bybit 2022-11-07 08:38:22.463138 bybit VETUSDT swap 4h [2.03 %] [price = 0.02515000]                                                                              
+XMRUSDT swap bybit 2022-11-07 08:38:59.780236 bybit XMRUSDT swap 4h [0.77 %] [price = 156.10000000]                                                                            
+CVCUSDT swap bybit 2022-11-07 08:26:27.303380 bybit CVCUSDT swap 12h [1.56 %] [price = 0.13000000] *** new highest evol in %                                                   
+LITUSDT swap bybit 2022-11-07 08:32:01.194666 bybit LITUSDT swap 12h [4.53 %] [price = 1.06200000] *** new highest evol in %                                                   
+SUSHIUSDT swap bybit 2022-11-07 08:37:13.446588 bybit SUSHIUSDT swap 12h [2.97 %] [price = 1.76700000]                                                                         
+TRBUSDT swap bybit 2022-11-07 08:37:50.679514 bybit TRBUSDT swap 4h 12h [7.82 %] [price = 17.36500000] *** new highest evol in %                                               

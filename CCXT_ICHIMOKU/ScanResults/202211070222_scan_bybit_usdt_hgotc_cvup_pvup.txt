@@ -1,0 +1,6 @@
+Scan results at : 2022-11-07 02:19:44.651453
+ETCUSDT swap bybit 2022-11-07 02:11:32.202908 bybit ETCUSDT swap 3m [2.52 %] [price = 25.43500000]                                                                             
+ICPUSDT swap bybit 2022-11-07 02:13:32.371541 bybit ICPUSDT swap 3m [1.15 %] [price = 5.27000000]                                                                              
+MANAUSDT swap bybit 2022-11-07 02:15:58.896902 bybit MANAUSDT swap 3m [1.81 %] [price = 0.67400000]                                                                            
+OPUSDT swap bybit 2022-11-07 02:17:17.064780 bybit OPUSDT swap 3m [3.39 %] [price = 1.32850000]                                                                                
+BANDUSDT swap bybit 2022-11-07 02:07:12.231094 bybit BANDUSDT swap 15m [6.11 %] [price = 2.82900000] *** new highest evol in %                                                 

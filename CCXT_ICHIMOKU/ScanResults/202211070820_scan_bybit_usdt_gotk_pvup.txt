@@ -1,0 +1,4 @@
+Scan results at : 2022-11-07 08:00:44.590145
+CELOUSDT swap bybit 2022-11-07 08:05:25.900818 bybit CELOUSDT swap 12h [4.27 %] [price = 0.75700000] *** new highest evol in %                                                 
+CVCUSDT swap bybit 2022-11-07 08:06:49.773175 bybit CVCUSDT swap 12h [1.56 %] [price = 0.13000000]                                                                             
+TRBUSDT swap bybit 2022-11-07 08:18:24.997546 bybit TRBUSDT swap 15m 30m 12h [6.40 %] [price = 17.13500000] *** new highest evol in %                                          

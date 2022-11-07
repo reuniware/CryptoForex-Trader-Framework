@@ -1,0 +1,5 @@
+Scan results at : 2022-11-07 00:48:36.118045
+ETCUSDT swap bybit 2022-11-07 00:38:15.212313 bybit ETCUSDT swap 1m [0.97 %] [price = 25.05000000]                                                                             
+ETHWUSDT swap bybit 2022-11-07 00:38:27.150296 bybit ETHWUSDT swap 1m [0.99 %] [price = 6.14000000]                                                                            
+FLMUSDT swap bybit 2022-11-07 00:38:45.464526 bybit FLMUSDT swap 1m [1.77 %] [price = 0.11470000]                                                                              
+ASTRUSDT swap bybit 2022-11-07 00:33:14.587173 bybit ASTRUSDT swap 12h [1.80 %] [price = 0.04525000] *** new highest evol in %                                                 
