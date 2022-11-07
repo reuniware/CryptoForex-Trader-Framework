@@ -1,0 +1,9 @@
+Scan results at : 2022-11-07 17:45:07.962503
+REQUSDT swap bybit 2022-11-07 17:59:03.479375 bybit REQUSDT swap 3m [0.09 %] [price = 0.11080000]                                                                              
+RSS3USDT swap bybit 2022-11-07 17:59:27.453887 bybit RSS3USDT swap 5m [-10.32 %] [price = 0.16980000]                                                                          
+NEARUSDT swap bybit 2022-11-07 17:57:39.283408 bybit NEARUSDT swap 15m [0.49 %] [price = 3.10700000]                                                                           
+THETAUSDT swap bybit 2022-11-07 18:01:43.638559 bybit THETAUSDT swap 15m [0.25 %] [price = 1.20300000]                                                                         
+TOMOUSDT swap bybit 2022-11-07 18:01:56.260844 bybit TOMOUSDT swap 15m [1.57 %] [price = 0.45150000]                                                                           
+DOTUSDT swap bybit 2022-11-07 17:51:51.451198 bybit DOTUSDT swap 1h 2h [5.58 %] [price = 7.19000000]                                                                           
+COTIUSDT swap bybit 2022-11-07 17:50:15.284639 bybit COTIUSDT swap 6h [9.01 %] [price = 0.11250000] *** new highest evol in %                                                  
+LDOUSDT swap bybit 2022-11-07 17:56:07.245308 bybit LDOUSDT swap 6h [5.81 %] [price = 1.66600000]                                                                              

@@ -1,0 +1,5 @@
+Scan results at : 2022-11-07 16:29:08.099406
+BTCUSDT swap bybit 2022-11-07 16:21:56.590071 bybit BTCUSDT swap 5m [-0.77 %] [price = 20742.00000000]                                                                         
+FITFIUSDT swap bybit 2022-11-07 16:25:31.329012 bybit FITFIUSDT swap 12h [7.08 %] [price = 0.06430000]                                                                         
+CTSIUSDT swap bybit 2022-11-07 16:23:28.184105 bybit CTSIUSDT swap 1d [7.89 %] [price = 0.15455000] *** new highest evol in %                                                  
+DASHUSDT swap bybit 2022-11-07 16:23:52.590682 bybit DASHUSDT swap 1d [7.45 %] [price = 46.90000000]                                                                           

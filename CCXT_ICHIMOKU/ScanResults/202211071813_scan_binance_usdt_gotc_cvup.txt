@@ -1,0 +1,15 @@
+Scan results at : 2022-11-07 18:04:06.367484
+REEFUSDT spot binance 2022-11-07 17:51:50.934690 binance REEFUSDT spot 1m [-1.63 %] [price = 0.00494300]                                                                       
+XECUSDT spot binance 2022-11-07 18:01:49.462315 binance XECUSDT spot 3m [1.23 %] [price = 0.00003788]                                                                          
+OGUSDT spot binance 2022-11-07 17:51:58.749307 binance OGUSDT spot 4h [-1.24 %] [price = 3.97100000]                                                                           
+QTUMUSDT spot binance 2022-11-07 17:26:04.521711 binance QTUMUSDT spot 6h [2.29 %] [price = 2.90900000] *** new highest evol in %                                              
+IRISUSDT spot binance 2022-11-07 17:43:27.608729 binance IRISUSDT spot 6h [-0.79 %] [price = 0.01884000]                                                                       
+KSMUSDT spot binance 2022-11-07 17:45:51.736021 binance KSMUSDT spot 6h [0.75 %] [price = 36.35000000]                                                                         
+SANTOSUSDT spot binance 2022-11-07 18:06:51.758456 binance SANTOSUSDT spot 4h 8h [5.46 %] [price = 12.66200000]                                                                
+DASHUSDT spot binance 2022-11-07 17:29:31.778916 binance DASHUSDT spot 1d [6.80 %] [price = 46.64000000] *** new highest evol in %                                             
+CTSIUSDT spot binance 2022-11-07 17:38:22.509066 binance CTSIUSDT spot 1d [6.48 %] [price = 0.15280000]                                                                        
+DODOUSDT spot binance 2022-11-07 17:53:41.059499 binance DODOUSDT spot 1d [3.58 %] [price = 0.15630000]                                                                        
+QUICKUSDT spot binance 2022-11-07 18:00:40.662129 binance QUICKUSDT spot 1d [10.41 %] [price = 72.10000000]                                                                    
+LAZIOUSDT spot binance 2022-11-07 18:04:05.251858 binance LAZIOUSDT spot 1d [17.84 %] [price = 7.40490000]                                                                     
+DATAUSDT spot binance 2022-11-07 17:38:03.648104 binance DATAUSDT spot 1h 1d [4.70 %] [price = 0.03365000]                                                                     
+DEXEUSDT spot binance 2022-11-07 17:59:13.834008 binance DEXEUSDT spot 2h 4h 6h 8h 12h 1d [24.56 %] [price = 3.75300000] *** new highest evol in %                             

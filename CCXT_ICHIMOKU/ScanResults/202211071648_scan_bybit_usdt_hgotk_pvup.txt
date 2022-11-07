@@ -1,0 +1,9 @@
+Scan results at : 2022-11-07 16:45:56.592336
+DOGEUSDT swap bybit 2022-11-07 16:35:41.417900 bybit DOGEUSDT swap 1m [2.27 %] [price = 0.11720000]                                                                            
+CRVUSDT swap bybit 2022-11-07 16:34:32.660446 bybit CRVUSDT swap 6h [4.43 %] [price = 0.99100000]                                                                              
+CVCUSDT swap bybit 2022-11-07 16:34:57.067899 bybit CVCUSDT swap 6h [5.47 %] [price = 0.13500000]                                                                              
+LINKUSDT swap bybit 2022-11-07 16:40:15.744418 bybit LINKUSDT swap 6h [5.06 %] [price = 8.51000000]                                                                            
+STMXUSDT swap bybit 2022-11-07 16:45:00.862984 bybit STMXUSDT swap 6h [4.47 %] [price = 0.00724500]                                                                            
+SUSHIUSDT swap bybit 2022-11-07 16:45:28.782706 bybit SUSHIUSDT swap 6h [7.52 %] [price = 1.84500000]                                                                          
+VETUSDT swap bybit 2022-11-07 16:46:41.497189 bybit VETUSDT swap 6h [4.87 %] [price = 0.02585000]                                                                              
+COTIUSDT swap bybit 2022-11-07 16:34:14.373231 bybit COTIUSDT swap 4h 6h [9.50 %] [price = 0.11300000] *** new highest evol in %                                               
