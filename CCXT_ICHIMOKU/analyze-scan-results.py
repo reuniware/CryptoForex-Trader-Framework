@@ -157,7 +157,7 @@ for filename in os.listdir("ScanResults"):
 
                         symbol = text.split(' ')[0]
                         # Bypass special leverage symbols from gateio ; Change variable excludeSpecialSymbolsFromGateIo to True if you need to include these
-                        if excludeSpecialSymbolsFromGateIo is True and (symbol.endswith("3S_USDT") or symbol.endswith("3L_USDT") or symbol.endswith("5S_USDT") or symbol.endswith("5L_USDT")):
+                        if excludeSpecialSymbolsFromGateIo is True and (symbol.endswith("3S_USDT") or symbol.endswith("3L_USDT") or symbol.endswith("5S_USDT") or symbol.endswith("5L_USDT")) or symbol.endswith("BEAR_USDT") or symbol.endswith("BULL_USDT"):
                             #print("Bypassed : " + symbol)
                             #log_to_results("Bypassed : " + symbol)
                             continue
