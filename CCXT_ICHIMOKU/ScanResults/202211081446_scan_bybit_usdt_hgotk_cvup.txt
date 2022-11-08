@@ -1,0 +1,3 @@
+Scan results at : 2022-11-08 14:45:43.421137
+ADAUSDT swap bybit 2022-11-08 14:28:35.049584 bybit ADAUSDT swap 1m [-3.64 %] [price = 0.38920000]                                                                             
+BSWUSDT swap bybit 2022-11-08 14:31:43.170583 bybit BSWUSDT swap 3m [-3.43 %] [price = 0.24770000]                                                                             
