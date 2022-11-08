@@ -1,0 +1,4 @@
+Scan results at : 2022-11-08 12:32:01.368606
+AVAXUSDT swap bybit 2022-11-08 12:34:32.727393 bybit AVAXUSDT swap 3m [-7.58 %] [price = 16.69500000]                                                                          
+XRPUSDT swap bybit 2022-11-08 12:50:36.036302 bybit XRPUSDT swap 1m 5m [-5.58 %] [price = 0.43860000]                                                                          
+FITFIUSDT swap bybit 2022-11-08 12:39:52.229355 bybit FITFIUSDT swap 12h [-2.90 %] [price = 0.06035000]                                                                        

@@ -1,0 +1,5 @@
+Scan results at : 2022-11-08 12:02:10.743489
+KEYUSDT spot binance 2022-11-08 11:23:08.220469 binance KEYUSDT spot 3m [-3.68 %] [price = 0.00436700]                                                                         
+STMXUSDT spot binance 2022-11-08 11:29:42.169180 binance STMXUSDT spot 3m [-6.16 %] [price = 0.00667800]                                                                       
+XRPUPUSDT spot binance 2022-11-08 11:37:19.636106 binance XRPUPUSDT spot 3m [-15.86 %] [price = 0.15390000]                                                                    
+TRUUSDT spot binance 2022-11-08 11:43:03.797041 binance TRUUSDT spot 15m 30m 6h 8h [3.29 %] [price = 0.05330000] *** new highest evol in %                                     

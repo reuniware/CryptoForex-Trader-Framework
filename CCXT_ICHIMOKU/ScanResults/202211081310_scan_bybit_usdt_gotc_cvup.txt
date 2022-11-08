@@ -1,0 +1,8 @@
+Scan results at : 2022-11-08 12:52:08.468654
+APTUSDT swap bybit 2022-11-08 12:53:17.463316 bybit APTUSDT swap 1m [-11.21 %] [price = 6.21500000]                                                                            
+ETHWUSDT swap bybit 2022-11-08 12:59:01.706695 bybit ETHWUSDT swap 1m [-12.67 %] [price = 5.30500000]                                                                          
+FLOWUSDT swap bybit 2022-11-08 12:59:27.903241 bybit FLOWUSDT swap 1m [-7.51 %] [price = 1.60000000]                                                                           
+OCEANUSDT swap bybit 2022-11-08 13:04:20.802519 bybit OCEANUSDT swap 1m [-17.09 %] [price = 0.19410000]                                                                        
+XLMUSDT swap bybit 2022-11-08 13:09:44.448040 bybit XLMUSDT swap 1m [-4.88 %] [price = 0.10425000]                                                                             
+DODOUSDT swap bybit 2022-11-08 12:57:53.956700 bybit DODOUSDT swap 5m [-5.89 %] [price = 0.14470000]                                                                           
+OPUSDT swap bybit 2022-11-08 13:04:51.840630 bybit OPUSDT swap 5m [-10.38 %] [price = 1.17400000]                                                                              
