@@ -1,0 +1,5 @@
+Scan results at : 2022-11-08 05:48:43.881036
+EOSUSDT swap bybit 2022-11-08 05:55:49.943160 bybit EOSUSDT swap 1m [-6.44 %] [price = 1.06000000]                                                                             
+ETCUSDT swap bybit 2022-11-08 05:55:55.938335 bybit ETCUSDT swap 1m [-6.75 %] [price = 23.34500000]                                                                            
+ZECUSDT swap bybit 2022-11-08 06:07:03.426621 bybit ZECUSDT swap 1m [-7.80 %] [price = 47.25000000]                                                                            
+ASTRUSDT swap bybit 2022-11-08 05:50:52.995283 bybit ASTRUSDT swap 1h 2h 4h [2.87 %] [price = 0.04835000] *** new highest evol in %                                            

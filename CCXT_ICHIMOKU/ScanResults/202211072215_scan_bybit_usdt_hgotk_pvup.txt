@@ -1,0 +1,2 @@
+Scan results at : 2022-11-07 21:56:09.333158
+ROSEUSDT swap bybit 2022-11-07 22:10:50.735471 bybit ROSEUSDT swap 2h [5.75 %] [price = 0.06800000] *** new highest evol in %                                                  

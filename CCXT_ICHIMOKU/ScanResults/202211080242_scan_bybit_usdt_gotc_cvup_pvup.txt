@@ -1,0 +1,3 @@
+Scan results at : 2022-11-08 02:26:30.858591
+BALUSDT swap bybit 2022-11-08 02:26:21.664391 bybit BALUSDT swap 6h [1.92 %] [price = 6.90500000] *** new highest evol in %                                                    
+IOTAUSDT swap bybit 2022-11-08 02:33:26.649873 bybit IOTAUSDT swap 12h [2.29 %] [price = 0.26750000] *** new highest evol in %                                                 

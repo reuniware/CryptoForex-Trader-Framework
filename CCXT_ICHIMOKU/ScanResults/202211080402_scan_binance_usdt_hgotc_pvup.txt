@@ -1,0 +1,4 @@
+Scan results at : 2022-11-08 03:56:44.378578
+GTCUSDT spot binance 2022-11-08 03:47:33.106876 binance GTCUSDT spot 15m [3.91 %] [price = 2.42000000]                                                                         
+ADADOWNUSDT spot binance 2022-11-08 03:30:21.945750 binance ADADOWNUSDT spot 2h [5.45 %] [price = 0.00415700] *** new highest evol in %                                        
+DEXEUSDT spot binance 2022-11-08 03:48:33.585812 binance DEXEUSDT spot 4h 6h [7.46 %] [price = 3.86200000] *** new highest evol in %                                           

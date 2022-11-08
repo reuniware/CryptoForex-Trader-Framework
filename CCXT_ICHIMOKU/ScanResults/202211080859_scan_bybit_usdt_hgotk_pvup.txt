@@ -1,0 +1,4 @@
+Scan results at : 2022-11-08 08:51:53.352378
+AKROUSDT swap bybit 2022-11-08 08:41:53.732999 bybit AKROUSDT swap 3m [-7.03 %] [price = 0.00343600]                                                                           
+BNXUSDT swap bybit 2022-11-08 08:44:33.158785 bybit BNXUSDT swap 30m [-0.28 %] [price = 143.80000000]                                                                          
+ASTRUSDT swap bybit 2022-11-08 08:43:01.647882 bybit ASTRUSDT swap 2h [7.23 %] [price = 0.05040000] *** new highest evol in %                                                  

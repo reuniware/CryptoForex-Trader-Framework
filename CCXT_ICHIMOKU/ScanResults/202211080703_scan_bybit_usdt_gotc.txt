@@ -1,0 +1,9 @@
+Scan results at : 2022-11-08 06:50:22.758750
+KSMUSDT swap bybit 2022-11-08 06:55:29.614630 bybit KSMUSDT swap 3m [-6.17 %] [price = 33.45000000]                                                                            
+LINKUSDT swap bybit 2022-11-08 06:55:47.905777 bybit LINKUSDT swap 30m [-5.77 %] [price = 8.43800000]                                                                          
+ALPHAUSDT swap bybit 2022-11-08 06:46:07.196271 bybit ALPHAUSDT swap 6h [-8.31 %] [price = 0.11745000]                                                                         
+CELRUSDT swap bybit 2022-11-08 06:49:14.653380 bybit CELRUSDT swap 6h [-6.67 %] [price = 0.01540000]                                                                           
+CTSIUSDT swap bybit 2022-11-08 06:50:21.477319 bybit CTSIUSDT swap 6h [-7.73 %] [price = 0.14025000]                                                                           
+DOTUSDT swap bybit 2022-11-08 06:51:16.224481 bybit DOTUSDT swap 6h [-6.11 %] [price = 6.68000000]                                                                             
+ROSEUSDT swap bybit 2022-11-08 06:58:46.856449 bybit ROSEUSDT swap 6h [-7.01 %] [price = 0.06230000]                                                                           
+XMRUSDT swap bybit 2022-11-08 07:02:44.419120 bybit XMRUSDT swap 6h [-4.10 %] [price = 148.65000000]                                                                           

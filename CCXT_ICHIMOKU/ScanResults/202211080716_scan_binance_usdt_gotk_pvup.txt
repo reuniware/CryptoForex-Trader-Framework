@@ -1,0 +1,7 @@
+Scan results at : 2022-11-08 07:03:40.761407
+API3USDT spot binance 2022-11-08 07:11:41.406442 binance API3USDT spot 1m [-5.47 %] [price = 1.84800000]                                                                       
+ANCUSDT spot binance 2022-11-08 07:12:04.901596 binance ANCUSDT spot 1m [-7.04 %] [price = 0.07717000]                                                                         
+SANTOSUSDT spot binance 2022-11-08 07:09:17.120089 binance SANTOSUSDT spot 30m [-2.37 %] [price = 12.40300000]                                                                 
+YFIIUSDT spot binance 2022-11-08 06:48:12.279183 binance YFIIUSDT spot 4h [2.79 %] [price = 1409.20000000] *** new highest evol in %                                           
+ASTRUSDT spot binance 2022-11-08 07:12:47.170111 binance ASTRUSDT spot 4h [5.53 %] [price = 0.04960000] *** new highest evol in %                                              
+PORTOUSDT spot binance 2022-11-08 07:08:00.978051 binance PORTOUSDT spot 2h 4h 6h [0.33 %] [price = 5.04730000]                                                                

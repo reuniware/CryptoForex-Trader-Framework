@@ -1,0 +1,17 @@
+Scan results at : 2022-11-08 11:15:02.217185
+GALUSDT spot binance 2022-11-08 11:13:56.306966 binance GALUSDT spot 1m [-7.37 %] [price = 2.01200000]                                                                         
+LUNCUSDT spot binance 2022-11-08 11:14:46.686195 binance LUNCUSDT spot 1m [-5.60 %] [price = 0.00022232]                                                                       
+CITYUSDT spot binance 2022-11-08 11:07:09.045947 binance CITYUSDT spot 3m [-7.20 %] [price = 5.67000000]                                                                       
+EPXUSDT spot binance 2022-11-08 11:14:12.589460 binance EPXUSDT spot 3m [-4.71 %] [price = 0.00044500]                                                                         
+XLMUSDT spot binance 2022-11-08 10:29:35.213171 binance XLMUSDT spot 5m [-4.74 %] [price = 0.10440000]                                                                         
+BEAMUSDT spot binance 2022-11-08 10:36:35.900949 binance BEAMUSDT spot 5m [-5.91 %] [price = 0.15920000]                                                                       
+HIGHUSDT spot binance 2022-11-08 11:09:46.177052 binance HIGHUSDT spot 5m [-6.27 %] [price = 1.43500000]                                                                       
+CVXUSDT spot binance 2022-11-08 11:09:54.000639 binance CVXUSDT spot 5m [-4.23 %] [price = 5.02300000]                                                                         
+ADADOWNUSDT spot binance 2022-11-08 10:43:38.984623 binance ADADOWNUSDT spot 4h [9.21 %] [price = 0.00430500] *** new highest evol in %                                        
+JUVUSDT spot binance 2022-11-08 10:53:47.374247 binance JUVUSDT spot 6h [-5.53 %] [price = 4.10000000]                                                                         
+PSGUSDT spot binance 2022-11-08 10:53:55.164640 binance PSGUSDT spot 6h [-4.83 %] [price = 7.09000000]                                                                         
+TRUUSDT spot binance 2022-11-08 10:55:12.743756 binance TRUUSDT spot 6h [-3.10 %] [price = 0.05000000]                                                                         
+QUICKUSDT spot binance 2022-11-08 11:02:49.019955 binance QUICKUSDT spot 6h [-6.47 %] [price = 65.10000000]                                                                    
+SANTOSUSDT spot binance 2022-11-08 11:08:56.592833 binance SANTOSUSDT spot 6h [-0.36 %] [price = 12.65800000]                                                                  
+GMTUSDT spot binance 2022-11-08 11:12:34.040757 binance GMTUSDT spot 6h [-2.46 %] [price = 0.57170000]                                                                         
+ALPINEUSDT spot binance 2022-11-08 11:12:06.585670 binance ALPINEUSDT spot 6h 12h [4.93 %] [price = 3.40730000]                                                                

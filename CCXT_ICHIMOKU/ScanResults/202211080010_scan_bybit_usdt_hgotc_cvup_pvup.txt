@@ -1,0 +1,5 @@
+Scan results at : 2022-11-08 00:01:28.405282
+BNBUSDT swap bybit 2022-11-07 23:54:48.929767 bybit BNBUSDT swap 15m [-0.13 %] [price = 337.15000000]                                                                          
+EOSUSDT swap bybit 2022-11-07 23:58:28.565670 bybit EOSUSDT swap 15m [1.89 %] [price = 1.13300000]                                                                             
+SANDUSDT swap bybit 2022-11-08 00:05:56.668705 bybit SANDUSDT swap 15m [0.37 %] [price = 0.84360000]                                                                           
+CROUSDT swap bybit 2022-11-07 23:56:29.509319 bybit CROUSDT swap 30m [5.34 %] [price = 0.12435000] *** new highest evol in %                                                   

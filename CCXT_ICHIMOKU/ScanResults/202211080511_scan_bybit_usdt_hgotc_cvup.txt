@@ -1,0 +1,4 @@
+Scan results at : 2022-11-08 04:58:40.203313
+MASKUSDT swap bybit 2022-11-08 05:04:26.828470 bybit MASKUSDT swap 1m [-9.04 %] [price = 3.82500000]                                                                           
+OMGUSDT swap bybit 2022-11-08 05:05:21.068379 bybit OMGUSDT swap 1m [-4.20 %] [price = 1.59800000]                                                                             
+REEFUSDT swap bybit 2022-11-08 05:06:09.081751 bybit REEFUSDT swap 4h [-11.30 %] [price = 0.00557500]                                                                          

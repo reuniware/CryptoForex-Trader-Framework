@@ -1,0 +1,10 @@
+Scan results at : 2022-11-08 02:04:37.610780
+PEOPLEUSDT swap bybit 2022-11-08 02:18:05.204242 bybit PEOPLEUSDT swap 3m [1.00 %] [price = 0.02520000]                                                                        
+ALICEUSDT swap bybit 2022-11-08 02:05:53.277493 bybit ALICEUSDT swap 6h [2.33 %] [price = 1.76000000] *** new highest evol in %                                                
+BALUSDT swap bybit 2022-11-08 02:07:26.653898 bybit BALUSDT swap 6h [1.40 %] [price = 6.87000000]                                                                              
+KSMUSDT swap bybit 2022-11-08 02:15:29.436133 bybit KSMUSDT swap 6h [0.56 %] [price = 35.85000000]                                                                             
+OMGUSDT swap bybit 2022-11-08 02:17:34.466844 bybit OMGUSDT swap 6h [1.20 %] [price = 1.68800000]                                                                              
+UNFIUSDT swap bybit 2022-11-08 02:21:47.466040 bybit UNFIUSDT swap 6h [1.93 %] [price = 6.08350000]                                                                            
+WOOUSDT swap bybit 2022-11-08 02:22:18.050594 bybit WOOUSDT swap 6h [0.84 %] [price = 0.17920000]                                                                              
+MANAUSDT swap bybit 2022-11-08 02:16:32.413974 bybit MANAUSDT swap 4h 6h [3.32 %] [price = 0.68550000] *** new highest evol in %                                               
+IOTAUSDT swap bybit 2022-11-08 02:14:40.161021 bybit IOTAUSDT swap 12h [2.87 %] [price = 0.26900000] *** new highest evol in %                                                 

@@ -1,0 +1,8 @@
+Scan results at : 2022-11-08 11:34:25.498480
+ARUSDT swap bybit 2022-11-08 11:36:38.429844 bybit ARUSDT swap 5m [-4.56 %] [price = 12.99000000]                                                                              
+PAXGUSDT swap bybit 2022-11-08 11:48:00.214423 bybit PAXGUSDT swap 3m 5m [0.06 %] [price = 1661.00000000]                                                                      
+FITFIUSDT swap bybit 2022-11-08 11:42:24.008130 bybit FITFIUSDT swap 6h [-4.91 %] [price = 0.05910000]                                                                         
+LTCUSDT swap bybit 2022-11-08 11:46:20.493232 bybit LTCUSDT swap 6h [-4.87 %] [price = 64.06000000]                                                                            
+GMTUSDT swap bybit 2022-11-08 11:43:20.214267 bybit GMTUSDT swap 4h 6h [-3.06 %] [price = 0.56800000]                                                                          
+LINKUSDT swap bybit 2022-11-08 11:45:48.943137 bybit LINKUSDT swap 4h 6h [-2.17 %] [price = 8.76100000]                                                                        
+GTCUSDT swap bybit 2022-11-08 11:43:38.566668 bybit GTCUSDT swap 5m 1d [4.29 %] [price = 2.43000000] *** new highest evol in %                                                 

@@ -1,0 +1,10 @@
+Scan results at : 2022-11-07 20:57:17.062801
+ZECUSDT swap bybit 2022-11-07 21:16:26.145807 bybit ZECUSDT swap 1m [3.18 %] [price = 51.85000000]                                                                             
+CTCUSDT swap bybit 2022-11-07 21:02:57.301992 bybit CTCUSDT swap 3m [-1.88 %] [price = 0.53710000]                                                                             
+SCUSDT swap bybit 2022-11-07 21:12:34.214799 bybit SCUSDT swap 15m [0.91 %] [price = 0.00331000]                                                                               
+BALUSDT swap bybit 2022-11-07 21:00:09.415754 bybit BALUSDT swap 6h [3.90 %] [price = 6.93500000] *** new highest evol in %                                                    
+FITFIUSDT swap bybit 2022-11-07 21:05:14.256195 bybit FITFIUSDT swap 12h [4.58 %] [price = 0.06280000]                                                                         
+CTSIUSDT swap bybit 2022-11-07 21:03:09.779081 bybit CTSIUSDT swap 1d [8.17 %] [price = 0.15495000] *** new highest evol in %                                                  
+DASHUSDT swap bybit 2022-11-07 21:03:34.760346 bybit DASHUSDT swap 1d [6.64 %] [price = 46.55000000]                                                                           
+LPTUSDT swap bybit 2022-11-07 21:09:03.182993 bybit LPTUSDT swap 1d [15.31 %] [price = 11.30000000] *** new highest evol in %                                                  
+ONEUSDT swap bybit 2022-11-07 21:10:39.759957 bybit ONEUSDT swap 1d [8.91 %] [price = 0.02140000]                                                                              

@@ -1,0 +1,9 @@
+Scan results at : 2022-11-08 11:15:38.031960
+CKBUSDT swap bybit 2022-11-08 11:20:08.138532 bybit CKBUSDT swap 3m [-3.67 %] [price = 0.00328000]                                                                             
+CREAMUSDT swap bybit 2022-11-08 11:20:27.077986 bybit CREAMUSDT swap 3m [-5.13 %] [price = 11.10000000]                                                                        
+CTCUSDT swap bybit 2022-11-08 11:20:45.714996 bybit CTCUSDT swap 3m [-4.79 %] [price = 0.51055000]                                                                             
+AAVEUSDT swap bybit 2022-11-08 11:15:51.027488 bybit AAVEUSDT swap 5m [-5.45 %] [price = 82.45000000]                                                                          
+LITUSDT swap bybit 2022-11-08 11:26:34.851439 bybit LITUSDT swap 5m [-10.36 %] [price = 0.95200000]                                                                            
+REEFUSDT swap bybit 2022-11-08 11:29:03.022510 bybit REEFUSDT swap 30m [-3.98 %] [price = 0.00603500]                                                                          
+GMTUSDT swap bybit 2022-11-08 11:24:01.209527 bybit GMTUSDT swap 4h 6h [-2.78 %] [price = 0.56960000]                                                                          
+LINKUSDT swap bybit 2022-11-08 11:26:28.821378 bybit LINKUSDT swap 4h 6h [-1.15 %] [price = 8.85200000]                                                                        

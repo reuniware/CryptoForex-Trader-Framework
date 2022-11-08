@@ -1,0 +1,7 @@
+Scan results at : 2022-11-07 22:24:56.527309
+REEFUSDT swap bybit 2022-11-07 22:30:08.847894 bybit REEFUSDT swap 30m [7.85 %] [price = 0.00542500]                                                                           
+LPTUSDT swap bybit 2022-11-07 22:27:50.795927 bybit LPTUSDT swap 2h [11.22 %] [price = 10.90000000] *** new highest evol in %                                                  
+CRVUSDT swap bybit 2022-11-07 22:21:33.808950 bybit CRVUSDT swap 4h [5.37 %] [price = 1.00000000] *** new highest evol in %                                                    
+LINKUSDT swap bybit 2022-11-07 22:27:31.690105 bybit LINKUSDT swap 4h [7.79 %] [price = 8.73100000] *** new highest evol in %                                                  
+OCEANUSDT swap bybit 2022-11-07 22:29:05.398154 bybit OCEANUSDT swap 4h [5.66 %] [price = 0.22770000]                                                                          
+RSRUSDT swap bybit 2022-11-07 22:30:41.089993 bybit RSRUSDT swap 4h [5.15 %] [price = 0.00715000]                                                                              

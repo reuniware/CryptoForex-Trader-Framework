@@ -1,0 +1,6 @@
+Scan results at : 2022-11-07 22:15:53.862224
+REEFUSDT spot binance 2022-11-07 22:03:10.726129 binance REEFUSDT spot 2h 4h [9.49 %] [price = 0.00550200] *** new highest evol in %                                           
+CTSIUSDT spot binance 2022-11-07 21:49:49.194561 binance CTSIUSDT spot 1d [6.83 %] [price = 0.15330000] *** new highest evol in %                                              
+LPTUSDT spot binance 2022-11-07 22:09:07.065356 binance LPTUSDT spot 1d [12.63 %] [price = 11.06000000] *** new highest evol in %                                              
+QUICKUSDT spot binance 2022-11-07 22:11:52.351083 binance QUICKUSDT spot 1d [5.97 %] [price = 69.20000000]                                                                     
+LAZIOUSDT spot binance 2022-11-07 22:15:14.642531 binance LAZIOUSDT spot 1d [13.85 %] [price = 7.15470000] *** new highest evol in %                                           

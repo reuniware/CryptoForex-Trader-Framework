@@ -1,0 +1,5 @@
+Scan results at : 2022-11-08 09:18:32.242276
+SUSHIUSDT swap bybit 2022-11-08 09:16:22.747964 bybit SUSHIUSDT swap 1m [-6.66 %] [price = 1.61300000]                                                                         
+THETAUSDT swap bybit 2022-11-08 09:16:41.120034 bybit THETAUSDT swap 1m [-6.78 %] [price = 1.12800000]                                                                         
+GMXUSDT swap bybit 2022-11-08 09:08:40.705415 bybit GMXUSDT swap 3m [-5.63 %] [price = 36.44000000]                                                                            
+ASTRUSDT swap bybit 2022-11-08 09:01:56.037217 bybit ASTRUSDT swap 2h [6.70 %] [price = 0.05015000] *** new highest evol in %                                                  

@@ -1,0 +1,4 @@
+Scan results at : 2022-11-07 23:13:30.759668
+LITUSDT swap bybit 2022-11-07 23:24:43.551238 bybit LITUSDT swap 5m [5.51 %] [price = 1.07200000] *** new highest evol in %                                                    
+ETHWUSDT swap bybit 2022-11-07 23:21:03.613717 bybit ETHWUSDT swap 3m 5m [0.66 %] [price = 6.12000000] *** new highest evol in %                                               
+THETAUSDT swap bybit 2022-11-07 23:29:59.433220 bybit THETAUSDT swap 15m [0.83 %] [price = 1.21000000]                                                                         

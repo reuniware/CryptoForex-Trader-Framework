@@ -1,0 +1,12 @@
+Scan results at : 2022-11-07 19:01:53.324282
+CVCUSDT spot binance 2022-11-07 18:22:00.679623 binance CVCUSDT spot 3m [5.47 %] [price = 0.13500000]                                                                          
+VTHOUSDT spot binance 2022-11-07 18:30:01.216926 binance VTHOUSDT spot 30m [2.88 %] [price = 0.00142800]                                                                       
+YFIIUSDT spot binance 2022-11-07 18:34:20.445530 binance YFIIUSDT spot 1h [6.26 %] [price = 1380.20000000]                                                                     
+FARMUSDT spot binance 2022-11-07 18:48:56.720050 binance FARMUSDT spot 8h [1.75 %] [price = 40.70000000]                                                                       
+DASHUSDT spot binance 2022-11-07 18:18:07.383079 binance DASHUSDT spot 1d [7.14 %] [price = 46.79000000] *** new highest evol in %                                             
+CTSIUSDT spot binance 2022-11-07 18:26:57.099137 binance CTSIUSDT spot 1d [6.76 %] [price = 0.15320000]                                                                        
+DODOUSDT spot binance 2022-11-07 18:42:16.586445 binance DODOUSDT spot 1d [4.04 %] [price = 0.15700000]                                                                        
+QUICKUSDT spot binance 2022-11-07 18:49:12.315694 binance QUICKUSDT spot 1d [12.40 %] [price = 73.40000000]                                                                    
+LAZIOUSDT spot binance 2022-11-07 18:52:39.703726 binance LAZIOUSDT spot 1d [15.71 %] [price = 7.27120000]                                                                     
+LPTUSDT spot binance 2022-11-07 18:46:21.111762 binance LPTUSDT spot 1h 2h 1d [17.52 %] [price = 11.54000000] *** new highest evol in %                                        
+DEXEUSDT spot binance 2022-11-07 18:47:49.836011 binance DEXEUSDT spot 4h 8h 12h 1d [37.01 %] [price = 4.12800000] *** new highest evol in %                                   

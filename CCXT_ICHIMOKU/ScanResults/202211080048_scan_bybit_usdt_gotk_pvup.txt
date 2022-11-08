@@ -1,0 +1,17 @@
+Scan results at : 2022-11-08 00:30:25.289792
+BLZUSDT swap bybit 2022-11-08 00:32:53.853854 bybit BLZUSDT swap 1m [0.75 %] [price = 0.08020000]                                                                              
+BSWUSDT swap bybit 2022-11-08 00:33:24.790563 bybit BSWUSDT swap 1m [0.19 %] [price = 0.25700000]                                                                              
+GALAUSDT swap bybit 2022-11-08 00:37:44.330240 bybit GALAUSDT swap 1m [1.02 %] [price = 0.03647000]                                                                            
+1000LUNCUSDT swap bybit 2022-11-08 00:29:43.036692 bybit 1000LUNCUSDT swap 3m [-0.21 %] [price = 0.23470000]                                                                   
+CROUSDT swap bybit 2022-11-08 00:34:38.844885 bybit CROUSDT swap 15m [0.24 %] [price = 0.12470000]                                                                             
+CVXUSDT swap bybit 2022-11-08 00:35:15.820790 bybit CVXUSDT swap 15m [0.76 %] [price = 5.28000000]                                                                             
+ICPUSDT swap bybit 2022-11-08 00:38:46.086397 bybit ICPUSDT swap 15m [0.19 %] [price = 5.20000000]                                                                             
+ONEUSDT swap bybit 2022-11-08 00:42:22.698666 bybit ONEUSDT swap 15m [-0.47 %] [price = 0.02100000]                                                                            
+BALUSDT swap bybit 2022-11-08 00:32:10.850629 bybit BALUSDT swap 3m 15m [0.96 %] [price = 6.84000000]                                                                          
+HBARUSDT swap bybit 2022-11-08 00:38:27.710050 bybit HBARUSDT swap 3m 15m [0.42 %] [price = 0.05935000]                                                                        
+ASTRUSDT swap bybit 2022-11-08 00:31:34.089830 bybit ASTRUSDT swap 30m [0.11 %] [price = 0.04705000]                                                                           
+PAXGUSDT swap bybit 2022-11-08 00:42:41.009380 bybit PAXGUSDT swap 30m 2h [0.48 %] [price = 1668.00000000]                                                                     
+ARPAUSDT swap bybit 2022-11-08 00:31:21.940426 bybit ARPAUSDT swap 4h [1.27 %] [price = 0.03674000] *** new highest evol in %                                                  
+ENJUSDT swap bybit 2022-11-08 00:36:23.384841 bybit ENJUSDT swap 4h [0.22 %] [price = 0.46600000]                                                                              
+IOTXUSDT swap bybit 2022-11-08 00:39:29.411447 bybit IOTXUSDT swap 4h [2.06 %] [price = 0.03475000] *** new highest evol in %                                                  
+INJUSDT swap bybit 2022-11-08 00:39:11.144538 bybit INJUSDT swap 15m 4h [1.38 %] [price = 2.71750000] *** new highest evol in %                                                

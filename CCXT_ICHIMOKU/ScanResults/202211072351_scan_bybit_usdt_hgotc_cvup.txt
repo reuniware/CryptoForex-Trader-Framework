@@ -1,0 +1,8 @@
+Scan results at : 2022-11-07 23:32:20.774574
+OCEANUSDT swap bybit 2022-11-07 23:44:48.597103 bybit OCEANUSDT swap 5m [9.47 %] [price = 0.23590000]                                                                          
+ETHWUSDT swap bybit 2022-11-07 23:39:45.269567 bybit ETHWUSDT swap 15m [-0.16 %] [price = 6.07000000]                                                                          
+ICPUSDT swap bybit 2022-11-07 23:41:34.109173 bybit ICPUSDT swap 15m [-0.77 %] [price = 5.17000000]                                                                            
+WOOUSDT swap bybit 2022-11-07 23:49:43.624463 bybit WOOUSDT swap 15m [2.83 %] [price = 0.17780000]                                                                             
+ZILUSDT swap bybit 2022-11-07 23:50:58.121760 bybit ZILUSDT swap 15m [2.75 %] [price = 0.03210000]                                                                             
+CROUSDT swap bybit 2022-11-07 23:37:32.412158 bybit CROUSDT swap 30m [5.04 %] [price = 0.12400000] *** new highest evol in %                                                   
+LPTUSDT swap bybit 2022-11-07 23:43:35.570028 bybit LPTUSDT swap 2h [11.22 %] [price = 10.90000000] *** new highest evol in %                                                  

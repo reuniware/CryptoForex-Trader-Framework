@@ -1,0 +1,9 @@
+Scan results at : 2022-11-07 23:13:00.636317
+FILUSDT swap bybit 2022-11-07 23:02:02.758363 bybit FILUSDT swap 1m [-2.40 %] [price = 5.69000000]                                                                             
+FLMUSDT swap bybit 2022-11-07 23:02:14.976257 bybit FLMUSDT swap 1m [0.04 %] [price = 0.11275000]                                                                              
+GLMRUSDT swap bybit 2022-11-07 23:02:58.326126 bybit GLMRUSDT swap 15m [1.81 %] [price = 0.50500000]                                                                           
+ENJUSDT swap bybit 2022-11-07 23:01:25.684846 bybit ENJUSDT swap 1m 15m [2.68 %] [price = 0.45950000]                                                                          
+CRVUSDT swap bybit 2022-11-07 22:59:46.923418 bybit CRVUSDT swap 2h [5.27 %] [price = 0.99900000] *** new highest evol in %                                                    
+LINKUSDT swap bybit 2022-11-07 23:05:33.960251 bybit LINKUSDT swap 2h [8.07 %] [price = 8.75400000] *** new highest evol in %                                                  
+LPTUSDT swap bybit 2022-11-07 23:05:52.392935 bybit LPTUSDT swap 2h [12.24 %] [price = 11.00000000] *** new highest evol in %                                                  
+OPUSDT swap bybit 2022-11-07 23:07:38.386211 bybit OPUSDT swap 2h [2.06 %] [price = 1.31150000]                                                                                

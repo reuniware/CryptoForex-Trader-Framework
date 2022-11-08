@@ -1,0 +1,4 @@
+Scan results at : 2022-11-08 06:34:44.241627
+ILVUSDT swap bybit 2022-11-08 06:35:29.684714 bybit ILVUSDT swap 1m [-6.18 %] [price = 56.20000000]                                                                            
+OCEANUSDT swap bybit 2022-11-08 06:38:32.906409 bybit OCEANUSDT swap 1m [-15.68 %] [price = 0.19740000]                                                                        
+ASTRUSDT swap bybit 2022-11-08 06:28:08.715418 bybit ASTRUSDT swap 4h [1.70 %] [price = 0.04780000] *** new highest evol in %                                                  

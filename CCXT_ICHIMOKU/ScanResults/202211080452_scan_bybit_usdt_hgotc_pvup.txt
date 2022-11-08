@@ -1,0 +1,2 @@
+Scan results at : 2022-11-08 04:51:58.993215
+UNFIUSDT swap bybit 2022-11-08 04:50:50.982206 bybit UNFIUSDT swap 1m [-2.59 %] [price = 5.81400000]                                                                           

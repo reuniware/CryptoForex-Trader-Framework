@@ -1,0 +1,14 @@
+Scan results at : 2022-11-08 03:14:49.934083
+REEFUSDT swap bybit 2022-11-08 03:14:13.614111 bybit REEFUSDT swap 2h [-5.73 %] [price = 0.00592500]                                                                           
+ASTRUSDT swap bybit 2022-11-08 03:02:56.793448 bybit ASTRUSDT swap 6h [0.43 %] [price = 0.04720000] *** new highest evol in %                                                  
+ARPAUSDT swap bybit 2022-11-08 03:02:44.844609 bybit ARPAUSDT swap 12h [-0.25 %] [price = 0.03619000]                                                                          
+COTIUSDT swap bybit 2022-11-08 03:05:46.243952 bybit COTIUSDT swap 12h [-4.89 %] [price = 0.10700000]                                                                          
+CRVUSDT swap bybit 2022-11-08 03:06:04.589867 bybit CRVUSDT swap 12h [-3.89 %] [price = 0.96300000]                                                                            
+CVCUSDT swap bybit 2022-11-08 03:06:28.591699 bybit CVCUSDT swap 12h [-3.01 %] [price = 0.12900000]                                                                            
+GLMRUSDT swap bybit 2022-11-08 03:09:10.594921 bybit GLMRUSDT swap 12h [0.00 %] [price = 0.50700000]                                                                           
+SNXUSDT swap bybit 2022-11-08 03:15:50.460609 bybit SNXUSDT swap 12h [-0.69 %] [price = 2.57800000]                                                                            
+TRBUSDT swap bybit 2022-11-08 03:17:21.072210 bybit TRBUSDT swap 12h [-2.23 %] [price = 16.67500000]                                                                           
+ATOMUSDT swap bybit 2022-11-08 03:03:02.776393 bybit ATOMUSDT swap 1w [-2.94 %] [price = 13.85000000]                                                                          
+BNBUSDT swap bybit 2022-11-08 03:04:21.204042 bybit BNBUSDT swap 1w [0.73 %] [price = 339.10000000] *** new highest evol in %                                                  
+DOGEUSDT swap bybit 2022-11-08 03:07:10.659874 bybit DOGEUSDT swap 1w [-3.06 %] [price = 0.10780000]                                                                           
+UNIUSDT swap bybit 2022-11-08 03:17:39.666695 bybit UNIUSDT swap 1w [-1.77 %] [price = 6.87900000]                                                                             

@@ -1,0 +1,2 @@
+Scan results at : 2022-11-08 10:27:59.629043
+ANTUSDT swap bybit 2022-11-08 10:18:47.742181 bybit ANTUSDT swap 30m [2.62 %] [price = 1.96000000] *** new highest evol in %                                                   

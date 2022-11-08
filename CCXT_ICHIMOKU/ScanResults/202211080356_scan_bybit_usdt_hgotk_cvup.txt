@@ -1,0 +1,4 @@
+Scan results at : 2022-11-08 03:52:10.384713
+REEFUSDT swap bybit 2022-11-08 03:51:33.135173 bybit REEFUSDT swap 2h [-7.24 %] [price = 0.00583000]                                                                           
+ASTRUSDT swap bybit 2022-11-08 03:40:12.519865 bybit ASTRUSDT swap 6h [-1.60 %] [price = 0.04625000]                                                                           
+ARPAUSDT swap bybit 2022-11-08 03:40:00.527984 bybit ARPAUSDT swap 12h [1.85 %] [price = 0.03695000] *** new highest evol in %                                                 

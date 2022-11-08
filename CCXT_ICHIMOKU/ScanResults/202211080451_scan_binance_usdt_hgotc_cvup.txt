@@ -1,0 +1,7 @@
+Scan results at : 2022-11-08 04:34:05.870435
+YFIIUSDT spot binance 2022-11-08 04:23:23.315913 binance YFIIUSDT spot 3m [1.28 %] [price = 1388.50000000]                                                                     
+BNBDOWNUSDT spot binance 2022-11-08 04:20:14.471654 binance BNBDOWNUSDT spot 15m [12.35 %] [price = 0.02575000] *** new highest evol in %                                      
+DOTDOWNUSDT spot binance 2022-11-08 04:25:07.367588 binance DOTDOWNUSDT spot 30m [16.33 %] [price = 11.56900000] *** new highest evol in %                                     
+REEFUSDT spot binance 2022-11-08 04:29:36.541570 binance REEFUSDT spot 4h [-17.29 %] [price = 0.00575600]                                                                      
+DEXEUSDT spot binance 2022-11-08 04:37:02.587194 binance DEXEUSDT spot 6h [-3.90 %] [price = 3.45400000]                                                                       
+EURUSDT spot binance 2022-11-08 04:13:50.012887 binance EURUSDT spot 8h [-0.13 %] [price = 0.99940000]                                                                         

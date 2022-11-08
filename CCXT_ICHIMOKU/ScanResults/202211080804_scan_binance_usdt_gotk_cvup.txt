@@ -1,0 +1,10 @@
+Scan results at : 2022-11-08 08:02:24.446251
+POLYXUSDT spot binance 2022-11-08 08:03:37.185535 binance POLYXUSDT spot 1m [-4.24 %] [price = 0.16730000]                                                                     
+OMUSDT spot binance 2022-11-08 07:44:59.965504 binance OMUSDT spot 3m [-3.29 %] [price = 0.04120000]                                                                           
+EPXUSDT spot binance 2022-11-08 08:02:37.447606 binance EPXUSDT spot 3m [-4.93 %] [price = 0.00044400]                                                                         
+MATICUSDT spot binance 2022-11-08 07:21:07.116609 binance MATICUSDT spot 4h [-9.83 %] [price = 1.13380000]                                                                     
+YFIIUSDT spot binance 2022-11-08 07:36:27.225034 binance YFIIUSDT spot 4h [-0.25 %] [price = 1367.60000000]                                                                    
+LINKUSDT spot binance 2022-11-08 07:18:40.198882 binance LINKUSDT spot 6h [-5.77 %] [price = 8.43900000]                                                                       
+LINKUPUSDT spot binance 2022-11-08 07:31:56.196918 binance LINKUPUSDT spot 6h [-8.42 %] [price = 0.01435000]                                                                   
+GMTUSDT spot binance 2022-11-08 08:00:59.457817 binance GMTUSDT spot 6h [-6.11 %] [price = 0.55030000]                                                                         
+PORTOUSDT spot binance 2022-11-08 07:56:02.766587 binance PORTOUSDT spot 2h 4h 6h [3.88 %] [price = 5.22590000] *** new highest evol in %                                      

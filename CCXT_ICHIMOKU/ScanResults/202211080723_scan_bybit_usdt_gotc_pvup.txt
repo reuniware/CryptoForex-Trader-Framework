@@ -1,0 +1,6 @@
+Scan results at : 2022-11-08 07:16:04.522311
+FLOWUSDT swap bybit 2022-11-08 07:11:48.548782 bybit FLOWUSDT swap 1m [-6.94 %] [price = 1.61000000]                                                                           
+ICXUSDT swap bybit 2022-11-08 07:13:21.066050 bybit ICXUSDT swap 1m [-6.23 %] [price = 0.21540000]                                                                             
+API3USDT swap bybit 2022-11-08 07:05:30.676485 bybit API3USDT swap 3m [-5.22 %] [price = 1.85200000]                                                                           
+SPELLUSDT swap bybit 2022-11-08 07:19:31.380229 bybit SPELLUSDT swap 3m [-5.49 %] [price = 0.00086000]                                                                         
+TRXUSDT swap bybit 2022-11-08 07:21:00.847256 bybit TRXUSDT swap 3m [-2.67 %] [price = 0.06058000]                                                                             

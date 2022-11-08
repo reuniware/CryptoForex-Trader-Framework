@@ -1,0 +1,4 @@
+Scan results at : 2022-11-08 09:57:48.687345
+SUSHIUSDT swap bybit 2022-11-08 10:14:22.213138 bybit SUSHIUSDT swap 1m [-4.98 %] [price = 1.64200000]                                                                         
+ANTUSDT swap bybit 2022-11-08 09:59:23.219137 bybit ANTUSDT swap 15m [4.45 %] [price = 1.99500000] *** new highest evol in %                                                   
+ASTRUSDT swap bybit 2022-11-08 10:00:00.291014 bybit ASTRUSDT swap 2h [5.11 %] [price = 0.04940000] *** new highest evol in %                                                  

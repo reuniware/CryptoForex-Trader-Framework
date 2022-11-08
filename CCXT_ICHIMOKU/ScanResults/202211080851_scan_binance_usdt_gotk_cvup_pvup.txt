@@ -1,0 +1,16 @@
+Scan results at : 2022-11-08 08:40:49.938378
+YFIIUSDT spot binance 2022-11-08 08:24:21.344045 binance YFIIUSDT spot 1s [1.90 %] [price = 1397.00000000] *** new highest evol in %                                           
+RAYUSDT spot binance 2022-11-08 08:38:36.510074 binance RAYUSDT spot 1s [-8.12 %] [price = 0.44100000]                                                                         
+DEGOUSDT spot binance 2022-11-08 08:33:09.129582 binance DEGOUSDT spot 1m [-3.92 %] [price = 1.74100000]                                                                       
+DODOUSDT spot binance 2022-11-08 08:32:10.297037 binance DODOUSDT spot 3m [-6.12 %] [price = 0.14420000]                                                                       
+SUPERUSDT spot binance 2022-11-08 08:33:41.192457 binance SUPERUSDT spot 3m [-4.36 %] [price = 0.13150000]                                                                     
+SHIBUSDT spot binance 2022-11-08 08:35:23.057414 binance SHIBUSDT spot 3m [-7.04 %] [price = 0.00001096]                                                                       
+CITYUSDT spot binance 2022-11-08 08:43:18.423322 binance CITYUSDT spot 3m [-7.86 %] [price = 5.63000000]                                                                       
+ENSUSDT spot binance 2022-11-08 08:43:27.560030 binance ENSUSDT spot 3m [-6.22 %] [price = 15.23000000]                                                                        
+QIUSDT spot binance 2022-11-08 08:43:43.379256 binance QIUSDT spot 3m [-4.65 %] [price = 0.00820000]                                                                           
+SANTOSUSDT spot binance 2022-11-08 08:45:07.498315 binance SANTOSUSDT spot 3m [0.17 %] [price = 12.72500000]                                                                   
+GALUSDT spot binance 2022-11-08 08:50:11.312033 binance GALUSDT spot 3m [-7.37 %] [price = 2.01200000]                                                                         
+AUTOUSDT spot binance 2022-11-08 08:33:57.581836 binance AUTOUSDT spot 1m 3m [-5.31 %] [price = 224.90000000]                                                                  
+BONDUSDT spot binance 2022-11-08 08:37:20.250577 binance BONDUSDT spot 5m [-0.41 %] [price = 4.83800000]                                                                       
+BIFIUSDT spot binance 2022-11-08 08:49:20.455160 binance BIFIUSDT spot 5m [2.33 %] [price = 452.80000000]                                                                      
+PORTOUSDT spot binance 2022-11-08 08:43:51.837223 binance PORTOUSDT spot 6h [4.09 %] [price = 5.23650000] *** new highest evol in %                                            
