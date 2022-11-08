@@ -1,0 +1,908 @@
+Current date and time = 2022-11-08 20:40:09.931235
+Only positive evol : True
+File filter condition = 20221108
+File filter 2 condition = ALL FILES
+
+PROCESSING 202211080001_scan_binance_usdt_hgotk.txt
+GBP             2022-11-07 23:29:28	[1.15]            	[1.15]            	[0.00 %]             	[ 6h ]
+YFII            2022-11-07 23:33:24	[1375.1]          	[1596.3]          	[16.09 %]	[ 30m 4h 8h ]
+
+Average evol per group of timeframes (ordered) :
+[30m 4h 8h].......................................16.09%    YFII
+[6h]..............................................0.00%    GBP
+
+Average total evol for this file 16.09 %
+****************************************************************************************************
+
+
+PROCESSING 202211080010_scan_bybit_usdt_hgotc_cvup_pvup.txt
+
+
+PROCESSING 202211080029_scan_bybit_usdt_gotk.txt
+
+
+PROCESSING 202211080030_scan_gateio_usdt_gotc_cvup.txt
+FEI             2022-11-07 22:35:16	[0.9914]          	[0.994]           	[0.26 %]	[ 1d ]
+
+Average evol per group of timeframes (ordered) :
+[1d]..............................................0.26%    FEI
+
+Average total evol for this file 0.26 %
+****************************************************************************************************
+
+
+PROCESSING 202211080048_scan_bybit_usdt_gotk_pvup.txt
+PAXGUSDT        2022-11-08 00:42:41	[1668.0]          	[1692.0]          	[1.44 %]	[ 30m 2h ]
+
+Average evol per group of timeframes (ordered) :
+[30m 2h]..........................................1.44%    PAXGUSDT
+
+Average total evol for this file 1.44 %
+****************************************************************************************************
+
+
+PROCESSING 202211080050_scan_binance_usdt_hgotk_pvup.txt
+YFII            2022-11-08 00:22:09	[1374.6]          	[1590.8]          	[15.73 %]	[ 12h ]
+
+Average evol per group of timeframes (ordered) :
+[12h].............................................15.73%    YFII
+
+Average total evol for this file 15.73 %
+****************************************************************************************************
+
+
+PROCESSING 202211080107_scan_bybit_usdt_gotk_cvup.txt
+
+
+PROCESSING 202211080123_scan_gateio_usdt_hgotk_pvup.txt
+GBPT            2022-11-08 00:47:21	[1.15418]         	[1.15878]         	[0.40 %]	[ 8h ]
+
+Average evol per group of timeframes (ordered) :
+[8h]..............................................0.40%    GBPT
+
+Average total evol for this file 0.40 %
+****************************************************************************************************
+
+
+PROCESSING 202211080126_scan_bybit_usdt_gotk_cvup_pvup.txt
+
+
+PROCESSING 202211080138_scan_binance_usdt_hgotk_cvup.txt
+YFII            2022-11-08 01:10:28	[1381.4]          	[1590.8]          	[15.16 %]	[ 3m 12h ]
+
+Average evol per group of timeframes (ordered) :
+[3m 12h]..........................................15.16%    YFII
+
+Average total evol for this file 15.16 %
+****************************************************************************************************
+
+
+PROCESSING 202211080145_scan_bybit_usdt_gotc.txt
+
+
+PROCESSING 202211080204_scan_bybit_usdt_gotc_pvup.txt
+
+
+PROCESSING 202211080223_scan_bybit_usdt_gotc_cvup.txt
+
+
+PROCESSING 202211080226_scan_binance_usdt_hgotk_cvup_pvup.txt
+YFII            2022-11-08 01:58:51	[1384.1]          	[1594.6]          	[15.21 %]	[ 12h ]
+
+Average evol per group of timeframes (ordered) :
+[12h].............................................15.21%    YFII
+
+Average total evol for this file 15.21 %
+****************************************************************************************************
+
+
+PROCESSING 202211080242_scan_bybit_usdt_gotc_cvup_pvup.txt
+
+
+PROCESSING 202211080300_scan_bybit_usdt.txt
+USDCUSDT        2022-11-08 02:59:10	[1.0]             	[1.0005]          	[0.05 %]	[ 1m ]
+BNXUSDT         2022-11-08 02:45:52	[144.8]           	[147.6]           	[1.93 %]	[ 30m ]
+
+Average evol per group of timeframes (ordered) :
+[30m].............................................1.93%    BNXUSDT
+[1m]..............................................0.05%    USDCUSDT
+
+Average total evol for this file 1.98 %
+****************************************************************************************************
+
+
+PROCESSING 202211080314_scan_binance_usdt_hgotc.txt
+
+
+PROCESSING 202211080314_scan_gateio_usdt_gotc_cvup_pvup.txt
+
+
+PROCESSING 202211080319_scan_bybit_usdt_hgotk.txt
+
+
+PROCESSING 202211080333_scan_bybit_usdt_gotk_cvup_pvup.txt
+
+
+PROCESSING 202211080338_scan_bybit_usdt_hgotk_pvup.txt
+
+
+PROCESSING 202211080352_scan_bybit_usdt_gotc_cvup.txt
+
+
+PROCESSING 202211080356_scan_bybit_usdt_hgotk_cvup.txt
+
+
+PROCESSING 202211080402_scan_binance_usdt_hgotc_pvup.txt
+
+
+PROCESSING 202211080407_scan_gateio_usdt_hgotk_cvup.txt
+PTS             2022-11-08 03:25:35	[0.0031979]       	[0.0032]          	[0.07 %]	[ 1h ]
+
+Average evol per group of timeframes (ordered) :
+[1h]..............................................0.07%    PTS
+
+Average total evol for this file 0.07 %
+****************************************************************************************************
+
+
+PROCESSING 202211080410_scan_bybit_usdt_gotc_cvup_pvup.txt
+
+
+PROCESSING 202211080415_scan_bybit_usdt_hgotk_cvup_pvup.txt
+
+
+PROCESSING 202211080434_scan_bybit_usdt_hgotc.txt
+USDCUSDT        2022-11-08 04:32:26	[1.0]             	[1.0005]          	[0.05 %]	[ 6h ]
+
+Average evol per group of timeframes (ordered) :
+[6h]..............................................0.05%    USDCUSDT
+
+Average total evol for this file 0.05 %
+****************************************************************************************************
+
+
+PROCESSING 202211080451_scan_binance_usdt_hgotc_cvup.txt
+YFII            2022-11-08 04:23:23	[1388.5]          	[1590.0]          	[14.51 %]	[ 3m ]
+
+Average evol per group of timeframes (ordered) :
+[3m]..............................................14.51%    YFII
+
+Average total evol for this file 14.51 %
+****************************************************************************************************
+
+
+PROCESSING 202211080452_scan_bybit_usdt_hgotc_pvup.txt
+
+
+PROCESSING 202211080458_scan_binance_usdt_gotk_cvup_pvup.txt
+YFII            2022-11-08 04:31:03	[1397.9]          	[1590.0]          	[13.74 %]	[ 1h 2h 4h ]
+
+Average evol per group of timeframes (ordered) :
+[1h 2h 4h]........................................13.74%    YFII
+
+Average total evol for this file 13.74 %
+****************************************************************************************************
+
+
+PROCESSING 202211080511_scan_bybit_usdt_hgotc_cvup.txt
+
+
+PROCESSING 202211080529_scan_bybit_usdt_hgotc_cvup_pvup.txt
+
+
+PROCESSING 202211080539_scan_binance_usdt_hgotc_cvup_pvup.txt
+
+
+PROCESSING 202211080546_scan_binance_usdt_gotc_cvup.txt
+YFII            2022-11-08 05:18:49	[1396.0]          	[1590.0]          	[13.90 %]	[ 2h ]
+
+Average evol per group of timeframes (ordered) :
+[2h]..............................................13.90%    YFII
+
+Average total evol for this file 13.90 %
+****************************************************************************************************
+
+
+PROCESSING 202211080548_scan_bybit_usdt_gotk.txt
+
+
+PROCESSING 202211080607_scan_bybit_usdt_gotk_pvup.txt
+
+
+PROCESSING 202211080625_scan_bybit_usdt_gotk_cvup.txt
+
+
+PROCESSING 202211080627_scan_binance_usdt_gotk.txt
+TWT             2022-11-08 06:07:27	[1.1001]          	[1.1419]          	[3.80 %]	[ 3m ]
+BNX             2022-11-08 06:18:59	[141.4]           	[148.6]           	[5.09 %]	[ 5m ]
+YFII            2022-11-08 06:00:08	[1385.6]          	[1590.0]          	[14.75 %]	[ 4h 1w ]
+
+Average evol per group of timeframes (ordered) :
+[4h 1w]...........................................14.75%    YFII
+[5m]..............................................5.09%    BNX
+[3m]..............................................3.80%    TWT
+
+Average total evol for this file 23.64 %
+****************************************************************************************************
+
+
+PROCESSING 202211080634_scan_binance_usdt_gotc_cvup_pvup.txt
+
+
+PROCESSING 202211080644_scan_bybit_usdt_gotk_cvup_pvup.txt
+
+
+PROCESSING 202211080650_scan_gateio_usdt_hgotk_cvup_pvup.txt
+
+
+PROCESSING 202211080703_scan_bybit_usdt_gotc.txt
+
+
+PROCESSING 202211080716_scan_binance_usdt_gotk_pvup.txt
+YFII            2022-11-08 06:48:12	[1409.2]          	[1580.0]          	[12.12 %]	[ 4h ]
+
+Average evol per group of timeframes (ordered) :
+[4h]..............................................12.12%    YFII
+
+Average total evol for this file 12.12 %
+****************************************************************************************************
+
+
+PROCESSING 202211080723_scan_bybit_usdt_gotc_pvup.txt
+
+
+PROCESSING 202211080742_scan_bybit_usdt_gotc_cvup.txt
+
+
+PROCESSING 202211080802_scan_bybit_usdt_gotc_cvup_pvup.txt
+
+
+PROCESSING 202211080804_scan_binance_usdt_gotk_cvup.txt
+YFII            2022-11-08 07:36:27	[1367.6]          	[1580.0]          	[15.53 %]	[ 4h ]
+
+Average evol per group of timeframes (ordered) :
+[4h]..............................................15.53%    YFII
+
+Average total evol for this file 15.53 %
+****************************************************************************************************
+
+
+PROCESSING 202211080821_scan_bybit_usdt.txt
+USDCUSDT        2022-11-08 08:19:54	[1.0003]          	[1.0005]          	[0.02 %]	[ 1m ]
+
+Average evol per group of timeframes (ordered) :
+[1m]..............................................0.02%    USDCUSDT
+
+Average total evol for this file 0.02 %
+****************************************************************************************************
+
+
+PROCESSING 202211080840_scan_bybit_usdt_hgotk.txt
+
+
+PROCESSING 202211080851_scan_binance_usdt_gotk_cvup_pvup.txt
+YFII            2022-11-08 08:24:21	[1397.0]          	[1589.0]          	[13.74 %]	[ 1s ]
+
+Average evol per group of timeframes (ordered) :
+[1s]..............................................13.74%    YFII
+
+Average total evol for this file 13.74 %
+****************************************************************************************************
+
+
+PROCESSING 202211080859_scan_bybit_usdt_hgotk_pvup.txt
+BNXUSDT         2022-11-08 08:44:33	[143.8]           	[147.6]           	[2.64 %]	[ 30m ]
+
+Average evol per group of timeframes (ordered) :
+[30m].............................................2.64%    BNXUSDT
+
+Average total evol for this file 2.64 %
+****************************************************************************************************
+
+
+PROCESSING 202211080918_scan_gateio_usdt_gotk_cvup_pvup.txt
+SRK             2022-11-08 09:11:53	[0.00029839]      	[0.00030644]      	[2.70 %]	[ 10s 1m ]
+ANGLE           2022-11-08 06:53:33	[0.0327]          	[0.03589]         	[9.76 %]	[ 30m 1h ]
+
+Average evol per group of timeframes (ordered) :
+[30m 1h]..........................................9.76%    ANGLE
+[10s 1m]..........................................2.70%    SRK
+
+Average total evol for this file 12.45 %
+****************************************************************************************************
+
+
+PROCESSING 202211080919_scan_bybit_usdt_hgotk_cvup.txt
+
+
+PROCESSING 202211080933_scan_gateio_usdt_hgotc.txt
+ELT             2022-11-08 08:21:36	[0.052977]        	[0.053014]        	[0.07 %]	[ 30m ]
+EURT            2022-11-08 07:55:52	[0.99795]         	[1.00465]         	[0.67 %]	[ 8h ]
+
+Average evol per group of timeframes (ordered) :
+[8h]..............................................0.67%    EURT
+[30m].............................................0.07%    ELT
+
+Average total evol for this file 0.74 %
+****************************************************************************************************
+
+
+PROCESSING 202211080938_scan_bybit_usdt_hgotk_cvup_pvup.txt
+
+
+PROCESSING 202211080939_scan_binance_usdt_gotc.txt
+
+
+PROCESSING 202211080957_scan_bybit_usdt_hgotc.txt
+BNXUSDT         2022-11-08 09:42:20	[144.1]           	[147.6]           	[2.43 %]	[ 30m ]
+
+Average evol per group of timeframes (ordered) :
+[30m].............................................2.43%    BNXUSDT
+
+Average total evol for this file 2.43 %
+****************************************************************************************************
+
+
+PROCESSING 202211081017_scan_bybit_usdt_hgotc_pvup.txt
+
+
+PROCESSING 202211081027_scan_binance_usdt_gotc_pvup.txt
+
+
+PROCESSING 202211081036_scan_bybit_usdt_hgotc_cvup.txt
+
+
+PROCESSING 202211081055_scan_bybit_usdt_hgotc_cvup_pvup.txt
+
+
+PROCESSING 202211081115_scan_binance_usdt_gotc_cvup.txt
+
+
+PROCESSING 202211081115_scan_bybit_usdt_gotk.txt
+USDCUSDT        2022-11-08 11:13:21	[1.0004]          	[1.0005]          	[0.01 %]	[ 3m ]
+
+Average evol per group of timeframes (ordered) :
+[3m]..............................................0.01%    USDCUSDT
+
+Average total evol for this file 0.01 %
+****************************************************************************************************
+
+
+PROCESSING 202211081134_scan_bybit_usdt_gotk_pvup.txt
+
+
+PROCESSING 202211081153_scan_bybit_usdt_gotk_cvup.txt
+PAXGUSDT        2022-11-08 11:48:00	[1661.0]          	[1695.0]          	[2.05 %]	[ 3m 5m ]
+
+Average evol per group of timeframes (ordered) :
+[3m 5m]...........................................2.05%    PAXGUSDT
+
+Average total evol for this file 2.05 %
+****************************************************************************************************
+
+
+PROCESSING 202211081202_scan_gateio_usdt_gotc_cvup.txt
+LUFFY           2022-11-08 10:54:56	[0.0]             	[1.81e-10]        	[0.00 %]               	[ 15m 8h ]
+
+Average evol per group of timeframes (ordered) :
+[15m 8h]..........................................0.00%    LUFFY
+
+Average total evol for this file 0.00 %
+****************************************************************************************************
+
+
+PROCESSING 202211081203_scan_binance_usdt_gotc_cvup_pvup.txt
+
+
+PROCESSING 202211081212_scan_bybit_usdt_gotk_cvup_pvup.txt
+
+
+PROCESSING 202211081216_scan_gateio_usdt_hgotc_pvup.txt
+LUFFY           2022-11-08 11:09:39	[0.0]             	[1.81e-10]        	[0.00 %]               	[ 30m ]
+
+Average evol per group of timeframes (ordered) :
+[30m].............................................0.00%    LUFFY
+
+Average total evol for this file 0.00 %
+****************************************************************************************************
+
+
+PROCESSING 202211081232_scan_bybit_usdt_gotc.txt
+
+
+PROCESSING 202211081251_scan_bybit_usdt_gotc_pvup.txt
+
+
+PROCESSING 202211081252_scan_binance_usdt.txt
+PAXG            2022-11-08 12:23:38	[1664.0]          	[1702.0]          	[2.28 %]	[ 4h ]
+AUD             2022-11-08 12:21:22	[0.6457]          	[0.6483]          	[0.40 %]	[ 4h 6h 8h ]
+YFII            2022-11-08 12:24:10	[1448.1]          	[1589.0]          	[9.73 %]	[ 5m 15m 30m 1h 2h 4h 6h 8h 12h 1d ]
+
+Average evol per group of timeframes (ordered) :
+[5m 15m 30m 1h 2h 4h 6h 8h 12h 1d]................9.73%    YFII
+[4h]..............................................2.28%    PAXG
+[4h 6h 8h]........................................0.40%    AUD
+
+Average total evol for this file 12.42 %
+****************************************************************************************************
+
+
+PROCESSING 202211081310_scan_bybit_usdt_gotc_cvup.txt
+
+
+PROCESSING 202211081329_scan_bybit_usdt_gotc_cvup_pvup.txt
+
+
+PROCESSING 202211081340_scan_binance_usdt_hgotk.txt
+AUD             2022-11-08 13:09:39	[0.6467]          	[0.6483]          	[0.25 %]	[ 2h ]
+YFII            2022-11-08 13:12:30	[1433.7]          	[1581.5]          	[10.31 %]	[ 4h ]
+
+Average evol per group of timeframes (ordered) :
+[4h]..............................................10.31%    YFII
+[2h]..............................................0.25%    AUD
+
+Average total evol for this file 10.56 %
+****************************************************************************************************
+
+
+PROCESSING 202211081349_scan_bybit_usdt.txt
+USDCUSDT        2022-11-08 13:47:32	[1.0001]          	[1.0005]          	[0.04 %]	[ 1m ]
+PAXGUSDT        2022-11-08 13:43:30	[1663.0]          	[1689.0]          	[1.56 %]	[ 1m 3m 5m ]
+
+Average evol per group of timeframes (ordered) :
+[1m 3m 5m]........................................1.56%    PAXGUSDT
+[1m]..............................................0.04%    USDCUSDT
+
+Average total evol for this file 1.60 %
+****************************************************************************************************
+
+
+PROCESSING 202211081408_scan_bybit_usdt_hgotk.txt
+PAXGUSDT        2022-11-08 14:02:44	[1663.0]          	[1689.0]          	[1.56 %]	[ 30m ]
+
+Average evol per group of timeframes (ordered) :
+[30m].............................................1.56%    PAXGUSDT
+
+Average total evol for this file 1.56 %
+****************************************************************************************************
+
+
+PROCESSING 202211081427_scan_bybit_usdt_hgotk_pvup.txt
+
+
+PROCESSING 202211081428_scan_binance_usdt_hgotk_pvup.txt
+YFII            2022-11-08 14:00:39	[1438.0]          	[1581.5]          	[9.98 %]	[ 4h ]
+
+Average evol per group of timeframes (ordered) :
+[4h]..............................................9.98%    YFII
+
+Average total evol for this file 9.98 %
+****************************************************************************************************
+
+
+PROCESSING 202211081445_scan_gateio_usdt_gotc_cvup_pvup.txt
+
+
+PROCESSING 202211081446_scan_bybit_usdt_hgotk_cvup.txt
+
+
+PROCESSING 202211081500_scan_gateio_usdt_hgotc_cvup.txt
+METALDR         2022-11-08 12:47:26	[0.001947]        	[0.002041]        	[4.83 %]	[ 1m ]
+LUFFY           2022-11-08 13:53:43	[0.0]             	[1.808e-10]       	[0.00 %]               	[ 30m ]
+
+Average evol per group of timeframes (ordered) :
+[1m]..............................................4.83%    METALDR
+[30m].............................................0.00%    LUFFY
+
+Average total evol for this file 4.83 %
+****************************************************************************************************
+
+
+PROCESSING 202211081504_scan_bybit_usdt_gotk_cvup_pvup.txt
+
+
+PROCESSING 202211081506_scan_bybit_usdt_hgotk_cvup_pvup.txt
+
+
+PROCESSING 202211081516_scan_binance_usdt_hgotk_cvup.txt
+YFII            2022-11-08 14:48:46	[1425.5]          	[1580.8]          	[10.89 %]	[ 4h ]
+
+Average evol per group of timeframes (ordered) :
+[4h]..............................................10.89%    YFII
+
+Average total evol for this file 10.89 %
+****************************************************************************************************
+
+
+PROCESSING 202211081523_scan_bybit_usdt_gotc_cvup.txt
+
+
+PROCESSING 202211081526_scan_bybit_usdt_hgotc.txt
+PAXGUSDT        2022-11-08 15:20:16	[1687.0]          	[1689.0]          	[0.12 %]	[ 2h ]
+
+Average evol per group of timeframes (ordered) :
+[2h]..............................................0.12%    PAXGUSDT
+
+Average total evol for this file 0.12 %
+****************************************************************************************************
+
+
+PROCESSING 202211081543_scan_bybit_usdt_gotc_cvup_pvup.txt
+
+
+PROCESSING 202211081545_scan_bybit_usdt_hgotc_pvup.txt
+
+
+PROCESSING 202211081604_scan_binance_usdt_hgotk_cvup_pvup.txt
+PAXG            2022-11-08 15:36:18	[1700.0]          	[1702.0]          	[0.12 %]	[ 15m ]
+
+Average evol per group of timeframes (ordered) :
+[15m].............................................0.12%    PAXG
+
+Average total evol for this file 0.12 %
+****************************************************************************************************
+
+
+PROCESSING 202211081604_scan_bybit_usdt_hgotc_cvup.txt
+
+
+PROCESSING 202211081624_scan_bybit_usdt_hgotc_cvup_pvup.txt
+
+
+PROCESSING 202211081631_scan_binance_usdt_gotk_cvup_pvup.txt
+YFII            2022-11-08 16:03:51	[1470.1]          	[1583.6]          	[7.72 %]	[ 5m ]
+
+Average evol per group of timeframes (ordered) :
+[5m]..............................................7.72%    YFII
+
+Average total evol for this file 7.72 %
+****************************************************************************************************
+
+
+PROCESSING 202211081643_scan_bybit_usdt_gotk.txt
+BNXUSDT         2022-11-08 16:27:57	[146.2]           	[147.6]           	[0.96 %]	[ 30m 1h 2h 4h 6h 12h 1d ]
+
+Average evol per group of timeframes (ordered) :
+[30m 1h 2h 4h 6h 12h 1d]..........................0.96%    BNXUSDT
+
+Average total evol for this file 0.96 %
+****************************************************************************************************
+
+
+PROCESSING 202211081652_scan_binance_usdt_hgotc.txt
+
+
+PROCESSING 202211081702_scan_bybit_usdt_gotk_pvup.txt
+
+
+PROCESSING 202211081719_scan_binance_usdt_gotc_cvup.txt
+
+
+PROCESSING 202211081721_scan_bybit_usdt_gotk_cvup.txt
+
+
+PROCESSING 202211081740_scan_binance_usdt_hgotc_pvup.txt
+
+
+PROCESSING 202211081740_scan_bybit_usdt_gotk_cvup_pvup.txt
+
+
+PROCESSING 202211081744_scan_gateio_usdt_hgotc_cvup_pvup.txt
+
+
+PROCESSING 202211081759_scan_bybit_usdt_gotc.txt
+
+
+PROCESSING 202211081808_scan_binance_usdt_gotc_cvup_pvup.txt
+BNX             2022-11-08 17:59:10	[148.0]           	[148.2]           	[0.14 %]	[ 6h ]
+
+Average evol per group of timeframes (ordered) :
+[6h]..............................................0.14%    BNX
+
+Average total evol for this file 0.14 %
+****************************************************************************************************
+
+
+PROCESSING 202211081818_scan_bybit_usdt_gotc_pvup.txt
+BNXUSDT         2022-11-08 18:03:11	[147.5]           	[147.6]           	[0.07 %]	[ 4h ]
+
+Average evol per group of timeframes (ordered) :
+[4h]..............................................0.07%    BNXUSDT
+
+Average total evol for this file 0.07 %
+****************************************************************************************************
+
+
+PROCESSING 202211081829_scan_binance_usdt_hgotc_cvup.txt
+
+
+PROCESSING 202211081838_scan_bybit_usdt_gotc_cvup.txt
+
+
+PROCESSING 202211081857_scan_bybit_usdt_gotc_cvup_pvup.txt
+
+
+PROCESSING 202211081917_scan_binance_usdt_hgotc_cvup_pvup.txt
+
+
+PROCESSING 202211081917_scan_bybit_usdt.txt
+BNXUSDT         2022-11-08 19:01:48	[146.3]           	[147.6]           	[0.89 %]	[ 30m ]
+
+Average evol per group of timeframes (ordered) :
+[30m].............................................0.89%    BNXUSDT
+
+Average total evol for this file 0.89 %
+****************************************************************************************************
+
+
+PROCESSING 202211081937_scan_bybit_usdt_hgotk.txt
+PAXGUSDT        2022-11-08 19:31:13	[1689.0]          	[1689.0]          	[0.00 %]             	[ 2h ]
+ATOMUSDT        2022-11-08 19:19:53	[12.105]          	[12.18]           	[0.62 %]	[ 1w ]
+
+Average evol per group of timeframes (ordered) :
+[1w]..............................................0.62%    ATOMUSDT
+[2h]..............................................0.00%    PAXGUSDT
+
+Average total evol for this file 0.62 %
+****************************************************************************************************
+
+
+PROCESSING 202211081957_scan_bybit_usdt_hgotk_pvup.txt
+
+
+PROCESSING 202211082006_scan_binance_usdt_gotk.txt
+YFI             2022-11-08 19:35:22	[6534.0]          	[6720.0]          	[2.85 %]	[ 1s ]
+GALA            2022-11-08 19:54:53	[0.0316]          	[0.0318]          	[0.63 %]	[ 1s ]
+OCEAN           2022-11-08 19:36:46	[0.1532]          	[0.1585]          	[3.46 %]	[ 1m ]
+DOT             2022-11-08 19:37:06	[6.06]            	[6.22]            	[2.64 %]	[ 1m ]
+TRB             2022-11-08 19:37:46	[12.98]           	[13.24]           	[2.00 %]	[ 1m ]
+RUNE            2022-11-08 19:38:37	[1.337]           	[1.346]           	[0.67 %]	[ 1m ]
+POND            2022-11-08 19:46:56	[0.00945]         	[0.00945]         	[0.00 %]             	[ 1m ]
+AVA             2022-11-08 19:43:11	[0.641]           	[0.657]           	[2.50 %]	[ 3m ]
+TVK             2022-11-08 19:52:27	[0.0311]          	[0.0312]          	[0.32 %]	[ 3m ]
+PYR             2022-11-08 19:59:00	[3.58]            	[3.58]            	[0.00 %]             	[ 5m ]
+BUSD            2022-11-08 19:26:06	[0.9997]          	[0.9998]          	[0.01 %]	[ 30m ]
+ALPHA           2022-11-08 19:41:20	[0.1002]          	[0.102]           	[1.80 %]	[ 15m 30m ]
+BNX             2022-11-08 19:57:20	[148.1]           	[148.2]           	[0.07 %]	[ 30m 4h 8h 12h 1d ]
+PAXG            2022-11-08 19:37:30	[1699.0]          	[1702.0]          	[0.18 %]	[ 3d ]
+YFII            2022-11-08 19:38:04	[1486.5]          	[1580.8]          	[6.34 %]	[ 3m 4h 1w ]
+
+Average evol per group of timeframes (ordered) :
+[1m]..............................................8.78%    OCEAN;DOT;TRB;RUNE;POND
+[3m 4h 1w]........................................6.34%    YFII
+[1s]..............................................3.48%    YFI;GALA
+[3m]..............................................2.82%    AVA;TVK
+[15m 30m].........................................1.80%    ALPHA
+[3d]..............................................0.18%    PAXG
+[30m 4h 8h 12h 1d]................................0.07%    BNX
+[30m].............................................0.01%    BUSD
+[5m]..............................................0.00%    PYR
+
+Average total evol for this file 23.47 %
+****************************************************************************************************
+
+
+PROCESSING 202211082017_scan_bybit_usdt_hgotk_cvup.txt
+
+
+PROCESSING 202211082027_scan_gateio_usdt_gotk.txt
+SWAP            2022-11-08 19:34:31	[0.21131]         	[0.21461]         	[1.56 %]	[ 1m ]
+DNXC            2022-11-08 19:37:55	[0.01278]         	[0.01278]         	[0.00 %]             	[ 5m ]
+DC              2022-11-08 20:23:37	[0.0016235]       	[0.0016676]       	[2.72 %]	[ 5m ]
+UNDEAD          2022-11-08 17:46:46	[0.53143]         	[0.54065]         	[1.73 %]	[ 1m 5m ]
+TAP             2022-11-08 17:52:10	[0.005004]        	[0.005006]        	[0.04 %]	[ 15m ]
+MTR             2022-11-08 18:27:42	[0.9261]          	[0.9356]          	[1.03 %]	[ 15m ]
+GARD            2022-11-08 18:42:16	[2.606e-05]       	[2.614e-05]       	[0.31 %]	[ 15m ]
+PTS             2022-11-08 19:45:57	[0.0032001]       	[0.0032001]       	[0.00 %]             	[ 30m ]
+GBPT            2022-11-08 19:51:22	[1.15479]         	[1.15761]         	[0.24 %]	[ 15m 30m ]
+XOR             2022-11-08 19:56:02	[5.957]           	[6.038]           	[1.36 %]	[ 15m 30m ]
+ULU             2022-11-08 20:08:09	[16.8706]         	[16.8772]         	[0.04 %]	[ 15m 30m ]
+RATING          2022-11-08 19:39:27	[0.00014251]      	[0.000143]        	[0.34 %]	[ 1h ]
+B3X             2022-11-08 20:25:49	[0.006459]        	[0.006511]        	[0.81 %]	[ 1h ]
+DELFI           2022-11-08 18:55:29	[0.08093]         	[0.08109]         	[0.20 %]	[ 30m 1h ]
+SNY             2022-11-08 19:51:56	[0.098]           	[0.1025]          	[4.59 %]	[ 30m 1h ]
+ROOM            2022-11-08 19:53:40	[0.037829]        	[0.037856]        	[0.07 %]	[ 1h 4h ]
+CATGIRL         2022-11-08 18:30:54	[0.0]             	[6.093e-10]       	[0.00 %]               	[ 8h ]
+BNX             2022-11-08 18:15:18	[146.333]         	[147.818]         	[1.01 %]	[ 4h 1d ]
+ANGLE           2022-11-08 18:02:43	[0.03585]         	[0.03589]         	[0.11 %]	[ 8h 1d ]
+MINI            2022-11-08 19:21:43	[0.018]           	[0.018165]        	[0.92 %]	[ 15m 30m 1h 4h 8h 1d ]
+YFII            2022-11-08 19:18:41	[1554.81]         	[1578.24]         	[1.51 %]	[ 15m 4h 8h 7d 1w ]
+EOSDAC          2022-11-08 19:53:30	[0.00047028]      	[0.00047977]      	[2.02 %]	[ 1d 7d 1w ]
+
+Average evol per group of timeframes (ordered) :
+[30m 1h]..........................................4.79%    DELFI;SNY
+[5m]..............................................2.72%    DNXC;DC
+[1d 7d 1w]........................................2.02%    EOSDAC
+[1m 5m]...........................................1.73%    UNDEAD
+[15m 30m].........................................1.64%    GBPT;XOR;ULU
+[1m]..............................................1.56%    SWAP
+[15m 4h 8h 7d 1w].................................1.51%    YFII
+[15m].............................................1.37%    TAP;MTR;GARD
+[1h]..............................................1.15%    RATING;B3X
+[4h 1d]...........................................1.01%    BNX
+[15m 30m 1h 4h 8h 1d].............................0.92%    MINI
+[8h 1d]...........................................0.11%    ANGLE
+[1h 4h]...........................................0.07%    ROOM
+[30m].............................................0.00%    PTS
+[8h]..............................................0.00%    CATGIRL
+
+Average total evol for this file 20.61 %
+****************************************************************************************************
+
+
+Best groups of timeframes for each processed file
+[30m 4h 8h].......................................16.09%    YFII
+[1d]..............................................0.26%    FEI
+[30m 2h]..........................................1.44%    PAXGUSDT
+[12h].............................................15.73%    YFII
+[8h]..............................................0.40%    GBPT
+[3m 12h]..........................................15.16%    YFII
+[12h].............................................15.21%    YFII
+[30m].............................................1.93%    BNXUSDT
+[1h]..............................................0.07%    PTS
+[6h]..............................................0.05%    USDCUSDT
+[3m]..............................................14.51%    YFII
+[1h 2h 4h]........................................13.74%    YFII
+[2h]..............................................13.90%    YFII
+[4h 1w]...........................................14.75%    YFII
+[4h]..............................................12.12%    YFII
+[4h]..............................................15.53%    YFII
+[1m]..............................................0.02%    USDCUSDT
+[1s]..............................................13.74%    YFII
+[30m].............................................2.64%    BNXUSDT
+[30m 1h]..........................................9.76%    ANGLE
+[8h]..............................................0.67%    EURT
+[30m].............................................2.43%    BNXUSDT
+[3m]..............................................0.01%    USDCUSDT
+[3m 5m]...........................................2.05%    PAXGUSDT
+[15m 8h]..........................................0.00%    LUFFY
+[30m].............................................0.00%    LUFFY
+[5m 15m 30m 1h 2h 4h 6h 8h 12h 1d]................9.73%    YFII
+[4h]..............................................10.31%    YFII
+[1m 3m 5m]........................................1.56%    PAXGUSDT
+[30m].............................................1.56%    PAXGUSDT
+[4h]..............................................9.98%    YFII
+[1m]..............................................4.83%    METALDR
+[4h]..............................................10.89%    YFII
+[2h]..............................................0.12%    PAXGUSDT
+[15m].............................................0.12%    PAXG
+[5m]..............................................7.72%    YFII
+[30m 1h 2h 4h 6h 12h 1d]..........................0.96%    BNXUSDT
+[6h]..............................................0.14%    BNX
+[4h]..............................................0.07%    BNXUSDT
+[30m].............................................0.89%    BNXUSDT
+[1w]..............................................0.62%    ATOMUSDT
+[1m]..............................................8.78%    OCEAN;DOT;TRB;RUNE;POND
+[30m 1h]..........................................4.79%    DELFI;SNY
+
+GLOBAL Average evol per group of timeframes (ordered) :
+[30m 4h 8h].......................................16.09%    YFII
+[12h].............................................15.47%    YFII;YFII
+[3m 12h]..........................................15.16%    YFII
+[4h 1w]...........................................14.75%    YFII
+[1h 2h 4h]........................................13.74%    YFII
+[5m 15m 30m 1h 2h 4h 6h 8h 12h 1d]................9.73%    YFII
+[30m 1h]..........................................9.57%    ANGLE;DELFI;SNY
+[1s]..............................................8.93%    YFII;YFI;GALA
+[3m 4h 1w]........................................6.34%    YFII
+[4h]..............................................5.15%    YFII;YFII;PAXG;YFII;YFII;YFII;BNXUSDT
+[1m]..............................................4.91%    USDCUSDT;USDCUSDT;USDCUSDT;METALDR;OCEAN;DOT;TRB;RUNE;POND;SWAP
+[5m]..............................................4.32%    BNX;YFII;PYR;DNXC;DC
+[3m]..............................................3.86%    YFII;TWT;USDCUSDT;AVA;TVK
+[10s 1m]..........................................2.70%    SRK
+[15m 30m].........................................2.42%    ALPHA;GBPT;XOR;ULU
+[3m 5m]...........................................2.05%    PAXGUSDT
+[1d 7d 1w]........................................2.02%    EOSDAC
+[2h]..............................................1.80%    YFII;AUD;PAXGUSDT;PAXGUSDT
+[1m 5m]...........................................1.73%    UNDEAD
+[1m 3m 5m]........................................1.56%    PAXGUSDT
+[15m 4h 8h 7d 1w].................................1.51%    YFII
+[30m 2h]..........................................1.44%    PAXGUSDT
+[15m].............................................1.41%    PAXG;TAP;MTR;GARD
+[4h 1d]...........................................1.01%    BNX
+[1h]..............................................1.01%    PTS;RATING;B3X
+[30m 1h 2h 4h 6h 12h 1d]..........................0.96%    BNXUSDT
+[15m 30m 1h 4h 8h 1d].............................0.92%    MINI
+[1w]..............................................0.62%    ATOMUSDT
+[4h 6h 8h]........................................0.40%    AUD
+[8h]..............................................0.27%    GBPT;EURT;CATGIRL
+[1d]..............................................0.26%    FEI
+[30m].............................................0.19%    BNXUSDT;BNXUSDT;ELT;BNXUSDT;LUFFY;PAXGUSDT;LUFFY;BNXUSDT;BUSD;PTS
+[3d]..............................................0.18%    PAXG
+[8h 1d]...........................................0.11%    ANGLE
+[6h]..............................................0.08%    GBP;USDCUSDT;BNX
+[1h 4h]...........................................0.07%    ROOM
+[30m 4h 8h 12h 1d]................................0.07%    BNX
+[15m 8h]..........................................0.00%    LUFFY
+
+GLOBAL evol per file (ordered) :
+202211080627_scan_binance_usdt_gotk.txt.........................23.643324443678353
+202211082006_scan_binance_usdt_gotk.txt.........................23.467494601242915
+202211082027_scan_gateio_usdt_gotk.txt..........................20.60656783578541
+202211080001_scan_binance_usdt_hgotk.txt........................16.086102828885178
+202211080050_scan_binance_usdt_hgotk_pvup.txt...................15.728211843445369
+202211080804_scan_binance_usdt_gotk_cvup.txt....................15.530856975723903
+202211080226_scan_binance_usdt_hgotk_cvup_pvup.txt..............15.208438696625967
+202211080138_scan_binance_usdt_hgotk_cvup.txt...................15.15853481974807
+202211080451_scan_binance_usdt_hgotc_cvup.txt...................14.512063377745768
+202211080546_scan_binance_usdt_gotc_cvup.txt....................13.896848137535816
+202211080851_scan_binance_usdt_gotk_cvup_pvup.txt...............13.743736578382249
+202211080458_scan_binance_usdt_gotk_cvup_pvup.txt...............13.742041633879385
+202211080918_scan_gateio_usdt_gotk_cvup_pvup.txt................12.4531632708174
+202211081252_scan_binance_usdt.txt..............................12.416308644620518
+202211080716_scan_binance_usdt_gotk_pvup.txt....................12.120351972750493
+202211081516_scan_binance_usdt_hgotk_cvup.txt...................10.894423009470358
+202211081340_scan_binance_usdt_hgotk.txt........................10.556400650626662
+202211081428_scan_binance_usdt_hgotk_pvup.txt...................9.97913769123783
+202211081631_scan_binance_usdt_gotk_cvup_pvup.txt...............7.720563226991361
+202211081500_scan_gateio_usdt_hgotc_cvup.txt....................4.827940421160755
+202211080859_scan_bybit_usdt_hgotk_pvup.txt.....................2.642559109874814
+202211080957_scan_bybit_usdt_hgotc.txt..........................2.428868841082582
+202211081153_scan_bybit_usdt_gotk_cvup.txt......................2.046959662853703
+202211080300_scan_bybit_usdt.txt................................1.9837016574585462
+202211081349_scan_bybit_usdt.txt................................1.60343556744746
+202211081408_scan_bybit_usdt_hgotk.txt..........................1.5634395670475045
+202211080048_scan_bybit_usdt_gotk_pvup.txt......................1.4388489208633095
+202211081643_scan_bybit_usdt_gotk.txt...........................0.9575923392612898
+202211081917_scan_bybit_usdt.txt................................0.8885850991114032
+202211080933_scan_gateio_usdt_hgotc.txt.........................0.7412179508453236
+202211081937_scan_bybit_usdt_hgotk.txt..........................0.6195786864931787
+202211080123_scan_gateio_usdt_hgotk_pvup.txt....................0.398551352475345
+202211080030_scan_gateio_usdt_gotc_cvup.txt.....................0.26225539640912315
+202211081808_scan_binance_usdt_gotc_cvup_pvup.txt...............0.13513513513512745
+202211081526_scan_bybit_usdt_hgotc.txt..........................0.11855364552459988
+202211081604_scan_binance_usdt_hgotk_cvup_pvup.txt..............0.1176470588235294
+202211081818_scan_bybit_usdt_gotc_pvup.txt......................0.06779661016948767
+202211080407_scan_gateio_usdt_hgotk_cvup.txt....................0.06566809468714173
+202211080434_scan_bybit_usdt_hgotc.txt..........................0.04999999999999449
+202211080821_scan_bybit_usdt.txt................................0.019994001799457962
+202211081115_scan_bybit_usdt_gotk.txt...........................0.009996001599359155
+202211081202_scan_gateio_usdt_gotc_cvup.txt.....................0.0
+202211081216_scan_gateio_usdt_hgotc_pvup.txt....................0.0
+
+GLOBAL evol per file (unordered) :
+202211080001_scan_binance_usdt_hgotk.txt........................16.08610283 (avg/hour): 0.77814138 (avg/min): 0.01296902 (*HAPH) (*HAPM)
+202211080030_scan_gateio_usdt_gotc_cvup.txt.....................0.26225540 (avg/hour): 0.01298993 (avg/min): 0.00021650
+202211080048_scan_bybit_usdt_gotk_pvup.txt......................1.43884892 (avg/hour): 0.07234346 (avg/min): 0.00120572
+202211080050_scan_binance_usdt_hgotk_pvup.txt...................15.72821184 (avg/hour): 0.79212173 (avg/min): 0.01320203 (*HAPH) (*HAPM)
+202211080123_scan_gateio_usdt_hgotk_pvup.txt....................0.39855135 (avg/hour): 0.02064412 (avg/min): 0.00034407
+202211080138_scan_binance_usdt_hgotk_cvup.txt...................15.15853482 (avg/hour): 0.79548135 (avg/min): 0.01325802 (*HAPH) (*HAPM)
+202211080226_scan_binance_usdt_hgotk_cvup_pvup.txt..............15.20843870 (avg/hour): 0.83307427 (avg/min): 0.01388457 (*HAPH) (*HAPM)
+202211080300_scan_bybit_usdt.txt................................1.98370166 (avg/hour): 0.11214238 (avg/min): 0.00186904
+202211080407_scan_gateio_usdt_hgotk_cvup.txt....................0.06566809 (avg/hour): 0.00396248 (avg/min): 0.00006604
+202211080434_scan_bybit_usdt_hgotc.txt..........................0.05000000 (avg/hour): 0.00310126 (avg/min): 0.00005169
+202211080451_scan_binance_usdt_hgotc_cvup.txt...................14.51206338 (avg/hour): 0.91621564 (avg/min): 0.01527026 (*HAPH) (*HAPM)
+202211080458_scan_binance_usdt_gotk_cvup_pvup.txt...............13.74204163 (avg/hour): 0.87403843 (avg/min): 0.01456731
+202211080546_scan_binance_usdt_gotc_cvup.txt....................13.89684814 (avg/hour): 0.93127006 (avg/min): 0.01552117 (*HAPH) (*HAPM)
+202211080627_scan_binance_usdt_gotk.txt.........................23.64332444 (avg/hour): 1.66044666 (avg/min): 0.02767411 (*HAPH) (*HAPM)
+202211080716_scan_binance_usdt_gotk_pvup.txt....................12.12035197 (avg/hour): 0.90298978 (avg/min): 0.01504983
+202211080804_scan_binance_usdt_gotk_cvup.txt....................15.53085698 (avg/hour): 1.23041360 (avg/min): 0.02050689
+202211080821_scan_bybit_usdt.txt................................0.01999400 (avg/hour): 0.00162037 (avg/min): 0.00002701
+202211080851_scan_binance_usdt_gotk_cvup_pvup.txt...............13.74373658 (avg/hour): 1.16087334 (avg/min): 0.01934789
+202211080859_scan_bybit_usdt_hgotk_pvup.txt.....................2.64255911 (avg/hour): 0.22574780 (avg/min): 0.00376246
+202211080918_scan_gateio_usdt_gotk_cvup_pvup.txt................12.45316327 (avg/hour): 1.09342481 (avg/min): 0.01822375
+202211080933_scan_gateio_usdt_hgotc.txt.........................0.74121795 (avg/hour): 0.06654178 (avg/min): 0.00110903
+202211080957_scan_bybit_usdt_hgotc.txt..........................2.42886884 (avg/hour): 0.22616987 (avg/min): 0.00376950
+202211081115_scan_bybit_usdt_gotk.txt...........................0.00999600 (avg/hour): 0.00105900 (avg/min): 0.00001765
+202211081153_scan_bybit_usdt_gotk_cvup.txt......................2.04695966 (avg/hour): 0.23245578 (avg/min): 0.00387426
+202211081202_scan_gateio_usdt_gotc_cvup.txt.....................0.00000000 (avg/hour): 0.00000000 (avg/min): 0.00000000
+202211081216_scan_gateio_usdt_hgotc_pvup.txt....................0.00000000 (avg/hour): 0.00000000 (avg/min): 0.00000000
+202211081252_scan_binance_usdt.txt..............................12.41630864 (avg/hour): 1.58726211 (avg/min): 0.02645437
+202211081340_scan_binance_usdt_hgotk.txt........................10.55640065 (avg/hour): 1.50323207 (avg/min): 0.02505387
+202211081349_scan_bybit_usdt.txt................................1.60343557 (avg/hour): 0.23331288 (avg/min): 0.00388855
+202211081408_scan_bybit_usdt_hgotk.txt..........................1.56343957 (avg/hour): 0.23848180 (avg/min): 0.00397470
+202211081428_scan_binance_usdt_hgotk_pvup.txt...................9.97913769 (avg/hour): 1.60372635 (avg/min): 0.02672877
+202211081500_scan_gateio_usdt_hgotc_cvup.txt....................4.82794042 (avg/hour): 0.84862457 (avg/min): 0.01414374
+202211081516_scan_binance_usdt_hgotk_cvup.txt...................10.89442301 (avg/hour): 2.00912585 (avg/min): 0.03348543 (*HAPH) (*HAPM)
+202211081526_scan_bybit_usdt_hgotc.txt..........................0.11855365 (avg/hour): 0.02255672 (avg/min): 0.00037595
+202211081604_scan_binance_usdt_hgotk_cvup_pvup.txt..............0.11764706 (avg/hour): 0.02545113 (avg/min): 0.00042419
+202211081631_scan_binance_usdt_gotk_cvup_pvup.txt...............7.72056323 (avg/hour): 1.85035832 (avg/min): 0.03083931
+202211081643_scan_bybit_usdt_gotk.txt...........................0.95759234 (avg/hour): 0.24105720 (avg/min): 0.00401762
+202211081808_scan_binance_usdt_gotc_cvup_pvup.txt...............0.13513514 (avg/hour): 0.05287385 (avg/min): 0.00088123
+202211081818_scan_bybit_usdt_gotc_pvup.txt......................0.06779661 (avg/hour): 0.02837704 (avg/min): 0.00047295
+202211081917_scan_bybit_usdt.txt................................0.88858510 (avg/hour): 0.63208377 (avg/min): 0.01053473
+202211081937_scan_bybit_usdt_hgotk.txt..........................0.61957869 (avg/hour): 0.57771221 (avg/min): 0.00962854
+202211082006_scan_binance_usdt_gotk.txt.........................23.46749460 (avg/hour): 39.83373800 (avg/min): 0.66389563 (*HAPH) (*HAPM)
+202211082027_scan_gateio_usdt_gotk.txt..........................20.60656784 (avg/hour): 86.17085205 (avg/min): 1.43618087 (*HAPH) (*HAPM)
+
+SPECIAL GATEIO RESULTS
