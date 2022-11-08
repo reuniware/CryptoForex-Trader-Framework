@@ -1,0 +1,3 @@
+Scan results at : 2022-11-08 18:08:03.840826
+BNXUSDT swap bybit 2022-11-08 18:03:11.489574 bybit BNXUSDT swap 4h [2.29 %] [price = 147.50000000] *** new highest evol in %                                                  
+PAXGUSDT swap bybit 2022-11-08 18:13:01.219447 bybit PAXGUSDT swap 12h 1d [1.87 %] [price = 1691.00000000]                                                                     

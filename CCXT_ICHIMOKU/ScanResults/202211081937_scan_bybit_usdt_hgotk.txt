@@ -1,0 +1,5 @@
+Scan results at : 2022-11-08 19:17:29.835499
+BITUSDT swap bybit 2022-11-08 19:21:04.972993 bybit BITUSDT swap 1m 3m [-12.41 %] [price = 0.35300000]                                                                         
+PAXGUSDT swap bybit 2022-11-08 19:31:13.341733 bybit PAXGUSDT swap 2h [1.75 %] [price = 1689.00000000] *** new highest evol in %                                               
+ATOMUSDT swap bybit 2022-11-08 19:19:53.298686 bybit ATOMUSDT swap 1w [-15.17 %] [price = 12.10500000]                                                                         
+BNBUSDT swap bybit 2022-11-08 19:21:19.178057 bybit BNBUSDT swap 1w [-5.18 %] [price = 319.20000000]                                                                           

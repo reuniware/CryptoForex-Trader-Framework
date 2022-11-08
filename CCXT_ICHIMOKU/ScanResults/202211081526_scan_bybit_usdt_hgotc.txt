@@ -1,0 +1,8 @@
+Scan results at : 2022-11-08 15:23:58.153137
+DUSKUSDT swap bybit 2022-11-08 15:13:31.222359 bybit DUSKUSDT swap 3m [-4.08 %] [price = 0.12680000]                                                                           
+ETCUSDT swap bybit 2022-11-08 15:14:09.811571 bybit ETCUSDT swap 3m [-6.37 %] [price = 23.44000000]                                                                            
+ICPUSDT swap bybit 2022-11-08 15:16:17.319023 bybit ICPUSDT swap 3m [-5.97 %] [price = 4.88000000]                                                                             
+ONEUSDT swap bybit 2022-11-08 15:19:57.702099 bybit ONEUSDT swap 5m [-9.95 %] [price = 0.01900000]                                                                             
+GMTUSDT swap bybit 2022-11-08 15:15:33.749815 bybit GMTUSDT swap 15m [-1.62 %] [price = 0.57640000]                                                                            
+IMXUSDT swap bybit 2022-11-08 15:16:35.964212 bybit IMXUSDT swap 15m [-2.22 %] [price = 0.57300000]                                                                            
+PAXGUSDT swap bybit 2022-11-08 15:20:16.272072 bybit PAXGUSDT swap 2h [1.63 %] [price = 1687.00000000] *** new highest evol in %                                               

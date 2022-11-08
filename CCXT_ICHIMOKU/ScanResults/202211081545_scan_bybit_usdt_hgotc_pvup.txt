@@ -1,0 +1,4 @@
+Scan results at : 2022-11-08 15:43:23.250907
+SUSHIUSDT swap bybit 2022-11-08 15:42:30.104520 bybit SUSHIUSDT swap 3m [-7.23 %] [price = 1.60300000]                                                                         
+UNIUSDT swap bybit 2022-11-08 15:43:25.668326 bybit UNIUSDT swap 3m [-7.10 %] [price = 6.50600000]                                                                             
+PAXGUSDT swap bybit 2022-11-08 15:39:28.430501 bybit PAXGUSDT swap 30m 2h [2.23 %] [price = 1697.00000000] *** new highest evol in %                                           

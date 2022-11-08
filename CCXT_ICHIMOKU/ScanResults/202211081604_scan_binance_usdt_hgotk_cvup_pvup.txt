@@ -1,0 +1,11 @@
+Scan results at : 2022-11-08 16:04:41.454615
+UNIUSDT spot binance 2022-11-08 15:38:59.997683 binance UNIUSDT spot 3m [-7.43 %] [price = 6.48000000]                                                                         
+ARUSDT spot binance 2022-11-08 15:48:14.384250 binance ARUSDT spot 5m [-4.70 %] [price = 12.98000000]                                                                          
+IDEXUSDT spot binance 2022-11-08 15:53:11.740417 binance IDEXUSDT spot 5m [-1.94 %] [price = 0.05799000]                                                                       
+GBPUSDT spot binance 2022-11-08 15:32:57.327191 binance GBPUSDT spot 15m [0.09 %] [price = 1.15200000]                                                                         
+AUDUSDT spot binance 2022-11-08 15:34:04.148253 binance AUDUSDT spot 15m [0.71 %] [price = 0.65160000]                                                                         
+PAXGUSDT spot binance 2022-11-08 15:36:18.640442 binance PAXGUSDT spot 15m [2.04 %] [price = 1700.00000000]                                                                    
+TRUUSDT spot binance 2022-11-08 15:43:54.275915 binance TRUUSDT spot 30m [26.94 %] [price = 0.06550000] *** new highest evol in %                                              
+BNBDOWNUSDT spot binance 2022-11-08 15:33:45.212759 binance BNBDOWNUSDT spot 2h [8.38 %] [price = 0.02484000]                                                                  
+BTCDOWNUSDT spot binance 2022-11-08 15:30:07.113044 binance BTCDOWNUSDT spot 6h [13.74 %] [price = 0.03312000] *** new highest evol in %                                       
+PORTOUSDT spot binance 2022-11-08 15:56:36.621794 binance PORTOUSDT spot 4h 8h 12h [3.83 %] [price = 5.22340000]                                                               

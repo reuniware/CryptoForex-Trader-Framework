@@ -1,0 +1,2 @@
+Scan results at : 2022-11-08 15:16:29.109412
+ARUSDT swap bybit 2022-11-08 15:06:55.924465 bybit ARUSDT swap 5m [-4.70 %] [price = 12.97000000]                                                                              

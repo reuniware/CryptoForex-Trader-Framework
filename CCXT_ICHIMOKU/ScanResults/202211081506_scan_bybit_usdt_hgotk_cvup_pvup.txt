@@ -1,0 +1,4 @@
+Scan results at : 2022-11-08 15:04:48.302282
+ADAUSDT swap bybit 2022-11-08 14:47:33.161506 bybit ADAUSDT swap 1m [-3.81 %] [price = 0.38850000]                                                                             
+DUSKUSDT swap bybit 2022-11-08 14:53:44.417622 bybit DUSKUSDT swap 1m [-4.16 %] [price = 0.12670000]                                                                           
+ETCUSDT swap bybit 2022-11-08 14:54:22.961185 bybit ETCUSDT swap 3m [-5.63 %] [price = 23.62500000]                                                                            

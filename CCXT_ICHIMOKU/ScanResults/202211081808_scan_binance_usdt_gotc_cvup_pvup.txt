@@ -1,0 +1,8 @@
+Scan results at : 2022-11-08 17:59:23.471549
+LINKUSDT spot binance 2022-11-08 17:22:28.939997 binance LINKUSDT spot 2h [-1.07 %] [price = 8.86000000]                                                                       
+BNBUSDT spot binance 2022-11-08 17:20:21.912901 binance BNBUSDT spot 2h 4h [10.77 %] [price = 373.30000000] *** new highest evol in %                                          
+BNBUPUSDT spot binance 2022-11-08 17:36:56.785024 binance BNBUPUSDT spot 2h 4h [16.70 %] [price = 57.59000000] *** new highest evol in %                                       
+GBPUSDT spot binance 2022-11-08 17:36:17.053263 binance GBPUSDT spot 6h [0.52 %] [price = 1.15700000]                                                                          
+BNXUSDT spot binance 2022-11-08 17:59:10.178068 binance BNXUSDT spot 6h [2.56 %] [price = 148.00000000]                                                                        
+TWTUSDT spot binance 2022-11-08 17:47:34.496027 binance TWTUSDT spot 2h 4h 6h [5.12 %] [price = 1.23900000]                                                                    
+PAXGUSDT spot binance 2022-11-08 17:39:40.808819 binance PAXGUSDT spot 12h 1d [2.46 %] [price = 1707.00000000]                                                                 

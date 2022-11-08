@@ -1,0 +1,13 @@
+Scan results at : 2022-11-08 16:24:11.327423
+YFIIUSDT spot binance 2022-11-08 16:03:51.151035 binance YFIIUSDT spot 5m [7.23 %] [price = 1470.10000000] *** new highest evol in %                                           
+UTKUSDT spot binance 2022-11-08 16:06:49.967988 binance UTKUSDT spot 5m [-3.54 %] [price = 0.12790000]                                                                         
+PSGUSDT spot binance 2022-11-08 16:09:40.151396 binance PSGUSDT spot 5m [-4.30 %] [price = 7.13000000]                                                                         
+BARUSDT spot binance 2022-11-08 16:14:17.883327 binance BARUSDT spot 15m [-0.75 %] [price = 5.26000000]                                                                        
+MBOXUSDT spot binance 2022-11-08 16:18:41.439060 binance MBOXUSDT spot 30m [4.72 %] [price = 0.64300000]                                                                       
+EURUSDT spot binance 2022-11-08 15:54:20.670203 binance EURUSDT spot 1h [0.48 %] [price = 1.00550000] *** new highest evol in %                                                
+GBPUSDT spot binance 2022-11-08 15:59:55.563089 binance GBPUSDT spot 1h [0.43 %] [price = 1.15600000]                                                                          
+GHSTUSDT spot binance 2022-11-08 16:19:08.988991 binance GHSTUSDT spot 30m 1h [1.09 %] [price = 1.11200000]                                                                    
+ALPINEUSDT spot binance 2022-11-08 16:28:09.093242 binance ALPINEUSDT spot 4h [4.70 %] [price = 3.40000000]                                                                    
+BSWUSDT spot binance 2022-11-08 16:29:01.575992 binance BSWUSDT spot 30m 6h [3.86 %] [price = 0.26610000]                                                                      
+TRUUSDT spot binance 2022-11-08 16:10:53.981625 binance TRUUSDT spot 6h 12h [14.73 %] [price = 0.05920000] *** new highest evol in %                                           
+CAKEUSDT spot binance 2022-11-08 16:11:52.442033 binance CAKEUSDT spot 15m 30m 6h 8h 12h [3.30 %] [price = 4.91900000]                                                         

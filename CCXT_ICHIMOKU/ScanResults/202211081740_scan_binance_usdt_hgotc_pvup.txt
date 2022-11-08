@@ -1,0 +1,6 @@
+Scan results at : 2022-11-08 17:40:24.894695
+ADAUPUSDT spot binance 2022-11-08 17:08:18.062957 binance ADAUPUSDT spot 30m [0.00 %] [price = 0.61500000]                                                                     
+LINKUPUSDT spot binance 2022-11-08 17:08:34.997700 binance LINKUPUSDT spot 30m [9.00 %] [price = 0.01708000] *** new highest evol in %                                         
+TRXUPUSDT spot binance 2022-11-08 17:14:07.599907 binance TRXUPUSDT spot 30m [0.61 %] [price = 0.05440000]                                                                     
+ANTUSDT spot binance 2022-11-08 17:11:23.435222 binance ANTUSDT spot 1h [4.77 %] [price = 1.99800000]                                                                          
+PORTOUSDT spot binance 2022-11-08 17:32:51.900459 binance PORTOUSDT spot 12h [4.42 %] [price = 5.25290000]                                                                     
