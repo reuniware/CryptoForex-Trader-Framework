@@ -1,0 +1,2 @@
+Scan results at : 2022-11-09 18:16:15.596944
+PAXGUSDT swap bybit 2022-11-09 18:27:58.644106 bybit PAXGUSDT swap 12h [-0.18 %] [price = 1695.00000000]                                                                       

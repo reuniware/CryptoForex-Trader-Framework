@@ -1,0 +1,5 @@
+Scan results at : 2022-11-09 21:07:06.922362
+MKRUSDT spot binance 2022-11-09 20:35:51.470964 binance MKRUSDT spot 1m [-2.94 %] [price = 693.00000000]                                                                       
+TRUUSDT spot binance 2022-11-09 20:46:32.246894 binance TRUUSDT spot 3m [-9.02 %] [price = 0.03730000]                                                                         
+XRPDOWNUSDT spot binance 2022-11-09 20:40:52.865327 binance XRPDOWNUSDT spot 8h [34.14 %] [price = 0.00037880] *** new highest evol in %                                       
+BTCDOWNUSDT spot binance 2022-11-09 20:32:44.372454 binance BTCDOWNUSDT spot 12h [22.91 %] [price = 0.04415800] *** new highest evol in %                                      

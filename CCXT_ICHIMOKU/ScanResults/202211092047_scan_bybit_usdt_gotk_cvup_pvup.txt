@@ -1,0 +1,7 @@
+Scan results at : 2022-11-09 20:28:57.868445
+AAVEUSDT swap bybit 2022-11-09 20:29:36.745422 bybit AAVEUSDT swap 3m [-9.48 %] [price = 65.40000000]                                                                          
+COMPUSDT swap bybit 2022-11-09 20:33:54.204144 bybit COMPUSDT swap 3m [-11.08 %] [price = 37.30000000]                                                                         
+DASHUSDT swap bybit 2022-11-09 20:35:01.734822 bybit DASHUSDT swap 3m [-7.83 %] [price = 35.30000000]                                                                          
+DGBUSDT swap bybit 2022-11-09 20:35:13.909283 bybit DGBUSDT swap 3m [-9.74 %] [price = 0.00704000]                                                                             
+DOTUSDT swap bybit 2022-11-09 20:35:32.500044 bybit DOTUSDT swap 3m [-5.08 %] [price = 5.97500000]                                                                             
+EGLDUSDT swap bybit 2022-11-09 20:35:51.261601 bybit EGLDUSDT swap 3m [-10.14 %] [price = 44.30000000]                                                                         

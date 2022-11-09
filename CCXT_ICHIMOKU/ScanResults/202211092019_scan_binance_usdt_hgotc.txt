@@ -1,0 +1,10 @@
+Scan results at : 2022-11-09 20:09:56.925506
+MASKUSDT spot binance 2022-11-09 20:03:04.825642 binance MASKUSDT spot 1m [-5.18 %] [price = 2.72800000]                                                                       
+MKRUSDT spot binance 2022-11-09 19:47:27.338995 binance MKRUSDT spot 15m [-3.78 %] [price = 687.00000000]                                                                      
+ANTUSDT spot binance 2022-11-09 19:49:24.911464 binance ANTUSDT spot 15m [-0.70 %] [price = 1.71000000]                                                                        
+LUNAUSDT spot binance 2022-11-09 19:50:16.120365 binance LUNAUSDT spot 15m [-8.17 %] [price = 1.75850000]                                                                      
+LUNCUSDT spot binance 2022-11-09 20:18:13.494287 binance LUNCUSDT spot 30m [2.42 %] [price = 0.00019531]                                                                       
+TRXDOWNUSDT spot binance 2022-11-09 19:52:14.530535 binance TRXDOWNUSDT spot 4h [-1.27 %] [price = 1.32000000]                                                                 
+XRPDOWNUSDT spot binance 2022-11-09 19:52:32.157505 binance XRPDOWNUSDT spot 8h [34.77 %] [price = 0.00038060] *** new highest evol in %                                       
+BTCDOWNUSDT spot binance 2022-11-09 19:44:20.379234 binance BTCDOWNUSDT spot 12h [19.36 %] [price = 0.04288300] *** new highest evol in %                                      
+PAXGUSDT spot binance 2022-11-09 19:50:33.275831 binance PAXGUSDT spot 12h [-0.35 %] [price = 1695.00000000]                                                                   

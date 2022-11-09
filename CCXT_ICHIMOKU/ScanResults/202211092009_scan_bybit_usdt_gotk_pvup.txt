@@ -1,0 +1,4 @@
+Scan results at : 2022-11-09 19:58:32.648872
+BICOUSDT swap bybit 2022-11-09 19:54:23.924029 bybit BICOUSDT swap 1m [-16.18 %] [price = 0.28500000]                                                                          
+ETHUSDT swap bybit 2022-11-09 19:58:30.002895 bybit ETHUSDT swap 1m [-10.35 %] [price = 1195.50000000]                                                                         
+XCNUSDT swap bybit 2022-11-09 20:08:42.606450 bybit XCNUSDT swap 1m [0.28 %] [price = 0.04300000] *** new highest evol in %                                                    

@@ -1,0 +1,2 @@
+Scan results at : 2022-11-09 19:30:44.219290
+1000LUNCUSDT swap bybit 2022-11-09 19:12:49.292194 bybit 1000LUNCUSDT swap 15m [-0.59 %] [price = 0.18630000]                                                                  

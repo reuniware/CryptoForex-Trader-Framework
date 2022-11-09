@@ -1,0 +1,2 @@
+Scan results at : 2022-11-09 17:54:05.481295
+XEMUSDT swap bybit 2022-11-09 17:54:31.956432 bybit XEMUSDT swap 1m [-7.80 %] [price = 0.03190000]                                                                             

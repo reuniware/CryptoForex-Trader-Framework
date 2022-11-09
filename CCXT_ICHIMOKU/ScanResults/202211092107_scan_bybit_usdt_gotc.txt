@@ -1,0 +1,5 @@
+Scan results at : 2022-11-09 21:00:09.613200
+EGLDUSDT swap bybit 2022-11-09 20:54:54.248132 bybit EGLDUSDT swap 3m [-11.97 %] [price = 43.40000000]                                                                         
+LTCUSDT swap bybit 2022-11-09 20:59:39.638451 bybit LTCUSDT swap 3m [-7.91 %] [price = 53.21000000]                                                                            
+10000NFTUSDT swap bybit 2022-11-09 20:48:05.994377 bybit 10000NFTUSDT swap 1m 3m [-3.70 %] [price = 0.00533000]                                                                
+GTCUSDT swap bybit 2022-11-09 20:56:59.188600 bybit GTCUSDT swap 5m [-10.33 %] [price = 1.65000000]                                                                            

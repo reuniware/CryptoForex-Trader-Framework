@@ -1,0 +1,5 @@
+Scan results at : 2022-11-09 18:52:51.078809
+LDOUSDT swap bybit 2022-11-09 19:04:09.827872 bybit LDOUSDT swap 1m [-18.43 %] [price = 1.05800000]                                                                            
+LUNA2USDT swap bybit 2022-11-09 19:05:00.734606 bybit LUNA2USDT swap 1m [-12.53 %] [price = 1.67500000]                                                                        
+NEARUSDT swap bybit 2022-11-09 19:05:44.839157 bybit NEARUSDT swap 1m [-18.07 %] [price = 2.15400000]                                                                          
+PAXGUSDT swap bybit 2022-11-09 19:06:36.373984 bybit PAXGUSDT swap 12h [-0.24 %] [price = 1694.00000000]                                                                       

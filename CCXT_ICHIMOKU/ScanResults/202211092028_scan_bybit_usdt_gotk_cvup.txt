@@ -1,0 +1,4 @@
+Scan results at : 2022-11-09 20:19:03.359141
+KDAUSDT swap bybit 2022-11-09 20:20:25.199023 bybit KDAUSDT swap 3m [-11.96 %] [price = 1.03800000]                                                                            
+GTCUSDT swap bybit 2022-11-09 20:18:52.927122 bybit GTCUSDT swap 5m [-9.51 %] [price = 1.66500000]                                                                             
+PAXGUSDT swap bybit 2022-11-09 20:23:09.694277 bybit PAXGUSDT swap 2h 4h [-0.53 %] [price = 1689.00000000]                                                                     
