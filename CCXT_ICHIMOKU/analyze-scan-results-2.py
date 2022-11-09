@@ -29,7 +29,7 @@ ope_for_filename = ""
 if only_positive_evol is True:
     ope_for_filename = "_ope"
 
-file_filter = "20221107"
+file_filter = "20221109"
 file_filter2 = ""
 #file_filter = ""
 
@@ -111,6 +111,8 @@ print("")
 log_to_results("")
 
 for filename in os.listdir("ScanResults"):
+
+    nb_assets_in_file = 0
 
     condition = False
     if file_filter.strip() != "":
@@ -305,6 +307,8 @@ for filename in os.listdir("ScanResults"):
                                 currentprice) + "]" + fill_currentprice + "\t[" + "{:.2f}".format(
                                 evol) + " %]" + fill_evol + "\t[" + text.split('[')[0].split(split_term)[2] + "]")
 
+                            nb_assets_in_file += 1
+
                             #SPECIAL EXPERIMENTAL GATEIO SUPER PUMP FORECAST RESULTS
                             if ("1m 4h 8h 1d" or "1m 5m 1h 4h 8h 1d" or "30m 1h 4h 8h 1d") in text.split('[')[0].split(split_term)[2]:
                                 special_gateio_results.append(symbol + fill_symbol + date_detect + " " + time_detect + "\t[" + str(
@@ -364,13 +368,15 @@ for filename in os.listdir("ScanResults"):
             print("")
             log_to_results("")
 
-            print("Average total evol for this file", "{:.2f}".format(total_evol), "%")
+            print("number of assets in file = ", str(nb_assets_in_file))
+            log_to_results("number of assets in file = " + str(nb_assets_in_file))
+            print("Average total evol for this file", "{:.2f}".format(total_evol/nb_assets_in_file), "%")
             global_dict_evol_file[filename] = total_evol
             print(100 * "*")
             print("")
 
             log_to_results(
-                "Average total evol for this file " + "{:.2f}".format(total_evol) + " %")
+                "Average total evol for this file " + "{:.2f}".format(total_evol/nb_assets_in_file) + " %")
             log_to_results(100 * "*")
             log_to_results("")
 
