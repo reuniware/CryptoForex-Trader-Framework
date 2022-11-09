@@ -24,12 +24,12 @@ strhour = format(currentDateAndTime.hour, '02')
 strmin = format(currentDateAndTime.minute, '02')
 
 # Set this variable to True for logging only positive evolutions, to False for logging all.
-only_positive_evol = False
+only_positive_evol = True
 ope_for_filename = ""
 if only_positive_evol is True:
     ope_for_filename = "_ope"
 
-file_filter = "20221109"
+file_filter = "202211"
 file_filter2 = ""
 #file_filter = ""
 
@@ -158,6 +158,10 @@ for filename in os.listdir("ScanResults"):
                             tickers_downloaded = True
 
                         symbol = text.split(' ')[0]
+
+                        #if not ((symbol.endswith("3S_USDT") or symbol.endswith("3L_USDT") or symbol.endswith("5S_USDT") or symbol.endswith("5L_USDT")) or symbol.endswith("BEAR_USDT") or symbol.endswith("BULL_USDT") or (symbol.endswith("DOWNUSDT") or symbol.endswith("UPUSDT"))):
+                        #    continue
+
                         # Bypass special leverage symbols from gateio ; Change variable excludeSpecialSymbolsFromGateIo to True if you need to include these
                         if excludeSpecialSymbolsFromGateIo is True and (symbol.endswith("3S_USDT") or symbol.endswith("3L_USDT") or symbol.endswith("5S_USDT") or symbol.endswith("5L_USDT")) or symbol.endswith("BEAR_USDT") or symbol.endswith("BULL_USDT"):
                             #print("Bypassed : " + symbol)
