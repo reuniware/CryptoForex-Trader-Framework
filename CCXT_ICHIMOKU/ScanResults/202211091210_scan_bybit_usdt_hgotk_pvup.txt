@@ -1,0 +1,2 @@
+Scan results at : 2022-11-09 11:51:45.315974
+ROSEUSDT swap bybit 2022-11-09 12:06:04.180740 bybit ROSEUSDT swap 3m [-6.71 %] [price = 0.05280000]                                                                           

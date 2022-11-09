@@ -1,0 +1,7 @@
+Scan results at : 2022-11-09 15:04:04.473165
+XTZUSDT swap bybit 2022-11-09 15:22:34.429969 bybit XTZUSDT swap 1m [-5.12 %] [price = 1.11200000]                                                                             
+ZECUSDT swap bybit 2022-11-09 15:22:54.395499 bybit ZECUSDT swap 1m [-5.34 %] [price = 39.90000000]                                                                            
+ZILUSDT swap bybit 2022-11-09 15:23:07.473485 bybit ZILUSDT swap 1m [-4.79 %] [price = 0.02527000]                                                                             
+SCUSDT swap bybit 2022-11-09 15:18:58.903015 bybit SCUSDT swap 3m [-4.90 %] [price = 0.00272000]                                                                               
+ACHUSDT swap bybit 2022-11-09 15:04:49.722028 bybit ACHUSDT swap 5m [-3.78 %] [price = 0.01017000]                                                                             
+USDCUSDT swap bybit 2022-11-09 15:21:31.622164 bybit USDCUSDT swap 2h 4h 6h 12h 1d [0.84 %] [price = 1.00850000] *** new highest evol in %                                     

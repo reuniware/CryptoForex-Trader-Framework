@@ -1,0 +1,20 @@
+Scan results at : 2022-11-09 12:30:19.504151
+SB_USDT spot gateio 2022-11-09 11:19:29.641695 gateio SB_USDT spot 1m [-3.08 %] [price = 0.00109990]                                                                           
+GRIN_USDT spot gateio 2022-11-09 12:27:47.018175 gateio GRIN_USDT spot 15m [4.05 %] [price = 0.04510200]                                                                       
+BEYOND_USDT spot gateio 2022-11-09 11:59:38.932664 gateio BEYOND_USDT spot 15m 30m 1h [5.12 %] [price = 0.01684000]                                                            
+ARCX_USDT spot gateio 2022-11-09 12:14:14.414872 gateio ARCX_USDT spot 15m 30m 1h [3.69 %] [price = 0.06952100]                                                                
+RACA3S_USDT spot gateio 2022-11-09 10:09:19.880342 gateio RACA3S_USDT spot 4h [21.61 %] [price = 0.98216700] *** new highest evol in %                                         
+DOT5S_USDT spot gateio 2022-11-09 10:29:24.212251 gateio DOT5S_USDT spot 4h [21.10 %] [price = 0.26191800]                                                                     
+ESG_USDT spot gateio 2022-11-09 11:49:15.527605 gateio ESG_USDT spot 4h [-3.37 %] [price = 0.34385000]                                                                         
+RSV_USDT spot gateio 2022-11-09 10:38:53.475243 gateio RSV_USDT spot 8h [0.10 %] [price = 0.99830000]                                                                          
+TRX3S_USDT spot gateio 2022-11-09 11:22:52.362853 gateio TRX3S_USDT spot 8h [-2.21 %] [price = 0.73070000]                                                                     
+TSHP_USDT spot gateio 2022-11-09 10:27:06.680539 gateio TSHP_USDT spot 1d [23.35 %] [price = 0.00011877] *** new highest evol in %                                             
+BTC3S_USDT spot gateio 2022-11-09 10:49:18.835710 gateio BTC3S_USDT spot 1d [8.54 %] [price = 1.15883000]                                                                      
+FITFI3S_USDT spot gateio 2022-11-09 11:01:01.063075 gateio FITFI3S_USDT spot 1d [43.90 %] [price = 0.69581000] *** new highest evol in %                                       
+SLP3S_USDT spot gateio 2022-11-09 11:10:38.680312 gateio SLP3S_USDT spot 1d [13.58 %] [price = 0.97400000]                                                                     
+ENJ3S_USDT spot gateio 2022-11-09 11:13:23.323095 gateio ENJ3S_USDT spot 1d [5.57 %] [price = 0.35034000]                                                                      
+SKL3S_USDT spot gateio 2022-11-09 12:17:14.609427 gateio SKL3S_USDT spot 1d [26.25 %] [price = 2.13437000]                                                                     
+SOL3S_USDT spot gateio 2022-11-09 12:30:09.587231 gateio SOL3S_USDT spot 1d [27.56 %] [price = 0.35463300]                                                                     
+ATD_USDT spot gateio 2022-11-09 11:43:34.021094 gateio ATD_USDT spot 4h 1d [30.30 %] [price = 0.14450000]                                                                      
+DVP_USDT spot gateio 2022-11-09 11:50:06.242966 gateio DVP_USDT spot 4h 8h 1d [29.08 %] [price = 0.00081563]                                                                   
+SNX3S_USDT spot gateio 2022-11-09 10:13:39.356923 gateio SNX3S_USDT spot 7d 1w [9.36 %] [price = 1.19204000]                                                                   

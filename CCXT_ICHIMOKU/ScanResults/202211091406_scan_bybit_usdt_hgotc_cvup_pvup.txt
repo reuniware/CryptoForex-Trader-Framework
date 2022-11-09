@@ -1,0 +1,3 @@
+Scan results at : 2022-11-09 13:52:19.487392
+AGLDUSDT swap bybit 2022-11-09 13:48:29.382722 bybit AGLDUSDT swap 3m [-8.40 %] [price = 0.26700000]                                                                           
+BELUSDT swap bybit 2022-11-09 13:50:48.912711 bybit BELUSDT swap 3m [-8.01 %] [price = 0.42730000]                                                                             

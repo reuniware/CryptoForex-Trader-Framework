@@ -1,0 +1,8 @@
+Scan results at : 2022-11-09 12:10:59.622841
+BTSUSDT spot binance 2022-11-09 11:38:36.127156 binance BTSUSDT spot 1m [-11.62 %] [price = 0.00829000]                                                                        
+YFIUSDT spot binance 2022-11-09 11:44:47.966095 binance YFIUSDT spot 1m [-6.64 %] [price = 6271.00000000]                                                                      
+PAXGUSDT spot binance 2022-11-09 11:46:53.465288 binance PAXGUSDT spot 30m [0.06 %] [price = 1702.00000000]                                                                    
+AUDUSDT spot binance 2022-11-09 11:44:40.159088 binance AUDUSDT spot 2h [-0.08 %] [price = 0.64800000]                                                                         
+XRPDOWNUSDT spot binance 2022-11-09 11:48:51.447325 binance XRPDOWNUSDT spot 12h [21.64 %] [price = 0.00034350] *** new highest evol in %                                      
+BUSDUSDT spot binance 2022-11-09 11:35:35.901586 binance BUSDUSDT spot 6h 12h 1d [0.13 %] [price = 1.00130000] *** new highest evol in %                                       
+YFIIUSDT spot binance 2022-11-09 11:47:28.652672 binance YFIIUSDT spot 3d [9.98 %] [price = 1880.60000000] *** new highest evol in %                                           

@@ -1,0 +1,2 @@
+Scan results at : 2022-11-09 10:04:27.218507
+CTKUSDT swap bybit 2022-11-09 10:03:03.115172 bybit CTKUSDT swap 3m [-4.10 %] [price = 0.77200000]                                                                             

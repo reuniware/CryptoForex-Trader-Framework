@@ -1,0 +1,17 @@
+Scan results at : 2022-11-09 11:32:16.722893
+MASKUSDT swap bybit 2022-11-09 11:44:27.213307 bybit MASKUSDT swap 1m [-10.94 %] [price = 2.56500000]                                                                          
+SRMUSDT swap bybit 2022-11-09 11:48:14.505053 bybit SRMUSDT swap 1m [-28.70 %] [price = 0.39000000]                                                                            
+XMRUSDT swap bybit 2022-11-09 11:50:45.488686 bybit XMRUSDT swap 1m [-4.74 %] [price = 131.50000000]                                                                           
+ASTRUSDT swap bybit 2022-11-09 11:34:30.171553 bybit ASTRUSDT swap 15m [-9.20 %] [price = 0.03900000]                                                                          
+BSVUSDT swap bybit 2022-11-09 11:36:19.126312 bybit BSVUSDT swap 15m [-3.60 %] [price = 40.20000000]                                                                           
+DOTUSDT swap bybit 2022-11-09 11:39:00.870737 bybit DOTUSDT swap 15m [-2.14 %] [price = 6.16000000]                                                                            
+EOSUSDT swap bybit 2022-11-09 11:39:37.885195 bybit EOSUSDT swap 15m [-2.81 %] [price = 0.93500000]                                                                            
+LPTUSDT swap bybit 2022-11-09 11:43:56.318666 bybit LPTUSDT swap 15m [-6.43 %] [price = 8.00000000]                                                                            
+SHIB1000USDT swap bybit 2022-11-09 11:47:37.202835 bybit SHIB1000USDT swap 15m [-3.64 %] [price = 0.00979000]                                                                  
+SXPUSDT swap bybit 2022-11-09 11:49:06.271230 bybit SXPUSDT swap 15m [-5.68 %] [price = 0.24100000]                                                                            
+TLMUSDT swap bybit 2022-11-09 11:49:18.631575 bybit TLMUSDT swap 15m [-4.42 %] [price = 0.01730000]                                                                            
+KLAYUSDT swap bybit 2022-11-09 11:43:05.868102 bybit KLAYUSDT swap 30m [0.00 %] [price = 0.18150000]                                                                           
+PAXGUSDT swap bybit 2022-11-09 11:45:48.404172 bybit PAXGUSDT swap 30m [0.06 %] [price = 1699.00000000] *** new highest evol in %                                              
+PEOPLEUSDT swap bybit 2022-11-09 11:45:54.535015 bybit PEOPLEUSDT swap 30m [2.58 %] [price = 0.01985000] *** new highest evol in %                                             
+ATOMUSDT swap bybit 2022-11-09 11:34:36.276817 bybit ATOMUSDT swap 1w [-4.41 %] [price = 11.61000000]                                                                          
+BNBUSDT swap bybit 2022-11-09 11:36:00.326746 bybit BNBUSDT swap 1w [-8.05 %] [price = 300.85000000]                                                                           

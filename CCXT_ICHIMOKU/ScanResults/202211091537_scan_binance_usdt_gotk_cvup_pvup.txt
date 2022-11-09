@@ -1,0 +1,4 @@
+Scan results at : 2022-11-09 15:32:06.377888
+TORNUSDT spot binance 2022-11-09 15:22:02.468811 binance TORNUSDT spot 5m [-13.64 %] [price = 4.18000000]                                                                      
+BUSDUSDT spot binance 2022-11-09 14:57:34.088837 binance BUSDUSDT spot 8h 1d [0.14 %] [price = 1.00140000] *** new highest evol in %                                           
+YFIIUSDT spot binance 2022-11-09 15:09:27.751634 binance YFIIUSDT spot 3d [12.66 %] [price = 1926.40000000] *** new highest evol in %                                          

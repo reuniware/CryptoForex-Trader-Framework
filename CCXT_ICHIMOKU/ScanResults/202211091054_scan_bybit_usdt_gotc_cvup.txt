@@ -1,0 +1,2 @@
+Scan results at : 2022-11-09 10:38:19.675742
+USDCUSDT swap bybit 2022-11-09 10:52:40.784809 bybit USDCUSDT swap 1h [0.70 %] [price = 1.00710000] *** new highest evol in %                                                  

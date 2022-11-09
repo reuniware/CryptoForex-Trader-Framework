@@ -1,0 +1,4 @@
+Scan results at : 2022-11-09 13:28:17.670149
+TRXUSDT swap bybit 2022-11-09 13:45:31.525079 bybit TRXUSDT swap 3m [1.69 %] [price = 0.05966000] *** new highest evol in %                                                    
+TRBUSDT swap bybit 2022-11-09 13:45:25.515271 bybit TRBUSDT swap 1m 3m [-9.63 %] [price = 11.83000000]                                                                         
+PAXGUSDT swap bybit 2022-11-09 13:41:49.745390 bybit PAXGUSDT swap 12h [-0.29 %] [price = 1693.00000000]                                                                       

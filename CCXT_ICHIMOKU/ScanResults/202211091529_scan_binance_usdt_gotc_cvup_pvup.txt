@@ -1,0 +1,12 @@
+Scan results at : 2022-11-09 15:23:15.224158
+CELRUSDT spot binance 2022-11-09 14:44:47.354054 binance CELRUSDT spot 3m [-6.83 %] [price = 0.01268000]                                                                       
+FTMUSDT spot binance 2022-11-09 14:46:09.153417 binance FTMUSDT spot 3m [-5.42 %] [price = 0.20410000]                                                                         
+DUSKUSDT spot binance 2022-11-09 14:46:43.900608 binance DUSKUSDT spot 3m [-8.93 %] [price = 0.10300000]                                                                       
+PERLUSDT spot binance 2022-11-09 14:47:42.768171 binance PERLUSDT spot 3m [-7.42 %] [price = 0.01784000]                                                                       
+HARDUSDT spot binance 2022-11-09 15:05:41.772028 binance HARDUSDT spot 3m [-7.43 %] [price = 0.16560000]                                                                       
+FLMUSDT spot binance 2022-11-09 15:03:49.887528 binance FLMUSDT spot 5m [-5.74 %] [price = 0.08870000]                                                                         
+FILUSDT spot binance 2022-11-09 15:04:48.757581 binance FILUSDT spot 5m [-4.18 %] [price = 4.58000000]                                                                         
+PHAUSDT spot binance 2022-11-09 15:14:11.714491 binance PHAUSDT spot 15m [0.75 %] [price = 0.14860000]                                                                         
+BUSDUSDT spot binance 2022-11-09 14:49:07.632682 binance BUSDUSDT spot 1d [0.15 %] [price = 1.00150000] *** new highest evol in %                                              
+ETHDOWNUSDT spot binance 2022-11-09 14:56:06.993159 binance ETHDOWNUSDT spot 1d [19.51 %] [price = 1.22650000] *** new highest evol in %                                       
+YFIIUSDT spot binance 2022-11-09 15:01:05.852295 binance YFIIUSDT spot 3d [13.86 %] [price = 1946.90000000]                                                                    

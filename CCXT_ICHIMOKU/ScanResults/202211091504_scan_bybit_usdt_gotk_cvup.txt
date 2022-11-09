@@ -1,0 +1,7 @@
+Scan results at : 2022-11-09 14:48:56.914075
+NEARUSDT swap bybit 2022-11-09 14:57:30.185854 bybit NEARUSDT swap 1m [-13.66 %] [price = 2.27000000]                                                                          
+UNIUSDT swap bybit 2022-11-09 15:02:18.944853 bybit UNIUSDT swap 1m [-6.45 %] [price = 5.67100000]                                                                             
+XLMUSDT swap bybit 2022-11-09 15:03:01.605053 bybit XLMUSDT swap 1m [-4.31 %] [price = 0.09445000]                                                                             
+RSRUSDT swap bybit 2022-11-09 14:59:19.491599 bybit RSRUSDT swap 3m [-7.14 %] [price = 0.00455000]                                                                             
+BICOUSDT swap bybit 2022-11-09 14:48:23.927733 bybit BICOUSDT swap 5m [-7.35 %] [price = 0.31500000]                                                                           
+USDCUSDT swap bybit 2022-11-09 15:02:25.002905 bybit USDCUSDT swap 2h 4h 6h 12h 1d [0.84 %] [price = 1.00850000] *** new highest evol in %                                     

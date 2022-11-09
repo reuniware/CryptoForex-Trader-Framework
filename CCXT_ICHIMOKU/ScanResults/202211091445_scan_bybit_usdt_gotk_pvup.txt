@@ -1,0 +1,9 @@
+Scan results at : 2022-11-09 14:40:33.444969
+LITUSDT swap bybit 2022-11-09 14:37:13.325551 bybit LITUSDT swap 5m [-1.30 %] [price = 0.75900000]                                                                             
+SWEATUSDT swap bybit 2022-11-09 14:42:25.380728 bybit SWEATUSDT swap 5m [-3.66 %] [price = 0.01631000]                                                                         
+WAVESUSDT swap bybit 2022-11-09 14:43:34.105574 bybit WAVESUSDT swap 5m [-7.66 %] [price = 2.53000000]                                                                         
+XLMUSDT swap bybit 2022-11-09 14:43:59.403730 bybit XLMUSDT swap 5m [-4.76 %] [price = 0.09400000]                                                                             
+XMRUSDT swap bybit 2022-11-09 14:44:05.697186 bybit XMRUSDT swap 5m [-3.55 %] [price = 133.15000000]                                                                           
+XRPUSDT swap bybit 2022-11-09 14:44:17.714808 bybit XRPUSDT swap 5m [-6.31 %] [price = 0.37990000]                                                                             
+YFIUSDT swap bybit 2022-11-09 14:44:30.069349 bybit YFIUSDT swap 5m [-5.01 %] [price = 6350.00000000]                                                                          
+USDCUSDT swap bybit 2022-11-09 14:43:21.253120 bybit USDCUSDT swap 1h 2h 4h 6h 12h 1d [0.72 %] [price = 1.00730000] *** new highest evol in %                                  

@@ -1,0 +1,2 @@
+Scan results at : 2022-11-09 16:25:53.709361
+PAXGUSDT swap bybit 2022-11-09 16:33:30.067671 bybit PAXGUSDT swap 5m 15m [0.18 %] [price = 1701.00000000] *** new highest evol in %                                           

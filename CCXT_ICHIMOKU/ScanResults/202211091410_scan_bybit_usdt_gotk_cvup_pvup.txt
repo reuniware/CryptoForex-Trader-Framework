@@ -1,0 +1,4 @@
+Scan results at : 2022-11-09 14:06:45.290669
+USDCUSDT swap bybit 2022-11-09 14:09:02.867781 bybit USDCUSDT swap 1m [0.49 %] [price = 1.00500000] *** new highest evol in %                                                  
+MINAUSDT swap bybit 2022-11-09 14:03:49.900819 bybit MINAUSDT swap 5m [-6.79 %] [price = 0.60400000]                                                                           
+XRPUSDT swap bybit 2022-11-09 14:09:58.810401 bybit XRPUSDT swap 5m [-6.46 %] [price = 0.37930000]                                                                             

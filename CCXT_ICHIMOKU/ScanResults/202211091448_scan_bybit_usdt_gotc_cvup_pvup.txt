@@ -1,0 +1,10 @@
+Scan results at : 2022-11-09 14:45:01.935282
+RENUSDT swap bybit 2022-11-09 14:43:42.410297 bybit RENUSDT swap 1m [-7.99 %] [price = 0.09560000]                                                                             
+SKLUSDT swap bybit 2022-11-09 14:45:03.054743 bybit SKLUSDT swap 1m [-12.95 %] [price = 0.02890000]                                                                            
+MATICUSDT swap bybit 2022-11-09 14:41:59.233275 bybit MATICUSDT swap 3m [-9.27 %] [price = 0.94690000]                                                                         
+QTUMUSDT swap bybit 2022-11-09 14:43:24.296661 bybit QTUMUSDT swap 3m [-6.09 %] [price = 2.31500000]                                                                           
+SANDUSDT swap bybit 2022-11-09 14:44:31.790119 bybit SANDUSDT swap 3m [-7.15 %] [price = 0.66080000]                                                                           
+XEMUSDT swap bybit 2022-11-09 14:47:48.903813 bybit XEMUSDT swap 3m [-4.91 %] [price = 0.03290000]                                                                             
+XTZUSDT swap bybit 2022-11-09 14:48:19.159972 bybit XTZUSDT swap 5m [-4.44 %] [price = 1.12000000]                                                                             
+SHIB1000USDT swap bybit 2022-11-09 14:44:56.945064 bybit SHIB1000USDT swap 3m 5m [-1.97 %] [price = 0.00996000]                                                                
+XCNUSDT swap bybit 2022-11-09 14:47:42.650678 bybit XCNUSDT swap 3m 5m [2.10 %] [price = 0.04378000] *** new highest evol in %                                                 
