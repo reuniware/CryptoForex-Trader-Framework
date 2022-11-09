@@ -245,13 +245,13 @@ for filename in os.listdir("ScanResults"):
 
                                 if group_of_timeframes in dict_evol_tf_group:
                                     current_val = dict_evol_tf_group[group_of_timeframes]
-                                    dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
+                                    dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol)
                                 else:
                                     dict_evol_tf_group[group_of_timeframes] = evol
 
                                 if group_of_timeframes in global_dict_evol_tf_group:
                                     current_val = global_dict_evol_tf_group[group_of_timeframes]
-                                    global_dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
+                                    global_dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol)
                                 else:
                                     global_dict_evol_tf_group[group_of_timeframes] = evol
 
@@ -261,13 +261,13 @@ for filename in os.listdir("ScanResults"):
 
                                 if group_of_timeframes in dict_evol_tf_group:
                                     current_val = dict_evol_tf_group[group_of_timeframes]
-                                    dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
+                                    dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol)
                                 else:
                                     dict_evol_tf_group[group_of_timeframes] = evol
 
                                 if group_of_timeframes in global_dict_evol_tf_group:
                                     current_val = global_dict_evol_tf_group[group_of_timeframes]
-                                    global_dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol) / 2
+                                    global_dict_evol_tf_group[group_of_timeframes] = (float(current_val) + evol)
                                 else:
                                     global_dict_evol_tf_group[group_of_timeframes] = evol
 
@@ -354,15 +354,11 @@ for filename in os.listdir("ScanResults"):
                 fill_key = "." * (48 - len(k))
                 # print("[" + k + "]", fill_key, "{:.2f}".format(dict_evol_tf_group[k]), "%")
                 # log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]) + "%")
-                print("[" + k + "]", fill_key, "{:.2f}".format(dict_evol_tf_group[k]), "%", 4 * " ",
-                      dict_assets_per_tf_group[k])
-                log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]) + "%" + 4 * " " +
-                               dict_assets_per_tf_group[k])
+                print("[" + k + "]", fill_key, "{:.2f}".format(dict_evol_tf_group[k]/len(dict_assets_per_tf_group)), "%", 4 * " ", dict_assets_per_tf_group[k])
+                log_to_results("[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]/len(dict_evol_tf_group)) + "%" + 4 * " " + dict_assets_per_tf_group[k])
 
                 if first_record_done is False:
-                    array_evol_tf_group_global.append(
-                        "[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]) + "%" + 4 * " " +
-                        dict_assets_per_tf_group[k])
+                    array_evol_tf_group_global.append("[" + k + "]" + fill_key + "{:.2f}".format(dict_evol_tf_group[k]/len(dict_assets_per_tf_group)) + "%" + 4 * " " + dict_assets_per_tf_group[k])
                     first_record_done = True
 
             print("")
