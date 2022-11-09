@@ -1,0 +1,4 @@
+Scan results at : 2022-11-09 01:03:50.847949
+TRXUSDT swap bybit 2022-11-09 01:20:31.107328 bybit TRXUSDT swap 1m [0.22 %] [price = 0.05880000]                                                                              
+FTTUSDT swap bybit 2022-11-09 01:11:49.779313 bybit FTTUSDT swap 3m [12.25 %] [price = 6.14000000] *** new highest evol in %                                                   
+BNXUSDT swap bybit 2022-11-09 01:07:30.135674 bybit BNXUSDT swap 3m 4h 6h [0.88 %] [price = 149.05000000] *** new highest evol in %                                            

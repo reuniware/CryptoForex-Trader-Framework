@@ -1,0 +1,6 @@
+Scan results at : 2022-11-09 04:52:25.018332
+ATOMUSDT spot binance 2022-11-09 04:15:34.097849 binance ATOMUSDT spot 1s [-2.04 %] [price = 11.90400000]                                                                      
+COSUSDT spot binance 2022-11-09 04:17:01.500245 binance COSUSDT spot 1m [-2.25 %] [price = 0.00477000]                                                                         
+BUSDUSDT spot binance 2022-11-09 04:19:01.111628 binance BUSDUSDT spot 4h [0.03 %] [price = 1.00030000] *** new highest evol in %                                              
+YFIIUSDT spot binance 2022-11-09 04:30:53.411197 binance YFIIUSDT spot 4h [9.34 %] [price = 1869.60000000] *** new highest evol in %                                           
+AUDUSDT spot binance 2022-11-09 04:28:01.140327 binance AUDUSDT spot 1h 4h [0.08 %] [price = 0.64900000] *** new highest evol in %                                             

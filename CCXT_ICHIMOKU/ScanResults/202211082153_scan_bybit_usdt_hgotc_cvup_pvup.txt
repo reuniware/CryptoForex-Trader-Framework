@@ -1,0 +1,5 @@
+Scan results at : 2022-11-08 21:43:42.288524
+BALUSDT swap bybit 2022-11-08 21:37:20.655541 bybit BALUSDT swap 1m [-17.64 %] [price = 5.58000000]                                                                            
+EOSUSDT swap bybit 2022-11-08 21:41:46.831168 bybit EOSUSDT swap 1m [-15.09 %] [price = 0.96200000]                                                                            
+GMTUSDT swap bybit 2022-11-08 21:43:13.347567 bybit GMTUSDT swap 1m [-13.31 %] [price = 0.50790000]                                                                            
+UNFIUSDT swap bybit 2022-11-08 21:52:00.281966 bybit UNFIUSDT swap 1m [-23.49 %] [price = 4.56650000]                                                                          

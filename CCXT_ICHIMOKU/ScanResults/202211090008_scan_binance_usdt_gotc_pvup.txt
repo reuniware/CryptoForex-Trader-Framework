@@ -1,0 +1,24 @@
+Scan results at : 2022-11-09 00:07:40.298194
+MATICUSDT spot binance 2022-11-08 23:25:35.806584 binance MATICUSDT spot 1s [-17.92 %] [price = 1.03210000]                                                                    
+ATOMUSDT spot binance 2022-11-08 23:25:43.640077 binance ATOMUSDT spot 1s [-15.76 %] [price = 12.02600000]                                                                     
+KEYUSDT spot binance 2022-11-08 23:28:05.825807 binance KEYUSDT spot 1m [-11.82 %] [price = 0.00399800]                                                                        
+WAVESUSDT spot binance 2022-11-08 23:23:19.483399 binance WAVESUSDT spot 3m [-19.10 %] [price = 2.71000000]                                                                    
+XTZUSDT spot binance 2022-11-08 23:29:20.826428 binance XTZUSDT spot 3m [-14.55 %] [price = 1.16300000]                                                                        
+NKNUSDT spot binance 2022-11-08 23:29:56.737946 binance NKNUSDT spot 3m [-18.93 %] [price = 0.08520000]                                                                        
+WRXUSDT spot binance 2022-11-08 23:31:52.814356 binance WRXUSDT spot 3m [-12.97 %] [price = 0.18250000]                                                                        
+STMXUSDT spot binance 2022-11-08 23:34:31.574189 binance STMXUSDT spot 3m [-19.59 %] [price = 0.00572200]                                                                      
+KMDUSDT spot binance 2022-11-08 23:38:46.689856 binance KMDUSDT spot 3m [-14.60 %] [price = 0.21410000]                                                                        
+DOTUSDT spot binance 2022-11-08 23:39:52.904011 binance DOTUSDT spot 5m [-10.53 %] [price = 6.37000000]                                                                        
+INJUSDT spot binance 2022-11-08 23:44:41.360218 binance INJUSDT spot 5m [-24.51 %] [price = 2.02400000]                                                                        
+CTKUSDT spot binance 2022-11-08 23:44:58.300379 binance CTKUSDT spot 5m [-11.27 %] [price = 0.81100000]                                                                        
+GALAUSDT spot binance 2022-11-08 23:57:11.418883 binance GALAUSDT spot 5m [-9.53 %] [price = 0.03267000]                                                                       
+CITYUSDT spot binance 2022-11-08 23:59:49.397436 binance CITYUSDT spot 5m [-16.37 %] [price = 5.11000000]                                                                      
+STEEMUSDT spot binance 2022-11-09 00:06:13.719255 binance STEEMUSDT spot 5m [1.90 %] [price = 0.20380000]                                                                      
+EURUSDT spot binance 2022-11-08 23:31:29.377348 binance EURUSDT spot 4h [0.30 %] [price = 1.00370000] *** new highest evol in %                                                
+BNXUSDT spot binance 2022-11-08 23:59:33.742043 binance BNXUSDT spot 5m 8h [2.77 %] [price = 148.30000000]                                                                     
+ETHDOWNUSDT spot binance 2022-11-08 23:35:56.430985 binance ETHDOWNUSDT spot 6h 8h [45.70 %] [price = 1.03140000] *** new highest evol in %                                    
+TRXDOWNUSDT spot binance 2022-11-08 23:42:00.796020 binance TRXDOWNUSDT spot 1d [13.00 %] [price = 1.32100000]                                                                 
+PAXGUSDT spot binance 2022-11-08 23:40:17.088170 binance PAXGUSDT spot 12h 1d [1.80 %] [price = 1696.00000000]                                                                 
+BUSDUSDT spot binance 2022-11-08 23:29:04.566127 binance BUSDUSDT spot 1h 2h 12h 1d [0.03 %] [price = 1.00010000] *** new highest evol in %                                    
+YFIIUSDT spot binance 2022-11-08 23:40:52.876146 binance YFIIUSDT spot 3d [23.58 %] [price = 1694.30000000]                                                                    
+BTCDOWNUSDT spot binance 2022-11-08 23:34:06.137116 binance BTCDOWNUSDT spot 8h 12h 1d 3d [24.07 %] [price = 0.03613000] *** new highest evol in %                             

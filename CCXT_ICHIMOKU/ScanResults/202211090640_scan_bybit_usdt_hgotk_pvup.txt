@@ -1,0 +1,6 @@
+Scan results at : 2022-11-09 06:35:31.636538
+BNBUSDT swap bybit 2022-11-09 06:24:55.812085 bybit BNBUSDT swap 1m [-3.16 %] [price = 316.85000000]                                                                           
+OPUSDT swap bybit 2022-11-09 06:34:27.661689 bybit OPUSDT swap 1m [-2.59 %] [price = 0.94050000]                                                                               
+OGNUSDT swap bybit 2022-11-09 06:34:03.469897 bybit OGNUSDT swap 3m [-1.81 %] [price = 0.11910000]                                                                             
+QTUMUSDT swap bybit 2022-11-09 06:34:45.933983 bybit QTUMUSDT swap 3m [-3.04 %] [price = 2.39000000]                                                                           
+SLPUSDT swap bybit 2022-11-09 06:36:31.234430 bybit SLPUSDT swap 5m [-2.68 %] [price = 0.00291000]                                                                             

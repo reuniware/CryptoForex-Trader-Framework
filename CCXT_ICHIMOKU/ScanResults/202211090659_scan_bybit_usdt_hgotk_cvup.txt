@@ -1,0 +1,10 @@
+Scan results at : 2022-11-09 06:40:11.969134
+DOTUSDT swap bybit 2022-11-09 06:46:53.249542 bybit DOTUSDT swap 1m [-0.08 %] [price = 6.29000000]                                                                             
+FLOWUSDT swap bybit 2022-11-09 06:48:13.504575 bybit FLOWUSDT swap 3m [-1.38 %] [price = 1.43000000]                                                                           
+IOSTUSDT swap bybit 2022-11-09 06:50:12.338406 bybit IOSTUSDT swap 3m [-0.51 %] [price = 0.00974000]                                                                           
+KAVAUSDT swap bybit 2022-11-09 06:50:42.818082 bybit KAVAUSDT swap 3m [-5.36 %] [price = 1.09500000]                                                                           
+LINAUSDT swap bybit 2022-11-09 06:51:20.208510 bybit LINAUSDT swap 3m [-2.01 %] [price = 0.00682000]                                                                           
+LRCUSDT swap bybit 2022-11-09 06:51:50.554964 bybit LRCUSDT swap 3m [-1.35 %] [price = 0.25650000]                                                                             
+MATICUSDT swap bybit 2022-11-09 06:52:21.021774 bybit MATICUSDT swap 3m [-5.83 %] [price = 0.98290000]                                                                         
+MTLUSDT swap bybit 2022-11-09 06:52:39.165298 bybit MTLUSDT swap 3m [-4.02 %] [price = 0.78700000]                                                                             
+NEARUSDT swap bybit 2022-11-09 06:52:45.272637 bybit NEARUSDT swap 3m [-3.61 %] [price = 2.53400000]                                                                           

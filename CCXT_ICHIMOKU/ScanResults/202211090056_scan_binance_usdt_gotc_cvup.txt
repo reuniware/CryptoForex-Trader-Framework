@@ -1,0 +1,10 @@
+Scan results at : 2022-11-09 00:45:12.461018
+IOTAUSDT spot binance 2022-11-09 00:10:01.632417 binance IOTAUSDT spot 3m [-1.20 %] [price = 0.23130000]                                                                       
+HOTUSDT spot binance 2022-11-09 00:11:38.060998 binance HOTUSDT spot 3m [-0.83 %] [price = 0.00178700]                                                                         
+NKNUSDT spot binance 2022-11-09 00:18:01.340892 binance NKNUSDT spot 3m [0.47 %] [price = 0.08530000] *** new highest evol in %                                                
+CVCUSDT spot binance 2022-11-09 00:16:45.017754 binance CVCUSDT spot 5m [-0.09 %] [price = 0.10810000]                                                                         
+KAVAUSDT spot binance 2022-11-09 00:18:16.990196 binance KAVAUSDT spot 5m [-0.43 %] [price = 1.15300000]                                                                       
+ARDRUSDT spot binance 2022-11-09 00:22:24.694963 binance ARDRUSDT spot 5m [0.12 %] [price = 0.08540000]                                                                        
+SCUSDT spot binance 2022-11-09 00:23:31.082406 binance SCUSDT spot 5m [0.35 %] [price = 0.00288000]                                                                            
+LINKUPUSDT spot binance 2022-11-09 00:24:29.049224 binance LINKUPUSDT spot 12h [3.97 %] [price = 0.01153000] *** new highest evol in %                                         
+YFIIUSDT spot binance 2022-11-09 00:29:02.392776 binance YFIIUSDT spot 3d [-0.70 %] [price = 1698.00000000]                                                                    

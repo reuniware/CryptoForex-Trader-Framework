@@ -1,0 +1,9 @@
+Scan results at : 2022-11-09 07:57:45.526180
+ZRXUSDT spot binance 2022-11-09 07:27:12.593702 binance ZRXUSDT spot 1m [0.09 %] [price = 0.21080000]                                                                          
+TRXUSDT spot binance 2022-11-09 07:25:49.117196 binance TRXUSDT spot 3m [7.00 %] [price = 0.06284000] *** new highest evol in %                                                
+MATICUSDT spot binance 2022-11-09 07:28:56.248000 binance MATICUSDT spot 3m [-5.98 %] [price = 0.98180000]                                                                     
+BTCDOWNUSDT spot binance 2022-11-09 07:37:34.003159 binance BTCDOWNUSDT spot 3m [3.85 %] [price = 0.03731100]                                                                  
+ETCUSDT spot binance 2022-11-09 07:25:56.916890 binance ETCUSDT spot 5m [-1.14 %] [price = 21.62000000]                                                                        
+LINKDOWNUSDT spot binance 2022-11-09 07:39:59.063573 binance LINKDOWNUSDT spot 2h [16.71 %] [price = 0.00408500] *** new highest evol in %                                     
+EURUSDT spot binance 2022-11-09 07:34:51.401432 binance EURUSDT spot 4h [0.15 %] [price = 1.00550000]                                                                          
+ETHDOWNUSDT spot binance 2022-11-09 07:39:23.943643 binance ETHDOWNUSDT spot 6h [9.97 %] [price = 1.12860000] *** new highest evol in %                                        

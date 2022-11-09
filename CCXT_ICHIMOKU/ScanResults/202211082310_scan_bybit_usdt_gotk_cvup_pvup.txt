@@ -1,0 +1,5 @@
+Scan results at : 2022-11-08 23:10:16.228619
+RENUSDT swap bybit 2022-11-08 23:05:33.233482 bybit RENUSDT swap 1m [-17.43 %] [price = 0.10230000]                                                                            
+API3USDT swap bybit 2022-11-08 22:53:32.752481 bybit API3USDT swap 3m [-8.29 %] [price = 1.79200000]                                                                           
+CELOUSDT swap bybit 2022-11-08 22:56:13.210001 bybit CELOUSDT swap 3m [-23.24 %] [price = 0.56800000]                                                                          
+COMPUSDT swap bybit 2022-11-08 22:56:44.294033 bybit COMPUSDT swap 3m [-17.33 %] [price = 41.50000000]                                                                         

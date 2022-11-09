@@ -1,0 +1,2 @@
+Scan results at : 2022-11-09 02:38:25.024494
+BNXUSDT swap bybit 2022-11-09 02:40:48.695085 bybit BNXUSDT swap 2h 6h [-0.34 %] [price = 147.25000000]                                                                        

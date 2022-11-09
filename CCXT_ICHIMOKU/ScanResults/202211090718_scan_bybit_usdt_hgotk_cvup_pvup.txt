@@ -1,0 +1,2 @@
+Scan results at : 2022-11-09 06:59:22.157484
+OGNUSDT swap bybit 2022-11-09 07:12:14.611793 bybit OGNUSDT swap 5m [-1.65 %] [price = 0.11930000]                                                                             

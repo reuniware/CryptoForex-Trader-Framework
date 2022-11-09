@@ -1,0 +1,6 @@
+Scan results at : 2022-11-08 20:55:15.580896
+BALUSDT swap bybit 2022-11-08 20:39:28.511830 bybit BALUSDT swap 1m [-17.56 %] [price = 5.58500000]                                                                            
+BOBAUSDT swap bybit 2022-11-08 20:40:30.932700 bybit BOBAUSDT swap 1m [-10.17 %] [price = 0.26500000]                                                                          
+FTTUSDT swap bybit 2022-11-08 20:44:50.973718 bybit FTTUSDT swap 1m [-78.89 %] [price = 4.66000000]                                                                            
+INJUSDT swap bybit 2022-11-08 20:46:30.288663 bybit INJUSDT swap 1m [-28.19 %] [price = 1.92500000]                                                                            
+BNXUSDT swap bybit 2022-11-08 20:40:24.124567 bybit BNXUSDT swap 2h [2.36 %] [price = 147.60000000] *** new highest evol in %                                                  

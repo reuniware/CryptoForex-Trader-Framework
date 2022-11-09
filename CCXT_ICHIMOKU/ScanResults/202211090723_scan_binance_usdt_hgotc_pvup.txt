@@ -1,0 +1,5 @@
+Scan results at : 2022-11-09 07:20:43.941087
+BCHUSDT spot binance 2022-11-09 06:45:54.231341 binance BCHUSDT spot 1m [-0.39 %] [price = 102.70000000]                                                                       
+LRCUSDT spot binance 2022-11-09 06:49:58.612791 binance LRCUSDT spot 1m [-1.23 %] [price = 0.25670000]                                                                         
+SNXUSDT spot binance 2022-11-09 06:50:40.453419 binance SNXUSDT spot 3m [-1.70 %] [price = 2.08500000]                                                                         
+GBPUSDT spot binance 2022-11-09 06:51:58.215125 binance GBPUSDT spot 8h [0.09 %] [price = 1.15300000] *** new highest evol in %                                                

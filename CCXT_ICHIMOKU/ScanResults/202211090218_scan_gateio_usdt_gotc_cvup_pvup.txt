@@ -1,0 +1,24 @@
+Scan results at : 2022-11-09 02:18:24.924369
+FALCONS_USDT spot gateio 2022-11-08 23:36:29.170253 gateio FALCONS_USDT spot 1m [-12.97 %] [price = 0.00501480]                                                                
+NUM_USDT spot gateio 2022-11-09 00:05:33.945782 gateio NUM_USDT spot 1m [1.03 %] [price = 0.04729600]                                                                          
+BIT_USDT spot gateio 2022-11-09 00:31:45.811896 gateio BIT_USDT spot 1m [-0.20 %] [price = 0.34360000]                                                                         
+STX_USDT spot gateio 2022-11-09 00:33:02.010182 gateio STX_USDT spot 1m [0.38 %] [price = 0.27563000]                                                                          
+GT_USDT spot gateio 2022-11-09 02:11:32.273424 gateio GT_USDT spot 1m [-1.20 %] [price = 4.31460000]                                                                           
+SHIB_USDT spot gateio 2022-11-08 23:57:16.257432 gateio SHIB_USDT spot 5m [-13.77 %] [price = 0.00001017]                                                                      
+PROPS_USDT spot gateio 2022-11-09 00:07:51.988247 gateio PROPS_USDT spot 5m [1.10 %] [price = 0.00102810]                                                                      
+MMM_USDT spot gateio 2022-11-09 00:44:26.988142 gateio MMM_USDT spot 5m [0.13 %] [price = 0.00075800]                                                                          
+BLOCK_USDT spot gateio 2022-11-09 00:48:42.044900 gateio BLOCK_USDT spot 5m [0.64 %] [price = 0.04379000]                                                                      
+DASH_USDT spot gateio 2022-11-09 01:07:56.386911 gateio DASH_USDT spot 5m [0.42 %] [price = 38.19000000]                                                                       
+FDT_USDT spot gateio 2022-11-09 01:33:40.091884 gateio FDT_USDT spot 5m [0.93 %] [price = 0.13122000]                                                                          
+BTC_USDT spot gateio 2022-11-09 01:34:45.701108 gateio BTC_USDT spot 5m [-0.35 %] [price = 18483.90000000]                                                                     
+LTC_USDT spot gateio 2022-11-09 01:35:01.889729 gateio LTC_USDT spot 5m [0.57 %] [price = 58.14000000]                                                                         
+WIN_USDT spot gateio 2022-11-09 02:18:37.337825 gateio WIN_USDT spot 5m [0.51 %] [price = 0.00009549]                                                                          
+NIM_USDT spot gateio 2022-11-08 23:43:03.396559 gateio NIM_USDT spot 15m [0.63 %] [price = 0.00126960]                                                                         
+VEGA_USDT spot gateio 2022-11-08 23:41:36.585571 gateio VEGA_USDT spot 30m [6.75 %] [price = 1.26440000] *** new highest evol in %                                             
+ICP3S_USDT spot gateio 2022-11-08 23:42:46.906479 gateio ICP3S_USDT spot 8h [34.10 %] [price = 0.42392000] *** new highest evol in %                                           
+SNX3S_USDT spot gateio 2022-11-08 23:44:03.916165 gateio SNX3S_USDT spot 8h [47.99 %] [price = 1.09588000] *** new highest evol in %                                           
+COTI3S_USDT spot gateio 2022-11-08 23:56:37.323949 gateio COTI3S_USDT spot 8h [28.58 %] [price = 1.48010000]                                                                   
+CATGIRL_USDT spot gateio 2022-11-09 00:22:08.816239 gateio CATGIRL_USDT spot 8h [8.56 %] [price = 0.00000000]                                                                  
+FITFI3S_USDT spot gateio 2022-11-09 00:31:40.396406 gateio FITFI3S_USDT spot 4h 8h [11.28 %] [price = 0.53806000]                                                              
+ZEC3S_USDT spot gateio 2022-11-08 23:50:32.463125 gateio ZEC3S_USDT spot 1d [52.07 %] [price = 0.04232000] *** new highest evol in %                                           
+SOL3S_USDT spot gateio 2022-11-09 02:00:55.081333 gateio SOL3S_USDT spot 1d [3.97 %] [price = 0.28905100]                                                                      

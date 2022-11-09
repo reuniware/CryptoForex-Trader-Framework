@@ -1,0 +1,6 @@
+Scan results at : 2022-11-09 05:40:50.009837
+APEUSDT swap bybit 2022-11-09 05:26:49.817304 bybit APEUSDT swap 3m [-2.48 %] [price = 3.81800000]                                                                             
+IOTAUSDT swap bybit 2022-11-09 05:34:58.903979 bybit IOTAUSDT swap 3m [-2.35 %] [price = 0.22850000]                                                                           
+KLAYUSDT swap bybit 2022-11-09 05:35:35.332176 bybit KLAYUSDT swap 3m [1.10 %] [price = 0.18350000] *** new highest evol in %                                                  
+BATUSDT swap bybit 2022-11-09 05:28:07.907150 bybit BATUSDT swap 5m [-0.36 %] [price = 0.27650000]                                                                             
+TRXUSDT swap bybit 2022-11-09 05:41:52.474766 bybit TRXUSDT swap 1h 2h 4h 6h 12h [10.41 %] [price = 0.06478000] *** new highest evol in %                                      

@@ -1,0 +1,10 @@
+Scan results at : 2022-11-08 22:13:15.969810
+DOTUSDT swap bybit 2022-11-08 22:20:03.926871 bybit DOTUSDT swap 1m [-12.02 %] [price = 6.26000000]                                                                            
+DASHUSDT swap bybit 2022-11-08 22:19:32.446468 bybit DASHUSDT swap 3m [-16.28 %] [price = 38.30000000]                                                                         
+DYDXUSDT swap bybit 2022-11-08 22:20:16.330642 bybit DYDXUSDT swap 3m [-20.45 %] [price = 1.40000000]                                                                          
+EGLDUSDT swap bybit 2022-11-08 22:20:22.453526 bybit EGLDUSDT swap 3m [-8.65 %] [price = 49.10000000]                                                                          
+ENSUSDT swap bybit 2022-11-08 22:20:34.698039 bybit ENSUSDT swap 3m [-17.94 %] [price = 13.31000000]                                                                           
+ETCUSDT swap bybit 2022-11-08 22:20:46.968901 bybit ETCUSDT swap 3m [-14.04 %] [price = 21.52000000]                                                                           
+STMXUSDT swap bybit 2022-11-08 22:29:24.904010 bybit STMXUSDT swap 3m [-20.28 %] [price = 0.00568000]                                                                          
+DOGEUSDT swap bybit 2022-11-08 22:19:57.214753 bybit DOGEUSDT swap 1m 3m [-20.95 %] [price = 0.08790000]                                                                       
+BNXUSDT swap bybit 2022-11-08 22:17:04.672722 bybit BNXUSDT swap 5m [2.36 %] [price = 147.60000000] *** new highest evol in %                                                  

@@ -1,0 +1,2 @@
+Scan results at : 2022-11-08 23:48:32.437134
+MASKUSDT swap bybit 2022-11-09 00:00:39.379450 bybit MASKUSDT swap 3m [1.04 %] [price = 2.91000000] *** new highest evol in %                                                  

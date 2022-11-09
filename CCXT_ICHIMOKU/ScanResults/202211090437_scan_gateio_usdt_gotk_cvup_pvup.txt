@@ -1,0 +1,23 @@
+Scan results at : 2022-11-09 04:29:16.182520
+DOGE5L_USDT spot gateio 2022-11-09 04:13:54.023818 gateio DOGE5L_USDT spot 1m [-12.47 %] [price = 0.82652100]                                                                  
+POOL_USDT spot gateio 2022-11-09 01:54:40.428988 gateio POOL_USDT spot 5m [0.17 %] [price = 1.45756000] *** new highest evol in %                                              
+PEOPLE_USDT spot gateio 2022-11-09 02:08:39.714836 gateio PEOPLE_USDT spot 5m [0.73 %] [price = 0.01949900] *** new highest evol in %                                          
+GOLDMINER_USDT spot gateio 2022-11-09 02:13:29.459769 gateio GOLDMINER_USDT spot 5m [3.83 %] [price = 0.00000723] *** new highest evol in %                                    
+XDC_USDT spot gateio 2022-11-09 02:17:40.625888 gateio XDC_USDT spot 5m [0.14 %] [price = 0.02862500]                                                                          
+SCCP_USDT spot gateio 2022-11-09 02:29:38.985769 gateio SCCP_USDT spot 5m [0.91 %] [price = 0.60906000]                                                                        
+STEP_USDT spot gateio 2022-11-09 02:46:04.121535 gateio STEP_USDT spot 5m [0.54 %] [price = 0.02438000]                                                                        
+JGN_USDT spot gateio 2022-11-09 03:27:26.071313 gateio JGN_USDT spot 5m [0.55 %] [price = 0.03652500]                                                                          
+ROOM_USDT spot gateio 2022-11-09 04:04:07.235706 gateio ROOM_USDT spot 5m [2.13 %] [price = 0.03504700]                                                                        
+POPK_USDT spot gateio 2022-11-09 02:11:03.669468 gateio POPK_USDT spot 15m [0.06 %] [price = 0.00515800]                                                                       
+CUBE_USDT spot gateio 2022-11-09 02:25:55.599556 gateio CUBE_USDT spot 15m [18.39 %] [price = 0.12810000] *** new highest evol in %                                            
+TSL_USDT spot gateio 2022-11-09 03:21:30.858220 gateio TSL_USDT spot 15m [0.10 %] [price = 0.00019320]                                                                         
+HGET_USDT spot gateio 2022-11-09 03:38:11.720673 gateio HGET_USDT spot 15m [0.39 %] [price = 0.43667000]                                                                       
+DLC_USDT spot gateio 2022-11-09 02:26:01.065868 gateio DLC_USDT spot 30m [0.20 %] [price = 0.13104800]                                                                         
+DX_USDT spot gateio 2022-11-09 03:24:03.264646 gateio DX_USDT spot 5m 15m 30m [10.27 %] [price = 0.00038655]                                                                   
+CSTR_USDT spot gateio 2022-11-09 02:19:56.463778 gateio CSTR_USDT spot 4h [4.80 %] [price = 0.00517190] *** new highest evol in %                                              
+ZTG_USDT spot gateio 2022-11-09 03:10:40.350938 gateio ZTG_USDT spot 4h [5.10 %] [price = 0.09136000]                                                                          
+CATGIRL_USDT spot gateio 2022-11-09 02:40:53.687204 gateio CATGIRL_USDT spot 8h [9.85 %] [price = 0.00000000]                                                                  
+TEDDY_USDT spot gateio 2022-11-09 04:06:55.758725 gateio TEDDY_USDT spot 8h [23.25 %] [price = 0.00000281]                                                                     
+GRBE_USDT spot gateio 2022-11-09 04:09:41.632822 gateio GRBE_USDT spot 8h [8.29 %] [price = 0.00200330]                                                                        
+FITFI3S_USDT spot gateio 2022-11-09 02:50:22.627129 gateio FITFI3S_USDT spot 4h 8h 1d [28.58 %] [price = 0.62173000] *** new highest evol in %                                 
+YFII3L_USDT spot gateio 2022-11-09 03:11:01.948954 gateio YFII3L_USDT spot 7d 1w [10.72 %] [price = 3.76116900]                                                                

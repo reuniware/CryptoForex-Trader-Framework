@@ -1,0 +1,14 @@
+Scan results at : 2022-11-09 08:37:17.554780
+BTCUSDT swap bybit 2022-11-09 08:41:34.530799 bybit BTCUSDT swap 1m [-2.16 %] [price = 18137.50000000]                                                                         
+CELRUSDT swap bybit 2022-11-09 08:42:00.800240 bybit CELRUSDT swap 1m [-5.51 %] [price = 0.01285000]                                                                           
+CHRUSDT swap bybit 2022-11-09 08:42:06.951151 bybit CHRUSDT swap 1m [-5.13 %] [price = 0.12380000]                                                                             
+LTCUSDT swap bybit 2022-11-09 08:49:23.529357 bybit LTCUSDT swap 1m [-1.83 %] [price = 56.72000000]                                                                            
+RVNUSDT swap bybit 2022-11-09 08:52:23.194911 bybit RVNUSDT swap 1m [-2.57 %] [price = 0.02460000]                                                                             
+STORJUSDT swap bybit 2022-11-09 08:53:54.001521 bybit STORJUSDT swap 1m [-8.74 %] [price = 0.33950000]                                                                         
+CTSIUSDT swap bybit 2022-11-09 08:43:11.886805 bybit CTSIUSDT swap 3m [-4.32 %] [price = 0.11630000]                                                                           
+DENTUSDT swap bybit 2022-11-09 08:43:44.203002 bybit DENTUSDT swap 3m [-3.67 %] [price = 0.00073500]                                                                           
+EOSUSDT swap bybit 2022-11-09 08:44:50.006922 bybit EOSUSDT swap 3m 5m [-1.35 %] [price = 0.94900000]                                                                          
+ETCUSDT swap bybit 2022-11-09 08:44:56.257293 bybit ETCUSDT swap 3m 5m [-2.52 %] [price = 21.30000000]                                                                         
+DASHUSDT swap bybit 2022-11-09 08:43:37.867743 bybit DASHUSDT swap 15m [-3.13 %] [price = 37.10000000]                                                                         
+CTCUSDT swap bybit 2022-11-09 08:42:59.464800 bybit CTCUSDT swap 3m 5m 1h [4.80 %] [price = 0.45915000] *** new highest evol in %                                              
+TRXUSDT swap bybit 2022-11-09 08:54:59.138793 bybit TRXUSDT swap 12h 1d [4.58 %] [price = 0.06136000]                                                                          

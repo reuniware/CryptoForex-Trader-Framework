@@ -1,0 +1,14 @@
+Scan results at : 2022-11-08 23:34:59.211673
+CHZUSDT swap bybit 2022-11-08 23:34:33.569311 bybit CHZUSDT swap 3m [-22.91 %] [price = 0.21195000]                                                                            
+CROUSDT swap bybit 2022-11-08 23:35:04.244587 bybit CROUSDT swap 3m [-17.85 %] [price = 0.10220000]                                                                            
+DARUSDT swap bybit 2022-11-08 23:35:46.551425 bybit DARUSDT swap 3m [-17.99 %] [price = 0.17550000]                                                                            
+DASHUSDT swap bybit 2022-11-08 23:35:52.564532 bybit DASHUSDT swap 3m [-16.39 %] [price = 38.25000000]                                                                         
+FTTUSDT swap bybit 2022-11-08 23:37:53.759148 bybit FTTUSDT swap 3m [-73.78 %] [price = 5.79000000]                                                                            
+GTCUSDT swap bybit 2022-11-08 23:38:42.131121 bybit GTCUSDT swap 3m [-20.60 %] [price = 1.85000000]                                                                            
+CELOUSDT swap bybit 2022-11-08 23:34:15.392564 bybit CELOUSDT swap 5m [-22.43 %] [price = 0.57400000]                                                                          
+DOTUSDT swap bybit 2022-11-08 23:36:22.972171 bybit DOTUSDT swap 5m [-11.17 %] [price = 6.32000000]                                                                            
+FLMUSDT swap bybit 2022-11-08 23:37:35.626450 bybit FLMUSDT swap 5m [-16.62 %] [price = 0.09435000]                                                                            
+FTMUSDT swap bybit 2022-11-08 23:37:47.664974 bybit FTMUSDT swap 5m [-17.56 %] [price = 0.21600000]                                                                            
+GRTUSDT swap bybit 2022-11-08 23:38:36.039818 bybit GRTUSDT swap 5m [-16.02 %] [price = 0.07600000]                                                                            
+IMXUSDT swap bybit 2022-11-08 23:39:25.100745 bybit IMXUSDT swap 5m [-9.90 %] [price = 0.52800000]                                                                             
+PAXGUSDT swap bybit 2022-11-08 23:42:59.022398 bybit PAXGUSDT swap 12h [1.75 %] [price = 1689.00000000] *** new highest evol in %                                              

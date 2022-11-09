@@ -1,0 +1,4 @@
+Scan results at : 2022-11-09 02:37:06.959136
+CREAMUSDT swap bybit 2022-11-09 02:24:13.843119 bybit CREAMUSDT swap 1m [-2.15 %] [price = 9.10000000]                                                                         
+10000NFTUSDT swap bybit 2022-11-09 02:18:57.433193 bybit 10000NFTUSDT swap 1m 3m [0.00 %] [price = 0.00553500]                                                                 
+1000XECUSDT swap bybit 2022-11-09 02:19:17.304067 bybit 1000XECUSDT swap 5m [2.09 %] [price = 0.03364000] *** new highest evol in %                                            

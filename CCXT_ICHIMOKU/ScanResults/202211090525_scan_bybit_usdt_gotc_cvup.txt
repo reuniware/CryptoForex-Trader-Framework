@@ -1,0 +1,4 @@
+Scan results at : 2022-11-09 05:06:31.013853
+TRXUSDT swap bybit 2022-11-09 05:23:13.835716 bybit TRXUSDT swap 3m 5m [1.26 %] [price = 0.05941000]                                                                           
+USDCUSDT swap bybit 2022-11-09 05:23:32.390558 bybit USDCUSDT swap 30m [0.29 %] [price = 1.00300000]                                                                           
+RSS3USDT swap bybit 2022-11-09 05:20:34.643406 bybit RSS3USDT swap 6h [26.37 %] [price = 0.16700000] *** new highest evol in %                                                 

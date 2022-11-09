@@ -1,0 +1,3 @@
+Scan results at : 2022-11-09 04:10:33.055502
+BTCUSDT swap bybit 2022-11-09 04:14:36.196551 bybit BTCUSDT swap 1m [-1.29 %] [price = 18297.50000000]                                                                         
+COMPUSDT swap bybit 2022-11-09 04:15:24.651440 bybit COMPUSDT swap 1m [0.24 %] [price = 42.05000000] *** new highest evol in %                                                 

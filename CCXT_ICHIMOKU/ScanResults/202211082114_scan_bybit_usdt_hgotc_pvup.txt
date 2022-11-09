@@ -1,0 +1,3 @@
+Scan results at : 2022-11-08 20:55:49.949229
+XMRUSDT swap bybit 2022-11-08 21:14:04.444516 bybit XMRUSDT swap 1m [-12.19 %] [price = 136.10000000]                                                                          
+BNXUSDT swap bybit 2022-11-08 20:59:38.045936 bybit BNXUSDT swap 2h [2.43 %] [price = 147.70000000] *** new highest evol in %                                                  

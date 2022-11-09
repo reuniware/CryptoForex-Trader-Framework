@@ -1,0 +1,3 @@
+Scan results at : 2022-11-09 00:08:30.448178
+BNXUSDT swap bybit 2022-11-09 00:11:25.099633 bybit BNXUSDT swap 3m [0.00 %] [price = 147.75000000]                                                                            
+LRCUSDT swap bybit 2022-11-09 00:19:13.578395 bybit LRCUSDT swap 5m [0.77 %] [price = 0.26200000] *** new highest evol in %                                                    

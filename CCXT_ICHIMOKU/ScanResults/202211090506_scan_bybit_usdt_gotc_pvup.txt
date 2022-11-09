@@ -1,0 +1,4 @@
+Scan results at : 2022-11-09 04:58:55.296764
+JSTUSDT swap bybit 2022-11-09 04:57:59.336855 bybit JSTUSDT swap 3m [-1.55 %] [price = 0.02475000]                                                                             
+1INCHUSDT swap bybit 2022-11-09 04:48:23.867835 bybit 1INCHUSDT swap 5m [-0.63 %] [price = 0.55050000]                                                                         
+RSS3USDT swap bybit 2022-11-09 05:01:56.598725 bybit RSS3USDT swap 15m 30m [19.67 %] [price = 0.15815000] *** new highest evol in %                                            

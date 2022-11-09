@@ -1,0 +1,4 @@
+Scan results at : 2022-11-09 03:33:06.693193
+BANDUSDT swap bybit 2022-11-09 03:35:58.144960 bybit BANDUSDT swap 3m [1.95 %] [price = 2.19300000] *** new highest evol in %                                                  
+LTCUSDT swap bybit 2022-11-09 03:44:30.785578 bybit LTCUSDT swap 3m 5m [2.13 %] [price = 59.01000000] *** new highest evol in %                                                
+BNXUSDT swap bybit 2022-11-09 03:36:46.799120 bybit BNXUSDT swap 1h [-1.05 %] [price = 146.20000000]                                                                           

@@ -1,0 +1,6 @@
+Scan results at : 2022-11-09 01:41:03.759596
+GHSTUSDT spot binance 2022-11-09 01:32:51.792867 binance GHSTUSDT spot 1m [0.00 %] [price = 1.08500000]                                                                        
+IOTXUSDT spot binance 2022-11-09 01:06:57.936856 binance IOTXUSDT spot 5m [-0.14 %] [price = 0.02848000]                                                                       
+BCHUSDT spot binance 2022-11-09 01:07:23.273120 binance BCHUSDT spot 5m [-0.10 %] [price = 103.00000000]                                                                       
+BUSDUSDT spot binance 2022-11-09 01:05:28.670087 binance BUSDUSDT spot 4h 6h 1d [0.02 %] [price = 1.00020000] *** new highest evol in %                                        
+YFIIUSDT spot binance 2022-11-09 01:17:24.833551 binance YFIIUSDT spot 3d [4.55 %] [price = 1787.70000000] *** new highest evol in %                                           

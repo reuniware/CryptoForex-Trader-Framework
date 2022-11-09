@@ -1,0 +1,5 @@
+Scan results at : 2022-11-09 04:10:27.630839
+FXSUSDT swap bybit 2022-11-09 03:59:47.349566 bybit FXSUSDT swap 1m [-0.91 %] [price = 5.42000000]                                                                             
+RUNEUSDT swap bybit 2022-11-09 04:05:51.333796 bybit RUNEUSDT swap 1m [-2.79 %] [price = 1.32400000]                                                                           
+BNXUSDT swap bybit 2022-11-09 03:55:20.639653 bybit BNXUSDT swap 1h [-0.71 %] [price = 146.70000000]                                                                           
+BANDUSDT swap bybit 2022-11-09 03:54:32.141264 bybit BANDUSDT swap 6h 12h [4.56 %] [price = 2.24900000] *** new highest evol in %                                              

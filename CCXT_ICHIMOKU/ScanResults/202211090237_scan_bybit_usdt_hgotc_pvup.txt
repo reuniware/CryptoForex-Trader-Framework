@@ -1,0 +1,9 @@
+Scan results at : 2022-11-09 02:33:44.796171
+ALPHAUSDT swap bybit 2022-11-09 02:19:45.326883 bybit ALPHAUSDT swap 1m [-0.24 %] [price = 0.10445000]                                                                         
+COMPUSDT swap bybit 2022-11-09 02:23:19.100603 bybit COMPUSDT swap 1m [0.24 %] [price = 42.05000000]                                                                           
+API3USDT swap bybit 2022-11-09 02:20:09.839398 bybit API3USDT swap 3m [0.33 %] [price = 1.83600000] *** new highest evol in %                                                  
+BSWUSDT swap bybit 2022-11-09 02:22:24.867669 bybit BSWUSDT swap 3m [-0.13 %] [price = 0.23340000]                                                                             
+COTIUSDT swap bybit 2022-11-09 02:23:25.159943 bybit COTIUSDT swap 5m [0.84 %] [price = 0.09630000] *** new highest evol in %                                                  
+ETCUSDT swap bybit 2022-11-09 02:25:38.813054 bybit ETCUSDT swap 5m [0.18 %] [price = 21.89000000]                                                                             
+IOTXUSDT swap bybit 2022-11-09 02:28:24.723099 bybit IOTXUSDT swap 3m 5m [0.35 %] [price = 0.02860000]                                                                         
+BNXUSDT swap bybit 2022-11-09 02:22:05.884385 bybit BNXUSDT swap 2h [-0.03 %] [price = 147.70000000]                                                                           

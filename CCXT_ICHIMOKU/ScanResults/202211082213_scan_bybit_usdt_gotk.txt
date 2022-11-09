@@ -1,0 +1,16 @@
+Scan results at : 2022-11-08 21:53:59.168870
+ETHUSDT swap bybit 2022-11-08 22:01:30.664532 bybit ETHUSDT swap 1m [-14.78 %] [price = 1335.30000000]                                                                         
+FILUSDT swap bybit 2022-11-08 22:01:42.849687 bybit FILUSDT swap 1m [-19.16 %] [price = 4.64000000]                                                                            
+FTMUSDT swap bybit 2022-11-08 22:02:07.453928 bybit FTMUSDT swap 1m [-18.13 %] [price = 0.21450000]                                                                            
+CVXUSDT swap bybit 2022-11-08 21:59:57.260555 bybit CVXUSDT swap 3m [-16.13 %] [price = 4.39500000]                                                                            
+DARUSDT swap bybit 2022-11-08 22:00:04.333800 bybit DARUSDT swap 3m [-18.22 %] [price = 0.17500000]                                                                            
+HOTUSDT swap bybit 2022-11-08 22:03:25.957823 bybit HOTUSDT swap 3m [-14.19 %] [price = 0.00177800]                                                                            
+1INCHUSDT swap bybit 2022-11-08 21:54:32.635259 bybit 1INCHUSDT swap 5m [-12.74 %] [price = 0.55500000]                                                                        
+ACHUSDT swap bybit 2022-11-08 21:54:45.200545 bybit ACHUSDT swap 5m [-9.91 %] [price = 0.01054000]                                                                             
+AGLDUSDT swap bybit 2022-11-08 21:54:57.656071 bybit AGLDUSDT swap 5m [-16.13 %] [price = 0.28850000]                                                                          
+SWEATUSDT swap bybit 2022-11-08 22:10:40.597920 bybit SWEATUSDT swap 5m [-19.46 %] [price = 0.01672000]                                                                        
+ZENUSDT swap bybit 2022-11-08 22:13:02.439169 bybit ZENUSDT swap 5m [-18.61 %] [price = 11.15000000]                                                                           
+ZILUSDT swap bybit 2022-11-08 22:13:08.539494 bybit ZILUSDT swap 5m [-19.11 %] [price = 0.02591000]                                                                            
+BITUSDT swap bybit 2022-11-08 21:57:27.965916 bybit BITUSDT swap 2h [-14.64 %] [price = 0.34400000]                                                                            
+API3USDT swap bybit 2022-11-08 21:55:47.406932 bybit API3USDT swap 1h 2h [-8.65 %] [price = 1.78500000]                                                                        
+BNXUSDT swap bybit 2022-11-08 21:57:46.681776 bybit BNXUSDT swap 12h 1d [1.46 %] [price = 146.30000000] *** new highest evol in %                                              
