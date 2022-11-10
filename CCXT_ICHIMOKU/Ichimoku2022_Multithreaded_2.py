@@ -338,12 +338,15 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
     for tf in exchange.timeframes:
 
-        if exchange_id == "binance":
+        if exchange_id in ("binance", "gateio") :
             if not symbol.endswith('USDT'):
                 continue
+        elif exchange_id == "bybit":
+            if not symbol.endswith('PERP'):
+                continue
 
-        if tf != "15m":
-            continue
+        #if tf != "1w":
+            #continue
         #else:
             #print("Processing 1m for", symbol)
 
@@ -489,7 +492,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
 
         except:
-            print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
+            #print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
             log_to_errors(str(datetime.now()) + " " + tf + " " + symbol + " " + str(sys.exc_info()))
             binary_result += "0"
             pass
