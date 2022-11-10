@@ -291,6 +291,20 @@ def get_data_for_timeframe(symbol, tf):
     result = exchange.fetch_ohlcv(symbol, tf, limit=52 + 26)
     return result
 
+def check_timeframe(symbol, tf):
+    if (ssb > ssa and price_open > ssb and price_close > ssb) or (ssa > ssb and price_open > ssa and price_close > ssa):
+        pass#print(symbol, tf, "**** is over the cloud")
+        if (price_close > kijun):
+            pass#print(symbol, tf, "******** is over the kijun")
+            if (price_close > tenkan):
+                pass#print(symbol, tf, "************ is over the tenkan")
+                if (chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou and chikou > tenkan_chikou and chikou > kijun_chikou):
+                    pass#print(symbol, tf, "**************** has chikou validated")
+                    if (price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun and price_close > price_open):
+                        pass#print(symbol, tf, "******************** has price validated")
+                        return True
+
+
 
 dict_results = {}
 dict_results_binary = {}
@@ -300,6 +314,8 @@ highest_percent_evol = 0
 
 def execute_code(symbol, type_of_asset, exchange_id):
     global dict_results, highest_percent_evol
+    global ssb, ssa, price_open, price_close, kijun, tenkan, chikou, ssa_chikou, ssb_chikou, price_high_chikou, price_low_chikou
+    global tenkan_chikou, kijun_chikou
 
     # print(10 * "*", symbol, type_of_asset, exchange.id, 10 * "*")
 
@@ -318,13 +334,15 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
     binary_result = ""
 
+    #print("Available timeframes : ", exchange.timeframes)
+
     for tf in exchange.timeframes:
 
         if exchange_id == "binance":
             if not symbol.endswith('USDT'):
                 continue
 
-        if tf != "5m":
+        if tf != "15m":
             continue
         #else:
             #print("Processing 1m for", symbol)
@@ -406,20 +424,8 @@ def execute_code(symbol, type_of_asset, exchange_id):
             # print("ssa_chikou", ssa_chikou)
             # print("ssb_chikou", ssb_chikou)
 
-            if (ssb > ssa and price_open > ssb and price_close > ssb) or (ssa > ssb and price_open > ssa and price_close > ssa):
-                pass#print(symbol, tf, "**** is over the cloud")
-                if (price_close > kijun):
-                    pass#print(symbol, tf, "******** is over the kijun")
-                    if (price_close > tenkan):
-                        pass#print(symbol, tf, "************ is over the tenkan")
-                        if (chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou and chikou > tenkan_chikou and chikou > kijun_chikou):
-                            pass#print(symbol, tf, "**************** has chikou validated")
-                            if (price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun and price_close > price_open):
-                                print(symbol, tf, "******************** has price validated")
-
-
-            if (ssb > ssa and price_open < ssb and price_close > ssb) or (ssa > ssb and price_open < ssa and price_close > ssa):
-                pass#print(symbol, tf, "**** is getting over the cloud")
+            if check_timeframe(symbol, tf):
+                print(symol, tf, "Validated")
 
             if getting_over_the_cloud is True:
                 condition = (ssb > ssa and price_open < ssb and price_close > ssb) \
