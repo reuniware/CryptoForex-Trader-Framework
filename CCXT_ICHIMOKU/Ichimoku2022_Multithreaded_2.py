@@ -425,7 +425,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
             # print("ssb_chikou", ssb_chikou)
 
             if check_timeframe(symbol, tf):
-                print(symol, tf, "Validated")
+                print(symbol, tf, "Validated")
 
             if getting_over_the_cloud is True:
                 condition = (ssb > ssa and price_open < ssb and price_close > ssb) \
