@@ -1,0 +1,12 @@
+Scan results at : 2022-11-10 05:11:43.394167
+BNXUSDT swap bybit 2022-11-10 05:04:40.169111 bybit BNXUSDT swap 5m [-0.14 %] [price = 140.75000000]                                                                           
+RNDRUSDT swap bybit 2022-11-10 05:14:59.347089 bybit RNDRUSDT swap 5m [14.25 %] [price = 0.49700000] *** new highest evol in %                                                 
+GALAUSDT swap bybit 2022-11-10 05:09:17.675685 bybit GALAUSDT swap 15m [12.54 %] [price = 0.02880000] *** new highest evol in %                                                
+GALUSDT swap bybit 2022-11-10 05:09:23.758889 bybit GALUSDT swap 15m [8.89 %] [price = 1.47000000]                                                                             
+RVNUSDT swap bybit 2022-11-10 05:15:30.534261 bybit RVNUSDT swap 15m [12.09 %] [price = 0.02225000]                                                                            
+SCUSDT swap bybit 2022-11-10 05:15:49.595205 bybit SCUSDT swap 15m [7.33 %] [price = 0.00249000]                                                                               
+SKLUSDT swap bybit 2022-11-10 05:16:08.257661 bybit SKLUSDT swap 15m [7.71 %] [price = 0.02655000]                                                                             
+SUSHIUSDT swap bybit 2022-11-10 05:17:16.529347 bybit SUSHIUSDT swap 15m [12.11 %] [price = 1.13900000]                                                                        
+UNIUSDT swap bybit 2022-11-10 05:18:11.761270 bybit UNIUSDT swap 15m [9.24 %] [price = 5.34600000]                                                                             
+XNOUSDT swap bybit 2022-11-10 05:19:07.437506 bybit XNOUSDT swap 15m [5.26 %] [price = 0.61830000]                                                                             
+YFIUSDT swap bybit 2022-11-10 05:19:26.370571 bybit YFIUSDT swap 15m [9.69 %] [price = 6000.00000000]                                                                          

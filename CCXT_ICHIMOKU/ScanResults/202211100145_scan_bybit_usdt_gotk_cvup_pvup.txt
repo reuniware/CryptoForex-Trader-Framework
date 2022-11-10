@@ -1,0 +1,3 @@
+Scan results at : 2022-11-10 01:34:33.376920
+MATICUSDT swap bybit 2022-11-10 01:38:39.725183 bybit MATICUSDT swap 3m [4.72 %] [price = 0.85410000] *** new highest evol in %                                                
+YGGUSDT swap bybit 2022-11-10 01:45:02.935209 bybit YGGUSDT swap 3m [5.26 %] [price = 0.22000000] *** new highest evol in %                                                    

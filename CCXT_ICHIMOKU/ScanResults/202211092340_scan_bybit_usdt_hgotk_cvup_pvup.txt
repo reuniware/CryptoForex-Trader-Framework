@@ -1,0 +1,4 @@
+Scan results at : 2022-11-09 23:31:56.229271
+XRPUSDT swap bybit 2022-11-09 23:40:14.862038 bybit XRPUSDT swap 1m [-18.72 %] [price = 0.32960000]                                                                            
+ZECUSDT swap bybit 2022-11-09 23:40:39.782138 bybit ZECUSDT swap 1m [-16.61 %] [price = 35.15000000]                                                                           
+ZILUSDT swap bybit 2022-11-09 23:40:53.638508 bybit ZILUSDT swap 1m [-23.29 %] [price = 0.02036000]                                                                            

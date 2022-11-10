@@ -1,0 +1,5 @@
+Scan results at : 2022-11-10 01:53:14.109972
+CVPUSDT spot binance 2022-11-10 01:46:48.025228 binance CVPUSDT spot 1m [3.74 %] [price = 0.31610000] *** new highest evol in %                                                
+TWTUSDT spot binance 2022-11-10 01:36:32.040526 binance TWTUSDT spot 3m [1.96 %] [price = 1.06770000] *** new highest evol in %                                                
+FXSUSDT spot binance 2022-11-10 01:50:54.908082 binance FXSUSDT spot 1m 3m [0.09 %] [price = 5.27300000]                                                                       
+YFIIUSDT spot binance 2022-11-10 01:29:08.440640 binance YFIIUSDT spot 3d [-3.01 %] [price = 1709.60000000]                                                                    

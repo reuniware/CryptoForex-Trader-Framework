@@ -1,0 +1,2 @@
+Scan results at : 2022-11-09 22:43:40.680715
+PEOPLEUSDT swap bybit 2022-11-09 22:56:03.872352 bybit PEOPLEUSDT swap 1m [-5.43 %] [price = 0.01830000]                                                                       

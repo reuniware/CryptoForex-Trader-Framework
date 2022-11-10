@@ -1,0 +1,8 @@
+Scan results at : 2022-11-09 22:04:25.892125
+PEOPLEUSDT swap bybit 2022-11-09 22:17:47.453916 bybit PEOPLEUSDT swap 1m [-7.24 %] [price = 0.01795000]                                                                       
+STGUSDT swap bybit 2022-11-09 22:20:08.052545 bybit STGUSDT swap 1m [-13.41 %] [price = 0.35850000]                                                                            
+SUSHIUSDT swap bybit 2022-11-09 22:20:38.218900 bybit SUSHIUSDT swap 1m [-25.38 %] [price = 1.03800000]                                                                        
+WOOUSDT swap bybit 2022-11-09 22:21:58.051512 bybit WOOUSDT swap 1m [-16.87 %] [price = 0.12020000]                                                                            
+XLMUSDT swap bybit 2022-11-09 22:22:16.476653 bybit XLMUSDT swap 1m [-15.81 %] [price = 0.08310000]                                                                            
+ZECUSDT swap bybit 2022-11-09 22:22:58.911647 bybit ZECUSDT swap 1m [-17.20 %] [price = 34.90000000]                                                                           
+PAXGUSDT swap bybit 2022-11-09 22:17:41.453183 bybit PAXGUSDT swap 2h 4h 6h 12h [-0.35 %] [price = 1692.00000000]                                                              

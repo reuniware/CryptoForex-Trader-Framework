@@ -1,0 +1,6 @@
+Scan results at : 2022-11-10 01:45:28.308489
+1000XECUSDT swap bybit 2022-11-10 01:34:59.941788 bybit 1000XECUSDT swap 3m [1.87 %] [price = 0.02836000] *** new highest evol in %                                            
+AGLDUSDT swap bybit 2022-11-10 01:35:30.396459 bybit AGLDUSDT swap 3m [3.55 %] [price = 0.21900000] *** new highest evol in %                                                  
+AXSUSDT swap bybit 2022-11-10 01:37:07.270788 bybit AXSUSDT swap 3m [5.65 %] [price = 6.36000000] *** new highest evol in %                                                    
+BTCUSDT swap bybit 2022-11-10 01:38:38.423883 bybit BTCUSDT swap 3m [2.09 %] [price = 16223.50000000]                                                                          
+DODOUSDT swap bybit 2022-11-10 01:40:52.138060 bybit DODOUSDT swap 3m [2.66 %] [price = 0.10240000]                                                                            

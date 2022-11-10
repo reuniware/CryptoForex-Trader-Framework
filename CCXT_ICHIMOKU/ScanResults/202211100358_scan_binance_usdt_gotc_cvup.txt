@@ -1,0 +1,7 @@
+Scan results at : 2022-11-10 03:45:34.918047
+MKRUSDT spot binance 2022-11-10 03:26:31.373497 binance MKRUSDT spot 30m [9.87 %] [price = 735.00000000] *** new highest evol in %                                             
+ASTRUSDT spot binance 2022-11-10 03:55:00.989926 binance ASTRUSDT spot 12h [4.10 %] [price = 0.03810000]                                                                       
+MATICUSDT spot binance 2022-11-10 03:14:49.885147 binance MATICUSDT spot 1d [5.72 %] [price = 0.86320000] *** new highest evol in %                                            
+BNBUPUSDT spot binance 2022-11-10 03:26:57.498747 binance BNBUPUSDT spot 1d [11.63 %] [price = 34.74000000] *** new highest evol in %                                          
+DYDXUSDT spot binance 2022-11-10 03:46:28.518316 binance DYDXUSDT spot 1d [21.05 %] [price = 1.61000000] *** new highest evol in %                                             
+YFIIUSDT spot binance 2022-11-10 03:30:13.066446 binance YFIIUSDT spot 3d [-1.17 %] [price = 1742.10000000]                                                                    

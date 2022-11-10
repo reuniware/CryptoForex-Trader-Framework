@@ -1,0 +1,14 @@
+Scan results at : 2022-11-10 02:49:23.532740
+KAVAUSDT swap bybit 2022-11-10 02:59:42.248117 bybit KAVAUSDT swap 3m [2.55 %] [price = 0.84300000]                                                                            
+ONEUSDT swap bybit 2022-11-10 03:02:14.360840 bybit ONEUSDT swap 3m [1.82 %] [price = 0.01395000]                                                                              
+RENUSDT swap bybit 2022-11-10 03:03:03.289062 bybit RENUSDT swap 5m [3.77 %] [price = 0.08250000]                                                                              
+ROSEUSDT swap bybit 2022-11-10 03:03:21.716179 bybit ROSEUSDT swap 5m [2.58 %] [price = 0.04770000]                                                                            
+SCUSDT swap bybit 2022-11-10 03:04:05.021732 bybit SCUSDT swap 5m [3.88 %] [price = 0.00241000]                                                                                
+SKLUSDT swap bybit 2022-11-10 03:04:22.966833 bybit SKLUSDT swap 5m [3.04 %] [price = 0.02540000]                                                                              
+SPELLUSDT swap bybit 2022-11-10 03:04:47.126655 bybit SPELLUSDT swap 5m [6.67 %] [price = 0.00064000]                                                                          
+STGUSDT swap bybit 2022-11-10 03:05:00.320312 bybit STGUSDT swap 5m [1.54 %] [price = 0.36150000]                                                                              
+ZRXUSDT swap bybit 2022-11-10 03:08:08.140262 bybit ZRXUSDT swap 5m [4.95 %] [price = 0.17190000]                                                                              
+NEOUSDT swap bybit 2022-11-10 03:01:49.760547 bybit NEOUSDT swap 3m 5m [2.43 %] [price = 6.33000000]                                                                           
+SLPUSDT swap bybit 2022-11-10 03:04:28.963107 bybit SLPUSDT swap 3m 5m [3.78 %] [price = 0.00247000]                                                                           
+DYDXUSDT swap bybit 2022-11-10 02:56:08.548808 bybit DYDXUSDT swap 30m [15.79 %] [price = 1.54000000] *** new highest evol in %                                                
+MATICUSDT swap bybit 2022-11-10 03:01:19.646491 bybit MATICUSDT swap 1d [3.70 %] [price = 0.84580000]                                                                          

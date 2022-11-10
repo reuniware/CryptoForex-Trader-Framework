@@ -1,0 +1,4 @@
+Scan results at : 2022-11-09 23:59:58.906709
+ONEUSDT swap bybit 2022-11-10 00:13:04.920687 bybit ONEUSDT swap 1m [0.73 %] [price = 0.01380000] *** new highest evol in %                                                    
+SRMUSDT swap bybit 2022-11-10 00:15:45.894047 bybit SRMUSDT swap 3m [11.54 %] [price = 0.31900000] *** new highest evol in %                                                   
+STGUSDT swap bybit 2022-11-10 00:15:51.951088 bybit STGUSDT swap 3m [1.40 %] [price = 0.36100000]                                                                              

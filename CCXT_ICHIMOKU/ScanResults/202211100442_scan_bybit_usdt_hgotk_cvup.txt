@@ -1,0 +1,6 @@
+Scan results at : 2022-11-10 04:23:21.237017
+CTCUSDT swap bybit 2022-11-10 04:28:44.503454 bybit CTCUSDT swap 1m [0.72 %] [price = 0.35725000]                                                                              
+IMXUSDT swap bybit 2022-11-10 04:32:54.657766 bybit IMXUSDT swap 3m [18.66 %] [price = 0.47700000] *** new highest evol in %                                                   
+XNOUSDT swap bybit 2022-11-10 04:41:15.178091 bybit XNOUSDT swap 3m [3.51 %] [price = 0.60800000]                                                                              
+1000LUNCUSDT swap bybit 2022-11-10 04:23:41.102091 bybit 1000LUNCUSDT swap 5m [5.25 %] [price = 0.19460000] *** new highest evol in %                                          
+USDCUSDT swap bybit 2022-11-10 04:40:24.776741 bybit USDCUSDT swap 1h [0.50 %] [price = 1.00720000]                                                                            

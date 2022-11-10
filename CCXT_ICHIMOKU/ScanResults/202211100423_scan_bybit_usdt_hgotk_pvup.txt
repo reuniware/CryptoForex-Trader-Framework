@@ -1,0 +1,4 @@
+Scan results at : 2022-11-10 04:22:12.421589
+RVNUSDT swap bybit 2022-11-10 04:18:52.937556 bybit RVNUSDT swap 1m [10.58 %] [price = 0.02195000] *** new highest evol in %                                                   
+ONTUSDT swap bybit 2022-11-10 04:17:26.010920 bybit ONTUSDT swap 3m [3.79 %] [price = 0.16700000] *** new highest evol in %                                                    
+USDCUSDT swap bybit 2022-11-10 04:21:40.647355 bybit USDCUSDT swap 15m 1h [0.63 %] [price = 1.00850000]                                                                        

@@ -1,0 +1,7 @@
+Scan results at : 2022-11-10 05:38:57.810320
+API3USDT swap bybit 2022-11-10 05:40:45.670561 bybit API3USDT swap 1m [8.20 %] [price = 1.51800000] *** new highest evol in %                                                  
+KNCUSDT swap bybit 2022-11-10 05:49:44.693717 bybit KNCUSDT swap 1m [13.39 %] [price = 0.57600000] *** new highest evol in %                                                   
+MASKUSDT swap bybit 2022-11-10 05:50:58.916745 bybit MASKUSDT swap 1m [10.38 %] [price = 2.60500000]                                                                           
+UNFIUSDT swap bybit 2022-11-10 05:56:11.764333 bybit UNFIUSDT swap 1m [12.64 %] [price = 3.92600000]                                                                           
+TRXUSDT swap bybit 2022-11-10 05:56:05.479432 bybit TRXUSDT swap 3m [4.50 %] [price = 0.05579000]                                                                              
+PEOPLEUSDT swap bybit 2022-11-10 05:52:26.766708 bybit PEOPLEUSDT swap 30m [8.47 %] [price = 0.02050000]                                                                       

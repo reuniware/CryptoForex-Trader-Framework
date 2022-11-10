@@ -1,0 +1,7 @@
+Scan results at : 2022-11-10 00:56:48.696630
+VTHOUSDT spot binance 2022-11-10 00:36:30.468491 binance VTHOUSDT spot 1s [2.63 %] [price = 0.00109100] *** new highest evol in %                                              
+BATUSDT spot binance 2022-11-10 00:23:53.814689 binance BATUSDT spot 1m [1.04 %] [price = 0.23330000] *** new highest evol in %                                                
+GNOUSDT spot binance 2022-11-10 00:56:33.988316 binance GNOUSDT spot 1m [3.02 %] [price = 85.20000000] *** new highest evol in %                                               
+SANTOSUSDT spot binance 2022-11-10 01:01:59.500815 binance SANTOSUSDT spot 1m [7.36 %] [price = 7.74300000] *** new highest evol in %                                          
+BTCDOWNUSDT spot binance 2022-11-10 00:33:57.816762 binance BTCDOWNUSDT spot 3d [-4.25 %] [price = 0.04572900]                                                                 
+YFIIUSDT spot binance 2022-11-10 00:40:41.271528 binance YFIIUSDT spot 3d [-0.36 %] [price = 1756.40000000]                                                                    

@@ -1,0 +1,6 @@
+Scan results at : 2022-11-09 22:42:44.075913
+HFTUSDT spot binance 2022-11-09 22:43:39.472556 binance HFTUSDT spot 3m [-7.10 %] [price = 0.58250000]                                                                         
+BNBDOWNUSDT spot binance 2022-11-09 22:12:58.070730 binance BNBDOWNUSDT spot 2h [38.66 %] [price = 0.02568000]                                                                 
+LINKDOWNUSDT spot binance 2022-11-09 22:11:43.797942 binance LINKDOWNUSDT spot 4h [57.54 %] [price = 0.00551400] *** new highest evol in %                                     
+XRPDOWNUSDT spot binance 2022-11-09 22:17:22.458917 binance XRPDOWNUSDT spot 8h [55.38 %] [price = 0.00043880]                                                                 
+BTCDOWNUSDT spot binance 2022-11-09 22:09:22.721738 binance BTCDOWNUSDT spot 12h [36.39 %] [price = 0.04900300] *** new highest evol in %                                      

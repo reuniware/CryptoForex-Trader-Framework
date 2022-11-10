@@ -1,0 +1,4 @@
+Scan results at : 2022-11-10 01:26:45.765108
+1000LUNCUSDT swap bybit 2022-11-10 01:16:06.029815 bybit 1000LUNCUSDT swap 1m [5.84 %] [price = 0.19570000] *** new highest evol in %                                          
+XNOUSDT swap bybit 2022-11-10 01:33:43.045714 bybit XNOUSDT swap 1m [3.06 %] [price = 0.60540000]                                                                              
+SPELLUSDT swap bybit 2022-11-10 01:31:07.573796 bybit SPELLUSDT swap 3m [5.00 %] [price = 0.00063000]                                                                          

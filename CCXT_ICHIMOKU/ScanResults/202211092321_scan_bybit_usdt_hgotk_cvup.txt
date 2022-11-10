@@ -1,0 +1,7 @@
+Scan results at : 2022-11-09 23:01:52.063635
+GALAUSDT swap bybit 2022-11-09 23:10:29.732834 bybit GALAUSDT swap 1m [-21.39 %] [price = 0.02572000]                                                                          
+GMTUSDT swap bybit 2022-11-09 23:10:48.545944 bybit GMTUSDT swap 1m [-32.06 %] [price = 0.34800000]                                                                            
+HBARUSDT swap bybit 2022-11-09 23:11:18.682660 bybit HBARUSDT swap 1m [-15.40 %] [price = 0.04395000]                                                                          
+HOTUSDT swap bybit 2022-11-09 23:11:31.827233 bybit HOTUSDT swap 1m [-19.61 %] [price = 0.00144700]                                                                            
+ICXUSDT swap bybit 2022-11-09 23:11:45.036179 bybit ICXUSDT swap 1m [-23.94 %] [price = 0.14580000]                                                                            
+RSS3USDT swap bybit 2022-11-09 23:16:40.672228 bybit RSS3USDT swap 3m [2.23 %] [price = 0.13510000] *** new highest evol in %                                                  

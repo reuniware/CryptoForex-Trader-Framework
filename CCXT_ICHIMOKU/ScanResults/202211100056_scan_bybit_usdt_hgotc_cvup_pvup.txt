@@ -1,0 +1,4 @@
+Scan results at : 2022-11-10 00:37:50.419818
+OMGUSDT swap bybit 2022-11-10 00:50:41.070785 bybit OMGUSDT swap 1m [1.74 %] [price = 1.11300000] *** new highest evol in %                                                    
+WAVESUSDT swap bybit 2022-11-10 00:55:16.510488 bybit WAVESUSDT swap 3m [4.26 %] [price = 2.20500000] *** new highest evol in %                                                
+ZILUSDT swap bybit 2022-11-10 00:56:41.267725 bybit ZILUSDT swap 3m [3.56 %] [price = 0.02123000]                                                                              

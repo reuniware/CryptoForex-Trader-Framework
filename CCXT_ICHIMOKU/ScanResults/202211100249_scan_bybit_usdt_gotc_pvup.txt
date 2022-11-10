@@ -1,0 +1,17 @@
+Scan results at : 2022-11-10 02:45:39.668048
+BITUSDT swap bybit 2022-11-10 02:34:00.165206 bybit BITUSDT swap 1m [2.66 %] [price = 0.30900000]                                                                              
+ETCUSDT swap bybit 2022-11-10 02:37:52.139732 bybit ETCUSDT swap 1m [3.54 %] [price = 19.01000000]                                                                             
+BTCUSDT swap bybit 2022-11-10 02:34:43.054466 bybit BTCUSDT swap 3m [1.76 %] [price = 16171.50000000]                                                                          
+C98USDT swap bybit 2022-11-10 02:34:49.124529 bybit C98USDT swap 3m [5.56 %] [price = 0.19000000] *** new highest evol in %                                                    
+CHZUSDT swap bybit 2022-11-10 02:35:20.339466 bybit CHZUSDT swap 3m [4.95 %] [price = 0.16205000]                                                                              
+COTIUSDT swap bybit 2022-11-10 02:35:38.339625 bybit COTIUSDT swap 3m [2.86 %] [price = 0.07910000]                                                                            
+CRVUSDT swap bybit 2022-11-10 02:35:56.459695 bybit CRVUSDT swap 3m [4.36 %] [price = 0.57500000]                                                                              
+RENUSDT swap bybit 2022-11-10 02:44:17.525779 bybit RENUSDT swap 3m [2.89 %] [price = 0.08180000]                                                                              
+BELUSDT swap bybit 2022-11-10 02:33:48.111183 bybit BELUSDT swap 1m 3m [2.98 %] [price = 0.37330000] *** new highest evol in %                                                 
+BSWUSDT swap bybit 2022-11-10 02:34:36.964771 bybit BSWUSDT swap 1m 3m [1.31 %] [price = 0.19300000]                                                                           
+GMXUSDT swap bybit 2022-11-10 02:39:17.884865 bybit GMXUSDT swap 5m [7.03 %] [price = 28.33000000]                                                                             
+NEOUSDT swap bybit 2022-11-10 02:43:03.347235 bybit NEOUSDT swap 5m [2.43 %] [price = 6.33000000]                                                                              
+RNDRUSDT swap bybit 2022-11-10 02:44:29.604694 bybit RNDRUSDT swap 15m [14.71 %] [price = 0.49900000] *** new highest evol in %                                                
+DYDXUSDT swap bybit 2022-11-10 02:37:22.004635 bybit DYDXUSDT swap 30m [14.66 %] [price = 1.52500000] *** new highest evol in %                                                
+USDCUSDT swap bybit 2022-11-10 02:47:45.183906 bybit USDCUSDT swap 30m [0.45 %] [price = 1.00670000]                                                                           
+PAXGUSDT swap bybit 2022-11-10 02:43:46.312987 bybit PAXGUSDT swap 1d [0.53 %] [price = 1696.00000000]                                                                         

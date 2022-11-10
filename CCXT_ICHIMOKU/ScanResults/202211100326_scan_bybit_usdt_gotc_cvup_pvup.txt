@@ -1,0 +1,6 @@
+Scan results at : 2022-11-10 03:09:48.487532
+10000NFTUSDT swap bybit 2022-11-10 03:08:16.932623 bybit 10000NFTUSDT swap 5m [2.95 %] [price = 0.00523500] *** new highest evol in %                                          
+AGLDUSDT swap bybit 2022-11-10 03:09:06.112010 bybit AGLDUSDT swap 5m [5.67 %] [price = 0.22350000] *** new highest evol in %                                                  
+AKROUSDT swap bybit 2022-11-10 03:09:12.057880 bybit AKROUSDT swap 5m [4.83 %] [price = 0.00264700]                                                                            
+ALICEUSDT swap bybit 2022-11-10 03:09:23.984420 bybit ALICEUSDT swap 5m [5.19 %] [price = 1.11500000]                                                                          
+MKRUSDT swap bybit 2022-11-10 03:20:14.966329 bybit MKRUSDT swap 30m [8.64 %] [price = 729.00000000] *** new highest evol in %                                                 

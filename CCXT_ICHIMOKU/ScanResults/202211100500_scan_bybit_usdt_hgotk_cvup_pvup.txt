@@ -1,0 +1,11 @@
+Scan results at : 2022-11-10 04:46:31.371379
+IMXUSDT swap bybit 2022-11-10 04:51:41.962061 bybit IMXUSDT swap 1m [19.15 %] [price = 0.47900000] *** new highest evol in %                                                   
+GALAUSDT swap bybit 2022-11-10 04:50:22.440514 bybit GALAUSDT swap 3m [10.63 %] [price = 0.02831000] *** new highest evol in %                                                 
+GALUSDT swap bybit 2022-11-10 04:50:28.450228 bybit GALUSDT swap 3m [7.78 %] [price = 1.45500000]                                                                              
+LDOUSDT swap bybit 2022-11-10 04:52:54.754638 bybit LDOUSDT swap 3m [8.60 %] [price = 1.00350000]                                                                              
+OGNUSDT swap bybit 2022-11-10 04:54:44.884359 bybit OGNUSDT swap 3m [7.01 %] [price = 0.10080000]                                                                              
+SKLUSDT swap bybit 2022-11-10 04:57:04.572508 bybit SKLUSDT swap 3m [6.49 %] [price = 0.02625000]                                                                              
+PEOPLEUSDT swap bybit 2022-11-10 04:55:20.928464 bybit PEOPLEUSDT swap 5m [9.26 %] [price = 0.02065000]                                                                        
+SNXUSDT swap bybit 2022-11-10 04:57:16.860599 bybit SNXUSDT swap 5m [5.97 %] [price = 1.81100000]                                                                              
+STGUSDT swap bybit 2022-11-10 04:57:41.262011 bybit STGUSDT swap 5m [1.83 %] [price = 0.36250000]                                                                              
+USDCUSDT swap bybit 2022-11-10 04:59:14.093766 bybit USDCUSDT swap 30m 1h [0.76 %] [price = 1.00980000]                                                                        

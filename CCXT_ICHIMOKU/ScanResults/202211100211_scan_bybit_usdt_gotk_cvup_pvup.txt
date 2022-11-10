@@ -1,0 +1,3 @@
+Scan results at : 2022-11-10 02:04:10.987250
+CVXUSDT swap bybit 2022-11-10 01:59:03.711602 bybit CVXUSDT swap 1m [2.45 %] [price = 3.77000000]                                                                              
+BITUSDT swap bybit 2022-11-10 01:56:37.683163 bybit BITUSDT swap 3m [2.99 %] [price = 0.31000000] *** new highest evol in %                                                    

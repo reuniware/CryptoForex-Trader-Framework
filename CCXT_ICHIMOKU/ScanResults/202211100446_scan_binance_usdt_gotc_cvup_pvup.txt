@@ -1,0 +1,2 @@
+Scan results at : 2022-11-10 04:42:06.445039
+YFIIUSDT spot binance 2022-11-10 04:18:39.137011 binance YFIIUSDT spot 3d [-2.10 %] [price = 1725.60000000]                                                                    

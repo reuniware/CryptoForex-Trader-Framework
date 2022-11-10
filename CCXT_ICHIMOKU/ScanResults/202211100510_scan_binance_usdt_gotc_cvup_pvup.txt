@@ -1,0 +1,4 @@
+Scan results at : 2022-11-10 05:00:54.324001
+RAYUSDT spot binance 2022-11-10 04:57:06.857521 binance RAYUSDT spot 1m [12.87 %] [price = 0.24550000] *** new highest evol in %                                               
+FLUXUSDT spot binance 2022-11-10 05:04:12.798499 binance FLUXUSDT spot 1m [-13.16 %] [price = 0.44200000]                                                                      
+YFIIUSDT spot binance 2022-11-10 04:42:39.221055 binance YFIIUSDT spot 3d [-1.89 %] [price = 1729.40000000]                                                                    

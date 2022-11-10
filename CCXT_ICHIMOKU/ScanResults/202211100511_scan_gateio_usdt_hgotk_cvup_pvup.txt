@@ -1,0 +1,5 @@
+Scan results at : 2022-11-10 05:10:38.003945
+LTC5L_USDT spot gateio 2022-11-10 03:40:18.626889 gateio LTC5L_USDT spot 1m [28.64 %] [price = 0.21960910]                                                                     
+SALT_USDT spot gateio 2022-11-10 02:53:36.475184 gateio SALT_USDT spot 15m [35.48 %] [price = 0.06011100] *** new highest evol in %                                            
+COMP3S_USDT spot gateio 2022-11-10 03:31:06.779884 gateio COMP3S_USDT spot 1d [2.71 %] [price = 0.46647000]                                                                    
+HBAR3S_USDT spot gateio 2022-11-10 03:35:57.610317 gateio HBAR3S_USDT spot 1d [0.37 %] [price = 0.93718000]                                                                    

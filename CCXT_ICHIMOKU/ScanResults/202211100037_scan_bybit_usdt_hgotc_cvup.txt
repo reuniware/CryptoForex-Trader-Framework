@@ -1,0 +1,9 @@
+Scan results at : 2022-11-10 00:20:14.854257
+ANTUSDT swap bybit 2022-11-10 00:20:40.932889 bybit ANTUSDT swap 3m [1.51 %] [price = 1.68500000] *** new highest evol in %                                                    
+EGLDUSDT swap bybit 2022-11-10 00:25:58.159560 bybit EGLDUSDT swap 3m [1.30 %] [price = 42.70000000]                                                                           
+FTMUSDT swap bybit 2022-11-10 00:27:04.867166 bybit FTMUSDT swap 3m [1.69 %] [price = 0.18000000] *** new highest evol in %                                                    
+HBARUSDT swap bybit 2022-11-10 00:28:05.546454 bybit HBARUSDT swap 3m [2.15 %] [price = 0.04505000] *** new highest evol in %                                                  
+LITUSDT swap bybit 2022-11-10 00:30:14.214881 bybit LITUSDT swap 3m [3.03 %] [price = 0.68100000] *** new highest evol in %                                                    
+LUNA2USDT swap bybit 2022-11-10 00:30:45.087136 bybit LUNA2USDT swap 3m [1.93 %] [price = 1.63800000]                                                                          
+NEARUSDT swap bybit 2022-11-10 00:31:27.308750 bybit NEARUSDT swap 3m [2.52 %] [price = 2.07500000]                                                                            
+MKRUSDT swap bybit 2022-11-10 00:31:15.243231 bybit MKRUSDT swap 15m [2.61 %] [price = 688.50000000]                                                                           

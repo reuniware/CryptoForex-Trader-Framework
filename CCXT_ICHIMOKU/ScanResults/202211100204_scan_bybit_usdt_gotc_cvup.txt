@@ -1,0 +1,4 @@
+Scan results at : 2022-11-10 01:57:05.571293
+ONEUSDT swap bybit 2022-11-10 01:58:15.406362 bybit ONEUSDT swap 5m [0.36 %] [price = 0.01375000]                                                                              
+RSRUSDT swap bybit 2022-11-10 01:59:29.112300 bybit RSRUSDT swap 5m [2.53 %] [price = 0.00405000]                                                                              
+MATICUSDT swap bybit 2022-11-10 01:57:19.853108 bybit MATICUSDT swap 1d [2.72 %] [price = 0.83780000] *** new highest evol in %                                                
