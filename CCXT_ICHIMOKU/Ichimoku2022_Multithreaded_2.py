@@ -324,7 +324,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
             if not symbol.endswith('USDT'):
                 continue
 
-        if tf != "1m":
+        if tf != "5m":
             continue
         #else:
             #print("Processing 1m for", symbol)
@@ -407,9 +407,19 @@ def execute_code(symbol, type_of_asset, exchange_id):
             # print("ssb_chikou", ssb_chikou)
 
             if (ssb > ssa and price_open > ssb and price_close > ssb) or (ssa > ssb and price_open > ssa and price_close > ssa):
-                print(symbol, tf, "is over the cloud")
+                pass#print(symbol, tf, "**** is over the cloud")
+                if (price_close > kijun):
+                    pass#print(symbol, tf, "******** is over the kijun")
+                    if (price_close > tenkan):
+                        pass#print(symbol, tf, "************ is over the tenkan")
+                        if (chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou and chikou > tenkan_chikou and chikou > kijun_chikou):
+                            pass#print(symbol, tf, "**************** has chikou validated")
+                            if (price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun and price_close > price_open):
+                                print(symbol, tf, "******************** has price validated")
+
+
             if (ssb > ssa and price_open < ssb and price_close > ssb) or (ssa > ssb and price_open < ssa and price_close > ssa):
-                print(symbol, tf, "getting over the cloud")
+                pass#print(symbol, tf, "**** is getting over the cloud")
 
             if getting_over_the_cloud is True:
                 condition = (ssb > ssa and price_open < ssb and price_close > ssb) \
