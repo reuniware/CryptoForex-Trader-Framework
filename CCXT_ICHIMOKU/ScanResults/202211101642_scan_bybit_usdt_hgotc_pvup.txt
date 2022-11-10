@@ -1,0 +1,5 @@
+Scan results at : 2022-11-10 16:28:35.899747
+CKBUSDT swap bybit 2022-11-10 16:28:42.724089 bybit CKBUSDT swap 30m [9.87 %] [price = 0.00289500]                                                                             
+CTCUSDT swap bybit 2022-11-10 16:29:19.364217 bybit CTCUSDT swap 30m [17.61 %] [price = 0.41715000] *** new highest evol in %                                                  
+1000BTTUSDT swap bybit 2022-11-10 16:24:03.488193 bybit 1000BTTUSDT swap 1h [14.78 %] [price = 0.00076100] *** new highest evol in %                                           
+BNXUSDT swap bybit 2022-11-10 16:27:34.521101 bybit BNXUSDT swap 1h [4.86 %] [price = 147.80000000]                                                                            

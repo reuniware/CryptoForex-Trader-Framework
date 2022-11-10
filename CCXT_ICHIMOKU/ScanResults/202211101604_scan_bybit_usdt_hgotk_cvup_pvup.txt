@@ -1,0 +1,2 @@
+Scan results at : 2022-11-10 15:46:04.277998
+XCNUSDT swap bybit 2022-11-10 16:03:36.424936 bybit XCNUSDT swap 3m [7.33 %] [price = 0.04424000] *** new highest evol in %                                                    

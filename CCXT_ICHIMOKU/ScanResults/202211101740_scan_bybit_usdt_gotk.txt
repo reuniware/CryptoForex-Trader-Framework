@@ -1,0 +1,15 @@
+Scan results at : 2022-11-10 17:21:32.610279
+FXSUSDT swap bybit 2022-11-10 17:29:57.513365 bybit FXSUSDT swap 1m [5.53 %] [price = 5.53000000]                                                                              
+1000XECUSDT swap bybit 2022-11-10 17:22:00.124007 bybit 1000XECUSDT swap 5m [14.15 %] [price = 0.03178000]                                                                     
+APTUSDT swap bybit 2022-11-10 17:23:26.306844 bybit APTUSDT swap 5m [34.86 %] [price = 5.30000000] *** new highest evol in %                                                   
+ICPUSDT swap bybit 2022-11-10 17:31:17.727898 bybit ICPUSDT swap 2h [17.71 %] [price = 4.32000000]                                                                             
+AVAXUSDT swap bybit 2022-11-10 17:24:03.315126 bybit AVAXUSDT swap 4h [22.05 %] [price = 15.69500000]                                                                          
+ATOMUSDT swap bybit 2022-11-10 17:23:51.030834 bybit ATOMUSDT swap 5m 4h [26.41 %] [price = 12.35000000]                                                                       
+GMXUSDT swap bybit 2022-11-10 17:30:40.340819 bybit GMXUSDT swap 2h 4h [27.16 %] [price = 33.66000000]                                                                         
+MKRUSDT swap bybit 2022-11-10 17:34:11.970987 bybit MKRUSDT swap 6h 12h [24.14 %] [price = 833.00000000]                                                                       
+OPUSDT swap bybit 2022-11-10 17:35:09.505353 bybit OPUSDT swap 1d [34.81 %] [price = 1.05150000]                                                                               
+1000BTTUSDT swap bybit 2022-11-10 17:21:47.528539 bybit 1000BTTUSDT swap 6h 12h 1d [14.33 %] [price = 0.00075800] *** new highest evol in %                                    
+BANDUSDT swap bybit 2022-11-10 17:24:28.233419 bybit BANDUSDT swap 6h 12h 1d [60.89 %] [price = 2.34100000] *** new highest evol in %                                          
+BNXUSDT swap bybit 2022-11-10 17:25:17.886694 bybit BNXUSDT swap 6h 12h 1d [5.00 %] [price = 148.00000000]                                                                     
+MATICUSDT swap bybit 2022-11-10 17:33:58.693654 bybit MATICUSDT swap 6h 12h 1d [34.43 %] [price = 1.09640000]                                                                  
+DYDXUSDT swap bybit 2022-11-10 17:28:25.428581 bybit DYDXUSDT swap 4h 6h 12h 1d [22.93 %] [price = 1.63500000]                                                                 

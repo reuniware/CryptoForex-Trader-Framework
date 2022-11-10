@@ -1,0 +1,12 @@
+Scan results at : 2022-11-10 15:36:03.914682
+ELFUSDT spot binance 2022-11-10 15:26:11.287576 binance ELFUSDT spot 1s [9.52 %] [price = 0.11730000]                                                                          
+NEOUSDT spot binance 2022-11-10 14:50:00.317130 binance NEOUSDT spot 1m [13.92 %] [price = 7.04000000] *** new highest evol in %                                               
+ENSUSDT spot binance 2022-11-10 15:29:59.356595 binance ENSUSDT spot 1m [23.71 %] [price = 12.99000000]                                                                        
+DENTUSDT spot binance 2022-11-10 14:56:38.429998 binance DENTUSDT spot 3m [16.77 %] [price = 0.00073100]                                                                       
+SOLUSDT spot binance 2022-11-10 15:02:21.295017 binance SOLUSDT spot 3m [21.02 %] [price = 17.04000000]                                                                        
+AUDUSDT spot binance 2022-11-10 15:07:07.600928 binance AUDUSDT spot 4h 8h [2.34 %] [price = 0.65700000]                                                                       
+GBPUSDT spot binance 2022-11-10 15:05:59.304809 binance GBPUSDT spot 8h 1d [2.55 %] [price = 1.16800000]                                                                       
+TWTUSDT spot binance 2022-11-10 15:17:25.526598 binance TWTUSDT spot 12h 1d [12.31 %] [price = 1.17610000]                                                                     
+MATICUSDT spot binance 2022-11-10 14:54:24.546548 binance MATICUSDT spot 8h 12h 1d [33.36 %] [price = 1.08890000] *** new highest evol in %                                    
+BTCDOWNUSDT spot binance 2022-11-10 15:03:06.666653 binance BTCDOWNUSDT spot 3d [-14.99 %] [price = 0.04059900]                                                                
+YFIIUSDT spot binance 2022-11-10 15:10:02.346099 binance YFIIUSDT spot 3d [6.51 %] [price = 1877.50000000]                                                                     

@@ -1,0 +1,10 @@
+Scan results at : 2022-11-10 19:16:58.492240
+CTSIUSDT swap bybit 2022-11-10 19:22:42.189306 bybit CTSIUSDT swap 3m [19.22 %] [price = 0.11415000] *** new highest evol in %                                                 
+LTCUSDT swap bybit 2022-11-10 19:28:38.614251 bybit LTCUSDT swap 12h [15.10 %] [price = 58.31000000]                                                                           
+ASTRUSDT swap bybit 2022-11-10 19:19:10.863515 bybit ASTRUSDT swap 1d [12.02 %] [price = 0.04100000] *** new highest evol in %                                                 
+BNBUSDT swap bybit 2022-11-10 19:20:38.450626 bybit BNBUSDT swap 1d [11.73 %] [price = 297.75000000]                                                                           
+DYDXUSDT swap bybit 2022-11-10 19:23:50.243834 bybit DYDXUSDT swap 1d [30.83 %] [price = 1.74000000] *** new highest evol in %                                                 
+MATICUSDT swap bybit 2022-11-10 19:29:03.093102 bybit MATICUSDT swap 1d [35.64 %] [price = 1.10630000] *** new highest evol in %                                               
+PAXGUSDT swap bybit 2022-11-10 19:30:17.083401 bybit PAXGUSDT swap 1d [3.44 %] [price = 1745.00000000]                                                                         
+PEOPLEUSDT swap bybit 2022-11-10 19:30:23.228556 bybit PEOPLEUSDT swap 1d [15.87 %] [price = 0.02190000]                                                                       
+RNDRUSDT swap bybit 2022-11-10 19:30:59.986827 bybit RNDRUSDT swap 12h 1d [34.71 %] [price = 0.58600000]                                                                       

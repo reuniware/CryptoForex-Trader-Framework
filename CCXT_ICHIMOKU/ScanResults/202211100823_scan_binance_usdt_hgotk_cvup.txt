@@ -1,0 +1,17 @@
+Scan results at : 2022-11-10 08:22:56.142662
+RLCUSDT spot binance 2022-11-10 07:45:12.669905 binance RLCUSDT spot 1m [12.37 %] [price = 0.89000000]                                                                         
+TRBUSDT spot binance 2022-11-10 07:55:20.692565 binance TRBUSDT spot 1m [12.62 %] [price = 10.89000000]                                                                        
+DIAUSDT spot binance 2022-11-10 07:56:00.708527 binance DIAUSDT spot 1m [7.94 %] [price = 0.29900000]                                                                          
+XLMUSDT spot binance 2022-11-10 07:36:37.645607 binance XLMUSDT spot 3m [9.38 %] [price = 0.09100000] *** new highest evol in %                                                
+ONGUSDT spot binance 2022-11-10 07:37:54.585139 binance ONGUSDT spot 3m [8.98 %] [price = 0.23670000]                                                                          
+LTOUSDT spot binance 2022-11-10 07:47:05.616433 binance LTOUSDT spot 3m [13.21 %] [price = 0.07200000]                                                                         
+BONDUSDT spot binance 2022-11-10 08:08:43.918650 binance BONDUSDT spot 3m [8.45 %] [price = 3.40200000]                                                                        
+BTCUSDT spot binance 2022-11-10 07:35:14.057963 binance BTCUSDT spot 5m [6.04 %] [price = 16884.39000000] *** new highest evol in %                                            
+LTCUSDT spot binance 2022-11-10 07:35:46.676190 binance LTCUSDT spot 5m [8.11 %] [price = 54.80000000] *** new highest evol in %                                               
+LINKUSDT spot binance 2022-11-10 07:37:37.653482 binance LINKUSDT spot 5m [9.68 %] [price = 6.83500000] *** new highest evol in %                                              
+MATICUSDT spot binance 2022-11-10 07:40:05.268422 binance MATICUSDT spot 5m [16.30 %] [price = 0.94960000] *** new highest evol in %                                           
+FUNUSDT spot binance 2022-11-10 07:43:05.544250 binance FUNUSDT spot 5m [7.44 %] [price = 0.00679000]                                                                          
+VIDTUSDT spot binance 2022-11-10 08:12:06.111790 binance VIDTUSDT spot 15m [16.84 %] [price = 0.02831000] *** new highest evol in %                                            
+BUSDUSDT spot binance 2022-11-10 07:43:42.081807 binance BUSDUSDT spot 8h 12h [0.22 %] [price = 1.00440000]                                                                    
+YFIIUSDT spot binance 2022-11-10 07:55:36.396994 binance YFIIUSDT spot 1d [1.06 %] [price = 1781.30000000]                                                                     
+TRXDOWNUSDT spot binance 2022-11-10 07:56:42.440056 binance TRXDOWNUSDT spot 8h 1d [-10.05 %] [price = 1.30700000]                                                             

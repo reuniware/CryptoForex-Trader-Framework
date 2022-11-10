@@ -1,0 +1,11 @@
+Scan results at : 2022-11-10 12:14:41.508860
+TWTUSDT spot binance 2022-11-10 12:04:08.751084 binance TWTUSDT spot 1m [3.27 %] [price = 1.08140000] *** new highest evol in %                                                
+CLVUSDT spot binance 2022-11-10 12:10:28.971594 binance CLVUSDT spot 3m [11.02 %] [price = 0.05933000] *** new highest evol in %                                               
+DARUSDT spot binance 2022-11-10 12:15:38.289608 binance DARUSDT spot 3m [11.34 %] [price = 0.13754000]                                                                         
+JASMYUSDT spot binance 2022-11-10 12:17:00.538451 binance JASMYUSDT spot 3m [10.39 %] [price = 0.00380200]                                                                     
+GALAUSDT spot binance 2022-11-10 12:13:25.548250 binance GALAUSDT spot 5m [16.69 %] [price = 0.02992000] *** new highest evol in %                                             
+RADUSDT spot binance 2022-11-10 12:14:40.127551 binance RADUSDT spot 5m [10.79 %] [price = 1.59200000]                                                                         
+AUDUSDT spot binance 2022-11-10 11:54:03.397890 binance AUDUSDT spot 15m [0.64 %] [price = 0.64610000] *** new highest evol in %                                               
+AGLDUSDT spot binance 2022-11-10 12:14:32.212576 binance AGLDUSDT spot 15m [11.85 %] [price = 0.23600000]                                                                      
+EURUSDT spot binance 2022-11-10 11:47:28.880139 binance EURUSDT spot 8h [0.10 %] [price = 0.99870000] *** new highest evol in %                                                
+PAXGUSDT spot binance 2022-11-10 11:56:17.747584 binance PAXGUSDT spot 1d [1.12 %] [price = 1718.00000000] *** new highest evol in %                                           

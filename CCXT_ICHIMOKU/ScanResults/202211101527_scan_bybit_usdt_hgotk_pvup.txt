@@ -1,0 +1,4 @@
+Scan results at : 2022-11-10 15:08:14.060685
+RNDRUSDT swap bybit 2022-11-10 15:22:09.929030 bybit RNDRUSDT swap 15m [46.21 %] [price = 0.63600000] *** new highest evol in %                                                
+1000LUNCUSDT swap bybit 2022-11-10 15:08:34.238353 bybit 1000LUNCUSDT swap 1h [9.19 %] [price = 0.20190000] *** new highest evol in %                                          
+RSS3USDT swap bybit 2022-11-10 15:22:28.185064 bybit RSS3USDT swap 1h [14.97 %] [price = 0.15820000]                                                                           

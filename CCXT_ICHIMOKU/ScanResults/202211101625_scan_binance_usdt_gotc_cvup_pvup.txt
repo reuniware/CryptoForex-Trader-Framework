@@ -1,0 +1,5 @@
+Scan results at : 2022-11-10 16:23:49.883132
+GBPUSDT spot binance 2022-11-10 15:52:51.143839 binance GBPUSDT spot 8h [2.72 %] [price = 1.17000000]                                                                          
+TWTUSDT spot binance 2022-11-10 16:04:12.908676 binance TWTUSDT spot 12h [12.10 %] [price = 1.17390000]                                                                        
+MATICUSDT spot binance 2022-11-10 15:41:12.261425 binance MATICUSDT spot 1d [33.70 %] [price = 1.09170000] *** new highest evol in %                                           
+YFIIUSDT spot binance 2022-11-10 15:56:51.455800 binance YFIIUSDT spot 3d [4.44 %] [price = 1841.00000000]                                                                     

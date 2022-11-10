@@ -1,0 +1,2 @@
+Scan results at : 2022-11-10 16:42:55.137628
+BNXUSDT swap bybit 2022-11-10 16:46:38.277301 bybit BNXUSDT swap 1h [4.61 %] [price = 147.45000000] *** new highest evol in %                                                  

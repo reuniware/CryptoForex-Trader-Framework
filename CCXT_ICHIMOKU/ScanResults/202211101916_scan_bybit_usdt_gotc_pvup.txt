@@ -1,0 +1,9 @@
+Scan results at : 2022-11-10 19:11:26.233746
+ALGOUSDT swap bybit 2022-11-10 18:58:53.627782 bybit ALGOUSDT swap 1m [16.04 %] [price = 0.30750000] *** new highest evol in %                                                 
+ENSUSDT swap bybit 2022-11-10 19:04:52.590796 bybit ENSUSDT swap 3m [22.01 %] [price = 12.75000000]                                                                            
+COMPUSDT swap bybit 2022-11-10 19:02:43.712021 bybit COMPUSDT swap 1m 3m [15.41 %] [price = 39.70000000]                                                                       
+MKRUSDT swap bybit 2022-11-10 19:10:03.970553 bybit MKRUSDT swap 2h [28.39 %] [price = 861.50000000]                                                                           
+BNXUSDT swap bybit 2022-11-10 19:01:29.089150 bybit BNXUSDT swap 4h 12h [5.18 %] [price = 148.25000000]                                                                        
+MATICUSDT swap bybit 2022-11-10 19:09:51.707755 bybit MATICUSDT swap 1d [35.64 %] [price = 1.10630000] *** new highest evol in %                                               
+PAXGUSDT swap bybit 2022-11-10 19:11:06.011602 bybit PAXGUSDT swap 1d [3.44 %] [price = 1745.00000000]                                                                         
+DYDXUSDT swap bybit 2022-11-10 19:04:34.205800 bybit DYDXUSDT swap 6h 12h 1d [30.83 %] [price = 1.74000000] *** new highest evol in %                                          

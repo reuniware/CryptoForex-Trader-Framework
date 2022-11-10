@@ -1,0 +1,12 @@
+Scan results at : 2022-11-10 17:02:16.159798
+COMPUSDT spot binance 2022-11-10 16:43:43.347080 binance COMPUSDT spot 3m [16.95 %] [price = 40.37000000]                                                                      
+ADAUPUSDT spot binance 2022-11-10 16:44:37.376726 binance ADAUPUSDT spot 3m [46.13 %] [price = 0.49100000] *** new highest evol in %                                           
+PHAUSDT spot binance 2022-11-10 17:02:45.007137 binance PHAUSDT spot 3m [45.79 %] [price = 0.17830000]                                                                         
+VIDTUSDT spot binance 2022-11-10 17:06:17.614927 binance VIDTUSDT spot 15m [16.76 %] [price = 0.02829000]                                                                      
+BIFIUSDT spot binance 2022-11-10 17:15:24.406337 binance BIFIUSDT spot 30m [11.21 %] [price = 372.90000000]                                                                    
+MKRUSDT spot binance 2022-11-10 16:45:46.636074 binance MKRUSDT spot 2h [26.31 %] [price = 845.00000000]                                                                       
+BNXUSDT spot binance 2022-11-10 17:08:54.797189 binance BNXUSDT spot 4h 6h [4.75 %] [price = 147.90000000]                                                                     
+TWTUSDT spot binance 2022-11-10 16:56:57.160274 binance TWTUSDT spot 6h 8h 12h [13.34 %] [price = 1.18690000]                                                                  
+MATICUSDT spot binance 2022-11-10 16:33:44.578046 binance MATICUSDT spot 6h 1d [38.57 %] [price = 1.13140000] *** new highest evol in %                                        
+LTCUSDT spot binance 2022-11-10 16:29:23.293696 binance LTCUSDT spot 6h 12h 1d [19.41 %] [price = 60.53000000] *** new highest evol in %                                       
+YFIIUSDT spot binance 2022-11-10 16:49:26.569293 binance YFIIUSDT spot 3d [3.24 %] [price = 1819.80000000]                                                                     

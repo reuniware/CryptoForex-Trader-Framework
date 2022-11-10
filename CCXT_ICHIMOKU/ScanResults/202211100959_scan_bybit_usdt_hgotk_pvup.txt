@@ -1,0 +1,2 @@
+Scan results at : 2022-11-10 09:40:20.474095
+APEUSDT swap bybit 2022-11-10 09:42:00.101644 bybit APEUSDT swap 3m [15.93 %] [price = 3.34700000] *** new highest evol in %                                                   

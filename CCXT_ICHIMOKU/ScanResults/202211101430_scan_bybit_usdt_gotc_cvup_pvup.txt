@@ -1,0 +1,5 @@
+Scan results at : 2022-11-10 14:11:32.511394
+RSS3USDT swap bybit 2022-11-10 14:25:45.384472 bybit RSS3USDT swap 30m [11.30 %] [price = 0.15315000]                                                                          
+XCNUSDT swap bybit 2022-11-10 14:29:10.404147 bybit XCNUSDT swap 30m [6.04 %] [price = 0.04371000]                                                                             
+MATICUSDT swap bybit 2022-11-10 14:23:30.807501 bybit MATICUSDT swap 1d [31.68 %] [price = 1.07400000] *** new highest evol in %                                               
+PAXGUSDT swap bybit 2022-11-10 14:24:44.063786 bybit PAXGUSDT swap 1d [2.85 %] [price = 1735.00000000]                                                                         

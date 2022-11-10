@@ -1,0 +1,6 @@
+Scan results at : 2022-11-10 18:19:07.829272
+BICOUSDT swap bybit 2022-11-10 18:22:30.122707 bybit BICOUSDT swap 15m [16.98 %] [price = 0.31000000]                                                                          
+RNDRUSDT swap bybit 2022-11-10 18:33:24.258183 bybit RNDRUSDT swap 15m [40.92 %] [price = 0.61300000]                                                                          
+DYDXUSDT swap bybit 2022-11-10 18:26:01.705598 bybit DYDXUSDT swap 1d [26.69 %] [price = 1.68500000]                                                                           
+BANDUSDT swap bybit 2022-11-10 18:22:05.473978 bybit BANDUSDT swap 12h 1d [60.21 %] [price = 2.33100000] *** new highest evol in %                                             
+MATICUSDT swap bybit 2022-11-10 18:31:24.410302 bybit MATICUSDT swap 12h 1d [32.76 %] [price = 1.08280000]                                                                     

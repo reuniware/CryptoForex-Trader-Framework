@@ -1,0 +1,8 @@
+Scan results at : 2022-11-10 09:00:48.884854
+PEOPLEUSDT spot binance 2022-11-10 09:06:07.163155 binance PEOPLEUSDT spot 1m [6.12 %] [price = 0.02010000]                                                                    
+WINGUSDT spot binance 2022-11-10 08:45:52.980089 binance WINGUSDT spot 5m [12.40 %] [price = 5.62000000] *** new highest evol in %                                             
+DODOUSDT spot binance 2022-11-10 08:51:44.907298 binance DODOUSDT spot 5m [10.90 %] [price = 0.11090000]                                                                       
+FORUSDT spot binance 2022-11-10 08:58:56.297298 binance FORUSDT spot 5m [12.95 %] [price = 0.01413000] *** new highest evol in %                                               
+ILVUSDT spot binance 2022-11-10 09:00:38.731426 binance ILVUSDT spot 5m [9.46 %] [price = 46.30000000]                                                                         
+OSMOUSDT spot binance 2022-11-10 09:11:40.420596 binance OSMOUSDT spot 5m [9.95 %] [price = 1.20400000]                                                                        
+BUSDUSDT spot binance 2022-11-10 08:32:09.019159 binance BUSDUSDT spot 12h [0.12 %] [price = 1.00340000] *** new highest evol in %                                             

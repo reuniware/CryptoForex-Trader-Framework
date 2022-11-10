@@ -1,0 +1,6 @@
+Scan results at : 2022-11-10 11:15:55.205523
+FTTUSDT swap bybit 2022-11-10 11:24:05.395115 bybit FTTUSDT swap 1m [53.45 %] [price = 2.67000000] *** new highest evol in %                                                   
+PEOPLEUSDT swap bybit 2022-11-10 11:29:21.397601 bybit PEOPLEUSDT swap 1m [3.17 %] [price = 0.01950000]                                                                        
+REEFUSDT swap bybit 2022-11-10 11:29:39.610671 bybit REEFUSDT swap 1m [5.17 %] [price = 0.00346000]                                                                            
+SHIB1000USDT swap bybit 2022-11-10 11:31:02.590334 bybit SHIB1000USDT swap 1m [11.58 %] [price = 0.00973500]                                                                   
+USDCUSDT swap bybit 2022-11-10 11:33:28.932939 bybit USDCUSDT swap 30m [0.96 %] [price = 1.01180000]                                                                           

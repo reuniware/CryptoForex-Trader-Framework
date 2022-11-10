@@ -1,0 +1,4 @@
+Scan results at : 2022-11-10 17:40:58.054182
+BNXUSDT swap bybit 2022-11-10 17:44:43.465893 bybit BNXUSDT swap 6h [3.80 %] [price = 146.30000000]                                                                            
+BANDUSDT swap bybit 2022-11-10 17:43:53.899658 bybit BANDUSDT swap 12h 1d [56.29 %] [price = 2.27400000] *** new highest evol in %                                             
+MATICUSDT swap bybit 2022-11-10 17:53:00.800584 bybit MATICUSDT swap 6h 12h 1d [32.00 %] [price = 1.07660000]                                                                  

@@ -1,0 +1,7 @@
+Scan results at : 2022-11-10 08:23:39.741274
+SLPUSDT swap bybit 2022-11-10 08:38:09.889155 bybit SLPUSDT swap 3m [9.24 %] [price = 0.00260000]                                                                              
+XEMUSDT swap bybit 2022-11-10 08:40:47.399981 bybit XEMUSDT swap 3m [10.31 %] [price = 0.03210000]                                                                             
+SHIB1000USDT swap bybit 2022-11-10 08:37:57.556320 bybit SHIB1000USDT swap 5m [12.09 %] [price = 0.00978000]                                                                   
+GMXUSDT swap bybit 2022-11-10 08:31:40.597544 bybit GMXUSDT swap 3m 5m [13.18 %] [price = 29.96000000] *** new highest evol in %                                               
+ASTRUSDT swap bybit 2022-11-10 08:25:07.789778 bybit ASTRUSDT swap 12h [4.78 %] [price = 0.03835000] *** new highest evol in %                                                 
+MATICUSDT swap bybit 2022-11-10 08:34:57.254367 bybit MATICUSDT swap 1d [11.92 %] [price = 0.91280000]                                                                         

@@ -1,0 +1,7 @@
+Scan results at : 2022-11-10 10:48:24.423477
+BNXUSDT swap bybit 2022-11-10 10:41:12.155723 bybit BNXUSDT swap 1m [1.38 %] [price = 142.90000000] *** new highest evol in %                                                  
+DYDXUSDT swap bybit 2022-11-10 10:44:19.289309 bybit DYDXUSDT swap 3m [13.53 %] [price = 1.51000000] *** new highest evol in %                                                 
+BOBAUSDT swap bybit 2022-11-10 10:41:18.241614 bybit BOBAUSDT swap 5m [9.26 %] [price = 0.23000000] *** new highest evol in %                                                  
+LOOKSUSDT swap bybit 2022-11-10 10:48:51.811935 bybit LOOKSUSDT swap 5m [10.57 %] [price = 0.13600000]                                                                         
+KDAUSDT swap bybit 2022-11-10 10:48:02.806868 bybit KDAUSDT swap 15m [2.99 %] [price = 0.99800000]                                                                             
+USDCUSDT swap bybit 2022-11-10 10:55:04.035042 bybit USDCUSDT swap 15m [0.49 %] [price = 1.00710000]                                                                           

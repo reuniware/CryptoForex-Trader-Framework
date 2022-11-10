@@ -1,0 +1,4 @@
+Scan results at : 2022-11-10 08:03:48.841569
+GMXUSDT swap bybit 2022-11-10 08:12:48.869334 bybit GMXUSDT swap 3m 5m [13.34 %] [price = 30.00000000] *** new highest evol in %                                               
+SCRTUSDT swap bybit 2022-11-10 08:18:45.712928 bybit SCRTUSDT swap 15m [12.63 %] [price = 0.74000000]                                                                          
+PAXGUSDT swap bybit 2022-11-10 08:17:19.620594 bybit PAXGUSDT swap 1d [0.95 %] [price = 1703.00000000]                                                                         

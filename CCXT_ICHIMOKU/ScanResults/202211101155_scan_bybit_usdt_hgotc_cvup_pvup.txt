@@ -1,0 +1,5 @@
+Scan results at : 2022-11-10 11:36:43.124954
+GALAUSDT swap bybit 2022-11-10 11:43:54.075901 bybit GALAUSDT swap 3m [14.34 %] [price = 0.02926000] *** new highest evol in %                                                 
+GMTUSDT swap bybit 2022-11-10 11:44:13.385383 bybit GMTUSDT swap 15m [12.40 %] [price = 0.38800000]                                                                            
+ZRXUSDT swap bybit 2022-11-10 11:55:06.314340 bybit ZRXUSDT swap 15m [8.61 %] [price = 0.17790000]                                                                             
+USDCUSDT swap bybit 2022-11-10 11:53:24.460650 bybit USDCUSDT swap 30m [1.61 %] [price = 1.01830000]                                                                           

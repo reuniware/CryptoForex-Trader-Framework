@@ -1,0 +1,13 @@
+Scan results at : 2022-11-10 07:34:59.258400
+ANKRUSDT swap bybit 2022-11-10 07:26:33.220114 bybit ANKRUSDT swap 1m [10.74 %] [price = 0.02165000]                                                                           
+STXUSDT swap bybit 2022-11-10 07:41:40.918012 bybit STXUSDT swap 1m [7.94 %] [price = 0.23100000]                                                                              
+ARPAUSDT swap bybit 2022-11-10 07:27:04.747685 bybit ARPAUSDT swap 3m [11.28 %] [price = 0.02752000]                                                                           
+PEOPLEUSDT swap bybit 2022-11-10 07:38:55.763917 bybit PEOPLEUSDT swap 3m [8.73 %] [price = 0.02055000]                                                                        
+SWEATUSDT swap bybit 2022-11-10 07:41:59.450588 bybit SWEATUSDT swap 3m [7.97 %] [price = 0.01517000]                                                                          
+ARUSDT swap bybit 2022-11-10 07:27:10.903717 bybit ARUSDT swap 5m [12.16 %] [price = 9.96000000] *** new highest evol in %                                                     
+AXSUSDT swap bybit 2022-11-10 07:27:42.095089 bybit AXSUSDT swap 5m [18.52 %] [price = 7.13500000] *** new highest evol in %                                                   
+BAKEUSDT swap bybit 2022-11-10 07:27:49.271235 bybit BAKEUSDT swap 5m [11.46 %] [price = 0.18000000]                                                                           
+BCHUSDT swap bybit 2022-11-10 07:28:15.515087 bybit BCHUSDT swap 5m [9.26 %] [price = 97.35000000]                                                                             
+BTCUSDT swap bybit 2022-11-10 07:29:19.124735 bybit BTCUSDT swap 5m [5.30 %] [price = 16734.00000000]                                                                          
+AAVEUSDT swap bybit 2022-11-10 07:25:43.324298 bybit AAVEUSDT swap 1m 3m 5m [11.55 %] [price = 64.70000000] *** new highest evol in %                                          
+USDCUSDT swap bybit 2022-11-10 07:42:55.772779 bybit USDCUSDT swap 1h 12h 1d [0.67 %] [price = 1.00890000]                                                                     

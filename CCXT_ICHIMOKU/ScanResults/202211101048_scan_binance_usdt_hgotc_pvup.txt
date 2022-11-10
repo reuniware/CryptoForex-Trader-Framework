@@ -1,0 +1,5 @@
+Scan results at : 2022-11-10 10:39:33.932521
+NEBLUSDT spot binance 2022-11-10 10:47:48.763010 binance NEBLUSDT spot 1m [13.77 %] [price = 1.12400000] *** new highest evol in %                                             
+XRPDOWNUSDT spot binance 2022-11-10 10:21:54.429213 binance XRPDOWNUSDT spot 5m [-15.84 %] [price = 0.00036490]                                                                
+DOTDOWNUSDT spot binance 2022-11-10 10:22:15.202984 binance DOTDOWNUSDT spot 8h [-10.79 %] [price = 15.60000000]                                                               
+PAXGUSDT spot binance 2022-11-10 10:19:54.494791 binance PAXGUSDT spot 1d [0.53 %] [price = 1708.00000000] *** new highest evol in %                                           

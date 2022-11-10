@@ -1,0 +1,7 @@
+Scan results at : 2022-11-10 11:35:16.525728
+APEUSDT spot binance 2022-11-10 11:33:51.682771 binance APEUSDT spot 3m [15.81 %] [price = 3.34800000] *** new highest evol in %                                               
+GMTUSDT spot binance 2022-11-10 11:33:36.015540 binance GMTUSDT spot 3m 15m [11.75 %] [price = 0.38620000] *** new highest evol in %                                           
+ETHDOWNUSDT spot binance 2022-11-10 11:03:48.889058 binance ETHDOWNUSDT spot 12h [-12.12 %] [price = 1.31370000]                                                               
+BTCDOWNUSDT spot binance 2022-11-10 11:01:56.877011 binance BTCDOWNUSDT spot 1d [-4.52 %] [price = 0.04559900]                                                                 
+PAXGUSDT spot binance 2022-11-10 11:08:14.916538 binance PAXGUSDT spot 1d [0.71 %] [price = 1711.00000000] *** new highest evol in %                                           
+TRXDOWNUSDT spot binance 2022-11-10 11:09:57.668175 binance TRXDOWNUSDT spot 1d [-4.68 %] [price = 1.38500000]                                                                 

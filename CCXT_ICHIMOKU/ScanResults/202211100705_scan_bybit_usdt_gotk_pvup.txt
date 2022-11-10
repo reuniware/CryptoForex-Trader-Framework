@@ -1,0 +1,12 @@
+Scan results at : 2022-11-10 06:46:50.879541
+HOTUSDT swap bybit 2022-11-10 06:55:38.111424 bybit HOTUSDT swap 1m [7.40 %] [price = 0.00161100] *** new highest evol in %                                                    
+NEARUSDT swap bybit 2022-11-10 06:58:53.166984 bybit NEARUSDT swap 1m [9.09 %] [price = 2.20800000] *** new highest evol in %                                                  
+OCEANUSDT swap bybit 2022-11-10 06:59:05.830095 bybit OCEANUSDT swap 1m [10.68 %] [price = 0.13780000] *** new highest evol in %                                               
+SNXUSDT swap bybit 2022-11-10 07:01:56.818314 bybit SNXUSDT swap 1m [7.55 %] [price = 1.83800000]                                                                              
+SOLUSDT swap bybit 2022-11-10 07:02:03.078401 bybit SOLUSDT swap 1m [33.51 %] [price = 14.16500000] *** new highest evol in %                                                  
+STGUSDT swap bybit 2022-11-10 07:02:23.674327 bybit STGUSDT swap 3m [2.53 %] [price = 0.36500000]                                                                              
+ZECUSDT swap bybit 2022-11-10 07:05:18.638248 bybit ZECUSDT swap 3m [4.27 %] [price = 36.65000000]                                                                             
+UNFIUSDT swap bybit 2022-11-10 07:03:45.856094 bybit UNFIUSDT swap 5m [12.88 %] [price = 3.93450000]                                                                           
+UNIUSDT swap bybit 2022-11-10 07:03:52.329207 bybit UNIUSDT swap 5m [10.83 %] [price = 5.42400000]                                                                             
+PAXGUSDT swap bybit 2022-11-10 06:59:45.649576 bybit PAXGUSDT swap 3m 5m [1.24 %] [price = 1708.00000000]                                                                      
+USDCUSDT swap bybit 2022-11-10 07:03:58.444515 bybit USDCUSDT swap 5m 15m 30m 1h 12h 1d [0.66 %] [price = 1.00880000]                                                          
