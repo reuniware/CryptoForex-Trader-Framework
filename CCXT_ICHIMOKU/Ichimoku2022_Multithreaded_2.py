@@ -345,8 +345,8 @@ def execute_code(symbol, type_of_asset, exchange_id):
             if not symbol.endswith('PERP'):
                 continue
 
-        #if tf != "1w":
-            #continue
+        if tf != "15m":
+            continue
         #else:
             #print("Processing 1m for", symbol)
 
@@ -428,7 +428,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
             # print("ssb_chikou", ssb_chikou)
 
             if check_timeframe(symbol, tf):
-                print(symbol, tf, "Validated")
+                print(symbol, tf, "Validated", "current price", price_close, "at", str(datetime.now()))
 
             if getting_over_the_cloud is True:
                 condition = (ssb > ssa and price_open < ssb and price_close > ssb) \
