@@ -187,7 +187,7 @@ print("Scan started at :", str(datetime.now()))
 # if a debugger is attached then set arbitrary arguments for debugging (exchange...)
 if sys.gettrace() is not None:
     args.exchange = "bybit"
-    args.filter_assets = "*PERP"  # "BTCPERP"
+    args.filter_assets = ""  # "BTCPERP"
     args.loop = True
 
 if args.get_exchanges is True:
@@ -292,12 +292,17 @@ delete_results_temp_log(exchange.id)
 
 
 def get_data_for_timeframe(symbol, tf):
+    if tf not in exchange.timeframes:
+        print(symbol, tf, "is not in exchange's timeframes.")
+        return False
     result = exchange.fetch_ohlcv(symbol, tf, limit=52 + 26)
     return result
 
 
 def check_timeframe_up(symbol, tf):
     result = get_data_for_timeframe(symbol, tf)
+    if not result:
+        return
     # print(tf, symbol, result)
     dframe = pd.DataFrame(result)
     dframe['timestamp'] = pd.to_numeric(dframe[0])
@@ -343,6 +348,8 @@ def check_timeframe_up(symbol, tf):
 
 def check_timeframe_down(symbol, tf):
     result = get_data_for_timeframe(symbol, tf)
+    if not result:
+        return
     #print(tf, symbol, result)
     dframe = pd.DataFrame(result)
     dframe['timestamp'] = pd.to_numeric(dframe[0])
@@ -417,13 +424,14 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
             # print("scanning", symbol)
 
-            scantype = "down"
+            scantype = "up"
 
             array_tf = {}
             if exchange_id == "binance":
                 array_tf = {"1d", "4h", "1h"}
             elif exchange_id == "bybit":# and filter_assets == "*PERP":
-                array_tf = {"1m", "5m", "15m", "1h"}
+                #array_tf = {"1m", "5m", "15m", "1h"}
+                array_tf = {"5m"}
             else:
                 print("Il faut définir un array de tf pour cet exchange !")
 
@@ -450,7 +458,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         all_tf_ok = False
                         break
                 if all_tf_ok:
-                    beep.beep(3 )
+                    beep.beep(3)
                     str_to_log = "(UPTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now())
                     print(str_to_log)
                     log_to_results(str_to_log)
