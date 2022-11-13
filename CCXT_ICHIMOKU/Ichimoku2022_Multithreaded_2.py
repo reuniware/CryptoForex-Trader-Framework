@@ -9,6 +9,8 @@ import threading
 import ta
 import argparse
 import signal
+import beepy as beep
+
 from datetime import date
 
 pd.set_option('display.max_columns', None)
@@ -127,14 +129,14 @@ parser.add_argument('-gutc', '--getting-under-the-cloud', action='store_true',
                     help="scan for assets getting under the cloud")
 parser.add_argument('-hgotc', '--has-got-over-the-cloud', action='store_true',
                     help="scan for assets that have got over the cloud")
-#todo add -hgutc
+# todo add -hgutc
 parser.add_argument('-gotk', '--getting-over-the-kijun', action='store_true',
                     help="scan for assets getting under the cloud")
 parser.add_argument('-gutk', '--getting-under-the-kijun', action='store_true',
                     help="scan for assets getting under the cloud")
 parser.add_argument('-hgotk', '--has-got-over-the-kijun', action='store_true',
                     help="scan for assets that have got over the kijun")
-#todo add -hgutk
+# todo add -hgutk
 parser.add_argument('-gott', '--getting-over-the-tenkan', action='store_true',
                     help="scan for assets getting under the tenkan")
 parser.add_argument('-gutt', '--getting-under-the-tenkan', action='store_true',
@@ -153,7 +155,8 @@ parser.add_argument('-iutc', '--is-under-the-cloud', action='store_true',
                     help="scan for assets being under the cloud")
 parser.add_argument('-t', '--trending', action='store_true',
                     help="scan for trending assets (that are ok in at least 1m or 3m or 5m or 15m) ; only these will be written to the results log file")
-parser.add_argument('-l', '--loop', action='store_true', help="scan in loop (useful for continually scan one asset or a few ones)")
+parser.add_argument('-l', '--loop', action='store_true',
+                    help="scan in loop (useful for continually scan one asset or a few ones)")
 
 args = parser.parse_args()
 print("args.exchange =", args.exchange)
@@ -183,9 +186,9 @@ print("Scan started at :", str(datetime.now()))
 
 # if a debugger is attached then set arbitrary arguments for debugging (exchange...)
 if sys.gettrace() is not None:
-    args.exchange = "binanceus"
-    args.filter_assets = "*usdt"
-    args.loop = False
+    args.exchange = "bybit"
+    args.filter_assets = "*PERP"  # "BTCPERP"
+    args.loop = True
 
 if args.get_exchanges is True:
     for id in ccxt.exchanges:
@@ -259,7 +262,7 @@ loop_scan = args.loop
 
 debug_delays = False
 delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
-delay_request = 0.250  # delay between each request inside of a thread
+delay_request = 0  # delay between each request inside of a thread
 
 exchange = None
 if args.exchange is not None:
@@ -277,6 +280,7 @@ else:
 
 delete_results_temp_log(exchange.id)
 
+
 # exchange = ccxt.binance()
 # exchange = ccxt.ftx()
 
@@ -291,19 +295,95 @@ def get_data_for_timeframe(symbol, tf):
     result = exchange.fetch_ohlcv(symbol, tf, limit=52 + 26)
     return result
 
-def check_timeframe(symbol, tf):
+
+def check_timeframe_up(symbol, tf):
+    result = get_data_for_timeframe(symbol, tf)
+    # print(tf, symbol, result)
+    dframe = pd.DataFrame(result)
+    dframe['timestamp'] = pd.to_numeric(dframe[0])
+    dframe['open'] = pd.to_numeric(dframe[1])
+    dframe['high'] = pd.to_numeric(dframe[2])
+    dframe['low'] = pd.to_numeric(dframe[3])
+    dframe['close'] = pd.to_numeric(dframe[4])
+    dframe['ICH_SSB'] = ta.trend.ichimoku_b(dframe['high'], dframe['low'], window2=26, window3=52).shift(26)
+    dframe['ICH_SSA'] = ta.trend.ichimoku_a(dframe['high'], dframe['low'], window1=9, window2=26).shift(26)
+    dframe['ICH_KS'] = ta.trend.ichimoku_base_line(dframe['high'], dframe['low'])
+    dframe['ICH_TS'] = ta.trend.ichimoku_conversion_line(dframe['high'], dframe['low'])
+    dframe['ICH_CS'] = dframe['close'].shift(-26)
+    ssb = dframe['ICH_SSB'].iloc[-1]
+    ssa = dframe['ICH_SSA'].iloc[-1]
+    kijun = dframe['ICH_KS'].iloc[-1]
+    tenkan = dframe['ICH_TS'].iloc[-1]
+    chikou = dframe['ICH_CS'].iloc[-27]
+    price_open = dframe['open'].iloc[-1]
+    price_high = dframe['high'].iloc[-1]
+    price_low = dframe['low'].iloc[-1]
+    price_close = dframe['close'].iloc[-1]
+    price_open_chikou = dframe['open'].iloc[-27]
+    price_high_chikou = dframe['high'].iloc[-27]
+    price_low_chikou = dframe['low'].iloc[-27]
+    price_close_chikou = dframe['close'].iloc[-27]
+    tenkan_chikou = dframe['ICH_TS'].iloc[-27]
+    kijun_chikou = dframe['ICH_KS'].iloc[-27]
+    ssa_chikou = dframe['ICH_SSA'].iloc[-27]
+    ssb_chikou = dframe['ICH_SSB'].iloc[-27]
+
     if (ssb > ssa and price_open > ssb and price_close > ssb) or (ssa > ssb and price_open > ssa and price_close > ssa):
-        pass#print(symbol, tf, "**** is over the cloud")
+        pass  # print(symbol, tf, "**** is over the cloud")
         if (price_close > kijun):
-            pass#print(symbol, tf, "******** is over the kijun")
+            pass  # print(symbol, tf, "******** is over the kijun")
             if (price_close > tenkan):
-                pass#print(symbol, tf, "************ is over the tenkan")
+                pass  # print(symbol, tf, "************ is over the tenkan")
                 if (chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou and chikou > tenkan_chikou and chikou > kijun_chikou):
-                    pass#print(symbol, tf, "**************** has chikou validated")
+                    pass  # print(symbol, tf, "**************** has chikou validated")
                     if (price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun and price_close > price_open):
-                        pass#print(symbol, tf, "******************** has price validated")
+                        pass  # print(symbol, tf, "******************** has price validated")
                         return True
 
+
+def check_timeframe_down(symbol, tf):
+    result = get_data_for_timeframe(symbol, tf)
+    #print(tf, symbol, result)
+    dframe = pd.DataFrame(result)
+    dframe['timestamp'] = pd.to_numeric(dframe[0])
+    dframe['open'] = pd.to_numeric(dframe[1])
+    dframe['high'] = pd.to_numeric(dframe[2])
+    dframe['low'] = pd.to_numeric(dframe[3])
+    dframe['close'] = pd.to_numeric(dframe[4])
+    dframe['ICH_SSB'] = ta.trend.ichimoku_b(dframe['high'], dframe['low'], window2=26, window3=52).shift(26)
+    dframe['ICH_SSA'] = ta.trend.ichimoku_a(dframe['high'], dframe['low'], window1=9, window2=26).shift(26)
+    dframe['ICH_KS'] = ta.trend.ichimoku_base_line(dframe['high'], dframe['low'])
+    dframe['ICH_TS'] = ta.trend.ichimoku_conversion_line(dframe['high'], dframe['low'])
+    dframe['ICH_CS'] = dframe['close'].shift(-26)
+    ssb = dframe['ICH_SSB'].iloc[-1]
+    ssa = dframe['ICH_SSA'].iloc[-1]
+    kijun = dframe['ICH_KS'].iloc[-1]
+    tenkan = dframe['ICH_TS'].iloc[-1]
+    chikou = dframe['ICH_CS'].iloc[-27]
+    price_open = dframe['open'].iloc[-1]
+    price_high = dframe['high'].iloc[-1]
+    price_low = dframe['low'].iloc[-1]
+    price_close = dframe['close'].iloc[-1]
+    price_open_chikou = dframe['open'].iloc[-27]
+    price_high_chikou = dframe['high'].iloc[-27]
+    price_low_chikou = dframe['low'].iloc[-27]
+    price_close_chikou = dframe['close'].iloc[-27]
+    tenkan_chikou = dframe['ICH_TS'].iloc[-27]
+    kijun_chikou = dframe['ICH_KS'].iloc[-27]
+    ssa_chikou = dframe['ICH_SSA'].iloc[-27]
+    ssb_chikou = dframe['ICH_SSB'].iloc[-27]
+
+    if (ssb < ssa and price_open < ssb and price_close < ssb) or (ssa < ssb and price_open < ssa and price_close < ssa):
+        pass  # print(symbol, tf, "**** is over the cloud")
+        if (price_close < kijun):
+            pass  # print(symbol, tf, "******** is over the kijun")
+            if (price_close < tenkan):
+                pass  # print(symbol, tf, "************ is over the tenkan")
+                if (chikou < ssa_chikou and chikou < ssb_chikou and chikou < price_low_chikou and chikou < tenkan_chikou and chikou < kijun_chikou):
+                    pass  # print(symbol, tf, "**************** has chikou validated")
+                    if (price_close < ssa and price_close < ssb and price_close < tenkan and price_close < kijun and price_close < price_open):
+                        pass  # print(symbol, tf, "******************** has price validated")
+                        return True
 
 
 dict_results = {}
@@ -319,190 +399,76 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
     # print(10 * "*", symbol, type_of_asset, exchange.id, 10 * "*")
 
-    key = symbol + " " + type_of_asset + " " + exchange_id
-
-    price_open_1d = None
-    price_high_1d = None
-    price_low_1d = None
-    price_close_1d = None
-    s_price_open_1d = ""
-    s_price_high_1d = ""
-    s_price_low_1d = ""
-    s_price_close_1d = ""
-    percent_evol_1d = None
-    s_percent_evol_1d = ""
-
     binary_result = ""
 
-    #print("Available timeframes : ", exchange.timeframes)
+    # print("Available timeframes : ", exchange.timeframes)
+    done = False
+    if done == False:  # for tf in exchange.timeframes:
 
-    for tf in exchange.timeframes:
-
-        if exchange_id in ("binance", "gateio") :
-            if not symbol.endswith('USDT'):
-                continue
-        elif exchange_id == "bybit":
-            if not symbol.endswith('PERP'):
-                continue
-
-        if tf != "15m":
-            continue
-        #else:
-            #print("Processing 1m for", symbol)
+        # if exchange_id in ("binance", "gateio"):
+        #     if not symbol.endswith('USDT'):
+        #         continue
+        # elif exchange_id == "bybit":
+        #     # if not symbol == 'BTCPERP':
+        #     if not symbol.endswith('PERP'):
+        #         continue
 
         try:
 
-            #result = exchange.fetch_ohlcv(symbol, tf, limit=52 + 26)
-            result = get_data_for_timeframe(symbol, tf)
-            #print(tf, symbol, result)
-            dframe = pd.DataFrame(result)
-            # print(dframe[0])  # UTC timestamp in milliseconds, integer
-            # print(dframe[1])
-            # print(dframe[2])
-            # print(dframe[3])
-            # print(dframe[4])
+            # print("scanning", symbol)
 
-            dframe['timestamp'] = pd.to_numeric(dframe[0])
-            dframe['open'] = pd.to_numeric(dframe[1])
-            dframe['high'] = pd.to_numeric(dframe[2])
-            dframe['low'] = pd.to_numeric(dframe[3])
-            dframe['close'] = pd.to_numeric(dframe[4])
+            scantype = "down"
 
-            if tf == "1d":
-                price_open_1d = dframe['open'].iloc[-1]
-                price_high_1d = dframe['high'].iloc[-1]
-                price_low_1d = dframe['low'].iloc[-1]
-                price_close_1d = dframe['close'].iloc[-1]
-
-            dframe['ICH_SSB'] = ta.trend.ichimoku_b(dframe['high'], dframe['low'], window2=26, window3=52).shift(26)
-            # print(dframe['ICH_SSB'])
-
-            dframe['ICH_SSA'] = ta.trend.ichimoku_a(dframe['high'], dframe['low'], window1=9, window2=26).shift(26)
-            # print(dframe['ICH_SSA'])
-
-            dframe['ICH_KS'] = ta.trend.ichimoku_base_line(dframe['high'], dframe['low'])
-            # print(dframe['ICH_KS'])
-
-            dframe['ICH_TS'] = ta.trend.ichimoku_conversion_line(dframe['high'], dframe['low'])
-            # print(dframe['ICH_TS'])
-
-            dframe['ICH_CS'] = dframe['close'].shift(-26)
-            # print(dframe['ICH_CS'])
-
-            ssb = dframe['ICH_SSB'].iloc[-1]
-            ssa = dframe['ICH_SSA'].iloc[-1]
-            kijun = dframe['ICH_KS'].iloc[-1]
-            tenkan = dframe['ICH_TS'].iloc[-1]
-            chikou = dframe['ICH_CS'].iloc[-27]
-            # print("SSB", ssb)  # SSB at the current price
-            # print("SSA", ssa)  # SSB at the current price
-            # print("KS", kijun)  # SSB at the current price
-            # print("TS", tenkan)  # SSB at the current price
-            # print("CS", chikou)  # SSB at the current price
-
-            price_open = dframe['open'].iloc[-1]
-            price_high = dframe['high'].iloc[-1]
-            price_low = dframe['low'].iloc[-1]
-            price_close = dframe['close'].iloc[-1]
-            # print("price_open", price_open)
-            # print("price_high", price_high)
-            # print("price_low", price_low)
-            # print("price_close", price_close)
-
-            price_open_chikou = dframe['open'].iloc[-27]
-            price_high_chikou = dframe['high'].iloc[-27]
-            price_low_chikou = dframe['low'].iloc[-27]
-            price_close_chikou = dframe['close'].iloc[-27]
-            # print("price_open_chikou", price_open_chikou)
-            # print("price_high_chikou", price_high_chikou)
-            # print("price_low_chikou", price_low_chikou)
-            # print("price_close_chikou", price_close_chikou)
-
-            tenkan_chikou = dframe['ICH_TS'].iloc[-27]
-            kijun_chikou = dframe['ICH_KS'].iloc[-27]
-            ssa_chikou = dframe['ICH_SSA'].iloc[-27]
-            ssb_chikou = dframe['ICH_SSB'].iloc[-27]
-            # print("tenkan_chikou", tenkan_chikou)
-            # print("kijun_chikou", kijun_chikou)
-            # print("ssa_chikou", ssa_chikou)
-            # print("ssb_chikou", ssb_chikou)
-
-            if check_timeframe(symbol, tf):
-                print(symbol, tf, "Validated", "current price", price_close, "at", str(datetime.now()))
-
-            if getting_over_the_cloud is True:
-                condition = (ssb > ssa and price_open < ssb and price_close > ssb) \
-                            or (ssa > ssb and price_open < ssa and price_close > ssa)
-            elif getting_under_the_cloud is True:
-                condition = (ssb > ssa and price_open > ssa and price_close < ssa) \
-                            or (ssa > ssb and price_open > ssb and price_close < ssb)
-            elif has_got_over_the_cloud is True:
-                condition = ( (ssb > ssa and dframe['open'].iloc[-3] < dframe['ICH_SSB'].iloc[-3] \
-                    and dframe['close'].iloc[-3] > dframe['ICH_SSB'].iloc[-3] \
-                    and dframe['open'].iloc[-2] > dframe['ICH_SSB'].iloc[-2] \
-                    and dframe['close'].iloc[-2] > dframe['ICH_SSB'].iloc[-2] \
-                    and dframe['open'].iloc[-1] > dframe['ICH_SSB'].iloc[-1] \
-                    and dframe['close'].iloc[-1] > dframe['ICH_SSB'].iloc[-1]) or \
-                    (ssa > ssb and dframe['open'].iloc[-3] < dframe['ICH_SSA'].iloc[-3] \
-                    and dframe['close'].iloc[-3] > dframe['ICH_SSA'].iloc[-3] \
-                    and dframe['open'].iloc[-2] > dframe['ICH_SSA'].iloc[-2] \
-                    and dframe['close'].iloc[-2] > dframe['ICH_SSA'].iloc[-2] \
-                    and dframe['open'].iloc[-1] > dframe['ICH_SSA'].iloc[-1] \
-                    and dframe['close'].iloc[-1] > dframe['ICH_SSA'].iloc[-1]) ) \
-                    #and dframe['close'].iloc[-1] > dframe['open'].iloc[-1]
-            elif getting_over_the_kijun is True:
-                condition = (price_open < kijun and price_close > kijun)
-            elif getting_under_the_kijun is True:
-                condition = (price_open > kijun and price_close < kijun)
-            elif has_got_over_the_kijun is True:
-                condition = (dframe['open'].iloc[-3] < dframe['ICH_KS'].iloc[-3] and \
-                    dframe['close'].iloc[-3] > dframe['ICH_KS'].iloc[-3] and \
-                    dframe['open'].iloc[-2] > dframe['ICH_KS'].iloc[-2] and \
-                    dframe['close'].iloc[-2] > dframe['ICH_KS'].iloc[-2]) and \
-                    dframe['open'].iloc[-1] > dframe['ICH_KS'].iloc[-1] and \
-                    dframe['close'].iloc[-1] > dframe['ICH_KS'].iloc[-1]
-                #condition = (dframe['open'].iloc[-2] < dframe['ICH_KS'].iloc[-2] and \
-                #    dframe['close'].iloc[-2] > dframe['ICH_KS'].iloc[-2] and \
-                #    dframe['open'].iloc[-1] > dframe['ICH_KS'].iloc[-1] and \
-                #    dframe['close'].iloc[-1] > dframe['ICH_KS'].iloc[-1])
-            elif getting_over_the_tenkan is True:
-                condition = (price_open < tenkan and price_close > tenkan)
-            elif getting_under_the_tenkan is True:
-                condition = (price_open > tenkan and price_close < tenkan)
-            elif is_over_the_cloud is True:
-                condition = (price_open > ssa and price_close > ssa and price_open > ssb and price_close > ssb)
-            elif is_under_the_cloud is True:
-                condition = (price_open < ssa and price_close < ssa and price_open < ssb and price_close < ssb)
+            array_tf = {}
+            if exchange_id == "binance":
+                array_tf = {"1d", "4h", "1h"}
+            elif exchange_id == "bybit":# and filter_assets == "*PERP":
+                array_tf = {"1m", "5m", "15m", "1h"}
             else:
-                condition = price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
-                            and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
-                            and chikou > tenkan_chikou and chikou > kijun_chikou
+                print("Il faut définir un array de tf pour cet exchange !")
 
-            if chikou_validated_up is True:
-                condition = condition and (chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou and chikou > tenkan_chikou and chikou > kijun_chikou)
+            if "down" in scantype:
+                all_tf_ok = False
+                for tf in array_tf:
+                    if check_timeframe_down(symbol, tf):
+                        all_tf_ok = True
+                    else:
+                        all_tf_ok = False
+                        break
+                if all_tf_ok:
+                    beep.beep(3)
+                    str_to_log = "(DOWNTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now())
+                    print(str_to_log)
+                    log_to_results(str_to_log)
 
-            if chikou_validated_down is True:
-                condition = condition and (chikou < ssa_chikou and chikou < ssb_chikou and chikou < price_low_chikou and chikou < tenkan_chikou and chikou < kijun_chikou)
-
-            if price_validated_up is True:
-                condition = condition and (price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun and price_close > price_open)
-
-            if price_validated_down is True:
-                condition = condition and (price_close < ssa and price_close < ssb and price_close < tenkan and price_close < kijun and price_close < price_open)
+            if "up" in scantype:
+                all_tf_ok = False
+                for tf in array_tf:
+                    if check_timeframe_up(symbol, tf):
+                        all_tf_ok = True
+                    else:
+                        all_tf_ok = False
+                        break
+                if all_tf_ok:
+                    beep.beep(3 )
+                    str_to_log = "(UPTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now())
+                    print(str_to_log)
+                    log_to_results(str_to_log)
 
 
         except:
-            #print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
-            log_to_errors(str(datetime.now()) + " " + tf + " " + symbol + " " + str(sys.exc_info()))
-            binary_result += "0"
+            print(symbol, sys.exc_info())
+            # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
+            # log_to_errors(str(datetime.now()) + " " + tf + " " + symbol + " " + str(sys.exc_info()))
+            # binary_result += "0"
             pass
 
         if delay_request > 0:
-            if debug_delays:
-                print("applying delay_request of", delay_thread, "s after request on timeframe", tf, symbol)
+            # if debug_delays:
+            #     print("applying delay_request of", delay_thread, "s after request on timeframe", tf, symbol)
             time.sleep(delay_request)
 
-
+        done = True
 
 
 threadLimiter = threading.BoundedSemaphore()
@@ -517,8 +483,6 @@ def scan_one(symbol, type_of_asset, exchange_id):
         threadLimiter.release()
 
 
-
-
 def main_thread():
     maxthreads = 1
     if exchange.id.lower() == "binance":
@@ -531,15 +495,15 @@ def main_thread():
     elif exchange.id.lower() == "ftx":
         maxthreads = 100
         print("setting maxthreads =", maxthreads, "for", exchange.id)
-        delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
-        delay_request = 0.250  # delay between each request inside of a thread
+        delay_thread = 0  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
+        delay_request = 0  # delay between each request inside of a thread
         print("setting delay_thread =", delay_thread, "for", exchange.id)
         print("setting delay_request =", delay_request, "for", exchange.id)
     elif exchange.id.lower() == "gateio":
         maxthreads = 100
         print("setting maxthreads =", maxthreads, "for", exchange.id)
-        delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
-        delay_request = 0.250  # delay between each request inside of a thread
+        delay_thread = 0  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
+        delay_request = 0  # delay between each request inside of a thread
         print("setting delay_thread =", delay_thread, "for", exchange.id)
         print("setting delay_request =", delay_request, "for", exchange.id)
     elif exchange.id.lower() == "bitforex":
@@ -627,7 +591,7 @@ def main_thread():
                     t = threading.Thread(target=scan_one, args=(symbol, type_of_asset, exchange_id))
                     threads.append(t)
                     t.start()
-                    #print("thread started for", symbol)
+                    # print("thread started for", symbol)
                     if delay_thread > 0:
                         if debug_delays:
                             print("applying delay_thread of", delay_thread, "s before next thread start")
@@ -644,7 +608,6 @@ def main_thread():
         end_time = time.time()
 
         print("--- %s seconds ---" % (end_time - start_time))
-
 
         if stop is True:
             break
