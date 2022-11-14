@@ -144,7 +144,7 @@ print("args.timeframes", args.timeframes)
 print("args.up", args.up)
 print("args.down", args.down)
 
-print("INELIDA Trader Scanner v1.0 - https://twitter.com/IchimokuTrader")
+print("INELIDA Ichimoku Scanner for Traders v1.0 - https://twitter.com/IchimokuTrader")
 print("Scan started at :", str(datetime.now()))
 
 # if a debugger is attached then set arbitrary arguments for debugging (exchange...)
@@ -353,11 +353,11 @@ dict_results_binary = {}
 dict_results_evol = {}
 highest_percent_evol = 0
 
-
 def execute_code(symbol, type_of_asset, exchange_id):
     global dict_results, highest_percent_evol
     global ssb, ssa, price_open, price_close, kijun, tenkan, chikou, ssa_chikou, ssb_chikou, price_high_chikou, price_low_chikou
     global tenkan_chikou, kijun_chikou
+    global tweet
 
     # print(10 * "*", symbol, type_of_asset, exchange.id, 10 * "*")
 
@@ -429,7 +429,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
 
         except:
-            print(symbol, sys.exc_info())
+            #print(symbol, sys.exc_info())
             # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
             # log_to_errors(str(datetime.now()) + " " + tf + " " + symbol + " " + str(sys.exc_info()))
             # binary_result += "0"
