@@ -9,7 +9,7 @@ import threading
 import ta
 import argparse
 import signal
-import beepy as beep
+#import beepy as beep
 
 from datetime import date
 
@@ -123,40 +123,8 @@ parser.add_argument('-g', '--get-exchanges', action='store_true', help="get list
 parser.add_argument('-a', '--get-assets', action='store_true', help="get list of available assets")
 parser.add_argument('-f', '--filter-assets', help="assets filter")
 parser.add_argument('-r', '--retry', action='store_true', help="retry until exchange is available (again)")
-parser.add_argument('-gotc', '--getting-over-the-cloud', action='store_true',
-                    help="scan for assets getting over the cloud")
-parser.add_argument('-gutc', '--getting-under-the-cloud', action='store_true',
-                    help="scan for assets getting under the cloud")
-parser.add_argument('-hgotc', '--has-got-over-the-cloud', action='store_true',
-                    help="scan for assets that have got over the cloud")
-# todo add -hgutc
-parser.add_argument('-gotk', '--getting-over-the-kijun', action='store_true',
-                    help="scan for assets getting under the cloud")
-parser.add_argument('-gutk', '--getting-under-the-kijun', action='store_true',
-                    help="scan for assets getting under the cloud")
-parser.add_argument('-hgotk', '--has-got-over-the-kijun', action='store_true',
-                    help="scan for assets that have got over the kijun")
-# todo add -hgutk
-parser.add_argument('-gott', '--getting-over-the-tenkan', action='store_true',
-                    help="scan for assets getting under the tenkan")
-parser.add_argument('-gutt', '--getting-under-the-tenkan', action='store_true',
-                    help="scan for assets getting under the tenkan")
-parser.add_argument('-cvup', '--chikou-validated-up', action='store_true',
-                    help="scan for assets having their chikou validated in uptrend (over all its Ichimoku levels)")
-parser.add_argument('-cvdown', '--chikou-validated-down', action='store_true',
-                    help="scan for assets having their chikou validated in downtrend (under all its Ichimoku levels)")
-parser.add_argument('-pvup', '--price-validated-up', action='store_true',
-                    help="scan for assets having their price validated in uptrend (over all its Ichimoku levels)")
-parser.add_argument('-pvdown', '--price-validated-down', action='store_true',
-                    help="scan for assets having their price validated in downtrend (under all its Ichimoku levels)")
-parser.add_argument('-iotc', '--is-over-the-cloud', action='store_true',
-                    help="scan for assets being over the cloud")
-parser.add_argument('-iutc', '--is-under-the-cloud', action='store_true',
-                    help="scan for assets being under the cloud")
-parser.add_argument('-t', '--trending', action='store_true',
-                    help="scan for trending assets (that are ok in at least 1m or 3m or 5m or 15m) ; only these will be written to the results log file")
-parser.add_argument('-l', '--loop', action='store_true',
-                    help="scan in loop (useful for continually scan one asset or a few ones)")
+parser.add_argument('-l', '--loop', action='store_true', help="scan in loop (useful for continually scan one asset or a few ones)")
+parser.add_argument('-tf', '--timeframes', help="the timeframe to scan for Ichimoku validations (separated by ',' if more than one)")
 
 args = parser.parse_args()
 print("args.exchange =", args.exchange)
@@ -164,24 +132,10 @@ print("args.get-exchanges", args.get_exchanges)
 print("args.get-assets", args.get_assets)
 print("args.filter", args.filter_assets)
 print("args.retry", args.retry)
-print("args.getting-over-the-cloud", args.getting_over_the_cloud)
-print("args.getting-under-the-cloud", args.getting_under_the_cloud)
-print("args.has-got-over-the-cloud", args.has_got_over_the_cloud)
-print("args.getting-over-the-kijun", args.getting_over_the_kijun)
-print("args.getting-under-the-kijun", args.getting_under_the_kijun)
-print("args.has-got-over-the-kijun", args.has_got_over_the_kijun)
-print("args.getting-over-the-tenkan", args.getting_over_the_tenkan)
-print("args.getting-under-the-tenkan", args.getting_under_the_tenkan)
-print("args.chikou-validated-up", args.chikou_validated_up)
-print("args.chikou-validated-down", args.chikou_validated_down)
-print("args.price-validated-up", args.price_validated_up)
-print("args.price-validated-down", args.price_validated_down)
-print("args.is-over-the-cloud", args.getting_over_the_cloud)
-print("args.is-under-the-cloud", args.getting_under_the_cloud)
-print("args.trending", args.trending)
 print("args.loop", args.loop)
+print("args.timeframes", args.timeframes)
 
-print("INELIDA Scanner v1.0 - https://twitter.com/IchimokuTrader")
+print("INELIDA Trader Scanner v1.0 - https://twitter.com/IchimokuTrader")
 print("Scan started at :", str(datetime.now()))
 
 # if a debugger is attached then set arbitrary arguments for debugging (exchange...)
@@ -189,6 +143,7 @@ if sys.gettrace() is not None:
     args.exchange = "bybit"
     args.filter_assets = ""  # "BTCPERP"
     args.loop = True
+    args.timeframes = "1h, 2h"
 
 if args.get_exchanges is True:
     for id in ccxt.exchanges:
@@ -237,26 +192,13 @@ if args.filter_assets is not None:
             exit(-10004)
 
 retry = args.retry
-
-getting_over_the_cloud = args.getting_over_the_cloud
-getting_under_the_cloud = args.getting_under_the_cloud
-has_got_over_the_cloud = args.has_got_over_the_cloud
-getting_over_the_kijun = args.getting_over_the_kijun
-getting_under_the_kijun = args.getting_under_the_kijun
-has_got_over_the_kijun = args.has_got_over_the_kijun
-getting_over_the_tenkan = args.getting_over_the_tenkan
-getting_under_the_tenkan = args.getting_under_the_tenkan
-is_over_the_cloud = args.is_over_the_cloud
-is_under_the_cloud = args.is_under_the_cloud
-chikou_validated_up = args.chikou_validated_up
-chikou_validated_down = args.chikou_validated_down
-price_validated_up = args.price_validated_up
-price_validated_down = args.price_validated_down
-
-trending = args.trending
-print("trending=", trending)
-
 loop_scan = args.loop
+timeframes = args.timeframes
+array_tf = set()
+x = timeframes.split(',')
+for tf in x:
+    array_tf.add(tf)
+
 
 # end of arguments parsing here
 
@@ -426,14 +368,14 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
             scantype = "up"
 
-            array_tf = {}
-            if exchange_id == "binance":
-                array_tf = {"1d", "4h", "1h"}
-            elif exchange_id == "bybit":# and filter_assets == "*PERP":
-                #array_tf = {"1m", "5m", "15m", "1h"}
-                array_tf = {"5m"}
-            else:
-                print("Il faut définir un array de tf pour cet exchange !")
+            #array_tf = {}
+            #if exchange_id == "binance":
+            #    array_tf = {"1d", "4h", "1h"}
+            #elif exchange_id == "bybit":# and filter_assets == "*PERP":
+            #    #array_tf = {"1m", "5m", "15m", "1h"}
+            #    array_tf = {"1h"}
+            #else:
+            #    print("Il faut définir un array de tf pour cet exchange !")
 
             if "down" in scantype:
                 all_tf_ok = False
@@ -444,7 +386,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         all_tf_ok = False
                         break
                 if all_tf_ok:
-                    beep.beep(3)
+                    #beep.beep(3)
                     str_to_log = "(DOWNTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now())
                     print(str_to_log)
                     log_to_results(str_to_log)
@@ -458,7 +400,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         all_tf_ok = False
                         break
                 if all_tf_ok:
-                    beep.beep(3)
+                    #beep.beep(3)
                     str_to_log = "(UPTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now())
                     print(str_to_log)
                     log_to_results(str_to_log)
