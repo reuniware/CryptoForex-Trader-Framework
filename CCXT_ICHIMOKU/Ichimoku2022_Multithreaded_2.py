@@ -1,5 +1,6 @@
-#Example of use : python Ichimoku2022_Multithreaded_2.py -e bybit -f *usdt -tf 1h,15m
+#Example of use : python Ichimoku2022_Multithreaded_2.py -e bybit -f *usdt -tf 1h,15m -l -up -down
 #In this case it will scan for all assets on Bybit that ends with "usdt" and that are fully validated on 1h and 15m timeframes
+#And wil scan in loop and for uptrend and downtrend validations
 
 import sys
 
@@ -128,6 +129,8 @@ parser.add_argument('-f', '--filter-assets', help="assets filter")
 parser.add_argument('-r', '--retry', action='store_true', help="retry until exchange is available (again)")
 parser.add_argument('-l', '--loop', action='store_true', help="scan in loop (useful for continually scan one asset or a few ones)")
 parser.add_argument('-tf', '--timeframes', help="the timeframe to scan for Ichimoku validations (separated by ',' if more than one)")
+parser.add_argument('-up', '--up', action='store_true', help="scan for uptrend validations (default is up and down)")
+parser.add_argument('-down', '--down', action='store_true', help="scan for downtrend validations (default is up and down)")
 
 args = parser.parse_args()
 print("args.exchange =", args.exchange)
@@ -137,6 +140,8 @@ print("args.filter", args.filter_assets)
 print("args.retry", args.retry)
 print("args.loop", args.loop)
 print("args.timeframes", args.timeframes)
+print("args.up", args.up)
+print("args.down", args.down)
 
 print("INELIDA Trader Scanner v1.0 - https://twitter.com/IchimokuTrader")
 print("Scan started at :", str(datetime.now()))
@@ -147,6 +152,8 @@ if sys.gettrace() is not None:
     args.filter_assets = ""  # "BTCPERP"
     args.loop = True
     args.timeframes = "1h, 2h"
+    args.up = True
+    args.down = True
 
 if args.get_exchanges is True:
     for id in ccxt.exchanges:
@@ -201,6 +208,8 @@ array_tf = set()
 x = timeframes.split(',')
 for tf in x:
     array_tf.add(tf)
+scan_up = args.up
+scan_down = args.down
 
 
 # end of arguments parsing here
@@ -369,7 +378,14 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
             # print("scanning", symbol)
 
-            scantype = "up"
+            scantype = ""
+            if scan_up == False and scan_down == False:
+                scantype = "up and down"
+            else:
+                if scan_up == True:
+                    scantype += " up "
+                if scan_down == True:
+                    scantype += " down "
 
             #array_tf = {}
             #if exchange_id == "binance":
@@ -381,6 +397,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
             #    print("Il faut définir un array de tf pour cet exchange !")
 
             if "down" in scantype:
+                #print("scanning down")
                 all_tf_ok = False
                 for tf in array_tf:
                     if check_timeframe_down(symbol, tf):
@@ -395,6 +412,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                     log_to_results(str_to_log)
 
             if "up" in scantype:
+                #print("scanning up")
                 all_tf_ok = False
                 for tf in array_tf:
                     if check_timeframe_up(symbol, tf):
