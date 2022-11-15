@@ -126,6 +126,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-e", "--exchange", help="set exchange", required=False)
 parser.add_argument('-g', '--get-exchanges', action='store_true', help="get list of available exchanges")
 parser.add_argument('-a', '--get-assets', action='store_true', help="get list of available assets")
+parser.add_argument('-gtf', '--get-timeframes', action='store_true', help="get list of available timeframes")
 parser.add_argument('-f', '--filter-assets', help="assets filter")
 parser.add_argument('-r', '--retry', action='store_true', help="retry until exchange is available (again)")
 parser.add_argument('-l', '--loop', action='store_true', help="scan in loop (useful for continually scan one asset or a few ones)")
@@ -137,6 +138,7 @@ args = parser.parse_args()
 print("args.exchange =", args.exchange)
 print("args.get-exchanges", args.get_exchanges)
 print("args.get-assets", args.get_assets)
+print("args.get-timeframes", args.get_timeframes)
 print("args.filter", args.filter_assets)
 print("args.retry", args.retry)
 print("args.loop", args.loop)
@@ -190,6 +192,28 @@ if args.get_assets is True:
                 print(sys.exc_info())
                 exit(-10003)
     exit(-510)
+
+if args.get_timeframes is True:
+    if args.exchange is None:
+        print("Please specify an exchange name")
+    else:
+        arg_exchange = args.exchange.lower().strip()
+        if arg_exchange in exchanges:
+            exchange = exchanges[arg_exchange]
+            try:
+                for tf in exchange.timeframes:
+                    print(tf, end=' ')
+                print("")
+            except (ccxt.ExchangeError, ccxt.NetworkError, ccxt.DDoSProtection):
+                print("Exchange seems not available (maybe too many requests). Will stop now.")
+                # exit(-10003)
+                os.kill(os.getpid(), 9)
+                sys.exit(-999)
+                # time.sleep(5)
+            except:
+                print(sys.exc_info())
+                exit(-10004)
+    exit(-511)
 
 filter_assets = ""
 if args.filter_assets is not None:
