@@ -377,9 +377,14 @@ def check_timeframe_down(symbol, tf):
 
 
 dict_results = {}
-dict_results_binary = {}
-dict_results_evol = {}
-highest_percent_evol = 0
+
+def get_price_evol(symbol, current_price):
+    global dict_results
+    if symbol in dict_results.keys():
+        return current_price - dict_results[symbol]
+    else:
+        dict_results[symbol] = current_price
+        return 0
 
 def execute_code(symbol, type_of_asset, exchange_id):
     global dict_results, highest_percent_evol
@@ -436,7 +441,8 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         break
                 if all_tf_ok:
                     #beep.beep(3)
-                    str_to_log = "(DOWNTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now()) + " current price = " + str(price_close)
+                    price_evol = get_price_evol(symbol, price_close)
+                    str_to_log = "(DOWNTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now()) + " ; Current price = " + str(price_close) + " ; Price evol = " + "{:.4f}".format(price_evol)
                     print(str_to_log)
                     log_to_results(str_to_log)
 
@@ -451,13 +457,14 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         break
                 if all_tf_ok:
                     #beep.beep(3)
-                    str_to_log = "(UPTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now()) + " current price = " + str(price_close)
+                    price_evol = get_price_evol(symbol, price_close)
+                    str_to_log = "(UPTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now()) + " ; Current price = " + str(price_close)  + " ; Price evol = " + "{:.4f}".format(price_evol)
                     print(str_to_log)
                     log_to_results(str_to_log)
 
 
         except:
-            #print(symbol, sys.exc_info())
+            print(symbol, sys.exc_info())
             # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
             # log_to_errors(str(datetime.now()) + " " + tf + " " + symbol + " " + str(sys.exc_info()))
             # binary_result += "0"
