@@ -278,7 +278,10 @@ def get_data_for_timeframe(symbol, tf):
     return result
 
 
+price_close = 0
+
 def check_timeframe_up(symbol, tf):
+    global price_close
     result = get_data_for_timeframe(symbol, tf)
     if not result:
         return
@@ -326,6 +329,7 @@ def check_timeframe_up(symbol, tf):
 
 
 def check_timeframe_down(symbol, tf):
+    global price_close
     result = get_data_for_timeframe(symbol, tf)
     if not result:
         return
@@ -432,7 +436,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         break
                 if all_tf_ok:
                     #beep.beep(3)
-                    str_to_log = "(DOWNTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now())
+                    str_to_log = "(DOWNTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now()) + " current price = " + str(price_close)
                     print(str_to_log)
                     log_to_results(str_to_log)
 
@@ -447,7 +451,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         break
                 if all_tf_ok:
                     #beep.beep(3)
-                    str_to_log = "(UPTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now())
+                    str_to_log = "(UPTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now()) + " current price = " + str(price_close)
                     print(str_to_log)
                     log_to_results(str_to_log)
 
