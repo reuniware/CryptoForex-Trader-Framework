@@ -1,6 +1,6 @@
 #TULIPE Scanner for Traders 1.0
 #Example of use : python tulipe.py -e binance -f btcusdt -tf 1m -l -up -down
-#An Idea from Sarah : Detection of Chikou/[Higher BB or Lower BB]
+#An Idea from Sarah : Detection of Chikou crossing above the higher BB (Long entry signal) or the lower one (Short entry signal).
 
 import sys
 
