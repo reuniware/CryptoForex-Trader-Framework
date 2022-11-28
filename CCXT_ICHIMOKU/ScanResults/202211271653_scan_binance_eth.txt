@@ -1,0 +1,16 @@
+Scan results at : 2022-11-27 16:50:44.618380
+ETHDOWNUSDT spot binance 2022-11-27 16:52:21.670044 binance ETHDOWNUSDT spot 1m [-2.40 %] [price = 1.13630000]                                                                 
+ETHUSDT spot binance 2022-11-27 16:51:07.766617 binance ETHUSDT spot 2h [0.85 %] [price = 1215.85000000] *** new highest evol in %                                             
+ETHBUSD spot binance 2022-11-27 16:51:15.602937 binance ETHBUSD spot 2h [0.79 %] [price = 1214.49000000]                                                                       
+ETHEUR spot binance 2022-11-27 16:51:39.228511 binance ETHEUR spot 2h [0.79 %] [price = 1167.53000000]                                                                         
+ETHZAR spot binance 2022-11-27 16:51:50.283800 binance ETHZAR spot 2h [0.86 %] [price = 21330.00000000]                                                                        
+ETHAUD spot binance 2022-11-27 16:52:29.517263 binance ETHAUD spot 2h [0.98 %] [price = 1803.83000000]                                                                         
+ETHDAI spot binance 2022-11-27 16:52:37.359261 binance ETHDAI spot 2h [0.74 %] [price = 1214.47000000]                                                                         
+ETHBRL spot binance 2022-11-27 16:52:47.797785 binance ETHBRL spot 2h [0.78 %] [price = 6547.35000000]                                                                         
+ETHRUB spot binance 2022-11-27 16:51:23.462417 binance ETHRUB spot 1s 2h [1.04 %] [price = 73002.80000000] *** new highest evol in %                                           
+ETHUAH spot binance 2022-11-27 16:52:56.300608 binance ETHUAH spot 3m 5m 2h [0.88 %] [price = 49067.00000000]                                                                  
+ETHGBP spot binance 2022-11-27 16:51:58.131500 binance ETHGBP spot 15m 2h [0.96 %] [price = 1004.82000000]                                                                     
+ETHBIDR spot binance 2022-11-27 16:52:05.984342 binance ETHBIDR spot 15m 2h [0.79 %] [price = 19203147.00000000]                                                               
+ETHUPUSDT spot binance 2022-11-27 16:52:13.829447 binance ETHUPUSDT spot 15m 2h [2.10 %] [price = 2.72400000] *** new highest evol in %                                        
+ETHPLN spot binance 2022-11-27 16:53:04.149013 binance ETHPLN spot 15m 2h [0.85 %] [price = 5577.00000000]                                                                     
+ETHBTC spot binance 2022-11-27 16:50:59.268173 binance ETHBTC spot 2h 6h [0.26 %] [price = 0.07344000] *** new highest evol in %                                               

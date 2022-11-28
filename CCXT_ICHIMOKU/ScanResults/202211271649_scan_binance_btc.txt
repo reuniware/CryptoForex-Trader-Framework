@@ -1,0 +1,15 @@
+Scan results at : 2022-11-27 16:47:20.811742
+BTCSTBTC spot binance 2022-11-27 16:49:26.400995 binance BTCSTBTC spot 3m [-0.12 %] [price = 0.00034280]                                                                       
+BTCUSDT spot binance 2022-11-27 16:47:32.163008 binance BTCUSDT spot 15m [0.66 %] [price = 16565.78000000] *** new highest evol in %                                           
+BTCBUSD spot binance 2022-11-27 16:47:39.949437 binance BTCBUSD spot 15m [0.65 %] [price = 16556.59000000]                                                                     
+BTCRUB spot binance 2022-11-27 16:47:47.750583 binance BTCRUB spot 15m [0.66 %] [price = 994000.00000000] *** new highest evol in %                                            
+BTCEUR spot binance 2022-11-27 16:48:03.330005 binance BTCEUR spot 15m [0.60 %] [price = 15905.40000000]                                                                       
+BTCUPUSDT spot binance 2022-11-27 16:48:22.076413 binance BTCUPUSDT spot 15m [1.19 %] [price = 2.72600000] *** new highest evol in %                                           
+BTCAUD spot binance 2022-11-27 16:49:01.716640 binance BTCAUD spot 15m [0.62 %] [price = 24563.00000000]                                                                       
+BTCPLN spot binance 2022-11-27 16:49:49.759892 binance BTCPLN spot 15m [0.45 %] [price = 75897.00000000]                                                                       
+BTCGBP spot binance 2022-11-27 16:48:38.282483 binance BTCGBP spot 1s 15m [0.59 %] [price = 13685.87000000]                                                                    
+BTCBIDR spot binance 2022-11-27 16:48:53.890877 binance BTCBIDR spot 3m 5m 15m [0.51 %] [price = 261714324.00000000]                                                           
+BTCZAR spot binance 2022-11-27 16:48:11.115706 binance BTCZAR spot 2h [0.83 %] [price = 290892.00000000] *** new highest evol in %                                             
+BTCDAI spot binance 2022-11-27 16:49:09.537850 binance BTCDAI spot 2h [0.65 %] [price = 16559.10000000]                                                                        
+BTCBRL spot binance 2022-11-27 16:49:18.623132 binance BTCBRL spot 15m 2h [0.55 %] [price = 89201.00000000]                                                                    
+BTCDOWNUSDT spot binance 2022-11-27 16:48:30.489904 binance BTCDOWNUSDT spot 3d [-1.84 %] [price = 0.04502400]                                                                 
