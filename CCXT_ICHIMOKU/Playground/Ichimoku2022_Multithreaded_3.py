@@ -350,8 +350,8 @@ def check_timeframe_up(symbol, tf):
                 if chikou1 > price_high_chikou1:
                     if price_close > price_open:
                         percent = (price_close1 - price_open1)/price_open1*100
-                        print(symbol, price_close1, price_open1, "{:.4f}".format(percent), "%")
-                        log_to_results(symbol)
+                        print(symbol + ";" + str(price_close1) + ";" + str(price_open1) + ";" + "{:.4f}".format(percent), "%")
+                        log_to_results(symbol + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
                         return true
 
 
