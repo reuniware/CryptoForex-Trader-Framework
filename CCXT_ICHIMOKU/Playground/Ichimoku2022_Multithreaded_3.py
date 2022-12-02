@@ -274,7 +274,7 @@ def get_data_for_timeframe(symbol, tf):
     if tf not in exchange.timeframes:
         print(symbol, tf, "is not in exchange's timeframes.")
         return False
-    result = exchange.fetch_ohlcv(symbol, tf, limit=52 + 26 + 1)
+    result = exchange.fetch_ohlcv(symbol, tf, limit=52 + 26 + 10)
     return result
 
 
@@ -349,10 +349,12 @@ def check_timeframe_up(symbol, tf):
             if chikou1 > ssa_chikou1 and chikou1 > ssb_chikou1 and chikou1 > tenkan_chikou1 and chikou1 > kijun_chikou1:
                 if chikou1 > price_high_chikou1:
                     if price_close > price_open:
-                        percent = (price_close1 - price_open1)/price_open1*100
-                        print(symbol + ";" + str(price_close1) + ";" + str(price_open1) + ";" + "{:.4f}".format(percent), "%")
-                        log_to_results(symbol + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
-                        return true
+                        if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun:
+                            if chikou > ssa_chikou and chikou > ssb_chikou and chikou > tenkan_chikou and chikou > kijun_chikou:
+                                percent = (price_close1 - price_open1)/price_open1*100
+                                print(symbol + ";" + str(price_close1) + ";" + str(price_open1) + ";" + "{:.4f}".format(percent), "%")
+                                log_to_results(symbol + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
+                                return true
 
 
 #    if (ssb > ssa and price_open > ssb and price_close > ssb) or (ssa > ssb and price_open > ssa and price_close > ssa):
