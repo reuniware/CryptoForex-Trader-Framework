@@ -4,6 +4,7 @@
 #Example of use : python Ichimoku2022_Multithreaded_2.py -e bybit -f *usdt -tf 1h,15m -l -up -down
 #In this case it will scan for all assets on Bybit that ends with "usdt" and that are fully validated on 1h and 15m timeframes
 #And will scan in loop and for uptrend and downtrend
+#THERE IS ONLY THE "UP" OPTION THAT IS WORKING GOOD WITH THIS SCRIPT
 
 import sys
 
@@ -356,7 +357,7 @@ def check_timeframe_up(symbol, tf):
                                 percent = (price_close1 - price_open1)/price_open1*100
                                 print(str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1) + ";" + str(price_open1) + ";" + "{:.4f}".format(percent), "%")
                                 log_to_results(str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
-                                return true
+                                return True
 
 
 #    if (ssb > ssa and price_open > ssb and price_close > ssb) or (ssa > ssb and price_open > ssa and price_close > ssa):
@@ -495,7 +496,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         all_tf_ok = True
                     else:
                         all_tf_ok = False
-                        pass
+                        #pass
                 if all_tf_ok:
                     #beep.beep(3)
                     price_evol = get_price_evol(symbol, price_close)
@@ -505,7 +506,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
 
         except:
-            #print(symbol, sys.exc_info())
+            print(symbol, sys.exc_info())
             # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
             # log_to_errors(str(datetime.now()) + " " + tf + " " + symbol + " " + str(sys.exc_info()))
             # binary_result += "0"
