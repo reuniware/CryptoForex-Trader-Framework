@@ -492,19 +492,8 @@ def execute_code(symbol, type_of_asset, exchange_id):
                 #print("scanning up")
                 all_tf_ok = False
                 for tf in array_tf:
-                    if check_timeframe_up(symbol, tf):
-                        all_tf_ok = True
-                    else:
-                        all_tf_ok = False
-                        #pass
-                if all_tf_ok:
-                    #beep.beep(3)
-                    price_evol = get_price_evol(symbol, price_close)
-                    str_to_log = "(UPTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now()) + " ; Current price = " + str(price_close)  + " ; Price evol = " + "{:.4f}".format(price_evol)
-                    print(str_to_log)
-                    log_to_results(str_to_log)
-
-
+                    check_timeframe_up(symbol, tf)
+                    
         except:
             print(symbol, sys.exc_info())
             # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
