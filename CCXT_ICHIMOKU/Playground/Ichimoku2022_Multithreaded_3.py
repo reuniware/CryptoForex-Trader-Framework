@@ -1,4 +1,5 @@
 # DOT NOT USE THIS SCRIPT, THE PLAYGROUND FOLDER IS KINDA PLAYGROUND ;)
+# JUST TESTING NEW STUFF HERE...
 #Ichimoku Scanner for Traders 1.0 (Inelida Scanner for Traders)
 #Example of use : python Ichimoku2022_Multithreaded_2.py -e bybit -f *usdt -tf 1h,15m -l -up -down
 #In this case it will scan for all assets on Bybit that ends with "usdt" and that are fully validated on 1h and 15m timeframes
@@ -452,21 +453,10 @@ def execute_code(symbol, type_of_asset, exchange_id):
     global tenkan_chikou, kijun_chikou
     global tweet
 
-    # print(10 * "*", symbol, type_of_asset, exchange.id, 10 * "*")
-
     binary_result = ""
 
-    # print("Available timeframes : ", exchange.timeframes)
     done = False
     if done == False:  # for tf in exchange.timeframes:
-
-        # if exchange_id in ("binance", "gateio"):
-        #     if not symbol.endswith('USDT'):
-        #         continue
-        # elif exchange_id == "bybit":
-        #     # if not symbol == 'BTCPERP':
-        #     if not symbol.endswith('PERP'):
-        #         continue
 
         try:
 
@@ -480,15 +470,6 @@ def execute_code(symbol, type_of_asset, exchange_id):
                     scantype += " up "
                 if scan_down == True:
                     scantype += " down "
-
-            #array_tf = {}
-            #if exchange_id == "binance":
-            #    array_tf = {"1d", "4h", "1h"}
-            #elif exchange_id == "bybit":# and filter_assets == "*PERP":
-            #    #array_tf = {"1m", "5m", "15m", "1h"}
-            #    array_tf = {"1h"}
-            #else:
-            #    print("Il faut définir un array de tf pour cet exchange !")
 
             if "down" in scantype:
                 #print("scanning down")
@@ -514,7 +495,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         all_tf_ok = True
                     else:
                         all_tf_ok = False
-                        break
+                        pass
                 if all_tf_ok:
                     #beep.beep(3)
                     price_evol = get_price_evol(symbol, price_close)
@@ -632,16 +613,6 @@ def main_thread():
             # print(symbol, "base", base, "quote", quote)
 
             # print("eval", eval("exchange_id == 'ftx'"))
-
-            # this condition could be commented (and then more assets would be scanned)
-            if exchange_id == "ftx":
-                if symbol.endswith('HEDGE/USD') or symbol.endswith('CUSDT/USDT') or symbol.endswith('BEAR/USDT') \
-                        or symbol.endswith('BEAR/USD') or symbol.endswith('BULL/USDT') or symbol.endswith('BULL/USD') \
-                        or symbol.endswith('HALF/USD') or symbol.endswith('HALF/USDT') or symbol.endswith('SHIT/USDT') \
-                        or symbol.endswith('SHIT/USD') or symbol.endswith('BEAR2021/USDT') or symbol.endswith(
-                    'BEAR2021/USD') \
-                        or symbol.endswith('BVOL/USDT') or symbol.endswith('BVOL/USD'):
-                    continue
 
             condition_ok = active and filter_assets in symbol
             if filter_assets.startswith("*"):
