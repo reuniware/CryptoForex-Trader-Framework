@@ -1,10 +1,10 @@
 # DOT NOT USE THIS SCRIPT, THE PLAYGROUND FOLDER IS KINDA PLAYGROUND ;)
 # JUST TESTING NEW STUFF HERE...
-#Ichimoku Scanner for Traders 1.0 (Inelida Scanner for Traders)
-#Example of use : python Ichimoku2022_Multithreaded_2.py -e bybit -f *usdt -tf 1h,15m -l -up -down
-#In this case it will scan for all assets on Bybit that ends with "usdt" and that are fully validated on 1h and 15m timeframes
-#And will scan in loop and for uptrend and downtrend
-#THERE IS ONLY THE "UP" OPTION THAT IS WORKING GOOD WITH THIS SCRIPT
+# Ichimoku Scanner for Traders 1.0 (Inelida Scanner for Traders)
+# Example of use : python Ichimoku2022_Multithreaded_2.py -e bybit -f *usdt -tf 1h,15m -l -up -down
+# In this case it will scan for all assets on Bybit that ends with "usdt" and that are fully validated on 1h and 15m timeframes
+# And will scan in loop and for uptrend and downtrend
+# THERE IS ONLY THE "UP" OPTION THAT IS WORKING GOOD WITH THIS SCRIPT
 
 import sys
 
@@ -17,7 +17,7 @@ import threading
 import ta
 import argparse
 import signal
-#import beepy as beep
+# import beepy as beep
 
 from datetime import date
 
@@ -112,18 +112,18 @@ def get_number_of_active_assets_for_exchange(exchange_id):
             # print("number of active assets =", nb_active_assets)
         except (ccxt.ExchangeError, ccxt.NetworkError, ccxt.DDoSProtection):
             print("Exchange seems not available (maybe too many requests). Will stop now.")
-            # exit(-10002)
+            # sys.exit(-10002)
             os.kill(os.getpid(), 9)
             sys.exit(-999)
             # time.sleep(5)
         except:
             print(sys.exc_info())
-            exit(-10003)
+            sys.exit(-10003)
     return nb_active_assets
 
 
 # print(get_number_of_active_assets_for_exchange("binance"))
-# exit(-1000)
+# sys.exit(-1000)
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-e", "--exchange", help="set exchange", required=False)
@@ -165,7 +165,7 @@ if args.get_exchanges is True:
     for id in ccxt.exchanges:
         print(id, end=' ')
     print("")
-    exit(-505)
+    sys.exit(-505)
 
 if args.get_assets is True:
     if args.exchange is None:
@@ -187,14 +187,14 @@ if args.get_assets is True:
                 print("number of active assets =", nb_active_assets)
             except (ccxt.ExchangeError, ccxt.NetworkError, ccxt.DDoSProtection):
                 print("Exchange seems not available (maybe too many requests). Will stop now.")
-                # exit(-10002)
+                # sys.exit(-10002)
                 os.kill(os.getpid(), 9)
                 sys.exit(-999)
                 # time.sleep(5)
             except:
-                #print(sys.exc_info())
-                exit(-10003)
-    exit(-510)
+                # print(sys.exc_info())
+                sys.exit(-10003)
+    sys.exit(-510)
 
 if args.get_timeframes is True:
     if args.exchange is None:
@@ -209,14 +209,14 @@ if args.get_timeframes is True:
                 print("")
             except (ccxt.ExchangeError, ccxt.NetworkError, ccxt.DDoSProtection):
                 print("Exchange seems not available (maybe too many requests). Will stop now.")
-                # exit(-10003)
+                # sys.exit(-10003)
                 os.kill(os.getpid(), 9)
                 sys.exit(-999)
                 # time.sleep(5)
             except:
-                #print(sys.exc_info())
-                exit(-10004)
-    exit(-511)
+                # print(sys.exc_info())
+                sys.exit(-10004)
+    sys.exit(-511)
 
 filter_assets = ""
 if args.filter_assets is not None:
@@ -227,7 +227,7 @@ if args.filter_assets is not None:
                 "*" in filter_assets and filter_assets.startswith("*") == True and filter_assets.endswith("*") == True):
             print(
                 "Only one '*' wildcard must be at the start or at the end of the string and not in the middle (not supported).")
-            exit(-10004)
+            sys.exit(-10004)
 
 retry = args.retry
 loop_scan = args.loop
@@ -238,7 +238,6 @@ for tf in x:
     array_tf.add(tf)
 scan_up = args.up
 scan_down = args.down
-
 
 # end of arguments parsing here
 
@@ -252,13 +251,13 @@ if args.exchange is not None:
     if arg_exchange in exchanges:
         print(arg_exchange, "is in list")
         exchange = exchanges[arg_exchange]
-        # exit(-1)
+        # sys.exit(-1)
     else:
         print("This exchange is not supported.")
-        exit(-1)
+        sys.exit(-1)
 else:
     print("no exchange specified.")
-    exit(-2)
+    sys.exit(-2)
 
 delete_results_temp_log(exchange.id)
 
@@ -284,6 +283,7 @@ def get_data_for_timeframe(symbol, tf):
 price_close = 0
 
 dict_evol = {}
+
 
 def check_timeframe_up(symbol, tf):
     global price_close
@@ -338,15 +338,6 @@ def check_timeframe_up(symbol, tf):
     ssa_chikou1 = dframe['ICH_SSA'].iloc[-28]
     ssb_chikou1 = dframe['ICH_SSB'].iloc[-28]
 
-    #highest = 0
-    #for i in range(1,365):
-    #    high = dframe['high'].iloc[-i]
-    #    if high>highest:
-    #        highest = high    
-    #dict_evol["symbol"] = highest
-    #percentfromhighest = (highest - price_close)/highest*100
-    #print(symbol, "highest on 26 previous highs = ", highest, "PERCENT FROM HIGHEST = ", percentfromhighest, "%")
-
     if price_close1 > price_open1:
         if price_close1 > ssa1 and price_close1 > ssb1 and price_close1 > tenkan1 and price_close1 > kijun1:
             if chikou1 > ssa_chikou1 and chikou1 > ssb_chikou1 and chikou1 > tenkan_chikou1 and chikou1 > kijun_chikou1:
@@ -354,23 +345,11 @@ def check_timeframe_up(symbol, tf):
                     if price_close > price_open:
                         if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun:
                             if chikou > ssa_chikou and chikou > ssb_chikou and chikou > tenkan_chikou and chikou > kijun_chikou:
-                                percent = (price_close1 - price_open1)/price_open1*100
+                                percent = (price_close1 - price_open1) / price_open1 * 100
                                 print(str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1) + ";" + str(price_open1) + ";" + "{:.4f}".format(percent), "%")
-                                log_to_results(str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
+                                log_to_results(
+                                    str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
                                 return True
-
-
-#    if (ssb > ssa and price_open > ssb and price_close > ssb) or (ssa > ssb and price_open > ssa and price_close > ssa):
-#        pass  # print(symbol, tf, "**** is over the cloud")
-#        if (price_close > kijun):
-#            pass  # print(symbol, tf, "******** is over the kijun")
-#            if (price_close > tenkan):
-#                pass  # print(symbol, tf, "************ is over the tenkan")
-#                if (chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou and chikou > tenkan_chikou and chikou > kijun_chikou):
-#                    pass  # print(symbol, tf, "**************** has chikou validated")
-#                    if (price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun and price_close > price_open):
-#                        pass  # print(symbol, tf, "******************** has price validated")
-#                        return True
 
 
 def check_timeframe_down(symbol, tf):
@@ -378,7 +357,7 @@ def check_timeframe_down(symbol, tf):
     result = get_data_for_timeframe(symbol, tf)
     if not result:
         return
-    #print(tf, symbol, result)
+    # print(tf, symbol, result)
     dframe = pd.DataFrame(result)
     dframe['timestamp'] = pd.to_numeric(dframe[0])
     dframe['open'] = pd.to_numeric(dframe[1])
@@ -408,37 +387,40 @@ def check_timeframe_down(symbol, tf):
     ssa_chikou = dframe['ICH_SSA'].iloc[-27]
     ssb_chikou = dframe['ICH_SSB'].iloc[-27]
 
-    #price_high_0 = dframe['high'].iloc[-1]
-    #diff = price_close - price_high_0
-    #percent = (price_close - price_high_0)/price_high_0*100
-    #print(symbol + ";" + str(price_high_0).replace(".",",") + ";" + str(price_close).replace(".",",") + ";" + str(diff).replace(".",",") + ";"  + str(percent).replace(".",","))
-    #log_to_results(symbol + ";" + str(price_high_0).replace(".",",") + ";" + str(price_close).replace(".",",") + ";" + str(diff).replace(".",",") + ";"  + str(percent).replace(".",","))
-    #dict_evol[symbol] = percent
+    ssb1 = dframe['ICH_SSB'].iloc[-2]
+    ssa1 = dframe['ICH_SSA'].iloc[-2]
+    kijun1 = dframe['ICH_KS'].iloc[-2]
+    tenkan1 = dframe['ICH_TS'].iloc[-2]
+    chikou1 = dframe['ICH_CS'].iloc[-28]
+    price_open1 = dframe['open'].iloc[-2]
+    price_high1 = dframe['high'].iloc[-2]
+    price_low1 = dframe['low'].iloc[-2]
+    price_close1 = dframe['close'].iloc[-2]
+    price_open_chikou1 = dframe['open'].iloc[-28]
+    price_high_chikou1 = dframe['high'].iloc[-28]
+    price_low_chikou1 = dframe['low'].iloc[-28]
+    price_close_chikou1 = dframe['close'].iloc[-28]
+    tenkan_chikou1 = dframe['ICH_TS'].iloc[-28]
+    kijun_chikou1 = dframe['ICH_KS'].iloc[-28]
+    ssa_chikou1 = dframe['ICH_SSA'].iloc[-28]
+    ssb_chikou1 = dframe['ICH_SSB'].iloc[-28]
 
-    #if (price_close < price_open):
-    #    percent = (price_close - price_open)/price_open*100
-    #    #print(symbol, price_close - price_open, percent, "%")
-    #    return true
-
-    #if (ssb < ssa and price_open < ssb and price_close < ssb) or (ssa < ssb and price_open < ssa and price_close < ssa):
-    #    pass  # print(symbol, tf, "**** is over the cloud")
-    #    if (price_close < kijun):
-    #        pass  # print(symbol, tf, "******** is over the kijun")
-    #        if (price_close < tenkan):
-    #            pass  # print(symbol, tf, "************ is over the tenkan")
-    #            if (chikou < ssa_chikou and chikou < ssb_chikou and chikou < price_low_chikou and chikou < tenkan_chikou and chikou < kijun_chikou):
-    #                pass  # print(symbol, tf, "**************** has chikou validated")
-    #                if (price_close < ssa and price_close < ssb and price_close < tenkan and price_close < kijun and price_close < price_open):
-    #                    pass  # print(symbol, tf, "******************** has price validated")
-    #                    return True
-
-    if price_close > price_open:
-        percent = (price_close - price_open)/price_open*100
-        print(symbol, price_close - price_open, percent, "%")
-        return true
+    if price_close1 < price_open1:
+        if price_close1 < ssa1 and price_close1 < ssb1 and price_close1 < tenkan1 and price_close1 < kijun1:
+            if chikou1 < ssa_chikou1 and chikou1 < ssb_chikou1 and chikou1 < tenkan_chikou1 and chikou1 < kijun_chikou1:
+                if chikou1 < price_low_chikou1:
+                    if price_close < price_open:
+                        if price_close < ssa and price_close < ssb and price_close < tenkan and price_close < kijun:
+                            if chikou < ssa_chikou and chikou < ssb_chikou and chikou < tenkan_chikou and chikou < kijun_chikou:
+                                percent = (price_close1 - price_open1) / price_open1 * 100
+                                print(str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1) + ";" + str(price_open1) + ";" + "{:.4f}".format(percent), "%")
+                                log_to_results(
+                                    str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
+                                return True
 
 
 dict_results = {}
+
 
 def get_price_evol(symbol, current_price):
     global dict_results
@@ -447,6 +429,7 @@ def get_price_evol(symbol, current_price):
     else:
         dict_results[symbol] = current_price
         return 0
+
 
 def execute_code(symbol, type_of_asset, exchange_id):
     global dict_results, highest_percent_evol
@@ -473,7 +456,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                     scantype += " down "
 
             if "down" in scantype:
-                #print("scanning down")
+                # print("scanning down")
                 all_tf_ok = False
                 for tf in array_tf:
                     if check_timeframe_down(symbol, tf):
@@ -482,21 +465,21 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         all_tf_ok = False
                         break
                 if all_tf_ok:
-                    #beep.beep(3)
+                    # beep.beep(3)
                     price_evol = get_price_evol(symbol, price_close)
-                    str_to_log = "(DOWNTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now()) + " ; Current price = " + str(price_close) + " ; Price evol = " + "{:.4f}".format(price_evol)
+                    str_to_log = "(DOWNTREND) all timeframes are ok for " + symbol + " " + str(array_tf) + " at " + str(datetime.now()) + " ; Current price = " + str(price_close) + " ; Price evol = " + "{:.4f}".format(price_evol)
                     print(str_to_log)
                     log_to_results(str_to_log)
 
             if "up" in scantype:
-                #print("scanning up")
+                # print("scanning up")
                 all_tf_ok = False
                 for tf in array_tf:
                     check_timeframe_up(symbol, tf)
-                    
+
         except:
             print(symbol, sys.exc_info())
-            # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
+            # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line sys.exit(-1) just before the "pass" function
             # log_to_errors(str(datetime.now()) + " " + tf + " " + symbol + " " + str(sys.exc_info()))
             # binary_result += "0"
             pass
@@ -574,16 +557,16 @@ def main_thread():
             print("markets data obtained successfully")
         except (ccxt.ExchangeError, ccxt.NetworkError, ccxt.DDoSProtection):
             print("Exchange seems not available (maybe too many requests). Please wait and try again.")
-            # exit(-10002)
+            # sys.exit(-10002)
             if retry is False:
                 print("will not retry.")
-                exit(-777)
+                sys.exit(-777)
             else:
                 print("will retry in 5 sec")
                 time.sleep(5)
         except:
             print(sys.exc_info())
-            exit(-778)
+            sys.exit(-778)
 
     threads = []
 
