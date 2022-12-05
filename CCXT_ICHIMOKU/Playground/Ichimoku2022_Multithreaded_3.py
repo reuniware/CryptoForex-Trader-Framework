@@ -476,7 +476,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                     check_timeframe_up(symbol, tf)
 
         except:
-            print(symbol, sys.exc_info())
+            #print(symbol, sys.exc_info())
             # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line sys.exit(-1) just before the "pass" function
             # log_to_errors(str(datetime.now()) + " " + tf + " " + symbol + " " + str(sys.exc_info()))
             # binary_result += "0"
