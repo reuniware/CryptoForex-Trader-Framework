@@ -109,18 +109,18 @@ def get_number_of_active_assets_for_exchange(exchange_id):
             # print("number of active assets =", nb_active_assets)
         except (ccxt.ExchangeError, ccxt.NetworkError, ccxt.DDoSProtection):
             print("Exchange seems not available (maybe too many requests). Will stop now.")
-            # exit(-10002)
+            # sys.exit(-10002)
             os.kill(os.getpid(), 9)
             sys.exit(-999)
             # time.sleep(5)
         except:
             print(sys.exc_info())
-            exit(-10003)
+            sys.exit(-10003)
     return nb_active_assets
 
 
 # print(get_number_of_active_assets_for_exchange("binance"))
-# exit(-1000)
+# sys.exit(-1000)
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-e", "--exchange", help="set exchange", required=False)
@@ -146,7 +146,7 @@ print("args.timeframes", args.timeframes)
 print("args.up", args.up)
 print("args.down", args.down)
 
-print("INELIDA Ichimoku Scanner for Traders v1.0 - https://twitter.com/IchimokuTrader")
+print("INELIDA Ichimoku Scanner for Traders v1.0 - https://www.ichimokuscanner.com")
 print("Scan started at :", str(datetime.now()))
 
 # if a debugger is attached then set arbitrary arguments for debugging (exchange...)
@@ -162,7 +162,7 @@ if args.get_exchanges is True:
     for id in ccxt.exchanges:
         print(id, end=' ')
     print("")
-    exit(-505)
+    sys.exit(-505)
 
 if args.get_assets is True:
     if args.exchange is None:
@@ -184,14 +184,14 @@ if args.get_assets is True:
                 print("number of active assets =", nb_active_assets)
             except (ccxt.ExchangeError, ccxt.NetworkError, ccxt.DDoSProtection):
                 print("Exchange seems not available (maybe too many requests). Will stop now.")
-                # exit(-10002)
+                # sys.exit(-10002)
                 os.kill(os.getpid(), 9)
                 sys.exit(-999)
                 # time.sleep(5)
             except:
                 print(sys.exc_info())
-                exit(-10003)
-    exit(-510)
+                sys.exit(-10003)
+    sys.exit(-510)
 
 if args.get_timeframes is True:
     if args.exchange is None:
@@ -206,14 +206,14 @@ if args.get_timeframes is True:
                 print("")
             except (ccxt.ExchangeError, ccxt.NetworkError, ccxt.DDoSProtection):
                 print("Exchange seems not available (maybe too many requests). Will stop now.")
-                # exit(-10003)
+                # sys.exit(-10003)
                 os.kill(os.getpid(), 9)
                 sys.exit(-999)
                 # time.sleep(5)
             except:
                 print(sys.exc_info())
-                exit(-10004)
-    exit(-511)
+                sys.exit(-10004)
+    sys.exit(-511)
 
 filter_assets = ""
 if args.filter_assets is not None:
@@ -224,12 +224,15 @@ if args.filter_assets is not None:
                 "*" in filter_assets and filter_assets.startswith("*") == True and filter_assets.endswith("*") == True):
             print(
                 "Only one '*' wildcard must be at the start or at the end of the string and not in the middle (not supported).")
-            exit(-10004)
+            sys.exit(-10004)
 
 retry = args.retry
 loop_scan = args.loop
 timeframes = args.timeframes
 array_tf = set()
+if timeframes is None:
+    print("Please specify at least one timeframe with the -tf option.")
+    sys.exit(-1975)
 x = timeframes.split(',')
 for tf in x:
     array_tf.add(tf)
@@ -249,13 +252,13 @@ if args.exchange is not None:
     if arg_exchange in exchanges:
         print(arg_exchange, "is in list")
         exchange = exchanges[arg_exchange]
-        # exit(-1)
+        # sys.exit(-1)
     else:
         print("This exchange is not supported.")
-        exit(-1)
+        sys.exit(-1)
 else:
     print("no exchange specified.")
-    exit(-2)
+    sys.exit(-2)
 
 delete_results_temp_log(exchange.id)
 
@@ -465,7 +468,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
 
         except:
             print(symbol, sys.exc_info())
-            # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
+            # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line sys.exit(-1) just before the "pass" function
             # log_to_errors(str(datetime.now()) + " " + tf + " " + symbol + " " + str(sys.exc_info()))
             # binary_result += "0"
             pass
@@ -543,16 +546,16 @@ def main_thread():
             print("markets data obtained successfully")
         except (ccxt.ExchangeError, ccxt.NetworkError, ccxt.DDoSProtection):
             print("Exchange seems not available (maybe too many requests). Please wait and try again.")
-            # exit(-10002)
+            # sys.exit(-10002)
             if retry is False:
                 print("will not retry.")
-                exit(-777)
+                sys.exit(-777)
             else:
                 print("will retry in 5 sec")
                 time.sleep(5)
         except:
             print(sys.exc_info())
-            exit(-778)
+            sys.exit(-778)
 
     threads = []
 
