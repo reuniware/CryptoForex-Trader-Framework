@@ -149,7 +149,7 @@ args = parser.parse_args()
 # print("args.up", args.up)
 # print("args.down", args.down)
 
-print("INELIDA Ichimoku Scanner for Traders v3.0 - http://www.ichimokuscanner.com")
+print("INELIDA Ichimoku Scanner for Traders v3.0 - http://www.botmonster.fr")
 print("Scan started at :", str(datetime.now()))
 
 # if a debugger is attached then set arbitrary arguments for debugging (exchange...)
@@ -249,7 +249,7 @@ exchange = None
 if args.exchange is not None:
     arg_exchange = args.exchange.lower().strip()
     if arg_exchange in exchanges:
-        print(arg_exchange, "is in list")
+        #print(arg_exchange, "is in list")
         exchange = exchanges[arg_exchange]
         # sys.exit(-1)
     else:
@@ -347,7 +347,7 @@ def check_timeframe_up(symbol, tf):
                             if chikou > ssa_chikou and chikou > ssb_chikou and chikou > tenkan_chikou and chikou > kijun_chikou:
                                 percent = (price_close1 - price_open1) / price_open1 * 100
                                 print("(UPTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1) + ";" + str(price_open1) + ";" + "{:.4f}".format(percent), "%")
-                                log_to_results(str("(UPTREND)" + ";" + datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
+                                log_to_results("(UPTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
                                 return True
 
 
@@ -506,39 +506,39 @@ def main_thread():
     maxthreads = 1
     if exchange.id.lower() == "binance":
         maxthreads = 50
-        print("setting maxthreads =", maxthreads, "for", exchange.id)
+        #print("setting maxthreads =", maxthreads, "for", exchange.id)
         delay_thread = 0  # 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
         delay_request = 0  # 0.250 # delay between each request inside of a thread
-        print("setting delay_thread =", delay_thread, "for", exchange.id)
-        print("setting delay_request =", delay_request, "for", exchange.id)
+        #print("setting delay_thread =", delay_thread, "for", exchange.id)
+        #print("setting delay_request =", delay_request, "for", exchange.id)
     elif exchange.id.lower() == "ftx":
         maxthreads = 100
-        print("setting maxthreads =", maxthreads, "for", exchange.id)
+        #print("setting maxthreads =", maxthreads, "for", exchange.id)
         delay_thread = 0  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
         delay_request = 0  # delay between each request inside of a thread
-        print("setting delay_thread =", delay_thread, "for", exchange.id)
-        print("setting delay_request =", delay_request, "for", exchange.id)
+        #print("setting delay_thread =", delay_thread, "for", exchange.id)
+        #print("setting delay_request =", delay_request, "for", exchange.id)
     elif exchange.id.lower() == "gateio":
         maxthreads = 100
-        print("setting maxthreads =", maxthreads, "for", exchange.id)
+        #print("setting maxthreads =", maxthreads, "for", exchange.id)
         delay_thread = 0  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
         delay_request = 0  # delay between each request inside of a thread
-        print("setting delay_thread =", delay_thread, "for", exchange.id)
-        print("setting delay_request =", delay_request, "for", exchange.id)
+        #print("setting delay_thread =", delay_thread, "for", exchange.id)
+        #print("setting delay_request =", delay_request, "for", exchange.id)
     elif exchange.id.lower() == "bitforex":
         maxthreads = 1
-        print("setting maxthreads =", maxthreads, "for", exchange.id)
+        #print("setting maxthreads =", maxthreads, "for", exchange.id)
         delay_thread = 1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
         delay_request = 1  # delay between each request inside of a thread
-        print("setting delay_thread =", delay_thread, "for", exchange.id)
-        print("setting delay_request =", delay_request, "for", exchange.id)
+        #print("setting delay_thread =", delay_thread, "for", exchange.id)
+        #print("setting delay_request =", delay_request, "for", exchange.id)
     else:
         maxthreads = 25
         delay_thread = 0
         delay_request = 0
-        print("setting default maxthreads =", maxthreads, "for", exchange.id)
-        print("setting default delay_thread =", delay_thread, "for", exchange.id)
-        print("setting default delay_request =", delay_request, "for", exchange.id)
+        #print("setting default maxthreads =", maxthreads, "for", exchange.id)
+        #print("setting default delay_thread =", delay_thread, "for", exchange.id)
+        #print("setting default delay_request =", delay_request, "for", exchange.id)
 
     delete_results_log()
     delete_results_evol_log()
