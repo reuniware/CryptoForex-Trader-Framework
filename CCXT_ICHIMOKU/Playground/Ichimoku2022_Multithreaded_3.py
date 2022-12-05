@@ -149,7 +149,7 @@ print("args.timeframes", args.timeframes)
 print("args.up", args.up)
 print("args.down", args.down)
 
-print("INELIDA Ichimoku Scanner for Traders v1.0 - http://www.ichimokuscanner.com")
+print("INELIDA Ichimoku Scanner for Traders v3.0 - http://www.ichimokuscanner.com")
 print("Scan started at :", str(datetime.now()))
 
 # if a debugger is attached then set arbitrary arguments for debugging (exchange...)
@@ -346,9 +346,8 @@ def check_timeframe_up(symbol, tf):
                         if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun:
                             if chikou > ssa_chikou and chikou > ssb_chikou and chikou > tenkan_chikou and chikou > kijun_chikou:
                                 percent = (price_close1 - price_open1) / price_open1 * 100
-                                print(str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1) + ";" + str(price_open1) + ";" + "{:.4f}".format(percent), "%")
-                                log_to_results(
-                                    str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
+                                print("(UPTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1) + ";" + str(price_open1) + ";" + "{:.4f}".format(percent), "%")
+                                log_to_results(str("(UPTREND)" + ";" + datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
                                 return True
 
 
@@ -413,9 +412,8 @@ def check_timeframe_down(symbol, tf):
                         if price_close < ssa and price_close < ssb and price_close < tenkan and price_close < kijun:
                             if chikou < ssa_chikou and chikou < ssb_chikou and chikou < tenkan_chikou and chikou < kijun_chikou:
                                 percent = (price_close1 - price_open1) / price_open1 * 100
-                                print(str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1) + ";" + str(price_open1) + ";" + "{:.4f}".format(percent), "%")
-                                log_to_results(
-                                    str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
+                                print("(DOWNTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1) + ";" + str(price_open1) + ";" + "{:.4f}".format(percent), "%")
+                                log_to_results("(DOWNTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
                                 return True
 
 
