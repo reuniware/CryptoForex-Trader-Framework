@@ -1,6 +1,6 @@
 # DOT NOT USE THIS SCRIPT, THE PLAYGROUND FOLDER IS KINDA PLAYGROUND ;)
 # JUST TESTING NEW STUFF HERE...
-# Ichimoku Scanner for Traders 3.0 (Inelida Scanner for Traders)
+# Ichimoku Scanner for Traders 1.0 (Inelida Scanner for Traders)
 # Example of use : python Ichimoku2022_Multithreaded_2.py -e bybit -f *usdt -tf 1h,15m -l -up -down
 # In this case it will scan for all assets on Bybit that ends with "usdt" and that are fully validated on 1h and 15m timeframes
 # And will scan in loop and for uptrend and downtrend
@@ -149,7 +149,7 @@ print("args.timeframes", args.timeframes)
 print("args.up", args.up)
 print("args.down", args.down)
 
-print("INELIDA Ichimoku Scanner for Traders v1.0 - https://twitter.com/IchimokuTrader")
+print("INELIDA Ichimoku Scanner for Traders v1.0 - http://www.ichimokuscanner.com")
 print("Scan started at :", str(datetime.now()))
 
 # if a debugger is attached then set arbitrary arguments for debugging (exchange...)
