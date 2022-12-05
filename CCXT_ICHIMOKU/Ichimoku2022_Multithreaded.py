@@ -178,7 +178,7 @@ print("args.is-under-the-cloud", args.getting_under_the_cloud)
 print("args.trending", args.trending)
 print("args.loop", args.loop)
 
-print("INELIDA Scanner v1.0 - https://twitter.com/IchimokuTrader")
+print("INELIDA Scanner v1.0 - http://www.ichimokuscanner.com")
 print("Scan started at :", str(datetime.now()))
 
 # if a debugger is attached then set arbitrary arguments for debugging (exchange...)
