@@ -6,4 +6,7 @@ pip3 install --user --upgrade -e git+https://github.com/twintproject/twint.git@o
 pip install ta
 pip install tweepy
 pip install ccxt
+pip install yahoo_fin
+pip install yahoo_fin --upgrade
+pip install requests_html
 
