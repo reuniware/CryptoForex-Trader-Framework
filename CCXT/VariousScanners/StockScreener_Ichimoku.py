@@ -11,6 +11,7 @@ from pandas import ExcelWriter
 import yfinance as yf
 import pandas as pd
 import datetime
+#from datetime import datetime
 import time
 import ta
 
@@ -40,6 +41,17 @@ def log_to_results(str_to_log):
 def delete_results_log():
     if os.path.exists("results.txt"):
         os.remove("results.txt")
+
+
+def log_to_results_evol(str_to_log):
+    fr = open("results_evol.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def delete_results_evol_log():
+    if os.path.exists("results_evol.txt"):
+        os.remove("results_evol.txt")
 
 
 def execute_code(ticker, numticker):
@@ -73,6 +85,7 @@ def execute_code(ticker, numticker):
     ssb_chikou = dframe['ICH_SSB'].iloc[-27]
 
     evol = (price_close - price_open)/price_open*100
+    log_to_results_evol(ticker + ";" + str(evol))
     if evol>0:
         print(numticker, ticker, price_open, price_close, ssa, ssb, evol)
     if price_open < kijun and price_close > kijun:
@@ -99,6 +112,7 @@ def scan_one(ticker, numticker):
 
 def main_thread():
     delete_results_log()
+    delete_results_evol_log()
 
     maxthreads = 1000
     threadLimiter = threading.BoundedSemaphore(maxthreads)
