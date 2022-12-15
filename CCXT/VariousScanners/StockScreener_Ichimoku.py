@@ -1,4 +1,3 @@
-# Inspired by :
 # https://towardsdatascience.com/making-a-stock-screener-with-python-4f591b198261
 # https://gist.github.com/shashankvemuri
 
@@ -26,6 +25,7 @@ end_date = datetime.date.today()
 # exportList = pd.DataFrame(columns=['Stock', "RS_Rating", "50 Day MA", "150 Day Ma", "200 Day MA", "52 Week Low", "52 week High"])
 returns_multiples = []
 
+
 # Index Returns
 # index_df = pdr.get_data_yahoo(index_name, start_date, end_date)
 # index_df['Percent Change'] = index_df['Adj Close'].pct_change()
@@ -36,9 +36,11 @@ def log_to_results(str_to_log):
     fr.write(str_to_log + "\n")
     fr.close()
 
+
 def delete_results_log():
     if os.path.exists("results.txt"):
         os.remove("results.txt")
+
 
 def execute_code(ticker):
     # Download historical data as CSV for each stock (makes the process faster)
@@ -76,8 +78,8 @@ def execute_code(ticker):
         log_to_results(ticker + " " + "ks")
 
 
-
 threadLimiter = threading.BoundedSemaphore()
+
 
 def scan_one(ticker):
     global threadLimiter
@@ -89,13 +91,11 @@ def scan_one(ticker):
 
 
 def main_thread():
-
     delete_results_log()
 
     maxthreads = 100
     threadLimiter = threading.BoundedSemaphore(maxthreads)
     threads = []
-
 
     for ticker in tickers:
         t = threading.Thread(target=scan_one, args=(ticker,))
