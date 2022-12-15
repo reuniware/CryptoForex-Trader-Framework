@@ -42,7 +42,7 @@ def delete_results_log():
         os.remove("results.txt")
 
 
-def execute_code(ticker):
+def execute_code(ticker, numticker):
     # Download historical data as CSV for each stock (makes the process faster)
     dframe = pdr.get_data_yahoo(ticker, start_date, end_date)
     # df.to_csv(f'{ticker}.csv')
@@ -72,20 +72,25 @@ def execute_code(ticker):
     ssa_chikou = dframe['ICH_SSA'].iloc[-27]
     ssb_chikou = dframe['ICH_SSB'].iloc[-27]
 
-    print(ticker, price_open, price_close, ssa, ssb)
-    if price_open > kijun and price_close < kijun:
-        print(ticker, "ks")
-        log_to_results(ticker + " " + "ks")
+    print(numticker, ticker, price_open, price_close, ssa, ssb)
+    if price_open < kijun and price_close > kijun:
+        print(numticler, ticker, "has got above ks")
+        log_to_results(str(numticker) + " " + ticker + " has got above ks")
+
+    #if dframe['Open'].iloc[0] > dframe['ICH_KS'].iloc[0] and dframe['Close'].iloc[0] < dframe['ICH_KS'].iloc[0]:
+    #    print(ticker, "is getting below ks")
+    #    log_to_results(ticker + " is getting below ks")    
+    #print(dframe['Open'].iloc[0], dframe['ICH_KS'].iloc[-1], dframe['Close'].iloc[0], dframe['ICH_KS'].iloc[-1])
 
 
 threadLimiter = threading.BoundedSemaphore()
 
 
-def scan_one(ticker):
+def scan_one(ticker, numticker):
     global threadLimiter
     threadLimiter.acquire()
     try:
-        execute_code(ticker)
+        execute_code(ticker, numticker)
     finally:
         threadLimiter.release()
 
@@ -93,12 +98,15 @@ def scan_one(ticker):
 def main_thread():
     delete_results_log()
 
-    maxthreads = 100
+    maxthreads = 1000
     threadLimiter = threading.BoundedSemaphore(maxthreads)
     threads = []
 
+    numticker = 0
+
     for ticker in tickers:
-        t = threading.Thread(target=scan_one, args=(ticker,))
+        numticker += 1
+        t = threading.Thread(target=scan_one, args=(ticker, numticker))
         threads.append(t)
         t.start()
 
