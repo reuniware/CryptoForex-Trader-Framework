@@ -1,7 +1,11 @@
+# Inspired by :
 # https://towardsdatascience.com/making-a-stock-screener-with-python-4f591b198261
 # https://gist.github.com/shashankvemuri
 
 # Imports
+import os
+import threading
+
 from pandas_datareader import data as pdr
 from yahoo_fin import stock_info as si
 from pandas import ExcelWriter
@@ -27,8 +31,16 @@ returns_multiples = []
 # index_df['Percent Change'] = index_df['Adj Close'].pct_change()
 # index_return = (index_df['Percent Change'] + 1).cumprod()[-1]
 
-# Find top 30% performing stocks (relative to the S&P 500)
-for ticker in tickers:
+def log_to_results(str_to_log):
+    fr = open("results.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+def delete_results_log():
+    if os.path.exists("results.txt"):
+        os.remove("results.txt")
+
+def execute_code(ticker):
     # Download historical data as CSV for each stock (makes the process faster)
     dframe = pdr.get_data_yahoo(ticker, start_date, end_date)
     # df.to_csv(f'{ticker}.csv')
@@ -61,19 +73,52 @@ for ticker in tickers:
     print(ticker, price_open, price_close, ssa, ssb)
     if price_open > kijun and price_close < kijun:
         print(ticker, "ks")
+        log_to_results(ticker + " " + "ks")
 
-    # print(ticker)
-    # print(dframe)
 
-    # sys.exit(0)
 
-    # Calculating returns relative to the market (returns multiple)
-    # df['Percent Change'] = df['Adj Close'].pct_change()
-    # stock_return = (df['Percent Change'] + 1).cumprod()[-1]
+threadLimiter = threading.BoundedSemaphore()
 
-    # returns_multiple = round((stock_return / index_return), 2)
-    # returns_multiples.extend([returns_multiple])
+def scan_one(ticker):
+    global threadLimiter
+    threadLimiter.acquire()
+    try:
+        execute_code(ticker)
+    finally:
+        threadLimiter.release()
 
-    # print(f'Ticker: {ticker}; Returns Multiple against S&P 500: {returns_multiple}\n')
-    time.sleep(1)
 
+def main_thread():
+
+    delete_results_log()
+
+    maxthreads = 100
+    threadLimiter = threading.BoundedSemaphore(maxthreads)
+    threads = []
+
+
+    for ticker in tickers:
+        t = threading.Thread(target=scan_one, args=(ticker,))
+        threads.append(t)
+        t.start()
+
+    for tt in threads:
+        tt.join()
+
+        # print(ticker)
+        # print(dframe)
+
+        # sys.exit(0)
+
+        # Calculating returns relative to the market (returns multiple)
+        # df['Percent Change'] = df['Adj Close'].pct_change()
+        # stock_return = (df['Percent Change'] + 1).cumprod()[-1]
+
+        # returns_multiple = round((stock_return / index_return), 2)
+        # returns_multiples.extend([returns_multiple])
+
+        # print(f'Ticker: {ticker}; Returns Multiple against S&P 500: {returns_multiple}\n')
+        time.sleep(1)
+
+
+main_thread()
