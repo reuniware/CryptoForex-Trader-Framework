@@ -74,7 +74,7 @@ def execute_code(ticker, numticker):
 
     print(numticker, ticker, price_open, price_close, ssa, ssb)
     if price_open < kijun and price_close > kijun:
-        print(numticler, ticker, "has got above ks")
+        print(numticker, ticker, "has got above ks")
         log_to_results(str(numticker) + " " + ticker + " has got above ks")
 
     #if dframe['Open'].iloc[0] > dframe['ICH_KS'].iloc[0] and dframe['Close'].iloc[0] < dframe['ICH_KS'].iloc[0]:
