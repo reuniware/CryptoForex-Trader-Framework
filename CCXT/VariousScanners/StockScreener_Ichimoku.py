@@ -85,7 +85,7 @@ def execute_code(ticker, numticker):
     ssb_chikou = dframe['ICH_SSB'].iloc[-27]
 
     evol = (price_close - price_open)/price_open*100
-    log_to_results_evol(ticker + ";" + str(evol))
+    log_to_results_evol(ticker + ";" + str(evol).replace('.', ','))
     if evol>0:
         print(numticker, ticker, price_open, price_close, ssa, ssb, evol)
     if price_open < kijun and price_close > kijun:
