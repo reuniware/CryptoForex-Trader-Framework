@@ -72,7 +72,9 @@ def execute_code(ticker, numticker):
     ssa_chikou = dframe['ICH_SSA'].iloc[-27]
     ssb_chikou = dframe['ICH_SSB'].iloc[-27]
 
-    print(numticker, ticker, price_open, price_close, ssa, ssb)
+    evol = (price_close - price_open)/price_open*100
+    if evol>0:
+        print(numticker, ticker, price_open, price_close, ssa, ssb, evol)
     if price_open < kijun and price_close > kijun:
         print(numticker, ticker, "has got above ks")
         log_to_results(str(numticker) + " " + ticker + " has got above ks")
