@@ -283,7 +283,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
             condition = price_open > dframe['bb_high'].iloc[-1] and price_close < dframe['bb_high'].iloc[-1]
 
             if condition:
-                str_to_log = str(datetime.now()) + " " + symbol + " " + tf + " " + "[A atteint la bande haute]" + " " + "[Short possible]" + " " + "[BBHIGH =" + " " + "{:.4f}".format(dframe['bb_high'].iloc[-1]) + "]" + " " + "[current price =" + " " + "{:.4f}".format(price_close) + "]" + " " + "[BBMID (Take Profit) =" + " " + "{:.4f}".format(dframe['bb_middle'].iloc[-1]) + "]"
+                str_to_log = str(datetime.now()) + " " + symbol + " " + tf + " " + "[A atteint la bande haute]" + " " + "[Short possible]" + " " + "[BBHIGH =" + " " + "{:.8f}".format(dframe['bb_high'].iloc[-1]) + "]" + " " + "[current price =" + " " + "{:.8f}".format(price_close) + "]" + " " + "[BBMID (Take Profit) =" + " " + "{:.8f}".format(dframe['bb_middle'].iloc[-1]) + "]"
                 # print(datetime.now(), symbol, tf, "[A atteint la bande haute]", "[Short possible]", "[BBHIGH =", "{:.4f}".format(dframe['bb_high'].iloc[-1]) + "]", "[current price =", "{:.4f}".format(price_close) + "]", "[BBMID (Take Profit) =", "{:.4f}".format(dframe['bb_middle'].iloc[-1]) + "]")
                 print(str_to_log)
                 log_to_results(str_to_log)
@@ -292,7 +292,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
             condition = price_open < dframe['bb_low'].iloc[-1] and price_close > dframe['bb_low'].iloc[-1]
 
             if condition:
-                str_to_log = str(datetime.now()) + " " + symbol + " " + tf + " " + "[A atteint la bande basse]" + " " + "[Long possible]" + " " + "[BBLOW =" + " " + "{:.4f}".format(dframe['bb_low'].iloc[-1]) + "]" + " " + "[current price =" + " " + "{:.4f}".format(price_close) + "]" + " " + "[BBMID (Take Profit) =" + " " + "{:.4f}".format(dframe['bb_middle'].iloc[-1]) + "]"
+                str_to_log = str(datetime.now()) + " " + symbol + " " + tf + " " + "[A atteint la bande basse]" + " " + "[Long possible]" + " " + "[BBLOW =" + " " + "{:.8f}".format(dframe['bb_low'].iloc[-1]) + "]" + " " + "[current price =" + " " + "{:.4f}".format(price_close) + "]" + " " + "[BBMID (Take Profit) =" + " " + "{:.8f}".format(dframe['bb_middle'].iloc[-1]) + "]"
                 # print(datetime.now(), symbol, tf, "[A atteint la bande basse]",  "[Long possible]", "[BBLOW =", "{:.4f}".format(dframe['bb_low'].iloc[-1]) + "]", "[current price =", "{:.4f}".format(price_close) + "]", "[BBMID (Take Profit) =", "{:.4f}".format(dframe['bb_middle'].iloc[-1]) + "]")
                 print(str_to_log)
                 log_to_results(str_to_log)
