@@ -283,13 +283,13 @@ def execute_code(symbol, type_of_asset, exchange_id):
             condition = price_open > dframe['bb_high'].iloc[-1] and price_close < dframe['bb_high'].iloc[-1]
 
             if condition:
-                print(symbol, tf, "[A atteint la bande haute]", "[Short possible]", "BBHIGH=", "{:.4f}".format(dframe['bb_high'].iloc[-1]), "current price=", "{:.4f}".format(price_close), "BBMID(TP)=", "{:.4f}".format(dframe['bb_middle'].iloc[-1]))
+                print(symbol, tf, "[A atteint la bande haute]", "[Short possible]", "BBHIGH=", "{:.4f}".format(dframe['bb_high'].iloc[-1]), "current price=", "{:.4f}".format(price_close), "BBMID(Take Profit)=", "{:.4f}".format(dframe['bb_middle'].iloc[-1]))
             # dev force condition - end
 
             condition = price_open < dframe['bb_low'].iloc[-1] and price_close > dframe['bb_low'].iloc[-1]
 
             if condition:
-                print(symbol, tf, "[A atteint la bande basse]",  "[Long possible]", "BBLOW=", "{:.4f}".format(dframe['bb_low'].iloc[-1]), "current price=", "{:.4f}".format(price_close), "BBMID(TP)=", "{:.4f}".format(dframe['bb_middle'].iloc[-1]))
+                print(symbol, tf, "[A atteint la bande basse]",  "[Long possible]", "BBLOW=", "{:.4f}".format(dframe['bb_low'].iloc[-1]), "current price=", "{:.4f}".format(price_close), "BBMID(Take Profit)=", "{:.4f}".format(dframe['bb_middle'].iloc[-1]))
 
 
             if not condition:
