@@ -122,11 +122,11 @@ parser.add_argument('-a', '--get-assets', action='store_true', help="get list of
 parser.add_argument('-f', '--filter-assets', help="filter assets")
 parser.add_argument('-r', '--retry', action='store_true', help="retry until exchange is available (again)")
 args = parser.parse_args()
-print("args.exchange =", args.exchange)
-print("args.get-exchanges", args.get_exchanges)
-print("args.get-assets", args.get_assets)
-print("args.filter", args.filter_assets)
-print("args.retry", args.retry)
+# print("args.exchange =", args.exchange)
+# print("args.get-exchanges", args.get_exchanges)
+# print("args.get-assets", args.get_assets)
+# print("args.filter", args.filter_assets)
+# print("args.retry", args.retry)
 
 print("INELIDA Bollinger Bands Scanner v1.0 - https://www.botmonster.fr")
 print("Scan started at :", str(datetime.now()))
@@ -191,14 +191,14 @@ exchange = None
 if args.exchange is not None:
     arg_exchange = args.exchange.lower().strip()
     if arg_exchange in exchanges:
-        print(arg_exchange, "is in list")
+        print(arg_exchange, "est ok comme exchange.")
         exchange = exchanges[arg_exchange]
         # exit(-1)
     else:
-        print("This exchange is not supported.")
+        print("Cet exchange n'est pas supporté.")
         exit(-1)
 else:
-    print("no exchange specified.")
+    print("Vous devez spécifier un exchange (ex: binance).")
     exit(-2)
 
 delete_results_temp_log(exchange.id)
@@ -283,13 +283,13 @@ def execute_code(symbol, type_of_asset, exchange_id):
             condition = price_open > dframe['bb_high'].iloc[-1] and price_close < dframe['bb_high'].iloc[-1]
 
             if condition:
-                print(symbol, tf, "[A atteint la bande haute]", "[Short possible]", "BBHIGH=", "{:.4f}".format(dframe['bb_high'].iloc[-1]), "current price=", "{:.4f}".format(price_close), "BBMID(Take Profit)=", "{:.4f}".format(dframe['bb_middle'].iloc[-1]))
+                print(datetime.now(), symbol, tf, "[A atteint la bande haute]", "[Short possible]", "[BBHIGH =", "{:.4f}".format(dframe['bb_high'].iloc[-1]) + "]", "[current price =", "{:.4f}".format(price_close) + "]", "[BBMID (Take Profit) =", "{:.4f}".format(dframe['bb_middle'].iloc[-1]) + "]")
             # dev force condition - end
 
             condition = price_open < dframe['bb_low'].iloc[-1] and price_close > dframe['bb_low'].iloc[-1]
 
             if condition:
-                print(symbol, tf, "[A atteint la bande basse]",  "[Long possible]", "BBLOW=", "{:.4f}".format(dframe['bb_low'].iloc[-1]), "current price=", "{:.4f}".format(price_close), "BBMID(Take Profit)=", "{:.4f}".format(dframe['bb_middle'].iloc[-1]))
+                print(datetime.now(), symbol, tf, "[A atteint la bande basse]",  "[Long possible]", "[BBLOW =", "{:.4f}".format(dframe['bb_low'].iloc[-1]) + "]", "[current price =", "{:.4f}".format(price_close) + "]", "[BBMID (Take Profit) =", "{:.4f}".format(dframe['bb_middle'].iloc[-1]) + "]")
 
 
             if not condition:
@@ -368,37 +368,37 @@ def main_thread():
     delay_request = 0
     if exchange.id.lower() == "binance":
         maxthreads = 200
-        print("setting maxthreads =", maxthreads, "for", exchange.id)
+        # print("setting maxthreads =", maxthreads, "for", exchange.id)
         delay_thread = 0  # 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
         delay_request = 0  # 0.250 # delay between each request inside of a thread
-        print("setting delay_thread =", delay_thread, "for", exchange.id)
-        print("setting delay_request =", delay_request, "for", exchange.id)
+        # print("setting delay_thread =", delay_thread, "for", exchange.id)
+        # print("setting delay_request =", delay_request, "for", exchange.id)
     elif exchange.id.lower() == "ftx":
         maxthreads = 100
-        print("setting maxthreads =", maxthreads, "for", exchange.id)
+        # print("setting maxthreads =", maxthreads, "for", exchange.id)
         delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
         delay_request = 0.250  # delay between each request inside of a thread
-        print("setting delay_thread =", delay_thread, "for", exchange.id)
-        print("setting delay_request =", delay_request, "for", exchange.id)
+        # print("setting delay_thread =", delay_thread, "for", exchange.id)
+        # print("setting delay_request =", delay_request, "for", exchange.id)
     elif exchange.id.lower() == "gateio":
         maxthreads = 100
-        print("setting maxthreads =", maxthreads, "for", exchange.id)
+        # print("setting maxthreads =", maxthreads, "for", exchange.id)
         delay_thread = 0.1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
         delay_request = 0.250  # delay between each request inside of a thread
-        print("setting delay_thread =", delay_thread, "for", exchange.id)
-        print("setting delay_request =", delay_request, "for", exchange.id)
+        # print("setting delay_thread =", delay_thread, "for", exchange.id)
+        # print("setting delay_request =", delay_request, "for", exchange.id)
     elif exchange.id.lower() == "bitforex":
         maxthreads = 1
-        print("setting maxthreads =", maxthreads, "for", exchange.id)
+        # print("setting maxthreads =", maxthreads, "for", exchange.id)
         delay_thread = 1  # delay between each start of a thread (in seconds, eg. 0.5 for 500ms, 1 for 1s...)
         delay_request = 1  # delay between each request inside of a thread
-        print("setting delay_thread =", delay_thread, "for", exchange.id)
-        print("setting delay_request =", delay_request, "for", exchange.id)
+        # print("setting delay_thread =", delay_thread, "for", exchange.id)
+        # print("setting delay_request =", delay_request, "for", exchange.id)
     else:
         maxthreads = 25
-        print("setting default maxthreads =", maxthreads, "for", exchange.id)
-        print("setting default delay_thread =", delay_thread, "for", exchange.id)
-        print("setting default delay_request =", delay_request, "for", exchange.id)
+        # print("setting default maxthreads =", maxthreads, "for", exchange.id)
+        # print("setting default delay_thread =", delay_thread, "for", exchange.id)
+        # print("setting default delay_request =", delay_request, "for", exchange.id)
 
     delete_results_log()
     delete_results_evol_log()
@@ -412,7 +412,7 @@ def main_thread():
         try:
             markets = exchange.fetch_markets()
             ok = True
-            print("markets data obtained successfully")
+            print("Les données du marché ont été obtenues avec succès.")
         except (ccxt.ExchangeError, ccxt.NetworkError, ccxt.DDoSProtection):
             print("Exchange seems not available (maybe too many requests). Please wait and try again.")
             # exit(-10002)
