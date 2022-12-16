@@ -61,6 +61,28 @@ def delete_results_log_pumps_and_dumps():
         os.remove("results_pumps_and_dumps.txt")
 
 
+def log_to_growing_up(str_to_log):
+    fr = open("results_growing_up.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def delete_results_log_growing_up():
+    if os.path.exists("results_growing_up.txt"):
+        os.remove("results_growing_up.txt")
+
+
+def log_to_growing_down(str_to_log):
+    fr = open("results_growing_down.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def delete_results_log_growing_down():
+    if os.path.exists("results_growing_down.txt"):
+        os.remove("results_growing_down.txt")
+
+
 price_action = Price_Action()
 
 
@@ -83,8 +105,8 @@ previous = {}
 previousevolinit = {}
 initialtime = {}
 
-show_growing_up = False
-show_growing_down = False
+show_growing_up = True
+show_growing_down = True
 show_pumping = True
 pump_trigger = 0.30  # If the evolution (in %) of price between 2 ticks is greater or equals to this value
 show_dumping = True
@@ -129,7 +151,9 @@ def on_message(ws, message):
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
             if show_growing_up:
-                print("growing up", symbol, "{:.4f}".format(evolinit), "%", "avg evol per sec=", "{:.4f}".format(evolinit / elapsedseconds), "%")
+                str_to_log = "growing up" + " " + symbol + " " + "{:.4f}".format(evolinit) + " " + "%" + " " + "avg evol per sec=" + " " + "{:.4f}".format(evolinit / elapsedseconds) + " " + "%"
+                print(str_to_log)
+                log_to_growing_up(str_to_log)
 
         elif evolinit < previousevolinit[symbol]:
             if previousevolinit[symbol] != 0 and evolinit != 0:
@@ -142,7 +166,9 @@ def on_message(ws, message):
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
             if show_growing_down:
-                print("growing down", symbol, "{:.4f}".format(evolinit), "%", "avg evol per sec=", "{:.4f}".format(evolinit / elapsedseconds), "%")
+                str_to_log = "growing down" + " " + symbol + " " + "{:.4f}".format(evolinit) + " " + "%" + " " + "avg evol per sec=" + " " + "{:.4f}".format(evolinit / elapsedseconds) + " " + "%"
+                print(str_to_log)
+                log_to_growing_down(str_to_log)
 
 
     else:
@@ -176,6 +202,8 @@ def main_thread():
     delete_results_log_pumps()
     delete_results_log_dumps()
     delete_results_log_pumps_and_dumps()
+    delete_results_log_growing_up()
+    delete_results_log_growing_down()
 
     exchanges = {}  # a placeholder for your instances
     for id in ccxt.exchanges:
