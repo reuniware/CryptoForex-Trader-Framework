@@ -6,12 +6,6 @@ import json
 import websocket
 import ccxt
 
-try:
-    # client.get_account()
-    print('API keys validated')
-except Exception as e:
-    print('Invalid API keys!')
-
 
 # Websocket Functions
 
@@ -80,8 +74,8 @@ def main_thread():
                     threads.append(t)
                     t.start()
 
-            print("")
-            print("number of active assets =", nb_active_assets)
+        print("")
+        print("number of active assets =", nb_active_assets)
     except:
         # print(sys.exc_info())
         exit(-10003)
