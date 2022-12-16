@@ -51,7 +51,7 @@ initialtime = {}
 
 show_growing = False
 show_pumping = True
-pump_trigger = 0.025  # If the evolution (in %) of price between 2 ticks is greater or equals to this value
+pump_trigger = 0.10  # If the evolution (in %) of price between 2 ticks is greater or equals to this value
 
 
 # Listen to Websocket for Price Change, OnTick
