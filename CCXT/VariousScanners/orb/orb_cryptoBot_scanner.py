@@ -27,6 +27,28 @@ def delete_results_log():
         os.remove("results.txt")
 
 
+def log_to_pumps(str_to_log):
+    fr = open("results_pumps.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def delete_results_log_pumps():
+    if os.path.exists("results_pumps.txt"):
+        os.remove("results_pumps.txt")
+
+
+def log_to_dumps(str_to_log):
+    fr = open("results_dumps.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def delete_results_log_dumps():
+    if os.path.exists("results_dumps.txt"):
+        os.remove("results_dumps.txt")
+
+
 price_action = Price_Action()
 
 
@@ -52,9 +74,9 @@ initialtime = {}
 show_growing_up = False
 show_growing_down = False
 show_pumping = True
-pump_trigger = 0.10  # If the evolution (in %) of price between 2 ticks is greater or equals to this value
+pump_trigger = 0.30  # If the evolution (in %) of price between 2 ticks is greater or equals to this value
 show_dumping = True
-dump_trigger = 0.10  # If the evolution (in %) of price between 2 ticks is greater or equals to this value
+dump_trigger = 0.30  # If the evolution (in %) of price between 2 ticks is greater or equals to this value
 
 
 # Listen to Websocket for Price Change, OnTick
@@ -89,6 +111,7 @@ def on_message(ws, message):
                 if evolinit - previousevolinit[symbol] >= pump_trigger:
                     if show_pumping:
                         print(symbol, "seems pumping ?", "{:.4f}".format(evolinit - previousevolinit[symbol]), "%")
+                        log_to_pumps(symbol + " " + "seems pumping ?" + " " + "{:.4f}".format(evolinit - previousevolinit[symbol]) + " " + "%")
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
             if show_growing_up:
@@ -99,6 +122,7 @@ def on_message(ws, message):
                 if previousevolinit[symbol] - evolinit >= dump_trigger:
                     if show_dumping:
                         print(symbol, "seems dumping ?", "-" + "{:.4f}".format(previousevolinit[symbol] - evolinit), "%")
+                        log_to_dumps(symbol + " " + "seems dumping ?" + " " + "-" + "{:.4f}".format(previousevolinit[symbol] - evolinit) + " " + "%")
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
             if show_growing_down:
@@ -133,6 +157,9 @@ def scan_one(symbol):
 
 def main_thread():
     delete_results_log()
+    delete_results_log_pumps()
+    delete_results_log_dumps()
+
     exchanges = {}  # a placeholder for your instances
     for id in ccxt.exchanges:
         exchange = getattr(ccxt, id)
