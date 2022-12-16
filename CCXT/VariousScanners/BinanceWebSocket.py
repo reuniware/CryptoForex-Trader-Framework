@@ -56,7 +56,7 @@ def on_message(ws, message):
         if evolinit > previousevolinit[symbol]:
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
-            print("growing", symbol, evolinit, "avg evol per sec=", evolinit/elapsedseconds)
+            print("growing", symbol, "{:.4f}".format(evolinit), "%", "avg evol per sec=", "{:.4f}".format(evolinit/elapsedseconds), "%")
 
     else:
         previous[symbol] = close
