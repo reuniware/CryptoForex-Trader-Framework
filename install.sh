@@ -11,3 +11,4 @@ pip install yahoo_fin --upgrade
 pip install requests_html
 pip install pandas-datareader
 pip install yfinance
+pip install websocket-client
