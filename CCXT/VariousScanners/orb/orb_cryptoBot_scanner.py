@@ -15,6 +15,7 @@ import time
 from pa import Price_Action
 import os
 
+from datetime import datetime
 
 def log_to_results(str_to_log):
     fr = open("results.txt", "a")
@@ -110,19 +111,21 @@ def on_message(ws, message):
             if previousevolinit[symbol] != 0 and evolinit != 0:
                 if evolinit - previousevolinit[symbol] >= pump_trigger:
                     if show_pumping:
-                        print(symbol, "seems pumping ?", "{:.4f}".format(evolinit - previousevolinit[symbol]), "%")
-                        log_to_pumps(symbol + " " + "seems pumping ?" + " " + "{:.4f}".format(evolinit - previousevolinit[symbol]) + " " + "%")
+                        str_to_log = str(datetime.now()) + " " + symbol + " " + "seems pumping ?" + " " + "{:.4f}".format(evolinit - previousevolinit[symbol]) + " " + "%"
+                        print(str_to_log)
+                        log_to_pumps(str_to_log)
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
             if show_growing_up:
                 print("growing up", symbol, "{:.4f}".format(evolinit), "%", "avg evol per sec=", "{:.4f}".format(evolinit / elapsedseconds), "%")
 
-        if evolinit < previousevolinit[symbol]:
+        elif evolinit < previousevolinit[symbol]:
             if previousevolinit[symbol] != 0 and evolinit != 0:
                 if previousevolinit[symbol] - evolinit >= dump_trigger:
                     if show_dumping:
-                        print(symbol, "seems dumping ?", "-" + "{:.4f}".format(previousevolinit[symbol] - evolinit), "%")
-                        log_to_dumps(symbol + " " + "seems dumping ?" + " " + "-" + "{:.4f}".format(previousevolinit[symbol] - evolinit) + " " + "%")
+                        str_to_log = str(datetime.now()) + " " + symbol + " " + "seems dumping ?" + " " + "-" + "{:.4f}".format(previousevolinit[symbol] - evolinit) + " " + "%"
+                        print(str_to_log)
+                        log_to_dumps(str_to_log)
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
             if show_growing_down:
