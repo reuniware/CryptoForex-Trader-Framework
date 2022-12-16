@@ -22,6 +22,7 @@ def on_close(ws):
 
 initial = {}
 previous = {}
+previousevolinit = {}
 
 # Listen to Websocket for Price Change, OnTick
 def on_message(ws, message):
@@ -47,13 +48,18 @@ def on_message(ws, message):
         evol = (close - previousclose)/previousclose*100
         evolinit = (close - initialclose)/initialclose*100
         #print(symbol, "is in previous", previousclose, close)
-        if evolinit>0.25:
+        if evolinit>1:
             #print("evol for", symbol, "=", evol)
             print("evol init for", symbol, "=", evolinit)
+        
+        if evol > previousevolinit[symbol]:
+            previousevolinit[symbol] = evol
+            print("growing", symbol, evol)
 
     else:
         previous[symbol] = close
         initial[symbol] = close
+        previousevolinit[symbol] = 0
 
     
     
