@@ -85,7 +85,7 @@ def on_message(ws, message):
             if previousevolinit[symbol] != 0:
                 if evolinit / previousevolinit[symbol] >= pump_trigger:
                     if show_pumping:
-                        print(symbol, "seems pumping ?")
+                        print(symbol, "seems pumping ?", "{:.4f}".format(evolinit / previousevolinit[symbol]), "%")
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
             if show_growing:
