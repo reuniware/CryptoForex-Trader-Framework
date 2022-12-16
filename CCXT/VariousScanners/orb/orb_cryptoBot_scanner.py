@@ -1,3 +1,8 @@
+#Original work : 
+# https://github.com/yulz008/orb_cryptoBot
+# This version is globalized to target all crypto assets available from Binance
+# This version does not trade (the original work trades BTCUSDT)
+
 # pip install websocket-client
 import sys
 import threading
