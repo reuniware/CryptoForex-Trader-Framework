@@ -50,6 +50,17 @@ def delete_results_log_dumps():
         os.remove("results_dumps.txt")
 
 
+def log_to_pumps_and_dumps(str_to_log):
+    fr = open("results_pumps_and_dumps.txt", "a")
+    fr.write(str_to_log + "\n")
+    fr.close()
+
+
+def delete_results_log_pumps_and_dumps():
+    if os.path.exists("results_pumps_and_dumps.txt"):
+        os.remove("results_pumps_and_dumps.txt")
+
+
 price_action = Price_Action()
 
 
@@ -114,6 +125,7 @@ def on_message(ws, message):
                         str_to_log = str(datetime.now()) + " " + symbol + " " + "seems pumping ?" + " " + "{:.4f}".format(evolinit - previousevolinit[symbol]) + " " + "%"
                         print(str_to_log)
                         log_to_pumps(str_to_log)
+                        log_to_pumps_and_dumps(str_to_log)
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
             if show_growing_up:
@@ -126,6 +138,7 @@ def on_message(ws, message):
                         str_to_log = str(datetime.now()) + " " + symbol + " " + "seems dumping ?" + " " + "-" + "{:.4f}".format(previousevolinit[symbol] - evolinit) + " " + "%"
                         print(str_to_log)
                         log_to_dumps(str_to_log)
+                        log_to_pumps_and_dumps(str_to_log)
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
             if show_growing_down:
@@ -162,6 +175,7 @@ def main_thread():
     delete_results_log()
     delete_results_log_pumps()
     delete_results_log_dumps()
+    delete_results_log_pumps_and_dumps
 
     exchanges = {}  # a placeholder for your instances
     for id in ccxt.exchanges:
