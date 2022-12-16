@@ -51,7 +51,7 @@ initialtime = {}
 
 show_growing = False
 show_pumping = True
-pump_trigger = 1.2  # If the evolution of price between 2 ticks is greater or equals to this value
+pump_trigger = 0.025  # If the evolution (in %) of price between 2 ticks is greater or equals to this value
 
 
 # Listen to Websocket for Price Change, OnTick
@@ -82,10 +82,10 @@ def on_message(ws, message):
         # print("evol init for", symbol, "=", evolinit)
 
         if evolinit > previousevolinit[symbol]:
-            if previousevolinit[symbol] != 0:
-                if evolinit / previousevolinit[symbol] >= pump_trigger:
+            if previousevolinit[symbol] != 0 and evolinit != 0:
+                if evolinit - previousevolinit[symbol] >= pump_trigger:
                     if show_pumping:
-                        print(symbol, "seems pumping ?", "{:.4f}".format(evolinit / previousevolinit[symbol]), "%")
+                        print(symbol, "seems pumping ?", "{:.4f}".format(evolinit - previousevolinit[symbol]), "%")
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
             if show_growing:
