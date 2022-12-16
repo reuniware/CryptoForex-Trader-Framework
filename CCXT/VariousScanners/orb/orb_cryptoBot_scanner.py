@@ -1,4 +1,4 @@
-#Original work : 
+# Original work :
 # https://github.com/yulz008/orb_cryptoBot
 # This version is globalized to target all crypto assets available from Binance
 # This version does not trade (the original work trades BTCUSDT)
@@ -49,6 +49,10 @@ previous = {}
 previousevolinit = {}
 initialtime = {}
 
+show_growing = False
+show_pumping = True
+pump_trigger = 1.2  # If the evolution of price between 2 ticks is greater or equals to this value
+
 
 # Listen to Websocket for Price Change, OnTick
 def on_message(ws, message):
@@ -78,9 +82,14 @@ def on_message(ws, message):
         # print("evol init for", symbol, "=", evolinit)
 
         if evolinit > previousevolinit[symbol]:
+            if previousevolinit[symbol] != 0:
+                if evolinit / previousevolinit[symbol] >= pump_trigger:
+                    if show_pumping:
+                        print(symbol, "seems pumping ?")
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
-            print("growing", symbol, "{:.4f}".format(evolinit), "%", "avg evol per sec=", "{:.4f}".format(evolinit / elapsedseconds), "%")
+            if show_growing:
+                print("growing", symbol, "{:.4f}".format(evolinit), "%", "avg evol per sec=", "{:.4f}".format(evolinit / elapsedseconds), "%")
 
     else:
         previous[symbol] = close
@@ -92,11 +101,11 @@ def on_message(ws, message):
         try:
             y = price_action.open_range_breakout(message)
             if y == 11:
-                print(symbol, "LONG POSITION SIGNAL !", "TP=5%=", close+(close/100)*5, "SL=2%=", close-(close/100)*2)
-                log_to_results(symbol + " " + "LONG POSITION SIGNAL !" + " " + "TP=5%=" + " " + str(close+(close/100)*5)+ " " + "SL=2%=" + " " + str(close-(close/100)*2))
+                print(symbol, "LONG POSITION SIGNAL !", "TP=5%=", close + (close / 100) * 5, "SL=2%=", close - (close / 100) * 2)
+                log_to_results(symbol + " " + "LONG POSITION SIGNAL !" + " " + "TP=5%=" + " " + str(close + (close / 100) * 5) + " " + "SL=2%=" + " " + str(close - (close / 100) * 2))
             if y == 10:
-                print(symbol, "SHORT POSITION SIGNAL !", "TP=5%=", close-(close/100)*5, "SL=2%=", close+(close/100)*2)
-                log_to_results(symbol + " " + "SHORT POSITION SIGNAL !" + " " + "TP=5%=" + " " + str(close-(close/100)*5)+ " " + "SL=2%=" + " " + str(close+(close/100)*2))
+                print(symbol, "SHORT POSITION SIGNAL !", "TP=5%=", close - (close / 100) * 5, "SL=2%=", close + (close / 100) * 2)
+                log_to_results(symbol + " " + "SHORT POSITION SIGNAL !" + " " + "TP=5%=" + " " + str(close - (close / 100) * 5) + " " + "SL=2%=" + " " + str(close + (close / 100) * 2))
         except:
             print(sys.exc_info())
             sys.exit(-10003)
