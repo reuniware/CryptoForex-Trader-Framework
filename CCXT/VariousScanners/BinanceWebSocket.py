@@ -7,7 +7,7 @@ import websocket
 import ccxt
 
 import time
-from pa import Price_Action
+# from pa import Price_Action
 import os
 
 
@@ -22,7 +22,7 @@ def delete_results_log():
         os.remove("results.txt")
 
 
-price_action = Price_Action()
+# price_action = Price_Action()
 
 
 # Websocket Functions
@@ -83,18 +83,18 @@ def on_message(ws, message):
         previousevolinit[symbol] = 0
         initialtime[symbol] = time.time()
 
-    if is_candle_closed:
-        try:
-            y = price_action.open_range_breakout(message)
-            if y == 11:
-                print(symbol, "LONG POSITION SIGNAL !", "TP=5%=", close+(close/100)*5, "SL=2%=", close-(close/100)*2)
-                log_to_results(symbol + " " + "LONG POSITION SIGNAL !" + " " + "TP=5%=" + " " + str(close+(close/100)*5)+ " " + "SL=2%=" + " " + str(close-(close/100)*2))
-            if y == 10:
-                print(symbol, "SHORT POSITION SIGNAL !", "TP=5%=", close-(close/100)*5, "SL=2%=", close+(close/100)*2)
-                log_to_results(symbol + " " + "SHORT POSITION SIGNAL !" + " " + "TP=5%=" + " " + str(close-(close/100)*5)+ " " + "SL=2%=" + " " + str(close+(close/100)*2))
-        except:
-            print(sys.exc_info())
-            sys.exit(-10003)
+    # if is_candle_closed:
+    #     try:
+    #         y = price_action.open_range_breakout(message)
+    #         if y == 11:
+    #             print(symbol, "LONG POSITION SIGNAL !", "TP=5%=", close+(close/100)*5, "SL=2%=", close-(close/100)*2)
+    #             log_to_results(symbol + " " + "LONG POSITION SIGNAL !" + " " + "TP=5%=" + " " + str(close+(close/100)*5)+ " " + "SL=2%=" + " " + str(close-(close/100)*2))
+    #         if y == 10:
+    #             print(symbol, "SHORT POSITION SIGNAL !", "TP=5%=", close-(close/100)*5, "SL=2%=", close+(close/100)*2)
+    #             log_to_results(symbol + " " + "SHORT POSITION SIGNAL !" + " " + "TP=5%=" + " " + str(close-(close/100)*5)+ " " + "SL=2%=" + " " + str(close+(close/100)*2))
+    #     except:
+    #         print(sys.exc_info())
+    #         sys.exit(-10003)
 
 
 def scan_one(symbol):
