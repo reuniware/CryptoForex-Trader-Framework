@@ -75,6 +75,7 @@ def on_message(ws, message):
         if evolinit > previousevolinit[symbol]:
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
+            #todo : doit être une soustraction simple et non une division car on a des % dans chaque array
             print("growing", symbol, "{:.4f}".format(evolinit), "%", "avg evol per sec=", "{:.4f}".format(evolinit / elapsedseconds), "%")
 
     else:
