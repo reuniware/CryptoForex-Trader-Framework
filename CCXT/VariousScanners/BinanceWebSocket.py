@@ -11,12 +11,14 @@ import ccxt
 
 # Established connection to Websocket
 def on_open(ws):
-    print('opened connection')
+    # print('opened connection')
+    return
 
 
 # Terminate Connection to Websocket
 def on_close(ws):
-    print('closed connection')
+    # print('closed connection')
+    return
 
 
 # Listen to Websocket for Price Change, OnTick
@@ -68,7 +70,7 @@ def main_thread():
             active = oneline['active']
             if active is True:
                 nb_active_assets += 1
-                if nb_active_assets < 10:
+                if nb_active_assets < 10000:
                     print(symbol, end=' ')
                     t = threading.Thread(target=scan_one, args=(symbol.lower(),))
                     threads.append(t)
@@ -79,18 +81,6 @@ def main_thread():
     except:
         # print(sys.exc_info())
         exit(-10003)
-
-    # maxthreads = 50
-    # threadLimiter = threading.BoundedSemaphore(maxthreads)
-    # threads = []
-
-    # t = threading.Thread(target=scan_one, args=("xrpusdt",))
-    # threads.append(t)
-    # t.start()
-    #
-    # t = threading.Thread(target=scan_one, args=("btcusdt",))
-    # threads.append(t)
-    # t.start()
 
     for tt in threads:
         tt.join()
