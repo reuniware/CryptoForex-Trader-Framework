@@ -89,7 +89,18 @@ def on_message(ws, message):
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
             if show_growing:
-                print("growing", symbol, "{:.4f}".format(evolinit), "%", "avg evol per sec=", "{:.4f}".format(evolinit / elapsedseconds), "%")
+                print("growing up", symbol, "{:.4f}".format(evolinit), "%", "avg evol per sec=", "{:.4f}".format(evolinit / elapsedseconds), "%")
+
+        if evolinit < previousevolinit[symbol]:
+            if previousevolinit[symbol] != 0 and evolinit != 0:
+                if previousevolinit[symbol] - evolinit >= pump_trigger:
+                    if show_pumping:
+                        print(symbol, "seems dumping ?", "-" + "{:.4f}".format(previousevolinit[symbol] - evolinit), "%")
+            previousevolinit[symbol] = evolinit
+            elapsedseconds = time.time() - initialtime[symbol]
+            if show_growing:
+                print("growing down", symbol, "{:.4f}".format(evolinit), "%", "avg evol per sec=", "{:.4f}".format(evolinit / elapsedseconds), "%")
+
 
     else:
         previous[symbol] = close
