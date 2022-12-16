@@ -52,9 +52,9 @@ def on_message(ws, message):
             #print("evol for", symbol, "=", evol)
             print("evol init for", symbol, "=", evolinit)
         
-        if evol > previousevolinit[symbol]:
-            previousevolinit[symbol] = evol
-            print("growing", symbol, evol)
+        if evolinit > previousevolinit[symbol]:
+            previousevolinit[symbol] = evolinit
+            print("growing", symbol, evolinit)
 
     else:
         previous[symbol] = close
