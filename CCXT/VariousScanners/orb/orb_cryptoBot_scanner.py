@@ -105,8 +105,10 @@ previous = {}
 previousevolinit = {}
 initialtime = {}
 
-show_growing_up = True
-show_growing_down = True
+show_growing_up = False
+log_growing_up = True
+show_growing_down = False
+log_growing_down = True
 show_pumping = True
 pump_trigger = 0.30  # If the evolution (in %) of price between 2 ticks is greater or equals to this value
 show_dumping = True
@@ -150,9 +152,10 @@ def on_message(ws, message):
                         log_to_pumps_and_dumps(str_to_log)
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
+            str_to_log = "growing up" + " " + symbol + " " + "{:.4f}".format(evolinit) + " " + "%" + " " + "avg evol per sec=" + " " + "{:.4f}".format(evolinit / elapsedseconds) + " " + "%"
             if show_growing_up:
-                str_to_log = "growing up" + " " + symbol + " " + "{:.4f}".format(evolinit) + " " + "%" + " " + "avg evol per sec=" + " " + "{:.4f}".format(evolinit / elapsedseconds) + " " + "%"
                 print(str_to_log)
+            if log_growing_up:
                 log_to_growing_up(str_to_log)
 
         elif evolinit < previousevolinit[symbol]:
@@ -165,9 +168,10 @@ def on_message(ws, message):
                         log_to_pumps_and_dumps(str_to_log)
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
+            str_to_log = "growing down" + " " + symbol + " " + "{:.4f}".format(evolinit) + " " + "%" + " " + "avg evol per sec=" + " " + "{:.4f}".format(evolinit / elapsedseconds) + " " + "%"
             if show_growing_down:
-                str_to_log = "growing down" + " " + symbol + " " + "{:.4f}".format(evolinit) + " " + "%" + " " + "avg evol per sec=" + " " + "{:.4f}".format(evolinit / elapsedseconds) + " " + "%"
                 print(str_to_log)
+            if log_growing_down:
                 log_to_growing_down(str_to_log)
 
 
