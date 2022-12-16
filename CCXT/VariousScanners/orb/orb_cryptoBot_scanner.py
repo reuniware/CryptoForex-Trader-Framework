@@ -152,7 +152,7 @@ def on_message(ws, message):
                         log_to_pumps_and_dumps(str_to_log)
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
-            str_to_log = "growing up" + " " + symbol + " " + "{:.4f}".format(evolinit) + " " + "%" + " " + "avg evol per sec=" + " " + "{:.4f}".format(evolinit / elapsedseconds) + " " + "%"
+            str_to_log = "growing up" + " " + symbol + " " + str(close) +  + " " + "{:.4f}".format(evolinit) + " " + "%" + " " + "avg evol per sec=" + " " + "{:.4f}".format(evolinit / elapsedseconds) + " " + "%"
             if show_growing_up:
                 print(str_to_log)
             if log_growing_up:
@@ -168,7 +168,7 @@ def on_message(ws, message):
                         log_to_pumps_and_dumps(str_to_log)
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
-            str_to_log = "growing down" + " " + symbol + " " + "{:.4f}".format(evolinit) + " " + "%" + " " + "avg evol per sec=" + " " + "{:.4f}".format(evolinit / elapsedseconds) + " " + "%"
+            str_to_log = "growing down" + " " + symbol + " " + str(close) + " " + "{:.4f}".format(evolinit) + " " + "%" + " " + "avg evol per sec=" + " " + "{:.4f}".format(evolinit / elapsedseconds) + " " + "%"
             if show_growing_down:
                 print(str_to_log)
             if log_growing_down:
