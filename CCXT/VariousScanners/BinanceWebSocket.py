@@ -6,6 +6,7 @@ import json
 import websocket
 import ccxt
 
+import time
 
 # Websocket Functions
 
@@ -23,6 +24,7 @@ def on_close(ws):
 initial = {}
 previous = {}
 previousevolinit = {}
+initialtime = {}
 
 # Listen to Websocket for Price Change, OnTick
 def on_message(ws, message):
@@ -48,18 +50,19 @@ def on_message(ws, message):
         evol = (close - previousclose)/previousclose*100
         evolinit = (close - initialclose)/initialclose*100
         #print(symbol, "is in previous", previousclose, close)
-        if evolinit>1:
-            #print("evol for", symbol, "=", evol)
-            print("evol init for", symbol, "=", evolinit)
+        #if evolinit>1:
+            #print("evol init for", symbol, "=", evolinit)
         
         if evolinit > previousevolinit[symbol]:
             previousevolinit[symbol] = evolinit
-            print("growing", symbol, evolinit)
+            elapsedseconds = time.time() - initialtime[symbol]
+            print("growing", symbol, evolinit, "avg evol per sec=", evolinit/elapsedseconds)
 
     else:
         previous[symbol] = close
         initial[symbol] = close
         previousevolinit[symbol] = 0
+        initialtime[symbol] = time.time()
 
     
     
