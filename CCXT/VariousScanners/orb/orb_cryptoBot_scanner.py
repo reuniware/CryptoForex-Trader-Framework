@@ -3,6 +3,8 @@
 # This version is globalized to target all crypto assets available from Binance
 # This version does not trade (the original work trades BTCUSDT)
 
+#https://herrmann.tech/en/blog/2021/02/05/how-to-deal-with-international-data-formats-in-python.html
+
 # pip install websocket-client
 import sys
 import threading
