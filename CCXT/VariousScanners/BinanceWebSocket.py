@@ -20,10 +20,12 @@ def on_close(ws):
     # print('closed connection')
     return
 
+initial = {}
+previous = {}
 
 # Listen to Websocket for Price Change, OnTick
 def on_message(ws, message):
-    global closes
+    global closes, totalevol
     json_message = json.loads(message)
 
     # captures the OHLC of the streamed message
@@ -34,10 +36,27 @@ def on_message(ws, message):
     is_candle_closed = candle['x']
 
     # captures the closing price
-    close = candle['c']
+    close = float(candle['c'])
 
     # print ticker price
-    print(symbol, 'ticker price:', close)
+    #print(symbol, 'ticker price:', close)
+
+    if symbol in previous:
+        previousclose = previous[symbol]
+        initialclose = initial[symbol]
+        evol = (close - previousclose)/previousclose*100
+        evolinit = (close - initialclose)/initialclose*100
+        #print(symbol, "is in previous", previousclose, close)
+        if evolinit>0.25:
+            #print("evol for", symbol, "=", evol)
+            print("evol init for", symbol, "=", evolinit)
+
+    else:
+        previous[symbol] = close
+        initial[symbol] = close
+
+    
+    
 
 
 def scan_one(symbol):
@@ -70,8 +89,8 @@ def main_thread():
             active = oneline['active']
             if active is True:
                 nb_active_assets += 1
-                if nb_active_assets < 10000:
-                    print(symbol, end=' ')
+                if nb_active_assets < 10000 and symbol.endswith("USDT"):
+                    #print(symbol, end=' ')
                     t = threading.Thread(target=scan_one, args=(symbol.lower(),))
                     threads.append(t)
                     t.start()
