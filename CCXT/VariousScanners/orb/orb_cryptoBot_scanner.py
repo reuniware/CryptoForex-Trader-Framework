@@ -122,7 +122,7 @@ def on_message(ws, message):
             if previousevolinit[symbol] != 0 and evolinit != 0:
                 if evolinit - previousevolinit[symbol] >= pump_trigger:
                     if show_pumping:
-                        str_to_log = str(datetime.now()) + " " + symbol + " " + "seems pumping ?" + " " + "{:.4f}".format(evolinit - previousevolinit[symbol]) + " " + "%"
+                        str_to_log = str(datetime.now()) + " " + symbol + " "  + str(close) + " " + "seems pumping ?" + " " + "{:.4f}".format(evolinit - previousevolinit[symbol]) + " " + "%"
                         print(str_to_log)
                         log_to_pumps(str_to_log)
                         log_to_pumps_and_dumps(str_to_log)
@@ -135,7 +135,7 @@ def on_message(ws, message):
             if previousevolinit[symbol] != 0 and evolinit != 0:
                 if previousevolinit[symbol] - evolinit >= dump_trigger:
                     if show_dumping:
-                        str_to_log = str(datetime.now()) + " " + symbol + " " + "seems dumping ?" + " " + "-" + "{:.4f}".format(previousevolinit[symbol] - evolinit) + " " + "%"
+                        str_to_log = str(datetime.now()) + " " + symbol + " "  + str(close) + " " + "seems dumping ?" + " " + "-" + "{:.4f}".format(previousevolinit[symbol] - evolinit) + " " + "%"
                         print(str_to_log)
                         log_to_dumps(str_to_log)
                         log_to_pumps_and_dumps(str_to_log)
@@ -175,7 +175,7 @@ def main_thread():
     delete_results_log()
     delete_results_log_pumps()
     delete_results_log_dumps()
-    delete_results_log_pumps_and_dumps
+    delete_results_log_pumps_and_dumps()
 
     exchanges = {}  # a placeholder for your instances
     for id in ccxt.exchanges:
