@@ -339,13 +339,19 @@ def check_timeframe_up(symbol, tf):
     evol = "{:.4f}".format(evol)
 
     if price_open < kijun and price_close > kijun:
-        print("(UPTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "getting above its kijun in" + ";" + tf + ";" + str(evol))
+        str_to_log = "(UPTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "getting above its kijun in" + ";" + tf + ";" + str(evol)
+        print(str_to_log)
+        log_to_results(str_to_log)
 
     if price_open < tenkan and price_close > tenkan:
-        print("(UPTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "getting above its tenkan in" + ";" + tf + ";" + str(evol))
+        str_to_log = "(UPTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "getting above its tenkan in" + ";" + tf + ";" + str(evol)
+        print(str_to_log)
+        log_to_results(str_to_log)
 
     if price_open < ssb and price_close > ssb:
-        print("(UPTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "getting above its ssb in" + ";" + tf + ";" + str(evol))
+        str_to_log = "(UPTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "getting above its ssb in" + ";" + tf + ";" + str(evol)
+        print(str_to_log)
+        log_to_results(str_to_log)
 
     #if price_close1 > price_open1:
     if price_close1 > ssa1 and price_close1 > ssb1 and price_close1 > tenkan1 and price_close1 > kijun1:
@@ -416,13 +422,19 @@ def check_timeframe_down(symbol, tf):
     evol = "{:.4f}".format(evol)
 
     if price_open > kijun and price_close < kijun:
-        print("(DOWNTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "getting below its kijun in" + ";" + tf + ";" + str(evol))
+        str_to_log = "(DOWNTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "getting below its kijun in" + ";" + tf + ";" + str(evol)
+        print(str_to_log)
+        log_to_results(str_to_log)
 
     if price_open > tenkan and price_close < tenkan:
-        print("(DOWNTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "getting below its tenkan in" + ";" + tf + ";" + str(evol))
+        str_to_log = "(DOWNTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "getting below its tenkan in" + ";" + tf + ";" + str(evol)
+        print(str_to_log)
+        log_to_results(str_to_log)
 
     if price_open > ssb and price_close < ssb:
-        print("(DOWNTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "getting below its ssb in" + ";" + tf + ";" + str(evol))
+        str_to_log = "(DOWNTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "getting below its ssb in" + ";" + tf + ";" + str(evol)
+        print(str_to_log)
+        log_to_results(str_to_log)
 
     if price_close1 < ssa1 and price_close1 < ssb1 and price_close1 < tenkan1 and price_close1 < kijun1:
         if chikou1 < ssa_chikou1 and chikou1 < ssb_chikou1 and chikou1 < tenkan_chikou1 and chikou1 < kijun_chikou1:
