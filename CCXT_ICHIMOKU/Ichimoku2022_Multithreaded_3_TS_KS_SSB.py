@@ -361,7 +361,7 @@ def check_timeframe_up(symbol, tf):
                     if chikou > ssa_chikou and chikou > ssb_chikou and chikou > tenkan_chikou and chikou > kijun_chikou:
                         percent = (price_close1 - price_open1) / price_open1 * 100
                         #print("(UPTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1) + ";" + str(price_open1) + ";" + "{:.4f}".format(percent), "%")
-                        log_to_results("(UPTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
+                        #log_to_results("(UPTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
                         return True
 
 
@@ -443,7 +443,7 @@ def check_timeframe_down(symbol, tf):
                     if chikou < ssa_chikou and chikou < ssb_chikou and chikou < tenkan_chikou and chikou < kijun_chikou:
                         percent = (price_close1 - price_open1) / price_open1 * 100
                         #print("(DOWNTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1) + ";" + str(price_open1) + ";" + "{:.4f}".format(percent), "%")
-                        log_to_results("(DOWNTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
+                        #log_to_results("(DOWNTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + tf + ";" + str(price_close1).replace(".", ",") + ";" + str(price_open1).replace(".", ",") + ";" + "{:.4f}".format(percent).replace(".", ",") + "%")
                         return True
 
 
