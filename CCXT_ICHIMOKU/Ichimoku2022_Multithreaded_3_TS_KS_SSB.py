@@ -1,6 +1,6 @@
 # Ichimoku Scanner for Traders 3.0 (Inelida Scanner for Traders)
 # Example of use : python Ichimoku2022_Multithreaded_2.py -e bybit -f *usdt -tf 1h,15m -l -up -down
-# In this case it will scan for all assets on Bybit that ends with "usdt" and that are fully validated on 1h and 15m timeframes
+# In this case it will scan for all assets on Bybit that ends with "usdt" and logs those who are getting above/below their ts/ks/ssb
 # And will scan in loop and for uptrend and downtrend
 
 import sys
