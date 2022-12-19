@@ -343,7 +343,7 @@ def check_timeframe_up(symbol, tf):
 
     if scan_ts_ks_ssb:
         evol = (price_close - price_open)/price_open*100
-        evol = "{:.4f}".format(evol)
+        evol = "{:.4f}".format(evol).replace(".", ",")
 
         if price_open < kijun and price_close > kijun:
             str_to_log = "(UPTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "getting above its KIJUN in" + ";" + tf + ";" + str(evol)
@@ -439,7 +439,7 @@ def check_timeframe_down(symbol, tf):
 
     if scan_ts_ks_ssb:
         evol = (price_close - price_open)/price_open*100
-        evol = "{:.4f}".format(evol)
+        evol = "{:.4f}".format(evol).replace(".", ",")
 
         if price_open > kijun and price_close < kijun:
             str_to_log = "(DOWNTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "getting below its KIJUN in" + ";" + tf + ";" + str(evol)
