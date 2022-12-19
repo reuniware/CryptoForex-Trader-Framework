@@ -384,6 +384,19 @@ def check_timeframe_up(symbol, tf):
             print(str_to_log)
             log_to_results(str_to_log)
 
+        if price_open_chikou1 < kijun_chikou1 and price_close_chikou1 > kijun_chikou1:
+            str_to_log = "(UPTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "CS has got above its KIJUN in" + ";" + tf + ";" + str(evol)
+            print(str_to_log)
+            log_to_results(str_to_log)
+        if price_open_chikou1 < tenkan_chikou1 and price_close_chikou1 > tenkan1:
+            str_to_log = "(UPTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "CS has got above its TENKAN in" + ";" + tf + ";" + str(evol)
+            print(str_to_log)
+            log_to_results(str_to_log)
+        if price_open_chikou1 < ssb_chikou1 and price_close_chikou1 > ssb_chikou1:
+            str_to_log = "(UPTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "CS has got above its SSB in" + ";" + tf + ";" + str(evol)
+            print(str_to_log)
+            log_to_results(str_to_log)
+
     if scan_validated_up_or_down:
         #if price_close1 > price_open1:
         if price_close1 > ssa1 and price_close1 > ssb1 and price_close1 > tenkan1 and price_close1 > kijun1:
@@ -490,6 +503,19 @@ def check_timeframe_down(symbol, tf):
             log_to_results(str_to_log)
         if price_open1 > ssb1 and price_close1 < ssb1:
             str_to_log = "(DOWNTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "has got below its SSB in" + ";" + tf + ";" + str(evol)
+            print(str_to_log)
+            log_to_results(str_to_log)
+
+        if price_open_chikou1 > kijun_chikou1 and price_close_chikou1 < kijun_chikou1:
+            str_to_log = "(DOWNTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "CS has got below its KIJUN in" + ";" + tf + ";" + str(evol)
+            print(str_to_log)
+            log_to_results(str_to_log)
+        if price_open_chikou1 > tenkan_chikou1 and price_close_chikou1 < tenkan_chikou1:
+            str_to_log = "(DOWNTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "CS has got below its TENKAN in" + ";" + tf + ";" + str(evol)
+            print(str_to_log)
+            log_to_results(str_to_log)
+        if price_open_chikou1 > ssb_chikou1 and price_close_chikou1 < ssb_chikou1:
+            str_to_log = "(DOWNTREND)" + ";" + str(datetime.now()).split('.')[0] + ";" + symbol + ";" + "CS has got below its SSB in" + ";" + tf + ";" + str(evol)
             print(str_to_log)
             log_to_results(str_to_log)
 
