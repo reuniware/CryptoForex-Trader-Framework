@@ -154,6 +154,7 @@ parser.add_argument('-iutc', '--is-under-the-cloud', action='store_true',
 parser.add_argument('-t', '--trending', action='store_true',
                     help="scan for trending assets (that are ok in at least 1m or 3m or 5m or 15m) ; only these will be written to the results log file")
 parser.add_argument('-l', '--loop', action='store_true', help="scan in loop (useful for continually scan one asset or a few ones)")
+parser.add_argument('-d', '--down', action='store_true', help="search for assets that are downtrend (default search is uptrend)")
 
 args = parser.parse_args()
 print("args.exchange =", args.exchange)
@@ -177,8 +178,9 @@ print("args.is-over-the-cloud", args.getting_over_the_cloud)
 print("args.is-under-the-cloud", args.getting_under_the_cloud)
 print("args.trending", args.trending)
 print("args.loop", args.loop)
+print("agrs.down", args.down)
 
-print("INELIDA Scanner v1.0 - http://www.ichimokuscanner.com")
+print("INELIDA Scanner v1.1 - https://twitter.com/IchimokuTrader")
 print("Scan started at :", str(datetime.now()))
 
 # if a debugger is attached then set arbitrary arguments for debugging (exchange...)
@@ -254,6 +256,9 @@ trending = args.trending
 print("trending=", trending)
 
 loop_scan = args.loop
+
+down = args.down
+print("down=", down)
 
 # end of arguments parsing here
 
@@ -435,9 +440,16 @@ def execute_code(symbol, type_of_asset, exchange_id):
             elif is_under_the_cloud is True:
                 condition = (price_open < ssa and price_close < ssa and price_open < ssb and price_close < ssb)
             else:
-                condition = price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
-                            and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
-                            and chikou > tenkan_chikou and chikou > kijun_chikou
+                # DEFAULT CONDITION
+                if down == False:
+                    condition = price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun \
+                                and chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou \
+                                and chikou > tenkan_chikou and chikou > kijun_chikou
+                else:
+                    condition = price_close < ssa and price_close < ssb and price_close < tenkan and price_close < kijun \
+                                and chikou < ssa_chikou and chikou < ssb_chikou and chikou < price_high_chikou \
+                                and chikou < tenkan_chikou and chikou < kijun_chikou
+
 
             if chikou_validated_up is True:
                 condition = condition and (chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou and chikou > tenkan_chikou and chikou > kijun_chikou)
@@ -713,9 +725,9 @@ def main_thread():
         #Renaming the results.txt file to a timestamped one
         currentDateAndTime = datetime.now()
         stryear = format(currentDateAndTime.year, '04')
-        strmonth = format(currentDateAndTime.month, '02') 
+        strmonth = format(currentDateAndTime.month, '02')
         strday = format(currentDateAndTime.day, '02')
-        strhour = format(currentDateAndTime.hour, '02') 
+        strhour = format(currentDateAndTime.hour, '02')
         strmin = format(currentDateAndTime.minute, '02')
 
         newfilename = stryear + strmonth + strday + strhour + strmin + "_scan_" + exchange_id
