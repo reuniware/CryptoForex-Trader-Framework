@@ -12,3 +12,4 @@ pip install requests_html
 pip install pandas-datareader
 pip install yfinance
 pip install websocket-client
+pip install yahoofinancials
