@@ -34,6 +34,9 @@ try:
             symbol_df = symbol_df.drop('date', axis=1).set_index('formatted_date')
             #symbol_df.head()
             #print(symbol_df)
-            print("data downloaded for", symbol)
+            close_price = symbol_df.iloc[-1]['close']
+            open_price = symbol_df.iloc[-1]['open']
+            current_day_evol = (close_price - open_price)/open_price*100
+            print("data downloaded for", symbol, current_day_evol, "%")
 except:
     print("end of getting cryptos from yf")
