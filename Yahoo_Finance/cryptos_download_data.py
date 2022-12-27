@@ -9,6 +9,7 @@ import numpy as np
 from yahoofinancials import YahooFinancials
 import datetime
 from datetime import timedelta
+import yfinance as yf
 
 # crypto_codes = yf.symbols("crypto")
 # print(yf.Tickers("crypto"))
@@ -32,7 +33,6 @@ month = '{:02d}'.format(start_date.month)
 day = '{:02d}'.format(start_date.day)
 start_date_str = year + "-" + month + "-" + day
 
-
 session = HTMLSession()
 num_currencies = 250
 try:
@@ -49,12 +49,15 @@ try:
             data = yahoo_financials.get_historical_price_data(start_date_str, end_date_str, "daily")  # daily weekly monthly
             symbol_df = pd.DataFrame(data[symbol]['prices'])
             symbol_df = symbol_df.drop('date', axis=1).set_index('formatted_date')
-            #symbol_df.head()
-            #print(symbol_df)
+            # symbol_df.head()
+            # print(symbol_df)
             close_price = symbol_df.iloc[-1]['close']
             open_price = symbol_df.iloc[-1]['open']
-            current_day_evol = (close_price - open_price)/open_price*100
-            print("data downloaded for", symbol, current_day_evol, "%")
+            current_day_evol = (close_price - open_price) / open_price * 100
+            if current_day_evol > 5:
+                print("data downloaded for", symbol, current_day_evol, "%")
+            # data = yf.download(tickers=symbol, period='10d', interval='15m')
+            # print(data)
             time.sleep(0.25)
 except:
     print(sys.exc_info())
