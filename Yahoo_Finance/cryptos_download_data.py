@@ -33,6 +33,7 @@ month = '{:02d}'.format(start_date.month)
 day = '{:02d}'.format(start_date.day)
 start_date_str = year + "-" + month + "-" + day
 
+dict_evol = {}
 session = HTMLSession()
 num_currencies = 250
 try:
@@ -54,11 +55,17 @@ try:
             close_price = symbol_df.iloc[-1]['close']
             open_price = symbol_df.iloc[-1]['open']
             current_day_evol = (close_price - open_price) / open_price * 100
-            if current_day_evol > 5:
-                print("data downloaded for", symbol, current_day_evol, "%")
+            print("data downloaded for", symbol, current_day_evol, "%")
             # data = yf.download(tickers=symbol, period='10d', interval='15m')
             # print(data)
+
+            dict_evol[symbol] = current_day_evol
+
             time.sleep(0.25)
+
 except:
     print(sys.exc_info())
     print("end of getting cryptos from yf")
+
+for k in sorted(dict_evol, key=lambda k: dict_evol[k]):
+    print(k, dict_evol[k])
