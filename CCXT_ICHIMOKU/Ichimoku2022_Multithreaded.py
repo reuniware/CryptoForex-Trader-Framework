@@ -519,14 +519,14 @@ def execute_code(symbol, type_of_asset, exchange_id):
             nspaces = 175 - len(str_to_log + " " + "(trending?)" + " " + str_link)
             print(str_to_log + nspaces * " " + "(trending?)" + " " + str_link)
         elif trending == False:
-            print(str_to_log + " " + str_link)
+            print(str_to_log + "\t\t" + str_link)
 
         # print(str_to_log + " " + "[Scoring = " + binary_result + " " + str(len(binary_result)) + str(int("".join(reversed(binary_result)), 2)) + "]")
         if percent_evol_1d > highest_percent_evol:
             highest_percent_evol = percent_evol_1d
-            str_to_log += " *** new highest evol in %"
+            #str_to_log += " *** new highest evol in %"
 
-        log_to_results_temp(str_to_log, exchange_id)
+        log_to_results_temp(str_to_log + "\t\t" + str_link, exchange_id)
 
         # we reverse binary_result (higher timeframes have more importance than lower timeframes, for sorting, and tf scanning start with lower timeframes...)
         dict_results_binary[key] = str_to_log + " #" + "".join(reversed(binary_result))
@@ -704,7 +704,11 @@ def main_thread():
         for k in sorted(dict_results_binary, key=lambda k: int(dict_results_binary[k].split("#")[1], 2)):
             symbol = k.split(" ")[0]
             #str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-", "").replace("/", "")
-            str_link = ""
+            #str_link = ""
+            if exchange_id.upper() == "BYBIT":
+                str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol + ".P"
+            else:
+                str_link = ""
 
             value = dict_results_binary[k]
             nspaces = 175 - len(str_link) - len(k + " " + dict_results_binary[k].split("#")[0])
