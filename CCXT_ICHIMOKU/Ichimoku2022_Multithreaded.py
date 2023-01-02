@@ -510,8 +510,10 @@ def execute_code(symbol, type_of_asset, exchange_id):
             key] + " " + s_percent_evol_1d + " [price = " + s_price_close_1d + "]"
 
         symbol = key.split(" ")[0]
-        #str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol.replace("-",
-        str_link = ""
+        if exchange_id.upper() == "BYBIT":
+            str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol + ".P"
+        else:
+            str_link = ""
         value = dict_results[key]
         if trending == True and ("1m" in value or "3m" in value or "5m" in value or "15m" in value):
             nspaces = 175 - len(str_to_log + " " + "(trending?)" + " " + str_link)
