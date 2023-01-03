@@ -87,6 +87,20 @@ def delete_results_log_growing_down():
 
 price_action = Price_Action()
 
+exchanges = {}  # a placeholder for your instances
+for id in ccxt.exchanges:
+    exchange = getattr(ccxt, id)
+    exchanges[id] = exchange()
+    # print(exchanges[id])
+    try:
+        ex = exchanges[id]
+        # markets = ex.fetch_markets()
+        # print(markets)
+    except:
+        exit(-1)
+
+exchange = exchanges["bybit"]
+
 
 # Websocket Functions
 
@@ -119,8 +133,11 @@ dump_trigger = 0.30  # If the evolution (in %) of price between 2 ticks is great
 
 # Listen to Websocket for Price Change, OnTick
 def on_message(ws, message):
+    global exchange
+
     global closes, totalevol
     json_message = json.loads(message)
+
 
     # captures the OHLC of the streamed message
     candle = json_message['k']
@@ -143,38 +160,42 @@ def on_message(ws, message):
         # print(symbol, "is in previous", previousclose, close)
         # if evolinit>1:
         # print("evol init for", symbol, "=", evolinit)
+        if exchange.id.upper() == "BYBIT":
+            str_link = "https://tradingview.com/chart/?symbol=" + exchange.id.upper() + ":" + symbol + ".P"
+        else:
+            str_link = ""
 
         if evolinit > previousevolinit[symbol]:
             if previousevolinit[symbol] != 0 and evolinit != 0:
                 if evolinit - previousevolinit[symbol] >= pump_trigger:
                     if show_pumping:
                         str_to_log = str(datetime.now()) + " " + symbol + " "  + str(close) + " " + "seems pumping ?" + " " + "{:.4f}".format(evolinit - previousevolinit[symbol]) + " " + "%"
-                        print(str_to_log)
-                        log_to_pumps(str_to_log)
-                        log_to_pumps_and_dumps(str_to_log)
+                        print(str_to_log, str_link)
+                        log_to_pumps(str_to_log + " " + str_link)
+                        log_to_pumps_and_dumps(str_to_log + " " + str_link)
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
             str_to_log = "growing up" + " " + symbol + " " + str(close) + " " + "initprice=" + " " + str(initial[symbol]) + " " + "{:.4f}".format(evolinit) + " " + "%" + " " + "avg_evol_per_sec=" + " " + "{:.4f}".format(evolinit / elapsedseconds) + " " + "%"
             if show_growing_up:
-                print(str_to_log)
+                print(str_to_log, str_link)
             if log_growing_up:
-                log_to_growing_up(str_to_log)
+                log_to_growing_up(str_to_log + " " + str_link)
 
         elif evolinit < previousevolinit[symbol]:
             if previousevolinit[symbol] != 0 and evolinit != 0:
                 if previousevolinit[symbol] - evolinit >= dump_trigger:
                     if show_dumping:
                         str_to_log = str(datetime.now()) + " " + symbol + " "  + str(close) + " " + "seems dumping ?" + " " + "-" + "{:.4f}".format(previousevolinit[symbol] - evolinit) + " " + "%"
-                        print(str_to_log)
-                        log_to_dumps(str_to_log)
-                        log_to_pumps_and_dumps(str_to_log)
+                        print(str_to_log, str_link)
+                        log_to_dumps(str_to_log + " " + str_link)
+                        log_to_pumps_and_dumps(str_to_log + " " + str_link)
             previousevolinit[symbol] = evolinit
             elapsedseconds = time.time() - initialtime[symbol]
             str_to_log = "growing down" + " " + symbol + " " + str(close) + " " + "initprice=" + " " + str(initial[symbol]) + " " + "{:.4f}".format(evolinit) + " " + "%" + " " + "avg_evol_per_sec=" + " " + "{:.4f}".format(evolinit / elapsedseconds) + " " + "%"
             if show_growing_down:
-                print(str_to_log)
+                print(str_to_log, str_link)
             if log_growing_down:
-                log_to_growing_down(str_to_log)
+                log_to_growing_down(str_to_log + " " + str_link)
 
 
     else:
@@ -203,7 +224,10 @@ def scan_one(symbol):
     ws.run_forever()
 
 
+
 def main_thread():
+    global exchange
+
     delete_results_log()
     delete_results_log_pumps()
     delete_results_log_dumps()
@@ -211,21 +235,8 @@ def main_thread():
     delete_results_log_growing_up()
     delete_results_log_growing_down()
 
-    exchanges = {}  # a placeholder for your instances
-    for id in ccxt.exchanges:
-        exchange = getattr(ccxt, id)
-        exchanges[id] = exchange()
-        # print(exchanges[id])
-        try:
-            ex = exchanges[id]
-            # markets = ex.fetch_markets()
-            # print(markets)
-        except:
-            exit(-1)
-
     threads = []
 
-    exchange = exchanges["binance"]
     try:
         markets = exchange.fetch_markets()
         nb_active_assets = 0
