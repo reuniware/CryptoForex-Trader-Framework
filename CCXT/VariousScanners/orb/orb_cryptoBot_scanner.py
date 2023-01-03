@@ -1,6 +1,6 @@
 # Original work :
 # https://github.com/yulz008/orb_cryptoBot
-# This version is globalized to target all crypto assets available from Binance
+# This version is globalized to target all crypto assets available from Binance/Bybit (or any other one managed by CCXT)
 # This version does not trade (the original work trades BTCUSDT)
 
 #https://herrmann.tech/en/blog/2021/02/05/how-to-deal-with-international-data-formats-in-python.html
