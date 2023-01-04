@@ -445,9 +445,11 @@ def execute_code(symbol, type_of_asset, exchange_id):
                 if all_tf_ok:
                     #beep.beep(3)
                     price_evol = get_price_evol(symbol, price_close)
-                    str_to_log = "(DOWNTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now()) + " ; Current price = " + str(price_close) + " ; Price evol = " + "{:.4f}".format(price_evol)
-                    print(str_to_log)
-                    log_to_results(str_to_log)
+                    str_to_log = "(DOWNTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now()).split('.')[0] + " ; Current price = " + str(price_close) + " ; Price evol = " + "{:.4f}".format(price_evol)
+                    if exchange_id.upper() == "BYBIT":
+                        str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol + ".P"
+                    print(str_to_log, str_link)
+                    log_to_results(str_to_log + " " + str_link)
 
             if "up" in scantype:
                 #print("scanning up")
@@ -462,8 +464,10 @@ def execute_code(symbol, type_of_asset, exchange_id):
                     #beep.beep(3)
                     price_evol = get_price_evol(symbol, price_close)
                     str_to_log = "(UPTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now()) + " ; Current price = " + str(price_close)  + " ; Price evol = " + "{:.4f}".format(price_evol)
-                    print(str_to_log)
-                    log_to_results(str_to_log)
+                    if exchange_id.upper() == "BYBIT":
+                        str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol + ".P"
+                    print(str_to_log, str_link)
+                    log_to_results(str_to_log + " " + str_link)
 
 
         except:
@@ -566,8 +570,11 @@ def main_thread():
 
     while True:
         for oneline in markets:
+            #print(oneline)
             symbol = oneline['id']
             active = oneline['active']
+            contract = oneline['contract']
+            stype = oneline['type']
             type_of_asset = oneline['type']
             exchange_id = exchange.id.lower()
             base = oneline['base']  # eg. BTC/USDT => base = BTC
@@ -586,7 +593,7 @@ def main_thread():
                         or symbol.endswith('BVOL/USDT') or symbol.endswith('BVOL/USD'):
                     continue
 
-            condition_ok = active and filter_assets in symbol
+            condition_ok = active and filter_assets in symbol and stype == "swap"
             if filter_assets.startswith("*"):
                 new_filter_assets = filter_assets.replace("*", "")
                 new_filter_assets = new_filter_assets.upper()
