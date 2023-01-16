@@ -1,7 +1,7 @@
-#Ichimoku Scanner for Traders 1.0 (Inelida Scanner for Traders)
-#Example of use : python Ichimoku2022_Multithreaded_2.py -e bybit -f *usdt -tf 1h,15m -l -up -down
-#In this case it will scan for all assets on Bybit that ends with "usdt" and that are fully validated on 1h and 15m timeframes
-#And will scan in loop and for uptrend and downtrend
+# Ichimoku Scanner for Traders 1.0 (Inelida Scanner for Traders)
+# Example of use : python Ichimoku2022_Multithreaded_2.py -e bybit -f *usdt -tf 1h,15m -l -up -down
+# In this case it will scan for all assets on Bybit that ends with "usdt" and that are fully validated on 1h and 15m timeframes
+# And will scan in loop and for uptrend and downtrend
 
 import sys
 
@@ -15,12 +15,40 @@ import ta
 import argparse
 import signal
 import beepy as beep
+import tweepy
 
 from datetime import date
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 pd.set_option('display.expand_frame_repr', True)
+
+enable_tweet = True
+
+
+def tweet(str_to_tweet):
+    if enable_tweet is False:
+        return
+
+    twitter_auth_keys = {
+        "consumer_key": "replaceme",
+        "consumer_secret": "replaceme",
+        "access_token": "replaceme",
+        "access_token_secret": "replaceme"
+    }
+
+    auth = tweepy.OAuthHandler(
+        twitter_auth_keys['consumer_key'],
+        twitter_auth_keys['consumer_secret']
+    )
+    auth.set_access_token(
+        twitter_auth_keys['access_token'],
+        twitter_auth_keys['access_token_secret']
+    )
+    api = tweepy.API(auth)
+
+    tweet = str_to_tweet
+    status = api.update_status(status=tweet)
 
 
 def signal_handler(sig, frame):
@@ -128,10 +156,13 @@ parser.add_argument('-g', '--get-exchanges', action='store_true', help="get list
 parser.add_argument('-a', '--get-assets', action='store_true', help="get list of available assets")
 parser.add_argument('-f', '--filter-assets', help="assets filter")
 parser.add_argument('-r', '--retry', action='store_true', help="retry until exchange is available (again)")
-parser.add_argument('-l', '--loop', action='store_true', help="scan in loop (useful for continually scan one asset or a few ones)")
-parser.add_argument('-tf', '--timeframes', help="the timeframe to scan for Ichimoku validations (separated by ',' if more than one)")
+parser.add_argument('-l', '--loop', action='store_true',
+                    help="scan in loop (useful for continually scan one asset or a few ones)")
+parser.add_argument('-tf', '--timeframes',
+                    help="the timeframe to scan for Ichimoku validations (separated by ',' if more than one)")
 parser.add_argument('-up', '--up', action='store_true', help="scan for uptrend validations (default is up and down)")
-parser.add_argument('-down', '--down', action='store_true', help="scan for downtrend validations (default is up and down)")
+parser.add_argument('-down', '--down', action='store_true',
+                    help="scan for downtrend validations (default is up and down)")
 
 args = parser.parse_args()
 print("args.exchange =", args.exchange)
@@ -152,7 +183,7 @@ if sys.gettrace() is not None:
     args.exchange = "bybit"
     args.filter_assets = "*usdt"  # "BTCPERP"
     args.loop = True
-    args.timeframes = "1m,3m,5m,15m,1h"
+    args.timeframes = "5m,15m,1h"
     args.up = True
     args.down = True
 
@@ -211,7 +242,6 @@ for tf in x:
     array_tf.add(tf)
 scan_up = args.up
 scan_down = args.down
-
 
 # end of arguments parsing here
 
@@ -294,9 +324,11 @@ def check_timeframe_up(symbol, tf):
             pass  # print(symbol, tf, "******** is over the kijun")
             if (price_close > tenkan):
                 pass  # print(symbol, tf, "************ is over the tenkan")
-                if (chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou and chikou > tenkan_chikou and chikou > kijun_chikou):
+                if (
+                        chikou > ssa_chikou and chikou > ssb_chikou and chikou > price_high_chikou and chikou > tenkan_chikou and chikou > kijun_chikou):
                     pass  # print(symbol, tf, "**************** has chikou validated")
-                    if (price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun and price_close > price_open):
+                    if (
+                            price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun and price_close > price_open):
                         pass  # print(symbol, tf, "******************** has price validated")
                         return True
 
@@ -305,7 +337,7 @@ def check_timeframe_down(symbol, tf):
     result = get_data_for_timeframe(symbol, tf)
     if not result:
         return
-    #print(tf, symbol, result)
+    # print(tf, symbol, result)
     dframe = pd.DataFrame(result)
     dframe['timestamp'] = pd.to_numeric(dframe[0])
     dframe['open'] = pd.to_numeric(dframe[1])
@@ -341,9 +373,11 @@ def check_timeframe_down(symbol, tf):
             pass  # print(symbol, tf, "******** is over the kijun")
             if (price_close < tenkan):
                 pass  # print(symbol, tf, "************ is over the tenkan")
-                if (chikou < ssa_chikou and chikou < ssb_chikou and chikou < price_low_chikou and chikou < tenkan_chikou and chikou < kijun_chikou):
+                if (
+                        chikou < ssa_chikou and chikou < ssb_chikou and chikou < price_low_chikou and chikou < tenkan_chikou and chikou < kijun_chikou):
                     pass  # print(symbol, tf, "**************** has chikou validated")
-                    if (price_close < ssa and price_close < ssb and price_close < tenkan and price_close < kijun and price_close < price_open):
+                    if (
+                            price_close < ssa and price_close < ssb and price_close < tenkan and price_close < kijun and price_close < price_open):
                         pass  # print(symbol, tf, "******************** has price validated")
                         return True
 
@@ -353,11 +387,12 @@ dict_results_binary = {}
 dict_results_evol = {}
 highest_percent_evol = 0
 
+
 def execute_code(symbol, type_of_asset, exchange_id):
     global dict_results, highest_percent_evol
     global ssb, ssa, price_open, price_close, kijun, tenkan, chikou, ssa_chikou, ssb_chikou, price_high_chikou, price_low_chikou
     global tenkan_chikou, kijun_chikou
-    global tweet
+    # global tweet
 
     # print(10 * "*", symbol, type_of_asset, exchange.id, 10 * "*")
 
@@ -388,17 +423,17 @@ def execute_code(symbol, type_of_asset, exchange_id):
                 if scan_down == True:
                     scantype += " down "
 
-            #array_tf = {}
-            #if exchange_id == "binance":
+            # array_tf = {}
+            # if exchange_id == "binance":
             #    array_tf = {"1d", "4h", "1h"}
-            #elif exchange_id == "bybit":# and filter_assets == "*PERP":
+            # elif exchange_id == "bybit":# and filter_assets == "*PERP":
             #    #array_tf = {"1m", "5m", "15m", "1h"}
             #    array_tf = {"1h"}
-            #else:
+            # else:
             #    print("Il faut définir un array de tf pour cet exchange !")
 
             if "down" in scantype:
-                #print("scanning down")
+                # print("scanning down")
                 all_tf_ok = False
                 for tf in array_tf:
                     if check_timeframe_down(symbol, tf):
@@ -412,12 +447,14 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol + ".P"
                     else:
                         str_link = ""
-                    str_to_log = "(DOWNTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now()).split('.')[0]
+                    str_to_log = "(DOWNTREND) all timeframes are ok for " + symbol + " " + str(array_tf) + " at " + \
+                                 str(datetime.now()).split('.')[0]
                     print(str_to_log + " " + str_link)
                     log_to_results(str_to_log + " " + str_link)
+                    tweet(str_to_log + " " + str_link + " " + "$" + symbol.replace("USDT", "") + "\n" + "#Ichimoku #Crypto #Finance #Forecast #InélidaScanner #BotMonster")
 
             if "up" in scantype:
-                #print("scanning up")
+                # print("scanning up")
                 all_tf_ok = False
                 for tf in array_tf:
                     if check_timeframe_up(symbol, tf):
@@ -431,11 +468,13 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol + ".P"
                     else:
                         str_link = ""
-                    str_to_log = "(UPTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now()).split('.')[0]
+                    str_to_log = "(UPTREND) all timeframes are ok for " + symbol + " " + str(array_tf) + " at " + \
+                                 str(datetime.now()).split('.')[0]
                     print(str_to_log + " " + str_link)
                     log_to_results(str_to_log + " " + str_link)
+                    tweet(str_to_log + " " + str_link + " " + "$" + symbol.replace("USDT", "") + "\n" + "#Ichimoku #Crypto #Finance #Forecast #InélidaScanner #BotMonster")
         except:
-            #print(symbol, sys.exc_info())
+            # print(symbol, sys.exc_info())
             # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
             # log_to_errors(str(datetime.now()) + " " + tf + " " + symbol + " " + str(sys.exc_info()))
             # binary_result += "0"
