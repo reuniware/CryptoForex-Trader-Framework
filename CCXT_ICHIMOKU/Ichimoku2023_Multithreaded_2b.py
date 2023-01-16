@@ -1,5 +1,5 @@
 #Ichimoku Scanner for Traders 1.0 (Inelida Scanner for Traders)
-#Example of use : python Ichimoku2022_Multithreaded_2.py -e bybit -f *usdt -tf 1h,15m -l -up -down
+#Example of use : python Ichimoku2023_Multithreaded_2.py -e bybit -f *usdt -tf 1h,15m -l -up -down
 #In this case it will scan for all assets on Bybit that ends with "usdt" and that are fully validated on 1h and 15m timeframes
 #And will scan in loop and for uptrend and downtrend
 
@@ -152,10 +152,9 @@ if sys.gettrace() is not None:
     args.exchange = "bybit"
     args.filter_assets = "*usdt"  # "BTCPERP"
     args.loop = True
-    args.timeframes = "4h,2h,1h,15m,5m,3m"
+    args.timeframes = "15m,1h,4h,6h,12h"
     args.up = True
     args.down = True
-    args
 
 if args.get_exchanges is True:
     for id in ccxt.exchanges:
@@ -409,7 +408,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         break
                 if all_tf_ok:
                     beep.beep(3)
-                    str_to_log = "(DOWNTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now())
+                    str_to_log = "(DOWNTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now()).split('.')[0]
                     print(str_to_log)
                     log_to_results(str_to_log)
 
@@ -424,7 +423,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         break
                 if all_tf_ok:
                     beep.beep(3)
-                    str_to_log = "(UPTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now())
+                    str_to_log = "(UPTREND) all timeframes are ok for " + symbol + " " + str(array_tf)+ " at " + str(datetime.now()).split('.')[0]
                     print(str_to_log)
                     log_to_results(str_to_log)
 
