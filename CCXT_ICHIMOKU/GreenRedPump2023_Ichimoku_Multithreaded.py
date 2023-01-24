@@ -2,7 +2,6 @@
 # Example of use : python GreenRedPump2023_Multithreaded.py -e bybit -f *usdt -tf 1h,15m -l -up -down
 # In this case it will scan for all assets on Bybit that ends with "usdt" and that have red candlesticks on 1h and 15m timeframes
 # And will scan in loop and for uptrend and downtrend
-# There is a condition where the close - open is greater that 0.4% or lower than 0.4% : This can be modified
 
 import sys
 
