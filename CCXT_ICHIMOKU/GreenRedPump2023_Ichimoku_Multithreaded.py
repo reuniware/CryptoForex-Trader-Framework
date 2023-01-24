@@ -24,7 +24,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 pd.set_option('display.expand_frame_repr', True)
 
-enable_tweet = True
+enable_tweet = False
 
 
 def tweet(str_to_tweet):
