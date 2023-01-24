@@ -24,7 +24,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 pd.set_option('display.expand_frame_repr', True)
 
-enable_tweet = False
+enable_tweet = True
 
 
 def tweet(str_to_tweet):
@@ -464,10 +464,10 @@ def execute_code(symbol, type_of_asset, exchange_id):
                     if exchange_id.upper() == "BYBIT":
                         str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol + ".P"
                     else:
-                        str_link = ""
+                        str_link = "#" + exchange_id.upper()
                     str_to_log = "(DOWNTREND) All red for #" + symbol + " in " + args.timeframes + " at " + \
-                                 str(datetime.now()).split('.')[0]
-                    print(str_to_log + " " + "close=" + str(dict_close[symbol]) + " " + str_link)
+                                 str(datetime.now()).split('.')[0] + " " + "price=" + str(dict_close[symbol]) 
+                    print(str_to_log + " " + str_link)
                     log_to_results(str_to_log + " " + str_link)
                     tweet(str_to_log + "\n" + str_link + " " + "$" + symbol.replace("USDT",
                                                                                     "") + "\n" + "#Ichimoku #Crypto #Finance #Forecast #InélidaScanner #BotMonster")
@@ -486,10 +486,10 @@ def execute_code(symbol, type_of_asset, exchange_id):
                     if exchange_id.upper() == "BYBIT":
                         str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol + ".P"
                     else:
-                        str_link = ""
+                        str_link = "#" + exchange_id.upper()
                     str_to_log = "(UPTREND) All green for #" + symbol + " in " + args.timeframes + " at " + \
-                                 str(datetime.now()).split('.')[0]
-                    print(str_to_log + " " + "close=" + str(dict_close[symbol]) + " " + str_link)
+                                 str(datetime.now()).split('.')[0] + " " + "price=" + str(dict_close[symbol]) 
+                    print(str_to_log + " " + str_link)
                     log_to_results(str_to_log + " " + str_link)
                     tweet(str_to_log + "\n" + str_link + " " + "$" + symbol.replace("USDT",
                                                                                     "") + "\n" + "#Ichimoku #Crypto #Finance #Forecast #InélidaScanner #BotMonster")
