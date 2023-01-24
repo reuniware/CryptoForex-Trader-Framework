@@ -2,6 +2,7 @@
 # Example of use : python GreenRedPump2023_Multithreaded.py -e bybit -f *usdt -tf 1h,15m -l -up -down
 # In this case it will scan for all assets on Bybit that ends with "usdt" and that have red candlesticks on 1h and 15m timeframes
 # And will scan in loop and for uptrend and downtrend
+# todo : check that the evol in % is associated to the higher timeframe tested
 
 import sys
 
@@ -23,7 +24,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 pd.set_option('display.expand_frame_repr', True)
 
-enable_tweet = True
+enable_tweet = False
 
 
 def tweet(str_to_tweet):
@@ -466,8 +467,9 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol
                     else:
                         str_link = "#" + exchange_id.upper()
+                    evol = (dict_close[symbol] - dict_open[symbol])/dict_open[symbol]*100
                     str_to_log = "(DOWNTREND) All red for #" + symbol + " in " + args.timeframes + " at " + \
-                                 str(datetime.now()).split('.')[0] + " " + "price=" + str(dict_close[symbol]) 
+                                 str(datetime.now()).split('.')[0] + " " + "price=" + str(dict_close[symbol]) + " " + "{:.2f}".format(evol) + "%"
                     print(str_to_log + " " + str_link)
                     log_to_results(str_to_log + " " + str_link)
                     tweet(str_to_log + "\n" + str_link + " " + "$" + symbol.replace("USDT",
@@ -490,8 +492,9 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol
                     else:
                         str_link = "#" + exchange_id.upper()
+                    evol = (dict_close[symbol] - dict_open[symbol])/dict_open[symbol]*100
                     str_to_log = "(UPTREND) All green for #" + symbol + " in " + args.timeframes + " at " + \
-                                 str(datetime.now()).split('.')[0] + " " + "price=" + str(dict_close[symbol]) 
+                                 str(datetime.now()).split('.')[0] + " " + "price=" + str(dict_close[symbol]) + " " + "{:.2f}".format(evol) + "%"
                     print(str_to_log + " " + str_link)
                     log_to_results(str_to_log + " " + str_link)
                     tweet(str_to_log + "\n" + str_link + " " + "$" + symbol.replace("USDT",
