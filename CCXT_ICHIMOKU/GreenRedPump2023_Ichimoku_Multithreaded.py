@@ -24,7 +24,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 pd.set_option('display.expand_frame_repr', True)
 
-enable_tweet = False
+enable_tweet = True
 
 
 def tweet(str_to_tweet):
@@ -32,10 +32,10 @@ def tweet(str_to_tweet):
         return
 
     twitter_auth_keys = {
-        "consumer_key": "",
-        "consumer_secret": "",
-        "access_token": "-",
-        "access_token_secret": ""
+        "consumer_key": "f6EAAtpatNjjRaRaxCygc1kSe",
+        "consumer_secret": "jYFxqM9TQhoxcz1BaSrnwu9LEXNIuBAnIext0CRxoDm3GLla8E",
+        "access_token": "905696024504750080-PDSrNefk8KMqVS3361RLtKaob6ikcGE",
+        "access_token_secret": "9n3wfkDGJzbhpYJlb5NTga64r30Lg9nM7nT6rKoMhE2KD"
     }
 
     auth = tweepy.OAuthHandler(
@@ -463,6 +463,8 @@ def execute_code(symbol, type_of_asset, exchange_id):
                     #beep.beep(3)
                     if exchange_id.upper() == "BYBIT":
                         str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol + ".P"
+                    elif exchange_id.upper() == "BINANCE":
+                        str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol
                     else:
                         str_link = "#" + exchange_id.upper()
                     str_to_log = "(DOWNTREND) All red for #" + symbol + " in " + args.timeframes + " at " + \
@@ -470,7 +472,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                     print(str_to_log + " " + str_link)
                     log_to_results(str_to_log + " " + str_link)
                     tweet(str_to_log + "\n" + str_link + " " + "$" + symbol.replace("USDT",
-                                                                                    "") + "\n" + "#Ichimoku #Crypto #Finance #Forecast #InélidaScanner #BotMonster")
+                                                                                    "") + "\n" + "#Ichimoku #Crypto #InélidaScanner #BotMonster" + " #" + exchange_id.upper())
 
             if "up" in scantype:
                 # print("scanning up")
@@ -485,6 +487,8 @@ def execute_code(symbol, type_of_asset, exchange_id):
                     #beep.beep(3)
                     if exchange_id.upper() == "BYBIT":
                         str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol + ".P"
+                    elif exchange_id.upper() == "BINANCE":
+                        str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol
                     else:
                         str_link = "#" + exchange_id.upper()
                     str_to_log = "(UPTREND) All green for #" + symbol + " in " + args.timeframes + " at " + \
@@ -492,7 +496,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                     print(str_to_log + " " + str_link)
                     log_to_results(str_to_log + " " + str_link)
                     tweet(str_to_log + "\n" + str_link + " " + "$" + symbol.replace("USDT",
-                                                                                    "") + "\n" + "#Ichimoku #Crypto #Finance #Forecast #InélidaScanner #BotMonster")
+                                                                                    "") + "\n" + "#Ichimoku #Crypto #InélidaScanner #BotMonster" + " #" + exchange_id.upper())
         except:
             # print(symbol, sys.exc_info())
             # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
