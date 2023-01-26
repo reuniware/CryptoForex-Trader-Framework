@@ -31,10 +31,10 @@ def tweet(str_to_tweet):
         return
 
     twitter_auth_keys = {
-        "consumer_key": "",
-        "consumer_secret": "",
-        "access_token": "-",
-        "access_token_secret": ""
+        "consumer_key": "f6EAAtpatNjjRaRaxCygc1kSe",
+        "consumer_secret": "jYFxqM9TQhoxcz1BaSrnwu9LEXNIuBAnIext0CRxoDm3GLla8E",
+        "access_token": "905696024504750080-PDSrNefk8KMqVS3361RLtKaob6ikcGE",
+        "access_token_secret": "9n3wfkDGJzbhpYJlb5NTga64r30Lg9nM7nT6rKoMhE2KD"
     }
 
     auth = tweepy.OAuthHandler(
@@ -483,7 +483,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                 # print("scanning up")
                 all_tf_ok = False
                 for tf in array_tf:
-                    print("scanning in", tf)
+                    #print("scanning in", tf)
                     if check_timeframe_up(symbol, tf):
                         all_tf_ok = True
                     else:
