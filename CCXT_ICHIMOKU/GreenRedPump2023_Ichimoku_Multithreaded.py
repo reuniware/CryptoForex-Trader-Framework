@@ -607,6 +607,7 @@ def main_thread():
             symbol = oneline['id']
             active = oneline['active']
             type_of_asset = oneline['type']
+            #print(symbol, type_of_asset)
             exchange_id = exchange.id.lower()
             base = oneline['base']  # eg. BTC/USDT => base = BTC
             quote = oneline['quote']  # eg. BTC/USDT => quote = USDT
@@ -624,7 +625,7 @@ def main_thread():
                         or symbol.endswith('BVOL/USDT') or symbol.endswith('BVOL/USD'):
                     continue
 
-            condition_ok = active and filter_assets in symbol
+            condition_ok = active and filter_assets in symbol and type_of_asset == "swap"
             if filter_assets.startswith("*"):
                 new_filter_assets = filter_assets.replace("*", "")
                 new_filter_assets = new_filter_assets.upper()
