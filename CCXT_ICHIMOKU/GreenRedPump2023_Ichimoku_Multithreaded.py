@@ -2,7 +2,6 @@
 # Example of use : python GreenRedPump2023_Multithreaded.py -e bybit -f *usdt -tf 1h,15m -l -up -down
 # In this case it will scan for all assets on Bybit that ends with "usdt" and that have red candlesticks on 1h and 15m timeframes
 # And will scan in loop and for uptrend and downtrend
-# todo : check that the evol in % is associated to the higher timeframe tested
 
 import sys
 
@@ -284,7 +283,7 @@ def get_data_for_timeframe(symbol, tf):
     if tf not in exchange.timeframes:
         print(symbol, tf, "is not in exchange's timeframes.")
         return False
-    result = exchange.fetch_ohlcv(symbol, tf, limit=52 + 26)
+    result = exchange.fetch_ohlcv(symbol, tf, limit=52 + 26 + 26)
     return result
 
 
@@ -322,12 +321,11 @@ def check_timeframe_up(symbol, tf):
     ssa_chikou = dframe['ICH_SSA'].iloc[-27]
     ssb_chikou = dframe['ICH_SSB'].iloc[-27]
 
-    dict_close[symbol] = price_close
-    dict_open[symbol] = price_open
-
     if price_close > price_open and price_close > kijun and price_close > tenkan and price_close > ssa and price_close > ssb and \
         chikou > kijun_chikou and chikou > tenkan_chikou and chikou > ssa_chikou and chikou > ssb_chikou:
         return True
+
+    return False
 
     # if (ssb > ssa and price_open > ssb and price_close > ssb) or (ssa > ssb and price_open > ssa and price_close > ssa):
     #     pass  # print(symbol, tf, "**** is over the cloud")
@@ -380,10 +378,13 @@ def check_timeframe_down(symbol, tf):
 
     dict_close[symbol] = price_close
     dict_open[symbol] = price_open
+    dict_close[symbol] = price_close
 
     if price_close < price_open and price_close < kijun and price_close < tenkan and price_close < ssa and price_close < ssb and \
         chikou < kijun_chikou and chikou < tenkan_chikou and chikou < ssa_chikou and chikou < ssb_chikou:
         return True
+
+    return False
 
     # if (ssb < ssa and price_open < ssb and price_close < ssb) or (ssa < ssb and price_open < ssa and price_close < ssa):
     #     pass  # print(symbol, tf, "**** is over the cloud")
@@ -428,18 +429,20 @@ def execute_code(symbol, type_of_asset, exchange_id):
         #     if not symbol.endswith('PERP'):
         #         continue
 
+        scantype = ""
+        if scan_up == False and scan_down == False:
+            scantype = "up and down"
+        else:
+            if scan_up == True:
+                scantype += " up "
+            if scan_down == True:
+                scantype += " down "
+
+        #print(array_tf)
+
         try:
 
             # print("scanning", symbol)
-
-            scantype = ""
-            if scan_up == False and scan_down == False:
-                scantype = "up and down"
-            else:
-                if scan_up == True:
-                    scantype += " up "
-                if scan_down == True:
-                    scantype += " down "
 
             # array_tf = {}
             # if exchange_id == "binance":
@@ -454,6 +457,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                 # print("scanning down")
                 all_tf_ok = False
                 for tf in array_tf:
+                    #print(symbol, "scanning in", tf)
                     if check_timeframe_down(symbol, tf):
                         all_tf_ok = True
                     else:
@@ -479,6 +483,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                 # print("scanning up")
                 all_tf_ok = False
                 for tf in array_tf:
+                    print("scanning in", tf)
                     if check_timeframe_up(symbol, tf):
                         all_tf_ok = True
                     else:
