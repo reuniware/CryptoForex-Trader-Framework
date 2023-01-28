@@ -321,6 +321,10 @@ def check_timeframe_up(symbol, tf):
     ssa_chikou = dframe['ICH_SSA'].iloc[-27]
     ssb_chikou = dframe['ICH_SSB'].iloc[-27]
 
+    dict_close[symbol] = price_close
+    dict_open[symbol] = price_open
+    dict_close[symbol] = price_close
+
     if price_close > price_open and price_close > kijun and price_close > tenkan and price_close > ssa and price_close > ssb and \
         chikou > kijun_chikou and chikou > tenkan_chikou and chikou > ssa_chikou and chikou > ssb_chikou:
         return True
