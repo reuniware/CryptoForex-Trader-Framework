@@ -1,7 +1,8 @@
 # 2 Consecutive higher highs Scanner for Traders 1.0 (Inelida HigherHighs Scanner for Traders)
-# Example of use : python HigherHighs2023_Multithreaded.py -e bybit -f *usdt -tf 1h,15m -l -up
-# WORKING ONLY WITH -up OPTION FOR NOW
+# Example of use : python HigherHighs2023_Multithreaded.py -e bybit -f *usdt -tf 1m,3m,5m,15m,30m,1h,2h,4h,6h,12h,1d,1w -l -up
+# WORKING ONLY WITH -up OPTION FOR NOW !!!
 # And will scan in loop and for uptrend
+# STRICTLY EXPERIMENTAL (I'm searching for the best setup).
 
 import sys
 
@@ -341,10 +342,18 @@ def check_timeframe_up(symbol, tf):
     # if low2 < low3 < low4:
     #     print(symbol, "2 consecutive lower lows")
     #     return True
-    if high2 > high3 and high3 > high4 and high4 < high5 and price_close > price_open:  # and price_close > high2:
+    if high2 > high3 and high3 > high4 and high4 < high5:  # and price_close > high2:
         if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun:
             if price_close_chikou > ssa_chikou and price_close_chikou > ssb_chikou and price_close_chikou > tenkan_chikou and price_close_chikou > kijun_chikou:
-                return True
+                greater_than_all_previous_highs = False
+                for i in range(2, 6):
+                    if price_close > dframe['high'].iloc[-i]:
+                        greater_than_all_previous_highs = True
+                    else:
+                        greater_than_all_previous_highs = False
+                        break
+                if greater_than_all_previous_highs:
+                    return True
 
     return False
 
