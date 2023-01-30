@@ -1,7 +1,6 @@
-# 2 Consecutive higher highs Scanner for Traders 1.0 (Inelida HigherHighs Scanner for Traders)
-# Example of use : python HigherHighs2023_Multithreaded.py -e bybit -f *usdt -tf 1m,3m,5m,15m,30m,1h,2h,4h,6h,12h,1d,1w -l -up
-# WORKING ONLY WITH -up OPTION FOR NOW !!!
-# And will scan in loop and for uptrend
+# 2 Consecutive higher highs or Lower Lows Scanner for Traders 1.0 (Inelida HigherHighs-LowerLows Scanner for Traders)
+# Example of use : python HigherHighsLowerLows2023_Multithreaded.py -e bybit -f *usdt -tf 1m,3m,5m,15m,30m,1h,2h,4h,6h,12h,1d,1w -l
+# And will scan in loop and for uptrend and downtrend (if 2 higher highs or 2 lower lows + some Ichimoku filtering)
 # STRICTLY EXPERIMENTAL (I'm searching for the best setup).
 
 import sys
@@ -185,7 +184,7 @@ if sys.gettrace() is not None:
     args.filter_assets = "*usdt"  # "BTCPERP"
     args.loop = True
     args.timeframes = "1m,3m,5m,15m,1h,2h,4h,6h,12h,1d,1w"
-    args.up = True
+    args.up = False
     args.down = False
 
 if args.get_exchanges is True:
@@ -338,6 +337,7 @@ def check_timeframe_up(symbol, tf):
     low2 = dframe['low'].iloc[-2]
     low3 = dframe['low'].iloc[-3]
     low4 = dframe['low'].iloc[-4]
+    low5 = dframe['low'].iloc[-5]
     #print(symbol, high1, high2, high3, high4)
     # if low2 < low3 < low4:
     #     print(symbol, "2 consecutive lower lows")
@@ -346,7 +346,7 @@ def check_timeframe_up(symbol, tf):
         if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun:
             if price_close_chikou > ssa_chikou and price_close_chikou > ssb_chikou and price_close_chikou > tenkan_chikou and price_close_chikou > kijun_chikou:
                 greater_than_all_previous_highs = False
-                for i in range(2, 6):
+                for i in range(2, 2):
                     if price_close > dframe['high'].iloc[-i]:
                         greater_than_all_previous_highs = True
                     else:
@@ -410,9 +410,37 @@ def check_timeframe_down(symbol, tf):
     dict_open[symbol] = price_open
     dict_close[symbol] = price_close
 
-    if price_close < price_open and price_close < kijun and price_close < tenkan and price_close < ssa and price_close < ssb and \
-        chikou < kijun_chikou and chikou < tenkan_chikou and chikou < ssa_chikou and chikou < ssb_chikou:
-        return True
+    # if price_close < price_open and price_close < kijun and price_close < tenkan and price_close < ssa and price_close < ssb and \
+    #     chikou < kijun_chikou and chikou < tenkan_chikou and chikou < ssa_chikou and chikou < ssb_chikou:
+    #     return True
+
+    high1 = dframe['high'].iloc[-1]
+    high2 = dframe['high'].iloc[-2]
+    high3 = dframe['high'].iloc[-3]
+    high4 = dframe['high'].iloc[-4]
+    high5 = dframe['high'].iloc[-5]
+    low1 = dframe['low'].iloc[-1]
+    low2 = dframe['low'].iloc[-2]
+    low3 = dframe['low'].iloc[-3]
+    low4 = dframe['low'].iloc[-4]
+    low5 = dframe['low'].iloc[-5]
+    #print(symbol, high1, high2, high3, high4)
+    # if low2 < low3 < low4:
+    #     print(symbol, "2 consecutive lower lows")
+    #     return True
+    if low2 < low3 and low3 < low4 and low4 > low5:  # and price_close < low2:
+        if price_close < ssa and price_close < ssb and price_close < tenkan and price_close < kijun:
+            if price_close_chikou < ssa_chikou and price_close_chikou < ssb_chikou and price_close_chikou < tenkan_chikou and price_close_chikou < kijun_chikou:
+                low_than_all_previous_lows = False
+                for i in range(2, 2):
+                    if price_close < dframe['low'].iloc[-i]:
+                        low_than_all_previous_lows = True
+                    else:
+                        low_than_all_previous_lows = False
+                        break
+                if low_than_all_previous_lows:
+                    return True
+
 
     return False
 
@@ -487,27 +515,22 @@ def execute_code(symbol, type_of_asset, exchange_id):
                 # print("scanning down")
                 all_tf_ok = False
                 for tf in array_tf:
-                    #print(symbol, "scanning in", tf)
+                    #print("scanning in", tf)
                     if check_timeframe_down(symbol, tf):
-                        all_tf_ok = True
-                    else:
-                        all_tf_ok = False
-                        break
-                if all_tf_ok:
-                    beep.beep(3)
-                    if exchange_id.upper() == "BYBIT":
-                        str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol + ".P"
-                    elif exchange_id.upper() == "BINANCE":
-                        str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol
-                    else:
-                        str_link = "#" + exchange_id.upper()
-                    evol = (dict_close[symbol] - dict_open[symbol])/dict_open[symbol]*100
-                    str_to_log = "(DOWNTREND) All red for #" + symbol + " in " + args.timeframes + " at " + \
-                                 str(datetime.now()).split('.')[0] + " " + "price=" + str(dict_close[symbol]) + " " + "{:.2f}".format(evol) + "%"
-                    print(str_to_log + " " + str_link)
-                    log_to_results(str_to_log + " " + str_link)
-                    tweet(str_to_log + "\n" + str_link + " " + "$" + symbol.replace("USDT",
-                                                                                    "") + "\n" + "#Ichimoku #Crypto #InélidaScanner #BotMonster" + " #" + exchange_id.upper())
+                        beep.beep(3)
+                        if exchange_id.upper() == "BYBIT":
+                            str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol + ".P"
+                        elif exchange_id.upper() == "BINANCE":
+                            str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol
+                        else:
+                            str_link = "#" + exchange_id.upper()
+
+                        evol = (dict_close[symbol] - dict_open[symbol])/dict_open[symbol]*100
+                        str_to_log = "(DOWNTREND) 2 consecutive lower lows for #" + symbol + " in " + tf + " at " + \
+                                     str(datetime.now()).split('.')[0] + " " + "price=" + str(dict_close[symbol]) + " " + "{:.2f}".format(evol) + "%"
+                        print(str_to_log + " " + str_link)
+                        log_to_results(str_to_log + " " + str_link)
+                        tweet(str_to_log + "\n" + str_link + " " + "$" + symbol.replace("USDT", "") + "\n" + "#Ichimoku #Crypto #InélidaScanner #BotMonster" + " #" + exchange_id.upper())
 
             if "up" in scantype:
                 # print("scanning up")
