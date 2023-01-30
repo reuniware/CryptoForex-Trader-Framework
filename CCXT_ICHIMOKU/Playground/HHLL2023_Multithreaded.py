@@ -345,15 +345,16 @@ def check_timeframe_up(symbol, tf):
     if high2 > high3 and high3 > high4 and high4 < high5:  # and price_close > high2:
         if price_close > ssa and price_close > ssb and price_close > tenkan and price_close > kijun:
             if price_close_chikou > ssa_chikou and price_close_chikou > ssb_chikou and price_close_chikou > tenkan_chikou and price_close_chikou > kijun_chikou:
-                greater_than_all_previous_highs = False
-                for i in range(2, 2):
-                    if price_close > dframe['high'].iloc[-i]:
-                        greater_than_all_previous_highs = True
-                    else:
-                        greater_than_all_previous_highs = False
-                        break
-                if greater_than_all_previous_highs:
-                    return True
+                # greater_than_all_previous_highs = False
+                # for i in range(2, 2):
+                #     if price_close > dframe['high'].iloc[-i]:
+                #         greater_than_all_previous_highs = True
+                #     else:
+                #         greater_than_all_previous_highs = False
+                #         break
+                # if greater_than_all_previous_highs:
+                #     return True
+                return True
 
     return False
 
@@ -431,16 +432,16 @@ def check_timeframe_down(symbol, tf):
     if low2 < low3 and low3 < low4 and low4 > low5:  # and price_close < low2:
         if price_close < ssa and price_close < ssb and price_close < tenkan and price_close < kijun:
             if price_close_chikou < ssa_chikou and price_close_chikou < ssb_chikou and price_close_chikou < tenkan_chikou and price_close_chikou < kijun_chikou:
-                low_than_all_previous_lows = False
-                for i in range(2, 2):
-                    if price_close < dframe['low'].iloc[-i]:
-                        low_than_all_previous_lows = True
-                    else:
-                        low_than_all_previous_lows = False
-                        break
-                if low_than_all_previous_lows:
-                    return True
-
+                # lower_than_all_previous_lows = False
+                # for i in range(2, 2):
+                #     if price_close < dframe['low'].iloc[-i]:
+                #         lower_than_all_previous_lows = True
+                #     else:
+                #         lower_than_all_previous_lows = False
+                #         break
+                # if lower_than_all_previous_lows:
+                #     return True
+                return True
 
     return False
 
@@ -553,7 +554,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         log_to_results(str_to_log + " " + str_link)
                         tweet(str_to_log + "\n" + str_link + " " + "$" + symbol.replace("USDT", "") + "\n" + "#Ichimoku #Crypto #InélidaScanner #BotMonster" + " #" + exchange_id.upper())
         except:
-            # print(symbol, sys.exc_info())
+            #print(symbol, sys.exc_info())
             # print(tf, symbol, sys.exc_info())  # for getting more details remove this line and add line exit(-1) just before the "pass" function
             # log_to_errors(str(datetime.now()) + " " + tf + " " + symbol + " " + str(sys.exc_info()))
             # binary_result += "0"
