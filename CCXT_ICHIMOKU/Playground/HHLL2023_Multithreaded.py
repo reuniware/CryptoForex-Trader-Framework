@@ -1,5 +1,5 @@
 # 2 Consecutive higher highs or Lower Lows Scanner for Traders 1.0 (Inelida HigherHighs-LowerLows Scanner for Traders)
-# Example of use : python HigherHighsLowerLows2023_Multithreaded.py -e bybit -f *usdt -tf 1m,3m,5m,15m,30m,1h,2h,4h,6h,12h,1d,1w -l
+# Example of use : python HHLL2023_Multithreaded.py -e bybit -f *usdt -tf 1m,3m,5m,15m,30m,1h,2h,4h,6h,12h,1d,1w -l
 # And will scan in loop and for uptrend and downtrend (if 2 higher highs or 2 lower lows + some Ichimoku filtering)
 # STRICTLY EXPERIMENTAL (I'm searching for the best setup).
 
