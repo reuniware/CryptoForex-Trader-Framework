@@ -476,7 +476,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                     else:
                         str_link = "#" + exchange_id.upper()
                     evol = (dict_close[symbol] - dict_open[symbol])/dict_open[symbol]*100
-                    str_to_log = "(DOWNTREND) All red for #" + symbol + " in " + args.timeframes + " at " + \
+                    str_to_log = "(DOWNTREND) All red for $" + symbol.replace("USDT", "") + " in " + args.timeframes + " at " + \
                                  str(datetime.now()).split('.')[0] + " " + "price=" + str(dict_close[symbol]) + " " + "{:.2f}".format(evol) + "%"
                     print(str_to_log + " " + str_link)
                     log_to_results(str_to_log + " " + str_link)
@@ -502,7 +502,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                     else:
                         str_link = "#" + exchange_id.upper()
                     evol = (dict_close[symbol] - dict_open[symbol])/dict_open[symbol]*100
-                    str_to_log = "(UPTREND) All green for #" + symbol + " in " + args.timeframes + " at " + \
+                    str_to_log = "(UPTREND) All green for $" + symbol.replace("USDT", "") + " in " + args.timeframes + " at " + \
                                  str(datetime.now()).split('.')[0] + " " + "price=" + str(dict_close[symbol]) + " " + "{:.2f}".format(evol) + "%"
                     print(str_to_log + " " + str_link)
                     log_to_results(str_to_log + " " + str_link)
