@@ -4,10 +4,19 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from keras.models import Sequential
 from keras.layers import Dense, LSTM
+import signal
+import os
+
+def signal_handler(sig, frame):
+    print('You pressed Ctrl+C!')
+    os.kill(os.getpid(), 9)
+    sys.exit(-888)
+
+signal.signal(signal.SIGINT, signal_handler)
 
 # Récupération des données de trading du Bitcoin depuis l'API Binance
 binance = ccxt.binance()
-ohlcv = binance.fetch_ohlcv('BTC/USDT', timeframe='1h', limit=1000)
+ohlcv = binance.fetch_ohlcv('BTC/USDT', timeframe='1h', limit=2000)
 bitcoin_data = pd.DataFrame(ohlcv, columns=['time', 'open', 'high', 'low', 'close', 'volume'])
 bitcoin_data['time'] = pd.to_datetime(bitcoin_data['time'], unit='ms')
 
