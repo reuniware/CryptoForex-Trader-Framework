@@ -55,6 +55,7 @@ model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=100, batch_
 model.save('bitcoin_lstm_model.h5')
 
 # Utilisation du modèle pour prédire le prix du Bitcoin en temps réel
+# n_last_prices doit être égal à time_step
 n_last_prices = 100 # nombre de derniers prix à utiliser pour la prédiction
 while True:
     try:
