@@ -1,62 +1,60 @@
-import time
-import numpy as np
-import pandas as pd
 import ccxt
-from keras.models import Sequential
-from keras.layers import LSTM, Dense
+import pandas as pd
+import numpy as np
 from sklearn.preprocessing import MinMaxScaler
+from keras.models import Sequential
+from keras.layers import Dense, LSTM
 
-# Initialiser l'échange Binance
-exchange = ccxt.binance()
-symbol = 'BTC/USDT'
+# Récupération des données de trading du Bitcoin depuis l'API Binance
+binance = ccxt.binance()
+ohlcv = binance.fetch_ohlcv('BTC/USDT', timeframe='1h', limit=1000)
+bitcoin_data = pd.DataFrame(ohlcv, columns=['time', 'open', 'high', 'low', 'close', 'volume'])
+bitcoin_data['time'] = pd.to_datetime(bitcoin_data['time'], unit='ms')
 
-# Récupérer les données historiques du cours du Bitcoin
-limit = 500
-ohlcv = exchange.fetch_ohlcv(symbol, timeframe='1d', limit=limit)
-df = pd.DataFrame(ohlcv, columns=['date', 'open', 'high', 'low', 'close', 'volume'])
-df['date'] = pd.to_datetime(df['date'], unit='ms')
-df = df.set_index('date')
-df = df.astype(float)
+# Préparation des données pour le modèle LSTM
 scaler = MinMaxScaler(feature_range=(0, 1))
-scaled_data = scaler.fit_transform(df['close'].values.reshape(-1, 1))
+data = scaler.fit_transform(np.array(bitcoin_data['close']).reshape(-1, 1))
+training_size = int(len(data) * 0.7)
+test_size = len(data) - training_size
+train_data, test_data = data[0:training_size, :], data[training_size:len(data), :]
 
-# Fonction pour créer les données d'entrée et de sortie du modèle LSTM
-def create_dataset(dataset, look_back=1):
-    dataX, dataY = [], []
-    for i in range(len(dataset)-look_back-1):
-        a = dataset[i:(i+look_back), 0]
-        dataX.append(a)
-        dataY.append(dataset[i + look_back, 0])
-    return np.array(dataX), np.array(dataY)
+def create_dataset(dataset, time_step=1):
+    X, Y = [], []
+    for i in range(len(dataset)-time_step-1):
+        a = dataset[i:(i+time_step), 0]
+        X.append(a)
+        Y.append(dataset[i + time_step, 0])
+    return np.array(X), np.array(Y)
 
-look_back = 20
-trainX, trainY = create_dataset(scaled_data, look_back)
+time_step = 100
+X_train, y_train = create_dataset(train_data, time_step)
+X_test, y_test = create_dataset(test_data, time_step)
 
-# Créer le modèle LSTM
+# Reshape des données pour l'entrée dans le modèle LSTM
+X_train = X_train.reshape(X_train.shape[0], X_train.shape[1], 1)
+X_test = X_test.reshape(X_test.shape[0], X_test.shape[1], 1)
+
+# Création du modèle LSTM
 model = Sequential()
-model.add(LSTM(50, input_shape=(look_back, 1)))
+model.add(LSTM(units=50, return_sequences=True, input_shape=(X_train.shape[1], 1)))
+model.add(LSTM(units=50))
 model.add(Dense(1))
 model.compile(loss='mean_squared_error', optimizer='adam')
+model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=100, batch_size=64, verbose=1)
 
-# Entraîner le modèle sur les données historiques
-model.fit(trainX, trainY, epochs=50, batch_size=1, verbose=2)
+# Sauvegarde du modèle
+model.save('bitcoin_lstm_model.h5')
 
-# Prédire le prix du Bitcoin en temps réel
+# Utilisation du modèle pour prédire le prix du Bitcoin en temps réel
 while True:
-    ohlcv = exchange.fetch_ohlcv(symbol, timeframe='1m', limit=look_back)
-    df = pd.DataFrame(ohlcv, columns=['date', 'open', 'high', 'low', 'close', 'volume'])
-    df['date'] = pd.to_datetime(df['date'], unit='ms')
-    df = df.set_index('date')
-    df = df.astype(float)
-    last_price = df.iloc[-1]['close']
-    scaled_last_price = scaler.transform(np.array([[last_price]]))
-    input_data = scaled_data[-look_back:]
-    input_data = np.append(input_data, scaled_last_price)
-    input_data = input_data.reshape(-1, 1)
-    input_data = scaler.inverse_transform(input_data)
-    input_data = create_dataset(input_data, look_back)
-    predicted_price = model.predict(input_data.reshape(1, look_back, 1))
-    predicted_price = scaler.inverse_transform(predicted_price)
-    print('Prix actuel: {:.2f}'.format(last_price))
-    print('Prix prédit: {:.2f}'.format(predicted_price[0][0]))
-    time.sleep(60)  # Attendre 1 minute avant de faire une nouvelle prédiction
+    try:
+        current_price = binance.fetch_ticker('BTC/USDT')['last']
+        last_100_prices = scaler.transform(np.array(bitcoin_data.tail(100)['close']).reshape(-1, 1))
+        last_100_prices = np.array(last_100_prices).reshape(1, -1)
+        last_100_prices = np.reshape(last_100_prices, (last_100_prices.shape[0], last_100_prices.shape[1], 1))
+        predicted_price = model.predict(last_100_prices)
+        predicted_price = scaler.inverse_transform(predicted_price)
+        print('Current Price: ', current_price, ' Predicted Price: ', predicted_price[0][0])
+        bitcoin_data.loc[len(bitcoin_data)] = [pd.Timestamp.now(), None, None, None, current_price, None]
+    except:
+        continue
