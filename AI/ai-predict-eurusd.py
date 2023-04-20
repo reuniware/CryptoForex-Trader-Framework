@@ -48,7 +48,7 @@ model.add(LSTM(units=50, return_sequences=True, input_shape=(X_train.shape[1], 1
 model.add(LSTM(units=50))
 model.add(Dense(1))
 model.compile(loss='mean_squared_error', optimizer='adam')
-model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=1, batch_size=None, verbose=1)
+model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=20, batch_size=None, verbose=1)
 
 # Sauvegarde du modèle
 model.save('eur_usd_lstm_model.h5')
@@ -60,7 +60,7 @@ previous_price = 0
 while True:
     try:
         #with silence_stdout():
-        data = yf.download(tickers='EURUSD=X', period='1d', interval='30m', progress=False)
+        data = yf.download(tickers='EURUSD=X', period='1d', interval='1m', progress=False)
 
         current_price = data['Close'][-1]
 
