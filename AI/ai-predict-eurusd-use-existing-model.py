@@ -29,7 +29,7 @@ test_size = len(data) - training_size
 train_data, test_data = data[0:training_size, :], data[training_size:len(data), :]
 
 model = Sequential()
-model = keras.models.load_model('eur_usd_lstm_model.h5')
+model = keras.models.load_model('eur_usd_lstm_model_10_epochs.h5')
 
 # Utilisation du modèle pour prédire le prix de l'EUR/USD en temps réel
 # n_last_prices doit être égal à time_step (Si on augmente n_last_prices) ?
@@ -55,4 +55,7 @@ while True:
     except:
         print("exception")
         print(sys.exc_info())
+
+        time.sleep(1)
+
         continue
