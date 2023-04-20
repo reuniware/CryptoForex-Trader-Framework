@@ -6,6 +6,7 @@ from keras.layers import Dense, LSTM
 import signal
 import os
 import yfinance as yf
+import sys
 
 def signal_handler(sig, frame):
     print('You pressed Ctrl+C!')
@@ -55,15 +56,22 @@ model.save('eur_usd_lstm_model.h5')
 # Utilisation du modèle pour prédire le prix de l'EUR/USD en temps réel
 # n_last_prices doit être égal à time_step
 n_last_prices = 100 # nombre de derniers prix à utiliser pour la prédiction
+previous_price = 0
 while True:
     try:
-        current_price = eur_usd_data['Close'].iloc[-1]
+        #with silence_stdout():
+        data = yf.download(tickers='EURUSD=X', period='1d', interval='30m', progress=False)
+
+        current_price = data['Close'][-1]
+
+        #current_price = mydata['Close'].iloc[-1]
         last_n_prices = scaler.transform(np.array(eur_usd_data.tail(n_last_prices)['Close']).reshape(-1, 1))
         last_n_prices = np.array(last_n_prices).reshape(1, -1)
         last_n_prices = np.reshape(last_n_prices, (last_n_prices.shape[0], last_n_prices.shape[1], 1))
         predicted_price = model.predict(last_n_prices)
         predicted_price = scaler.inverse_transform(predicted_price)
-        print(f'Current Price: {current_price:.2f} | Predicted Price: {predicted_price[0][0]:.2f}')
+        print(f'Current Price: {current_price:.5f} | Predicted Price: {predicted_price[0][0]:.5f}')
         eur_usd_data.loc[len(eur_usd_data)] = [pd.Timestamp.now(), None, None, None, current_price, None]
+
     except:
         continue
