@@ -1,3 +1,5 @@
+# ne fonctionne pas (récupération des données historiques + récupération des données temps réel)
+
 import yfinance as yf
 import pandas as pd
 import numpy as np
