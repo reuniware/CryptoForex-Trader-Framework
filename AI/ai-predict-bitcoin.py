@@ -46,15 +46,16 @@ model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=100, batch_
 model.save('bitcoin_lstm_model.h5')
 
 # Utilisation du modèle pour prédire le prix du Bitcoin en temps réel
+n_last_prices = 100 # nombre de derniers prix à utiliser pour la prédiction
 while True:
     try:
         current_price = binance.fetch_ticker('BTC/USDT')['last']
-        last_100_prices = scaler.transform(np.array(bitcoin_data.tail(100)['close']).reshape(-1, 1))
-        last_100_prices = np.array(last_100_prices).reshape(1, -1)
-        last_100_prices = np.reshape(last_100_prices, (last_100_prices.shape[0], last_100_prices.shape[1], 1))
-        predicted_price = model.predict(last_100_prices)
+        last_n_prices = scaler.transform(np.array(bitcoin_data.tail(n_last_prices)['close']).reshape(-1, 1))
+        last_n_prices = np.array(last_n_prices).reshape(1, -1)
+        last_n_prices = np.reshape(last_n_prices, (last_n_prices.shape[0], last_n_prices.shape[1], 1))
+        predicted_price = model.predict(last_n_prices)
         predicted_price = scaler.inverse_transform(predicted_price)
-        print('Current Price: ', current_price, ' Predicted Price: ', predicted_price[0][0])
+        print(f'Current Price: {current_price:.2f} | Predicted Price: {predicted_price[0][0]:.2f}')
         bitcoin_data.loc[len(bitcoin_data)] = [pd.Timestamp.now(), None, None, None, current_price, None]
     except:
         continue
