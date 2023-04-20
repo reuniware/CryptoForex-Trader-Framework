@@ -17,7 +17,7 @@ def signal_handler(sig, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 # Récupération des données de trading de EUR/USD depuis l'API Yahoo Finance
-eur_usd_data = yf.download('EURUSD=X', start='2022-12-01', end='2023-04-20', interval='1h')
+eur_usd_data = yf.download('EURUSD=X', start='2022-01-01', end='2023-04-20', interval='1h')
 eur_usd_data.reset_index(inplace=True)
 
 # Préparation des données pour le modèle LSTM
@@ -49,7 +49,7 @@ model.add(LSTM(units=50, return_sequences=True, input_shape=(X_train.shape[1], 1
 model.add(LSTM(units=50))
 model.add(Dense(1))
 model.compile(loss='mean_squared_error', optimizer='adam')
-model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=50, batch_size=None, verbose=1)
+model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=10, batch_size=None, verbose=1)
 
 # Sauvegarde du modèle
 model.save('eur_usd_lstm_model.h5')
@@ -76,4 +76,6 @@ while True:
 
         time.sleep(1)
     except:
+        print("exception")
+        print(sys.exc_info())
         continue
