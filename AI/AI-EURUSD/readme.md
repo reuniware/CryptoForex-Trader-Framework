@@ -19,6 +19,8 @@ Nombre de derniers prix pour l'apprentissage : 100
 
 3 epoch : RMSE Moyen = 0.017 (USD)
 
+4 epoch : RMSE Moyen = 0.007 (USD)
+
 # Configufation technique (lscpu)
 
 Architecture:            x86_64
