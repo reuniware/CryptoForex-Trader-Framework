@@ -18,12 +18,12 @@ def signal_handler(sig, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 # Récupération des données de trading de EUR/USD depuis l'API Yahoo Finance
-#ohlcv = yf.download('EURUSD=X', start='2022-01-01', end='2023-04-20', interval='1h')
-#ohlcv.reset_index(inplace=True)
+ohlcv = yf.download('EURUSD=X', start='2021-06-01', end='2023-04-20', interval='1h')
+ohlcv.reset_index(inplace=True)
 
-ticker = yf.Ticker('EURUSD=X')
+#ticker = yf.Ticker('EURUSD=X')
 # Récupération des données de trading avec le prix BID
-ohlcv = ticker.history(start='2021-06-01', end='2023-04-21', interval='1h', actions=False, auto_adjust=False, back_adjust=False, proxy=None, rounding=False).sort_index(ascending=False)
+#ohlcv = ticker.history(start='2021-06-01', end='2023-04-21', interval='1h', actions=False, auto_adjust=False, back_adjust=False, proxy=None, rounding=False).sort_index(ascending=False)
 
 print(ohlcv)
 
@@ -55,20 +55,20 @@ X_train = X_train.reshape(X_train.shape[0], X_train.shape[1], 1)
 X_test = X_test.reshape(X_test.shape[0], X_test.shape[1], 1)
 
 # Création du modèle LSTM
-#model = Sequential()
-#model.add(LSTM(units=50, return_sequences=True, input_shape=(X_train.shape[1], 1)))
-#model.add(LSTM(units=50))
-#model.add(Dense(1))
-#model.compile(loss='mean_squared_error', optimizer='adam')
-#model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=1, batch_size=None, verbose=1)
-
 model = Sequential()
-model.add(LSTM(units=100, return_sequences=True, input_shape=(X_train.shape[1], 1)))
-model.add(LSTM(units=100, return_sequences=True))
-model.add(LSTM(units=100))
+model.add(LSTM(units=150, return_sequences=True, input_shape=(X_train.shape[1], 1)))
+model.add(LSTM(units=150))
 model.add(Dense(1))
 model.compile(loss='mean_squared_error', optimizer='adam')
 model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=1, batch_size=None, verbose=1)
+
+#model = Sequential()
+#model.add(LSTM(units=100, return_sequences=True, input_shape=(X_train.shape[1], 1)))
+#model.add(LSTM(units=100, return_sequences=True))
+#model.add(LSTM(units=100))
+#model.add(Dense(1))
+#model.compile(loss='mean_squared_error', optimizer='adam')
+#model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=1, batch_size=None, verbose=1)
 
 #Vérification du RMSE
 # Prédiction sur l'ensemble de test
@@ -87,7 +87,7 @@ print("Mean RMSE = " + str(np.mean(rmse_list)))
 # Sauvegarde du modèle
 model.save('eur_usd_lstm_model.h5')
 
-#sys.exit(0)
+sys.exit(0)
 
 # Utilisation du modèle pour prédire le prix de l'EUR/USD en temps réel
 # n_last_prices doit être égal à time_step (Si on augmente n_last_prices) ?
