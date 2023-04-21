@@ -4,4 +4,8 @@ Chantier de recherche expérimentale sur la prédiction du cours de l'EUR/USD en
 Exemple de critères variables pour la recherche expérimentale :
 
 3 couches LSTM
+
 100 neurones par couche LSTM
+
+Historique de données téléchargées de 01-06-2022 au 21-04-2023
+
