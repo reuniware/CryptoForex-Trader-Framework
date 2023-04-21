@@ -7,7 +7,7 @@ Chantier de recherche expérimentale sur la prédiction du cours de l'EUR/USD en
 
 100 neurones par couche LSTM
 
-Historique de données téléchargées de 01-06-2022 au 21-04-2023
+Historique de données téléchargées en H1 de 01-06-2022 au 21-04-2023
 
 ### Résultats
 
