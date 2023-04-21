@@ -18,8 +18,12 @@ def signal_handler(sig, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 # Récupération des données de trading de EUR/USD depuis l'API Yahoo Finance
-ohlcv = yf.download('EURUSD=X', start='2022-01-01', end='2023-04-20', interval='1h')
-ohlcv.reset_index(inplace=True)
+#ohlcv = yf.download('EURUSD=X', start='2022-01-01', end='2023-04-20', interval='1h')
+#ohlcv.reset_index(inplace=True)
+
+ticker = yf.Ticker('EURUSD=X')
+# Récupération des données de trading avec le prix BID
+ohlcv = ticker.history(start='2022-01-01', end='2023-04-20', interval='1h', actions=False, auto_adjust=False, back_adjust=False, proxy=None, rounding=False).sort_index(ascending=False)
 
 print(ohlcv)
 
