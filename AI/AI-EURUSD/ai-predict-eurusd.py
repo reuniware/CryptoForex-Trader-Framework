@@ -87,7 +87,7 @@ print("Mean RMSE = " + str(np.mean(rmse_list)))
 # Sauvegarde du modèle
 model.save('eur_usd_lstm_model.h5')
 
-sys.exit(0)
+#sys.exit(0)
 
 # Utilisation du modèle pour prédire le prix de l'EUR/USD en temps réel
 # n_last_prices doit être égal à time_step (Si on augmente n_last_prices) ?
