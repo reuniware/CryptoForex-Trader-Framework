@@ -15,7 +15,7 @@ Nombre de derniers prix pour l'apprentissage : 100
 
 1 epoch : RMSE moyen = 0.012 (USD) ; 0.011 avec 50 neurones par couche LSTM
 
-2 epoch : RMSE moyen = 0.006 (USD)
+2 epoch : RMSE moyen = 0.006 (USD) ; 0.009 avec 50 neurones par couche LSTM
 
 3 epoch : RMSE Moyen = 0.017 (USD)
 
