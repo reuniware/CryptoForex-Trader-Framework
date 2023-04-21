@@ -21,6 +21,8 @@ Nombre de derniers prix pour la prédiction : 100
 
 4 epoch : RMSE Moyen = 0.007 (USD) ; 0.007 avec 50 neurones par couche LSTM
 
+5 epoch : RMSE Moyen = ? (USD) ; 0.007 avec 50 neurones par couche LSTM
+
 # Configufation technique (lscpu)
 
 Architecture:            x86_64
