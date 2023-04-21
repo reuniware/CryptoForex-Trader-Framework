@@ -7,7 +7,7 @@
 
 100 et 50 neurones par couche LSTM
 
-Historique de données téléchargées en H1 de 01-06-2022 au 21-04-2023
+Historique de données téléchargées en H1 de 01-06-2021 au 21-04-2023
 
 Nombre de derniers prix pour la prédiction : 100
 
