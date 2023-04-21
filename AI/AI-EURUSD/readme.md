@@ -9,7 +9,7 @@
 
 Historique de données téléchargées en H1 de 01-06-2022 au 21-04-2023
 
-Nombre de derniers prix pour l'apprentissage : 100
+Nombre de derniers prix pour la prédiction : 100
 
 ### Résultats
 
