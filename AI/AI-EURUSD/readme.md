@@ -13,7 +13,7 @@ Nombre de derniers prix pour la prédiction : 100
 
 ### Résultats
 
-1 epoch : RMSE moyen = 0.012 (USD) ; 0.011 avec 50 neurones par couche LSTM
+1 epoch : RMSE moyen = 0.009706267 (USD) ; 0.011 avec 50 neurones par couche LSTM
 
 2 epoch : RMSE moyen = 0.027 (USD) ; 0.009 avec 50 neurones par couche LSTM
 
