@@ -9,7 +9,7 @@ Chantier de recherche expérimentale sur la prédiction du cours de l'EUR/USD en
 
 Historique de données téléchargées de 01-06-2022 au 21-04-2023
 
-
+### Résultats
 
 1 epoch : RMSE = 0.012 (USD)
 
