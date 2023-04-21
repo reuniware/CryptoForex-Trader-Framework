@@ -23,7 +23,7 @@ signal.signal(signal.SIGINT, signal_handler)
 
 ticker = yf.Ticker('EURUSD=X')
 # Récupération des données de trading avec le prix BID
-ohlcv = ticker.history(start='2022-01-01', end='2023-04-20', interval='1h', actions=False, auto_adjust=False, back_adjust=False, proxy=None, rounding=False).sort_index(ascending=False)
+ohlcv = ticker.history(start='2021-06-01', end='2023-04-21', interval='1h', actions=False, auto_adjust=False, back_adjust=False, proxy=None, rounding=False).sort_index(ascending=False)
 
 print(ohlcv)
 
@@ -86,6 +86,8 @@ print(rmse_list)
 print("Mean RMSE = " + str(np.mean(rmse_list)))
 # Sauvegarde du modèle
 model.save('eur_usd_lstm_model.h5')
+
+#sys.exit(0)
 
 # Utilisation du modèle pour prédire le prix de l'EUR/USD en temps réel
 # n_last_prices doit être égal à time_step (Si on augmente n_last_prices) ?
