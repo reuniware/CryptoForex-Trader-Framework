@@ -11,7 +11,7 @@ Historique de données téléchargées en H1 de 01-06-2022 au 21-04-2023
 
 ### Résultats
 
-1 epoch : RMSE = 0.012 (USD)
+1 epoch : RMSE moyen = 0.012 (USD)
 
-2 epoch : RMSE = 0.006 (USD)
+2 epoch : RMSE moyen = 0.006 (USD)
 
