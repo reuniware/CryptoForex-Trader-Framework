@@ -57,10 +57,10 @@ X_test = X_test.reshape(X_test.shape[0], X_test.shape[1], 1)
 # Création du modèle LSTM
 model = Sequential()
 model.add(LSTM(units=150, return_sequences=True, input_shape=(X_train.shape[1], 1)))
-model.add(LSTM(units=150))
+model.add(LSTM(units=300))
 model.add(Dense(1))
 model.compile(loss='mean_squared_error', optimizer='adam')
-model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=1, batch_size=None, verbose=1)
+model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=2, batch_size=None, verbose=1)
 
 #model = Sequential()
 #model.add(LSTM(units=100, return_sequences=True, input_shape=(X_train.shape[1], 1)))
