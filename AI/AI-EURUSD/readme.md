@@ -17,4 +17,5 @@ Nombre de derniers prix pour l'apprentissage : 100
 
 2 epoch : RMSE moyen = 0.006 (USD)
 
-3 epoch : RMSE Moyen = 
+3 epoch : RMSE Moyen = 0.017 (USD)
+
