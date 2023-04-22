@@ -1,7 +1,7 @@
 
 ai-predict-bitcoin-3.py
 
-# Prédiction (test)
+### Prédiction (test)
 
 avec 10 epochs (temps pour 1 epoch = 27s max pour 8 core cpus)
 
