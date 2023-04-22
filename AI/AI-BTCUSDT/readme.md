@@ -39,4 +39,14 @@ Prédiction pour la prochaine bougie :  27297.578
 
 Prix actuel : 27617.45
 
+### Prédiction (test)
+
+avec 10 epochs (temps pour 1 epoch = 13s max pour 8 core cpus)
+
+prédiction du 22/04/2023 à 23h32 avec historique depuis 01 Janvier 2021 en bougies téléchargées en 4h
+
+Prédiction pour la prochaine bougie :  29294.465
+
+Prix actuel : 27611.08
+
 
