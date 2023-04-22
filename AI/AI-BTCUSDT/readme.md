@@ -51,7 +51,7 @@ Prix actuel : 27611.08
 
 ### Prédiction (test)
 
-avec 10 epochs (temps pour 1 epoch = 13s max pour 8 core cpus)
+avec 10 epochs (temps pour 1 epoch = 28s max pour 8 core cpus)
 
 prédiction du 23/04/2023 à 00:08 avec historique depuis 01 Janvier 2018 en bougies téléchargées en 4h
 
