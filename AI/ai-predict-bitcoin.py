@@ -6,18 +6,21 @@ from keras.models import Sequential
 from keras.layers import Dense, LSTM
 import signal
 import os
+import sys
 from keras.losses import mean_squared_error
+
 
 def signal_handler(sig, frame):
     print('You pressed Ctrl+C!')
     os.kill(os.getpid(), 9)
     sys.exit(-888)
 
+
 signal.signal(signal.SIGINT, signal_handler)
 
 # Récupération des données de trading du Bitcoin depuis l'API Binance
 binance = ccxt.binance()
-ohlcv = binance.fetch_ohlcv('BTC/USDT', timeframe='1h', limit=2000)
+ohlcv = binance.fetch_ohlcv('BTC/USDT', timeframe='15m', limit=50000)
 bitcoin_data = pd.DataFrame(ohlcv, columns=['time', 'open', 'high', 'low', 'close', 'volume'])
 bitcoin_data['time'] = pd.to_datetime(bitcoin_data['time'], unit='ms')
 
@@ -28,13 +31,15 @@ training_size = int(len(data) * 0.7)
 test_size = len(data) - training_size
 train_data, test_data = data[0:training_size, :], data[training_size:len(data), :]
 
+
 def create_dataset(dataset, time_step=1):
     X, Y = [], []
-    for i in range(len(dataset)-time_step-1):
-        a = dataset[i:(i+time_step), 0]
+    for i in range(len(dataset) - time_step - 1):
+        a = dataset[i:(i + time_step), 0]
         X.append(a)
         Y.append(dataset[i + time_step, 0])
     return np.array(X), np.array(Y)
+
 
 time_step = 100
 X_train, y_train = create_dataset(train_data, time_step)
@@ -55,7 +60,7 @@ model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=100, batch_
 # Sauvegarde du modèle
 model.save('bitcoin_lstm_model.h5')
 
-#Vérification du RMSE
+# Vérification du RMSE
 # Prédiction sur l'ensemble de test
 y_pred = model.predict(X_test)
 # Calcul du RMSE pour chaque prédiction
@@ -72,7 +77,7 @@ print("Mean RMSE = " + str(np.mean(rmse_list)))
 
 # Utilisation du modèle pour prédire le prix du Bitcoin en temps réel
 # n_last_prices doit être égal à time_step
-n_last_prices = 100 # nombre de derniers prix à utiliser pour la prédiction
+n_last_prices = 100  # nombre de derniers prix à utiliser pour la prédiction
 while True:
     try:
         current_price = binance.fetch_ticker('BTC/USDT')['last']
