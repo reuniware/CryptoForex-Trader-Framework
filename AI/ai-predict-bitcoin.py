@@ -6,6 +6,7 @@ from keras.models import Sequential
 from keras.layers import Dense, LSTM
 import signal
 import os
+from keras.losses import mean_squared_error
 
 def signal_handler(sig, frame):
     print('You pressed Ctrl+C!')
@@ -53,6 +54,21 @@ model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=100, batch_
 
 # Sauvegarde du modèle
 model.save('bitcoin_lstm_model.h5')
+
+#Vérification du RMSE
+# Prédiction sur l'ensemble de test
+y_pred = model.predict(X_test)
+# Calcul du RMSE pour chaque prédiction
+rmse_list = []
+for i in range(len(y_test)):
+    mse = mean_squared_error(y_test[i], y_pred[i])
+    rmse = np.sqrt(mse)
+    rmse_list.append(rmse)
+# Affichage des RMSE
+print("RMSE for each prediction:")
+print(rmse_list)
+# Affichage de la moyenne des RMSE
+print("Mean RMSE = " + str(np.mean(rmse_list)))
 
 # Utilisation du modèle pour prédire le prix du Bitcoin en temps réel
 # n_last_prices doit être égal à time_step
