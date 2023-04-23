@@ -9,7 +9,7 @@ prédiction du 22/04/2023 à 22h55 avec historique depuis 01 Janvier 2023 en bou
 
 Prédiction pour la prochaine bougie :  **21175.7**
 
-prix actuel : 27658.34
+prix actuel : **27658.34**
 
 ### Prédiction (test)
 
@@ -27,7 +27,7 @@ prédiction du 22/04/2023 à 23h? avec historique depuis 01 Janvier 2022 en boug
 
 Prédiction pour la prochaine bougie :  **26601.158**
 
-Prix actuel : 27609.18
+Prix actuel : **27609.18**
 
 ### Prédiction (test)
 
@@ -37,7 +37,7 @@ prédiction du 22/04/2023 à 23h26 avec historique depuis 01 Janvier 2022 en bou
 
 Prédiction pour la prochaine bougie :  **27297.578**
 
-Prix actuel : 27617.45
+Prix actuel : **27617.45**
 
 Prix du 23/04/2023 du plus bas de la bougie H4 de 14h : **27311.25** 
 
@@ -49,7 +49,7 @@ prédiction du 22/04/2023 à 23h32 avec historique depuis 01 Janvier 2021 en bou
 
 Prédiction pour la prochaine bougie :  **29294.465**
 
-Prix actuel : 27611.08
+Prix actuel : **27611.08**
 
 ### Prédiction (test)
 
@@ -59,7 +59,7 @@ prédiction du 23/04/2023 à 00:08 avec historique depuis 01 Janvier 2018 en bou
 
 Prédiction pour la prochaine bougie :  **39541.613**
 
-Prix actuel : 27757.91
+Prix actuel : **27757.91**
 
 ### Prédiction (test)
 
@@ -69,4 +69,4 @@ prédiction du 23/04/2023 à 00:29 avec historique depuis 01 Janvier 2018 en bou
 
 Prédiction pour la prochaine bougie :  **59589.207**
 
-Prix actuel : 27746.79
+Prix actuel : **27746.79**
