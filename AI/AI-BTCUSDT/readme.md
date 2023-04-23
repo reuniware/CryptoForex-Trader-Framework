@@ -77,7 +77,7 @@ Prix actuel : **27746.79**
 
 avec 10 epochs (temps pour 1 epoch = 10s max pour 8 core cpus)
 
-prédiction du 22/04/2023 à 23h26 avec historique depuis 01 Janvier 2022 en bougies téléchargées en 4h
+prédiction du 23/04/2023 à 22h45 avec historique depuis 01 Janvier 2022 en bougies téléchargées en 4h
 
 Prédiction pour la prochaine bougie :  **26754.76**
 
