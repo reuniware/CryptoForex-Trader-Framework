@@ -39,6 +39,8 @@ Prédiction pour la prochaine bougie :  **27297.578**
 
 Prix actuel : 27617.45
 
+Prix du 23/04/2023 du plus bas de la bougie H4 de 14h : 27311.25 
+
 ### Prédiction (test)
 
 avec 10 epochs (temps pour 1 epoch = 13s max pour 8 core cpus)
