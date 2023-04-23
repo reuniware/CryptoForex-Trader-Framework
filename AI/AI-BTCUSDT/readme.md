@@ -19,7 +19,7 @@ prédiction du 22/04/2023 à 23h16 avec historique depuis 01 Janvier 2022 en bou
 
 Prédiction pour la prochaine bougie :  **20802.525**
 
-prix actuel : **27612.00** environs
+prix actuel : **27612.00** 
 
 ### Prédiction (test)
 
