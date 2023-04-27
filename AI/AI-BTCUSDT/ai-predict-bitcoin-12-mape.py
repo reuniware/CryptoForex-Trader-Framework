@@ -38,9 +38,12 @@ def log_to_results(str_to_log):
     fr.close()
 
 
+force_download = True
+
+
 data_history_file = "bitcoin_data_h4_01012000_27042023.pkl"
 
-if not (os.path.exists(data_history_file)):
+if not (os.path.exists(data_history_file)) or force_download == True:
     print("downloading data")
     # Préparer les données d'entrée
     klinesT = Client().get_historical_klines("BTCUSDT", Client.KLINE_INTERVAL_4HOUR, "01 January 2000")
