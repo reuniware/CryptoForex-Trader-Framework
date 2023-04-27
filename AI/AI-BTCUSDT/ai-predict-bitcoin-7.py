@@ -32,6 +32,7 @@ def log_to_results(str_to_log):
 
 
 if not (os.path.exists("bitcoin_data_h4_01012000_27042023.pkl")):
+    print("downloading data")
     # Préparer les données d'entrée
     klinesT = Client().get_historical_klines("BTCUSDT", Client.KLINE_INTERVAL_4HOUR, "01 January 2000")
     bitcoin_data = pd.DataFrame(klinesT,
@@ -40,6 +41,7 @@ if not (os.path.exists("bitcoin_data_h4_01012000_27042023.pkl")):
     bitcoin_data['time'] = pd.to_datetime(bitcoin_data['time'], unit='ms')
     bitcoin_data.to_pickle("bitcoin_data_h4_01012000_27042023.pkl")
 else:
+    print("using existing file for data")
     bitcoin_data = pd.read_pickle("bitcoin_data_h4_01012000_27042023.pkl")
 
 # Normalisation des données d'entrée
@@ -67,7 +69,7 @@ def create_dataset(X, y, time_steps=1):
 
 
 # Définition de la séquence temporelle des pas de temps
-TIME_STEPS = 240
+TIME_STEPS = 480
 
 # Création des ensembles de données pour l'entraînement et le test
 X_train, y_train = create_dataset(train_data, train_target, time_steps=TIME_STEPS)
