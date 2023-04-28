@@ -17,3 +17,4 @@ pip install sklearn
 pip install scikit-learn
 pip install keras
 pip install tensorflow
+pip install matplotlib
