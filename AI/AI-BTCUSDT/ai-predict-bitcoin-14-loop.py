@@ -1,5 +1,6 @@
 #!pip install ccxt
 #!pip install python-binance
+#!pip install ta
 
 import ccxt
 import pandas as pd
