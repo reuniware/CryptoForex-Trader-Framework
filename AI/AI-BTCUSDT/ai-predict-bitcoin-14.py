@@ -46,6 +46,7 @@ interval = Client.KLINE_INTERVAL_4HOUR
 if not (os.path.exists(data_history_file)) or force_download == True:
     print("downloading data")
     # Préparer les données d'entrée
+    #klinesT = Client(tld='us').get_historical_klines("BTCUSDT", interval, "01 January 2000")
     klinesT = Client().get_historical_klines("BTCUSDT", interval, "01 January 2000")
     bitcoin_data = pd.DataFrame(klinesT,
                                 columns=['time', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av',
