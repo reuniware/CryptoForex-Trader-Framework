@@ -51,6 +51,12 @@ def cleanup_files():
             print("Error while deleting file : ", filePath)
 
 
+directory_modeles_a_trier = 'modeles_a_trier'
+if not os.path.exists(directory_modeles_a_trier):
+    # If it doesn't exist, create it
+    os.makedirs(directory_modeles_a_trier)
+
+
 force_download = True
 
 avg_predict = 0
@@ -177,10 +183,14 @@ while True:
 
     plt.title(filename)
 
-    plt.savefig(filename)
+    plt.savefig(directory_modeles_a_trier + '/' + filename)
 
     plt.show()
+    plt.close()
+    plt.cla()
+    plt.clf()
     
-    model.save_weights(stryear + strmonth + strday + strhour + strmin + '-model_weights.h5')
+    filename_weights = stryear + strmonth + strday + strhour + strmin + '-model_weights.h5'
 
+    model.save_weights(directory_modeles_a_trier + '/' + filename_weights)
 
