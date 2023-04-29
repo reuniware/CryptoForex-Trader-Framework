@@ -138,6 +138,8 @@ while True:
     # Evaluation du modèle
     model.evaluate(X_test, y_test)
 
+    #model.load_weights('modele.h5')
+
     # Prédiction sur les données de test
     y_pred = model.predict(X_test)
 
