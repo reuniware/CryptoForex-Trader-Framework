@@ -170,6 +170,9 @@ while True:
     mape = 100 * np.mean(np.abs((y_test_inv - y_pred_inv) / y_test_inv))
     print('Mean Absolute Percentage Error:', mape)
 
+    if np.mean(rmse_list) > 2000:
+        continue
+
     # Inverse la normalisation des données de sortie pour obtenir la prédiction réelle
     y_pred = scaler.inverse_transform(y_pred)
 
