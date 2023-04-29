@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 import ta
 from ta.trend import IchimokuIndicator
-
+import glob
 
 def signal_handler(sig, frame):
     print('You pressed Ctrl+C!')
@@ -39,6 +39,16 @@ def log_to_results(str_to_log):
     fr = open("results.txt", "a")
     fr.write(str_to_log + "\n")
     fr.close()
+
+    
+def cleanup_files():
+    fileList = glob.glob('*.png')
+    # Iterate over the list of filepaths & remove each file.
+    for filePath in fileList:
+        try:
+            os.remove(filePath)
+        except:
+            print("Error while deleting file : ", filePath)
 
 
 force_download = True
