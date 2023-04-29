@@ -171,8 +171,11 @@ while True:
     plt.plot(y_pred, label='Prédictions')
     plt.legend()
 
-    filename = stryear + strmonth + strday + strhour + strmin + 'chart.png'
+    filename = stryear + strmonth + strday + strhour + strmin + '-chart.png'
     plt.savefig(filename)
 
     plt.show()
+    
+    model.save_weights(stryear + strmonth + strday + strhour + strmin + '-model_weights.h5')
+
 
