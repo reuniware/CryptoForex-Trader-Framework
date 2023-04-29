@@ -154,7 +154,7 @@ while True:
         avg_predict = (avg_predict + y_pred[-1][0])/2
     
     log_to_results("average predict = " + str(avg_predict))
-
+    print("average predict = " + str(avg_predict))
 
     # Inverse la normalisation des données de test pour obtenir les vraies valeurs
     y_test = scaler.inverse_transform(y_test)
