@@ -134,11 +134,17 @@ model.add(LSTM(64, return_sequences=False))
 model.add(Dropout(0.2))
 model.add(Dense(1))
 
+# Chargement des poids à appliquer
+model.load_weights('./models/202304291318-model_weights.h5')
+
 # Compilation du modèle
 model.compile(optimizer='adam', loss='mape')
 
-# Chargement des poids à appliquer
-model.load_weights('./models/202304291318-model_weights.h5')
+# Entraînement du modèle
+model.fit(X_train, y_train, epochs=1, batch_size=None, validation_split=0.1, shuffle=False)
+
+# Evaluation du modèle
+model.evaluate(X_test, y_test)
 
 # Prédiction sur les données de test
 print("will predict")
@@ -170,7 +176,7 @@ filename = stryear + strmonth + strday + strhour + strmin + '-chart.png'
 
 plt.title(filename)
 
-#plt.savefig(directory_modeles_a_trier + '/' + filename)
+plt.savefig(directory_modeles_a_trier + '/' + filename)
 
 plt.show()
 plt.close()
