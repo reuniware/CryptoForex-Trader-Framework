@@ -174,6 +174,9 @@ while True:
     plt.legend()
 
     filename = stryear + strmonth + strday + strhour + strmin + '-chart.png'
+
+    plt.title(filename)
+
     plt.savefig(filename)
 
     plt.show()
