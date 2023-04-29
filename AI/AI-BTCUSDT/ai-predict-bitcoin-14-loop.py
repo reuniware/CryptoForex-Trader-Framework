@@ -149,6 +149,21 @@ while True:
     # Prédiction sur les données de test
     y_pred = model.predict(X_test)
 
+    # Vérification du RMSE
+    # Prédiction sur l'ensemble de test
+    y_pred = model.predict(X_test)
+    # Calcul du RMSE pour chaque prédiction
+    rmse_list = []
+    for i in range(len(y_test)):
+        mse = mean_squared_error(y_test[i], y_pred[i])
+        rmse = np.sqrt(mse)
+        rmse_list.append(rmse)
+    # Affichage des RMSE
+    #print("RMSE for each prediction:")
+    #print(rmse_list)
+    # Affichage de la moyenne des RMSE
+    print("Mean RMSE = " + str(np.mean(rmse_list)))
+
     # Inverse la normalisation des données de sortie pour obtenir la prédiction réelle
     y_pred = scaler.inverse_transform(y_pred)
 
@@ -175,13 +190,13 @@ while True:
     strmin = format(currentDateAndTime.minute, '02')
 
     # Tracer les prédictions par rapport aux données réelles
-    plt.plot(y_test, label='Données réelles')
-    plt.plot(y_pred, label='Prédictions')
+    plt.plot(y_test[-500:], label='Données réelles')
+    plt.plot(y_pred[-500:], label='Prédictions')
     plt.legend()
 
     filename = stryear + strmonth + strday + strhour + strmin + '-chart.png'
 
-    plt.title(filename)
+    plt.title(filename + ' MeanRMSE=' + str(np.mean(rmse_list)))
 
     plt.savefig(directory_modeles_a_trier + '/' + filename)
 
