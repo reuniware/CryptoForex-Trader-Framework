@@ -137,13 +137,13 @@ model.add(Dense(1))
 # Chargement des poids à appliquer
 model.load_weights('./models/202304291318-model_weights.h5')
 
-# Compilation du modèle
+# Compilation du modèle (facultatif si on ne veut que la prédiction)
 model.compile(optimizer='adam', loss='mape')
 
-# Entraînement du modèle
+# Entraînement du modèle (facultatif si on ne veut que la prédiction)
 model.fit(X_train, y_train, epochs=1, batch_size=None, validation_split=0.1, shuffle=False)
 
-# Evaluation du modèle
+# Evaluation du modèle (facultatif si on ne veut que la prédiction)
 model.evaluate(X_test, y_test)
 
 # Prédiction sur les données de test
