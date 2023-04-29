@@ -139,7 +139,7 @@ while True:
     model.compile(optimizer='adam', loss='mape')
 
     # Entraînement du modèle
-    model.fit(X_train, y_train, epochs=1, batch_size=16, validation_split=0.1, shuffle=False)
+    model.fit(X_train, y_train, epochs=1, batch_size=32, validation_split=0.1, shuffle=False)
 
     # Evaluation du modèle
     model.evaluate(X_test, y_test)
