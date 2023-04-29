@@ -151,11 +151,12 @@ while True:
 
     # Vérification du RMSE
     # Prédiction sur l'ensemble de test
-    y_pred = model.predict(X_test)
+    y_test_inv = scaler.inverse_transform(y_test.reshape(-1, 1))
+    y_pred_inv = scaler.inverse_transform(y_pred)
     # Calcul du RMSE pour chaque prédiction
     rmse_list = []
     for i in range(len(y_test)):
-        mse = mean_squared_error(y_test[i], y_pred[i])
+        mse = mean_squared_error(y_test_inv[i], y_pred_inv[i])
         rmse = np.sqrt(mse)
         rmse_list.append(rmse)
     # Affichage des RMSE
@@ -163,6 +164,11 @@ while True:
     #print(rmse_list)
     # Affichage de la moyenne des RMSE
     print("Mean RMSE = " + str(np.mean(rmse_list)))
+
+    y_test_inv = scaler.inverse_transform(y_test.reshape(-1, 1))
+    y_pred_inv = scaler.inverse_transform(y_pred)
+    mape = 100 * np.mean(np.abs((y_test_inv - y_pred_inv) / y_test_inv))
+    print('Mean Absolute Percentage Error:', mape)
 
     # Inverse la normalisation des données de sortie pour obtenir la prédiction réelle
     y_pred = scaler.inverse_transform(y_pred)
@@ -196,7 +202,7 @@ while True:
 
     filename = stryear + strmonth + strday + strhour + strmin + '-chart.png'
 
-    plt.title(filename + ' MeanRMSE=' + str(np.mean(rmse_list)))
+    plt.title(filename + ' MeanRMSE=' + str(round(np.mean(rmse_list))) + ' MAPE=' + str(round(mape)))
 
     plt.savefig(directory_modeles_a_trier + '/' + filename)
 
