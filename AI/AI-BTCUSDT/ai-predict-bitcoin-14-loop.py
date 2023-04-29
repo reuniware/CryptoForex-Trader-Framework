@@ -1,6 +1,5 @@
 #!pip install ccxt
 #!pip install python-binance
-#!pip install ta
 
 import ccxt
 import pandas as pd
@@ -140,7 +139,7 @@ while True:
     model.compile(optimizer='adam', loss='mape')
 
     # Entraînement du modèle
-    model.fit(X_train, y_train, epochs=1, batch_size=None, validation_split=0.1, shuffle=False)
+    model.fit(X_train, y_train, epochs=1, batch_size=16, validation_split=0.1, shuffle=False)
 
     # Evaluation du modèle
     model.evaluate(X_test, y_test)
@@ -171,7 +170,7 @@ while True:
     mape = 100 * np.mean(np.abs((y_test_inv - y_pred_inv) / y_test_inv))
     print('Mean Absolute Percentage Error:', mape)
 
-    if np.mean(rmse_list) > 2000:
+    if np.mean(rmse_list) > 1000:
         continue
 
     # Inverse la normalisation des données de sortie pour obtenir la prédiction réelle
