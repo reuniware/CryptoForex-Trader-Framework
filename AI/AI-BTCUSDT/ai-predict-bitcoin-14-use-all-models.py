@@ -134,6 +134,7 @@ model.add(LSTM(64, return_sequences=False))
 model.add(Dropout(0.2))
 model.add(Dense(1))
 
+
 modelfileList = glob.glob('./models/*.h5')
 # Iterate over the list of filepaths & remove each file.
 for filePath in modelfileList:
@@ -159,9 +160,16 @@ for filePath in modelfileList:
     # Inverse la normalisation des données de sortie pour obtenir la prédiction réelle
     y_pred = scaler.inverse_transform(y_pred)
 
+    if avg_predict == 0:
+        avg_predict = y_pred[-1][0]
+    else:
+        avg_predict = (avg_predict + y_pred[-1][0])/2
+
     # Affichage de la prédiction
     print(filePath + " : " + "Prédiction pour la prochaine bougie : ", y_pred[-1][0])
     log_to_results(filePath + " : " + "Prédiction pour la prochaine bougie : " + str(y_pred[-1][0]))
+    print(filePath + " : " + "Prédiction Moyenne : ", round(avg_predict))
+    log_to_results(filePath + " : " + "Prédiction Moyenne : " + str(round(avg_predict)))
 
     # Inverse la normalisation des données de test pour obtenir les vraies valeurs
     y_test = scaler.inverse_transform(y_test)
