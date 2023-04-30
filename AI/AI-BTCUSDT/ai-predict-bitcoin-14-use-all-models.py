@@ -1,5 +1,6 @@
 #!pip install ccxt
 #!pip install python-binance
+#!pip install ta
 
 import ccxt
 import pandas as pd
@@ -30,9 +31,9 @@ def signal_handler(sig, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 
-# pd.set_option('display.max_columns', None)
-# pd.set_option('display.max_rows', None)
-# pd.set_option('display.expand_frame_repr', True)
+pd.set_option('display.max_columns', None)
+pd.set_option('display.max_rows', None)
+pd.set_option('display.expand_frame_repr', True)
 
 
 def log_to_results(str_to_log):
@@ -57,7 +58,7 @@ if not os.path.exists(directory_modeles_a_trier):
     os.makedirs(directory_modeles_a_trier)
 
 
-force_download = True
+force_download = False
 
 avg_predict = 0
 
@@ -76,7 +77,7 @@ if not (os.path.exists(data_history_file)) or force_download == True:
     bitcoin_data.to_pickle(data_history_file)
 else:
     print("updating data to merge to existing file with data")
-    klinesT2 = Client().get_historical_klines("BTCUSDT", interval, "1 day ago UTC")
+    klinesT2 = Client(tld='us').get_historical_klines("BTCUSDT", interval, "1 day ago UTC")
     bitcoin_data2 = pd.DataFrame(klinesT2,
                                     columns=['time', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av',
                                             'trades', 'tb_base_av', 'tb_quote_av', 'ignore'])
@@ -84,10 +85,19 @@ else:
     print("loading existing file with data")
     bitcoin_data = pd.read_pickle(data_history_file)
     print("merging downloaded recent data with existing file with data")
-    bitcoin_data = bitcoin_data.merge(bitcoin_data2, how="right")
+
+    # remove rows from bitcoin_data2 that are already in bitcoin_data
+    existing_dates = bitcoin_data['time']
+    bitcoin_data2 = bitcoin_data2[~bitcoin_data2['time'].isin(existing_dates)]
+
+    print("merging downloaded recent data with existing file with data")
+    bitcoin_data = pd.concat([bitcoin_data, bitcoin_data2], ignore_index=True, sort=False)
+
     print("saving updated data to file")
     bitcoin_data.to_pickle(data_history_file)
 
+#print(bitcoin_data[-50:])
+#sys.exit(0)
 
 # Normalisation des données d'entrée
 scaler = MinMaxScaler()
