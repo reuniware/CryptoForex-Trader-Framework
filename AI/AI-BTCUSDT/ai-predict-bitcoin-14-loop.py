@@ -2,6 +2,9 @@
 #!pip install python-binance
 #!pip install ta
 
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
 import ccxt
 import pandas as pd
 import numpy as np
@@ -12,7 +15,6 @@ import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, LSTM, Dropout
 import signal
-import os
 import sys
 from keras.losses import mean_squared_error
 from binance.client import Client
