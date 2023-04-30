@@ -200,7 +200,7 @@ for filePath in modelfileList:
 
     plt.title(filename)
 
-    plt.savefig(directory_modeles_a_trier + '/' + filename)
+    #plt.savefig(directory_modeles_a_trier + '/' + filename)
 
     plt.show()
     plt.close()
