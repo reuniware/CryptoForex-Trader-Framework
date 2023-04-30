@@ -57,8 +57,9 @@ if not os.path.exists(directory_modeles_a_trier):
     # If it doesn't exist, create it
     os.makedirs(directory_modeles_a_trier)
 
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR) # only show error messages
 
-force_download = False
+force_download = True
 
 avg_predict = 0
 
