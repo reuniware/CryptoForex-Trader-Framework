@@ -4,5 +4,5 @@ Feel free to contact me at : InvestDataSystems@Yahoo.Com
 
 I am based in France near Paris and I can meet you in all Europe.
 
-I can create a Deep Learning model for any financial asset in approximatively 10 days for $4900, with an accuracy of 95% in the predicted prices.
+I can create a Deep Learning model for any financial asset in approximatively 10 days for $4900, with an accuracy of 95% in the predicted prices for short term investments.
 
