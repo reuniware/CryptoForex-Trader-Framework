@@ -160,7 +160,7 @@ for filePath in modelfileList:
     model.load_weights(filePath)
     
     # Compilation du modèle
-    model.compile(optimizer='adam', loss='mape')
+    #model.compile(optimizer='adam', loss='mape')
 
     #loss, acc = model.evaluate(X_test, y_test, verbose=2)
     #print('Restored model, accuracy: {:5.2f}%'.format(100 * acc))
