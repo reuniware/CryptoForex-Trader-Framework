@@ -149,6 +149,9 @@ model.add(LSTM(64, return_sequences=False))
 model.add(Dropout(0.2))
 model.add(Dense(1))
 
+lowest = sys.float_info.max
+highest = 0
+
 modelfileList = glob.glob('./models/*.h5')
 num_files = len(modelfileList)
 index_current_file = 1
@@ -180,18 +183,24 @@ for filePath in modelfileList:
     # Inverse la normalisation des données de sortie pour obtenir la prédiction réelle
     y_pred = scaler.inverse_transform(y_pred)
 
-    predicted_value = y_pred[-1][0]
+    predicted_value = round(y_pred[-1][0])
 
     if avg_predict == 0:
         avg_predict = predicted_value
     else:
         avg_predict = (avg_predict + predicted_value)/2
 
+    if predicted_value>highest:
+        highest = predicted_value
+    if predicted_value<lowest:
+        lowest = predicted_value
+
     # Affichage de la prédiction
     print(filePath + " : " + "Prédiction pour la prochaine bougie : ", predicted_value)
     log_to_results(filePath + " : " + "Prédiction pour la prochaine bougie : " + str(predicted_value))
     print(filePath + " : " + "Prédiction Moyenne : ", round(avg_predict))
     log_to_results(filePath + " : " + "Prédiction Moyenne : " + str(round(avg_predict)))
+    print("mini=", lowest, "maxi=", highest)
 
     # Inverse la normalisation des données de test pour obtenir les vraies valeurs
     y_test = scaler.inverse_transform(y_test)
