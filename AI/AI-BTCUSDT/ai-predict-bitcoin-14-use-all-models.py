@@ -149,11 +149,14 @@ model.add(LSTM(64, return_sequences=False))
 model.add(Dropout(0.2))
 model.add(Dense(1))
 
-
 modelfileList = glob.glob('./models/*.h5')
+num_files = len(modelfileList)
+index_current_file = 1
 # Iterate over the list of filepaths & remove each file.
 for filePath in modelfileList:
-    print(filePath)
+    print("############################################################")
+    print("Fichier model weigths utilisé : ", filePath, '(', index_current_file, '/', num_files, ')')
+    index_current_file += 1
 
     # Chargement des poids à appliquer
     #model.load_weights('./models/202304291344-model_weights.h5')
@@ -172,43 +175,21 @@ for filePath in modelfileList:
     #model.evaluate(X_test, y_test)
 
     # Prédiction sur les données de test
-    print("will predict")
     y_pred = model.predict(X_test)
-
-    # Vérification du RMSE
-    # Prédiction sur l'ensemble de test
-    #y_test_inv = scaler.inverse_transform(y_test.reshape(-1, 1))
-    #y_pred_inv = scaler.inverse_transform(y_pred)
-    # Calcul du RMSE pour chaque prédiction
-    #rmse_list = []
-    #for i in range(len(y_test)):
-    #    mse = mean_squared_error(y_test_inv[i], y_pred_inv[i])
-    #    rmse = np.sqrt(mse)
-    #    rmse_list.append(rmse)
-    # Affichage des RMSE
-    #print("RMSE for each prediction:")
-    #print(rmse_list)
-    # Affichage de la moyenne des RMSE
-    #print("Mean RMSE = " + str(np.mean(rmse_list)))
-    #log_to_results("Mean RMSE = " + str(round(np.mean(rmse_list))))
-
-    #y_test_inv = scaler.inverse_transform(y_test.reshape(-1, 1))
-    #y_pred_inv = scaler.inverse_transform(y_pred)
-    #mape = 100 * np.mean(np.abs((y_test_inv - y_pred_inv) / y_test_inv))
-    #print('Mean Absolute Percentage Error:', mape)
-    #log_to_results('Mean Absolute Percentage Error:' + str(round(mape)))
 
     # Inverse la normalisation des données de sortie pour obtenir la prédiction réelle
     y_pred = scaler.inverse_transform(y_pred)
 
+    predicted_value = y_pred[-1][0]
+
     if avg_predict == 0:
-        avg_predict = y_pred[-1][0]
+        avg_predict = predicted_value
     else:
-        avg_predict = (avg_predict + y_pred[-1][0])/2
+        avg_predict = (avg_predict + predicted_value)/2
 
     # Affichage de la prédiction
-    print(filePath + " : " + "Prédiction pour la prochaine bougie : ", y_pred[-1][0])
-    log_to_results(filePath + " : " + "Prédiction pour la prochaine bougie : " + str(y_pred[-1][0]))
+    print(filePath + " : " + "Prédiction pour la prochaine bougie : ", predicted_value)
+    log_to_results(filePath + " : " + "Prédiction pour la prochaine bougie : " + str(predicted_value))
     print(filePath + " : " + "Prédiction Moyenne : ", round(avg_predict))
     log_to_results(filePath + " : " + "Prédiction Moyenne : " + str(round(avg_predict)))
 
