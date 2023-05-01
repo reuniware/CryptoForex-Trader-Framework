@@ -1,6 +1,3 @@
+Do you need an expert in Deep Leaning applied to finance ?
 
-ai-predict-bitcoin-3.py
-
-
-
-
+Feel free to contact me at : InvestDataSystems@Yahoo.Com
