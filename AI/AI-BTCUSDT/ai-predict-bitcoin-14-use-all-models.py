@@ -200,7 +200,7 @@ for filePath in modelfileList:
     log_to_results(filePath + " : " + "Prédiction pour la prochaine bougie : " + str(predicted_value))
     print(filePath + " : " + "Prédiction Moyenne : ", round(avg_predict))
     log_to_results(filePath + " : " + "Prédiction Moyenne : " + str(round(avg_predict)))
-    print("mini=", lowest, "maxi=", highest)
+    print("mini=", lowest, "maxi=", highest, "mid=", round(lowest + (highest - lowest)/2))
 
     # Inverse la normalisation des données de test pour obtenir les vraies valeurs
     y_test = scaler.inverse_transform(y_test)
