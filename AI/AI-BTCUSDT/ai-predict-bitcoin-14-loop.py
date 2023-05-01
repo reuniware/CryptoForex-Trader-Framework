@@ -45,7 +45,7 @@ def log_to_results(str_to_log):
 
     
 def cleanup_files():
-    fileList = glob.glob('*.png')
+    fileList = glob.glob('./modeles_a_trier/*')
     # Iterate over the list of filepaths & remove each file.
     for filePath in fileList:
         try:
@@ -54,6 +54,8 @@ def cleanup_files():
             print("Error while deleting file : ", filePath)
 
 
+cleanup_files()
+
 directory_modeles_a_trier = 'modeles_a_trier'
 if not os.path.exists(directory_modeles_a_trier):
     # If it doesn't exist, create it
@@ -61,11 +63,11 @@ if not os.path.exists(directory_modeles_a_trier):
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR) # only show error messages
 
-force_download = True
+force_download = False
 
 avg_predict = 0
 
-data_history_file = "bitcoin_data_4h_01012000_30042023.pkl"
+data_history_file = "bitcoin_data_4h_01012000_01052023.pkl"
 interval = Client.KLINE_INTERVAL_4HOUR
 
 while True:
@@ -165,22 +167,34 @@ while True:
     y_pred_inv = scaler.inverse_transform(y_pred)
     # Calcul du RMSE pour chaque prédiction
     rmse_list = []
+
+    lowest_rmse = sys.float_info.max
+    highest_rmse = 0
+
     for i in range(len(y_test)):
         mse = mean_squared_error(y_test_inv[i], y_pred_inv[i])
         rmse = np.sqrt(mse)
         rmse_list.append(rmse)
+        if rmse > highest_rmse:
+            highest_rmse = rmse
+        if rmse < lowest_rmse:
+            lowest_rmse = rmse
     # Affichage des RMSE
     #print("RMSE for each prediction:")
     #print(rmse_list)
     # Affichage de la moyenne des RMSE
-    print("Mean RMSE = " + str(np.mean(rmse_list)))
+    print("Mean RMSE = ", np.mean(rmse_list))
+    print("Highest RMSE = ", highest_rmse)
+    print("Lowest RMSE  = ", lowest_rmse)
 
     y_test_inv = scaler.inverse_transform(y_test.reshape(-1, 1))
     y_pred_inv = scaler.inverse_transform(y_pred)
     mape = 100 * np.mean(np.abs((y_test_inv - y_pred_inv) / y_test_inv))
     print('Mean Absolute Percentage Error:', mape)
 
-    if np.mean(rmse_list) > 1000:
+    #if np.mean(rmse_list) > 1000:
+    #    continue
+    if mape > 3:
         continue
 
     # Inverse la normalisation des données de sortie pour obtenir la prédiction réelle
@@ -209,8 +223,8 @@ while True:
     strmin = format(currentDateAndTime.minute, '02')
 
     # Tracer les prédictions par rapport aux données réelles
-    plt.plot(y_test[-500:], label='Données réelles')
-    plt.plot(y_pred[-500:], label='Prédictions')
+    plt.plot(y_test, label='Données réelles')
+    plt.plot(y_pred, label='Prédictions')
     plt.legend()
 
     filename = stryear + strmonth + strday + strhour + strmin + '-chart.png'
