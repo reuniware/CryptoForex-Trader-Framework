@@ -51,6 +51,8 @@ def cleanup_files():
         except:
             print("Error while deleting file : ", filePath)
 
+print("Démarrage des traitements à ", datetime.now())
+log_to_results("Démarrage des traitements " + str(datetime.now()))
 
 directory_modeles_a_trier = 'modeles_a_trier'
 if not os.path.exists(directory_modeles_a_trier):
@@ -58,7 +60,7 @@ if not os.path.exists(directory_modeles_a_trier):
     os.makedirs(directory_modeles_a_trier)
 
 
-force_download = False
+force_download = True
 
 avg_predict = 0
 
@@ -155,13 +157,13 @@ for filePath in modelfileList:
     model.load_weights(filePath)
 
     # Compilation du modèle
-    #model.compile(optimizer='adam', loss='mape')
+    model.compile(optimizer='adam', loss='mape')
 
     # Entraînement du modèle
-    #model.fit(X_train, y_train, epochs=1, batch_size=None, validation_split=0.1, shuffle=False)
+    model.fit(X_train, y_train, epochs=1, batch_size=None, validation_split=0.1, shuffle=False)
 
     # Evaluation du modèle
-    #model.evaluate(X_test, y_test)
+    model.evaluate(X_test, y_test)
 
     # Prédiction sur les données de test
     print("will predict")
