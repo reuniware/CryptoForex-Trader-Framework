@@ -2,6 +2,9 @@
 #!pip install python-binance
 #!pip install ta
 
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
 import ccxt
 import pandas as pd
 import numpy as np
@@ -12,7 +15,6 @@ import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, LSTM, Dropout
 import signal
-import os
 import sys
 from keras.losses import mean_squared_error
 from binance.client import Client
@@ -21,6 +23,7 @@ from datetime import datetime
 import ta
 from ta.trend import IchimokuIndicator
 import glob
+
 
 def signal_handler(sig, frame):
     print('You pressed Ctrl+C!')
@@ -64,7 +67,7 @@ force_download = True
 
 avg_predict = 0
 
-data_history_file = "bitcoin_data_4h_01012000_29042023.pkl"
+data_history_file = "bitcoin_data_4h_01012000_01052023.pkl"
 interval = Client.KLINE_INTERVAL_4HOUR
 
 if not (os.path.exists(data_history_file)) or force_download == True:
@@ -153,21 +156,47 @@ for filePath in modelfileList:
     print(filePath)
 
     # Chargement des poids à appliquer
-    model.load_weights('./models/202304291344-model_weights.h5')
+    #model.load_weights('./models/202304291344-model_weights.h5')
     model.load_weights(filePath)
-
+    
     # Compilation du modèle
     model.compile(optimizer='adam', loss='mape')
 
+    #loss, acc = model.evaluate(X_test, y_test, verbose=2)
+    #print('Restored model, accuracy: {:5.2f}%'.format(100 * acc))
+
     # Entraînement du modèle
-    model.fit(X_train, y_train, epochs=1, batch_size=None, validation_split=0.1, shuffle=False)
+    #model.fit(X_train, y_train, epochs=1, batch_size=None, validation_split=0.1, shuffle=False)
 
     # Evaluation du modèle
-    model.evaluate(X_test, y_test)
+    #model.evaluate(X_test, y_test)
 
     # Prédiction sur les données de test
     print("will predict")
     y_pred = model.predict(X_test)
+
+    # Vérification du RMSE
+    # Prédiction sur l'ensemble de test
+    #y_test_inv = scaler.inverse_transform(y_test.reshape(-1, 1))
+    #y_pred_inv = scaler.inverse_transform(y_pred)
+    # Calcul du RMSE pour chaque prédiction
+    #rmse_list = []
+    #for i in range(len(y_test)):
+    #    mse = mean_squared_error(y_test_inv[i], y_pred_inv[i])
+    #    rmse = np.sqrt(mse)
+    #    rmse_list.append(rmse)
+    # Affichage des RMSE
+    #print("RMSE for each prediction:")
+    #print(rmse_list)
+    # Affichage de la moyenne des RMSE
+    #print("Mean RMSE = " + str(np.mean(rmse_list)))
+    #log_to_results("Mean RMSE = " + str(round(np.mean(rmse_list))))
+
+    #y_test_inv = scaler.inverse_transform(y_test.reshape(-1, 1))
+    #y_pred_inv = scaler.inverse_transform(y_pred)
+    #mape = 100 * np.mean(np.abs((y_test_inv - y_pred_inv) / y_test_inv))
+    #print('Mean Absolute Percentage Error:', mape)
+    #log_to_results('Mean Absolute Percentage Error:' + str(round(mape)))
 
     # Inverse la normalisation des données de sortie pour obtenir la prédiction réelle
     y_pred = scaler.inverse_transform(y_pred)
