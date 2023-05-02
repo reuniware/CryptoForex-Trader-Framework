@@ -205,16 +205,16 @@ while True:
     predicted_price = y_pred[-1][0]
 
     # Affichage de la prédiction
-    print("Prédiction pour la prochaine bougie : ", predicted_price)
-    log_to_results("Prédiction pour la prochaine bougie : " + str(predicted_price))
+    print("Prédiction pour la prochaine bougie : ", predicted_price,  "mape = ", mape)
+    log_to_results("Prédiction pour la prochaine bougie : " + str(predicted_price)  + " mape = " + str(mape))
 
     if avg_predict==0:
         avg_predict = avg_predict + predicted_price
     else:
         avg_predict = (avg_predict + predicted_price)/2
 
-    log_to_results("average predict = " + str(avg_predict) + " mape = " + str(mape))
-    print("average predict = " + str(avg_predict) + " mape = " + str(mape))
+    log_to_results("average predict = " + str(avg_predict))
+    print("average predict = " + str(avg_predict))
 
     if mape > 0.08:
         continue
