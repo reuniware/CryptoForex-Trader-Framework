@@ -82,7 +82,7 @@ while True:
     strStartDate = stryearpast + '-' + strmonthpast + '-' + strdaypast
     strEndDate = stryear + '-' + strmonth + '-' + strday
 
-    #print(strStartDate, strEndDate)
+    print("Date range used :", strStartDate, strEndDate)
 
     # Récupération des données de trading de EUR/USD depuis l'API Yahoo Finance
     #ohlcv = yf.download('EURUSD=X', start='2021-06-01', end='2023-05-02', interval='1h')
