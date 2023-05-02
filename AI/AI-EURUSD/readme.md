@@ -14,3 +14,6 @@ Les modèles sont dans les fichiers .py, comme par exemple :
     # Compilation du modèle
     model.compile(optimizer='adam', loss='huber_loss')
 
+Bien sûr, pour rappel, quand on charge un fichier de poids, ce dernier ne peut être appliqué qu'au modèle qui a été utilisé pour générer ce fichier de poids.
+
+C'est pour cela qu'idéalement je devrai sauvegarder chaque modèle qui peut être utilisé par un fichier de poids... Mais je n'ai pas pris cette habitude jusqu'à maintenant. A l'avenir je tâcherai de penser à ce point.
