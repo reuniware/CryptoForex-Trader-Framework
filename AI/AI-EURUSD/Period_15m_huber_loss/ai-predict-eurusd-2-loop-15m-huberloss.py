@@ -70,6 +70,7 @@ data_history_file = "eurusd_data_15m_01062021_02052023.pkl"
 while True:
 
     currentDateAndTime = datetime.now()
+    currentDateAndTime = currentDateAndTime + timedelta(days=1)
     stryear = format(currentDateAndTime.year, '04')
     strmonth = format(currentDateAndTime.month, '02')
     strday = format(currentDateAndTime.day, '02')
@@ -85,7 +86,7 @@ while True:
     print("Date range used :", strStartDate, strEndDate)
 
     # Récupération des données de trading de EUR/USD depuis l'API Yahoo Finance
-    #ohlcv = yf.download('EURUSD=X', start='2021-06-01', end='2023-05-02', interval='1h')
+    #ohlcv = yf.download('EURUSD=X', start='2021-06-01', end='2023-05-03', interval='15m')
     ohlcv = yf.download('EURUSD=X', start=strStartDate, end=strEndDate, interval='15m') # 60 days backward is the maximum range
     ohlcv.reset_index(inplace=True)
 
@@ -98,6 +99,9 @@ while True:
     #sys.exit(0)
 
     eur_usd_data = pd.DataFrame(ohlcv, columns=['Datetime', 'Open', 'High', 'Low', 'Close', 'Volume'])
+    if (eur_usd_data.empty):
+        print("dataframe is empty")
+        sys.exit(-500)
     eur_usd_data['Datetime'] = pd.to_datetime(eur_usd_data['Datetime'], unit='ms')
 
     # Normalisation des données d'entrée
@@ -195,25 +199,25 @@ while True:
     mape = 100 * np.mean(np.abs((y_test_inv - y_pred_inv) / y_test_inv))
     print('Mean Absolute Percentage Error:', mape)
 
-    #if np.mean(rmse_list) > 1000:
-    #    continue
-    #if mape > 1.005:
-    #    continue
-
     # Inverse la normalisation des données de sortie pour obtenir la prédiction réelle
     y_pred = scaler.inverse_transform(y_pred)
 
+    predicted_price = y_pred[-1][0]
+
     # Affichage de la prédiction
-    print("Prédiction pour la prochaine bougie : ", y_pred[-1][0])
-    log_to_results("Prédiction pour la prochaine bougie : " + str(y_pred[-1][0]))
+    print("Prédiction pour la prochaine bougie : ", predicted_price)
+    log_to_results("Prédiction pour la prochaine bougie : " + str(predicted_price))
 
     if avg_predict==0:
-        avg_predict = avg_predict + y_pred[-1][0]
+        avg_predict = avg_predict + predicted_price
     else:
-        avg_predict = (avg_predict + y_pred[-1][0])/2
+        avg_predict = (avg_predict + predicted_price)/2
 
-    log_to_results("average predict = " + str(avg_predict))
-    print("average predict = " + str(avg_predict))
+    log_to_results("average predict = " + str(avg_predict) + " mape = " + str(mape))
+    print("average predict = " + str(avg_predict) + " mape = " + str(mape))
+
+    if mape > 0.08:
+        continue
 
     # Inverse la normalisation des données de test pour obtenir les vraies valeurs
     y_test = scaler.inverse_transform(y_test)
