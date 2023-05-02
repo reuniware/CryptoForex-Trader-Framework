@@ -23,4 +23,10 @@ Une autre piste serait aussi d'obtenir plus de données. Car quand on demande à
       3879 2023-05-01 23:30:00  1.097815  1.097815  1.097815  1.097815   1.097815       0
       3880 2023-05-01 23:45:00  1.097815  1.097815  1.097695  1.097695   1.097695       0
 
+### Point de vigilance 2 :
+
 Aussi, l'API Yahoo ne permets d'obtenir les données 15 minutes que pour les 59 derniers jours... Il serait intéressant donc de pouvoir télécharger beaucoup plus d'historique.
+
+### Travaux à prévoir dans l'immédiat
+
+Résoudre le point de vigilance 1 afin de permettre de trader sur l'unité de temps 15 minutes avec des données téléchargées jusqu'au dernier quart d'heure.
