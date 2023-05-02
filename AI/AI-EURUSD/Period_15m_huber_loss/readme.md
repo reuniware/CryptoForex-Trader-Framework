@@ -6,7 +6,6 @@ Selon moi, il faut jouer sur le modèle pour tenter de réduire encore le mape. 
 
 Une autre piste serait aussi d'obtenir plus de données. Car quand on demande à l'API Yahoo les données 15 minutes pour la plage du 04/03/2023 au 02/05/2023 et bien les dernières données obtenues concernent le 01/05/2023 à 23h45. De ce fait on a un entraînement du modèle sans les données du jour et donc probablement une prédiction un peu moins précise car il manque les données du jour (en l'occurrence le 02/05/2023 dans le cas présent).
 
-
       Date range used : 2023-03-04 2023-05-02
       [*********************100%***********************]  1 of 1 completed
                       Datetime      Open      High       Low     Close  Adj Close  Volume
@@ -21,3 +20,5 @@ Une autre piste serait aussi d'obtenir plus de données. Car quand on demande à
       3878 2023-05-01 23:15:00  1.097815  1.097815  1.097695  1.097815   1.097815       0
       3879 2023-05-01 23:30:00  1.097815  1.097815  1.097815  1.097815   1.097815       0
       3880 2023-05-01 23:45:00  1.097815  1.097815  1.097695  1.097695   1.097695       0
+
+Aussi, l'API Yahoo ne permets d'obtenir les données 15 minutes que pour les 59 derniers jours... Il serait intéressant donc de pouvoir télécharger beaucoup plus d'historique.
