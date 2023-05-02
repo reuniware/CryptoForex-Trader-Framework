@@ -202,6 +202,7 @@ for filePath in modelfileList:
     log_to_results(filePath + " : " + "Prédiction Moyenne : " + str(round(avg_predict)))
     print("mini=", lowest, "maxi=", highest, "mid=", round(lowest + (highest - lowest)/2))
 
+
     # Inverse la normalisation des données de test pour obtenir les vraies valeurs
     y_test = scaler.inverse_transform(y_test)
 
@@ -232,3 +233,4 @@ for filePath in modelfileList:
 
     #model.save_weights(directory_modeles_a_trier + '/' + filename_weights)
 
+log_to_results("mini=" + str(lowest) + " maxi=" +  str(highest) + " mid=" + str(round(lowest + (highest - lowest)/2)))
