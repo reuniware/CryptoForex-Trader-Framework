@@ -6,29 +6,8 @@ Selon moi, il faut jouer sur le modèle pour tenter de réduire encore le mape. 
 
 <br/>
 
-### Point de vigilance 1 :
 
-Une autre piste serait aussi d'obtenir plus de données. Car quand on demande à l'API Yahoo les données 15 minutes pour la plage du 04/03/2023 au 02/05/2023 et bien les dernières données obtenues concernent le 01/05/2023 à 23h45. De ce fait on a un entraînement du modèle sans les données du jour et donc probablement une prédiction un peu moins précise car il manque les données du jour (en l'occurrence le 02/05/2023 dans le cas présent).
+### Point de vigilance :
 
-      Date range used : 2023-03-04 2023-05-02
-      [*********************100%***********************]  1 of 1 completed
-                      Datetime      Open      High       Low     Close  Adj Close  Volume
-      0    2023-03-06 00:00:00  1.062812  1.063717  1.062812  1.063717   1.063717       0
-      1    2023-03-06 00:15:00  1.063604  1.063830  1.063377  1.063830   1.063830       0
-      2    2023-03-06 00:30:00  1.063830  1.063943  1.063604  1.063717   1.063717       0
-      3    2023-03-06 00:45:00  1.063717  1.063830  1.063038  1.063038   1.063038       0
-      4    2023-03-06 01:00:00  1.063151  1.063264  1.062925  1.062925   1.062925       0
-      ...                  ...       ...       ...       ...       ...        ...     ...
-      3876 2023-05-01 22:45:00  1.097815  1.097936  1.097695  1.097936   1.097936       0
-      3877 2023-05-01 23:00:00  1.097815  1.097936  1.097815  1.097815   1.097815       0
-      3878 2023-05-01 23:15:00  1.097815  1.097815  1.097695  1.097815   1.097815       0
-      3879 2023-05-01 23:30:00  1.097815  1.097815  1.097815  1.097815   1.097815       0
-      3880 2023-05-01 23:45:00  1.097815  1.097815  1.097695  1.097695   1.097695       0
+L'API Yahoo ne permets d'obtenir les données 15 minutes que pour les 59 derniers jours... Il serait intéressant donc de pouvoir télécharger beaucoup plus d'historique.
 
-### Point de vigilance 2 :
-
-Aussi, l'API Yahoo ne permets d'obtenir les données 15 minutes que pour les 59 derniers jours... Il serait intéressant donc de pouvoir télécharger beaucoup plus d'historique.
-
-### Travaux à prévoir dans l'immédiat
-
-Résoudre le point de vigilance 1 afin de permettre d'avoir un niveau de TP très sécure pour les trades sur l'unité de temps 15 minutes avec des données téléchargées jusqu'au dernier quart d'heure.
