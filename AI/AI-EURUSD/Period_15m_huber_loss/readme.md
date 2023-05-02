@@ -29,4 +29,4 @@ Aussi, l'API Yahoo ne permets d'obtenir les données 15 minutes que pour les 59 
 
 ### Travaux à prévoir dans l'immédiat
 
-Résoudre le point de vigilance 1 afin de permettre de trader sur l'unité de temps 15 minutes avec des données téléchargées jusqu'au dernier quart d'heure.
+Résoudre le point de vigilance 1 afin de permettre d'avoir un niveau de TP très sécure pour les trades sur l'unité de temps 15 minutes avec des données téléchargées jusqu'au dernier quart d'heure.
