@@ -50,7 +50,7 @@ def cleanup_files():
             print("Error while deleting file : ", filePath)
 
 
-cleanup_files()
+#cleanup_files()
 
 directory_modeles_a_trier = 'modeles_a_trier'
 if not os.path.exists(directory_modeles_a_trier):
@@ -116,18 +116,24 @@ X_train, y_train = create_dataset(train_data, train_target, time_steps=TIME_STEP
 X_test, y_test = create_dataset(test_data, test_target, time_steps=TIME_STEPS)
 
 # Définition de l'architecture du modèle
+#model = Sequential()
+#model.add(LSTM(64, input_shape=(X_train.shape[1], X_train.shape[2]), return_sequences=True))
+#model.add(Dropout(0.2))
+#model.add(LSTM(256, return_sequences=False))
+#model.add(Dropout(0.2))
+#model.add(Dense(1))
+
 model = Sequential()
-model.add(LSTM(256, input_shape=(X_train.shape[1], X_train.shape[2]), return_sequences=True))
-model.add(Dropout(0.2))
-model.add(LSTM(64, return_sequences=False))
-model.add(Dropout(0.2))
+model.add(LSTM(units=150, return_sequences=True, input_shape=(X_train.shape[1], 1)))
+model.add(LSTM(units=300))
 model.add(Dense(1))
 
+
 # Compilation du modèle
-model.compile(optimizer='adam', loss='mape')
+model.compile(optimizer='adam', loss='mse')
 
 # Entraînement du modèle
-model.fit(X_train, y_train, epochs=1, batch_size=32, validation_split=0.1, shuffle=False)
+model.fit(X_train, y_train, epochs=1, batch_size=None, validation_split=0.1, shuffle=False)
 
 # Evaluation du modèle
 model.evaluate(X_test, y_test)
@@ -205,7 +211,7 @@ plt.legend()
 
 filename = stryear + strmonth + strday + strhour + strmin + '-chart.png'
 
-plt.title(filename + ' MeanRMSE=' + str(round(np.mean(rmse_list))) + ' MAPE=' + str(round(mape)))
+plt.title(filename + ' MeanRMSE=' + str(round(np.mean(rmse_list))) + ' MAPE=' + str(mape))
 
 plt.savefig(directory_modeles_a_trier + '/' + filename)
 
