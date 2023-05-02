@@ -4,6 +4,8 @@ Avec un nombre d'Epochs de 5 on obtient en moyenne un mape d'environs 0.15% d'er
 
 Selon moi, il faut jouer sur le modèle pour tenter de réduire encore le mape. C'est la seule piste que j'ai, mais déjà on a de très bons résultats.
 
+Une autre piste serait aussi d'obtenir plus de données. Car quand on demande à l'API Yahoo les données 15 minutes pour la plage du 04/03/2023 au 02/05/2023 et bien les dernières données obtenues concernent le 01/05/2023 à 23h45. De ce fait on a une prédiction forcément un peu moins précise car il manque les données du 02/05/2023.
+
       Date range used : 2023-03-04 2023-05-02
       [*********************100%***********************]  1 of 1 completed
                       Datetime      Open      High       Low     Close  Adj Close  Volume
