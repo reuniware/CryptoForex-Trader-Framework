@@ -92,7 +92,8 @@ while True:
     #ticker = yf.Ticker('EURUSD=X')
     # Récupération des données de trading avec le prix BID
     #ohlcv = ticker.history(start='2021-06-01', end='2023-04-21', interval='1h', actions=False, auto_adjust=False, back_adjust=False, proxy=None, rounding=False).sort_index(ascending=False)
-    #print(ohlcv)
+    print("dernière ligne de données")
+    print(ohlcv[-1:])
 
     #sys.exit(0)
 
