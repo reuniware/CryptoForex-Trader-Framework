@@ -1,3 +1,10 @@
+#!pip install ccxt
+#!pip install python-binance
+#!pip install ta
+
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
 import ccxt
 import pandas as pd
 import numpy as np
@@ -8,7 +15,6 @@ import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, LSTM, Dropout
 import signal
-import os
 import sys
 from keras.losses import mean_squared_error
 from binance.client import Client
@@ -16,7 +22,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 import ta
 from ta.trend import IchimokuIndicator
-
+import glob
 
 def signal_handler(sig, frame):
     print('You pressed Ctrl+C!')
@@ -37,36 +43,64 @@ def log_to_results(str_to_log):
     fr.write(str_to_log + "\n")
     fr.close()
 
+    
+def cleanup_files():
+    fileList = glob.glob('./modeles_a_trier/*')
+    # Iterate over the list of filepaths & remove each file.
+    for filePath in fileList:
+        try:
+            os.remove(filePath)
+        except:
+            print("Error while deleting file : ", filePath)
+
+
+cleanup_files()
+
+directory_modeles_a_trier = 'modeles_a_trier'
+if not os.path.exists(directory_modeles_a_trier):
+    # If it doesn't exist, create it
+    os.makedirs(directory_modeles_a_trier)
+
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR) # only show error messages
 
 force_download = True
 
-data_history_file = "bitcoin_data_h4_01012000_28042023.pkl"
+avg_predict = 0
+
+data_history_file = "bitcoin_data_4h_01012000_01052023.pkl"
 interval = Client.KLINE_INTERVAL_4HOUR
+
 
 if not (os.path.exists(data_history_file)) or force_download == True:
     print("downloading data")
     # Préparer les données d'entrée
-    #klinesT = Client(tld='us').get_historical_klines("BTCUSDT", interval, "01 January 2000")
-    klinesT = Client().get_historical_klines("BTCUSDT", interval, "01 January 2000")
+    klinesT = Client(tld='us').get_historical_klines("BTCUSDT", interval, "01 January 2000")
+    #klinesT = Client().get_historical_klines("BTCUSDT", interval, "01 January 2000")
     bitcoin_data = pd.DataFrame(klinesT,
                                 columns=['time', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av',
-                                         'trades', 'tb_base_av', 'tb_quote_av', 'ignore'])
+                                            'trades', 'tb_base_av', 'tb_quote_av', 'ignore'])
     bitcoin_data['time'] = pd.to_datetime(bitcoin_data['time'], unit='ms')
     bitcoin_data.to_pickle(data_history_file)
 else:
     print("updating data to merge to existing file with data")
-    klinesT2 = Client().get_historical_klines("BTCUSDT", interval, "1 day ago UTC")
+    klinesT2 = Client(tld='us').get_historical_klines("BTCUSDT", interval, "1 day ago UTC")
     bitcoin_data2 = pd.DataFrame(klinesT2,
-                                 columns=['time', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av',
-                                          'trades', 'tb_base_av', 'tb_quote_av', 'ignore'])
+                                    columns=['time', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_av',
+                                            'trades', 'tb_base_av', 'tb_quote_av', 'ignore'])
     bitcoin_data2['time'] = pd.to_datetime(bitcoin_data2['time'], unit='ms')
     print("loading existing file with data")
     bitcoin_data = pd.read_pickle(data_history_file)
     print("merging downloaded recent data with existing file with data")
-    bitcoin_data = bitcoin_data.merge(bitcoin_data2, how="right")
+
+    # remove rows from bitcoin_data2 that are already in bitcoin_data
+    existing_dates = bitcoin_data['time']
+    bitcoin_data2 = bitcoin_data2[~bitcoin_data2['time'].isin(existing_dates)]
+
+    print("merging downloaded recent data with existing file with data")
+    bitcoin_data = pd.concat([bitcoin_data, bitcoin_data2], ignore_index=True, sort=False)
+
     print("saving updated data to file")
     bitcoin_data.to_pickle(data_history_file)
-
 
 # Normalisation des données d'entrée
 scaler = MinMaxScaler()
@@ -96,6 +130,10 @@ def create_dataset(X, y, time_steps=1):
 # Définition de la séquence temporelle des pas de temps
 TIME_STEPS = 60
 
+X_test = None
+y_test = None
+y_pred = None
+
 # Création des ensembles de données pour l'entraînement et le test
 X_train, y_train = create_dataset(train_data, train_target, time_steps=TIME_STEPS)
 X_test, y_test = create_dataset(test_data, test_target, time_steps=TIME_STEPS)
@@ -112,13 +150,51 @@ model.add(Dense(1))
 model.compile(optimizer='adam', loss='mape')
 
 # Entraînement du modèle
-model.fit(X_train, y_train, epochs=1, batch_size=None, validation_split=0.1, shuffle=False)
+model.fit(X_train, y_train, epochs=1, batch_size=32, validation_split=0.1, shuffle=False)
 
 # Evaluation du modèle
 model.evaluate(X_test, y_test)
 
+#model.load_weights('modele.h5')
+
 # Prédiction sur les données de test
 y_pred = model.predict(X_test)
+
+# Vérification du RMSE
+# Prédiction sur l'ensemble de test
+y_test_inv = scaler.inverse_transform(y_test.reshape(-1, 1))
+y_pred_inv = scaler.inverse_transform(y_pred)
+# Calcul du RMSE pour chaque prédiction
+rmse_list = []
+
+lowest_rmse = sys.float_info.max
+highest_rmse = 0
+
+for i in range(len(y_test)):
+    mse = mean_squared_error(y_test_inv[i], y_pred_inv[i])
+    rmse = np.sqrt(mse)
+    rmse_list.append(rmse)
+    if rmse > highest_rmse:
+        highest_rmse = rmse
+    if rmse < lowest_rmse:
+        lowest_rmse = rmse
+# Affichage des RMSE
+#print("RMSE for each prediction:")
+#print(rmse_list)
+# Affichage de la moyenne des RMSE
+print("Mean RMSE = ", np.mean(rmse_list))
+print("Highest RMSE = ", highest_rmse)
+print("Lowest RMSE  = ", lowest_rmse)
+
+y_test_inv = scaler.inverse_transform(y_test.reshape(-1, 1))
+y_pred_inv = scaler.inverse_transform(y_pred)
+mape = 100 * np.mean(np.abs((y_test_inv - y_pred_inv) / y_test_inv))
+print('Mean Absolute Percentage Error:', mape)
+
+#if np.mean(rmse_list) > 1000:
+#    continue
+#if mape > 3:
+#    continue
 
 # Inverse la normalisation des données de sortie pour obtenir la prédiction réelle
 y_pred = scaler.inverse_transform(y_pred)
@@ -126,6 +202,14 @@ y_pred = scaler.inverse_transform(y_pred)
 # Affichage de la prédiction
 print("Prédiction pour la prochaine bougie : ", y_pred[-1][0])
 log_to_results("Prédiction pour la prochaine bougie : " + str(y_pred[-1][0]))
+
+if avg_predict==0:
+    avg_predict = avg_predict + y_pred[-1][0]
+else:
+    avg_predict = (avg_predict + y_pred[-1][0])/2
+
+log_to_results("average predict = " + str(avg_predict))
+print("average predict = " + str(avg_predict))
 
 # Inverse la normalisation des données de test pour obtenir les vraies valeurs
 y_test = scaler.inverse_transform(y_test)
@@ -142,7 +226,18 @@ plt.plot(y_test, label='Données réelles')
 plt.plot(y_pred, label='Prédictions')
 plt.legend()
 
-filename = stryear + strmonth + strday + strhour + strmin + 'chart.png'
-plt.savefig(filename)
+filename = stryear + strmonth + strday + strhour + strmin + '-chart.png'
+
+plt.title(filename + ' MeanRMSE=' + str(round(np.mean(rmse_list))) + ' MAPE=' + str(round(mape)))
+
+plt.savefig(directory_modeles_a_trier + '/' + filename)
 
 plt.show()
+plt.close()
+plt.cla()
+plt.clf()
+
+filename_weights = stryear + strmonth + strday + strhour + strmin + '-model_weights.h5'
+
+model.save_weights(directory_modeles_a_trier + '/' + filename_weights)
+
