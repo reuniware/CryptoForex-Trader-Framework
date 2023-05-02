@@ -223,13 +223,14 @@ while True:
     strday = format(currentDateAndTime.day, '02')
     strhour = format(currentDateAndTime.hour, '02')
     strmin = format(currentDateAndTime.minute, '02')
+    strsec = format(currentDateAndTime.second, '02')
 
     # Tracer les prédictions par rapport aux données réelles
     plt.plot(y_test, label='Données réelles')
     plt.plot(y_pred, label='Prédictions')
     plt.legend()
 
-    filename = stryear + strmonth + strday + strhour + strmin + '-chart.png'
+    filename = stryear + strmonth + strday + strhour + strmin + strsec + '-chart.png'
 
     plt.title(filename + ' MeanRMSE=' + str(round(np.mean(rmse_list))) + ' MAPE=' + str(mape))
 
@@ -240,7 +241,7 @@ while True:
     plt.cla()
     plt.clf()
 
-    filename_weights = stryear + strmonth + strday + strhour + strmin + '-model_weights.h5'
+    filename_weights = stryear + strmonth + strday + strhour + strmin + strsec + '-model_weights.h5'
 
     model.save_weights(directory_modeles_a_trier + '/' + filename_weights)
 
