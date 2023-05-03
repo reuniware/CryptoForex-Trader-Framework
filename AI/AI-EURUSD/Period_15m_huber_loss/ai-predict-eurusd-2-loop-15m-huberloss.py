@@ -161,7 +161,7 @@ while True:
     model.compile(optimizer='adam', loss='huber_loss')
 
     # Entraînement du modèle
-    model.fit(X_train, y_train, epochs=4, batch_size=None, validation_split=0.1, shuffle=False)
+    model.fit(X_train, y_train, epochs=50, batch_size=None, validation_split=0.1, shuffle=False)
 
     # Evaluation du modèle
     model.evaluate(X_test, y_test)
@@ -252,4 +252,3 @@ while True:
     filename_weights = stryear + strmonth + strday + strhour + strmin + strsec + '-model_weights.h5'
 
     model.save_weights(directory_modeles_a_trier + '/' + filename_weights)
-
