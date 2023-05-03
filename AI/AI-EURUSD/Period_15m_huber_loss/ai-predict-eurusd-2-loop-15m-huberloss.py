@@ -1,7 +1,10 @@
+#!pip install ta
+#!pip install yfinance
+
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-import ccxt
+#import ccxt
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
@@ -13,7 +16,7 @@ from tensorflow.keras.layers import Dense, LSTM, Dropout
 import signal
 import sys
 from keras.losses import mean_squared_error
-from binance.client import Client
+#from binance.client import Client
 import matplotlib.pyplot as plt
 from datetime import datetime
 import ta
@@ -205,8 +208,8 @@ while True:
     predicted_price = y_pred[-1][0]
 
     # Affichage de la prédiction
-    print("Prédiction pour la prochaine bougie : ", predicted_price,  "mape = ", mape)
-    log_to_results("Prédiction pour la prochaine bougie : " + str(predicted_price)  + " mape = " + str(mape))
+    print(str(datetime.now()) + " : Prédiction pour la prochaine bougie : ", predicted_price,  "mape = ", mape)
+    log_to_results(str(datetime.now()) + " : Prédiction pour la prochaine bougie : " + str(predicted_price)  + " mape = " + str(mape))
 
     if avg_predict==0:
         avg_predict = avg_predict + predicted_price
