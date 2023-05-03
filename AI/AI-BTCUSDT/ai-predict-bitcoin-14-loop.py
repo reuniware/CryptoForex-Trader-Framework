@@ -1,6 +1,7 @@
 #!pip install ccxt
 #!pip install python-binance
 #!pip install ta
+#!zip -r modeles_a_trier.zip modeles_a_trier/
 
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -63,7 +64,7 @@ if not os.path.exists(directory_modeles_a_trier):
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR) # only show error messages
 
-force_download = False
+force_download = True
 
 avg_predict = 0
 
@@ -105,7 +106,7 @@ while True:
 
     # Normalisation des données d'entrée
     scaler = MinMaxScaler()
-    # data = scaler.fit_transform(bitcoin_data[['open', 'close', 'high', 'low']].values)
+    # data = scaler.fit_transform(eur_usd_data[['open', 'close', 'high', 'low']].values)
     data = scaler.fit_transform(bitcoin_data[['close']].values)
 
     # Préparer les données de sortie
@@ -147,11 +148,17 @@ while True:
     model.add(Dropout(0.2))
     model.add(Dense(1))
 
+    #model = Sequential()
+    #model.add(LSTM(units=150, return_sequences=True, input_shape=(X_train.shape[1], 1)))
+    #model.add(LSTM(units=300))
+    #model.add(Dense(1))
+
+
     # Compilation du modèle
     model.compile(optimizer='adam', loss='mape')
 
     # Entraînement du modèle
-    model.fit(X_train, y_train, epochs=1, batch_size=32, validation_split=0.1, shuffle=False)
+    model.fit(X_train, y_train, epochs=1, batch_size=None, validation_split=0.1, shuffle=True)
 
     # Evaluation du modèle
     model.evaluate(X_test, y_test)
@@ -192,23 +199,20 @@ while True:
     mape = 100 * np.mean(np.abs((y_test_inv - y_pred_inv) / y_test_inv))
     print('Mean Absolute Percentage Error:', mape)
 
-    #if np.mean(rmse_list) > 1000:
-    #    continue
-    if mape > 3:
-        continue
-
     # Inverse la normalisation des données de sortie pour obtenir la prédiction réelle
     y_pred = scaler.inverse_transform(y_pred)
 
+    predicted_price = y_pred[-1][0]
+
     # Affichage de la prédiction
-    print("Prédiction pour la prochaine bougie : ", y_pred[-1][0])
-    log_to_results("Prédiction pour la prochaine bougie : " + str(y_pred[-1][0]))
+    print("Prédiction pour la prochaine bougie : ", predicted_price,  "mape = ", mape)
+    log_to_results("Prédiction pour la prochaine bougie : " + str(predicted_price)  + " mape = " + str(mape))
 
     if avg_predict==0:
-        avg_predict = avg_predict + y_pred[-1][0]
+        avg_predict = avg_predict + predicted_price
     else:
-        avg_predict = (avg_predict + y_pred[-1][0])/2
-    
+        avg_predict = (avg_predict + predicted_price)/2
+
     log_to_results("average predict = " + str(avg_predict))
     print("average predict = " + str(avg_predict))
 
@@ -221,15 +225,19 @@ while True:
     strday = format(currentDateAndTime.day, '02')
     strhour = format(currentDateAndTime.hour, '02')
     strmin = format(currentDateAndTime.minute, '02')
+    strsec = format(currentDateAndTime.second, '02')
+
+    if mape > 2:
+        continue
 
     # Tracer les prédictions par rapport aux données réelles
     plt.plot(y_test, label='Données réelles')
     plt.plot(y_pred, label='Prédictions')
     plt.legend()
 
-    filename = stryear + strmonth + strday + strhour + strmin + '-chart.png'
+    filename = stryear + strmonth + strday + strhour + strmin + strsec + '-chart.png'
 
-    plt.title(filename + ' MeanRMSE=' + str(round(np.mean(rmse_list))) + ' MAPE=' + str(round(mape)))
+    plt.title(filename + ' MeanRMSE=' + str(round(np.mean(rmse_list))) + ' MAPE=' + str(mape))
 
     plt.savefig(directory_modeles_a_trier + '/' + filename)
 
@@ -237,8 +245,8 @@ while True:
     plt.close()
     plt.cla()
     plt.clf()
-    
-    filename_weights = stryear + strmonth + strday + strhour + strmin + '-model_weights.h5'
+
+    filename_weights = stryear + strmonth + strday + strhour + strmin + strsec + '-model_weights.h5'
 
     model.save_weights(directory_modeles_a_trier + '/' + filename_weights)
 
