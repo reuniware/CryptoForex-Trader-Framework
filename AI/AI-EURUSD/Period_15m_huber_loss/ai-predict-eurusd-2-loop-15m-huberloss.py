@@ -78,7 +78,8 @@ while True:
     strmonth = format(currentDateAndTime.month, '02')
     strday = format(currentDateAndTime.day, '02')
 
-    pastDateAndTime = currentDateAndTime - timedelta(days=59)
+    pastDateAndTime = currentDateAndTime - timedelta(days=59) # 59 if timeframe = 15m
+    #pastDateAndTime = currentDateAndTime - timedelta(days=729) # 729 if timeframe = 1h
     stryearpast = format(pastDateAndTime.year, '04')
     strmonthpast = format(pastDateAndTime.month, '02')
     strdaypast = format(pastDateAndTime.day, '02')
@@ -91,6 +92,7 @@ while True:
     # Récupération des données de trading de EUR/USD depuis l'API Yahoo Finance
     #ohlcv = yf.download('EURUSD=X', start='2021-06-01', end='2023-05-03', interval='15m')
     ohlcv = yf.download('EURUSD=X', start=strStartDate, end=strEndDate, interval='15m') # 60 days backward is the maximum range
+    #ohlcv = yf.download('EURUSD=X', start=strStartDate, end=strEndDate, interval='1h') # 730 days backward is the maximum range
     ohlcv.reset_index(inplace=True)
 
     #ticker = yf.Ticker('EURUSD=X')
