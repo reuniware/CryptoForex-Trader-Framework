@@ -67,7 +67,7 @@ force_download = True
 
 avg_predict = 0
 
-data_history_file = "eurusd_data_15m_01062021_02052023.pkl"
+data_history_file = "eurusd_data_1h_01062021_02052023.pkl"
 
 
 while True:
@@ -108,6 +108,9 @@ while True:
         print("dataframe is empty")
         sys.exit(-500)
     eur_usd_data['Datetime'] = pd.to_datetime(eur_usd_data['Datetime'], unit='ms')
+
+    #print("latest close price = ", eur_usd_data.iloc[-1]['Close'])
+    #sys.exit(0)
 
     # Normalisation des données d'entrée
     scaler = MinMaxScaler()
@@ -208,6 +211,12 @@ while True:
     y_pred = scaler.inverse_transform(y_pred)
 
     predicted_price = y_pred[-1][0]
+    latest_close_price = eur_usd_data.iloc[-1]['Close']
+    predicted_diff = predicted_price - latest_close_price
+    print("predicted_diff = ", predicted_diff)
+    log_to_results("predicted_diff = " + str(predicted_diff))
+    print("predicted_diff in points (pips) = ", round(predicted_diff * 100000))
+    log_to_results("predicted_diff in points (pips) = " + str(round(predicted_diff * 100000)))
 
     # Affichage de la prédiction
     print(str(datetime.now()) + " : Prédiction pour la prochaine bougie : ", predicted_price,  "mape = ", mape)
