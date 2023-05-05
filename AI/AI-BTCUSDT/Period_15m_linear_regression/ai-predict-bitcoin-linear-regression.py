@@ -217,11 +217,12 @@ y_pred = scaler.inverse_transform(y_pred)
 
 predicted_price = y_pred[-1][0]
 latest_close_price = float(bitcoin_data.iloc[-1]['close'])
+print("latest close price = ", latest_close_price)
 predicted_diff = predicted_price - latest_close_price
 print("predicted_diff = ", predicted_diff)
 log_to_results("predicted_diff = " + str(predicted_diff))
-print("predicted_diff in points (pips) = ", round(predicted_diff * 100000))
-log_to_results("predicted_diff in points (pips) = " + str(round(predicted_diff * 100000)))
+#print("predicted_diff in points (pips) = ", round(predicted_diff * 100000))
+#log_to_results("predicted_diff in points (pips) = " + str(round(predicted_diff * 100000)))
 
 # Affichage de la prédiction
 print(str(datetime.now()) + " : Prédiction pour la prochaine bougie : ", predicted_price,  "mape = ", mape)
