@@ -165,10 +165,10 @@ def sign_penalty(y_true, y_pred):
                      tf.square(y_true - y_pred))
     return tf.reduce_mean(loss, axis=-1)
 
-#keras.losses.sign_penalty = sign_penalty  # enable use of loss with keras
+keras.losses.sign_penalty = sign_penalty  # enable use of loss with keras
 
 # Compilation du modèle
-model.compile(optimizer='adam', loss='mse')
+model.compile(optimizer='adam', loss='sign_penalty')
 
 # Entraînement du modèle
 model.fit(X_train, y_train, epochs=1, batch_size=None, validation_split=0.1, shuffle=False)
