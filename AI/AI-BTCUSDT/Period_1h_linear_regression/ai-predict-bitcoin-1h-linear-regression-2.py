@@ -243,11 +243,11 @@ if avg_ajusted_predict==0:
 else:
     avg_ajusted_predict = (avg_ajusted_predict + ajusted_predicted_price)/2
 
-log_to_results("average predict = " + str(avg_ajusted_predict))
-print("average predict = " + str(avg_ajusted_predict))
+log_to_results("average predict = " + str(avg_predict))
+print("average predict = " + str(avg_predict))
 
-log_to_results("average ajusted predict = " + str(avg_predict))
-print("average ajusted predict = " + str(avg_predict))
+log_to_results("average ajusted predict = " + str(avg_ajusted_predict))
+print("average ajusted predict = " + str(avg_ajusted_predict))
 
 #if mape > 1: # les meilleurs résultats donnent environs 0.9 pour h1 eurusd
 #    continue
