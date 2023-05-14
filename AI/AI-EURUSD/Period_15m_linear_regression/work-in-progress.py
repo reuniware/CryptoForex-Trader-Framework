@@ -1,5 +1,5 @@
-#!pip install ta
-#!pip install yfinance
+!pip install ta
+!pip install yfinance
 
 import os, shutil
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -49,6 +49,12 @@ def log_to_results(str_to_log):
     fr.write(str_to_log + "\n")
     fr.close()
 
+
+directory_modeles_a_trier = 'modeles_a_trier'
+if not os.path.exists(directory_modeles_a_trier):
+    # If it doesn't exist, create it
+    os.makedirs(directory_modeles_a_trier)
+
     
 def cleanup_files():
     #fileList = glob.glob('./modeles_a_trier/*')
@@ -72,11 +78,6 @@ def cleanup_files():
 
 if create_model and delete_all_models_at_startup:
   cleanup_files()
-
-directory_modeles_a_trier = 'modeles_a_trier'
-if not os.path.exists(directory_modeles_a_trier):
-    # If it doesn't exist, create it
-    os.makedirs(directory_modeles_a_trier)
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR) # only show error messages
 
