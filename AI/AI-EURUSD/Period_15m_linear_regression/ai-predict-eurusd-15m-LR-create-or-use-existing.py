@@ -34,9 +34,10 @@ def signal_handler(sig, frame):
 
 signal.signal(signal.SIGINT, signal_handler)
 
-create_model = True   # If False the will load a model from a whole model directory.
+create_model = False   # If False the will load a model from a whole model directory.
 delete_all_models_at_startup = False  # if create_model is True then we can delete all models directories at startup
                                       # if create_model is False this has no effect
+whole_model_folder_to_load = './modeles_a_trier/20230514120438-whole_model'
 
 # pd.set_option('display.max_columns', None)
 # pd.set_option('display.max_rows', None)
@@ -170,7 +171,7 @@ if create_model:
   model.add(Dense(20, activation='relu'))
   model.add(Dense(1, activation='linear'))
 else:
-  model = keras.models.load_model('./modeles_a_trier/20230514120438-whole_model')
+  model = keras.models.load_model(whole_model_folder_to_load)
 
 # Create loss function
 def sign_penalty(y_true, y_pred):
