@@ -34,7 +34,9 @@ def signal_handler(sig, frame):
 
 signal.signal(signal.SIGINT, signal_handler)
 
-create_model = False   # If False the will load a model from a whole model directory.
+create_model = True   # If False the will load a model from a whole model directory.
+delete_all_models_at_startup = False  # if create_model is True then we can delete all models directories at startup
+                                      # if create_model is False this has no effect
 
 # pd.set_option('display.max_columns', None)
 # pd.set_option('display.max_rows', None)
@@ -67,7 +69,7 @@ def cleanup_files():
         except Exception as e:
             print('Failed to delete %s. Reason: %s' % (file_path, e))
 
-if create_model:
+if create_model and delete_all_models_at_startup:
   cleanup_files()
 
 directory_modeles_a_trier = 'modeles_a_trier'
