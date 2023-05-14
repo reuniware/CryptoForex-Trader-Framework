@@ -160,21 +160,13 @@ X_train, y_train = create_dataset(train_data, train_target, time_steps=TIME_STEP
 X_test, y_test = create_dataset(test_data, test_target, time_steps=TIME_STEPS)
 
 # Définition de l'architecture du modèle
-#model = Sequential()
-#model.add(LSTM(64, input_shape=(X_train.shape[1], X_train.shape[2]), return_sequences=True))
-#model.add(Dropout(0.2))
-#model.add(LSTM(256, return_sequences=False))
-#model.add(Dropout(0.2))
-#model.add(Dense(1))
-
 model = Sequential()
-#model.add(LSTM(units=150, return_sequences=True, input_shape=(X_train.shape[1], 1)))
-#model.add(LSTM(units=300, return_sequences=False))
-#model.add(Dense(1))
-
 model.add(Dense(100, input_dim=X_train.shape[1], activation='relu'))
 model.add(Dense(20, activation='relu'))
 model.add(Dense(1, activation='linear'))
+
+#from tensorflow import keras
+#model = keras.models.load_model('./modeles_a_trier/20230514113850-whole_model')
 
 # Create loss function
 def sign_penalty(y_true, y_pred):
@@ -284,9 +276,9 @@ plt.close()
 plt.cla()
 plt.clf()
 
-filename_weights = stryear + strmonth + strday + strhour + strmin + strsec + '-model_weights.h5'
+#filename_weights = stryear + strmonth + strday + strhour + strmin + strsec + '-model_weights.h5'
 
-model.save_weights(directory_modeles_a_trier + '/' + filename_weights)
+#model.save_weights(directory_modeles_a_trier + '/' + filename_weights)
 
 filename_whole_model = stryear + strmonth + strday + strhour + strmin + strsec + '-whole_model'
 
