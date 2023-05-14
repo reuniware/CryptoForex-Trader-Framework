@@ -5,7 +5,7 @@ The directory name can then be loaded as a whole model for predictions.
 
 Do you need a deep learning expert in finance ? Feel free to contact me at : InvestDataSystems@Yahoo.com
 
-When using the following version : ai-predict-eurusd-15m-LR-create-or-use-existing.py :
+When using the following version (and you should) : ai-predict-eurusd-15m-LR-create-or-use-existing.py :
 
 You just need to set the create_model constant to True to generate the coded model with random variables and save the model + the generated variables to the whole model folder.
 
