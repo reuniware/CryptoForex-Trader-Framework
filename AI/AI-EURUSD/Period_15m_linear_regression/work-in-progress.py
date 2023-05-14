@@ -1,5 +1,7 @@
-!pip install ta
-!pip install yfinance
+#!pip install ta
+#!pip install yfinance
+
+# Do not use this source code, I'm still trying to globalize some stuff.
 
 import os, shutil
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -191,7 +193,7 @@ def generate_model():
   model.compile(optimizer='adam', loss=sign_penalty)
 
   # Entraînement du modèle
-  model.fit(X_train, y_train, epochs=1, batch_size=None, validation_split=0.1, shuffle=False)
+  model.fit(X_train, y_train, epochs=30, batch_size=None, validation_split=0.1, shuffle=False)
 
   # Evaluation du modèle
   model.evaluate(X_test, y_test)
@@ -208,6 +210,37 @@ def generate_model():
   strsec = format(currentDateAndTime.second, '02')
 
   y_pred = model.predict(X_test)
+
+    # Vérification du RMSE
+  # Prédiction sur l'ensemble de test
+  y_test_inv = scaler.inverse_transform(y_test.reshape(-1, 1))
+  y_pred_inv = scaler.inverse_transform(y_pred)
+  # Calcul du RMSE pour chaque prédiction
+  rmse_list = []
+
+  lowest_rmse = sys.float_info.max
+  highest_rmse = 0
+
+  for i in range(len(y_test)):
+      mse = mean_squared_error(y_test_inv[i], y_pred_inv[i])
+      rmse = np.sqrt(mse)
+      rmse_list.append(rmse)
+      if rmse > highest_rmse:
+          highest_rmse = rmse
+      if rmse < lowest_rmse:
+          lowest_rmse = rmse
+  # Affichage des RMSE
+  #print("RMSE for each prediction:")
+  #print(rmse_list)
+  # Affichage de la moyenne des RMSE
+  print("Mean RMSE = ", np.mean(rmse_list))
+  print("Highest RMSE = ", highest_rmse)
+  print("Lowest RMSE  = ", lowest_rmse)
+
+  y_test_inv = scaler.inverse_transform(y_test.reshape(-1, 1))
+  y_pred_inv = scaler.inverse_transform(y_pred)
+  mape = 100 * np.mean(np.abs((y_test_inv - y_pred_inv) / y_test_inv))
+  print('Mean Absolute Percentage Error:', mape)
 
   # Tracer les prédictions par rapport aux données réelles
   plt.plot(y_test, label='Données réelles')
