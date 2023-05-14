@@ -9,5 +9,5 @@ When using the following version : ai-predict-eurusd-15m-LR-create-or-use-existi
 
 You just need to set the create_model constant to True to generate the coded model with random variables and save the model + the generated variables to the whole model folder.
 
-Then when you want to use a pre-generated whole model folder, set the create_model contant to False and specify the folder name to load in the whole_model_folder_to_load constant.
+Then when you want to use a pre-generated whole model folder for a prediction, set the create_model contant to False and specify the folder name to load in the whole_model_folder_to_load constant.
 
