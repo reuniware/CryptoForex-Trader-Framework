@@ -47,6 +47,7 @@ show_chart_if_using_existing_model = False
 # pd.set_option('display.max_rows', None)
 # pd.set_option('display.expand_frame_repr', True)
 
+assert (create_model == False) # This version must be used only for predicting according to a pre-loaded model
 
 def log_to_results(str_to_log):
     fr = open("results.txt", "a")
