@@ -1,6 +1,8 @@
 #!pip install ta
 #!pip install yfinance
 #!zip -r 'modeles_a_trier.zip' 'modeles_a_trier'
+#!unzip modeles_a_trier.zip
+
 
 import os, shutil
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
