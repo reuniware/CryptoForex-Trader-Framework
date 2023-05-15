@@ -1,5 +1,6 @@
 #!pip install ta
 #!pip install yfinance
+#!zip -r 'modeles_a_trier.zip' 'modeles_a_trier'
 
 import os, shutil
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -34,7 +35,7 @@ def signal_handler(sig, frame):
 
 signal.signal(signal.SIGINT, signal_handler)
 
-create_model = False   # If False the will load a model from a whole model directory.
+create_model = True   # If False the will load a model from a whole model directory.
 delete_all_models_at_startup = False  # if create_model is True then we can delete all models directories at startup
                                       # if create_model is False this has no effect
 whole_model_folder_to_load = './modeles_a_trier/20230514120438-whole_model'
@@ -188,7 +189,7 @@ if create_model:
   model.compile(optimizer='adam', loss=sign_penalty)
 
   # Entraînement du modèle
-  model.fit(X_train, y_train, epochs=30, batch_size=None, validation_split=0.1, shuffle=False)
+  model.fit(X_train, y_train, epochs=500, batch_size=None, validation_split=0.1, shuffle=False)
 
   # Evaluation du modèle
   model.evaluate(X_test, y_test)
