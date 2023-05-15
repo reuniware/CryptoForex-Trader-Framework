@@ -37,10 +37,10 @@ def signal_handler(sig, frame):
 
 signal.signal(signal.SIGINT, signal_handler)
 
-create_model = True   # If False the will load a model from a whole model directory.
+create_model = False   # If False the will load a model from a whole model directory.
 delete_all_models_at_startup = False  # if create_model is True then we can delete all models directories at startup
                                       # if create_model is False this has no effect
-whole_model_folder_to_load = './modeles_a_trier/20230514120438-whole_model'
+whole_model_folder_to_load = './modeles_a_trier/20230515065142-whole_model'
 
 # pd.set_option('display.max_columns', None)
 # pd.set_option('display.max_rows', None)
@@ -167,15 +167,6 @@ y_pred = None
 X_train, y_train = create_dataset(train_data, train_target, time_steps=TIME_STEPS)
 X_test, y_test = create_dataset(test_data, test_target, time_steps=TIME_STEPS)
 
-# Définition de l'architecture du modèle
-if create_model:
-  model = Sequential()
-  model.add(Dense(100, input_dim=X_train.shape[1], activation='relu'))
-  model.add(Dense(20, activation='relu'))
-  model.add(Dense(1, activation='linear'))
-else:
-  model = keras.models.load_model(whole_model_folder_to_load)
-
 # Create loss function
 def sign_penalty(y_true, y_pred):
     penalty = 5.
@@ -185,6 +176,17 @@ def sign_penalty(y_true, y_pred):
     return tf.reduce_mean(loss, axis=-1)
 
 keras.losses.sign_penalty = sign_penalty  # enable use of loss with keras
+
+
+# Définition de l'architecture du modèle
+if create_model:
+  model = Sequential()
+  model.add(Dense(100, input_dim=X_train.shape[1], activation='relu'))
+  model.add(Dense(20, activation='relu'))
+  model.add(Dense(1, activation='linear'))
+else:
+  model = keras.models.load_model(whole_model_folder_to_load)
+
 
 if create_model:
   # Compilation du modèle
