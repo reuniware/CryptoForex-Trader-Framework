@@ -41,6 +41,7 @@ create_model = False   # If False the will load a model from a whole model direc
 delete_all_models_at_startup = False  # if create_model is True then we can delete all models directories at startup
                                       # if create_model is False this has no effect
 whole_model_folder_to_load = './modeles_a_trier/20230515065142-whole_model'
+show_chart_if_using_existing_model = False
 
 # pd.set_option('display.max_columns', None)
 # pd.set_option('display.max_rows', None)
@@ -193,7 +194,7 @@ if create_model:
   model.compile(optimizer='adam', loss=sign_penalty)
 
   # Entraînement du modèle
-  model.fit(X_train, y_train, epochs=500, batch_size=None, validation_split=0.1, shuffle=False)
+  model.fit(X_train, y_train, epochs=100, batch_size=None, validation_split=0.1, shuffle=False)
 
   # Evaluation du modèle
   model.evaluate(X_test, y_test)
@@ -271,20 +272,21 @@ strhour = format(currentDateAndTime.hour, '02')
 strmin = format(currentDateAndTime.minute, '02')
 strsec = format(currentDateAndTime.second, '02')
 
-# Tracer les prédictions par rapport aux données réelles
-plt.plot(y_test, label='Données réelles')
-plt.plot(y_pred, label='Prédictions')
-plt.legend()
+if create_model is True or show_chart_if_using_existing_model:
+  # Tracer les prédictions par rapport aux données réelles
+  plt.plot(y_test, label='Données réelles')
+  plt.plot(y_pred, label='Prédictions')
+  plt.legend()
 
-filename = stryear + strmonth + strday + strhour + strmin + strsec + '-chart.png'
-plt.title(filename + ' MeanRMSE=' + str(round(np.mean(rmse_list))) + ' MAPE=' + str(mape))
-if create_model:
-  plt.savefig(directory_modeles_a_trier + '/' + filename)
+  filename = stryear + strmonth + strday + strhour + strmin + strsec + '-chart.png'
+  plt.title(filename + ' MeanRMSE=' + str(round(np.mean(rmse_list))) + ' MAPE=' + str(mape))
+  if create_model:
+    plt.savefig(directory_modeles_a_trier + '/' + filename)
 
-plt.show()
-plt.close()
-plt.cla()
-plt.clf()
+  plt.show()
+  plt.close()
+  plt.cla()
+  plt.clf()
 
 #filename_weights = stryear + strmonth + strday + strhour + strmin + strsec + '-model_weights.h5'
 
