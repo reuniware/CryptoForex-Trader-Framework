@@ -158,7 +158,7 @@ while True:
     eur_usd_data.to_pickle(data_history_file)
 
 
-  print(eur_usd_data[-50:])
+  #print(eur_usd_data[-50:])
   #sys.exit(0)
 
 
