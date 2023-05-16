@@ -112,7 +112,7 @@ data_history_file = "eurusd_data_15m_" + strStartDate + "_" + strEndDate + ".pkl
 
 # previous_prediction = 0
 
-force_download = False
+force_download = True # not sure if it is ok with False (see the "Downloading data for merge" section below)
 
 while True:
 
@@ -160,8 +160,8 @@ while True:
     eur_usd_data.to_pickle(data_history_file)
 
 
-  #print(eur_usd_data[-50:])
-  #sys.exit(0)
+  print(eur_usd_data[-50:])
+  sys.exit(0)
 
 
   #print("latest close price = ", eur_usd_data.iloc[-1]['Close'])
