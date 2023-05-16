@@ -114,6 +114,8 @@ data_history_file = "eurusd_data_15m_" + strStartDate + "_" + strEndDate + ".pkl
 
 force_download = True # not sure if it is ok with False (see the "Downloading data for merge" section below)
 
+assert(force_download == True) # assertion until I solve the bug of data that are not merged when force_download = False
+
 while True:
 
   if not (os.path.exists(data_history_file)) or force_download == True:
@@ -137,7 +139,7 @@ while True:
     stryear = format(currentDateAndTime.year, '04')
     strmonth = format(currentDateAndTime.month, '02')
     strday = format(currentDateAndTime.day, '02')
-    strStartDate = stryearpast + '-' + strmonthpast + '-' + strdaypast
+    strStartDate = stryear + '-' + strmonth + '-' + strday
 
     ohlcv2 = yf.download('EURUSD=X', start=strStartDate, end=strEndDate, interval='15m', progress=False) # 60 days backward is the maximum range
     #ohlcv = yf.download('EURUSD=X', start=strStartDate, end=strEndDate, interval='1h') # 730 days backward is the maximum range
@@ -160,8 +162,8 @@ while True:
     eur_usd_data.to_pickle(data_history_file)
 
 
-  print(eur_usd_data[-50:])
-  sys.exit(0)
+  #print(eur_usd_data[-50:])
+  #sys.exit(0)
 
 
   #print("latest close price = ", eur_usd_data.iloc[-1]['Close'])
