@@ -112,9 +112,11 @@ data_history_file = "eurusd_data_15m_" + strStartDate + "_" + strEndDate + ".pkl
 
 # previous_prediction = 0
 
+force_download = False
+
 while True:
 
-  if not (os.path.exists(data_history_file)):
+  if not (os.path.exists(data_history_file)) or force_download == True:
     print("Downloading data")
     # Récupération des données de trading de EUR/USD depuis l'API Yahoo Finance
     #ohlcv = yf.download('EURUSD=X', start='2021-06-01', end='2023-05-03', interval='15m')
@@ -131,7 +133,7 @@ while True:
   else:
     print("Downloading data for merge")
     currentDateAndTime = datetime.now()
-    currentDateAndTime = currentDateAndTime + timedelta(days=-1) # one day only instead of all data available for download
+    currentDateAndTime = currentDateAndTime - timedelta(days=1) # one day only instead of all data available for download
     stryear = format(currentDateAndTime.year, '04')
     strmonth = format(currentDateAndTime.month, '02')
     strday = format(currentDateAndTime.day, '02')
