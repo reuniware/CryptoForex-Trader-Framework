@@ -12,4 +12,5 @@ To use one of the models that are in **modeles_a_trier_eurgbp.zip** :
 - Run the **ai-predict-eurgbp-linear-regression-4.py** file
 
 Tips :
-- When you create a model by setting **create_model** to True, think of changing the epochs constant in the following line of code : "model.fit(X_train, y_train, epochs=2000, batch_size=None, validation_split=0.1, shuffle=False)"
+- When you create a model by setting **create_model** to True, think of changing the epochs constant in the following line of code : "model.fit(X_train, y_train, epochs=2000, batch_size=None, validation_split=0.1, shuffle=False)". Using a value of 2000 seems huge but this value was coded for testing purposes. Try with 20 then increase it and check if the results are ok for you.
+- You can change the asset to download by changing it in the following line : "ohlcv = yf.download('EURGBP=X', start=strStartDate, end=strEndDate, interval='1h')". Example : Change 'EURGBP=X' by 'EURUSD=X' or any other asset.
