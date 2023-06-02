@@ -52,7 +52,7 @@ show_chart_if_using_existing_model = False
 TIME_STEPS = 1
 
 
-webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/1113100473659043851/TLc1PABe6wQIipjaumvVOrNVmG7ZWgfNQyp7z67OcMphgWpn5HepYKE9dt_zVOIK4Gvr")
+webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/1113100473659043851/replaceme")
 #webhook.send("test")
 
 
