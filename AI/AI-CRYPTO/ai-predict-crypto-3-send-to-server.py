@@ -64,7 +64,7 @@ signal.signal(signal.SIGINT, signal_handler)
 
 
 if create_model is False and discord is True:
-    webhook.send(str(datetime.now()).split('.')[0] + " > " + "**Starting EUR/USD AI with Deep Learning Model [" + os.path.basename(whole_model_folder_to_load) + "]**")
+    webhook.send(str(datetime.now()).split('.')[0] + " > " + "**Starting BTC/USDT AI with Deep Learning Model [" + os.path.basename(whole_model_folder_to_load) + "]**")
 
 # pd.set_option('display.max_columns', None)
 # pd.set_option('display.max_rows', None)
@@ -278,8 +278,8 @@ while True:
   # Inverse la normalisation des données de sortie pour obtenir la prédiction réelle
   y_pred = scaler.inverse_transform(y_pred)
 
-  predicted_price = y_pred[-1][0]
-  latest_close_price = float(crypto_data.iloc[-1]['close'])
+  predicted_price = round(y_pred[-1][0])
+  latest_close_price = round(float(crypto_data.iloc[-1]['close']))
   predicted_diff = predicted_price - latest_close_price
   print("predicted_diff = ", predicted_diff)
   log_to_results("predicted_diff = " + str(predicted_diff))
@@ -287,20 +287,20 @@ while True:
   # log_to_results("predicted_diff in points (pips) = " + str(round(predicted_diff * 100000)))
   
   if initial_close_price == 0:
-      initial_close_price = latest_close_price
+      initial_close_price = round(latest_close_price)
 
-  current_prediction = round(predicted_diff * 100000)
+  current_prediction = round(predicted_diff)
   if average_diff == 0:
       average_diff = current_prediction
   else:
       average_diff = round((average_diff + current_prediction)/2)
   if (current_prediction != previous_prediction) and create_model is False and discord is True:
-      webhook.send(str(datetime.now()).split('.')[0] + " > " + "BTC/USDT : Predicted_diff in points (pips) = " + str(round(predicted_diff * 100000)) + " ; Last close = " + "{0:.5f}".format(latest_close_price))
+      webhook.send(str(datetime.now()).split('.')[0] + " > " + "BTC/USDT : Predicted_diff in USDT = " + str(predicted_diff) + " ; Last close = " + str(latest_close_price))
       #webhook.send(">>> Average predicted diff = " + str(average_diff))
       #webhook.send(">>> Price evol since start = " + "{0:.5f}".format(latest_close_price - initial_close_price))
-      x = requests.get('https://eurodollarbot.000webhostapp.com/?upload_history=' + str(datetime.now()).split('.')[0] + ";" + "BTC/USDT : Predicted_diff in points (pips) = " + str(round(predicted_diff * 100000)) + " / Last close = " + "{0:.5f}".format(latest_close_price))
+      x = requests.get('https://eurodollarbot.000webhostapp.com/?upload_history=' + str(datetime.now()).split('.')[0] + ";" + "BTC/USDT : Predicted_diff USDT = " + str(predicted_diff) + " / Last close = " + str(latest_close_price))
 
-  previous_prediction = round(predicted_diff * 100000)
+  previous_prediction = predicted_diff
 
   # Affichage de la prédiction
   print(str(datetime.now()) + " : Prédiction pour la prochaine bougie : ", predicted_price,  "mape = ", mape)
