@@ -2,12 +2,11 @@
 #!pip install discord.py
 #!pip install ta
 #!pip install yfinance
-#!zip -r 'modeles_a_trier_eurusd_01062023_0.079_timestep1.zip' 'modeles_a_trier'
-#!cp './modeles_a_trier_eurusd_01062023_0.079_timestep1.zip' './drive/MyDrive/'
+#!zip -r 'modeles_a_trier_btcusdt_02062023_0.7827_timestep1.zip' 'modeles_a_trier'
+#!cp './modeles_a_trier_btcusdt_02062023_0.7827_timestep1.zip' './drive/MyDrive/'
 !rm -rf modeles*
-#!cp ./drive/MyDrive/modeles_a_trier_eurusd_01062023_0.079_timestep1.zip ./
-#!unzip modeles_a_trier_eurusd_01062023_0.079_timestep1.zip
-
+!cp ./drive/MyDrive/modeles_a_trier_btcusdt_02062023_0.7827_timestep1.zip ./
+!unzip modeles_a_trier_btcusdt_02062023_0.7827_timestep1.zip
 
 import os, shutil
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -42,10 +41,10 @@ from binance.client import Client
 
 
 discord = True
-create_model = True   # If False the will load a model from a whole model directory.
+create_model = False   # If False the will load a model from a whole model directory.
 delete_all_models_at_startup = False  # if create_model is True then we can delete all models directories at startup
                                       # if create_model is False this has no effect
-whole_model_folder_to_load = './modeles_a_trier/20230601114840-whole_model'
+whole_model_folder_to_load = './modeles_a_trier/20230602214523-whole_model'
 show_chart_if_using_existing_model = False
 
 # Définition de la séquence temporelle des pas de temps
@@ -296,7 +295,7 @@ while True:
   else:
       average_diff = round((average_diff + current_prediction)/2)
   if (current_prediction != previous_prediction) and create_model is False and discord is True:
-      webhook.send(str(datetime.now()).split('.')[0] + " > " + "EUR/USD : Predicted_diff in points (pips) = " + str(round(predicted_diff * 100000)) + " ; Last close = " + "{0:.5f}".format(latest_close_price))
+      webhook.send(str(datetime.now()).split('.')[0] + " > " + "BTC/USDT : Predicted_diff in points (pips) = " + str(round(predicted_diff * 100000)) + " ; Last close = " + "{0:.5f}".format(latest_close_price))
       #webhook.send(">>> Average predicted diff = " + str(average_diff))
       #webhook.send(">>> Price evol since start = " + "{0:.5f}".format(latest_close_price - initial_close_price))
       x = requests.get('https://eurodollarbot.000webhostapp.com/?upload_history=' + str(datetime.now()).split('.')[0] + ";" + "BTC/USDT : Predicted_diff in points (pips) = " + str(round(predicted_diff * 100000)) + " / Last close = " + "{0:.5f}".format(latest_close_price))
