@@ -51,7 +51,7 @@ show_chart_if_using_existing_model = False
 TIME_STEPS = 1
 
 
-webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/1113100473659043851/replaceme")
+webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/replaceme/replaceme")
 #webhook.send("test")
 
 
@@ -300,11 +300,15 @@ while True:
       #webhook.send(">>> Price evol since start = " + "{0:.5f}".format(latest_close_price - initial_close_price))
       x = requests.get('https://eurodollarbot.000webhostapp.com/?upload_history=' + str(datetime.now()).split('.')[0] + ";" + "BTC/USDT : Predicted_diff USDT = " + str(predicted_diff) + " / Last close = " + str(latest_close_price))
 
-  previous_prediction = predicted_diff
-
   # Affichage de la prédiction
   print(str(datetime.now()) + " : Prédiction pour la prochaine bougie : ", predicted_price,  "mape = ", mape)
   log_to_results(str(datetime.now()) + " : Prédiction pour la prochaine bougie : " + str(predicted_price)  + " mape = " + str(mape))
+  if (current_prediction != previous_prediction) and create_model is False and discord is True:
+      webhook.send(str(datetime.now()).split('.')[0] + " > " + "BTC/USDT : Predicted_price in USDT = " + str(predicted_price))
+      x = requests.get('https://eurodollarbot.000webhostapp.com/?upload_history=' + str(datetime.now()).split('.')[0] + ";" + "BTC/USDT : Predicted_price USDT = " + str(predicted_price))
+
+  previous_prediction = predicted_diff
+
 
   if avg_predict==0:
       avg_predict = avg_predict + predicted_price
