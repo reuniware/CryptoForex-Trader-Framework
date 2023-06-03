@@ -2,11 +2,11 @@
 #!pip install discord.py
 #!pip install ta
 #!pip install yfinance
-#!zip -r 'modeles_a_trier_btcusdt_02062023_0.7827_timestep1.zip' 'modeles_a_trier'
-#!cp './modeles_a_trier_btcusdt_02062023_0.7827_timestep1.zip' './drive/MyDrive/'
+#!zip -r 'modeles_a_trier_btcusdt_03062023_1.7085_timestep60.zip' 'modeles_a_trier'
+#!cp './modeles_a_trier_btcusdt_03062023_1.7085_timestep60.zip' './drive/MyDrive/'
 !rm -rf modeles*
-!cp ./drive/MyDrive/modeles_a_trier_btcusdt_02062023_0.7827_timestep1.zip ./
-!unzip modeles_a_trier_btcusdt_02062023_0.7827_timestep1.zip
+!cp ./drive/MyDrive/modeles_a_trier_btcusdt_03062023_1.7085_timestep60.zip ./
+!unzip modeles_a_trier_btcusdt_03062023_1.7085_timestep60.zip
 
 import os, shutil
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -44,14 +44,14 @@ discord = True
 create_model = False   # If False the will load a model from a whole model directory.
 delete_all_models_at_startup = False  # if create_model is True then we can delete all models directories at startup
                                       # if create_model is False this has no effect
-whole_model_folder_to_load = './modeles_a_trier/20230602214523-whole_model'
+whole_model_folder_to_load = './modeles_a_trier/20230603071508-whole_model'
 show_chart_if_using_existing_model = False
 
 # Définition de la séquence temporelle des pas de temps
-TIME_STEPS = 1
+TIME_STEPS = 60
+nbepochs = 300
 
-
-webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/replaceme/replaceme")
+webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/1113100473659043851/TLc1PABe6wQIipjaumvVOrNVmG7ZWgfNQyp7z67OcMphgWpn5HepYKE9dt_zVOIK4Gvr")
 #webhook.send("test")
 
 
@@ -234,7 +234,7 @@ while True:
     model.compile(optimizer='SGD', loss='mse')
 
     # Entraînement du modèle
-    model.fit(X_train, y_train, epochs=50, batch_size=None, validation_split=0.1, shuffle=False)
+    model.fit(X_train, y_train, epochs=nbepochs, batch_size=None, validation_split=0.1, shuffle=False)
 
     # Evaluation du modèle
     model.evaluate(X_test, y_test)
@@ -298,14 +298,14 @@ while True:
       webhook.send(str(datetime.now()).split('.')[0] + " > " + "BTC/USDT : Predicted_diff in USDT = " + str(predicted_diff) + " ; Last close = " + str(latest_close_price))
       #webhook.send(">>> Average predicted diff = " + str(average_diff))
       #webhook.send(">>> Price evol since start = " + "{0:.5f}".format(latest_close_price - initial_close_price))
-      x = requests.get('https://eurodollarbot.000webhostapp.com/?upload_history=' + str(datetime.now()).split('.')[0] + ";" + "BTC/USDT : Predicted_diff USDT = " + str(predicted_diff) + " / Last close = " + str(latest_close_price))
+      #x = requests.get('https://eurodollarbot.000webhostapp.com/?upload_history=' + str(datetime.now()).split('.')[0] + ";" + "BTC/USDT : Predicted_diff USDT = " + str(predicted_diff) + " / Last close = " + str(latest_close_price))
 
   # Affichage de la prédiction
   print(str(datetime.now()) + " : Prédiction pour la prochaine bougie : ", predicted_price,  "mape = ", mape)
   log_to_results(str(datetime.now()) + " : Prédiction pour la prochaine bougie : " + str(predicted_price)  + " mape = " + str(mape))
   if (current_prediction != previous_prediction) and create_model is False and discord is True:
       webhook.send(str(datetime.now()).split('.')[0] + " > " + "BTC/USDT : Predicted_price in USDT = " + str(predicted_price))
-      x = requests.get('https://eurodollarbot.000webhostapp.com/?upload_history=' + str(datetime.now()).split('.')[0] + ";" + "BTC/USDT : Predicted_price USDT = " + str(predicted_price))
+      #x = requests.get('https://eurodollarbot.000webhostapp.com/?upload_history=' + str(datetime.now()).split('.')[0] + ";" + "BTC/USDT : Predicted_price USDT = " + str(predicted_price))
 
   previous_prediction = predicted_diff
 
