@@ -18,7 +18,7 @@ Tips :
 - You can use CPU (or GPU) when using an existing model (when **create_model** is set to False) to make a prediction.
 
 # Version 9 #
-AI/AI-EURUSD/Period_1h_linear_regression/ai-predict-eurusd-linear-regression-9-send-to-server.py
-AI/AI-EURUSD/Period_1h_linear_regression/ai-predict-eurusd-linear-regression-9-send-to-server.php
+AI/AI-EURUSD/Period_1h_linear_regression/ai-predict-eurusd-linear-regression-9-send-to-server.py<br/>
+AI/AI-EURUSD/Period_1h_linear_regression/ai-predict-eurusd-linear-regression-9-send-to-server.php<br/>
 
 https://eurodollarbot.000webhostapp.com/index.php
