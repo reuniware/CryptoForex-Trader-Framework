@@ -16,3 +16,7 @@ Tips :
 - You can change the asset to download by changing it in the following line : **"ohlcv = yf.download('EURGBP=X', start=strStartDate, end=strEndDate, interval='1h')"**. Example : Change **'EURGBP=X'** by **'EURUSD=X'** or any other asset.
 - Use GPU when **create_model** = True (to create a model).
 - You can use CPU (or GPU) when using an existing model (when **create_model** is set to False) to make a prediction.
+
+#Version 9#
+
+https://eurodollarbot.000webhostapp.com/index.php
