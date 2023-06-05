@@ -60,7 +60,7 @@ if ($db->connect_errno) {
     exit;
 }
 
-if (isset($_GET['drop_tables11121975'])) {
+if (isset($_GET['drop_tables'])) {
     $db = new mysqli(MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DB);
     if ($db->connect_errno) {
         exit;
@@ -75,7 +75,7 @@ if (isset($_GET['drop_tables11121975'])) {
     $db->close();
 }
 
-if (isset($_GET['create_tables11121975'])) {
+if (isset($_GET['create_tables'])) {
     //echo "create db";
     $db = new mysqli(MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DB);
     if ($db->connect_errno) {
