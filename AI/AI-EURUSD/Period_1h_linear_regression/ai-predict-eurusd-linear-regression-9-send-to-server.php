@@ -1,6 +1,6 @@
 <?php
 
-header("refresh: 2");
+header("refresh: 10");
 
 define("MYSQL_SERVER", "localhost");
 define("MYSQL_USER", "id20856516_eurodollarbot");
@@ -60,7 +60,7 @@ if ($db->connect_errno) {
     exit;
 }
 
-if (isset($_GET['drop_tables'])) {
+if (isset($_GET['drop_tables11121975'])) {
     $db = new mysqli(MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DB);
     if ($db->connect_errno) {
         exit;
@@ -75,7 +75,7 @@ if (isset($_GET['drop_tables'])) {
     $db->close();
 }
 
-if (isset($_GET['create_tables'])) {
+if (isset($_GET['create_tables11121975'])) {
     //echo "create db";
     $db = new mysqli(MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DB);
     if ($db->connect_errno) {
@@ -136,7 +136,7 @@ echo "<img src='https://pbs.twimg.com/profile_banners/905696024504750080/1685961
 
 echo "TIMESTAMP;ASSET;PREDICTED_DIFF;PREDICTED_VALUE(YAHOO FINANCE)<br/>";
 
-$z = mysqli_query($db, "select * from " . TBL_PREFIX . "_notification order by timestamp desc");
+$z = mysqli_query($db, "select * from " . TBL_PREFIX . "_notification WHERE INSTR(timestamp, DATE_FORMAT(NOW(), '%Y-%m-%d')) > 0 order by timestamp desc");
 while($row = $z->fetch_assoc()) {              
     $timestamp = $row["timestamp"];
     $asset = $row["asset"];
