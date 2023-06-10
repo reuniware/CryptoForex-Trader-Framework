@@ -129,16 +129,16 @@ $eurusd_ask = 0;
      //echo $symbol . ' ' . $bid . '<br/>';
      if ($symbol == 'EURUSD') {
         //echo $symbol . ' BID(VENDRE)=' . $bid . ' ASK(ACHETER)=' . $ask .  '<br/><br/>';
-        echo "<h1 style='font-size: 12;'>" . $symbol . ' BID(VENDRE)=' . $bid . ' ASK(ACHETER)=' . $ask . "</h1>";
+        echo "<h1 style='font-size: 12;'>" . $symbol . ' (FXCM) BID(VENDRE)=' . $bid . ' ASK(ACHETER)=' . $ask . "</h1>";
         $eurusd_bid = $bid;
         $eurusd_ask = $ask;
      } else if ($symbol == 'BTCUSD') {
-        echo "<h1 style='font-size: 12;'>" . $symbol . ' BID(VENDRE)=' . $bid . ' ASK(ACHETER)=' . $ask . "</h1>";
+        echo "<h1 style='font-size: 12;'>" . $symbol . ' (FXCM) BID(VENDRE)=' . $bid . ' ASK(ACHETER)=' . $ask . "</h1>";
         $btcusd_bid = $bid;
         $btcusd_ask = $ask; // ne fonctionne pas le week-end (pas mis à jour à priori)
      }
  }
-echo "<h1 style='font-size: 12;'>" . 'BTCUSDT' . ' BID(VENDRE)=' . $btcusdt_bid . ' ASK(ACHETER)=' . $btcusdt_ask . "</h1>";
+echo "<h1 style='font-size: 12;'>" . 'BTCUSDT (BINANCE)' . ' BID(VENDRE)=' . $btcusdt_bid . ' ASK(ACHETER)=' . $btcusdt_ask . "</h1>";
 
  
 // $title = "";
