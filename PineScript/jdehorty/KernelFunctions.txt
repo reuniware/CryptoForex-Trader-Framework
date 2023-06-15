@@ -1,0 +1,87 @@
+// This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © jdehorty
+// @version=5
+
+// @description This library provides non-repainting kernel functions for Nadaraya-Watson estimator implementations. This allows for easy substition/comparison of different kernel functions for one another in indicators. Furthermore, kernels can easily be combined with other kernels to create newer, more customized kernels.
+library("KernelFunctions", true)
+
+// @function Rational Quadratic Kernel - An infinite sum of Gaussian Kernels of different length scales.
+// @param _src <float series> The source series.
+// @param _lookback <simple int> The number of bars used for the estimation. This is a sliding value that represents the most recent historical bars.
+// @param _relativeWeight <simple float> Relative weighting of time frames. Smaller values resut in a more stretched out curve and larger values will result in a more wiggly curve. As this value approaches zero, the longer time frames will exert more influence on the estimation. As this value approaches infinity, the behavior of the Rational Quadratic Kernel will become identical to the Gaussian kernel.
+// @param _startAtBar <simple int> Bar index on which to start regression. The first bars of a chart are often highly volatile, and omission of these initial bars often leads to a better overall fit.
+// @returns yhat <float series> The estimated values according to the Rational Quadratic Kernel.
+export rationalQuadratic(series float _src, simple int _lookback, simple float _relativeWeight, simple int startAtBar) =>
+	float _currentWeight = 0.
+	float _cumulativeWeight = 0.
+	_size = array.size(array.from(_src))
+    for i = 0 to _size + startAtBar
+        y = _src[i]
+        w = math.pow(1 + (math.pow(i, 2) / ((math.pow(_lookback, 2) * 2 * _relativeWeight))), -_relativeWeight)
+        _currentWeight += y*w
+        _cumulativeWeight += w
+    yhat = _currentWeight / _cumulativeWeight
+    yhat
+
+// @function Gaussian Kernel - A weighted average of the source series. The weights are determined by the Radial Basis Function (RBF).
+// @param _src <float series> The source series.
+// @param _lookback <simple int> The number of bars used for the estimation. This is a sliding value that represents the most recent historical bars.
+// @param _startAtBar <simple int> Bar index on which to start regression. The first bars of a chart are often highly volatile, and omission of these initial bars often leads to a better overall fit.
+// @returns yhat <float series> The estimated values according to the Gaussian Kernel.
+export gaussian(series float _src, simple int _lookback, simple int startAtBar) =>
+    float _currentWeight = 0.
+    float _cumulativeWeight = 0.
+    _size = array.size(array.from(_src))
+    for i = 0 to _size + startAtBar
+        y = _src[i] 
+        w = math.exp(-math.pow(i, 2) / (2 * math.pow(_lookback, 2)))
+        _currentWeight += y*w
+        _cumulativeWeight += w
+    yhat = _currentWeight / _cumulativeWeight
+    yhat
+
+// @function Periodic Kernel - The periodic kernel (derived by David Mackay) allows one to model functions which repeat themselves exactly.
+// @param _src <float series> The source series.
+// @param _lookback <simple int> The number of bars used for the estimation. This is a sliding value that represents the most recent historical bars.
+// @param _period <simple int> The distance between repititions of the function.
+// @param _startAtBar <simple int> Bar index on which to start regression. The first bars of a chart are often highly volatile, and omission of these initial bars often leads to a better overall fit.
+// @returns yhat <float series> The estimated values according to the Periodic Kernel.
+export periodic(series float _src, simple int _lookback, simple int _period, simple int startAtBar) =>
+    float _currentWeight = 0.
+    float _cumulativeWeight = 0.
+    _size = array.size(array.from(_src))
+    for i = 0 to _size + startAtBar
+        y = _src[i]
+        w = math.exp(-2*math.pow(math.sin(math.pi * i / _period), 2) / math.pow(_lookback, 2))
+        _currentWeight += y*w
+        _cumulativeWeight += w
+    yhat = _currentWeight / _cumulativeWeight
+    yhat
+
+// @function Locally Periodic Kernel - The locally periodic kernel is a periodic function that slowly varies with time. It is the product of the Periodic Kernel and the Gaussian Kernel.
+// @param _src <float series> The source series.
+// @param _lookback <simple int> The number of bars used for the estimation. This is a sliding value that represents the most recent historical bars.
+// @param _period <simple int> The distance between repititions of the function.
+// @param _startAtBar <simple int> Bar index on which to start regression. The first bars of a chart are often highly volatile, and omission of these initial bars often leads to a better overall fit.
+// @returns yhat <float series> The estimated values according to the Locally Periodic Kernel.
+export locallyPeriodic(series float _src, simple int _lookback, simple int _period, simple int startAtBar) =>
+    float _currentWeight = 0.
+    float _cumulativeWeight = 0.
+    _size = array.size(array.from(_src))
+    for i = 0 to _size + startAtBar
+        y = _src[i]
+        w = math.exp(-2*math.pow(math.sin(math.pi * i / _period), 2) / math.pow(_lookback, 2)) * math.exp(-math.pow(i, 2) / (2 * math.pow(_lookback, 2)))
+        _currentWeight += y*w
+        _cumulativeWeight += w
+    yhat = _currentWeight / _cumulativeWeight
+    yhat
+
+// Examples:
+yhat1 = rationalQuadratic(close, 8, 1, 25)
+yhat2 = gaussian(close, 16, 25)
+yhat3 = periodic(close, 8, 100, 25)
+yhat4 = locallyPeriodic(close, 8, 24, 25)
+plot(yhat1, color = color.red, title = "Rational Quadratic Kernel")
+plot(yhat2, color = color.yellow, title = "Gaussian Kernel")
+plot(yhat3, color = color.green, title = "Periodic Kernel")
+plot(yhat4, color = color.aqua, title = "Locally Periodic Kernel")
