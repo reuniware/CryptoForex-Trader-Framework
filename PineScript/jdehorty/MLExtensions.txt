@@ -1,0 +1,355 @@
+// This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © jdehorty
+
+//@version=5
+
+// @description A set of extension methods for a novel implementation of a Approximate Nearest Neighbors (ANN) algorithm in Lorentzian space.
+
+library("MLExtensions")
+
+// ==========================
+// ==== Helper Functions ====
+// ==========================
+
+// @function Returns the smoothed hyperbolic tangent of the input series.
+// @param src <series float> The input series (i.e., the first-order derivative for price).
+// @param quadraticMeanLength <int>  The length of the quadratic mean (RMS).
+// @returns	nDeriv <series float> The normalized derivative of the input series.
+export normalizeDeriv(series float src, int quadraticMeanLength) =>
+    // Calculate the derivative of the input series.
+    float deriv = src - src[2]
+    // Calculate the quadratic mean of the derivative.
+    quadraticMean = math.sqrt(nz(math.sum(math.pow(deriv, 2), quadraticMeanLength) / quadraticMeanLength))
+    // Return the normalized derivative.
+    nDeriv = deriv / quadraticMean
+    nDeriv
+
+// @function Rescales a source value with an unbounded range to a target range.
+// @param src <series float> The input series
+// @param min <float> The minimum value of the unbounded range
+// @param max <float> The maximum value of the unbounded range
+// @returns <series float> The normalized series
+export normalize(series float src, float min, float max) => 
+    var _historicMin =  10e10
+    var _historicMax = -10e10
+    _historicMin := math.min(nz(src, _historicMin), _historicMin)
+    _historicMax := math.max(nz(src, _historicMax), _historicMax)
+    min + (max - min) * (src - _historicMin) / math.max(_historicMax - _historicMin, 10e-10)
+
+// @function Rescales a source value with a bounded range to anther bounded range
+// @param src <series float> The input series
+// @param oldMin <float> The minimum value of the range to rescale from
+// @param oldMax <float> The maximum value of the range to rescale from
+// @param newMin <float> The minimum value of the range to rescale to
+// @param newMax <float> The maximum value of the range to rescale to 
+// @returns <series float> The rescaled series
+export rescale(series float src, float oldMin, float oldMax, float newMin, float newMax) =>
+    newMin + (newMax - newMin) * (src - oldMin) / math.max(oldMax - oldMin, 10e-10)
+
+// ================
+// ==== Colors ====
+// ================
+
+// @function Creates an array of colors with varying shades of the input color
+// @param color <color> The color to create shades of
+// @returns <array color> An array of colors with varying shades of the input color
+export getColorShades(color color) =>
+    float r = color.r(color)
+    float g = color.g(color)
+    float b = color.b(color)
+    int[] intensity = array.new_int(0)
+    array.push(intensity, 25)
+    array.push(intensity, 50)
+    array.push(intensity, 75)
+    array.push(intensity, 100)
+    color[] shades = array.new_color(0)
+    for i = 0 to array.size(intensity) - 1
+        float shadeR = r * array.get(intensity, i) / 100
+        float shadeG = g * array.get(intensity, i) / 100
+        float shadeB = b * array.get(intensity, i) / 100
+        color shadeColor = color.rgb(shadeR, shadeG, shadeB)
+        array.push(shades, shadeColor)
+    shades
+
+// @function Determines the color shade based on prediction percentile
+// @param prediction <float> Value of the prediction
+// @param neighborsCount <int> The number of neighbors used in a nearest neighbors classification
+// @param shadesArr <array color> An array of colors with varying shades of the input color
+// @returns shade <color> Color shade based on prediction percentile
+export getPredictionColor(float prediction, int neighborsCount, array<color> shadesArr) =>
+    float percentile = prediction / neighborsCount * 100
+    color shade = na
+    switch
+        percentile >= 75 => shade := array.get(shadesArr, 3) // most intense shade
+        percentile >= 50 => shade := array.get(shadesArr, 2)
+        percentile >= 25 => shade := array.get(shadesArr, 1)
+        percentile >= 0  => shade := array.get(shadesArr, 0) // least intense shade
+    shade
+
+// @function Assigns varying shades of the color green based on the KNN classification
+// @param prediction Value (int|float) of the prediction 
+// @returns color <color>
+export color_green(float prediction) =>
+	switch
+		prediction >= 9 => #15FF00
+		prediction >= 8 => #15FF00E5
+		prediction >= 7 => #09FF00CC 
+		prediction >= 6 => #09FF00B2
+		prediction >= 5 => #09FF0099 
+		prediction >= 4 => #15FF007F
+		prediction >= 3 => #00FF0066
+		prediction >= 2 => #09FF004C 
+		prediction >= 1 => #09FF0033 
+		=> #15FF0019
+
+// @function Assigns varying shades of the color red based on the KNN classification
+// @param prediction Value of the prediction
+// @returns color
+export color_red(float prediction) =>
+	switch
+		prediction >= 9 => #CC3311
+		prediction >= 8 => #CC3311E5
+		prediction >= 7 => #B23111CC
+		prediction >= 6 => #B23111B2
+		prediction >= 5 => #B2311199
+		prediction >= 4 => #CC33117F
+		prediction >= 3 => #CC331166
+		prediction >= 2 => #CC33114C
+		prediction >= 1 => #CC331133
+		=> #CC331119
+
+// @function Returns the the hyperbolic tangent of the input series. The sigmoid-like hyperbolic tangent function is used to compress the input to a value between -1 and 1.
+// @param src <series float> The input series (i.e., the normalized derivative).
+// @returns	tanh <series float> The hyperbolic tangent of the input series.
+export tanh(series float src) =>
+    tanh = -1 + 2/(1 + math.exp(-2*src))
+    tanh
+
+// @function Returns the smoothed hyperbolic tangent of the input series.
+//@param src <series float> The input series (i.e., the hyperbolic tangent).
+//@param lookback <int> The lookback window for the smoothing.
+//@returns filter <series float> The smoothed hyperbolic tangent of the input series.
+export dualPoleFilter(series float src, int lookback) =>
+    float omega = -99 * math.pi / (70 * lookback)
+    float alpha = math.exp(omega)
+    float beta = -math.pow(alpha, 2)
+    float gamma = math.cos(omega) * 2 * alpha
+    float delta = 1 - gamma - beta
+    float slidingAvg = 0.5 * (src + nz(src[1], src))
+    float filter = na
+    filter := (delta*slidingAvg) + gamma*nz(filter[1]) + beta*nz(filter[2])
+	filter
+
+// @function Returns the tanh transform of the input series.
+// @param src <series float> The input series (i.e., the result of the tanh calculation).
+// @param lookback <int> The lookback window for the smoothing.
+// @returns signal <series float> The smoothed hyperbolic tangent transform of the input series.
+export tanhTransform(series float src, int smoothingFrequency, int quadraticMeanLength) =>   
+    signal = dualPoleFilter(tanh(normalizeDeriv(src, quadraticMeanLength)), smoothingFrequency)
+    signal
+
+// @function Returns the normalized RSI ideal for use in ML algorithms.
+// @param src <series float> The input series (i.e., the result of the RSI calculation).
+// @param n1 <int> The length of the RSI.
+// @param n2 <int> The smoothing length of the RSI.
+// @returns signal <series float> The normalized RSI.
+export n_rsi(series float src, simple int n1, simple int n2) =>
+    rescale(ta.ema(ta.rsi(src, n1), n2), 0, 100, 0, 1)
+
+// @function Returns the normalized CCI ideal for use in ML algorithms.
+// @param src <series float> The input series (i.e., the result of the CCI calculation).
+// @param n1 <int> The length of the CCI.
+// @param n2 <int> The smoothing length of the CCI.
+// @returns signal <series float> The normalized CCI.
+export n_cci(series float src, simple int n1, simple int n2) =>
+    normalize(ta.ema(ta.cci(src, n1), n2), 0, 1)
+
+// @function Returns the normalized WaveTrend Classic series ideal for use in ML algorithms.
+// @param src <series float> The input series (i.e., the result of the WaveTrend Classic calculation).
+// @param paramA <int> The first smoothing length for WaveTrend Classic.
+// @param paramB <int> The second smoothing length for the WaveTrend Classic.
+// @param transformLength <int> The length of the transform.
+// @returns signal <series float> The normalized WaveTrend Classic series.
+export n_wt(series float src, simple int n1=10, simple int n2=11) =>
+    ema1 = ta.ema(src, n1)
+    ema2 = ta.ema(math.abs(src - ema1), n1)
+    ci = (src - ema1) / (0.015 * ema2)
+    wt1 = ta.ema(ci, n2) // tci
+    wt2 = ta.sma(wt1, 4)
+    normalize(wt1 - wt2, 0, 1)
+
+// @function Returns the normalized ADX ideal for use in ML algorithms.
+// @param highSrc <series float> The input series for the high price.
+// @param lowSrc <series float> The input series for the low price.
+// @param closeSrc <series float> The input series for the close price.
+// @param n1 <int> The length of the ADX.
+export n_adx(series float highSrc, series float lowSrc, series float closeSrc, simple int n1) =>
+    length = n1
+    th = 20
+    tr = math.max(math.max(highSrc - lowSrc, math.abs(highSrc - nz(closeSrc[1]))), math.abs(lowSrc - nz(closeSrc[1])))
+    directionalMovementPlus = highSrc - nz(highSrc[1]) > nz(lowSrc[1]) - lowSrc ? math.max(highSrc - nz(highSrc[1]), 0) : 0
+    negMovement = nz(lowSrc[1]) - lowSrc > highSrc - nz(highSrc[1]) ? math.max(nz(lowSrc[1]) - lowSrc, 0) : 0
+    trSmooth = 0.0
+    trSmooth := nz(trSmooth[1]) - nz(trSmooth[1]) / length + tr
+    smoothDirectionalMovementPlus = 0.0
+    smoothDirectionalMovementPlus := nz(smoothDirectionalMovementPlus[1]) - nz(smoothDirectionalMovementPlus[1]) / length + directionalMovementPlus
+    smoothnegMovement = 0.0
+    smoothnegMovement := nz(smoothnegMovement[1]) - nz(smoothnegMovement[1]) / length + negMovement
+    diPositive = smoothDirectionalMovementPlus / trSmooth * 100
+    diNegative = smoothnegMovement / trSmooth * 100
+    dx = math.abs(diPositive - diNegative) / (diPositive + diNegative) * 100 
+    adx = ta.rma(dx, length)
+    rescale(adx, 0, 100, 0, 1)
+
+
+// =================
+// ==== Filters ====
+// =================
+
+// # @regime_filter
+// # @param src <series float> The source series.
+// # @param threshold <float> The threshold.
+// # @param useRegimeFilter <bool> Whether to use the regime filter.
+// # @returns <bool> Boolean indicating whether or not to let the signal pass through the filter.
+export regime_filter(series float src=ohlc4, float threshold, bool useRegimeFilter) =>
+    // Calculate the slope of the curve.
+    value1 = 0.0
+    value2 = 0.0
+    klmf = 0.0
+    value1 := 0.2 * (src - src[1]) + 0.8 * nz(value1[1])
+    value2 := 0.1 * (high - low) + 0.8 * nz(value2[1])
+    omega = math.abs(value1 / value2)
+    alpha = (-math.pow(omega,2) + math.sqrt(math.pow(omega, 4) + 16 * math.pow(omega,2))) / 8 
+    klmf := alpha * src + (1 - alpha) * nz(klmf[1])
+    absCurveSlope = math.abs(klmf - klmf[1])
+    exponentialAverageAbsCurveSlope = 1.0 * ta.ema(absCurveSlope, 200)
+    normalized_slope_decline = (absCurveSlope - exponentialAverageAbsCurveSlope) / exponentialAverageAbsCurveSlope
+    // Calculate the slope of the curve.
+    useRegimeFilter ? normalized_slope_decline >= threshold : true
+
+// @function filter_adx
+// @param src <series float> The source series.
+// @param length <int> The length of the ADX.
+// @param adxThreshold <int> The ADX threshold.
+// @param useAdxFilter <bool> Whether to use the ADX filter.
+// @returns <series float> The ADX.
+export filter_adx(series float src=close, simple int length=14, int adxThreshold, bool useAdxFilter) =>
+    tr = math.max(math.max(high - low, math.abs(high - nz(src[1]))), math.abs(low - nz(src[1])))
+    directionalMovementPlus = high - nz(high[1]) > nz(low[1]) - low ? math.max(high - nz(high[1]), 0) : 0
+    negMovement = nz(low[1]) - low > high - nz(high[1]) ? math.max(nz(low[1]) - low, 0) : 0
+    trSmooth = 0.0
+    trSmooth := nz(trSmooth[1]) - nz(trSmooth[1]) / length + tr
+    smoothDirectionalMovementPlus = 0.0
+    smoothDirectionalMovementPlus := nz(smoothDirectionalMovementPlus[1]) - nz(smoothDirectionalMovementPlus[1]) / length + directionalMovementPlus
+    smoothnegMovement = 0.0
+    smoothnegMovement := nz(smoothnegMovement[1]) - nz(smoothnegMovement[1]) / length + negMovement
+    diPositive = smoothDirectionalMovementPlus / trSmooth * 100
+    diNegative = smoothnegMovement / trSmooth * 100
+    dx = math.abs(diPositive - diNegative) / (diPositive + diNegative) * 100
+    adx = ta.rma(dx, length)
+    useAdxFilter ? adx > adxThreshold : true
+
+// @function filter_volatility
+// @param minLength <int> The minimum length of the ATR.
+// @param maxLength <int> The maximum length of the ATR.
+// @param useVolatilityFilter <bool> Whether to use the volatility filter.
+// @returns <bool> Boolean indicating whether or not to let the signal pass through the filter.
+export filter_volatility(simple int minLength=1, simple int maxLength=10, bool useVolatilityFilter) =>
+    recentAtr = ta.atr(minLength)
+    historicalAtr = ta.atr(maxLength)
+    useVolatilityFilter ? recentAtr > historicalAtr : true
+
+// =====================
+// ==== Backtesting ====
+// =====================
+
+// @function Performs a basic backtest using the specified parameters and conditions.
+// @param high <series float> The input series for the high price.
+// @param low <series float> The input series for the low price.
+// @param open <series float> The input series for the open price.
+// @param startLongTrade <series bool> The series of conditions that indicate the start of a long trade.
+// @param endLongTrade <series bool> The series of conditions that indicate the end of a long trade.
+// @param startShortTrade <series bool> The series of conditions that indicate the start of a short trade.
+// @param endShortTrade <series bool> The series of conditions that indicate the end of a short trade.
+// @param isEarlySignalFlip <bool> Whether or not the signal flip is early.
+// @param maxBarsBackIndex <int> The maximum number of bars to go back in the backtest.
+// @param thisBarIndex <int> The current bar index.
+// @param src <series float> The source series.
+// @param useWorstCase <bool> Whether to use the worst case scenario for the backtest.
+// @returns <tuple strings> A tuple containing backtest values
+export backtest(series float high, series float low, series float open, series bool startLongTrade, series bool endLongTrade, series bool startShortTrade, series bool endShortTrade, series bool isEarlySignalFlip, int maxBarsBackIndex, int thisBarIndex, series float src, bool useWorstCase) =>
+    marketPrice = useWorstCase ? src : (high + low + open + open)/4
+    var float start_long_trade = marketPrice
+    var float start_short_trade = marketPrice
+    var float total_short_profit = 0.
+    var float total_long_profit = 0.
+    var int wins = 0
+    var int losses = 0
+    var int trade_count = 0
+    var int early_signal_flip_count = 0
+    var bool tookProfit = false
+    lot_size = 1
+    if thisBarIndex > maxBarsBackIndex
+        trade_count := 0
+        wins := 0
+        losses := 0
+        early_signal_flip_count := 0
+        if startLongTrade
+            start_short_trade := 0.
+            early_signal_flip_count := isEarlySignalFlip ? 1 : 0
+            start_long_trade := marketPrice
+            trade_count := 1
+        if endLongTrade
+            delta = marketPrice - start_long_trade
+            wins := delta > 0 ? 1 : 0
+            losses := delta < 0 ? 1 : 0
+            total_long_profit := delta * lot_size
+        if startShortTrade
+            start_long_trade := 0.
+            start_short_trade := marketPrice
+            trade_count := 1
+        if endShortTrade
+            early_signal_flip_count := isEarlySignalFlip ? 1 : 0
+            delta = start_short_trade - marketPrice
+            wins := delta > 0 ? 1 : 0
+            losses := delta < 0 ? 1 : 0
+            total_short_profit := delta * lot_size
+    tradeStatsHeader = '📈 Trade Stats'
+    longProfit = ta.cum(total_long_profit)
+    shortProfit = ta.cum(total_short_profit)
+    longShortProfit = longProfit + shortProfit
+    totalEarlySignalFlips = ta.cum(early_signal_flip_count)
+    totalWins = ta.cum(wins)
+    totalLosses = ta.cum(losses)
+    totalTrades = ta.cum(wins+losses)
+    winLossRatio = totalWins / totalTrades
+    winRate = totalWins / (totalWins + totalLosses)
+    [totalWins, totalLosses, totalEarlySignalFlips, totalTrades, tradeStatsHeader, winLossRatio, winRate]
+
+// @function init_table()
+// @returns tbl <series table> The backtest results.
+export init_table() =>    
+    c_transparent = color.new(color.black, 100)
+    table.new(position.top_right, columns=2, rows=7, frame_color=c_transparent, frame_width=1, border_width=1, border_color=c_transparent)
+
+// @function update_table(tbl, tradeStats)
+// @param tbl <series table> The backtest results table.
+// @param tradeStatsHeader <string> The trade stats header.
+// @param totalTrades <float> The total number of trades.
+// @param totalWins <float> The total number of wins.
+// @param totalLosses <float> The total number of losses.
+// @param winLossRatio <float> The win loss ratio.
+// @param winrate <float> The winrate.
+// @param earlySignalFlips <float> The total number of early signal flips.
+// @returns <void> Updated backtest results table.
+export update_table(series table tbl, string tradeStatsHeader, float totalTrades, float totalWins, float totalLosses, float winLossRatio, float winrate, float earlySignalFlips) =>
+    c_transparent = color.new(color.black, 100)
+    table.cell(tbl, 0, 0, tradeStatsHeader, text_halign=text.align_center, text_color=color.gray, text_size=size.normal)
+    table.cell(tbl, 0, 1, 'Winrate', text_halign=text.align_center, bgcolor=c_transparent, text_color=color.gray, text_size=size.normal)
+    table.cell(tbl, 1, 1, str.tostring(winrate, '#.#') + '%', text_halign=text.align_center, bgcolor=c_transparent, text_color=color.gray, text_size=size.normal)
+    table.cell(tbl, 0, 2, 'Trades', text_halign=text.align_center, bgcolor=c_transparent, text_color=color.gray, text_size=size.normal)
+    table.cell(tbl, 1, 2, str.tostring(totalTrades, '#') + ' (' + str.tostring(totalWins, '#') + '|' + str.tostring(totalLosses, '#') + ')', text_halign=text.align_center, bgcolor=c_transparent, text_color=color.gray, text_size=size.normal)
+    table.cell(tbl, 0, 5, 'WL Ratio', text_halign=text.align_center, bgcolor=c_transparent, text_color=color.gray, text_size=size.normal)
+    table.cell(tbl, 1, 5, str.tostring(winLossRatio, '#.#'), text_halign=text.align_center, bgcolor=c_transparent, text_color=color.gray, text_size=size.normal)
+    table.cell(tbl, 0, 6, 'Early Signal Flip Count', text_halign=text.align_center, bgcolor=c_transparent, text_color=color.gray, text_size=size.normal)
+    table.cell(tbl, 1, 6, str.tostring(earlySignalFlips, '#'), text_halign=text.align_center, bgcolor=c_transparent, text_color=color.gray, text_size=size.normal)
