@@ -55,7 +55,8 @@ for item in tickers.items():
         continue
     bid = tickers[symbol]['bid']  # prix de vente (sell)
     ask = tickers[symbol]['ask']  # prix d'achat (buy)
-    if ask > 0:
+    #print(symbol, bid, ask)
+    if ask is not None and ask > 0:
         array_watch[symbol] = ask# + ask/100*percent
         array_t0[symbol] = ask
         array_datetime[symbol] = datetime.now()
