@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import ta
 from ta.trend import IchimokuIndicator
+from datetime import datetime
 
 def get_all_binance_pairs():
     url = 'https://api.binance.com/api/v3/exchangeInfo'
@@ -15,9 +16,10 @@ def get_all_binance_pairs():
             pairs.append(symbol['symbol'])
     return pairs
 
+timeframe = '4h'
 def get_kijun_sen(pair):
     url = 'https://api.binance.com/api/v3/klines'
-    params = {'symbol': pair, 'interval': '1d', 'limit': 1000}
+    params = {'symbol': pair, 'interval': timeframe, 'limit': 1000}
     response = requests.get(url, params=params)
     data = response.json()
     df = pd.DataFrame(data, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_asset_volume', 'number_of_trades', 'taker_buy_base_asset_volume', 'taker_buy_quote_asset_volume', 'ignore'])
@@ -26,9 +28,9 @@ def get_kijun_sen(pair):
     ichimoku_indicator = IchimokuIndicator(df['high'], df['low'], window1=9, window2=26, window3=52)
     kijun_sen = ichimoku_indicator.ichimoku_base_line()
 
-    if float(df['open'].iloc[-1]) < kijun_sen.iloc[-1]:
-        if float(df['close'].iloc[-1]) > kijun_sen.iloc[-1]:
-            print(pair + " : open below and close above")
+    if float(df['open'].iloc[-2]) < kijun_sen.iloc[-2]:
+        if float(df['close'].iloc[-2]) > kijun_sen.iloc[-2] and float(df['close'].iloc[-1]) > kijun_sen.iloc[-1]:
+            print("$" + pair + " : open below kijun and close above kijun in " + timeframe + " at " + str(datetime.now()).split(".")[0])
 
     return kijun_sen.iloc[-1]
 
