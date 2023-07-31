@@ -16,9 +16,10 @@ def get_all_binance_pairs():
             pairs.append(symbol['symbol'])
     return pairs
 
+timeframe = '4h'
 def get_rsi(pair):
     url = 'https://api.binance.com/api/v3/klines'
-    params = {'symbol': pair, 'interval': '4h', 'limit': 1000}
+    params = {'symbol': pair, 'interval': timeframe, 'limit': 1000}
     response = requests.get(url, params=params)
     data = response.json()
     df = pd.DataFrame(data, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_asset_volume', 'number_of_trades', 'taker_buy_base_asset_volume', 'taker_buy_quote_asset_volume', 'ignore'])
@@ -35,9 +36,9 @@ for pair in pairs:
     try:
         rsi = get_rsi(pair)
         if rsi < 30:
-            print(f'{pair} est en survente RSI ({rsi:.2f}) à {str(datetime.now()).split(".")[0]}')
+            print(f'{pair} est en survente RSI {timeframe} ({rsi:.2f}) à {str(datetime.now()).split(".")[0]}')
         elif rsi > 70:
-            print(f'{pair} est en surachat RSI ({rsi:.2f}) à {str(datetime.now()).split(".")[0]}')
+            print(f'{pair} est en surachat RSI {timeframe} ({rsi:.2f}) à {str(datetime.now()).split(".")[0]}')
         #else:
         #    print(f'{pair} RSI ({rsi:.2f})')
     except Exception as e:
