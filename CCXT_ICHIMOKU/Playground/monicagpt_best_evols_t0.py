@@ -1,10 +1,12 @@
 import requests
 import time
+from datetime import datetime
 
 url = "https://api.binance.com/api/v3/ticker/price"
 first_prices = {}
 previous_prices = {}
 start_time = time.time()
+start_time_str = str(datetime.now()).split('.')[0]
 
 while True:
     response = requests.get(url)
@@ -35,7 +37,8 @@ while True:
             sorted_changes = sorted(changes.items(), key=lambda x: x[1], reverse=True)
             output = ""
             for symbol, change in sorted_changes[:10]:
-                output += f"{current_time:.2f}s - {symbol}: {change:.2f}%\n"
+                changepermin = (change/current_time)*60
+                output += f"{current_time:.2f}s - {'$'+symbol.replace('USDT', '/USDT')}: {change:.2f}% - {changepermin:.4f}%/min since {start_time_str} \n"
             with open("result.txt", "w") as f:
                 f.write(output)
             
