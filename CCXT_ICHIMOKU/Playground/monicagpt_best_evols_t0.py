@@ -36,6 +36,9 @@ while True:
             output = ""
             for symbol, change in sorted_changes[:10]:
                 output += f"{current_time:.2f}s - {symbol}: {change:.2f}%\n"
+            with open("result.txt", "w") as f:
+                f.write(output)
+            
             print(output)
 
     else:
