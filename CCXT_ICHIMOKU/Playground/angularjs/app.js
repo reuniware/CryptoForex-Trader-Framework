@@ -5,6 +5,7 @@ angular.module('myApp', []);
 angular.module('myApp').controller('MainController', function($scope) {
   $scope.assets = [];
   $scope.filterText = ''; // Variable pour le filtrage
+  $scope.sortDescending = false; // Variable pour trier par ordre décroissant
 
   // URL du websocket Binance pour les cours de tous les actifs
   var wsUrl = 'wss://stream.binance.com:9443/ws/!ticker@arr';
@@ -30,14 +31,18 @@ angular.module('myApp').controller('MainController', function($scope) {
     console.error('Erreur WebSocket :', event);
   };
 
-  // Fonction pour trier les actifs par ordre alphabétique
+  // Fonction pour trier les actifs par ordre alphabétique ou par ordre décroissant du pourcentage d'évolution
   function sortAssets() {
     $scope.sortedAssets = $scope.assets.sort(function(a, b) {
       var symbolA = a.s.toUpperCase();
       var symbolB = b.s.toUpperCase();
-      if (symbolA < symbolB) return -1;
-      if (symbolA > symbolB) return 1;
-      return 0;
+      if ($scope.sortDescending) {
+        return (parseFloat(b.P) - parseFloat(a.P));
+      } else {
+        if (symbolA < symbolB) return -1;
+        if (symbolA > symbolB) return 1;
+        return 0;
+      }
     });
   }
 
