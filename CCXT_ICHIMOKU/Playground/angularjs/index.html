@@ -7,8 +7,10 @@
   <div ng-controller="MainController">
     <h1>Cours de tous les actifs en temps réel</h1>
     <input type="text" ng-model="filterText" placeholder="Filtrer les actifs">
-    <label for="sortCheckbox">Trier par % d'évolution :</label>
-    <input type="checkbox" id="sortCheckbox" ng-model="sortDescending">
+    <label for="sortDescendingCheckbox">Trier par % d'évolution décroissant :</label>
+    <input type="checkbox" id="sortDescendingCheckbox" ng-model="sortDescending">
+    <label for="sortAscendingCheckbox">Trier par % d'évolution croissant :</label>
+    <input type="checkbox" id="sortAscendingCheckbox" ng-model="sortAscending">
     <table>
       <tr>
         <th>Actif</th>
