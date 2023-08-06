@@ -38,11 +38,11 @@ angular.module('myApp').controller('MainController', function($scope) {
       var symbolB = b.s.toUpperCase();
       if ($scope.sortDescending) {
         return (parseFloat(b.P) - parseFloat(a.P));
+      } else if ($scope.sortAscending) {
+        return (parseFloat(a.P) - parseFloat(b.P));
       } else {
-        if (symbolA < symbolB) return -1;
-        if (symbolA > symbolB) return 1;
-        return 0;
-      }
+		  return 0;
+	  }
     });
   }
 
@@ -59,5 +59,6 @@ angular.module('myApp').controller('MainController', function($scope) {
   setInterval(function() {
     sortAssets();
     $scope.$apply(); // Mettre à jour la vue AngularJS
-  }, 1000);
+  }, 10);
+  
 });
