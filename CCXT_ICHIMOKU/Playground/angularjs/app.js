@@ -4,6 +4,7 @@ angular.module('myApp', []);
 // Définition du contrôleur MainController
 angular.module('myApp').controller('MainController', function($scope) {
   $scope.assets = [];
+  $scope.filterText = ''; // Variable pour le filtrage
 
   // URL du websocket Binance pour les cours de tous les actifs
   var wsUrl = 'wss://stream.binance.com:9443/ws/!ticker@arr';
@@ -42,6 +43,12 @@ angular.module('myApp').controller('MainController', function($scope) {
 
   // Appel initial pour trier les actifs
   sortAssets();
+
+  // Fonction pour calculer le pourcentage d'évolution
+  $scope.getPercentageChange = function(currentPrice, openPrice) {
+    var change = currentPrice - openPrice;
+    return ((change / openPrice) * 100).toFixed(2) + '%';
+  };
 
   // Actualiser les cours de tous les actifs toutes les secondes (1000 millisecondes)
   setInterval(function() {
