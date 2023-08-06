@@ -12,11 +12,13 @@
         <th>Actif</th>
         <th>Prix actuel</th>
         <th>Prix d'ouverture</th>
+        <th>% d'évolution</th>
       </tr>
       <tr ng-repeat="asset in sortedAssets | filter: filterText">
         <td>{{ asset.s }}</td>
         <td>{{ asset.c }}</td>
         <td>{{ asset.o }}</td>
+        <td>{{ getPercentageChange(asset.c, asset.o) }}</td>
       </tr>
     </table>
   </div>
