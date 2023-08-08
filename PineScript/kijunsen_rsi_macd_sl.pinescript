@@ -1,0 +1,39 @@
+//@version=5
+strategy("Stratégie basée sur la Kijun Sen", overlay=true)
+
+// Définition des périodes
+conversionPeriod = input(9, "Période de conversion")
+basePeriod = input(26, "Période de base")
+laggingSpanPeriod = input(52, "Période du lagging span")
+rsiThreshold = input(50, "Seuil du RSI")
+
+// Calcul de la Kijun Sen
+kijunSen = ta.sma(high + low, basePeriod) / 2
+
+// Calcul du MACD
+[macdLine, signalLine, _] = ta.macd(close, conversionPeriod, basePeriod, laggingSpanPeriod)
+
+// Calcul de l'Oscillateur de Vague d'Elliott
+shortEMA = ta.ema(close, 5)
+longEMA = ta.ema(close, 35)
+ewoValue = shortEMA - longEMA
+
+// Calcul du RSI
+rsiValue = ta.rsi(close, 14)
+
+// Détection des signaux d'achat et de vente
+triggerBuy = ta.crossover(macdLine, signalLine) and rsiValue > rsiThreshold and ewoValue > 0
+triggerSell = ta.crossunder(close, kijunSen) and ta.crossunder(signalLine, macdLine) and rsiValue < rsiThreshold and ewoValue < 0
+
+// Entrée en position
+if triggerBuy
+    strategy.entry("Achat", strategy.long, qty=10000)
+    strategy.exit("Stop Loss", "Achat", stop=close * 0.99) // Stop-loss à 1% en dessous du prix d'entrée
+if triggerSell
+    strategy.entry("Vente", strategy.short)
+    strategy.exit("Stop Loss", "Vente", stop=close * 1.01) // Stop-loss à 1% au-dessus du prix d'entrée
+
+// Sortie de position
+if ta.crossover(close, kijunSen) or ta.crossunder(close, kijunSen) or ta.crossover(signalLine, macdLine)
+    strategy.close_all()
+
