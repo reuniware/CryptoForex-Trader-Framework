@@ -13,3 +13,879 @@ Pattern Explanation: A Hammer is a single candle pattern that appears at the end
 [2024-07-22 00:00:00] USDT/DAI (BINANCE:USDTDAI) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
 Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
 
+[2024-07-23 16:00:00] ETH/USDT (BINANCE:ETHUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] NEO/USDT (BINANCE:NEOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] NEO/USDT (BINANCE:NEOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] LTC/USDT (BINANCE:LTCUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] QTUM/USDT (BINANCE:QTUMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] QTUM/USDT (BINANCE:QTUMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] XRP/USDT (BINANCE:XRPUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] XRP/USDT (BINANCE:XRPUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] TUSD/USDT (BINANCE:TUSDUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] TUSD/USDT (BINANCE:TUSDUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] XLM/USDT (BINANCE:XLMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] XLM/USDT (BINANCE:XLMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] TRX/USDT (BINANCE:TRXUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] ETC/USDT (BINANCE:ETCUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] ETC/USDT (BINANCE:ETCUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] NULS/USDT (BINANCE:NULSUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] NULS/USDT (BINANCE:NULSUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] USDC/USDT (BINANCE:USDCUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] USDC/USDT (BINANCE:USDCUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] LINK/USDT (BINANCE:LINKUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] ZIL/USDT (BINANCE:ZILUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] ZIL/USDT (BINANCE:ZILUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] ZEC/USDT (BINANCE:ZECUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] ZEC/USDT (BINANCE:ZECUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] DASH/USDT (BINANCE:DASHUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] DASH/USDT (BINANCE:DASHUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] THETA/USDT (BINANCE:THETAUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] THETA/USDT (BINANCE:THETAUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] MATIC/USDT (BINANCE:MATICUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] ATOM/USDT (BINANCE:ATOMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] ATOM/USDT (BINANCE:ATOMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] WAN/USDT (BINANCE:WANUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] WAN/USDT (BINANCE:WANUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] FUN/USDT (BINANCE:FUNUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] FUN/USDT (BINANCE:FUNUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] XTZ/USDT (BINANCE:XTZUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] XTZ/USDT (BINANCE:XTZUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] XTZ/USDT (BINANCE:XTZUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] REN/USDT (BINANCE:RENUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] REN/USDT (BINANCE:RENUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] NKN/USDT (BINANCE:NKNUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] NKN/USDT (BINANCE:NKNUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] TROY/USDT (BINANCE:TROYUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] TROY/USDT (BINANCE:TROYUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] LTO/USDT (BINANCE:LTOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] LTO/USDT (BINANCE:LTOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] COTI/USDT (BINANCE:COTIUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] STPT/USDT (BINANCE:STPTUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] DATA/USDT (BINANCE:DATAUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] USDT/IDRT (BINANCE:USDTIDRT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] USDT/IDRT (BINANCE:USDTIDRT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] STMX/USDT (BINANCE:STMXUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] SC/USDT (BINANCE:SCUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] ZEN/USDT (BINANCE:ZENUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] SXP/USDT (BINANCE:SXPUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] SXP/USDT (BINANCE:SXPUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] DCR/USDT (BINANCE:DCRUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] DCR/USDT (BINANCE:DCRUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] STORJ/USDT (BINANCE:STORJUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] STORJ/USDT (BINANCE:STORJUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] MANA/USDT (BINANCE:MANAUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] MANA/USDT (BINANCE:MANAUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] YFI/USDT (BINANCE:YFIUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] YFI/USDT (BINANCE:YFIUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] KMD/USDT (BINANCE:KMDUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] KMD/USDT (BINANCE:KMDUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] USDT/DAI (BINANCE:USDTDAI) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] CRV/USDT (BINANCE:CRVUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] CRV/USDT (BINANCE:CRVUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] DOT/USDT (BINANCE:DOTUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] DOT/USDT (BINANCE:DOTUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] DOT/USDT (BINANCE:DOTUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] RSR/USDT (BINANCE:RSRUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] RSR/USDT (BINANCE:RSRUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] PAXG/USDT (BINANCE:PAXGUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] TRB/USDT (BINANCE:TRBUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] TRB/USDT (BINANCE:TRBUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] RUNE/USDT (BINANCE:RUNEUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] RUNE/USDT (BINANCE:RUNEUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] FIO/USDT (BINANCE:FIOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] FIO/USDT (BINANCE:FIOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] SUN/USDT (BINANCE:SUNUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] SUN/USDT (BINANCE:SUNUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] ORN/USDT (BINANCE:ORNUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] ORN/USDT (BINANCE:ORNUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] AAVE/USDT (BINANCE:AAVEUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] AAVE/USDT (BINANCE:AAVEUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] UNFI/USDT (BINANCE:UNFIUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] UNFI/USDT (BINANCE:UNFIUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] JUV/USDT (BINANCE:JUVUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] JUV/USDT (BINANCE:JUVUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] JUV/USDT (BINANCE:JUVUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] PSG/USDT (BINANCE:PSGUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] PSG/USDT (BINANCE:PSGUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] REEF/USDT (BINANCE:REEFUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] REEF/USDT (BINANCE:REEFUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] OG/USDT (BINANCE:OGUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] OG/USDT (BINANCE:OGUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] CELO/USDT (BINANCE:CELOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] TWT/USDT (BINANCE:TWTUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] TWT/USDT (BINANCE:TWTUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] SFP/USDT (BINANCE:SFPUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] ACM/USDT (BINANCE:ACMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] ACM/USDT (BINANCE:ACMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] FIS/USDT (BINANCE:FISUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] FIS/USDT (BINANCE:FISUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] OM/USDT (BINANCE:OMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] POND/USDT (BINANCE:PONDUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] POND/USDT (BINANCE:PONDUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] SUPER/USDT (BINANCE:SUPERUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] TLM/USDT (BINANCE:TLMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] TLM/USDT (BINANCE:TLMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] BAR/USDT (BINANCE:BARUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] BAR/USDT (BINANCE:BARUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] FORTH/USDT (BINANCE:FORTHUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] FORTH/USDT (BINANCE:FORTHUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] SHIB/USDT (BINANCE:SHIBUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] SHIB/USDT (BINANCE:SHIBUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] ICP/USDT (BINANCE:ICPUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] ERN/USDT (BINANCE:ERNUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] ERN/USDT (BINANCE:ERNUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] KLAY/USDT (BINANCE:KLAYUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] KLAY/USDT (BINANCE:KLAYUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] PHA/USDT (BINANCE:PHAUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] PHA/USDT (BINANCE:PHAUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] MLN/USDT (BINANCE:MLNUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] QNT/USDT (BINANCE:QNTUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] FARM/USDT (BINANCE:FARMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] FARM/USDT (BINANCE:FARMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] QUICK/USDT (BINANCE:QUICKUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] MBOX/USDT (BINANCE:MBOXUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] FOR/USDT (BINANCE:FORUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] REQ/USDT (BINANCE:REQUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] REQ/USDT (BINANCE:REQUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] GHST/USDT (BINANCE:GHSTUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] GHST/USDT (BINANCE:GHSTUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] WAXP/USDT (BINANCE:WAXPUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] WAXP/USDT (BINANCE:WAXPUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] GNO/USDT (BINANCE:GNOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] XEC/USDT (BINANCE:XECUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] XEC/USDT (BINANCE:XECUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] VIDT/USDT (BINANCE:VIDTUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] VIDT/USDT (BINANCE:VIDTUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] ILV/USDT (BINANCE:ILVUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] SYS/USDT (BINANCE:SYSUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] SYS/USDT (BINANCE:SYSUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] LAZIO/USDT (BINANCE:LAZIOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] LAZIO/USDT (BINANCE:LAZIOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] ADX/USDT (BINANCE:ADXUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] AUCTION/USDT (BINANCE:AUCTIONUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] AUCTION/USDT (BINANCE:AUCTIONUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] DAR/USDT (BINANCE:DARUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] MOVR/USDT (BINANCE:MOVRUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] ENS/USDT (BINANCE:ENSUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] KP3R/USDT (BINANCE:KP3RUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] KP3R/USDT (BINANCE:KP3RUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] PORTO/USDT (BINANCE:PORTOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] PORTO/USDT (BINANCE:PORTOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] VGX/USDT (BINANCE:VGXUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] PYR/USDT (BINANCE:PYRUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] ALCX/USDT (BINANCE:ALCXUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] ALCX/USDT (BINANCE:ALCXUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] SANTOS/USDT (BINANCE:SANTOSUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] HIGH/USDT (BINANCE:HIGHUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] HIGH/USDT (BINANCE:HIGHUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] SPELL/USDT (BINANCE:SPELLUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] SPELL/USDT (BINANCE:SPELLUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] IMX/USDT (BINANCE:IMXUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] IMX/USDT (BINANCE:IMXUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] BTTC/USDT (BINANCE:BTTCUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] BTTC/USDT (BINANCE:BTTCUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] XNO/USDT (BINANCE:XNOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] XNO/USDT (BINANCE:XNOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] ALPINE/USDT (BINANCE:ALPINEUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] ALPINE/USDT (BINANCE:ALPINEUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] STEEM/USDT (BINANCE:STEEMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] STEEM/USDT (BINANCE:STEEMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] STEEM/USDT (BINANCE:STEEMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] NEXO/USDT (BINANCE:NEXOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] REI/USDT (BINANCE:REIUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] LDO/USDT (BINANCE:LDOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] LDO/USDT (BINANCE:LDOUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] EPX/USDT (BINANCE:EPXUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] OP/USDT (BINANCE:OPUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] LEVER/USDT (BINANCE:LEVERUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] LEVER/USDT (BINANCE:LEVERUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] LUNC/USDT (BINANCE:LUNCUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] LUNC/USDT (BINANCE:LUNCUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] GMX/USDT (BINANCE:GMXUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] APT/USDT (BINANCE:APTUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] APT/USDT (BINANCE:APTUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] HFT/USDT (BINANCE:HFTUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] GNS/USDT (BINANCE:GNSUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] GNS/USDT (BINANCE:GNSUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] LQTY/USDT (BINANCE:LQTYUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] LQTY/USDT (BINANCE:LQTYUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] AMB/USDT (BINANCE:AMBUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] AMB/USDT (BINANCE:AMBUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] GAS/USDT (BINANCE:GASUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] GAS/USDT (BINANCE:GASUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] GLM/USDT (BINANCE:GLMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] PROM/USDT (BINANCE:PROMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] PROM/USDT (BINANCE:PROMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] QKC/USDT (BINANCE:QKCUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] QKC/USDT (BINANCE:QKCUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] ID/USDT (BINANCE:IDUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] ID/USDT (BINANCE:IDUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] OAX/USDT (BINANCE:OAXUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] USDT/PLN (BINANCE:USDTPLN) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] EDU/USDT (BINANCE:EDUUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] EDU/USDT (BINANCE:EDUUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] PEPE/USDT (BINANCE:PEPEUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] WBETH/USDT (BINANCE:WBETHUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] WLD/USDT (BINANCE:WLDUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] WLD/USDT (BINANCE:WLDUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] ARK/USDT (BINANCE:ARKUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] ARK/USDT (BINANCE:ARKUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] CREAM/USDT (BINANCE:CREAMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] CREAM/USDT (BINANCE:CREAMUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] GFT/USDT (BINANCE:GFTUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] IQ/USDT (BINANCE:IQUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] BLUR/USDT (BINANCE:BLURUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] BLUR/USDT (BINANCE:BLURUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-23 16:00:00] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Doji
+Pattern Explanation: A Doji is a single candle pattern that indicates indecision in the market. The open and close prices are very close or the same, creating a small body. It can signal a potential reversal or continuation depending on its context.
+
+[2024-07-23 16:00:00] METIS/USDT (BINANCE:METISUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hammer
+Pattern Explanation: A Hammer is a single candle pattern that appears at the end of a downtrend and indicates a potential reversal to an uptrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates buying pressure.
+
+[2024-07-23 16:00:00] METIS/USDT (BINANCE:METISUSDT) Timeframe: 4h, Number of candles: 5, Pattern detected: Hanging Man
+Pattern Explanation: A Hanging Man is a single candle pattern that appears at the end of an uptrend and indicates a potential reversal to a downtrend. It has a small body at the top of the trading range with a long lower shadow. The color of the body is less important, but the long lower shadow indicates selling pressure.
+
+[2024-07-22 00:00:00] TUSD/USDT (BINANCE:TUSDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Current candle evolution: -0.12%
+
+[2024-07-22 00:00:00] TUSD/USDT (BINANCE:TUSDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Current candle evolution: -0.12%
+
+[2024-07-22 00:00:00] ONG/USDT (BINANCE:ONGUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -5.31%
+
+[2024-07-22 00:00:00] STMX/USDT (BINANCE:STMXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Current candle evolution: 22.66%
+
+[2024-07-22 00:00:00] USDT/DAI (BINANCE:USDTDAI) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Current candle evolution: -0.02%
+
+[2024-07-22 00:00:00] USDT/BRL (BINANCE:USDTBRL) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: 0.48%
+
+[2024-07-22 00:00:00] AKRO/USDT (BINANCE:AKROUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -3.41%
+
+[2024-07-22 00:00:00] TUSD/USDT (BINANCE:TUSDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Current candle evolution: -0.11%
+
+[2024-07-22 00:00:00] TUSD/USDT (BINANCE:TUSDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Current candle evolution: -0.11%
+
+[2024-07-22 00:00:00] ONG/USDT (BINANCE:ONGUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -5.48%
+
+[2024-07-22 00:00:00] STMX/USDT (BINANCE:STMXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Current candle evolution: 22.68%
+
+[2024-07-22 00:00:00] USDT/DAI (BINANCE:USDTDAI) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Current candle evolution: -0.03%
+
+[2024-07-22 00:00:00] USDT/BRL (BINANCE:USDTBRL) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: 0.47%
+
+[2024-07-22 00:00:00] AKRO/USDT (BINANCE:AKROUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -3.28%
+
+[2024-07-22 00:00:00] ASR/USDT (BINANCE:ASRUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -1.75%
+
+[2024-07-22 00:00:00] ONG/USDT (BINANCE:ONGUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -5.45%
+
+[2024-07-22 00:00:00] TUSD/USDT (BINANCE:TUSDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Current candle evolution: -0.12%
+
+[2024-07-22 00:00:00] TUSD/USDT (BINANCE:TUSDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Current candle evolution: -0.12%
+
+[2024-07-22 00:00:00] STMX/USDT (BINANCE:STMXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Current candle evolution: 22.03%
+
+[2024-07-22 00:00:00] USDT/DAI (BINANCE:USDTDAI) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Current candle evolution: -0.02%
+
+[2024-07-22 00:00:00] USDT/BRL (BINANCE:USDTBRL) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: 0.47%
+
+[2024-07-22 00:00:00] AKRO/USDT (BINANCE:AKROUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -3.28%
+
+[2024-07-22 00:00:00] ASR/USDT (BINANCE:ASRUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -1.71%
+
+[2024-07-22 00:00:00] MBOX/USDT (BINANCE:MBOXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -3.87%
+
+[2024-07-22 00:00:00] BETA/USDT (BINANCE:BETAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -5.83%
+
+[2024-07-22 00:00:00] ACA/USDT (BINANCE:ACAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -4.41%
+
+[2024-07-22 00:00:00] HFT/USDT (BINANCE:HFTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -1.33%
+
+[2024-07-22 00:00:00] SYN/USDT (BINANCE:SYNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -1.77%
+
+[2024-07-22 00:00:00] USTC/USDT (BINANCE:USTCUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -3.27%
+
+[2024-07-22 00:00:00] RDNT/USDT (BINANCE:RDNTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -5.15%
+
+[2024-07-22 00:00:00] SEI/USDT (BINANCE:SEIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -2.56%
+
+[2024-07-22 00:00:00] IQ/USDT (BINANCE:IQUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -4.09%
+
+[2024-07-22 00:00:00] MEME/USDT (BINANCE:MEMEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -7.27%
+
+[2024-07-22 00:00:00] BEAMX/USDT (BINANCE:BEAMXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -5.59%
+
+[2024-07-22 00:00:00] ACE/USDT (BINANCE:ACEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -6.76%
+
+[2024-07-22 00:00:00] USDT/COP (BINANCE:USDTCOP) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: 0.33%
+
+[2024-07-22 00:00:00] BANANA/USDT (BINANCE:BANANAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Current candle evolution: -3.29%
+
+[2024-07-22 00:00:00] BANANA/USDT (BINANCE:BANANAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Inverted Hammer
+Current candle evolution: -3.29%
+
+[2024-07-22 00:00:00] ONG/USDT (BINANCE:ONGUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -5.48%
+
+[2024-07-22 00:00:00] TUSD/USDT (BINANCE:TUSDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Current candle evolution: -0.12%
+
+[2024-07-22 00:00:00] TUSD/USDT (BINANCE:TUSDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Current candle evolution: -0.12%
+
+[2024-07-22 00:00:00] STMX/USDT (BINANCE:STMXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Current candle evolution: 22.07%
+
+[2024-07-22 00:00:00] USDT/DAI (BINANCE:USDTDAI) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Current candle evolution: -0.03%
+
+[2024-07-22 00:00:00] USDT/BRL (BINANCE:USDTBRL) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: 0.47%
+
+[2024-07-22 00:00:00] AKRO/USDT (BINANCE:AKROUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -3.41%
+
+[2024-07-22 00:00:00] ASR/USDT (BINANCE:ASRUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -1.67%
+
+[2024-07-22 00:00:00] MBOX/USDT (BINANCE:MBOXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -3.71%
+
+[2024-07-22 00:00:00] BETA/USDT (BINANCE:BETAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -5.98%
+
+[2024-07-22 00:00:00] ACA/USDT (BINANCE:ACAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -4.41%
+
+[2024-07-22 00:00:00] HFT/USDT (BINANCE:HFTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -1.28%
+
+[2024-07-22 00:00:00] USTC/USDT (BINANCE:USTCUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -3.22%
+
+[2024-07-22 00:00:00] RDNT/USDT (BINANCE:RDNTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -5.15%
+
+[2024-07-22 00:00:00] SYN/USDT (BINANCE:SYNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -1.80%
+
+[2024-07-22 00:00:00] SEI/USDT (BINANCE:SEIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -2.49%
+
+[2024-07-22 00:00:00] IQ/USDT (BINANCE:IQUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Inverted Hammer
+Current candle evolution: -4.14%
+
+[2024-07-22 00:00:00] MEME/USDT (BINANCE:MEMEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -7.21%
+
+[2024-07-22 00:00:00] ACE/USDT (BINANCE:ACEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -6.70%
+
+[2024-07-22 00:00:00] BEAMX/USDT (BINANCE:BEAMXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: -5.70%
+
+[2024-07-22 00:00:00] USDT/COP (BINANCE:USDTCOP) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Current candle evolution: 0.41%
+
+[2024-07-22 00:00:00] BANANA/USDT (BINANCE:BANANAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Current candle evolution: -3.58%
+
+[2024-07-22 00:00:00] BANANA/USDT (BINANCE:BANANAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Inverted Hammer
+Current candle evolution: -3.58%
+
