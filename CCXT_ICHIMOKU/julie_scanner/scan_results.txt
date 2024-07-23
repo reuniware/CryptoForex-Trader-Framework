@@ -948,3 +948,95 @@ Price evolution: 0.0970 (9.91%)
 [2024-07-23 15:55:16] ONG/USDT (BINANCE:ONGUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 0.3462, Current color: red, Price evolution: -4.18%
 [2024-07-23 15:55:16] GTO/USDT (BINANCE:GTOUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 0.0123, Current color: red, Price evolution: -3.52%
 [2024-07-23 15:55:16] NPXS/USDT (BINANCE:NPXSUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 0.0070, Current color: red, Price evolution: -1.45%
+[2024-07-23 15:56:14] BCC/USDT (BINANCE:BCCUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 448.7000, Current color: red, Price evolution: 0.00%
+[2024-07-23 15:56:14] ONG/USDT (BINANCE:ONGUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 0.3469, Current color: red, Price evolution: -3.99%
+[2024-07-23 15:56:14] GTO/USDT (BINANCE:GTOUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 0.0123, Current color: red, Price evolution: -3.52%
+[2024-07-23 15:56:14] NPXS/USDT (BINANCE:NPXSUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 0.0070, Current color: red, Price evolution: -1.45%
+[2024-07-23 15:56:14] TCT/USDT (BINANCE:TCTUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 0.0031, Current color: red, Price evolution: -6.87%
+[2024-07-23 15:56:14] STRAT/USDT (BINANCE:STRATUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 0.4904, Current color: red, Price evolution: -8.78%
+[2024-07-23 15:56:14] XZC/USDT (BINANCE:XZCUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 4.4460, Current color: green, Price evolution: 2.28%
+[2024-07-23 15:56:14] USDT/BIDR (BINANCE:USDTBIDR) Previous candle: Hammer (Possible Uptrend), Current price: 15980.0000, Current color: green, Price evolution: 0.03%
+[2024-07-23 15:56:14] XTZUP/USDT (BINANCE:XTZUPUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 0.0026, Current color: red, Price evolution: -13.53%
+[2024-07-23 15:56:14] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 2.6001, Current color: green, Price evolution: 10.74%
+[2024-07-23 15:56:14] SRM/USDT (BINANCE:SRMUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 0.2444, Current color: red, Price evolution: -4.80%
+[2024-07-23 15:56:14] WNXM/USDT (BINANCE:WNXMUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 73.2600, Current color: red, Price evolution: -3.91%
+[2024-07-23 15:56:14] HNT/USDT (BINANCE:HNTUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 4.6700, Current color: green, Price evolution: 1.52%
+[2024-07-23 15:56:14] USDT/BRL (BINANCE:USDTBRL) Previous candle: Hammer (Possible Uptrend), Current price: 5.6110, Current color: green, Price evolution: 0.63%
+[2024-07-23 15:56:14] AKRO/USDT (BINANCE:AKROUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 0.0054, Current color: red, Price evolution: -1.15%
+[2024-07-23 15:56:14] DNT/USDT (BINANCE:DNTUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 0.0360, Current color: green, Price evolution: 18.03%
+[2024-07-23 15:56:14] USDT/BVND (BINANCE:USDTBVND) Previous candle: Hammer (Possible Uptrend), Current price: 23710.0000, Current color: red, Price evolution: -0.02%
+[2024-07-23 15:56:14] EPS/USDT (BINANCE:EPSUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 0.1679, Current color: red, Price evolution: -7.75%
+[2024-07-23 15:56:14] BTG/USDT (BINANCE:BTGUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 17.6500, Current color: red, Price evolution: -5.87%
+[2024-07-23 15:58:40] BCC/USDT (BINANCE:BCCUSDT) Previous candle (2018-11-15 00:00:00): Hammer (Possible Uptrend), Current price: 448.7000, Current color: red, Price evolution: 0.00%
+[2024-07-23 15:58:40] ONG/USDT (BINANCE:ONGUSDT) Previous candle (2024-07-22 00:00:00): Hammer (Possible Uptrend), Current price: 0.3474, Current color: red, Price evolution: -3.85%
+[2024-07-23 15:58:40] GTO/USDT (BINANCE:GTOUSDT) Previous candle (2022-11-27 00:00:00): Hammer (Possible Uptrend), Current price: 0.0123, Current color: red, Price evolution: -3.52%
+[2024-07-23 15:58:40] NPXS/USDT (BINANCE:NPXSUSDT) Previous candle (2021-04-04 00:00:00): Hammer (Possible Uptrend), Current price: 0.0070, Current color: red, Price evolution: -1.45%
+[2024-07-23 15:58:40] TCT/USDT (BINANCE:TCTUSDT) Previous candle (2022-10-23 00:00:00): Hammer (Possible Uptrend), Current price: 0.0031, Current color: red, Price evolution: -6.87%
+[2024-07-23 16:00:03] BCC/USDT (BINANCE:BCCUSDT) Previous candle (2018-11-15 00:00:00): Hammer (Possible Uptrend), Current price: 448.7000, Current color: red, Price evolution: 0.00%
+[2024-07-23 16:00:03] ONG/USDT (BINANCE:ONGUSDT) Previous candle (2024-07-22 00:00:00): Hammer (Possible Uptrend), Current price: 0.3474, Current color: red, Price evolution: -3.85%
+[2024-07-23 16:00:03] GTO/USDT (BINANCE:GTOUSDT) Previous candle (2022-11-27 00:00:00): Hammer (Possible Uptrend), Current price: 0.0123, Current color: red, Price evolution: -3.52%
+[2024-07-23 16:00:03] NPXS/USDT (BINANCE:NPXSUSDT) Previous candle (2021-04-04 00:00:00): Hammer (Possible Uptrend), Current price: 0.0070, Current color: red, Price evolution: -1.45%
+[2024-07-23 16:01:34] BCC/USDT (BINANCE:BCCUSDT) Previous candle (2018-11-15 00:00:00): Hammer (Possible Uptrend), Current price: 448.7000, Current color: red, Price evolution: 0.00%
+[2024-07-23 16:01:34] ONG/USDT (BINANCE:ONGUSDT) Previous candle (2024-07-22 00:00:00): Hammer (Possible Uptrend), Current price: 0.3482, Current color: red, Price evolution: -3.63%
+[2024-07-23 16:01:34] GTO/USDT (BINANCE:GTOUSDT) Previous candle (2022-11-27 00:00:00): Hammer (Possible Uptrend), Current price: 0.0123, Current color: red, Price evolution: -3.52%
+[2024-07-23 16:01:34] NPXS/USDT (BINANCE:NPXSUSDT) Previous candle (2021-04-04 00:00:00): Hammer (Possible Uptrend), Current price: 0.0070, Current color: red, Price evolution: -1.45%
+[2024-07-23 16:01:34] TCT/USDT (BINANCE:TCTUSDT) Previous candle (2022-10-23 00:00:00): Hammer (Possible Uptrend), Current price: 0.0031, Current color: red, Price evolution: -6.87%
+[2024-07-23 16:01:34] STRAT/USDT (BINANCE:STRATUSDT) Previous candle (2020-11-11 00:00:00): Hammer (Possible Uptrend), Current price: 0.4904, Current color: red, Price evolution: -8.78%
+[2024-07-23 16:01:34] XZC/USDT (BINANCE:XZCUSDT) Previous candle (2021-01-24 00:00:00): Hammer (Possible Uptrend), Current price: 4.4460, Current color: green, Price evolution: 2.28%
+[2024-07-23 16:01:34] USDT/BIDR (BINANCE:USDTBIDR) Previous candle (2024-05-16 00:00:00): Hammer (Possible Uptrend), Current price: 15980.0000, Current color: green, Price evolution: 0.03%
+[2024-07-23 16:01:34] XTZUP/USDT (BINANCE:XTZUPUSDT) Previous candle (2022-01-26 00:00:00): Hammer (Possible Uptrend), Current price: 0.0026, Current color: red, Price evolution: -13.53%
+[2024-07-23 16:01:34] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) Previous candle (2022-01-26 00:00:00): Hammer (Possible Uptrend), Current price: 2.6001, Current color: green, Price evolution: 10.74%
+[2024-07-23 16:01:34] SRM/USDT (BINANCE:SRMUSDT) Previous candle (2022-11-27 00:00:00): Hammer (Possible Uptrend), Current price: 0.2444, Current color: red, Price evolution: -4.80%
+[2024-07-23 16:03:21] ONG/USDT (BINANCE:ONGUSDT) Previous candle (2024-07-22): Hammer (Possible Uptrend), Current price: 0.3469, Current color: red, Price evolution: -3.99%
+[2024-07-23 16:03:21] USDT/BRL (BINANCE:USDTBRL) Previous candle (2024-07-22): Hammer (Possible Uptrend), Current price: 5.6090, Current color: green, Price evolution: 0.59%
+[2024-07-23 16:03:21] AKRO/USDT (BINANCE:AKROUSDT) Previous candle (2024-07-22): Hammer (Possible Uptrend), Current price: 0.0054, Current color: red, Price evolution: -1.28%
+[2024-07-23 16:03:21] RDNT/USDT (BINANCE:RDNTUSDT) Previous candle (2024-07-22): Hammer (Possible Uptrend), Current price: 0.1024, Current color: red, Price evolution: -2.38%
+[2024-07-23 16:03:21] SEI/USDT (BINANCE:SEIUSDT) Previous candle (2024-07-22): Hammer (Possible Uptrend), Current price: 0.3803, Current color: red, Price evolution: -3.43%
+[2024-07-23 16:03:21] MEME/USDT (BINANCE:MEMEUSDT) Previous candle (2024-07-22): Hammer (Possible Uptrend), Current price: 0.0164, Current color: red, Price evolution: -4.71%
+[2024-07-23 16:03:21] BEAMX/USDT (BINANCE:BEAMXUSDT) Previous candle (2024-07-22): Hammer (Possible Uptrend), Current price: 0.0185, Current color: red, Price evolution: -5.08%
+[2024-07-23 16:03:21] ACE/USDT (BINANCE:ACEUSDT) Previous candle (2024-07-22): Hammer (Possible Uptrend), Current price: 3.0330, Current color: red, Price evolution: -3.22%
+[2024-07-23 16:03:21] USDT/COP (BINANCE:USDTCOP) Previous candle (2024-07-22): Hammer (Possible Uptrend), Current price: 3948.0000, Current color: green, Price evolution: 0.20%
+[2024-07-23 16:42:45] BTC/USDT (BINANCE:BTCUSDT) Previous candle (Hanging Man) Date: 2024-07-23 14:41:00, Current price: 67225.9900, Current color: red, Price evolution: -0.03%
+[2024-07-23 16:42:45] EOS/USDT (BINANCE:EOSUSDT) Previous candle (Hanging Man) Date: 2024-07-23 14:41:00, Current price: 0.5947, Current color: green, Price evolution: 0.10%
+[2024-07-23 16:42:45] TUSD/USDT (BINANCE:TUSDUSDT) Previous candle (Hanging Man) Date: 2024-07-23 14:41:00, Current price: 1.0000, Current color: green, Price evolution: 0.01%
+[2024-07-23 16:42:45] XLM/USDT (BINANCE:XLMUSDT) Previous candle (Hanging Man) Date: 2024-07-23 14:41:00, Current price: 0.1025, Current color: red, Price evolution: -0.10%
+[2024-07-23 16:43:40] BNB/USDT (BINANCE:BNBUSDT) Previous candle (Hanging Man) Date: 2024-07-23 14:42:00, Current price: 588.2000, Current color: red, Price evolution: 0.00%
+[2024-07-23 16:43:40] LTC/USDT (BINANCE:LTCUSDT) Previous candle (Hanging Man) Date: 2024-07-23 14:42:00, Current price: 72.8400, Current color: red, Price evolution: -0.05%
+[2024-07-23 16:43:40] XLM/USDT (BINANCE:XLMUSDT) Previous candle (Hanging Man) Date: 2024-07-23 14:42:00, Current price: 0.1025, Current color: red, Price evolution: 0.00%
+[2024-07-23 16:43:40] BTT/USDT (BINANCE:BTTUSDT) Previous candle (Hanging Man) Date: 2022-01-17 03:58:00, Current price: 0.0028, Current color: green, Price evolution: 0.25%
+[2024-07-23 16:43:40] FET/USDT (BINANCE:FETUSDT) Previous candle (Hanging Man) Date: 2024-07-23 14:42:00, Current price: 1.3410, Current color: red, Price evolution: 0.00%
+[2024-07-23 16:43:40] XMR/USDT (BINANCE:XMRUSDT) Previous candle (Hanging Man) Date: 2024-02-20 02:58:00, Current price: 118.7000, Current color: green, Price evolution: 0.42%
+[2024-07-23 16:43:58] BCC/USDT (BINANCE:BCCUSDT) Previous candle (Hanging Man) Date: 2018-11-15 16:30:00, Current price: 448.7000, Current color: red, Price evolution: 0.00%
+[2024-07-23 16:43:58] BSV/USDT (BINANCE:BSVUSDT) Previous candle (Hanging Man) Date: 2019-04-22 09:30:00, Current price: 58.9000, Current color: green, Price evolution: 3.08%
+[2024-07-23 16:45:14] BOND/USDT (BINANCE:BONDUSDT) Previous candle (Hanging Man) Date: 2024-07-22 02:30:00, Current price: 2.1520, Current color: green, Price evolution: 1.99%
+[2024-07-23 16:57:19] BOND/USDT (BINANCE:BONDUSDT) Previous candle (Hanging Man) Date: 2024-07-22 02:30:00, Current price: 2.1520, Current color: green, Price evolution: 1.99%
+[2024-07-23 17:09:24] BOND/USDT (BINANCE:BONDUSDT) Previous candle (Hanging Man) Date: 2024-07-22 02:30:00, Current price: 2.1520, Current color: green, Price evolution: 1.99%
+[2024-07-23 17:21:27] BOND/USDT (BINANCE:BONDUSDT) Previous candle (Hanging Man) Date: 2024-07-22 02:30:00, Current price: 2.1520, Current color: green, Price evolution: 1.99%
+[2024-07-23 18:10:28] BOND/USDT (BINANCE:BONDUSDT) Previous candle (Hanging Man) Date: 2024-07-22 02:30:00, Current price: 2.1520, Current color: green, Price evolution: 1.99%
+[2024-07-23 18:14:08] ONG/USDT (BINANCE:ONGUSDT) Previous candle (Hanging Man) Date: 2024-07-22 00:00:00, Current price: 0.3440, Current color: red, Price evolution: -4.79%
+[2024-07-23 18:14:08] USDT/BRL (BINANCE:USDTBRL) Previous candle (Hanging Man) Date: 2024-07-22 00:00:00, Current price: 5.5920, Current color: green, Price evolution: 0.29%
+[2024-07-23 18:14:08] AKRO/USDT (BINANCE:AKROUSDT) Previous candle (Hanging Man) Date: 2024-07-22 00:00:00, Current price: 0.0053, Current color: red, Price evolution: -2.33%
+[2024-07-23 18:14:08] RDNT/USDT (BINANCE:RDNTUSDT) Previous candle (Hanging Man) Date: 2024-07-22 00:00:00, Current price: 0.1021, Current color: red, Price evolution: -2.67%
+[2024-07-23 18:14:08] SEI/USDT (BINANCE:SEIUSDT) Previous candle (Hanging Man) Date: 2024-07-22 00:00:00, Current price: 0.3818, Current color: red, Price evolution: -3.05%
+[2024-07-23 18:14:08] MEME/USDT (BINANCE:MEMEUSDT) Previous candle (Hanging Man) Date: 2024-07-22 00:00:00, Current price: 0.0161, Current color: red, Price evolution: -6.57%
+[2024-07-23 18:14:08] BEAMX/USDT (BINANCE:BEAMXUSDT) Previous candle (Hanging Man) Date: 2024-07-22 00:00:00, Current price: 0.0186, Current color: red, Price evolution: -4.36%
+[2024-07-23 18:14:08] ACE/USDT (BINANCE:ACEUSDT) Previous candle (Hanging Man) Date: 2024-07-22 00:00:00, Current price: 3.0220, Current color: red, Price evolution: -3.57%
+[2024-07-23 18:14:08] USDT/COP (BINANCE:USDTCOP) Previous candle (Hanging Man) Date: 2024-07-22 00:00:00, Current price: 3965.0000, Current color: green, Price evolution: 0.63%
+[2024-07-23 18:23:05] ONG/USDT (BINANCE:ONGUSDT) Previous candle (Hanging Man) Date: 2024-07-22 00:00:00, Current price: 0.3449, Current color: red, Price evolution: -4.54%
+[2024-07-23 18:23:45] ETH/USDT (BINANCE:ETHUSDT) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 3466.8000, Current color: green, Price evolution: 0.39%
+[2024-07-23 18:23:45] TUSD/USDT (BINANCE:TUSDUSDT) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 0.9996, Current color: red, Price evolution: -0.01%
+[2024-07-23 18:23:45] TRX/USDT (BINANCE:TRXUSDT) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 0.1335, Current color: green, Price evolution: 0.15%
+[2024-07-23 18:23:45] EUR/USDT (BINANCE:EURUSDT) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 1.0882, Current color: green, Price evolution: 0.02%
+[2024-07-23 18:23:45] USDT/IDRT (BINANCE:USDTIDRT) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 16221.0000, Current color: red, Price evolution: -0.22%
+[2024-07-23 18:23:45] BLZ/USDT (BINANCE:BLZUSDT) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 0.1759, Current color: green, Price evolution: 0.11%
+[2024-07-23 18:23:45] JST/USDT (BINANCE:JSTUSDT) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 0.0288, Current color: green, Price evolution: 0.14%
+[2024-07-23 18:23:45] PAXG/USDT (BINANCE:PAXGUSDT) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 2394.0000, Current color: red, Price evolution: -0.04%
+[2024-07-23 18:23:45] USDT/BRL (BINANCE:USDTBRL) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 5.5970, Current color: green, Price evolution: 0.09%
+[2024-07-23 18:23:45] PUNDIX/USDT (BINANCE:PUNDIXUSDT) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 0.4180, Current color: green, Price evolution: 0.26%
+[2024-07-23 18:23:45] GTC/USDT (BINANCE:GTCUSDT) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 0.8720, Current color: green, Price evolution: 0.11%
+[2024-07-23 18:23:45] SPELL/USDT (BINANCE:SPELLUSDT) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 0.0007, Current color: green, Price evolution: 0.50%
+[2024-07-23 18:23:45] BTTC/USDT (BINANCE:BTTCUSDT) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 0.0000, Current color: red, Price evolution: 0.00%
+[2024-07-23 18:23:45] PDA/USDT (BINANCE:PDAUSDT) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 0.0663, Current color: red, Price evolution: 0.00%
+[2024-07-23 18:23:45] WIF/USDT (BINANCE:WIFUSDT) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 2.6880, Current color: green, Price evolution: 1.86%
+[2024-07-23 18:23:45] USDT/MXN (BINANCE:USDTMXN) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 18.1700, Current color: green, Price evolution: 0.39%
+[2024-07-23 18:23:45] TAO/USDT (BINANCE:TAOUSDT) Previous candle (Hanging Man) Date: 2024-07-23 16:00:00, Current price: 309.4000, Current color: red, Price evolution: 0.00%
