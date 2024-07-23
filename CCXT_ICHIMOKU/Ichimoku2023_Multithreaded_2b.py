@@ -14,7 +14,7 @@ import threading
 import ta
 import argparse
 import signal
-import beepy as beep
+#import beepy as beep
 import tweepy
 
 from datetime import date
@@ -442,7 +442,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         all_tf_ok = False
                         break
                 if all_tf_ok:
-                    beep.beep(3)
+                    #beep.beep(3)
                     if exchange_id.upper() == "BYBIT":
                         str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol + ".P"
                     else:
@@ -463,7 +463,7 @@ def execute_code(symbol, type_of_asset, exchange_id):
                         all_tf_ok = False
                         break
                 if all_tf_ok:
-                    beep.beep(3)
+                    #beep.beep(3)
                     if exchange_id.upper() == "BYBIT":
                         str_link = "https://tradingview.com/chart/?symbol=" + exchange_id.upper() + ":" + symbol + ".P"
                     else:

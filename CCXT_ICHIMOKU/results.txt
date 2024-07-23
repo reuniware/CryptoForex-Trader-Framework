@@ -1,0 +1,15 @@
+Scan results at : 2024-07-22 21:58:16.854526
+(UPTREND) all timeframes are ok for FTTUSDT {'5m', '1h', '15m'} at 2024-07-22 21:58:41 
+(UPTREND) all timeframes are ok for BTCDOMUSDT {'5m', '1h', '15m'} at 2024-07-22 22:00:28 
+(UPTREND) all timeframes are ok for BONDUSDT {'5m', '1h', '15m'} at 2024-07-22 22:00:51 
+(UPTREND) all timeframes are ok for FTTUSDT {'5m', '1h', '15m'} at 2024-07-22 22:01:26 
+(UPTREND) all timeframes are ok for STMXUSDT {'5m', '1h', '15m'} at 2024-07-22 22:01:31 
+(UPTREND) all timeframes are ok for SANTOSUSDT {'5m', '1h', '15m'} at 2024-07-22 22:02:10 
+(UPTREND) all timeframes are ok for BTCDOMUSDT {'5m', '1h', '15m'} at 2024-07-22 22:03:09 
+(UPTREND) all timeframes are ok for BONDUSDT {'5m', '1h', '15m'} at 2024-07-22 22:03:33 
+(UPTREND) all timeframes are ok for CTKUSDT {'5m', '1h', '15m'} at 2024-07-22 22:04:24 
+(UPTREND) all timeframes are ok for SANTOSUSDT {'5m', '1h', '15m'} at 2024-07-22 22:04:52 
+(UPTREND) all timeframes are ok for BTCDOMUSDT {'5m', '1h', '15m'} at 2024-07-22 22:05:52 
+(UPTREND) all timeframes are ok for BONDUSDT {'5m', '1h', '15m'} at 2024-07-22 22:06:16 
+(UPTREND) all timeframes are ok for CTKUSDT {'5m', '1h', '15m'} at 2024-07-22 22:07:07 
+(UPTREND) all timeframes are ok for BTCDOMUSDT {'5m', '1h', '15m'} at 2024-07-22 22:08:34 
