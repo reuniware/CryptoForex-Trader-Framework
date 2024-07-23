@@ -889,3 +889,2795 @@ Current candle evolution: -3.58%
 [2024-07-22 00:00:00] BANANA/USDT (BINANCE:BANANAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Inverted Hammer
 Current candle evolution: -3.58%
 
+[2024-07-23 20:25:51] USDC/USDT (BINANCE:USDCUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.01%
+
+[2024-07-23 20:25:55] LINK/USDT (BINANCE:LINKUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.07%
+
+[2024-07-23 20:25:58] ZRX/USDT (BINANCE:ZRXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.24%
+
+[2024-07-23 20:25:58] BAT/USDT (BINANCE:BATUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.82%
+
+[2024-07-23 20:25:59] DASH/USDT (BINANCE:DASHUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.71%
+
+[2024-07-23 20:25:58] IOST/USDT (BINANCE:IOSTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.32%
+
+[2024-07-23 20:25:59] ZEC/USDT (BINANCE:ZECUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.52%
+
+[2024-07-23 20:25:59] ETH/USDT (BINANCE:ETHUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 1.13%
+
+[2024-07-23 20:26:00] ATOM/USDT (BINANCE:ATOMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.78%
+
+[2024-07-23 20:26:00] NEO/USDT (BINANCE:NEOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.30%
+
+[2024-07-23 20:26:00] MATIC/USDT (BINANCE:MATICUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.75%
+
+[2024-07-23 20:26:00] EOS/USDT (BINANCE:EOSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.02%
+
+[2024-07-23 20:26:00] ONE/USDT (BINANCE:ONEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.62%
+
+[2024-07-23 20:26:00] NULS/USDT (BINANCE:NULSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.03%
+
+[2024-07-23 20:26:01] MTL/USDT (BINANCE:MTLUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.54%
+
+[2024-07-23 20:26:01] WAN/USDT (BINANCE:WANUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.20%
+
+[2024-07-23 20:26:01] XTZ/USDT (BINANCE:XTZUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.55%
+
+[2024-07-23 20:26:01] REN/USDT (BINANCE:RENUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.42%
+
+[2024-07-23 20:26:01] RVN/USDT (BINANCE:RVNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.51%
+
+[2024-07-23 20:26:01] TUSD/USDT (BINANCE:TUSDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.11%
+
+[2024-07-23 20:26:01] NKN/USDT (BINANCE:NKNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.39%
+
+[2024-07-23 20:26:01] COS/USDT (BINANCE:COSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.00%
+
+[2024-07-23 20:26:02] KAVA/USDT (BINANCE:KAVAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.75%
+
+[2024-07-23 20:26:02] LTO/USDT (BINANCE:LTOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.41%
+
+[2024-07-23 20:26:02] BNT/USDT (BINANCE:BNTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.96%
+
+[2024-07-23 20:26:02] STPT/USDT (BINANCE:STPTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.78%
+
+[2024-07-23 20:26:02] HIVE/USDT (BINANCE:HIVEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.91%
+
+[2024-07-23 20:26:02] ARDR/USDT (BINANCE:ARDRUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.68%
+
+[2024-07-23 20:26:02] MBL/USDT (BINANCE:MBLUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.60%
+
+[2024-07-23 20:26:02] USDT/UAH (BINANCE:USDTUAH) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.05%
+
+[2024-07-23 20:26:02] COMP/USDT (BINANCE:COMPUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.29%
+
+[2024-07-23 20:26:02] SC/USDT (BINANCE:SCUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 1.72%
+
+[2024-07-23 20:26:03] SXP/USDT (BINANCE:SXPUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.47%
+
+[2024-07-23 20:26:03] YFI/USDT (BINANCE:YFIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.91%
+
+[2024-07-23 20:26:03] KMD/USDT (BINANCE:KMDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.27%
+
+[2024-07-23 20:26:03] USDT/DAI (BINANCE:USDTDAI) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.02%
+
+[2024-07-23 20:26:03] RSR/USDT (BINANCE:RSRUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.84%
+
+[2024-07-23 20:26:03] PAXG/USDT (BINANCE:PAXGUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.08%
+
+[2024-07-23 20:26:03] TRB/USDT (BINANCE:TRBUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.90%
+
+[2024-07-23 20:26:03] SUSHI/USDT (BINANCE:SUSHIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -2.09%
+
+[2024-07-23 20:26:03] BLZ/USDT (BINANCE:BLZUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.54%
+
+[2024-07-23 20:26:03] CRV/USDT (BINANCE:CRVUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 1.85%
+
+[2024-07-23 20:26:04] BEL/USDT (BINANCE:BELUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -3.56%
+
+[2024-07-23 20:26:04] ORN/USDT (BINANCE:ORNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.14%
+
+[2024-07-23 20:26:04] XVS/USDT (BINANCE:XVSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.42%
+
+[2024-07-23 20:26:04] AAVE/USDT (BINANCE:AAVEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.63%
+
+[2024-07-23 20:26:04] FIL/USDT (BINANCE:FILUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.29%
+
+[2024-07-23 20:26:04] UNI/USDT (BINANCE:UNIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.63%
+
+[2024-07-23 20:26:04] RUNE/USDT (BINANCE:RUNEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.37%
+
+[2024-07-23 20:26:04] FLM/USDT (BINANCE:FLMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.72%
+
+[2024-07-23 20:26:04] AKRO/USDT (BINANCE:AKROUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -3.35%
+
+[2024-07-23 20:26:04] UNFI/USDT (BINANCE:UNFIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.31%
+
+[2024-07-23 20:26:05] SKL/USDT (BINANCE:SKLUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -2.05%
+
+[2024-07-23 20:26:05] PSG/USDT (BINANCE:PSGUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.74%
+
+[2024-07-23 20:26:05] REEF/USDT (BINANCE:REEFUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.22%
+
+[2024-07-23 20:26:05] CELO/USDT (BINANCE:CELOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.85%
+
+[2024-07-23 20:26:05] FIS/USDT (BINANCE:FISUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -2.17%
+
+[2024-07-23 20:26:05] POND/USDT (BINANCE:PONDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.11%
+
+[2024-07-23 20:26:05] DEGO/USDT (BINANCE:DEGOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.06%
+
+[2024-07-23 20:26:05] ALICE/USDT (BINANCE:ALICEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.08%
+
+[2024-07-23 20:26:05] PERP/USDT (BINANCE:PERPUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.38%
+
+[2024-07-23 20:26:05] SUPER/USDT (BINANCE:SUPERUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.12%
+
+[2024-07-23 20:26:06] FORTH/USDT (BINANCE:FORTHUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.09%
+
+[2024-07-23 20:26:06] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.13%
+
+[2024-07-23 20:26:06] KLAY/USDT (BINANCE:KLAYUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.77%
+
+[2024-07-23 20:26:06] DEXE/USDT (BINANCE:DEXEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.29%
+
+[2024-07-23 20:26:06] MLN/USDT (BINANCE:MLNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.83%
+
+[2024-07-23 20:26:06] QNT/USDT (BINANCE:QNTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.54%
+
+[2024-07-23 20:26:06] FARM/USDT (BINANCE:FARMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.74%
+
+[2024-07-23 20:26:06] ALPACA/USDT (BINANCE:ALPACAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.58%
+
+[2024-07-23 20:26:06] FOR/USDT (BINANCE:FORUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.53%
+
+[2024-07-23 20:26:06] QUICK/USDT (BINANCE:QUICKUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.51%
+
+[2024-07-23 20:26:06] GHST/USDT (BINANCE:GHSTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.19%
+
+[2024-07-23 20:26:06] REQ/USDT (BINANCE:REQUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.18%
+
+[2024-07-23 20:26:07] VIDT/USDT (BINANCE:VIDTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.71%
+
+[2024-07-23 20:26:07] ILV/USDT (BINANCE:ILVUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.68%
+
+[2024-07-23 20:26:07] FIDA/USDT (BINANCE:FIDAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.93%
+
+[2024-07-23 20:26:07] DF/USDT (BINANCE:DFUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.65%
+
+[2024-07-23 20:26:07] SYS/USDT (BINANCE:SYSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.40%
+
+[2024-07-23 20:26:07] LAZIO/USDT (BINANCE:LAZIOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.46%
+
+[2024-07-23 20:26:07] CHESS/USDT (BINANCE:CHESSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -2.19%
+
+[2024-07-23 20:26:07] ADX/USDT (BINANCE:ADXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.65%
+
+[2024-07-23 20:26:07] AUCTION/USDT (BINANCE:AUCTIONUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 1.85%
+
+[2024-07-23 20:26:07] DAR/USDT (BINANCE:DARUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.59%
+
+[2024-07-23 20:26:07] MOVR/USDT (BINANCE:MOVRUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.75%
+
+[2024-07-23 20:26:07] KP3R/USDT (BINANCE:KP3RUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.64%
+
+[2024-07-23 20:26:07] PYR/USDT (BINANCE:PYRUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.30%
+
+[2024-07-23 20:26:08] ACH/USDT (BINANCE:ACHUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.77%
+
+[2024-07-23 20:26:08] IMX/USDT (BINANCE:IMXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.00%
+
+[2024-07-23 20:26:08] SCRT/USDT (BINANCE:SCRTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.41%
+
+[2024-07-23 20:26:08] BTTC/USDT (BINANCE:BTTCUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.14%
+
+[2024-07-23 20:26:08] ALPINE/USDT (BINANCE:ALPINEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.68%
+
+[2024-07-23 20:26:08] KDA/USDT (BINANCE:KDAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -2.10%
+
+[2024-07-23 20:26:08] APE/USDT (BINANCE:APEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.98%
+
+[2024-07-23 20:26:08] BIFI/USDT (BINANCE:BIFIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.88%
+
+[2024-07-23 20:26:08] STEEM/USDT (BINANCE:STEEMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.35%
+
+[2024-07-23 20:26:08] NEXO/USDT (BINANCE:NEXOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.82%
+
+[2024-07-23 20:26:08] EPX/USDT (BINANCE:EPXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.57%
+
+[2024-07-23 20:26:08] LDO/USDT (BINANCE:LDOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.67%
+
+[2024-07-23 20:26:08] OP/USDT (BINANCE:OPUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.59%
+
+[2024-07-23 20:26:08] APT/USDT (BINANCE:APTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.25%
+
+[2024-07-23 20:26:08] HFT/USDT (BINANCE:HFTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.14%
+
+[2024-07-23 20:26:09] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -2.24%
+
+[2024-07-23 20:26:09] RPL/USDT (BINANCE:RPLUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -2.11%
+
+[2024-07-23 20:26:09] GNS/USDT (BINANCE:GNSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.27%
+
+[2024-07-23 20:26:09] PROS/USDT (BINANCE:PROSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.24%
+
+[2024-07-23 20:26:09] SYN/USDT (BINANCE:SYNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.97%
+
+[2024-07-23 20:26:09] SSV/USDT (BINANCE:SSVUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 2.03%
+
+[2024-07-23 20:26:09] LQTY/USDT (BINANCE:LQTYUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.68%
+
+[2024-07-23 20:26:09] PROM/USDT (BINANCE:PROMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.64%
+
+[2024-07-23 20:26:09] QKC/USDT (BINANCE:QKCUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.91%
+
+[2024-07-23 20:26:09] UFT/USDT (BINANCE:UFTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.28%
+
+[2024-07-23 20:26:09] ID/USDT (BINANCE:IDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.71%
+
+[2024-07-23 20:26:09] OAX/USDT (BINANCE:OAXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.00%
+
+[2024-07-23 20:26:09] USDT/ARS (BINANCE:USDTARS) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.22%
+
+[2024-07-23 20:26:09] EDU/USDT (BINANCE:EDUUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.43%
+
+[2024-07-23 20:26:09] SUI/USDT (BINANCE:SUIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.17%
+
+[2024-07-23 20:26:09] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.41%
+
+[2024-07-23 20:26:09] ARKM/USDT (BINANCE:ARKMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -2.08%
+
+[2024-07-23 20:26:09] WBETH/USDT (BINANCE:WBETHUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 1.16%
+
+[2024-07-23 20:26:09] WLD/USDT (BINANCE:WLDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -2.91%
+
+[2024-07-23 20:26:10] GFT/USDT (BINANCE:GFTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.17%
+
+[2024-07-23 20:26:10] VIC/USDT (BINANCE:VICUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.10%
+
+[2024-07-23 20:26:10] PENDLE/USDT (BINANCE:PENDLEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 2.03%
+
+[2024-07-23 20:26:10] BLUR/USDT (BINANCE:BLURUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -2.40%
+
+[2024-07-23 20:26:10] AEUR/USDT (BINANCE:AEURUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.20%
+
+[2024-07-23 20:26:10] ALT/USDT (BINANCE:ALTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 3.29%
+
+[2024-07-23 20:26:10] MANTA/USDT (BINANCE:MANTAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -2.49%
+
+[2024-07-23 20:26:10] RONIN/USDT (BINANCE:RONINUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.85%
+
+[2024-07-23 20:26:10] STRK/USDT (BINANCE:STRKUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.69%
+
+[2024-07-23 20:26:10] AXL/USDT (BINANCE:AXLUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -3.25%
+
+[2024-07-23 20:26:10] ETHFI/USDT (BINANCE:ETHFIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.53%
+
+[2024-07-23 20:26:10] XAI/USDT (BINANCE:XAIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.57%
+
+[2024-07-23 20:26:11] SAGA/USDT (BINANCE:SAGAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.65%
+
+[2024-07-23 20:26:11] OMNI/USDT (BINANCE:OMNIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.79%
+
+[2024-07-23 20:26:11] IO/USDT (BINANCE:IOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -2.34%
+
+[2024-07-23 20:26:11] LISTA/USDT (BINANCE:LISTAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.63%
+
+[2024-07-23 20:26:11] ZK/USDT (BINANCE:ZKUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.84%
+
+[2024-07-23 20:29:27] XRP/USDT (BINANCE:XRPUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Three White Soldiers
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current candle evolution: -2.02%
+
+[2024-07-23 20:29:30] LINK/USDT (BINANCE:LINKUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.07%
+
+[2024-07-23 20:29:32] EOS/USDT (BINANCE:EOSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.02%
+
+[2024-07-23 20:29:32] ZRX/USDT (BINANCE:ZRXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.27%
+
+[2024-07-23 20:29:33] NULS/USDT (BINANCE:NULSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.15%
+
+[2024-07-23 20:29:33] MATIC/USDT (BINANCE:MATICUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.70%
+
+[2024-07-23 20:29:33] ATOM/USDT (BINANCE:ATOMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.70%
+
+[2024-07-23 20:29:34] COS/USDT (BINANCE:COSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.04%
+
+[2024-07-23 20:29:34] WAN/USDT (BINANCE:WANUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.05%
+
+[2024-07-23 20:29:34] REN/USDT (BINANCE:RENUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.70%
+
+[2024-07-23 20:29:35] RVN/USDT (BINANCE:RVNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.36%
+
+[2024-07-23 20:29:35] KAVA/USDT (BINANCE:KAVAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.65%
+
+[2024-07-23 20:29:35] CTXC/USDT (BINANCE:CTXCUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Falling Three Methods
+Detected on candle:
+  1. 2024-07-19 00:00:00
+Current candle evolution: -4.09%
+
+[2024-07-23 20:29:35] VITE/USDT (BINANCE:VITEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Falling Three Methods
+Detected on candle:
+  1. 2024-07-19 00:00:00
+Current candle evolution: -3.02%
+
+[2024-07-23 20:29:36] BNT/USDT (BINANCE:BNTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.49%
+
+[2024-07-23 20:29:36] MBL/USDT (BINANCE:MBLUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.45%
+
+[2024-07-23 20:29:37] ARDR/USDT (BINANCE:ARDRUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.65%
+
+[2024-07-23 20:29:37] USDT/UAH (BINANCE:USDTUAH) Timeframe: 1d, Number of candles: 5, Pattern detected: Hammer
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.09%
+
+[2024-07-23 20:29:38] USDT/DAI (BINANCE:USDTDAI) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.02%
+
+[2024-07-23 20:29:39] PAXG/USDT (BINANCE:PAXGUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.08%
+
+[2024-07-23 20:29:39] RUNE/USDT (BINANCE:RUNEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.43%
+
+[2024-07-23 20:29:39] UNI/USDT (BINANCE:UNIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.63%
+
+[2024-07-23 20:29:40] XVS/USDT (BINANCE:XVSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.28%
+
+[2024-07-23 20:29:40] AAVE/USDT (BINANCE:AAVEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.61%
+
+[2024-07-23 20:29:40] ORN/USDT (BINANCE:ORNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.27%
+
+[2024-07-23 20:29:42] POND/USDT (BINANCE:PONDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.33%
+
+[2024-07-23 20:29:42] DEGO/USDT (BINANCE:DEGOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.13%
+
+[2024-07-23 20:29:42] ALICE/USDT (BINANCE:ALICEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Falling Three Methods
+Detected on candle:
+  1. 2024-07-19 00:00:00
+Current candle evolution: -1.17%
+
+[2024-07-23 20:29:42] SUPER/USDT (BINANCE:SUPERUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.26%
+
+[2024-07-23 20:29:43] FORTH/USDT (BINANCE:FORTHUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Three Black Crows
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current candle evolution: 0.00%
+
+[2024-07-23 20:29:43] MLN/USDT (BINANCE:MLNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.41%
+
+[2024-07-23 20:29:44] DEXE/USDT (BINANCE:DEXEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.34%
+
+[2024-07-23 20:29:44] QUICK/USDT (BINANCE:QUICKUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.61%
+
+[2024-07-23 20:29:44] REQ/USDT (BINANCE:REQUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.36%
+
+[2024-07-23 20:29:44] GHST/USDT (BINANCE:GHSTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.38%
+
+[2024-07-23 20:29:44] QNT/USDT (BINANCE:QNTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.41%
+
+[2024-07-23 20:29:44] VIDT/USDT (BINANCE:VIDTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.61%
+
+[2024-07-23 20:29:45] DAR/USDT (BINANCE:DARUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.72%
+
+[2024-07-23 20:29:45] MOVR/USDT (BINANCE:MOVRUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.57%
+
+[2024-07-23 20:29:45] PYR/USDT (BINANCE:PYRUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -1.15%
+
+[2024-07-23 20:29:46] IMX/USDT (BINANCE:IMXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.06%
+
+[2024-07-23 20:29:47] STEEM/USDT (BINANCE:STEEMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.20%
+
+[2024-07-23 20:29:47] LDO/USDT (BINANCE:LDOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.17%
+
+[2024-07-23 20:29:47] EPX/USDT (BINANCE:EPXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.49%
+
+[2024-07-23 20:29:47] OP/USDT (BINANCE:OPUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.69%
+
+[2024-07-23 20:29:48] GNS/USDT (BINANCE:GNSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.24%
+
+[2024-07-23 20:29:48] PROM/USDT (BINANCE:PROMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.57%
+
+[2024-07-23 20:29:48] OAX/USDT (BINANCE:OAXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.24%
+
+[2024-07-23 20:29:49] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.31%
+
+[2024-07-23 20:29:49] EDU/USDT (BINANCE:EDUUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.63%
+
+[2024-07-23 20:29:49] VIC/USDT (BINANCE:VICUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.08%
+
+[2024-07-23 20:29:50] DYM/USDT (BINANCE:DYMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Falling Three Methods
+Detected on candle:
+  1. 2024-07-19 00:00:00
+Current candle evolution: -6.63%
+
+[2024-07-23 20:29:50] STRK/USDT (BINANCE:STRKUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.69%
+
+[2024-07-23 20:29:50] ETHFI/USDT (BINANCE:ETHFIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: 0.37%
+
+[2024-07-23 20:29:50] SAGA/USDT (BINANCE:SAGAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Falling Three Methods
+Detected on candle:
+  1. 2024-07-19 00:00:00
+Current candle evolution: -1.70%
+
+[2024-07-23 20:29:51] OMNI/USDT (BINANCE:OMNIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.71%
+
+[2024-07-23 20:29:51] ZK/USDT (BINANCE:ZKUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.89%
+
+[2024-07-23 20:29:51] LISTA/USDT (BINANCE:LISTAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current candle evolution: -0.62%
+
+[2024-07-23 20:31:54] LINK/USDT (BINANCE:LINKUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 13.9100, Current candle evolution: -0.14%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:31:58] ZIL/USDT (BINANCE:ZILUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0170, Current candle evolution: -1.90%
+
+
+[2024-07-23 20:31:58] BNB/USDT (BINANCE:BNBUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 581.5000, Current candle evolution: -0.99%
+
+
+[2024-07-23 20:31:58] ONT/USDT (BINANCE:ONTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2017, Current candle evolution: -2.42%
+
+
+[2024-07-23 20:31:58] ZRX/USDT (BINANCE:ZRXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.3753, Current candle evolution: 0.40%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:31:59] NULS/USDT (BINANCE:NULSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.3308, Current candle evolution: 0.09%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:31:59] EOS/USDT (BINANCE:EOSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.5822, Current candle evolution: -0.07%
+
+
+[2024-07-23 20:31:59] MATIC/USDT (BINANCE:MATICUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.5333, Current candle evolution: 0.53%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:31:59] ATOM/USDT (BINANCE:ATOMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 6.2120, Current candle evolution: -0.89%
+
+
+[2024-07-23 20:31:59] DASH/USDT (BINANCE:DASHUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 26.6400, Current candle evolution: -0.56%
+
+
+[2024-07-23 20:31:59] ALGO/USDT (BINANCE:ALGOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1438, Current candle evolution: -4.83%
+
+
+[2024-07-23 20:31:59] DOGE/USDT (BINANCE:DOGEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1305, Current candle evolution: -5.29%
+
+
+[2024-07-23 20:32:00] WIN/USDT (BINANCE:WINUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0001, Current candle evolution: -3.37%
+
+
+[2024-07-23 20:32:00] FTM/USDT (BINANCE:FTMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.4903, Current candle evolution: -3.69%
+
+
+[2024-07-23 20:32:00] DENT/USDT (BINANCE:DENTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0009, Current candle evolution: -4.26%
+
+
+[2024-07-23 20:32:00] COS/USDT (BINANCE:COSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0082, Current candle evolution: 0.11%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:00] REN/USDT (BINANCE:RENUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0495, Current candle evolution: -0.74%
+
+
+[2024-07-23 20:32:00] RVN/USDT (BINANCE:RVNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0194, Current candle evolution: -0.46%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:00] KEY/USDT (BINANCE:KEYUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0052, Current candle evolution: -4.29%
+
+
+[2024-07-23 20:32:00] HBAR/USDT (BINANCE:HBARUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0686, Current candle evolution: -3.11%
+
+
+[2024-07-23 20:32:01] XTZ/USDT (BINANCE:XTZUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.7610, Current candle evolution: -1.42%
+
+
+[2024-07-23 20:32:01] WAN/USDT (BINANCE:WANUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1963, Current candle evolution: -0.05%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:01] VITE/USDT (BINANCE:VITEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0144, Current candle evolution: -3.02%
+
+
+[2024-07-23 20:32:01] EUR/USDT (BINANCE:EURUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.0857, Current candle evolution: -0.24%
+
+
+[2024-07-23 20:32:01] OGN/USDT (BINANCE:OGNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0964, Current candle evolution: -2.33%
+
+
+[2024-07-23 20:32:01] CTXC/USDT (BINANCE:CTXCUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1476, Current candle evolution: -4.09%
+
+
+[2024-07-23 20:32:02] MBL/USDT (BINANCE:MBLUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0027, Current candle evolution: -0.56%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:02] STPT/USDT (BINANCE:STPTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0455, Current candle evolution: -0.76%
+
+
+[2024-07-23 20:32:02] DATA/USDT (BINANCE:DATAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0361, Current candle evolution: -1.82%
+
+
+[2024-07-23 20:32:02] USDT/IDRT (BINANCE:USDTIDRT) Timeframe: 1d, Number of candles: 5, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 16248.0000, Current candle evolution: -0.19%
+
+
+[2024-07-23 20:32:02] CTSI/USDT (BINANCE:CTSIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1565, Current candle evolution: -2.43%
+
+
+[2024-07-23 20:32:03] STMX/USDT (BINANCE:STMXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bullish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0068, Current candle evolution: 21.91%
+
+
+[2024-07-23 20:32:03] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.5301, Current candle evolution: -2.30%
+
+
+[2024-07-23 20:32:03] COMP/USDT (BINANCE:COMPUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 49.9300, Current candle evolution: -1.15%
+
+
+[2024-07-23 20:32:03] ARDR/USDT (BINANCE:ARDRUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0712, Current candle evolution: 0.55%
+Pattern confirmation: Current candle confirms the Hanging Man pattern.
+
+[2024-07-23 20:32:03] ZEN/USDT (BINANCE:ZENUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 11.4400, Current candle evolution: -3.13%
+
+
+[2024-07-23 20:32:04] STORJ/USDT (BINANCE:STORJUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.3919, Current candle evolution: -2.17%
+
+
+[2024-07-23 20:32:04] BLZ/USDT (BINANCE:BLZUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1730, Current candle evolution: -1.54%
+
+
+[2024-07-23 20:32:04] KMD/USDT (BINANCE:KMDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2796, Current candle evolution: -1.31%
+
+
+[2024-07-23 20:32:04] USDT/DAI (BINANCE:USDTDAI) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.0003, Current candle evolution: -0.02%
+Pattern confirmation: Current candle confirms the Hanging Man pattern.
+
+[2024-07-23 20:32:05] NMR/USDT (BINANCE:NMRUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 14.2500, Current candle evolution: -3.32%
+
+
+[2024-07-23 20:32:05] LUNA/USDT (BINANCE:LUNAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.4174, Current candle evolution: -2.95%
+
+
+[2024-07-23 20:32:05] RSR/USDT (BINANCE:RSRUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0054, Current candle evolution: -2.05%
+
+
+[2024-07-23 20:32:05] TRB/USDT (BINANCE:TRBUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 74.1600, Current candle evolution: 0.79%
+Pattern confirmation: Current candle confirms the Hanging Man pattern.
+
+[2024-07-23 20:32:05] RUNE/USDT (BINANCE:RUNEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 4.6480, Current candle evolution: 0.28%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:05] UMA/USDT (BINANCE:UMAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 2.3120, Current candle evolution: -2.32%
+
+
+[2024-07-23 20:32:05] UNI/USDT (BINANCE:UNIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 7.7580, Current candle evolution: -0.72%
+
+
+[2024-07-23 20:32:06] OXT/USDT (BINANCE:OXTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0795, Current candle evolution: -4.33%
+
+
+[2024-07-23 20:32:06] SUN/USDT (BINANCE:SUNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0105, Current candle evolution: -0.76%
+
+
+[2024-07-23 20:32:06] WING/USDT (BINANCE:WINGUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 4.9400, Current candle evolution: -3.33%
+
+
+[2024-07-23 20:32:06] ORN/USDT (BINANCE:ORNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.4640, Current candle evolution: -0.34%
+
+
+[2024-07-23 20:32:06] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0508, Current candle evolution: -3.75%
+
+
+[2024-07-23 20:32:06] XVS/USDT (BINANCE:XVSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 7.1200, Current candle evolution: -0.42%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:06] AAVE/USDT (BINANCE:AAVEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 94.5900, Current candle evolution: 0.46%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:06] INJ/USDT (BINANCE:INJUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 24.0500, Current candle evolution: -6.78%
+
+
+[2024-07-23 20:32:07] STRAX/USDT (BINANCE:STRAXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0525, Current candle evolution: -5.58%
+
+
+[2024-07-23 20:32:07] AVA/USDT (BINANCE:AVAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.6156, Current candle evolution: -2.15%
+
+
+[2024-07-23 20:32:07] GRT/USDT (BINANCE:GRTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1991, Current candle evolution: -3.63%
+
+
+[2024-07-23 20:32:07] PSG/USDT (BINANCE:PSGUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 2.7090, Current candle evolution: -1.63%
+
+
+[2024-07-23 20:32:07] 1INCH/USDT (BINANCE:1INCHUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.4054, Current candle evolution: -2.92%
+
+
+[2024-07-23 20:32:07] REEF/USDT (BINANCE:REEFUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0015, Current candle evolution: -1.29%
+
+
+[2024-07-23 20:32:07] ATM/USDT (BINANCE:ATMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 2.1520, Current candle evolution: -1.78%
+
+
+[2024-07-23 20:32:08] TWT/USDT (BINANCE:TWTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.0028, Current candle evolution: -2.13%
+
+
+[2024-07-23 20:32:08] LIT/USDT (BINANCE:LITUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.7090, Current candle evolution: -4.32%
+
+
+[2024-07-23 20:32:08] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.9840, Current candle evolution: -2.17%
+
+
+[2024-07-23 20:32:08] RIF/USDT (BINANCE:RIFUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0836, Current candle evolution: -3.46%
+
+
+[2024-07-23 20:32:08] FIS/USDT (BINANCE:FISUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.3651, Current candle evolution: -2.22%
+
+
+[2024-07-23 20:32:08] DEGO/USDT (BINANCE:DEGOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.5700, Current candle evolution: -0.13%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:08] POND/USDT (BINANCE:PONDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0183, Current candle evolution: 0.16%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:08] ALICE/USDT (BINANCE:ALICEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.1870, Current candle evolution: -1.17%
+
+
+[2024-07-23 20:32:08] SUPER/USDT (BINANCE:SUPERUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.6645, Current candle evolution: 0.18%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:08] CFX/USDT (BINANCE:CFXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1579, Current candle evolution: -5.28%
+
+
+[2024-07-23 20:32:08] TKO/USDT (BINANCE:TKOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.3035, Current candle evolution: -2.00%
+
+
+[2024-07-23 20:32:09] PERP/USDT (BINANCE:PERPUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.6567, Current candle evolution: -1.47%
+
+
+[2024-07-23 20:32:09] FORTH/USDT (BINANCE:FORTHUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 3.3440, Current candle evolution: -0.15%
+
+
+[2024-07-23 20:32:09] BAKE/USDT (BINANCE:BAKEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2592, Current candle evolution: -4.88%
+
+
+[2024-07-23 20:32:09] LPT/USDT (BINANCE:LPTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 15.2600, Current candle evolution: -4.01%
+
+
+[2024-07-23 20:32:09] ERN/USDT (BINANCE:ERNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 2.2730, Current candle evolution: -3.81%
+
+
+[2024-07-23 20:32:09] MLN/USDT (BINANCE:MLNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 19.2000, Current candle evolution: -0.41%
+
+
+[2024-07-23 20:32:09] DEXE/USDT (BINANCE:DEXEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 9.8450, Current candle evolution: 0.36%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:10] CLV/USDT (BINANCE:CLVUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0495, Current candle evolution: -4.79%
+
+
+[2024-07-23 20:32:10] QNT/USDT (BINANCE:QNTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 73.1000, Current candle evolution: -0.68%
+
+
+[2024-07-23 20:32:10] FARM/USDT (BINANCE:FARMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 46.9000, Current candle evolution: -1.74%
+
+
+[2024-07-23 20:32:10] ALPACA/USDT (BINANCE:ALPACAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1243, Current candle evolution: -1.58%
+
+
+[2024-07-23 20:32:10] QUICK/USDT (BINANCE:QUICKUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0409, Current candle evolution: -0.58%
+
+
+[2024-07-23 20:32:10] MBOX/USDT (BINANCE:MBOXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2359, Current candle evolution: -3.83%
+
+
+[2024-07-23 20:32:10] REQ/USDT (BINANCE:REQUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1104, Current candle evolution: -0.18%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:10] GHST/USDT (BINANCE:GHSTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.0600, Current candle evolution: 0.28%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:10] WAXP/USDT (BINANCE:WAXPUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0395, Current candle evolution: -2.90%
+
+
+[2024-07-23 20:32:10] IDEX/USDT (BINANCE:IDEXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0410, Current candle evolution: -2.84%
+
+
+[2024-07-23 20:32:10] VIDT/USDT (BINANCE:VIDTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0211, Current candle evolution: -0.52%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:10] ILV/USDT (BINANCE:ILVUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 69.4000, Current candle evolution: -1.84%
+
+
+[2024-07-23 20:32:10] SYS/USDT (BINANCE:SYSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1056, Current candle evolution: -1.58%
+
+
+[2024-07-23 20:32:11] FRONT/USDT (BINANCE:FRONTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.8810, Current candle evolution: -2.11%
+
+
+[2024-07-23 20:32:11] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.9370, Current candle evolution: -2.80%
+
+
+[2024-07-23 20:32:11] DAR/USDT (BINANCE:DARUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1933, Current candle evolution: -0.99%
+Pattern confirmation: Current candle confirms the Hanging Man pattern.
+
+[2024-07-23 20:32:11] BNX/USDT (BINANCE:BNXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.4699, Current candle evolution: -11.46%
+
+
+[2024-07-23 20:32:11] MOVR/USDT (BINANCE:MOVRUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 11.2160, Current candle evolution: -0.69%
+
+
+[2024-07-23 20:32:11] ENS/USDT (BINANCE:ENSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bullish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 29.4300, Current candle evolution: 14.73%
+
+
+[2024-07-23 20:32:11] QI/USDT (BINANCE:QIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0159, Current candle evolution: -3.46%
+
+
+[2024-07-23 20:32:11] KP3R/USDT (BINANCE:KP3RUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 55.8700, Current candle evolution: -1.67%
+
+
+[2024-07-23 20:32:11] POWR/USDT (BINANCE:POWRUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2158, Current candle evolution: -3.27%
+
+
+[2024-07-23 20:32:11] VGX/USDT (BINANCE:VGXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0723, Current candle evolution: -2.43%
+
+
+[2024-07-23 20:32:11] AMP/USDT (BINANCE:AMPUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0044, Current candle evolution: -1.84%
+
+
+[2024-07-23 20:32:11] BICO/USDT (BINANCE:BICOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.3129, Current candle evolution: -3.55%
+
+
+[2024-07-23 20:32:12] PEOPLE/USDT (BINANCE:PEOPLEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0769, Current candle evolution: -3.98%
+
+
+[2024-07-23 20:32:12] IMX/USDT (BINANCE:IMXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.5460, Current candle evolution: -0.26%
+
+
+[2024-07-23 20:32:12] ACH/USDT (BINANCE:ACHUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0238, Current candle evolution: -1.90%
+
+
+[2024-07-23 20:32:12] SCRT/USDT (BINANCE:SCRTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2725, Current candle evolution: -1.52%
+
+
+[2024-07-23 20:32:12] GLMR/USDT (BINANCE:GLMRUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2048, Current candle evolution: -2.52%
+
+
+[2024-07-23 20:32:13] REI/USDT (BINANCE:REIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0509, Current candle evolution: -3.12%
+
+
+[2024-07-23 20:32:13] LDO/USDT (BINANCE:LDOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.7770, Current candle evolution: -0.45%
+
+
+[2024-07-23 20:32:13] EPX/USDT (BINANCE:EPXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0001, Current candle evolution: -0.57%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:13] OP/USDT (BINANCE:OPUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.8800, Current candle evolution: 0.32%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:13] LUNC/USDT (BINANCE:LUNCUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0001, Current candle evolution: -3.53%
+
+
+[2024-07-23 20:32:13] GMX/USDT (BINANCE:GMXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 31.6000, Current candle evolution: -4.68%
+
+
+[2024-07-23 20:32:13] POLYX/USDT (BINANCE:POLYXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2648, Current candle evolution: -4.06%
+
+
+[2024-07-23 20:32:13] STEEM/USDT (BINANCE:STEEMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1986, Current candle evolution: -0.45%
+
+
+[2024-07-23 20:32:13] PHB/USDT (BINANCE:PHBUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.6920, Current candle evolution: -3.75%
+
+
+[2024-07-23 20:32:13] HIFI/USDT (BINANCE:HIFIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.4799, Current candle evolution: -2.62%
+
+
+[2024-07-23 20:32:13] GNS/USDT (BINANCE:GNSUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 3.3910, Current candle evolution: 0.12%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:14] VIB/USDT (BINANCE:VIBUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0718, Current candle evolution: -2.22%
+
+
+[2024-07-23 20:32:14] LQTY/USDT (BINANCE:LQTYUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.8180, Current candle evolution: -1.68%
+
+
+[2024-07-23 20:32:14] OSMO/USDT (BINANCE:OSMOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.5062, Current candle evolution: -2.15%
+
+
+[2024-07-23 20:32:14] PROM/USDT (BINANCE:PROMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 6.9790, Current candle evolution: -0.74%
+
+
+[2024-07-23 20:32:14] UFT/USDT (BINANCE:UFTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2624, Current candle evolution: -1.20%
+
+
+[2024-07-23 20:32:14] OAX/USDT (BINANCE:OAXUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1677, Current candle evolution: 0.12%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:14] USDT/RON (BINANCE:USDTRON) Timeframe: 1d, Number of candles: 5, Pattern detected: Bullish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 4.5870, Current candle evolution: 0.66%
+
+
+[2024-07-23 20:32:14] WBTC/USDT (BINANCE:WBTCUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 65703.2200, Current candle evolution: -2.64%
+
+
+[2024-07-23 20:32:14] EDU/USDT (BINANCE:EDUUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.7055, Current candle evolution: 0.71%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:14] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0974, Current candle evolution: -0.31%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:14] AST/USDT (BINANCE:ASTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0887, Current candle evolution: -2.74%
+
+
+[2024-07-23 20:32:15] ARKM/USDT (BINANCE:ARKMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.4610, Current candle evolution: -2.08%
+
+
+[2024-07-23 20:32:15] GFT/USDT (BINANCE:GFTUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0195, Current candle evolution: -1.06%
+
+
+[2024-07-23 20:32:15] CREAM/USDT (BINANCE:CREAMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 37.4900, Current candle evolution: -2.29%
+
+
+[2024-07-23 20:32:15] IQ/USDT (BINANCE:IQUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0063, Current candle evolution: -3.48%
+
+
+[2024-07-23 20:32:15] NTRN/USDT (BINANCE:NTRNUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.4761, Current candle evolution: -5.05%
+
+
+[2024-07-23 20:32:15] VIC/USDT (BINANCE:VICUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.3829, Current candle evolution: -0.21%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:16] AI/USDT (BINANCE:AIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.5590, Current candle evolution: -4.12%
+
+
+[2024-07-23 20:32:16] NFP/USDT (BINANCE:NFPUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2852, Current candle evolution: -2.86%
+
+
+[2024-07-23 20:32:16] JUP/USDT (BINANCE:JUPUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.9502, Current candle evolution: -5.75%
+
+
+[2024-07-23 20:32:16] PYTH/USDT (BINANCE:PYTHUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.3348, Current candle evolution: -4.23%
+
+
+[2024-07-23 20:32:16] RONIN/USDT (BINANCE:RONINUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 2.2290, Current candle evolution: -0.67%
+
+
+[2024-07-23 20:32:16] DYM/USDT (BINANCE:DYMUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.7030, Current candle evolution: -6.74%
+
+
+[2024-07-23 20:32:16] STRK/USDT (BINANCE:STRKUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.5810, Current candle evolution: 0.69%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:16] ACE/USDT (BINANCE:ACEUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 2.9260, Current candle evolution: -6.64%
+
+
+[2024-07-23 20:32:16] ETHFI/USDT (BINANCE:ETHFIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 2.4570, Current candle evolution: 0.24%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:16] SAGA/USDT (BINANCE:SAGAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Falling Three Methods
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.5073, Current candle evolution: -1.86%
+Pattern confirmation: Current candle confirms the pattern.
+
+[2024-07-23 20:32:16] TAO/USDT (BINANCE:TAOUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 308.1000, Current candle evolution: -5.29%
+
+
+[2024-07-23 20:32:16] OMNI/USDT (BINANCE:OMNIUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 12.5300, Current candle evolution: -0.71%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:32:17] LISTA/USDT (BINANCE:LISTAUSDT) Timeframe: 1d, Number of candles: 5, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.5488, Current candle evolution: -0.65%
+
+
+[2024-07-23 20:32:17] BANANA/USDT (BINANCE:BANANAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 59.3300, Current candle evolution: -3.90%
+
+
+[2024-07-23 20:33:25] LINK/USDT (BINANCE:LINKUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 13.9100, Current candle evolution: -0.14%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:26] BNB/USDT (BINANCE:BNBUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 581.8000, Current candle evolution: -0.92%
+
+
+[2024-07-23 20:33:28] ONT/USDT (BINANCE:ONTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2017, Current candle evolution: -2.42%
+
+
+[2024-07-23 20:33:28] NULS/USDT (BINANCE:NULSUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.3301, Current candle evolution: -0.12%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:28] ZRX/USDT (BINANCE:ZRXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.3754, Current candle evolution: 0.43%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:29] ZIL/USDT (BINANCE:ZILUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0171, Current candle evolution: -1.78%
+
+
+[2024-07-23 20:33:30] DASH/USDT (BINANCE:DASHUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 26.6400, Current candle evolution: -0.56%
+
+
+[2024-07-23 20:33:30] ATOM/USDT (BINANCE:ATOMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 6.2180, Current candle evolution: -0.80%
+
+
+[2024-07-23 20:33:30] MATIC/USDT (BINANCE:MATICUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.5334, Current candle evolution: 0.55%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:31] WIN/USDT (BINANCE:WINUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0001, Current candle evolution: -3.26%
+
+
+[2024-07-23 20:33:31] EOS/USDT (BINANCE:EOSUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.5823, Current candle evolution: -0.05%
+
+
+[2024-07-23 20:33:31] ALGO/USDT (BINANCE:ALGOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1439, Current candle evolution: -4.77%
+
+
+[2024-07-23 20:33:31] DOGE/USDT (BINANCE:DOGEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1306, Current candle evolution: -5.17%
+
+
+[2024-07-23 20:33:31] DENT/USDT (BINANCE:DENTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0009, Current candle evolution: -4.16%
+
+
+[2024-07-23 20:33:31] KEY/USDT (BINANCE:KEYUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0052, Current candle evolution: -4.18%
+
+
+[2024-07-23 20:33:31] WAN/USDT (BINANCE:WANUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1961, Current candle evolution: -0.15%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:31] FTM/USDT (BINANCE:FTMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.4909, Current candle evolution: -3.57%
+
+
+[2024-07-23 20:33:31] COS/USDT (BINANCE:COSUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0082, Current candle evolution: 0.13%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:31] XTZ/USDT (BINANCE:XTZUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.7610, Current candle evolution: -1.42%
+
+
+[2024-07-23 20:33:31] RVN/USDT (BINANCE:RVNUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0194, Current candle evolution: -0.41%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:32] CTXC/USDT (BINANCE:CTXCUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1474, Current candle evolution: -4.22%
+
+
+[2024-07-23 20:33:32] VITE/USDT (BINANCE:VITEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0144, Current candle evolution: -3.02%
+
+
+[2024-07-23 20:33:32] HBAR/USDT (BINANCE:HBARUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0687, Current candle evolution: -2.97%
+
+
+[2024-07-23 20:33:32] OGN/USDT (BINANCE:OGNUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0964, Current candle evolution: -2.33%
+
+
+[2024-07-23 20:33:32] MBL/USDT (BINANCE:MBLUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0027, Current candle evolution: -0.45%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:32] STPT/USDT (BINANCE:STPTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0455, Current candle evolution: -0.83%
+
+
+[2024-07-23 20:33:32] DATA/USDT (BINANCE:DATAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0362, Current candle evolution: -1.77%
+
+
+[2024-07-23 20:33:33] USDT/IDRT (BINANCE:USDTIDRT) Timeframe: 1d, Number of candles: 4, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 16248.0000, Current candle evolution: -0.19%
+
+
+[2024-07-23 20:33:33] CTSI/USDT (BINANCE:CTSIUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1566, Current candle evolution: -2.37%
+
+
+[2024-07-23 20:33:33] ARDR/USDT (BINANCE:ARDRUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0712, Current candle evolution: 0.47%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:33] REN/USDT (BINANCE:RENUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0496, Current candle evolution: -0.66%
+
+
+[2024-07-23 20:33:33] EUR/USDT (BINANCE:EURUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.0857, Current candle evolution: -0.24%
+
+
+[2024-07-23 20:33:33] COMP/USDT (BINANCE:COMPUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 49.9200, Current candle evolution: -1.17%
+
+
+[2024-07-23 20:33:33] ZEN/USDT (BINANCE:ZENUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 11.4400, Current candle evolution: -3.13%
+
+
+[2024-07-23 20:33:33] STMX/USDT (BINANCE:STMXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bullish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0068, Current candle evolution: 22.30%
+
+
+[2024-07-23 20:33:33] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.5303, Current candle evolution: -2.27%
+
+
+[2024-07-23 20:33:33] STORJ/USDT (BINANCE:STORJUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.3919, Current candle evolution: -2.17%
+
+
+[2024-07-23 20:33:34] BLZ/USDT (BINANCE:BLZUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1732, Current candle evolution: -1.42%
+
+
+[2024-07-23 20:33:34] KMD/USDT (BINANCE:KMDUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2794, Current candle evolution: -1.38%
+
+
+[2024-07-23 20:33:34] LUNA/USDT (BINANCE:LUNAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.4174, Current candle evolution: -2.95%
+
+
+[2024-07-23 20:33:34] USDT/DAI (BINANCE:USDTDAI) Timeframe: 1d, Number of candles: 4, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.0003, Current candle evolution: -0.02%
+Pattern confirmation: Current candle confirms the Hanging Man pattern.
+
+[2024-07-23 20:33:34] RUNE/USDT (BINANCE:RUNEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 4.6570, Current candle evolution: 0.47%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:34] UMA/USDT (BINANCE:UMAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 2.3170, Current candle evolution: -2.11%
+
+
+[2024-07-23 20:33:34] NMR/USDT (BINANCE:NMRUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 14.2700, Current candle evolution: -3.19%
+
+
+[2024-07-23 20:33:34] RSR/USDT (BINANCE:RSRUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0054, Current candle evolution: -2.09%
+
+
+[2024-07-23 20:33:34] TRB/USDT (BINANCE:TRBUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 74.2400, Current candle evolution: 0.90%
+Pattern confirmation: Current candle confirms the Hanging Man pattern.
+
+[2024-07-23 20:33:34] WING/USDT (BINANCE:WINGUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 4.9400, Current candle evolution: -3.33%
+
+
+[2024-07-23 20:33:35] OXT/USDT (BINANCE:OXTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0795, Current candle evolution: -4.33%
+
+
+[2024-07-23 20:33:35] SUN/USDT (BINANCE:SUNUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0105, Current candle evolution: -0.76%
+
+
+[2024-07-23 20:33:35] AAVE/USDT (BINANCE:AAVEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 94.5800, Current candle evolution: 0.45%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:35] UNI/USDT (BINANCE:UNIUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 7.7640, Current candle evolution: -0.64%
+
+
+[2024-07-23 20:33:35] ORN/USDT (BINANCE:ORNUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.4640, Current candle evolution: -0.34%
+
+
+[2024-07-23 20:33:35] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0508, Current candle evolution: -3.75%
+
+
+[2024-07-23 20:33:35] XVS/USDT (BINANCE:XVSUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 7.1200, Current candle evolution: -0.42%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:35] UNFI/USDT (BINANCE:UNFIUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 3.8540, Current candle evolution: -0.87%
+Pattern confirmation: Current candle confirms the Hanging Man pattern.
+
+[2024-07-23 20:33:35] AVA/USDT (BINANCE:AVAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.6151, Current candle evolution: -2.23%
+
+
+[2024-07-23 20:33:36] INJ/USDT (BINANCE:INJUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 24.0700, Current candle evolution: -6.71%
+
+
+[2024-07-23 20:33:36] 1INCH/USDT (BINANCE:1INCHUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.4060, Current candle evolution: -2.78%
+
+
+[2024-07-23 20:33:36] REEF/USDT (BINANCE:REEFUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0015, Current candle evolution: -1.15%
+
+
+[2024-07-23 20:33:36] ATM/USDT (BINANCE:ATMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 2.1520, Current candle evolution: -1.78%
+
+
+[2024-07-23 20:33:36] GRT/USDT (BINANCE:GRTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1992, Current candle evolution: -3.58%
+
+
+[2024-07-23 20:33:36] STRAX/USDT (BINANCE:STRAXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0525, Current candle evolution: -5.58%
+
+
+[2024-07-23 20:33:36] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.9840, Current candle evolution: -2.17%
+
+
+[2024-07-23 20:33:36] PSG/USDT (BINANCE:PSGUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 2.7090, Current candle evolution: -1.63%
+
+
+[2024-07-23 20:33:36] FIS/USDT (BINANCE:FISUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.3650, Current candle evolution: -2.25%
+
+
+[2024-07-23 20:33:36] POND/USDT (BINANCE:PONDUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0183, Current candle evolution: 0.16%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:36] RIF/USDT (BINANCE:RIFUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0836, Current candle evolution: -3.46%
+
+
+[2024-07-23 20:33:37] DEGO/USDT (BINANCE:DEGOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.5700, Current candle evolution: -0.13%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:37] LIT/USDT (BINANCE:LITUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.7100, Current candle evolution: -4.18%
+
+
+[2024-07-23 20:33:37] PERP/USDT (BINANCE:PERPUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.6572, Current candle evolution: -1.40%
+
+
+[2024-07-23 20:33:37] CFX/USDT (BINANCE:CFXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1581, Current candle evolution: -5.16%
+
+
+[2024-07-23 20:33:37] TKO/USDT (BINANCE:TKOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.3035, Current candle evolution: -2.00%
+
+
+[2024-07-23 20:33:37] TWT/USDT (BINANCE:TWTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.0045, Current candle evolution: -1.96%
+
+
+[2024-07-23 20:33:37] ALICE/USDT (BINANCE:ALICEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.1870, Current candle evolution: -1.17%
+
+
+[2024-07-23 20:33:37] SUPER/USDT (BINANCE:SUPERUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.6654, Current candle evolution: 0.32%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:37] FORTH/USDT (BINANCE:FORTHUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 3.3430, Current candle evolution: -0.18%
+
+
+[2024-07-23 20:33:37] BAKE/USDT (BINANCE:BAKEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2593, Current candle evolution: -4.84%
+
+
+[2024-07-23 20:33:38] MLN/USDT (BINANCE:MLNUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 19.1800, Current candle evolution: -0.52%
+
+
+[2024-07-23 20:33:38] DEXE/USDT (BINANCE:DEXEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 9.8450, Current candle evolution: 0.36%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:38] LPT/USDT (BINANCE:LPTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 15.2730, Current candle evolution: -3.93%
+
+
+[2024-07-23 20:33:38] CLV/USDT (BINANCE:CLVUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0495, Current candle evolution: -4.79%
+
+
+[2024-07-23 20:33:38] QUICK/USDT (BINANCE:QUICKUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0409, Current candle evolution: -0.61%
+
+
+[2024-07-23 20:33:38] MBOX/USDT (BINANCE:MBOXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2356, Current candle evolution: -3.95%
+
+
+[2024-07-23 20:33:38] ERN/USDT (BINANCE:ERNUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 2.2720, Current candle evolution: -3.85%
+
+
+[2024-07-23 20:33:38] REQ/USDT (BINANCE:REQUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1104, Current candle evolution: -0.18%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:38] GHST/USDT (BINANCE:GHSTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.0600, Current candle evolution: 0.28%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:38] QNT/USDT (BINANCE:QNTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 73.1000, Current candle evolution: -0.68%
+
+
+[2024-07-23 20:33:38] WAXP/USDT (BINANCE:WAXPUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0396, Current candle evolution: -2.80%
+
+
+[2024-07-23 20:33:39] FARM/USDT (BINANCE:FARMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 46.8900, Current candle evolution: -1.76%
+
+
+[2024-07-23 20:33:39] ALPACA/USDT (BINANCE:ALPACAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1243, Current candle evolution: -1.58%
+
+
+[2024-07-23 20:33:39] IDEX/USDT (BINANCE:IDEXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0410, Current candle evolution: -2.84%
+
+
+[2024-07-23 20:33:39] ILV/USDT (BINANCE:ILVUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 69.4500, Current candle evolution: -1.77%
+
+
+[2024-07-23 20:33:39] SYS/USDT (BINANCE:SYSUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1056, Current candle evolution: -1.58%
+
+
+[2024-07-23 20:33:39] FRONT/USDT (BINANCE:FRONTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.8810, Current candle evolution: -2.11%
+
+
+[2024-07-23 20:33:39] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.9380, Current candle evolution: -2.70%
+
+
+[2024-07-23 20:33:39] BNX/USDT (BINANCE:BNXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.4712, Current candle evolution: -11.38%
+
+
+[2024-07-23 20:33:39] ENS/USDT (BINANCE:ENSUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bullish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 29.3800, Current candle evolution: 14.50%
+
+
+[2024-07-23 20:33:39] KP3R/USDT (BINANCE:KP3RUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 55.9100, Current candle evolution: -1.60%
+
+
+[2024-07-23 20:33:39] QI/USDT (BINANCE:QIUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0159, Current candle evolution: -3.52%
+
+
+[2024-07-23 20:33:39] VGX/USDT (BINANCE:VGXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0722, Current candle evolution: -2.56%
+
+
+[2024-07-23 20:33:39] POWR/USDT (BINANCE:POWRUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2160, Current candle evolution: -3.18%
+
+
+[2024-07-23 20:33:40] PYR/USDT (BINANCE:PYRUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Hanging Man
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 3.3540, Current candle evolution: -1.15%
+Pattern confirmation: Current candle confirms the Hanging Man pattern.
+
+[2024-07-23 20:33:40] AMP/USDT (BINANCE:AMPUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0044, Current candle evolution: -1.91%
+
+
+[2024-07-23 20:33:40] MOVR/USDT (BINANCE:MOVRUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 11.1760, Current candle evolution: -1.04%
+
+
+[2024-07-23 20:33:40] BICO/USDT (BINANCE:BICOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.3132, Current candle evolution: -3.45%
+
+
+[2024-07-23 20:33:40] ACH/USDT (BINANCE:ACHUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0238, Current candle evolution: -1.90%
+
+
+[2024-07-23 20:33:40] IMX/USDT (BINANCE:IMXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.5460, Current candle evolution: -0.19%
+
+
+[2024-07-23 20:33:40] GLMR/USDT (BINANCE:GLMRUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2049, Current candle evolution: -2.48%
+
+
+[2024-07-23 20:33:41] SCRT/USDT (BINANCE:SCRTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2728, Current candle evolution: -1.41%
+
+
+[2024-07-23 20:33:41] STEEM/USDT (BINANCE:STEEMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1988, Current candle evolution: -0.35%
+
+
+[2024-07-23 20:33:41] REI/USDT (BINANCE:REIUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0509, Current candle evolution: -3.12%
+
+
+[2024-07-23 20:33:41] EPX/USDT (BINANCE:EPXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0001, Current candle evolution: -0.65%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:41] LDO/USDT (BINANCE:LDOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.7800, Current candle evolution: -0.28%
+
+
+[2024-07-23 20:33:41] OP/USDT (BINANCE:OPUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.8800, Current candle evolution: 0.32%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:41] PEOPLE/USDT (BINANCE:PEOPLEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0768, Current candle evolution: -4.03%
+
+
+[2024-07-23 20:33:41] GMX/USDT (BINANCE:GMXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 31.6000, Current candle evolution: -4.68%
+
+
+[2024-07-23 20:33:41] POLYX/USDT (BINANCE:POLYXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2651, Current candle evolution: -3.95%
+
+
+[2024-07-23 20:33:41] LUNC/USDT (BINANCE:LUNCUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0001, Current candle evolution: -3.52%
+
+
+[2024-07-23 20:33:41] OSMO/USDT (BINANCE:OSMOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.5063, Current candle evolution: -2.13%
+
+
+[2024-07-23 20:33:41] HIFI/USDT (BINANCE:HIFIUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.4801, Current candle evolution: -2.58%
+
+
+[2024-07-23 20:33:41] GNS/USDT (BINANCE:GNSUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 3.3950, Current candle evolution: 0.24%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:41] VIB/USDT (BINANCE:VIBUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0718, Current candle evolution: -2.21%
+
+
+[2024-07-23 20:33:41] LQTY/USDT (BINANCE:LQTYUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.8180, Current candle evolution: -1.68%
+
+
+[2024-07-23 20:33:41] PHB/USDT (BINANCE:PHBUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.6900, Current candle evolution: -3.87%
+
+
+[2024-07-23 20:33:42] PROM/USDT (BINANCE:PROMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 6.9820, Current candle evolution: -0.70%
+
+
+[2024-07-23 20:33:42] UFT/USDT (BINANCE:UFTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2625, Current candle evolution: -1.20%
+
+
+[2024-07-23 20:33:42] OAX/USDT (BINANCE:OAXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.1677, Current candle evolution: 0.12%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:42] USDT/RON (BINANCE:USDTRON) Timeframe: 1d, Number of candles: 4, Pattern detected: Bullish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 4.5870, Current candle evolution: 0.66%
+
+
+[2024-07-23 20:33:42] WBTC/USDT (BINANCE:WBTCUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 65703.2200, Current candle evolution: -2.64%
+
+
+[2024-07-23 20:33:42] EDU/USDT (BINANCE:EDUUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.7057, Current candle evolution: 0.74%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:42] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0974, Current candle evolution: -0.31%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:42] AST/USDT (BINANCE:ASTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0887, Current candle evolution: -2.74%
+
+
+[2024-07-23 20:33:42] ARKM/USDT (BINANCE:ARKMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.4600, Current candle evolution: -2.14%
+
+
+[2024-07-23 20:33:42] CREAM/USDT (BINANCE:CREAMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 37.4900, Current candle evolution: -2.29%
+
+
+[2024-07-23 20:33:42] GFT/USDT (BINANCE:GFTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0195, Current candle evolution: -1.06%
+
+
+[2024-07-23 20:33:42] IQ/USDT (BINANCE:IQUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.0064, Current candle evolution: -3.30%
+
+
+[2024-07-23 20:33:43] NTRN/USDT (BINANCE:NTRNUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.4761, Current candle evolution: -5.05%
+
+
+[2024-07-23 20:33:43] VIC/USDT (BINANCE:VICUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.3836, Current candle evolution: -0.03%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:43] NFP/USDT (BINANCE:NFPUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.2854, Current candle evolution: -2.79%
+
+
+[2024-07-23 20:33:43] ACE/USDT (BINANCE:ACEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 2.9300, Current candle evolution: -6.51%
+
+
+[2024-07-23 20:33:43] AI/USDT (BINANCE:AIUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.5590, Current candle evolution: -4.12%
+
+
+[2024-07-23 20:33:43] JUP/USDT (BINANCE:JUPUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.9501, Current candle evolution: -5.76%
+
+
+[2024-07-23 20:33:43] PYTH/USDT (BINANCE:PYTHUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.3350, Current candle evolution: -4.18%
+
+
+[2024-07-23 20:33:43] RONIN/USDT (BINANCE:RONINUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 2.2290, Current candle evolution: -0.67%
+
+
+[2024-07-23 20:33:43] DYM/USDT (BINANCE:DYMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 1.7020, Current candle evolution: -6.79%
+
+
+[2024-07-23 20:33:43] STRK/USDT (BINANCE:STRKUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.5800, Current candle evolution: 0.52%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:43] ETHFI/USDT (BINANCE:ETHFIUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 2.4610, Current candle evolution: 0.41%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 20:33:44] TAO/USDT (BINANCE:TAOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 307.8000, Current candle evolution: -5.38%
+
+
+[2024-07-23 20:33:44] LISTA/USDT (BINANCE:LISTAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 0.5491, Current candle evolution: -0.60%
+
+
+[2024-07-23 20:33:44] BANANA/USDT (BINANCE:BANANAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-23 00:00:00
+Current price: 59.2100, Current candle evolution: -4.10%
+
+
