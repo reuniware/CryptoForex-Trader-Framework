@@ -1,0 +1,610 @@
+[2024-07-23 21:44:49] LRC/USDT (BINANCE:LRCUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.1588, Current candle evolution: -3.82%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:48] BLZ/USDT (BINANCE:BLZUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.1728, Current candle evolution: -1.71%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:53] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0975, Current candle evolution: -0.41%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:53] W/USDT (BINANCE:WUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.3167, Current candle evolution: -1.37%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:53] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.9380, Current candle evolution: -2.70%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:53] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 2.1460, Current candle evolution: -9.60%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:53] XVS/USDT (BINANCE:XVSUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 7.1300, Current candle evolution: -0.28%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:53] ACM/USDT (BINANCE:ACMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 1.6180, Current candle evolution: -2.47%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:53] LTO/USDT (BINANCE:LTOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.1188, Current candle evolution: -1.16%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:54] AEUR/USDT (BINANCE:AEURUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 1.0859, Current candle evolution: -0.21%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:54] RAD/USDT (BINANCE:RADUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 1.2140, Current candle evolution: -2.73%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:54] TNSR/USDT (BINANCE:TNSRUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.4884, Current candle evolution: -3.88%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:54] HIFI/USDT (BINANCE:HIFIUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.4786, Current candle evolution: -2.94%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:54] GMT/USDT (BINANCE:GMTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.1477, Current candle evolution: -3.59%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:54] SHIB/USDT (BINANCE:SHIBUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0000, Current candle evolution: -2.39%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:54] ETH/USDT (BINANCE:ETHUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 3475.0600, Current candle evolution: 1.03%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:54] SKL/USDT (BINANCE:SKLUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0483, Current candle evolution: -2.03%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:54] RUNE/USDT (BINANCE:RUNEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 4.6680, Current candle evolution: 0.71%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:55] FLOKI/USDT (BINANCE:FLOKIUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0002, Current candle evolution: -4.19%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:55] JTO/USDT (BINANCE:JTOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 2.4720, Current candle evolution: -7.52%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:55] AAVE/USDT (BINANCE:AAVEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-22 00:00:00
+Current price: 94.1400, Current candle evolution: -0.01%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-23 21:44:55] ICP/USDT (BINANCE:ICPUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 9.5980, Current candle evolution: -5.42%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:56] KDA/USDT (BINANCE:KDAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.5980, Current candle evolution: -3.40%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:56] QUICK/USDT (BINANCE:QUICKUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0409, Current candle evolution: -0.73%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:57] PROS/USDT (BINANCE:PROSUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.3724, Current candle evolution: -1.53%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:57] APE/USDT (BINANCE:APEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.7910, Current candle evolution: -2.35%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:57] OM/USDT (BINANCE:OMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 1.2629, Current candle evolution: -1.96%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:57] OMNI/USDT (BINANCE:OMNIUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-22 00:00:00
+Current price: 12.5500, Current candle evolution: -0.63%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-23 21:44:57] KAVA/USDT (BINANCE:KAVAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.4105, Current candle evolution: -0.46%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-23 21:44:57] NEO/USDT (BINANCE:NEOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 11.3400, Current candle evolution: -1.48%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:58] ARPA/USDT (BINANCE:ARPAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0413, Current candle evolution: -3.62%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:58] HOT/USDT (BINANCE:HOTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0017, Current candle evolution: -4.15%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:59] GNS/USDT (BINANCE:GNSUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-22 00:00:00
+Current price: 3.3860, Current candle evolution: -0.09%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-23 21:44:59] ZIL/USDT (BINANCE:ZILUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0170, Current candle evolution: -2.19%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:44:59] IOTX/USDT (BINANCE:IOTXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0456, Current candle evolution: -5.94%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:00] SAND/USDT (BINANCE:SANDUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.3227, Current candle evolution: -2.77%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:00] FIL/USDT (BINANCE:FILUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 4.4470, Current candle evolution: -1.40%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:00] LPT/USDT (BINANCE:LPTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 15.2860, Current candle evolution: -3.84%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:00] ZRX/USDT (BINANCE:ZRXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.3766, Current candle evolution: 0.72%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:00] SYN/USDT (BINANCE:SYNUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.5335, Current candle evolution: -0.86%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-23 21:45:01] STEEM/USDT (BINANCE:STEEMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.1993, Current candle evolution: -0.05%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:02] NMR/USDT (BINANCE:NMRUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 14.1900, Current candle evolution: -3.73%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:03] PEOPLE/USDT (BINANCE:PEOPLEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0776, Current candle evolution: -3.11%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:04] ZK/USDT (BINANCE:ZKUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.1786, Current candle evolution: -0.61%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:04] WBETH/USDT (BINANCE:WBETHUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 3625.8500, Current candle evolution: 1.08%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:04] PERP/USDT (BINANCE:PERPUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.6570, Current candle evolution: -1.44%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:05] ATA/USDT (BINANCE:ATAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0991, Current candle evolution: -2.27%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:05] BCH/USDT (BINANCE:BCHUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 365.9000, Current candle evolution: -5.18%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:06] SPELL/USDT (BINANCE:SPELLUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0007, Current candle evolution: -2.65%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:06] GTC/USDT (BINANCE:GTCUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.8920, Current candle evolution: 3.85%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:06] MOVR/USDT (BINANCE:MOVRUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 11.1550, Current candle evolution: -1.28%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:07] XEC/USDT (BINANCE:XECUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0000, Current candle evolution: -3.30%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:07] JUP/USDT (BINANCE:JUPUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.9550, Current candle evolution: -5.29%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:07] DENT/USDT (BINANCE:DENTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0009, Current candle evolution: -4.26%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:08] PYTH/USDT (BINANCE:PYTHUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.3371, Current candle evolution: -3.60%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:08] STPT/USDT (BINANCE:STPTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0455, Current candle evolution: -1.00%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:08] 1INCH/USDT (BINANCE:1INCHUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.4016, Current candle evolution: -3.86%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:08] ELF/USDT (BINANCE:ELFUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.3915, Current candle evolution: -2.27%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:08] AUDIO/USDT (BINANCE:AUDIOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.1423, Current candle evolution: -2.93%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:09] RONIN/USDT (BINANCE:RONINUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-22 00:00:00
+Current price: 2.2370, Current candle evolution: -0.36%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-23 21:45:09] DASH/USDT (BINANCE:DASHUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 26.5600, Current candle evolution: -0.90%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:09] SXP/USDT (BINANCE:SXPUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.2555, Current candle evolution: -1.31%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:09] EPX/USDT (BINANCE:EPXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0001, Current candle evolution: -0.25%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:09] EUR/USDT (BINANCE:EURUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 1.0863, Current candle evolution: -0.18%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:09] KP3R/USDT (BINANCE:KP3RUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 55.7600, Current candle evolution: -1.87%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:09] ERN/USDT (BINANCE:ERNUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 2.2650, Current candle evolution: -4.15%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:09] CYBER/USDT (BINANCE:CYBERUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 4.2720, Current candle evolution: -4.47%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:10] DYDX/USDT (BINANCE:DYDXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 1.3070, Current candle evolution: -6.58%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:10] IMX/USDT (BINANCE:IMXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 1.5320, Current candle evolution: -1.10%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:10] OG/USDT (BINANCE:OGUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 3.1200, Current candle evolution: -2.89%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:10] DATA/USDT (BINANCE:DATAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0361, Current candle evolution: -1.98%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:11] GLM/USDT (BINANCE:GLMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.3360, Current candle evolution: -2.75%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:12] IDEX/USDT (BINANCE:IDEXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0409, Current candle evolution: -3.18%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:12] LOKA/USDT (BINANCE:LOKAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.1885, Current candle evolution: -3.58%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:12] ATM/USDT (BINANCE:ATMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 2.1530, Current candle evolution: -1.78%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:12] PUNDIX/USDT (BINANCE:PUNDIXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.4161, Current candle evolution: -3.53%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:12] STRK/USDT (BINANCE:STRKUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.5870, Current candle evolution: 1.73%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:12] PHA/USDT (BINANCE:PHAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.1243, Current candle evolution: -3.95%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:12] UNI/USDT (BINANCE:UNIUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 7.7580, Current candle evolution: -0.72%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:12] THETA/USDT (BINANCE:THETAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 1.4550, Current candle evolution: -5.28%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:13] SCRT/USDT (BINANCE:SCRTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.2737, Current candle evolution: -1.16%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:13] STORJ/USDT (BINANCE:STORJUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.3924, Current candle evolution: -2.07%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:14] LUNC/USDT (BINANCE:LUNCUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0001, Current candle evolution: -3.76%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:14] QKC/USDT (BINANCE:QKCUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0078, Current candle evolution: -1.42%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:14] ETC/USDT (BINANCE:ETCUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 23.9600, Current candle evolution: 2.26%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:14] CELO/USDT (BINANCE:CELOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.5771, Current candle evolution: -1.52%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:14] CTSI/USDT (BINANCE:CTSIUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.1563, Current candle evolution: -2.62%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:14] MLN/USDT (BINANCE:MLNUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-22 00:00:00
+Current price: 19.2500, Current candle evolution: -0.41%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-23 21:45:14] JASMY/USDT (BINANCE:JASMYUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0276, Current candle evolution: -4.04%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:15] KSM/USDT (BINANCE:KSMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 21.1200, Current candle evolution: -3.96%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:15] HIVE/USDT (BINANCE:HIVEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.2201, Current candle evolution: -0.32%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-23 21:45:15] DEXE/USDT (BINANCE:DEXEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-22 00:00:00
+Current price: 9.7780, Current candle evolution: -0.37%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-23 21:45:15] GALA/USDT (BINANCE:GALAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0238, Current candle evolution: -3.34%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:16] MATIC/USDT (BINANCE:MATICUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.5360, Current candle evolution: 1.04%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:16] ACA/USDT (BINANCE:ACAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0691, Current candle evolution: -4.82%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:17] BAND/USDT (BINANCE:BANDUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 1.3360, Current candle evolution: -3.96%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:17] ARB/USDT (BINANCE:ARBUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.8020, Current candle evolution: 5.55%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:17] ATOM/USDT (BINANCE:ATOMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 6.2070, Current candle evolution: -0.97%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:18] BAR/USDT (BINANCE:BARUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 1.9100, Current candle evolution: -3.25%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:18] CKB/USDT (BINANCE:CKBUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0116, Current candle evolution: -3.47%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:18] POLYX/USDT (BINANCE:POLYXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.2644, Current candle evolution: -4.20%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:18] PYR/USDT (BINANCE:PYRUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 3.3370, Current candle evolution: -1.68%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:19] FORTH/USDT (BINANCE:FORTHUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-22 00:00:00
+Current price: 3.3340, Current candle evolution: -0.42%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-23 21:45:19] DF/USDT (BINANCE:DFUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0327, Current candle evolution: -1.77%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:19] ROSE/USDT (BINANCE:ROSEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0880, Current candle evolution: -4.57%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:19] FLM/USDT (BINANCE:FLMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0685, Current candle evolution: -1.72%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:19] WOO/USDT (BINANCE:WOOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.1981, Current candle evolution: -4.48%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:19] OAX/USDT (BINANCE:OAXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.1665, Current candle evolution: -0.72%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:20] FIDA/USDT (BINANCE:FIDAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.2748, Current candle evolution: -2.00%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:20] FLOW/USDT (BINANCE:FLOWUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.6020, Current candle evolution: -3.99%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:20] ETHFI/USDT (BINANCE:ETHFIUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-22 00:00:00
+Current price: 2.4460, Current candle evolution: -0.20%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-23 21:45:20] AVA/USDT (BINANCE:AVAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.6147, Current candle evolution: -2.29%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:21] ARDR/USDT (BINANCE:ARDRUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0712, Current candle evolution: 0.32%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:21] LIT/USDT (BINANCE:LITUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.7150, Current candle evolution: -3.51%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:21] VIC/USDT (BINANCE:VICUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.3813, Current candle evolution: -0.73%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-23 21:45:22] BNT/USDT (BINANCE:BNTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.6237, Current candle evolution: -0.51%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-23 21:45:22] ALGO/USDT (BINANCE:ALGOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.1437, Current candle evolution: -4.90%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:22] MINA/USDT (BINANCE:MINAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.5209, Current candle evolution: -7.00%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:22] BLUR/USDT (BINANCE:BLURUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.2000, Current candle evolution: -1.96%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:22] EDU/USDT (BINANCE:EDUUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.7157, Current candle evolution: 2.18%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:23] MDT/USDT (BINANCE:MDTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 0.0428, Current candle evolution: -3.69%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-23 21:45:24] LINK/USDT (BINANCE:LINKUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-22 00:00:00
+Current price: 13.9100, Current candle evolution: -0.14%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
