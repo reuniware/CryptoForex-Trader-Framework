@@ -289,3 +289,227 @@ Price evolution: 0.0970 (9.91%)
 [2024-07-23 14:58:03] NANO/USDT (BINANCE:NANOUSDT) is currently green in the 4h timeframe. Price evolution: 0.0070 (0.32%)
 [2024-07-23 14:58:04] MITH/USDT (BINANCE:MITHUSDT) is currently green in the 4h timeframe. Price evolution: 0.0002 (5.18%)
 [2024-07-23 14:58:04] TFUEL/USDT (BINANCE:TFUELUSDT) is currently green in the 4h timeframe. Price evolution: 0.0000 (0.06%)
+[2024-07-23 15:03:07] ETC/USDT (BINANCE:ETCUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 24.7500, Trendline value: 24.4509
+[2024-07-23 15:03:07] NULS/USDT (BINANCE:NULSUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.3379, Trendline value: 0.3328
+[2024-07-23 15:03:07] BCHABC/USDT (BINANCE:BCHABCUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 221.7200, Trendline value: 215.9147
+[2024-07-23 15:03:07] BSV/USDT (BINANCE:BSVUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 59.4600, Trendline value: 56.7138
+[2024-07-23 15:03:07] WAVES/USDT (BINANCE:WAVESUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.0820, Trendline value: 1.0550
+[2024-07-23 15:03:07] BTT/USDT (BINANCE:BTTUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0028, Trendline value: 0.0026
+[2024-07-23 15:03:07] ZRX/USDT (BINANCE:ZRXUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.3887, Trendline value: 0.3880
+[2024-07-23 15:03:07] XMR/USDT (BINANCE:XMRUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 119.6000, Trendline value: 118.3120
+[2024-07-23 15:03:07] NANO/USDT (BINANCE:NANOUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 2.2590, Trendline value: 1.9818
+[2024-07-23 15:03:07] OMG/USDT (BINANCE:OMGUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.3850, Trendline value: 0.3794
+[2024-07-23 15:03:07] MATIC/USDT (BINANCE:MATICUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.5526, Trendline value: 0.5510
+[2024-07-23 15:03:07] USDSB/USDT (BINANCE:USDSBUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.9997, Trendline value: 0.9969
+[2024-07-23 15:03:07] TOMO/USDT (BINANCE:TOMOUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.3900, Trendline value: 1.2039
+[2024-07-23 15:03:07] PERL/USDT (BINANCE:PERLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0069, Trendline value: 0.0068
+[2024-07-23 15:03:07] STORM/USDT (BINANCE:STORMUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0034, Trendline value: 0.0033
+[2024-07-23 15:03:07] HC/USDT (BINANCE:HCUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.8705, Trendline value: 0.8548
+[2024-07-23 15:04:00] ETC/USDT (BINANCE:ETCUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 24.7500, Trendline value: 24.4509
+[2024-07-23 15:04:00] NULS/USDT (BINANCE:NULSUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.3379, Trendline value: 0.3328
+[2024-07-23 15:04:00] BCHABC/USDT (BINANCE:BCHABCUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 221.7200, Trendline value: 215.9147
+[2024-07-23 15:04:00] BSV/USDT (BINANCE:BSVUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 59.4600, Trendline value: 56.7138
+[2024-07-23 15:04:00] WAVES/USDT (BINANCE:WAVESUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.0820, Trendline value: 1.0550
+[2024-07-23 15:04:00] BTT/USDT (BINANCE:BTTUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0028, Trendline value: 0.0026
+[2024-07-23 15:04:00] ZRX/USDT (BINANCE:ZRXUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.3887, Trendline value: 0.3880
+[2024-07-23 15:04:00] XMR/USDT (BINANCE:XMRUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 119.6000, Trendline value: 118.3120
+[2024-07-23 15:04:00] NANO/USDT (BINANCE:NANOUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 2.2590, Trendline value: 1.9818
+[2024-07-23 15:04:00] OMG/USDT (BINANCE:OMGUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.3850, Trendline value: 0.3794
+[2024-07-23 15:04:00] MATIC/USDT (BINANCE:MATICUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.5526, Trendline value: 0.5510
+[2024-07-23 15:04:00] USDSB/USDT (BINANCE:USDSBUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.9997, Trendline value: 0.9969
+[2024-07-23 15:04:00] TOMO/USDT (BINANCE:TOMOUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.3900, Trendline value: 1.2039
+[2024-07-23 15:04:00] PERL/USDT (BINANCE:PERLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0069, Trendline value: 0.0068
+[2024-07-23 15:04:00] STORM/USDT (BINANCE:STORMUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0034, Trendline value: 0.0033
+[2024-07-23 15:04:00] HC/USDT (BINANCE:HCUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.8705, Trendline value: 0.8548
+[2024-07-23 15:04:00] USDT/RUB (BINANCE:USDTRUB) is currently above the upper trendline in the 4h timeframe. Current price: 91.9000, Trendline value: 91.7498
+[2024-07-23 15:04:00] BULL/USDT (BINANCE:BULLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1427.4200, Trendline value: 1226.8361
+[2024-07-23 15:04:00] ETHBULL/USDT (BINANCE:ETHBULLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 80.8800, Trendline value: 73.5946
+[2024-07-23 15:04:00] EOSBULL/USDT (BINANCE:EOSBULLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 3.9900, Trendline value: 3.6494
+[2024-07-23 15:04:00] XRPBULL/USDT (BINANCE:XRPBULLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 8.9700, Trendline value: 8.5370
+[2024-07-23 15:04:00] MBL/USDT (BINANCE:MBLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0027, Trendline value: 0.0027
+[2024-07-23 15:04:00] BNBBULL/USDT (BINANCE:BNBBULLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 60.8400, Trendline value: 47.9727
+[2024-07-23 15:04:00] USDT/ZAR (BINANCE:USDTZAR) is currently above the upper trendline in the 4h timeframe. Current price: 18.6900, Trendline value: 18.6286
+[2024-07-23 15:04:00] XZC/USDT (BINANCE:XZCUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 4.4810, Trendline value: 4.2474
+[2024-07-23 15:04:00] BTCUP/USDT (BINANCE:BTCUPUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 16.8000, Trendline value: 16.7644
+[2024-07-23 15:04:00] GXS/USDT (BINANCE:GXSUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.9787, Trendline value: 1.8407
+[2024-07-23 15:04:00] STMX/USDT (BINANCE:STMXUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0070, Trendline value: 0.0059
+[2024-07-23 15:04:00] REP/USDT (BINANCE:REPUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 4.7500, Trendline value: 4.6625
+[2024-07-23 15:04:00] BKRW/USDT (BINANCE:BKRWUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0008, Trendline value: 0.0008
+[2024-07-23 15:04:00] ETHDOWN/USDT (BINANCE:ETHDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0462, Trendline value: 0.0457
+[2024-07-23 15:04:00] ADADOWN/USDT (BINANCE:ADADOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0019, Trendline value: 0.0019
+[2024-07-23 15:04:00] DAI/USDT (BINANCE:DAIUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.0192, Trendline value: 1.0184
+[2024-07-23 15:04:00] BNBDOWN/USDT (BINANCE:BNBDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0022, Trendline value: 0.0022
+[2024-07-23 15:04:00] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 2.6800, Trendline value: 2.4459
+[2024-07-23 15:04:00] USDT/BKRW (BINANCE:USDTBKRW) is currently above the upper trendline in the 4h timeframe. Current price: 1132.4000, Trendline value: 1124.7245
+[2024-07-23 15:04:00] KMD/USDT (BINANCE:KMDUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.2861, Trendline value: 0.2834
+[2024-07-23 15:04:00] ANT/USDT (BINANCE:ANTUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 7.4750, Trendline value: 7.3635
+[2024-07-23 15:04:00] CRV/USDT (BINANCE:CRVUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.2851, Trendline value: 0.2843
+[2024-07-23 15:04:00] OCEAN/USDT (BINANCE:OCEANUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.6252, Trendline value: 0.5693
+[2024-07-23 15:04:00] BZRX/USDT (BINANCE:BZRXUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.2168, Trendline value: 0.2072
+[2024-07-23 15:04:00] EOSDOWN/USDT (BINANCE:EOSDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0004, Trendline value: 0.0004
+[2024-07-23 15:04:00] TRXDOWN/USDT (BINANCE:TRXDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.1740, Trendline value: 1.1591
+[2024-07-23 15:04:00] DOTDOWN/USDT (BINANCE:DOTDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 17.3660, Trendline value: 16.9041
+[2024-07-23 15:04:00] HNT/USDT (BINANCE:HNTUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 4.7000, Trendline value: 4.6552
+[2024-07-23 15:04:00] UNIUP/USDT (BINANCE:UNIUPUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.1100, Trendline value: 0.8373
+[2024-07-23 15:04:00] USDT/BRL (BINANCE:USDTBRL) is currently above the upper trendline in the 4h timeframe. Current price: 5.6150, Trendline value: 5.5943
+[2024-07-23 15:04:00] SXPUP/USDT (BINANCE:SXPUPUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.1783, Trendline value: 0.1666
+[2024-07-23 15:04:00] FILDOWN/USDT (BINANCE:FILDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0008, Trendline value: 0.0007
+[2024-07-23 15:04:00] YFIDOWN/USDT (BINANCE:YFIDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.9217, Trendline value: 0.8471
+[2024-07-23 15:04:00] CTK/USDT (BINANCE:CTKUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.8460, Trendline value: 0.7983
+[2024-07-23 15:04:00] BCHDOWN/USDT (BINANCE:BCHDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.2254, Trendline value: 0.2038
+[2024-07-23 15:04:00] DNT/USDT (BINANCE:DNTUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0475, Trendline value: 0.0380
+[2024-07-23 15:04:00] AAVEDOWN/USDT (BINANCE:AAVEDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0048, Trendline value: 0.0040
+[2024-07-23 15:04:00] SUSD/USDT (BINANCE:SUSDUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.9990, Trendline value: 0.9977
+[2024-07-23 15:04:00] XLMDOWN/USDT (BINANCE:XLMDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 4.4770, Trendline value: 4.1653
+[2024-07-23 15:04:00] BTCST/USDT (BINANCE:BTCSTUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 5.6500, Trendline value: 5.5512
+[2024-07-23 15:04:00] ALICE/USDT (BINANCE:ALICEUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.2270, Trendline value: 1.2269
+[2024-07-23 15:04:00] RAMP/USDT (BINANCE:RAMPUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0549, Trendline value: 0.0504
+[2024-07-23 15:04:00] MDX/USDT (BINANCE:MDXUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0383, Trendline value: 0.0290
+[2024-07-23 15:04:00] NU/USDT (BINANCE:NUUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.5588, Trendline value: 0.5305
+[2024-07-23 15:04:00] TORN/USDT (BINANCE:TORNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 4.3900, Trendline value: 4.3734
+[2024-07-23 15:04:00] KEEP/USDT (BINANCE:KEEPUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.6700, Trendline value: 0.6068
+[2024-07-23 15:04:00] BOND/USDT (BINANCE:BONDUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 2.1700, Trendline value: 1.6870
+[2024-07-23 15:04:00] TVK/USDT (BINANCE:TVKUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0547, Trendline value: 0.0530
+[2024-07-23 15:04:00] POLY/USDT (BINANCE:POLYUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.2730, Trendline value: 0.2672
+[2024-07-23 15:04:00] USDP/USDT (BINANCE:USDPUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.0000, Trendline value: 0.9998
+[2024-07-23 15:04:00] DAR/USDT (BINANCE:DARUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.1966, Trendline value: 0.1909
+[2024-07-23 15:04:00] RGT/USDT (BINANCE:RGTUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 14.5200, Trendline value: 14.3935
+[2024-07-23 15:04:00] ENS/USDT (BINANCE:ENSUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 30.4100, Trendline value: 27.8063
+[2024-07-23 15:04:00] RNDR/USDT (BINANCE:RNDRUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 7.1890, Trendline value: 7.0944
+[2024-07-23 15:04:00] CVX/USDT (BINANCE:CVXUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 2.8060, Trendline value: 2.5425
+[2024-07-23 15:04:00] GAL/USDT (BINANCE:GALUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 2.6000, Trendline value: 2.4453
+[2024-07-23 15:04:00] LDO/USDT (BINANCE:LDOUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.8740, Trendline value: 1.8677
+[2024-07-23 15:04:00] RPL/USDT (BINANCE:RPLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 18.6400, Trendline value: 18.2516
+[2024-07-23 15:04:00] AGIX/USDT (BINANCE:AGIXUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.6248, Trendline value: 0.5724
+[2024-07-23 15:04:00] GNS/USDT (BINANCE:GNSUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 3.4980, Trendline value: 3.4819
+[2024-07-23 15:04:00] SSV/USDT (BINANCE:SSVUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 34.5400, Trendline value: 33.9705
+[2024-07-23 15:04:00] ARB/USDT (BINANCE:ARBUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.8158, Trendline value: 0.8060
+[2024-07-23 15:04:00] USDT/PLN (BINANCE:USDTPLN) is currently above the upper trendline in the 4h timeframe. Current price: 3.9570, Trendline value: 3.9510
+[2024-07-23 15:04:00] USDT/RON (BINANCE:USDTRON) is currently above the upper trendline in the 4h timeframe. Current price: 4.6030, Trendline value: 4.5781
+[2024-07-23 15:04:00] USDT/ARS (BINANCE:USDTARS) is currently above the upper trendline in the 4h timeframe. Current price: 1366.0000, Trendline value: 1362.9046
+[2024-07-23 15:04:00] PENDLE/USDT (BINANCE:PENDLEUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 4.2360, Trendline value: 4.2140
+[2024-07-23 15:04:00] USDT/VAI (BINANCE:USDTVAI) is currently above the upper trendline in the 4h timeframe. Current price: 1.0130, Trendline value: 1.0123
+[2024-07-23 15:04:00] STRK/USDT (BINANCE:STRKUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.6330, Trendline value: 0.6250
+[2024-07-23 15:04:00] METIS/USDT (BINANCE:METISUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 51.8500, Trendline value: 50.9225
+[2024-07-23 15:04:00] AEVO/USDT (BINANCE:AEVOUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.6030, Trendline value: 0.5820
+[2024-07-23 15:04:00] SAGA/USDT (BINANCE:SAGAUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.6152, Trendline value: 1.5431
+[2024-07-23 15:04:00] USDT/MXN (BINANCE:USDTMXN) is currently above the upper trendline in the 4h timeframe. Current price: 18.1100, Trendline value: 17.9700
+[2024-07-23 15:04:00] USDT/CZK (BINANCE:USDTCZK) is currently above the upper trendline in the 4h timeframe. Current price: 23.2400, Trendline value: 23.0019
+[2024-07-23 15:04:00] REZ/USDT (BINANCE:REZUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0782, Trendline value: 0.0728
+[2024-07-23 15:17:56] BTC/USDT (BINANCE:BTCUSDT) Current price: 66431.4500, Candle color: red, Price evolution: 244.5500
+[2024-07-23 15:17:56] ETH/USDT (BINANCE:ETHUSDT) Current price: 3495.9300, Candle color: red, Price evolution: 20.0800
+[2024-07-23 15:17:56] BNB/USDT (BINANCE:BNBUSDT) Current price: 583.3000, Candle color: red, Price evolution: 1.4000
+[2024-07-23 15:17:56] BCC/USDT (BINANCE:BCCUSDT) Current price: 448.7000, Candle color: red, Price evolution: 0.0000
+[2024-07-23 15:17:56] NEO/USDT (BINANCE:NEOUSDT) Current price: 11.4200, Candle color: red, Price evolution: 0.1000
+[2024-07-23 15:17:56] LTC/USDT (BINANCE:LTCUSDT) Current price: 71.9900, Candle color: red, Price evolution: 0.1600
+[2024-07-23 15:17:56] QTUM/USDT (BINANCE:QTUMUSDT) Current price: 2.6470, Candle color: red, Price evolution: 0.0230
+[2024-07-23 15:17:56] ADA/USDT (BINANCE:ADAUSDT) Current price: 0.4188, Candle color: red, Price evolution: 0.0066
+[2024-07-23 15:17:56] XRP/USDT (BINANCE:XRPUSDT) Current price: 0.5948, Candle color: red, Price evolution: 0.0016
+[2024-07-23 15:17:56] EOS/USDT (BINANCE:EOSUSDT) Current price: 0.5826, Candle color: red, Price evolution: 0.0025
+[2024-07-23 15:17:56] TUSD/USDT (BINANCE:TUSDUSDT) Current price: 0.9999, Candle color: red, Price evolution: 0.0000
+[2024-07-23 15:17:56] IOTA/USDT (BINANCE:IOTAUSDT) Current price: 0.1706, Candle color: red, Price evolution: 0.0014
+[2024-07-23 15:17:56] XLM/USDT (BINANCE:XLMUSDT) Current price: 0.1023, Candle color: red, Price evolution: 0.0001
+[2024-07-23 15:17:56] ONT/USDT (BINANCE:ONTUSDT) Current price: 0.2045, Candle color: red, Price evolution: 0.0020
+[2024-07-23 15:17:56] TRX/USDT (BINANCE:TRXUSDT) Current price: 0.1325, Candle color: green, Price evolution: 0.0001
+[2024-07-23 15:19:37] BCHABC/USDT (BINANCE:BCHABCUSDT) Current price: 220.0800, Candle color: green, Price evolution: 0.8800
+[2024-07-23 15:19:37] BSV/USDT (BINANCE:BSVUSDT) Current price: 58.9000, Candle color: green, Price evolution: 3.6400
+[2024-07-23 15:19:37] WAVES/USDT (BINANCE:WAVESUSDT) Current price: 1.0760, Candle color: green, Price evolution: 0.0420
+[2024-07-23 15:19:37] BTT/USDT (BINANCE:BTTUSDT) Current price: 0.0028, Candle color: green, Price evolution: 0.0001
+[2024-07-23 15:19:37] ZRX/USDT (BINANCE:ZRXUSDT) Current price: 0.3818, Candle color: green, Price evolution: 0.0011
+[2024-07-23 15:19:37] XMR/USDT (BINANCE:XMRUSDT) Current price: 118.7000, Candle color: green, Price evolution: 6.3000
+[2024-07-23 15:19:37] IOST/USDT (BINANCE:IOSTUSDT) Current price: 0.0061, Candle color: green, Price evolution: 0.0000
+[2024-07-23 15:19:37] NANO/USDT (BINANCE:NANOUSDT) Current price: 2.2240, Candle color: green, Price evolution: 0.0070
+[2024-07-23 15:19:37] MITH/USDT (BINANCE:MITHUSDT) Current price: 0.0034, Candle color: green, Price evolution: 0.0002
+[2024-07-23 15:19:37] USDSB/USDT (BINANCE:USDSBUSDT) Current price: 0.9997, Candle color: green, Price evolution: 0.0001
+[2024-07-23 15:19:37] ERD/USDT (BINANCE:ERDUSDT) Current price: 0.0197, Candle color: green, Price evolution: 0.0001
+[2024-07-23 15:19:37] TOMO/USDT (BINANCE:TOMOUSDT) Current price: 1.3819, Candle color: green, Price evolution: 0.1101
+[2024-07-23 15:19:37] MFT/USDT (BINANCE:MFTUSDT) Current price: 0.0053, Candle color: green, Price evolution: 0.0000
+[2024-07-23 15:19:37] KEY/USDT (BINANCE:KEYUSDT) Current price: 0.0053, Candle color: green, Price evolution: 0.0000
+[2024-07-23 15:19:37] STORM/USDT (BINANCE:STORMUSDT) Current price: 0.0034, Candle color: green, Price evolution: 0.0001
+[2024-07-23 15:19:37] MCO/USDT (BINANCE:MCOUSDT) Current price: 2.7440, Candle color: green, Price evolution: 0.0090
+[2024-07-23 15:19:37] USDT/RUB (BINANCE:USDTRUB) Current price: 91.1000, Candle color: green, Price evolution: 0.4000
+[2024-07-23 15:19:37] ETHBULL/USDT (BINANCE:ETHBULLUSDT) Current price: 79.1800, Candle color: green, Price evolution: 0.6300
+[2024-07-23 15:19:37] BTS/USDT (BINANCE:BTSUSDT) Current price: 0.0054, Candle color: green, Price evolution: 0.0002
+[2024-07-23 15:19:37] EOSBEAR/USDT (BINANCE:EOSBEARUSDT) Current price: 30.2100, Candle color: green, Price evolution: 0.1100
+[2024-07-23 15:19:37] XRPBEAR/USDT (BINANCE:XRPBEARUSDT) Current price: 548.5500, Candle color: green, Price evolution: 2.4800
+[2024-07-23 15:19:37] MBL/USDT (BINANCE:MBLUSDT) Current price: 0.0027, Candle color: green, Price evolution: 0.0000
+[2024-07-23 15:19:37] BNBBEAR/USDT (BINANCE:BNBBEARUSDT) Current price: 58.6100, Candle color: green, Price evolution: 0.1900
+[2024-07-23 15:19:37] USDT/ZAR (BINANCE:USDTZAR) Current price: 18.7100, Candle color: green, Price evolution: 0.0400
+[2024-07-23 15:19:37] XZC/USDT (BINANCE:XZCUSDT) Current price: 4.4460, Candle color: green, Price evolution: 0.0990
+[2024-07-23 15:19:37] BTCUP/USDT (BINANCE:BTCUPUSDT) Current price: 16.6000, Candle color: green, Price evolution: 0.0310
+[2024-07-23 15:19:37] LEND/USDT (BINANCE:LENDUSDT) Current price: 0.5143, Candle color: green, Price evolution: 0.0121
+[2024-07-23 15:19:37] STMX/USDT (BINANCE:STMXUSDT) Current price: 0.0067, Candle color: green, Price evolution: 0.0004
+[2024-07-23 15:19:37] REP/USDT (BINANCE:REPUSDT) Current price: 4.7300, Candle color: green, Price evolution: 0.0300
+[2024-07-23 15:19:37] PNT/USDT (BINANCE:PNTUSDT) Current price: 0.0350, Candle color: green, Price evolution: 0.0056
+[2024-07-23 15:19:37] USDT/BIDR (BINANCE:USDTBIDR) Current price: 15980.0000, Candle color: green, Price evolution: 4.0000
+[2024-07-23 15:19:37] SC/USDT (BINANCE:SCUSDT) Current price: 0.0053, Candle color: green, Price evolution: 0.0001
+[2024-07-23 15:19:37] LINKDOWN/USDT (BINANCE:LINKDOWNUSDT) Current price: 0.0009, Candle color: green, Price evolution: 0.0000
+[2024-07-23 15:19:37] DAI/USDT (BINANCE:DAIUSDT) Current price: 1.0189, Candle color: green, Price evolution: 0.0013
+[2024-07-23 15:19:37] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) Current price: 2.6001, Candle color: green, Price evolution: 0.2521
+[2024-07-23 15:19:37] USDT/BKRW (BINANCE:USDTBKRW) Current price: 1125.0000, Candle color: green, Price evolution: 9.9700
+[2024-07-23 15:19:37] USDT/DAI (BINANCE:USDTDAI) Current price: 1.0004, Candle color: green, Price evolution: 0.0004
+[2024-07-23 15:19:37] BZRX/USDT (BINANCE:BZRXUSDT) Current price: 0.2156, Candle color: green, Price evolution: 0.0073
+[2024-07-23 15:19:37] YFII/USDT (BINANCE:YFIIUSDT) Current price: 435.5000, Candle color: green, Price evolution: 3.0000
+[2024-07-23 15:19:37] TRXUP/USDT (BINANCE:TRXUPUSDT) Current price: 0.0385, Candle color: green, Price evolution: 0.0007
+[2024-07-23 15:19:37] XRPDOWN/USDT (BINANCE:XRPDOWNUSDT) Current price: 0.0001, Candle color: green, Price evolution: 0.0000
+[2024-07-23 15:19:37] DOTUP/USDT (BINANCE:DOTUPUSDT) Current price: 0.0960, Candle color: green, Price evolution: 0.0008
+[2024-07-23 15:19:37] LTCDOWN/USDT (BINANCE:LTCDOWNUSDT) Current price: 2.2279, Candle color: green, Price evolution: 0.0710
+[2024-07-23 15:19:37] NBS/USDT (BINANCE:NBSUSDT) Current price: 0.0017, Candle color: green, Price evolution: 0.0000
+[2024-07-23 15:19:37] HNT/USDT (BINANCE:HNTUSDT) Current price: 4.6700, Candle color: green, Price evolution: 0.0700
+[2024-07-23 15:19:37] UNIUP/USDT (BINANCE:UNIUPUSDT) Current price: 1.0550, Candle color: green, Price evolution: 0.0830
+[2024-07-23 15:19:37] USDT/BRL (BINANCE:USDTBRL) Current price: 5.6100, Candle color: green, Price evolution: 0.0240
+[2024-07-23 15:19:37] SXPUP/USDT (BINANCE:SXPUPUSDT) Current price: 0.1743, Candle color: green, Price evolution: 0.0036
+[2024-07-23 15:19:37] FILDOWN/USDT (BINANCE:FILDOWNUSDT) Current price: 0.0008, Candle color: green, Price evolution: 0.0000
+[2024-07-23 15:19:37] YFIDOWN/USDT (BINANCE:YFIDOWNUSDT) Current price: 0.9009, Candle color: green, Price evolution: 0.0024
+[2024-07-23 15:19:37] AUDIO/USDT (BINANCE:AUDIOUSDT) Current price: 0.1474, Candle color: green, Price evolution: 0.0019
+[2024-07-23 15:19:37] BCHDOWN/USDT (BINANCE:BCHDOWNUSDT) Current price: 0.2247, Candle color: green, Price evolution: 0.0077
+[2024-07-23 15:19:37] DNT/USDT (BINANCE:DNTUSDT) Current price: 0.0360, Candle color: green, Price evolution: 0.0035
+[2024-07-23 15:19:37] AAVEDOWN/USDT (BINANCE:AAVEDOWNUSDT) Current price: 0.0047, Candle color: green, Price evolution: 0.0001
+[2024-07-23 15:19:37] SUSHIUP/USDT (BINANCE:SUSHIUPUSDT) Current price: 0.0047, Candle color: green, Price evolution: 0.0001
+[2024-07-23 15:19:37] XLMUP/USDT (BINANCE:XLMUPUSDT) Current price: 0.0243, Candle color: green, Price evolution: 0.0006
+[2024-07-23 15:19:37] SFP/USDT (BINANCE:SFPUSDT) Current price: 0.8307, Candle color: green, Price evolution: 0.0030
+[2024-07-23 15:19:37] RAMP/USDT (BINANCE:RAMPUSDT) Current price: 0.0524, Candle color: green, Price evolution: 0.0021
+[2024-07-23 15:19:37] 1INCHDOWN/USDT (BINANCE:1INCHDOWNUSDT) Current price: 0.0061, Candle color: green, Price evolution: 0.0003
+[2024-07-23 15:20:57] TRX/USDT (BINANCE:TRXUSDT) Current price: 0.1325, Candle color: green, Price evolution: 0.08%
+[2024-07-23 15:20:57] BCHABC/USDT (BINANCE:BCHABCUSDT) Current price: 220.0800, Candle color: green, Price evolution: 0.40%
+[2024-07-23 15:20:57] BSV/USDT (BINANCE:BSVUSDT) Current price: 58.9000, Candle color: green, Price evolution: 6.59%
+[2024-07-23 15:20:57] WAVES/USDT (BINANCE:WAVESUSDT) Current price: 1.0760, Candle color: green, Price evolution: 4.06%
+[2024-07-23 15:20:57] BTT/USDT (BINANCE:BTTUSDT) Current price: 0.0028, Candle color: green, Price evolution: 3.74%
+[2024-07-23 15:20:57] ZRX/USDT (BINANCE:ZRXUSDT) Current price: 0.3819, Candle color: green, Price evolution: 0.32%
+[2024-07-23 15:20:57] XMR/USDT (BINANCE:XMRUSDT) Current price: 118.7000, Candle color: green, Price evolution: 5.60%
+[2024-07-23 15:20:57] IOST/USDT (BINANCE:IOSTUSDT) Current price: 0.0061, Candle color: green, Price evolution: 0.16%
+[2024-07-23 15:20:57] NANO/USDT (BINANCE:NANOUSDT) Current price: 2.2240, Candle color: green, Price evolution: 0.32%
+[2024-07-23 15:20:57] MITH/USDT (BINANCE:MITHUSDT) Current price: 0.0034, Candle color: green, Price evolution: 5.18%
+[2024-07-23 15:20:57] USDSB/USDT (BINANCE:USDSBUSDT) Current price: 0.9997, Candle color: green, Price evolution: 0.01%
+[2024-07-23 15:20:57] ERD/USDT (BINANCE:ERDUSDT) Current price: 0.0197, Candle color: green, Price evolution: 0.57%
+[2024-07-23 15:20:57] TOMO/USDT (BINANCE:TOMOUSDT) Current price: 1.3819, Candle color: green, Price evolution: 8.66%
+[2024-07-23 15:20:57] MFT/USDT (BINANCE:MFTUSDT) Current price: 0.0053, Candle color: green, Price evolution: 0.67%
+[2024-07-23 15:20:57] KEY/USDT (BINANCE:KEYUSDT) Current price: 0.0053, Candle color: green, Price evolution: 0.11%
+[2024-07-23 15:20:57] STORM/USDT (BINANCE:STORMUSDT) Current price: 0.0034, Candle color: green, Price evolution: 1.95%
+[2024-07-23 15:20:57] BAND/USDT (BINANCE:BANDUSDT) Current price: 1.4100, Candle color: green, Price evolution: 0.07%
+[2024-07-23 15:20:57] MCO/USDT (BINANCE:MCOUSDT) Current price: 2.7440, Candle color: green, Price evolution: 0.33%
+[2024-07-23 15:20:57] USDT/RUB (BINANCE:USDTRUB) Current price: 91.1000, Candle color: green, Price evolution: 0.44%
+[2024-07-23 15:20:57] ETHBULL/USDT (BINANCE:ETHBULLUSDT) Current price: 79.1800, Candle color: green, Price evolution: 0.80%
+[2024-07-23 15:20:57] BTS/USDT (BINANCE:BTSUSDT) Current price: 0.0054, Candle color: green, Price evolution: 3.45%
+[2024-07-23 15:20:57] EOSBEAR/USDT (BINANCE:EOSBEARUSDT) Current price: 30.2100, Candle color: green, Price evolution: 0.37%
+[2024-07-23 15:20:57] XRPBEAR/USDT (BINANCE:XRPBEARUSDT) Current price: 548.5500, Candle color: green, Price evolution: 0.45%
+[2024-07-23 15:20:57] MBL/USDT (BINANCE:MBLUSDT) Current price: 0.0027, Candle color: green, Price evolution: 1.46%
+[2024-07-23 15:20:57] BNBBEAR/USDT (BINANCE:BNBBEARUSDT) Current price: 58.6100, Candle color: green, Price evolution: 0.33%
+[2024-07-23 15:20:57] USDT/ZAR (BINANCE:USDTZAR) Current price: 18.6900, Candle color: green, Price evolution: 0.11%
+[2024-07-23 15:20:57] XZC/USDT (BINANCE:XZCUSDT) Current price: 4.4460, Candle color: green, Price evolution: 2.28%
+[2024-07-23 15:20:57] BTCUP/USDT (BINANCE:BTCUPUSDT) Current price: 16.6000, Candle color: green, Price evolution: 0.19%
+[2024-07-23 15:20:57] LEND/USDT (BINANCE:LENDUSDT) Current price: 0.5143, Candle color: green, Price evolution: 2.40%
+[2024-07-23 15:20:57] STMX/USDT (BINANCE:STMXUSDT) Current price: 0.0067, Candle color: green, Price evolution: 5.71%
+[2024-07-23 15:20:57] REP/USDT (BINANCE:REPUSDT) Current price: 4.7300, Candle color: green, Price evolution: 0.64%
+[2024-07-23 15:20:57] PNT/USDT (BINANCE:PNTUSDT) Current price: 0.0350, Candle color: green, Price evolution: 19.05%
+[2024-07-23 15:20:57] USDT/BIDR (BINANCE:USDTBIDR) Current price: 15980.0000, Candle color: green, Price evolution: 0.03%
+[2024-07-23 15:20:57] SC/USDT (BINANCE:SCUSDT) Current price: 0.0053, Candle color: green, Price evolution: 2.34%
+[2024-07-23 15:20:57] LINKDOWN/USDT (BINANCE:LINKDOWNUSDT) Current price: 0.0009, Candle color: green, Price evolution: 0.90%
+[2024-07-23 15:20:57] DAI/USDT (BINANCE:DAIUSDT) Current price: 1.0189, Candle color: green, Price evolution: 0.13%
+[2024-07-23 15:20:57] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) Current price: 2.6001, Candle color: green, Price evolution: 10.74%
+[2024-07-23 15:20:57] USDT/BKRW (BINANCE:USDTBKRW) Current price: 1125.0000, Candle color: green, Price evolution: 0.89%
+[2024-07-23 15:20:57] USDT/DAI (BINANCE:USDTDAI) Current price: 1.0005, Candle color: green, Price evolution: 0.05%
+[2024-07-23 15:20:57] JST/USDT (BINANCE:JSTUSDT) Current price: 0.0287, Candle color: green, Price evolution: 0.03%
+[2024-07-23 15:20:57] BZRX/USDT (BINANCE:BZRXUSDT) Current price: 0.2156, Candle color: green, Price evolution: 3.50%
+[2024-07-23 15:20:57] YFII/USDT (BINANCE:YFIIUSDT) Current price: 435.5000, Candle color: green, Price evolution: 0.69%
+[2024-07-23 15:20:57] TRXUP/USDT (BINANCE:TRXUPUSDT) Current price: 0.0385, Candle color: green, Price evolution: 1.82%
