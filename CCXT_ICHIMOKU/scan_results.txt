@@ -1,0 +1,340 @@
+Scan results at 2024-07-23 06:17:24 (Paris time):
+WAVES/USDT has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+TOMO/USDT has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+STORM/USDT has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+PNT/USDT has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+XEM/USDT has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+SUSHIUP/USDT has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+MDX/USDT has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+
+Scan results at 2024-07-23 06:30:37 (Paris time):
+WAVES/USDT has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+TOMO/USDT has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+STORM/USDT has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+PNT/USDT has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+XEM/USDT has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+SUSHIUP/USDT has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+MDX/USDT has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+
+Scan results at 2024-07-23 06:43:49 (Paris time):
+WAVES/USDT has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+TOMO/USDT has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+STORM/USDT has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+PNT/USDT has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+STRAX/USDT has increased by 3.07% in the last 10 minutes. Current price: 0.0570
+XEM/USDT has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+SUSHIUP/USDT has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+MDX/USDT has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+
+Scan results at 2024-07-23 09:25:04 (Paris time):
+[2024-07-23 09:25:14] WAVES/USDT has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 09:25:22] TOMO/USDT has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 09:25:23] STORM/USDT has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 09:25:39] STMX/USDT has increased by 7.40% in the last 10 minutes. Current price: 0.0064
+[2024-07-23 09:25:40] PNT/USDT has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 09:26:04] XEM/USDT has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+[2024-07-23 09:26:05] SUSHIUP/USDT has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+[2024-07-23 09:26:19] MDX/USDT has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+[2024-07-23 09:27:34] STMX/USDT:USDT has increased by 7.80% in the last 10 minutes. Current price: 0.0064
+
+[2024-07-23 09:41:56] WAVES/USDT has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 09:42:04] TOMO/USDT has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 09:42:06] STORM/USDT has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 09:42:22] PNT/USDT has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 09:42:48] XEM/USDT has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+[2024-07-23 09:42:49] SUSHIUP/USDT has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+[2024-07-23 09:43:02] MDX/USDT has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+[2024-07-23 09:55:12] WAVES/USDT has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 09:55:20] TOMO/USDT has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 09:55:21] STORM/USDT has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 09:55:39] PNT/USDT has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 09:56:04] XEM/USDT has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+[2024-07-23 09:56:05] SUSHIUP/USDT has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+[2024-07-23 09:56:17] MDX/USDT has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+[2024-07-23 10:08:28] WAVES/USDT has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 10:08:37] TOMO/USDT has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 10:08:38] STORM/USDT has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 10:08:54] PNT/USDT has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 10:09:19] XEM/USDT has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+[2024-07-23 10:09:21] SUSHIUP/USDT has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+[2024-07-23 10:09:34] MDX/USDT has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+[2024-07-23 10:21:44] WAVES/USDT has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 10:21:52] TOMO/USDT has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 10:21:53] STORM/USDT has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 10:22:11] PNT/USDT has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 10:22:36] XEM/USDT has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+[2024-07-23 10:22:37] SUSHIUP/USDT has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+[2024-07-23 10:22:50] MDX/USDT has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+[2024-07-23 10:34:58] WAVES/USDT has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 10:35:08] TOMO/USDT has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 10:35:09] STORM/USDT has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 10:35:25] PNT/USDT has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 10:35:50] XEM/USDT has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+[2024-07-23 10:35:51] SUSHIUP/USDT has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+[2024-07-23 10:36:05] MDX/USDT has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+[2024-07-23 10:36:55] REZ/USDT has increased by 3.03% in the last 10 minutes. Current price: 0.0715
+[2024-07-23 10:38:01] ETHFI/USDT:USDT has increased by 3.77% in the last 10 minutes. Current price: 2.6950
+[2024-07-23 10:48:12] WAVES/USDT has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 10:48:20] TOMO/USDT has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 10:48:21] STORM/USDT has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 10:48:37] PNT/USDT has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 10:49:01] XEM/USDT has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+[2024-07-23 10:49:03] SUSHIUP/USDT has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+[2024-07-23 10:49:15] MDX/USDT has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+[2024-07-23 10:51:14] REZ/USDT:USDT has increased by 4.61% in the last 10 minutes. Current price: 0.0762
+[2024-07-23 12:28:04] WAVES/USDT has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 12:28:13] TOMO/USDT has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 12:28:14] STORM/USDT has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 12:28:31] PNT/USDT has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 12:28:55] XEM/USDT has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+[2024-07-23 12:28:56] SUSHIUP/USDT has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+[2024-07-23 12:29:10] MDX/USDT has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+[2024-07-23 12:29:49] WAVES/USDT has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 12:34:11] WAVES/USDT has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 12:34:19] TOMO/USDT has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 12:34:20] STORM/USDT has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 12:34:38] PNT/USDT has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 12:35:00] CTK/USDT has increased by 3.15% in the last 10 minutes. Current price: 0.8160
+[2024-07-23 12:35:04] XEM/USDT has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+[2024-07-23 12:35:05] SUSHIUP/USDT has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+[2024-07-23 12:35:19] MDX/USDT has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+[2024-07-23 12:46:18] WAVES/USDT has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 12:46:28] TOMO/USDT has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 12:46:29] STORM/USDT has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 12:46:46] PNT/USDT has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 12:47:10] XEM/USDT has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+[2024-07-23 12:47:11] SUSHIUP/USDT has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+[2024-07-23 12:47:24] MDX/USDT has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+[2024-07-23 12:58:22] WAVES/USDT has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 12:58:32] TOMO/USDT has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 12:58:33] STORM/USDT has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 12:58:50] PNT/USDT has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 12:59:14] XEM/USDT has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+[2024-07-23 12:59:15] SUSHIUP/USDT has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+[2024-07-23 12:59:30] MDX/USDT has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+[2024-07-23 13:33:12] WAVES/USDT has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 13:33:21] TOMO/USDT has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 13:33:22] STORM/USDT has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 13:33:39] PNT/USDT has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 13:34:04] XEM/USDT has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+[2024-07-23 13:34:05] SUSHIUP/USDT has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+[2024-07-23 13:34:18] MDX/USDT has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+[2024-07-23 13:35:07] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 13:35:16] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 13:35:17] STORM/USDT (BINANCE:STORMUSDT) has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 13:35:34] PNT/USDT (BINANCE:PNTUSDT) has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 13:36:04] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 13:38:21] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 13:38:29] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 13:38:31] STORM/USDT (BINANCE:STORMUSDT) has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 13:38:47] PNT/USDT (BINANCE:PNTUSDT) has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 13:40:56] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 13:41:04] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 13:41:05] STORM/USDT (BINANCE:STORMUSDT) has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 13:41:21] PNT/USDT (BINANCE:PNTUSDT) has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 13:41:48] XEM/USDT (BINANCE:XEMUSDT) has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+[2024-07-23 13:41:49] SUSHIUP/USDT (BINANCE:SUSHIUPUSDT) has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+[2024-07-23 13:42:01] MDX/USDT (BINANCE:MDXUSDT) has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+[2024-07-23 13:42:20] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 13:42:28] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 13:42:29] STORM/USDT (BINANCE:STORMUSDT) has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 13:42:47] PNT/USDT (BINANCE:PNTUSDT) has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 13:43:12] XEM/USDT (BINANCE:XEMUSDT) has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+[2024-07-23 13:43:13] SUSHIUP/USDT (BINANCE:SUSHIUPUSDT) has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+[2024-07-23 13:43:25] MDX/USDT (BINANCE:MDXUSDT) has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+[2024-07-23 13:44:29] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 13:44:38] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 4.52% in the last 10 minutes. Current price: 1.3819
+[2024-07-23 13:44:39] STORM/USDT (BINANCE:STORMUSDT) has increased by 3.69% in the last 10 minutes. Current price: 0.0034
+[2024-07-23 13:44:55] PNT/USDT (BINANCE:PNTUSDT) has increased by 56.95% in the last 10 minutes. Current price: 0.0350
+[2024-07-23 13:45:22] XEM/USDT (BINANCE:XEMUSDT) has increased by 3.91% in the last 10 minutes. Current price: 0.0160
+[2024-07-23 13:45:23] SUSHIUP/USDT (BINANCE:SUSHIUPUSDT) has increased by 3.79% in the last 10 minutes. Current price: 0.0047
+[2024-07-23 13:45:36] MDX/USDT (BINANCE:MDXUSDT) has increased by 35.88% in the last 10 minutes. Current price: 0.0345
+[2024-07-23 13:46:40] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 13:47:04] BSV/USDT (BINANCE:BSVUSDT) has increased by 2.42% in the last 10 minutes. Current price: 58.9000
+[2024-07-23 13:47:05] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 4.26% in the last 10 minutes. Current price: 1.0760
+[2024-07-23 13:47:05] BTT/USDT (BINANCE:BTTUSDT) has increased by 1.09% in the last 10 minutes. Current price: 0.0028
+[2024-07-23 13:47:07] XMR/USDT (BINANCE:XMRUSDT) has increased by 2.86% in the last 10 minutes. Current price: 118.7000
+[2024-07-23 13:47:09] NANO/USDT (BINANCE:NANOUSDT) has increased by 1.46% in the last 10 minutes. Current price: 2.2240
+[2024-07-23 13:48:04] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.07% in the last 10 minutes. Current price: 66726.0000
+[2024-07-23 13:48:09] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.07% in the last 10 minutes. Current price: 66725.9900
+[2024-07-23 13:48:14] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.05% in the last 10 minutes. Current price: 66714.0100
+[2024-07-23 13:48:20] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.05% in the last 10 minutes. Current price: 66714.0000
+[2024-07-23 13:48:25] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.05% in the last 10 minutes. Current price: 66718.5300
+[2024-07-23 13:48:30] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.07% in the last 10 minutes. Current price: 66728.9900
+[2024-07-23 13:48:35] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.07% in the last 10 minutes. Current price: 66729.0000
+[2024-07-23 13:48:41] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.07% in the last 10 minutes. Current price: 66728.9900
+[2024-07-23 13:48:46] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.07% in the last 10 minutes. Current price: 66729.0000
+[2024-07-23 13:48:51] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.07% in the last 10 minutes. Current price: 66728.9900
+[2024-07-23 13:48:57] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.07% in the last 10 minutes. Current price: 66728.9900
+[2024-07-23 13:49:13] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.02% in the last 10 minutes. Current price: 66756.0000
+[2024-07-23 13:49:18] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66748.0100
+[2024-07-23 13:49:24] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66750.0100
+[2024-07-23 13:49:29] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66759.7700
+[2024-07-23 13:49:34] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66759.8200
+[2024-07-23 13:49:39] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66759.8200
+[2024-07-23 13:49:45] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66759.8300
+[2024-07-23 13:49:50] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66759.8200
+[2024-07-23 13:49:55] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66759.8200
+[2024-07-23 13:50:00] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66752.0000
+[2024-07-23 13:50:06] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66752.0000
+[2024-07-23 13:50:11] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66752.0000
+[2024-07-23 13:50:16] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66756.0100
+[2024-07-23 13:50:22] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.04% in the last 10 minutes. Current price: 66759.8200
+[2024-07-23 13:50:27] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.04% in the last 10 minutes. Current price: 66759.8300
+[2024-07-23 13:50:32] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.02% in the last 10 minutes. Current price: 66750.0100
+[2024-07-23 13:50:53] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.00% in the last 10 minutes. Current price: 66735.9900
+[2024-07-23 13:50:58] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.02% in the last 10 minutes. Current price: 66749.0100
+[2024-07-23 13:51:04] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.07% in the last 10 minutes. Current price: 66749.0000
+[2024-07-23 13:51:09] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.07% in the last 10 minutes. Current price: 66749.0100
+[2024-07-23 13:51:14] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.05% in the last 10 minutes. Current price: 66740.6200
+[2024-07-23 13:51:20] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.05% in the last 10 minutes. Current price: 66740.6100
+[2024-07-23 13:51:25] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.07% in the last 10 minutes. Current price: 66749.0000
+[2024-07-23 13:51:30] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.07% in the last 10 minutes. Current price: 66749.6600
+[2024-07-23 13:51:35] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.07% in the last 10 minutes. Current price: 66752.4000
+[2024-07-23 13:51:40] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.07% in the last 10 minutes. Current price: 66752.3900
+[2024-07-23 13:51:46] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.08% in the last 10 minutes. Current price: 66756.9900
+[2024-07-23 13:51:51] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.08% in the last 10 minutes. Current price: 66756.9900
+[2024-07-23 13:51:56] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.08% in the last 10 minutes. Current price: 66756.9900
+[2024-07-23 13:52:01] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.08% in the last 10 minutes. Current price: 66756.9900
+[2024-07-23 13:52:07] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.07% in the last 10 minutes. Current price: 66751.0200
+[2024-07-23 13:52:12] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.07% in the last 10 minutes. Current price: 66751.0200
+[2024-07-23 13:52:17] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.04% in the last 10 minutes. Current price: 66732.1500
+[2024-07-23 13:52:23] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66724.5200
+[2024-07-23 13:52:28] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66708.0000
+[2024-07-23 13:52:33] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.00% in the last 10 minutes. Current price: 66704.0200
+[2024-07-23 13:52:38] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.00% in the last 10 minutes. Current price: 66704.0200
+[2024-07-23 13:52:44] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.00% in the last 10 minutes. Current price: 66704.0100
+[2024-07-23 13:52:49] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.00% in the last 10 minutes. Current price: 66704.0100
+[2024-07-23 13:53:05] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.05% in the last 10 minutes. Current price: 66701.3400
+[2024-07-23 13:53:10] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.05% in the last 10 minutes. Current price: 66701.3300
+[2024-07-23 13:53:15] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.05% in the last 10 minutes. Current price: 66701.3300
+[2024-07-23 13:53:20] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.04% in the last 10 minutes. Current price: 66690.0400
+[2024-07-23 13:53:25] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.02% in the last 10 minutes. Current price: 66680.0000
+[2024-07-23 13:53:31] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66688.0000
+[2024-07-23 13:53:36] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.04% in the last 10 minutes. Current price: 66694.0100
+[2024-07-23 13:53:42] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.04% in the last 10 minutes. Current price: 66694.0000
+[2024-07-23 13:53:47] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.04% in the last 10 minutes. Current price: 66694.0100
+[2024-07-23 13:53:52] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.04% in the last 10 minutes. Current price: 66694.0100
+[2024-07-23 13:53:57] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.04% in the last 10 minutes. Current price: 66694.0100
+[2024-07-23 13:54:02] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66694.0000
+[2024-07-23 13:54:08] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66694.0000
+[2024-07-23 13:54:13] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66694.0100
+[2024-07-23 13:54:18] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66694.0000
+[2024-07-23 13:54:23] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66694.0100
+[2024-07-23 13:54:29] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66705.0000
+[2024-07-23 13:54:34] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66709.0100
+[2024-07-23 13:54:39] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.05% in the last 10 minutes. Current price: 66719.9900
+[2024-07-23 13:54:44] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.05% in the last 10 minutes. Current price: 66719.9800
+[2024-07-23 13:54:50] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.05% in the last 10 minutes. Current price: 66719.9800
+[2024-07-23 13:54:55] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66710.0100
+[2024-07-23 13:55:00] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66710.0100
+[2024-07-23 13:55:05] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66719.9800
+[2024-07-23 13:55:10] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66719.9800
+[2024-07-23 13:55:16] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66731.2700
+[2024-07-23 13:55:21] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66731.2600
+[2024-07-23 13:55:27] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66731.2700
+[2024-07-23 13:55:32] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66731.2600
+[2024-07-23 13:55:37] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66731.2600
+[2024-07-23 13:55:43] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66731.2700
+[2024-07-23 13:55:48] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66731.2600
+[2024-07-23 13:55:53] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.03% in the last 10 minutes. Current price: 66731.2700
+[2024-07-23 13:56:09] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66730.0000
+[2024-07-23 13:56:14] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66731.8500
+[2024-07-23 13:56:19] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66731.8500
+[2024-07-23 13:56:24] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66735.0000
+[2024-07-23 13:56:30] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.02% in the last 10 minutes. Current price: 66739.2900
+[2024-07-23 13:56:35] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.02% in the last 10 minutes. Current price: 66739.2800
+[2024-07-23 13:56:40] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.02% in the last 10 minutes. Current price: 66739.2800
+[2024-07-23 13:56:46] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66734.2200
+[2024-07-23 13:56:51] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66734.2200
+[2024-07-23 13:56:56] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.01% in the last 10 minutes. Current price: 66734.2100
+[2024-07-23 13:57:01] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.00% in the last 10 minutes. Current price: 66730.0100
+[2024-07-23 13:57:07] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.00% in the last 10 minutes. Current price: 66730.0100
+[2024-07-23 13:57:54] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.00% in the last 10 minutes. Current price: 66731.9900
+[2024-07-23 13:57:59] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.00% in the last 10 minutes. Current price: 66732.0000
+[2024-07-23 13:58:42] BTC/USDT (BINANCE:BTCUSDT) has increased by 0.02% in the last 20 minutes. Current price: 66698.0100
+[2024-07-23 13:59:40] BCC/USDT (BINANCE:BCCUSDT) has increased by 4.93% in the last 120 minutes. Current price: 448.7000
+[2024-07-23 13:59:43] TRX/USDT (BINANCE:TRXUSDT) has increased by 0.23% in the last 120 minutes. Current price: 0.1325
+[2024-07-23 13:59:43] ETC/USDT (BINANCE:ETCUSDT) has increased by 0.45% in the last 120 minutes. Current price: 24.6800
+[2024-07-23 13:59:45] BCHABC/USDT (BINANCE:BCHABCUSDT) has increased by 0.28% in the last 120 minutes. Current price: 220.0800
+[2024-07-23 13:59:45] BSV/USDT (BINANCE:BSVUSDT) has increased by 6.61% in the last 120 minutes. Current price: 58.9000
+[2024-07-23 13:59:45] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 6.32% in the last 120 minutes. Current price: 1.0760
+[2024-07-23 13:59:46] BTT/USDT (BINANCE:BTTUSDT) has increased by 1.28% in the last 120 minutes. Current price: 0.0028
+[2024-07-23 13:59:48] XMR/USDT (BINANCE:XMRUSDT) has increased by 5.32% in the last 120 minutes. Current price: 118.7000
+[2024-07-23 13:59:49] NANO/USDT (BINANCE:NANOUSDT) has increased by 0.23% in the last 120 minutes. Current price: 2.2240
+[2024-07-23 13:59:49] OMG/USDT (BINANCE:OMGUSDT) has increased by 1.32% in the last 120 minutes. Current price: 0.3830
+[2024-07-23 13:59:50] MATIC/USDT (BINANCE:MATICUSDT) has increased by 1.44% in the last 120 minutes. Current price: 0.5507
+[2024-07-23 13:59:51] FTM/USDT (BINANCE:FTMUSDT) has increased by 0.18% in the last 120 minutes. Current price: 0.5040
+[2024-07-23 13:59:51] USDSB/USDT (BINANCE:USDSBUSDT) has increased by 0.39% in the last 120 minutes. Current price: 0.9997
+[2024-07-23 13:59:52] ANKR/USDT (BINANCE:ANKRUSDT) has increased by 0.53% in the last 120 minutes. Current price: 0.0320
+[2024-07-23 13:59:53] COCOS/USDT (BINANCE:COCOSUSDT) has increased by 2.95% in the last 120 minutes. Current price: 1.7546
+[2024-07-23 13:59:54] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 8.74% in the last 120 minutes. Current price: 1.3819
+[2024-07-23 13:59:54] MFT/USDT (BINANCE:MFTUSDT) has increased by 0.94% in the last 120 minutes. Current price: 0.0053
+[2024-07-23 13:59:55] STORM/USDT (BINANCE:STORMUSDT) has increased by 2.07% in the last 120 minutes. Current price: 0.0034
+[2024-07-23 13:59:57] REN/USDT (BINANCE:RENUSDT) has increased by 0.02% in the last 120 minutes. Current price: 0.0508
+[2024-07-23 14:00:00] MCO/USDT (BINANCE:MCOUSDT) has increased by 0.33% in the last 120 minutes. Current price: 2.7440
+[2024-07-23 14:00:08] ETHBULL/USDT (BINANCE:ETHBULLUSDT) has increased by 0.80% in the last 120 minutes. Current price: 79.1800
+[2024-07-23 14:00:09] BTS/USDT (BINANCE:BTSUSDT) has increased by 2.47% in the last 120 minutes. Current price: 0.0054
+[2024-07-23 14:00:10] EOSBEAR/USDT (BINANCE:EOSBEARUSDT) has increased by 0.37% in the last 120 minutes. Current price: 30.2100
+[2024-07-23 14:00:10] XRPBEAR/USDT (BINANCE:XRPBEARUSDT) has increased by 0.45% in the last 120 minutes. Current price: 548.5500
+[2024-07-23 14:00:12] BNBBEAR/USDT (BINANCE:BNBBEARUSDT) has increased by 1.17% in the last 120 minutes. Current price: 58.6100
+[2024-07-23 14:00:12] USDT/ZAR (BINANCE:USDTZAR) has increased by 0.11% in the last 120 minutes. Current price: 18.6700
+[2024-07-23 14:00:13] XZC/USDT (BINANCE:XZCUSDT) has increased by 2.21% in the last 120 minutes. Current price: 4.4460
+[2024-07-23 14:00:13] USDT/IDRT (BINANCE:USDTIDRT) has increased by 0.01% in the last 120 minutes. Current price: 16299.0000
+[2024-07-23 14:00:14] BTCUP/USDT (BINANCE:BTCUPUSDT) has increased by 2.05% in the last 120 minutes. Current price: 16.6000
+[2024-07-23 14:00:15] LEND/USDT (BINANCE:LENDUSDT) has increased by 1.84% in the last 120 minutes. Current price: 0.5143
+[2024-07-23 14:00:17] PNT/USDT (BINANCE:PNTUSDT) has increased by 30.11% in the last 120 minutes. Current price: 0.0350
+[2024-07-23 14:00:19] LINKUP/USDT (BINANCE:LINKUPUSDT) has increased by 0.50% in the last 120 minutes. Current price: 0.0061
+[2024-07-23 14:00:22] BNBUP/USDT (BINANCE:BNBUPUSDT) has increased by 0.02% in the last 120 minutes. Current price: 61.8000
+[2024-07-23 14:00:22] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) has increased by 14.01% in the last 120 minutes. Current price: 2.6001
+[2024-07-23 14:00:25] USDT/DAI (BINANCE:USDTDAI) has increased by 0.01% in the last 120 minutes. Current price: 1.0000
+[2024-07-23 14:00:25] CRV/USDT (BINANCE:CRVUSDT) has increased by 0.71% in the last 120 minutes. Current price: 0.2850
+[2024-07-23 14:00:26] OCEAN/USDT (BINANCE:OCEANUSDT) has increased by 1.31% in the last 120 minutes. Current price: 0.6123
+[2024-07-23 14:00:27] PAXG/USDT (BINANCE:PAXGUSDT) has increased by 0.12% in the last 120 minutes. Current price: 2403.0000
+[2024-07-23 14:00:27] WNXM/USDT (BINANCE:WNXMUSDT) has increased by 3.91% in the last 120 minutes. Current price: 73.2600
+[2024-07-23 14:00:28] BZRX/USDT (BINANCE:BZRXUSDT) has increased by 0.75% in the last 120 minutes. Current price: 0.2156
+[2024-07-23 14:00:28] YFII/USDT (BINANCE:YFIIUSDT) has increased by 0.39% in the last 120 minutes. Current price: 435.5000
+[2024-07-23 14:00:30] EOSUP/USDT (BINANCE:EOSUPUSDT) has increased by 1.29% in the last 120 minutes. Current price: 0.2113
+[2024-07-23 14:00:30] TRXUP/USDT (BINANCE:TRXUPUSDT) has increased by 0.63% in the last 120 minutes. Current price: 0.0385
+[2024-07-23 14:00:31] XRPDOWN/USDT (BINANCE:XRPDOWNUSDT) has increased by 1.20% in the last 120 minutes. Current price: 0.0001
+[2024-07-23 14:00:31] DOTUP/USDT (BINANCE:DOTUPUSDT) has increased by 1.37% in the last 120 minutes. Current price: 0.0960
+[2024-07-23 14:00:32] BEL/USDT (BINANCE:BELUSDT) has increased by 0.70% in the last 120 minutes. Current price: 0.5489
+[2024-07-23 14:00:33] LTCDOWN/USDT (BINANCE:LTCDOWNUSDT) has increased by 3.92% in the last 120 minutes. Current price: 2.2279
+[2024-07-23 14:00:33] UNI/USDT (BINANCE:UNIUSDT) has increased by 0.80% in the last 120 minutes. Current price: 7.9270
+[2024-07-23 14:00:34] AVAX/USDT (BINANCE:AVAXUSDT) has increased by 0.07% in the last 120 minutes. Current price: 30.6100
+[2024-07-23 14:00:34] HNT/USDT (BINANCE:HNTUSDT) has increased by 1.30% in the last 120 minutes. Current price: 4.6700
+[2024-07-23 14:00:34] UNIUP/USDT (BINANCE:UNIUPUSDT) has increased by 10.47% in the last 120 minutes. Current price: 1.0550
+[2024-07-23 14:00:36] USDT/BRL (BINANCE:USDTBRL) has increased by 0.04% in the last 120 minutes. Current price: 5.5860
+[2024-07-23 14:00:37] SXPDOWN/USDT (BINANCE:SXPDOWNUSDT) has increased by 1.00% in the last 120 minutes. Current price: 0.0895
+[2024-07-23 14:00:37] FILDOWN/USDT (BINANCE:FILDOWNUSDT) has increased by 0.43% in the last 120 minutes. Current price: 0.0008
+[2024-07-23 14:00:39] CTK/USDT (BINANCE:CTKUSDT) has increased by 4.11% in the last 120 minutes. Current price: 0.8302
+[2024-07-23 14:00:39] BCHDOWN/USDT (BINANCE:BCHDOWNUSDT) has increased by 1.35% in the last 120 minutes. Current price: 0.2247
+[2024-07-23 14:00:40] DNT/USDT (BINANCE:DNTUSDT) has increased by 10.77% in the last 120 minutes. Current price: 0.0360
+[2024-07-23 14:00:41] XEM/USDT (BINANCE:XEMUSDT) has increased by 3.50% in the last 120 minutes. Current price: 0.0160
+[2024-07-23 14:00:42] AAVEDOWN/USDT (BINANCE:AAVEDOWNUSDT) has increased by 2.91% in the last 120 minutes. Current price: 0.0047
+[2024-07-23 14:00:42] SUSD/USDT (BINANCE:SUSDUSDT) has increased by 0.40% in the last 120 minutes. Current price: 0.9960
+[2024-07-23 14:00:43] SUSHIDOWN/USDT (BINANCE:SUSHIDOWNUSDT) has increased by 4.59% in the last 120 minutes. Current price: 37.3700
+[2024-07-23 14:00:43] XLMUP/USDT (BINANCE:XLMUPUSDT) has increased by 1.04% in the last 120 minutes. Current price: 0.0243
+[2024-07-23 14:00:52] 1INCHDOWN/USDT (BINANCE:1INCHDOWNUSDT) has increased by 0.79% in the last 120 minutes. Current price: 0.0061
+[2024-07-23 14:00:55] MDX/USDT (BINANCE:MDXUSDT) has increased by 20.29% in the last 120 minutes. Current price: 0.0345
+[2024-07-23 14:00:57] GTC/USDT (BINANCE:GTCUSDT) has increased by 0.11% in the last 120 minutes. Current price: 0.8720
+[2024-07-23 14:00:59] BOND/USDT (BINANCE:BONDUSDT) has increased by 17.60% in the last 120 minutes. Current price: 2.1520
+[2024-07-23 14:01:00] TVK/USDT (BINANCE:TVKUSDT) has increased by 0.54% in the last 120 minutes. Current price: 0.0541
+[2024-07-23 14:01:05] POLY/USDT (BINANCE:POLYUSDT) has increased by 1.09% in the last 120 minutes. Current price: 0.2696
+[2024-07-23 14:01:09] DAR/USDT (BINANCE:DARUSDT) has increased by 0.96% in the last 120 minutes. Current price: 0.1961
+[2024-07-23 14:01:10] RGT/USDT (BINANCE:RGTUSDT) has increased by 0.49% in the last 120 minutes. Current price: 14.4400
+[2024-07-23 14:01:10] ENS/USDT (BINANCE:ENSUSDT) has increased by 1.82% in the last 120 minutes. Current price: 30.1400
+[2024-07-23 14:01:12] PLA/USDT (BINANCE:PLAUSDT) has increased by 1.65% in the last 120 minutes. Current price: 0.2347
+[2024-07-23 14:01:13] RNDR/USDT (BINANCE:RNDRUSDT) has increased by 1.34% in the last 120 minutes. Current price: 7.0300
+[2024-07-23 14:01:13] MC/USDT (BINANCE:MCUSDT) has increased by 0.91% in the last 120 minutes. Current price: 0.4861
+[2024-07-23 14:01:14] ANY/USDT (BINANCE:ANYUSDT) has increased by 1.57% in the last 120 minutes. Current price: 12.3000
+[2024-07-23 14:01:15] CVX/USDT (BINANCE:CVXUSDT) has increased by 2.02% in the last 120 minutes. Current price: 2.7260
+[2024-07-23 14:01:16] JOE/USDT (BINANCE:JOEUSDT) has increased by 0.74% in the last 120 minutes. Current price: 0.3934
+[2024-07-23 14:01:18] BTTC/USDT (BINANCE:BTTCUSDT) has increased by 1.15% in the last 120 minutes. Current price: 0.0000
+[2024-07-23 14:01:22] GAL/USDT (BINANCE:GALUSDT) has increased by 0.71% in the last 120 minutes. Current price: 2.5420
+[2024-07-23 14:01:26] RPL/USDT (BINANCE:RPLUSDT) has increased by 0.16% in the last 120 minutes. Current price: 18.5900
+[2024-07-23 14:01:27] AGIX/USDT (BINANCE:AGIXUSDT) has increased by 1.66% in the last 120 minutes. Current price: 0.6141
+[2024-07-23 14:01:27] GNS/USDT (BINANCE:GNSUSDT) has increased by 0.46% in the last 120 minutes. Current price: 3.4690
+[2024-07-23 14:01:28] BETH/USDT (BINANCE:BETHUSDT) has increased by 0.14% in the last 120 minutes. Current price: 1556.2700
+[2024-07-23 14:01:30] LOOM/USDT (BINANCE:LOOMUSDT) has increased by 0.18% in the last 120 minutes. Current price: 0.0656
+[2024-07-23 14:01:31] USDT/PLN (BINANCE:USDTPLN) has increased by 0.03% in the last 120 minutes. Current price: 3.9480
