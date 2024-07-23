@@ -6,7 +6,152 @@ import time
 from datetime import datetime
 import pytz
 import re
-from concurrent.futures import ThreadPoolExecutor, as_completed
+import threading
+
+# Define detection functions for candlestick patterns
+
+def is_evening_star(candles):
+    if len(candles) != 3:
+        return False
+
+    first_candle, second_candle, third_candle = candles
+    first_open, first_close = first_candle[1], first_candle[4]
+    second_open, second_close = second_candle[1], second_candle[4]
+    third_open, third_close = third_candle[1], third_candle[4]
+
+    # Check pattern criteria
+    return (
+        first_close > first_open and
+        abs(second_close - second_open) < abs(first_open - first_close) / 2 and
+        third_close < third_open and
+        abs(third_close - third_open) > abs(first_open - first_close) / 2 and
+        third_close < first_open and
+        third_close > first_close
+    )
+
+def is_morning_star(candles):
+    if len(candles) != 3:
+        return False
+
+    first_candle, second_candle, third_candle = candles
+    first_open, first_close = first_candle[1], first_candle[4]
+    second_open, second_close = second_candle[1], second_candle[4]
+    third_open, third_close = third_candle[1], third_candle[4]
+
+    # Check pattern criteria
+    return (
+        first_close < first_open and
+        abs(second_close - second_open) < abs(first_open - first_close) / 2 and
+        third_close > third_open and
+        abs(third_close - third_open) > abs(first_open - first_close) / 2 and
+        third_close > first_open and
+        third_close < first_close
+    )
+
+def is_bullish_engulfing(candles):
+    if len(candles) != 2:
+        return False
+
+    first_candle, second_candle = candles
+    first_open, first_close = first_candle[1], first_candle[4]
+    second_open, second_close = second_candle[1], second_candle[4]
+
+    return (
+        first_close < first_open and
+        second_close > second_open and
+        second_close > first_open and
+        second_open < first_close
+    )
+
+def is_bearish_engulfing(candles):
+    if len(candles) != 2:
+        return False
+
+    first_candle, second_candle = candles
+    first_open, first_close = first_candle[1], first_candle[4]
+    second_open, second_close = second_candle[1], second_candle[4]
+
+    return (
+        first_close > first_open and
+        second_close < second_open and
+        second_close < first_open and
+        second_open > first_close
+    )
+
+def is_doji(candle):
+    open_price, close_price = candle[1], candle[4]
+    return abs(open_price - close_price) / (candle[2] - candle[3]) < 0.1
+
+def is_hammer(candle):
+    open_price, close_price, high_price, low_price = candle[1], candle[4], candle[2], candle[3]
+    return (close_price > open_price and
+            (high_price - max(open_price, close_price)) < 0.25 * (high_price - low_price) and
+            (min(open_price, close_price) - low_price) > 2 * (high_price - close_price))
+
+def is_hanging_man(candle):
+    open_price, close_price, high_price, low_price = candle[1], candle[4], candle[2], candle[3]
+    return (close_price < open_price and
+            (high_price - max(open_price, close_price)) < 0.25 * (high_price - low_price) and
+            (min(open_price, close_price) - low_price) > 2 * (high_price - close_price))
+
+def is_inverted_hammer(candle):
+    open_price, close_price, high_price, low_price = candle[1], candle[4], candle[2], candle[3]
+    return (close_price > open_price and
+            (high_price - max(open_price, close_price)) < 0.25 * (high_price - low_price) and
+            (min(open_price, close_price) - low_price) < 0.5 * (high_price - low_price))
+
+def is_dark_cloud_cover(candles):
+    if len(candles) != 2:
+        return False
+
+    first_candle, second_candle = candles
+    first_open, first_close = first_candle[1], first_candle[4]
+    second_open, second_close = second_candle[1], second_candle[4]
+
+    return (
+        first_close > first_open and
+        second_close < second_open and
+        second_close < (first_open + first_close) / 2 and
+        second_open > first_close
+    )
+
+def is_three_white_soldiers(candles):
+    if len(candles) != 3:
+        return False
+
+    c1, c2, c3 = candles
+    return (c1[1] < c1[4] and c2[1] < c2[4] and c3[1] < c3[4] and
+            c1[1] < c2[1] < c3[1] and c1[4] < c2[4] < c3[4])
+
+def is_three_black_crows(candles):
+    if len(candles) != 3:
+        return False
+
+    c1, c2, c3 = candles
+    return (c1[1] > c1[4] and c2[1] > c2[4] and c3[1] > c3[4] and
+            c1[1] > c2[1] > c3[1] and c1[4] > c2[4] > c3[4])
+
+def is_rising_three_methods(candles):
+    if len(candles) < 5:
+        return False
+
+    c1, c2, c3, c4, c5 = candles
+    return (c1[1] < c1[4] and
+            c2[1] < c2[4] and c3[1] < c3[4] and
+            c4[1] < c4[4] and c5[1] < c5[4] and
+            c2[1] > c1[4] and c4[4] > c3[4] and
+            c5[4] > c1[4])
+
+def is_falling_three_methods(candles):
+    if len(candles) < 5:
+        return False
+
+    c1, c2, c3, c4, c5 = candles
+    return (c1[1] > c1[4] and
+            c2[1] > c2[4] and c3[1] > c3[4] and
+            c4[1] > c4[4] and c5[1] > c5[4] and
+            c2[4] < c1[1] and c4[1] < c3[4] and
+            c5[4] < c1[4])
 
 def fetch_markets(exchange, filter_assets):
     try:
@@ -26,347 +171,171 @@ def fetch_ohlcv(exchange, symbol, timeframe, limit):
         print(f"Error fetching OHLCV data for {symbol}: {str(e)}")
         return []
 
+def format_candle_time(timestamp):
+    return datetime.utcfromtimestamp(timestamp / 1000).strftime('%Y-%m-%d %H:%M:%S')
+
 def calculate_percentage_evolution(open_price, close_price):
+    if open_price == 0:
+        return 0
     return ((close_price - open_price) / open_price) * 100
-
-def format_candle_time(candle):
-    return datetime.fromtimestamp(candle[0] / 1000, tz=pytz.utc).strftime('%Y-%m-%d %H:%M:%S')
-
-def is_tradable(exchange, symbol):
-    try:
-        ticker = exchange.fetch_ticker(symbol)
-        return ticker.get('ask') is not None
-    except Exception as e:
-        print(f"Error checking tradability for {symbol}: {str(e)}")
-        return False
-
-def is_evening_star(candles):
-    if len(candles) != 3:
-        return False
-
-    first_candle, second_candle, third_candle = candles
-
-    first_open = first_candle[1]
-    first_close = first_candle[4]
-    second_open = second_candle[1]
-    second_close = second_candle[4]
-    third_open = third_candle[1]
-    third_close = third_candle[4]
-
-    if first_close <= first_open:
-        return False
-
-    if abs(second_close - second_open) >= abs(first_open - first_close) / 2:
-        return False
-
-    if third_close >= third_open or abs(third_close - third_open) <= abs(first_open - first_close) / 2:
-        return False
-
-    if third_close >= first_open or third_close <= first_close:
-        return False
-
-    return True
-
-def is_morning_star(candles):
-    if len(candles) != 3:
-        return False
-
-    first_candle, second_candle, third_candle = candles
-
-    first_open = first_candle[1]
-    first_close = first_candle[4]
-    second_open = second_candle[1]
-    second_close = second_candle[4]
-    third_open = third_candle[1]
-    third_close = third_candle[4]
-
-    if first_close >= first_open:
-        return False
-
-    if abs(second_close - second_open) >= abs(first_open - first_close) / 2:
-        return False
-
-    if third_close <= third_open or abs(third_close - third_open) <= abs(first_open - first_close) / 2:
-        return False
-
-    if third_close <= first_open or third_close >= first_close:
-        return False
-
-    return True
-
-def is_bullish_engulfing(candles):
-    if len(candles) != 2:
-        return False
-
-    first_candle, second_candle = candles
-
-    first_open = first_candle[1]
-    first_close = first_candle[4]
-    second_open = second_candle[1]
-    second_close = second_candle[4]
-
-    return (second_open < first_close and second_close > first_open) and (second_open < second_close)
-
-def is_bearish_engulfing(candles):
-    if len(candles) != 2:
-        return False
-
-    first_candle, second_candle = candles
-
-    first_open = first_candle[1]
-    first_close = first_candle[4]
-    second_open = second_candle[1]
-    second_close = second_candle[4]
-
-    return (second_open > first_close and second_close < first_open) and (second_open > second_close)
-
-def is_dark_cloud_cover(candles):
-    if len(candles) != 2:
-        return False
-
-    first_candle, second_candle = candles
-
-    first_open = first_candle[1]
-    first_close = first_candle[4]
-    second_open = second_candle[1]
-    second_close = second_candle[4]
-
-    return (second_close < second_open and second_close > first_open and second_open > first_close)
-
-def is_three_white_soldiers(candles):
-    if len(candles) != 3:
-        return False
-
-    first_candle, second_candle, third_candle = candles
-
-    return (first_candle[4] > first_candle[1] and
-            second_candle[4] > second_candle[1] and
-            third_candle[4] > third_candle[1] and
-            third_candle[1] > second_candle[4] and
-            second_candle[1] > first_candle[4])
-
-def is_three_black_crows(candles):
-    if len(candles) != 3:
-        return False
-
-    first_candle, second_candle, third_candle = candles
-
-    return (first_candle[4] < first_candle[1] and
-            second_candle[4] < second_candle[1] and
-            third_candle[4] < third_candle[1] and
-            third_candle[1] < second_candle[4] and
-            second_candle[1] < first_candle[4])
-
-def is_rising_three_methods(candles):
-    if len(candles) != 5:
-        return False
-
-    first_candle, *middle_candles, last_candle = candles
-
-    if not (first_candle[4] > first_candle[1] and last_candle[4] > last_candle[1]):
-        return False
-
-    if any(c[4] <= c[1] for c in middle_candles):
-        return False
-
-    return last_candle[4] > first_candle[4]
-
-def is_falling_three_methods(candles):
-    if len(candles) != 5:
-        return False
-
-    first_candle, *middle_candles, last_candle = candles
-
-    if not (first_candle[4] < first_candle[1] and last_candle[4] < last_candle[1]):
-        return False
-
-    if any(c[4] >= c[1] for c in middle_candles):
-        return False
-
-    return last_candle[4] < first_candle[4]
-
-def is_doji(candle):
-    open_price = candle[1]
-    close_price = candle[4]
-    return abs(open_price - close_price) <= (candle[2] - candle[3]) * 0.1
-
-def is_hammer(candle):
-    open_price = candle[1]
-    close_price = candle[4]
-    low = candle[3]
-    high = candle[2]
-
-    body_length = abs(open_price - close_price)
-    lower_shadow = open_price - low if open_price < close_price else close_price - low
-    upper_shadow = high - open_price if open_price > close_price else high - close_price
-
-    return (body_length <= lower_shadow * 0.3) and (upper_shadow <= body_length * 0.3)
-
-def is_hanging_man(candle):
-    open_price = candle[1]
-    close_price = candle[4]
-    low = candle[3]
-    high = candle[2]
-
-    body_length = abs(open_price - close_price)
-    lower_shadow = open_price - low if open_price < close_price else close_price - low
-    upper_shadow = high - open_price if open_price > close_price else high - close_price
-
-    return (body_length <= lower_shadow * 0.3) and (upper_shadow >= body_length * 0.6)
-
-def is_inverted_hammer(candle):
-    open_price = candle[1]
-    close_price = candle[4]
-    low = candle[3]
-    high = candle[2]
-
-    body_length = abs(open_price - close_price)
-    lower_shadow = open_price - low if open_price < close_price else close_price - low
-    upper_shadow = high - open_price if open_price > close_price else high - close_price
-
-    return (body_length <= upper_shadow * 0.3) and (lower_shadow <= body_length * 0.3)
 
 def analyze_symbol(exchange, symbol, timeframe, output_file):
     try:
-        if not is_tradable(exchange, symbol):
-            return
-
-        ohlcv = fetch_ohlcv(exchange, symbol, timeframe, 4)  # Fetch last 4 candles
+        ohlcv = fetch_ohlcv(exchange, symbol, timeframe, 4)
         if len(ohlcv) < 4:
-            print(f"Not enough data for {symbol}.")
             return
-
-        last_candle = ohlcv[-1]
-        candles = ohlcv[-4:]  # Get the last 4 candles for pattern detection
+        
+        completed_candles = ohlcv[:-1]  # Exclude the current incomplete candle
+        last_candle = ohlcv[-1]  # Current incomplete candle
 
         pattern_detected = False
         pattern_type = None
+        confirmation_message = ""
 
-        if is_evening_star(candles):
+        if is_evening_star(completed_candles):
             pattern_detected = True
             pattern_type = "Evening Star"
-        elif is_morning_star(candles):
+            if last_candle[4] < completed_candles[-1][1]:
+                confirmation_message = "Pattern confirmation: Current candle confirms the Evening Star pattern."
+            else:
+                return
+        elif is_morning_star(completed_candles):
             pattern_detected = True
             pattern_type = "Morning Star"
-        elif is_bullish_engulfing(candles[-2:]):
+            if last_candle[4] > completed_candles[-1][1]:
+                confirmation_message = "Pattern confirmation: Current candle confirms the Morning Star pattern."
+            else:
+                return
+        elif is_bullish_engulfing(completed_candles):
             pattern_detected = True
             pattern_type = "Bullish Engulfing"
-        elif is_bearish_engulfing(candles[-2:]):
+            if last_candle[4] > last_candle[1]:
+                confirmation_message = "Pattern confirmation: Current candle confirms the Bullish Engulfing pattern."
+            else:
+                return
+        elif is_bearish_engulfing(completed_candles):
             pattern_detected = True
             pattern_type = "Bearish Engulfing"
-        elif is_dark_cloud_cover(candles[-2:]):
-            pattern_detected = True
-            pattern_type = "Dark Cloud Cover"
-        elif is_three_white_soldiers(candles):
-            pattern_detected = True
-            pattern_type = "Three White Soldiers"
-        elif is_three_black_crows(candles):
-            pattern_detected = True
-            pattern_type = "Three Black Crows"
-        elif is_rising_three_methods(candles):
-            pattern_detected = True
-            pattern_type = "Rising Three Methods"
-        elif is_falling_three_methods(candles):
-            pattern_detected = True
-            pattern_type = "Falling Three Methods"
+            if last_candle[4] < last_candle[1]:
+                confirmation_message = "Pattern confirmation: Current candle confirms the Bearish Engulfing pattern."
+            else:
+                return
         elif is_doji(last_candle):
             pattern_detected = True
             pattern_type = "Doji"
+            if last_candle[4] < last_candle[1]:
+                confirmation_message = "Pattern confirmation: Current candle confirms the Doji pattern."
+            else:
+                return
         elif is_hammer(last_candle):
             pattern_detected = True
             pattern_type = "Hammer"
+            if last_candle[4] > last_candle[1]:
+                confirmation_message = "Pattern confirmation: Current candle confirms the Hammer pattern."
+            else:
+                return
         elif is_hanging_man(last_candle):
             pattern_detected = True
             pattern_type = "Hanging Man"
+            if last_candle[4] < last_candle[1]:
+                confirmation_message = "Pattern confirmation: Current candle confirms the Hanging Man pattern."
+            else:
+                return
         elif is_inverted_hammer(last_candle):
             pattern_detected = True
             pattern_type = "Inverted Hammer"
+            if last_candle[4] > last_candle[1]:
+                confirmation_message = "Pattern confirmation: Current candle confirms the Inverted Hammer pattern."
+            else:
+                return
+        elif is_dark_cloud_cover(completed_candles):
+            pattern_detected = True
+            pattern_type = "Dark Cloud Cover"
+            if last_candle[4] < completed_candles[-1][1]:
+                confirmation_message = "Pattern confirmation: Current candle confirms the Dark Cloud Cover pattern."
+            else:
+                return
+        elif is_three_white_soldiers(completed_candles):
+            pattern_detected = True
+            pattern_type = "Three White Soldiers"
+            if last_candle[4] > last_candle[1]:
+                confirmation_message = "Pattern confirmation: Current candle confirms the Three White Soldiers pattern."
+            else:
+                return
+        elif is_three_black_crows(completed_candles):
+            pattern_detected = True
+            pattern_type = "Three Black Crows"
+            if last_candle[4] < last_candle[1]:
+                confirmation_message = "Pattern confirmation: Current candle confirms the Three Black Crows pattern."
+            else:
+                return
+        elif is_rising_three_methods(completed_candles):
+            pattern_detected = True
+            pattern_type = "Rising Three Methods"
+            if last_candle[4] > last_candle[1]:
+                confirmation_message = "Pattern confirmation: Current candle confirms the Rising Three Methods pattern."
+            else:
+                return
+        elif is_falling_three_methods(completed_candles):
+            pattern_detected = True
+            pattern_type = "Falling Three Methods"
+            if last_candle[4] < last_candle[1]:
+                confirmation_message = "Pattern confirmation: Current candle confirms the Falling Three Methods pattern."
+            else:
+                return
 
         if pattern_detected:
-            current_price = exchange.fetch_ticker(symbol)['last']
+            current_time = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
             open_price = last_candle[1]
             close_price = last_candle[4]
             evolution = calculate_percentage_evolution(open_price, close_price)
-
-            confirmation_message = ""
-            if pattern_type in ["Three Black Crows", "Falling Three Methods"]:
-                if close_price < open_price:
-                    confirmation_message = "Pattern confirmation: Current candle confirms the pattern."
-                else:
-                    confirmation_message = "Pattern confirmation: Current candle does not confirm the pattern."
-            elif pattern_type in ["Three White Soldiers", "Rising Three Methods"]:
-                if close_price > open_price:
-                    confirmation_message = "Pattern confirmation: Current candle confirms the pattern."
-                else:
-                    confirmation_message = "Pattern confirmation: Current candle does not confirm the pattern."
-            elif pattern_type in ["Doji", "Hammer", "Hanging Man", "Inverted Hammer"]:
-                if (pattern_type == "Doji" and is_doji(last_candle)) or \
-                   (pattern_type == "Hammer" and is_hammer(last_candle)) or \
-                   (pattern_type == "Hanging Man" and is_hanging_man(last_candle)) or \
-                   (pattern_type == "Inverted Hammer" and is_inverted_hammer(last_candle)):
-                    confirmation_message = f"Pattern confirmation: Current candle confirms the {pattern_type} pattern."
-                else:
-                    confirmation_message = f"Pattern confirmation: Current candle does not confirm the {pattern_type} pattern."
-
             result = (
-                f"[{datetime.now(pytz.utc).strftime('%Y-%m-%d %H:%M:%S')}] {symbol} (BINANCE:{symbol.replace('/', '')}) "
-                f"Timeframe: {timeframe}, Number of candles: {len(ohlcv)}, "
-                f"Pattern detected: {pattern_type}\n"
-                f"Detected on candle:\n"
-                f"  1. {format_candle_time(ohlcv[-1])}\n"
-                f"Current price: {current_price:.4f}, Current candle evolution: {evolution:.2f}%\n"
-                f"{confirmation_message}\n"
+                f"[{current_time}] {symbol} (BINANCE:{symbol.replace('/', '')}) "
+                f"Timeframe: {timeframe}, Number of candles: {len(ohlcv)}, Pattern detected: {pattern_type}\n"
+                f"Detected on candle: {format_candle_time(completed_candles[-1][0])}\n"
+                f"Current price: {close_price:.4f}, Current candle evolution: {evolution:.2f}%\n"
+                f"{confirmation_message}\n\n"  # Added an extra newline here
             )
             print(result.strip())
             with open(output_file, 'a') as f:
-                f.write(result + "\n")
-
+                f.write(result)
     except Exception as e:
         print(f"Error analyzing symbol {symbol}: {str(e)}")
 
+def worker(exchange, symbols, timeframe, output_file):
+    for symbol in symbols:
+        analyze_symbol(exchange, symbol, timeframe, output_file)
+
 def main():
-    parser = argparse.ArgumentParser(description='Scan assets for various candlestick patterns.')
-    parser.add_argument('--interval', type=int, default=600, help='Interval between scans in seconds.')
-    parser.add_argument('--output', type=str, default='scan_results.txt', help='Output file for results.')
-    parser.add_argument('--filter', type=str, default='*USDT', help='Filter pattern for symbols to scan (e.g., *USDT to scan only USDT pairs).')
-    parser.add_argument('--timeframe', type=str, default='15m', help='Timeframe to scan (e.g., 1m, 5m, 15m, 1h).')
-    parser.add_argument('--list-timeframes', action='store_true', help='List available timeframes and exit.')
-    parser.add_argument('--threads', type=int, default=20, help='Number of threads to use for scanning.')
+    parser = argparse.ArgumentParser(description='Scan for candlestick patterns.')
+    parser.add_argument('--timeframe', type=str, required=True, help='Timeframe for the candlestick analysis')
     args = parser.parse_args()
 
-    exchange_name = "binance"  # Change to your exchange
-    filter_pattern = args.filter
     timeframe = args.timeframe
-    interval = args.interval
-    output_file = args.output
-    num_threads = args.threads
+    output_file = f"scan_results_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt"
 
-    exchange = getattr(ccxt, exchange_name)()
+    # Fetch and process symbols
+    exchange = ccxt.binance({
+        'rateLimit': 1200,
+        'enableRateLimit': True,
+    })
 
-    if args.list_timeframes:
-        print("Available timeframes:", ', '.join(exchange.timeframes))
-        sys.exit(0)
-
-    print("Fetching markets...")
+    filter_pattern = '*'
     symbols = fetch_markets(exchange, filter_pattern)
-    if not symbols:
-        print(f"No symbols found for filter pattern {filter_pattern} in the spot market. Exiting.")
-        sys.exit(-1)
+    num_threads = 20
+    chunk_size = len(symbols) // num_threads + 1
 
-    print(f"Number of symbols to be tracked: {len(symbols)}")
+    threads = []
+    for i in range(num_threads):
+        start = i * chunk_size
+        end = start + chunk_size
+        symbols_chunk = symbols[start:end]
+        thread = threading.Thread(target=worker, args=(exchange, symbols_chunk, timeframe, output_file))
+        threads.append(thread)
+        thread.start()
 
-    while True:
-        with ThreadPoolExecutor(max_workers=num_threads) as executor:
-            futures = {executor.submit(analyze_symbol, exchange, symbol, timeframe, output_file): symbol for symbol in symbols}
-            for future in as_completed(futures):
-                symbol = futures[future]
-                try:
-                    future.result()
-                except Exception as e:
-                    print(f"Error processing symbol {symbol}: {str(e)}")
-        
-        print(f"Waiting for {interval} seconds before the next scan...")
-        time.sleep(interval)
+    for thread in threads:
+        thread.join()
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
