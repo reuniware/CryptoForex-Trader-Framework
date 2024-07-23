@@ -1,0 +1,87 @@
+[2024-07-23 14:06:44] BCC/USDT (BINANCE:BCCUSDT) has increased by 4.93% in the last 120 minutes. Current price: 448.7000
+[2024-07-23 14:06:47] TRX/USDT (BINANCE:TRXUSDT) has increased by 0.15% in the last 120 minutes. Current price: 0.1325
+[2024-07-23 14:06:47] ETC/USDT (BINANCE:ETCUSDT) has increased by 0.65% in the last 120 minutes. Current price: 24.7300
+[2024-07-23 14:06:49] BCHABC/USDT (BINANCE:BCHABCUSDT) has increased by 0.28% in the last 120 minutes. Current price: 220.0800
+[2024-07-23 14:06:49] BSV/USDT (BINANCE:BSVUSDT) has increased by 6.61% in the last 120 minutes. Current price: 58.9000
+[2024-07-23 14:06:49] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 6.32% in the last 120 minutes. Current price: 1.0760
+[2024-07-23 14:06:50] BTT/USDT (BINANCE:BTTUSDT) has increased by 1.28% in the last 120 minutes. Current price: 0.0028
+[2024-07-23 14:06:51] XMR/USDT (BINANCE:XMRUSDT) has increased by 5.32% in the last 120 minutes. Current price: 118.7000
+[2024-07-23 14:07:08] BSV/USDT (BINANCE:BSVUSDT) has increased by 6.61% in the last 120 minutes. Current price: 58.9000
+[2024-07-23 14:07:09] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 6.32% in the last 120 minutes. Current price: 1.0760
+[2024-07-23 14:07:11] XMR/USDT (BINANCE:XMRUSDT) has increased by 5.32% in the last 120 minutes. Current price: 118.7000
+[2024-07-23 14:07:18] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 8.74% in the last 120 minutes. Current price: 1.3819
+[2024-07-23 14:07:37] PNT/USDT (BINANCE:PNTUSDT) has increased by 30.11% in the last 120 minutes. Current price: 0.0350
+[2024-07-23 14:07:43] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) has increased by 14.01% in the last 120 minutes. Current price: 2.6001
+[2024-07-23 14:07:55] UNIUP/USDT (BINANCE:UNIUPUSDT) has increased by 10.47% in the last 120 minutes. Current price: 1.0550
+[2024-07-23 14:08:00] DNT/USDT (BINANCE:DNTUSDT) has increased by 10.77% in the last 120 minutes. Current price: 0.0360
+[2024-07-23 14:08:16] MDX/USDT (BINANCE:MDXUSDT) has increased by 20.29% in the last 120 minutes. Current price: 0.0345
+[2024-07-23 14:08:19] BOND/USDT (BINANCE:BONDUSDT) has increased by 17.60% in the last 120 minutes. Current price: 2.1520
+[2024-07-23 14:09:20] BSV/USDT (BINANCE:BSVUSDT) has increased by 6.61% in the last 120 minutes. Current price: 58.9000
+[2024-07-23 14:09:21] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 6.32% in the last 120 minutes. Current price: 1.0760
+[2024-07-23 14:09:23] XMR/USDT (BINANCE:XMRUSDT) has increased by 5.32% in the last 120 minutes. Current price: 118.7000
+[2024-07-23 14:09:29] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 8.74% in the last 120 minutes. Current price: 1.3819
+[2024-07-23 14:09:46] PNT/USDT (BINANCE:PNTUSDT) has increased by 30.11% in the last 120 minutes. Current price: 0.0350
+[2024-07-23 14:09:52] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) has increased by 14.01% in the last 120 minutes. Current price: 2.6001
+[2024-07-23 14:10:06] UNIUP/USDT (BINANCE:UNIUPUSDT) has increased by 10.47% in the last 120 minutes. Current price: 1.0550
+[2024-07-23 14:10:10] CTK/USDT (BINANCE:CTKUSDT) has increased by 6.41% in the last 120 minutes. Current price: 0.8446
+[2024-07-23 14:10:11] DNT/USDT (BINANCE:DNTUSDT) has increased by 10.77% in the last 120 minutes. Current price: 0.0360
+[2024-07-23 14:10:26] MDX/USDT (BINANCE:MDXUSDT) has increased by 20.29% in the last 120 minutes. Current price: 0.0345
+[2024-07-23 14:10:29] BOND/USDT (BINANCE:BONDUSDT) has increased by 17.60% in the last 120 minutes. Current price: 2.1520
+[2024-07-23 14:11:29] BSV/USDT (BINANCE:BSVUSDT) has increased by 6.61% in the last 120 minutes. Current price: 58.9000
+[2024-07-23 14:11:30] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 6.32% in the last 120 minutes. Current price: 1.0760
+[2024-07-23 14:11:32] XMR/USDT (BINANCE:XMRUSDT) has increased by 5.32% in the last 120 minutes. Current price: 118.7000
+[2024-07-23 14:11:38] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 8.74% in the last 120 minutes. Current price: 1.3819
+[2024-07-23 14:11:55] PNT/USDT (BINANCE:PNTUSDT) has increased by 30.11% in the last 120 minutes. Current price: 0.0350
+[2024-07-23 14:12:02] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) has increased by 14.01% in the last 120 minutes. Current price: 2.6001
+[2024-07-23 14:12:14] UNIUP/USDT (BINANCE:UNIUPUSDT) has increased by 10.47% in the last 120 minutes. Current price: 1.0550
+[2024-07-23 14:12:18] CTK/USDT (BINANCE:CTKUSDT) has increased by 6.18% in the last 120 minutes. Current price: 0.8400
+[2024-07-23 14:12:20] DNT/USDT (BINANCE:DNTUSDT) has increased by 10.77% in the last 120 minutes. Current price: 0.0360
+[2024-07-23 14:12:34] MDX/USDT (BINANCE:MDXUSDT) has increased by 20.29% in the last 120 minutes. Current price: 0.0345
+[2024-07-23 14:12:37] BOND/USDT (BINANCE:BONDUSDT) has increased by 17.60% in the last 120 minutes. Current price: 2.1520
+[2024-07-23 14:13:38] BSV/USDT (BINANCE:BSVUSDT) has increased by 6.61% in the last 120 minutes. Current price: 58.9000
+[2024-07-23 14:13:39] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 6.32% in the last 120 minutes. Current price: 1.0760
+[2024-07-23 14:13:41] XMR/USDT (BINANCE:XMRUSDT) has increased by 5.32% in the last 120 minutes. Current price: 118.7000
+[2024-07-23 14:13:48] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 8.74% in the last 120 minutes. Current price: 1.3819
+[2024-07-23 14:14:48] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 10.91% in the last 240 minutes. Current price: 1.3819
+[2024-07-23 14:15:09] PNT/USDT (BINANCE:PNTUSDT) has increased by 20.27% in the last 240 minutes. Current price: 0.0350
+[2024-07-23 14:15:27] UNIUP/USDT (BINANCE:UNIUPUSDT) has increased by 15.43% in the last 240 minutes. Current price: 1.0550
+[2024-07-23 14:15:49] MDX/USDT (BINANCE:MDXUSDT) has increased by 12.63% in the last 240 minutes. Current price: 0.0345
+[2024-07-23 14:15:52] BOND/USDT (BINANCE:BONDUSDT) has increased by 19.56% in the last 240 minutes. Current price: 2.1520
+[2024-07-23 14:16:40] REZ/USDT (BINANCE:REZUSDT) has increased by 12.54% in the last 240 minutes. Current price: 0.0772
+[2024-07-23 14:17:02] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 10.91% in the last 240 minutes. Current price: 1.3819
+[2024-07-23 14:17:20] PNT/USDT (BINANCE:PNTUSDT) has increased by 20.27% in the last 240 minutes. Current price: 0.0350
+[2024-07-23 14:17:39] UNIUP/USDT (BINANCE:UNIUPUSDT) has increased by 15.43% in the last 240 minutes. Current price: 1.0550
+[2024-07-23 14:17:59] MDX/USDT (BINANCE:MDXUSDT) has increased by 12.63% in the last 240 minutes. Current price: 0.0345
+[2024-07-23 14:18:02] BOND/USDT (BINANCE:BONDUSDT) has increased by 19.56% in the last 240 minutes. Current price: 2.1520
+[2024-07-23 14:18:50] REZ/USDT (BINANCE:REZUSDT) has increased by 12.66% in the last 240 minutes. Current price: 0.0774
+[2024-07-23 14:19:12] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 10.91% in the last 240 minutes. Current price: 1.3819
+[2024-07-23 14:19:31] PNT/USDT (BINANCE:PNTUSDT) has increased by 20.27% in the last 240 minutes. Current price: 0.0350
+[2024-07-23 14:19:49] UNIUP/USDT (BINANCE:UNIUPUSDT) has increased by 15.43% in the last 240 minutes. Current price: 1.0550
+[2024-07-23 14:20:12] MDX/USDT (BINANCE:MDXUSDT) has increased by 12.63% in the last 240 minutes. Current price: 0.0345
+[2024-07-23 14:20:15] BOND/USDT (BINANCE:BONDUSDT) has increased by 19.56% in the last 240 minutes. Current price: 2.1520
+[2024-07-23 14:21:03] REZ/USDT (BINANCE:REZUSDT) has increased by 13.12% in the last 240 minutes. Current price: 0.0776
+[2024-07-23 14:21:25] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 10.91% in the last 240 minutes. Current price: 1.3819
+[2024-07-23 14:21:43] PNT/USDT (BINANCE:PNTUSDT) has increased by 20.27% in the last 240 minutes. Current price: 0.0350
+[2024-07-23 14:23:17] GBP/USDT (BINANCE:GBPUSDT) has 3 green candlesticks followed by 1 red candlestick in the last 60 minutes (15m timeframe).
+[2024-07-23 14:24:08] RNDR/USDT (BINANCE:RNDRUSDT) has 3 green candlesticks followed by 1 red candlestick in the last 60 minutes (15m timeframe).
+[2024-07-23 14:24:26] USDT/RON (BINANCE:USDTRON) has 3 green candlesticks followed by 1 red candlestick in the last 60 minutes (15m timeframe).
+[2024-07-23 14:24:42] BANANA/USDT (BINANCE:BANANAUSDT) has 3 green candlesticks followed by 1 red candlestick in the last 60 minutes (15m timeframe).
+[2024-07-23 14:31:38] GBP/USDT (BINANCE:GBPUSDT) has 3 green candlesticks followed by 1 red candlestick in the last 60 minutes (15m timeframe).
+[2024-07-23 14:32:29] RNDR/USDT (BINANCE:RNDRUSDT) has 3 green candlesticks followed by 1 red candlestick in the last 60 minutes (15m timeframe).
+[2024-07-23 14:36:23] BTC/USDT (BINANCE:BTCUSDT) has a current candlestick that is red in the 15m timeframe.
+[2024-07-23 14:36:23] ETH/USDT (BINANCE:ETHUSDT) has a current candlestick that is green in the 15m timeframe.
+[2024-07-23 14:36:23] BNB/USDT (BINANCE:BNBUSDT) has a current candlestick that is green in the 15m timeframe.
+[2024-07-23 14:36:23] NEO/USDT (BINANCE:NEOUSDT) has a current candlestick that is green in the 15m timeframe.
+[2024-07-23 14:36:24] LTC/USDT (BINANCE:LTCUSDT) has a current candlestick that is green in the 15m timeframe.
+[2024-07-23 14:36:24] QTUM/USDT (BINANCE:QTUMUSDT) has a current candlestick that is green in the 15m timeframe.
+[2024-07-23 14:36:24] ADA/USDT (BINANCE:ADAUSDT) has a current candlestick that is green in the 15m timeframe.
+[2024-07-23 14:36:24] XRP/USDT (BINANCE:XRPUSDT) has a current candlestick that is green in the 15m timeframe.
+[2024-07-23 14:36:25] EOS/USDT (BINANCE:EOSUSDT) has a current candlestick that is green in the 15m timeframe.
+[2024-07-23 14:36:25] TUSD/USDT (BINANCE:TUSDUSDT) has a current candlestick that is red in the 15m timeframe.
+[2024-07-23 14:36:25] IOTA/USDT (BINANCE:IOTAUSDT) has a current candlestick that is green in the 15m timeframe.
+[2024-07-23 14:36:25] XLM/USDT (BINANCE:XLMUSDT) has a current candlestick that is green in the 15m timeframe.
+[2024-07-23 14:36:25] ONT/USDT (BINANCE:ONTUSDT) has a current candlestick that is green in the 15m timeframe.
+[2024-07-23 14:36:26] TRX/USDT (BINANCE:TRXUSDT) has a current candlestick that is red in the 15m timeframe.
+[2024-07-23 14:36:26] ICX/USDT (BINANCE:ICXUSDT) has a current candlestick that is green in the 15m timeframe.
+[2024-07-23 14:36:27] NULS/USDT (BINANCE:NULSUSDT) has a current candlestick that is green in the 15m timeframe.
+[2024-07-23 14:36:27] VET/USDT (BINANCE:VETUSDT) has a current candlestick that is green in the 15m timeframe.
