@@ -214,7 +214,7 @@ def is_harami(candles):
             second[1] >= first[1] and
             second[4] <= first[4])
 
-def is_harami_cross(candles):
+def is_bullish_harami_cross(candles):
     if len(candles) != 3:
         return False
     first, second, third = candles
@@ -226,25 +226,17 @@ def is_harami_cross(candles):
             second[4] <= first[4] and
             third[4] > (first[1] + first[4]) / 2)
 
-def is_belt_hold(candles):
-    if len(candles) < 3:
+def is_bearish_harami_cross(candles):
+    if len(candles) != 3:
         return False
-    for i in range(1, len(candles) - 1):
-        if abs(candles[i][1] - candles[i][4]) > (candles[i][3] - candles[i][2]) * 0.1:
-            return False
-    last = candles[-1]
-    return (last[4] > max(candle[3] for candle in candles[:-1]) and
-            last[1] < min(candle[2] for candle in candles[:-1]))
-
-def is_breakaway(candles):
-    if len(candles) < 3:
-        return False
-    highs = [candle[2] for candle in candles]
-    lows = [candle[3] for candle in candles]
-    last = candles[-1]
-    return (all(highs[i] < highs[i+1] for i in range(len(highs)-1)) and
-            last[4] > highs[-1]) or (all(lows[i] > lows[i+1] for i in range(len(lows)-1)) and
-            last[4] < lows[-1])
+    first, second, third = candles
+    first_body = abs(first[1] - first[4])
+    second_body = abs(second[1] - second[4])
+    third_body = abs(third[1] - third[4])
+    return (first_body < second_body and
+            second[1] <= first[1] and
+            second[4] >= first[4] and
+            third[4] < (first[1] + first[4]) / 2)
 
 def analyze_symbol(exchange, symbol, timeframe, output_file):
     try:
@@ -315,18 +307,12 @@ def analyze_symbol(exchange, symbol, timeframe, output_file):
         elif is_piercing_line(completed_candles):
             pattern_detected = True
             pattern_type = "Piercing Line"
-        elif is_harami(completed_candles):
+        elif is_bullish_harami_cross(completed_candles):
             pattern_detected = True
-            pattern_type = "Harami"
-        elif is_harami_cross(completed_candles):
+            pattern_type = "Bullish Harami Cross"
+        elif is_bearish_harami_cross(completed_candles):
             pattern_detected = True
-            pattern_type = "Harami Cross"
-        elif is_belt_hold(completed_candles):
-            pattern_detected = True
-            pattern_type = "Belt Hold"
-        elif is_breakaway(completed_candles):
-            pattern_detected = True
-            pattern_type = "Breakaway"
+            pattern_type = "Bearish Harami Cross"
 
         if pattern_detected:
             current_time = datetime.now(pytz.UTC).strftime('%Y-%m-%d %H:%M:%S')
