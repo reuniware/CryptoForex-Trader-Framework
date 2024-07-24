@@ -185,22 +185,80 @@ def is_falling_three_methods(candles):
             fourth[1] > third[4] and
             fifth[1] < fourth[4])
 
+def is_shooting_star(candle):
+    body = abs(candle[1] - candle[4])
+    lower_shadow = candle[2] - min(candle[1], candle[4])
+    upper_shadow = candle[3] - max(candle[1], candle[4])
+    return (body < lower_shadow and body < upper_shadow and
+            upper_shadow > 2 * body and
+            lower_shadow < body)
+
+def is_piercing_line(candles):
+    if len(candles) != 2:
+        return False
+    first, second = candles
+    first_body = first[1] - first[4]
+    second_body = second[4] - second[1]
+    return (first_body > 0 and
+            second_body > 0 and
+            second[1] < first[4] and
+            second[4] > (first[1] + first[4]) / 2)
+
+def is_harami(candles):
+    if len(candles) != 2:
+        return False
+    first, second = candles
+    first_body = abs(first[1] - first[4])
+    second_body = abs(second[1] - second[4])
+    return (first_body > second_body and
+            second[1] >= first[1] and
+            second[4] <= first[4])
+
+def is_harami_cross(candles):
+    if len(candles) != 3:
+        return False
+    first, second, third = candles
+    first_body = abs(first[1] - first[4])
+    second_body = abs(second[1] - second[4])
+    third_body = abs(third[1] - third[4])
+    return (first_body > second_body and
+            second[1] >= first[1] and
+            second[4] <= first[4] and
+            third[4] > (first[1] + first[4]) / 2)
+
+def is_belt_hold(candles):
+    if len(candles) < 3:
+        return False
+    for i in range(1, len(candles) - 1):
+        if abs(candles[i][1] - candles[i][4]) > (candles[i][3] - candles[i][2]) * 0.1:
+            return False
+    last = candles[-1]
+    return (last[4] > max(candle[3] for candle in candles[:-1]) and
+            last[1] < min(candle[2] for candle in candles[:-1]))
+
+def is_breakaway(candles):
+    if len(candles) < 3:
+        return False
+    highs = [candle[2] for candle in candles]
+    lows = [candle[3] for candle in candles]
+    last = candles[-1]
+    return (all(highs[i] < highs[i+1] for i in range(len(highs)-1)) and
+            last[4] > highs[-1]) or (all(lows[i] > lows[i+1] for i in range(len(lows)-1)) and
+            last[4] < lows[-1])
+
 def analyze_symbol(exchange, symbol, timeframe, output_file):
     try:
-        ohlcv = fetch_ohlcv(exchange, symbol, timeframe, 4)  # Fetching 4 candles for 3-candle pattern detection
+        ohlcv = fetch_ohlcv(exchange, symbol, timeframe, 4)
         if not ohlcv:
             return
 
-        # Check if symbol is tradable
         current_price = fetch_current_price(exchange, symbol)
         if current_price is None:
             return
 
-        # Check if we have enough candles
         if len(ohlcv) < 4:
             return
 
-        # Exclude the current candlestick from pattern detection
         completed_candles = ohlcv[-4:-1]
         current_candle = ohlcv[-1]
         current_price = fetch_current_price(exchange, symbol)
@@ -208,11 +266,10 @@ def analyze_symbol(exchange, symbol, timeframe, output_file):
             return
 
         last_candle = completed_candles[-1]
-        
+
         pattern_detected = False
         pattern_type = ""
 
-        # Pattern detection logic
         if is_evening_star(completed_candles):
             pattern_detected = True
             pattern_type = "Evening Star"
@@ -252,6 +309,24 @@ def analyze_symbol(exchange, symbol, timeframe, output_file):
         elif is_falling_three_methods(completed_candles):
             pattern_detected = True
             pattern_type = "Falling Three Methods"
+        elif is_shooting_star(last_candle):
+            pattern_detected = True
+            pattern_type = "Shooting Star"
+        elif is_piercing_line(completed_candles):
+            pattern_detected = True
+            pattern_type = "Piercing Line"
+        elif is_harami(completed_candles):
+            pattern_detected = True
+            pattern_type = "Harami"
+        elif is_harami_cross(completed_candles):
+            pattern_detected = True
+            pattern_type = "Harami Cross"
+        elif is_belt_hold(completed_candles):
+            pattern_detected = True
+            pattern_type = "Belt Hold"
+        elif is_breakaway(completed_candles):
+            pattern_detected = True
+            pattern_type = "Breakaway"
 
         if pattern_detected:
             current_time = datetime.now(pytz.UTC).strftime('%Y-%m-%d %H:%M:%S')
@@ -264,8 +339,7 @@ def analyze_symbol(exchange, symbol, timeframe, output_file):
                 f"Current price: {current_price:.4f}, Current candle evolution: {evolution:.2f}%\n\n"
             )
             print(result.strip())
-            
-            # Write the result to the file
+
             with open(output_file, 'a') as f:
                 f.write(result)
 
@@ -285,13 +359,11 @@ def main():
     script_name = os.path.basename(__file__).split('.')[0]
     directory = f"scan_results_{script_name}"
 
-    # Ensure the directory exists
     if not os.path.exists(directory):
         os.makedirs(directory)
 
     output_file = os.path.join(directory, f"{datetime.now(pytz.UTC).strftime('%Y%m%d_%H%M%S')}_{timeframe}_scan_results.txt")
 
-    # Fetch and process symbols
     exchange = ccxt.binance({
         'rateLimit': 1200,
         'enableRateLimit': True,
