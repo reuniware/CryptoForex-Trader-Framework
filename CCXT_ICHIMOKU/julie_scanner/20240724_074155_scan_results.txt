@@ -1,0 +1,120 @@
+[2024-07-24 07:42:21] BETA/USDT (BINANCE:BETAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.0558, Current candle evolution: -7.40%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-24 07:42:22] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.0983, Current candle evolution: 0.31%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:23] COS/USDT (BINANCE:COSUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.0080, Current candle evolution: -0.63%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:24] GNS/USDT (BINANCE:GNSUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 3.3880, Current candle evolution: -0.44%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:24] ONG/USDT (BINANCE:ONGUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.3476, Current candle evolution: -4.37%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-24 07:42:27] KAVA/USDT (BINANCE:KAVAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.4120, Current candle evolution: -0.15%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:28] FOR/USDT (BINANCE:FORUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.0134, Current candle evolution: 0.23%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:28] ZRX/USDT (BINANCE:ZRXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.3731, Current candle evolution: -0.11%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:28] POND/USDT (BINANCE:PONDUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.0171, Current candle evolution: -0.22%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:30] STEEM/USDT (BINANCE:STEEMUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.2004, Current candle evolution: -0.65%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:32] EOS/USDT (BINANCE:EOSUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.5905, Current candle evolution: -0.46%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:33] ZK/USDT (BINANCE:ZKUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.1777, Current candle evolution: 0.84%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:33] CRV/USDT (BINANCE:CRVUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.2711, Current candle evolution: 0.63%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:34] HIVE/USDT (BINANCE:HIVEUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.2238, Current candle evolution: 0.36%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:37] EPX/USDT (BINANCE:EPXUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.0001, Current candle evolution: -0.41%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:37] ID/USDT (BINANCE:IDUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.4601, Current candle evolution: -0.06%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:40] ARDR/USDT (BINANCE:ARDRUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.0701, Current candle evolution: 0.21%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:41] STRK/USDT (BINANCE:STRKUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.5680, Current candle evolution: -0.52%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:41] SUN/USDT (BINANCE:SUNUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.0106, Current candle evolution: -0.09%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:42] MATIC/USDT (BINANCE:MATICUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.5311, Current candle evolution: 0.41%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:45] ACA/USDT (BINANCE:ACAUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.0690, Current candle evolution: -4.96%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-24 07:42:48] HFT/USDT (BINANCE:HFTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.2085, Current candle evolution: -1.04%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+
+[2024-07-24 07:42:48] BNT/USDT (BINANCE:BNTUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-23 00:00:00
+Current price: 0.6246, Current candle evolution: -0.34%
+Pattern confirmation: Current price confirms the Doji pattern.
+
+[2024-07-24 07:42:49] ETHFI/USDT (BINANCE:ETHFIUSDT) Timeframe: 1d, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-23 00:00:00
+Current price: 2.3770, Current candle evolution: -0.94%
+Pattern confirmation: Current price confirms the Evening Star pattern.
+

@@ -1,950 +1,1788 @@
-[2024-07-23 14:06:44] BCC/USDT (BINANCE:BCCUSDT) has increased by 4.93% in the last 120 minutes. Current price: 448.7000
-[2024-07-23 14:06:47] TRX/USDT (BINANCE:TRXUSDT) has increased by 0.15% in the last 120 minutes. Current price: 0.1325
-[2024-07-23 14:06:47] ETC/USDT (BINANCE:ETCUSDT) has increased by 0.65% in the last 120 minutes. Current price: 24.7300
-[2024-07-23 14:06:49] BCHABC/USDT (BINANCE:BCHABCUSDT) has increased by 0.28% in the last 120 minutes. Current price: 220.0800
-[2024-07-23 14:06:49] BSV/USDT (BINANCE:BSVUSDT) has increased by 6.61% in the last 120 minutes. Current price: 58.9000
-[2024-07-23 14:06:49] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 6.32% in the last 120 minutes. Current price: 1.0760
-[2024-07-23 14:06:50] BTT/USDT (BINANCE:BTTUSDT) has increased by 1.28% in the last 120 minutes. Current price: 0.0028
-[2024-07-23 14:06:51] XMR/USDT (BINANCE:XMRUSDT) has increased by 5.32% in the last 120 minutes. Current price: 118.7000
-[2024-07-23 14:07:08] BSV/USDT (BINANCE:BSVUSDT) has increased by 6.61% in the last 120 minutes. Current price: 58.9000
-[2024-07-23 14:07:09] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 6.32% in the last 120 minutes. Current price: 1.0760
-[2024-07-23 14:07:11] XMR/USDT (BINANCE:XMRUSDT) has increased by 5.32% in the last 120 minutes. Current price: 118.7000
-[2024-07-23 14:07:18] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 8.74% in the last 120 minutes. Current price: 1.3819
-[2024-07-23 14:07:37] PNT/USDT (BINANCE:PNTUSDT) has increased by 30.11% in the last 120 minutes. Current price: 0.0350
-[2024-07-23 14:07:43] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) has increased by 14.01% in the last 120 minutes. Current price: 2.6001
-[2024-07-23 14:07:55] UNIUP/USDT (BINANCE:UNIUPUSDT) has increased by 10.47% in the last 120 minutes. Current price: 1.0550
-[2024-07-23 14:08:00] DNT/USDT (BINANCE:DNTUSDT) has increased by 10.77% in the last 120 minutes. Current price: 0.0360
-[2024-07-23 14:08:16] MDX/USDT (BINANCE:MDXUSDT) has increased by 20.29% in the last 120 minutes. Current price: 0.0345
-[2024-07-23 14:08:19] BOND/USDT (BINANCE:BONDUSDT) has increased by 17.60% in the last 120 minutes. Current price: 2.1520
-[2024-07-23 14:09:20] BSV/USDT (BINANCE:BSVUSDT) has increased by 6.61% in the last 120 minutes. Current price: 58.9000
-[2024-07-23 14:09:21] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 6.32% in the last 120 minutes. Current price: 1.0760
-[2024-07-23 14:09:23] XMR/USDT (BINANCE:XMRUSDT) has increased by 5.32% in the last 120 minutes. Current price: 118.7000
-[2024-07-23 14:09:29] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 8.74% in the last 120 minutes. Current price: 1.3819
-[2024-07-23 14:09:46] PNT/USDT (BINANCE:PNTUSDT) has increased by 30.11% in the last 120 minutes. Current price: 0.0350
-[2024-07-23 14:09:52] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) has increased by 14.01% in the last 120 minutes. Current price: 2.6001
-[2024-07-23 14:10:06] UNIUP/USDT (BINANCE:UNIUPUSDT) has increased by 10.47% in the last 120 minutes. Current price: 1.0550
-[2024-07-23 14:10:10] CTK/USDT (BINANCE:CTKUSDT) has increased by 6.41% in the last 120 minutes. Current price: 0.8446
-[2024-07-23 14:10:11] DNT/USDT (BINANCE:DNTUSDT) has increased by 10.77% in the last 120 minutes. Current price: 0.0360
-[2024-07-23 14:10:26] MDX/USDT (BINANCE:MDXUSDT) has increased by 20.29% in the last 120 minutes. Current price: 0.0345
-[2024-07-23 14:10:29] BOND/USDT (BINANCE:BONDUSDT) has increased by 17.60% in the last 120 minutes. Current price: 2.1520
-[2024-07-23 14:11:29] BSV/USDT (BINANCE:BSVUSDT) has increased by 6.61% in the last 120 minutes. Current price: 58.9000
-[2024-07-23 14:11:30] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 6.32% in the last 120 minutes. Current price: 1.0760
-[2024-07-23 14:11:32] XMR/USDT (BINANCE:XMRUSDT) has increased by 5.32% in the last 120 minutes. Current price: 118.7000
-[2024-07-23 14:11:38] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 8.74% in the last 120 minutes. Current price: 1.3819
-[2024-07-23 14:11:55] PNT/USDT (BINANCE:PNTUSDT) has increased by 30.11% in the last 120 minutes. Current price: 0.0350
-[2024-07-23 14:12:02] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) has increased by 14.01% in the last 120 minutes. Current price: 2.6001
-[2024-07-23 14:12:14] UNIUP/USDT (BINANCE:UNIUPUSDT) has increased by 10.47% in the last 120 minutes. Current price: 1.0550
-[2024-07-23 14:12:18] CTK/USDT (BINANCE:CTKUSDT) has increased by 6.18% in the last 120 minutes. Current price: 0.8400
-[2024-07-23 14:12:20] DNT/USDT (BINANCE:DNTUSDT) has increased by 10.77% in the last 120 minutes. Current price: 0.0360
-[2024-07-23 14:12:34] MDX/USDT (BINANCE:MDXUSDT) has increased by 20.29% in the last 120 minutes. Current price: 0.0345
-[2024-07-23 14:12:37] BOND/USDT (BINANCE:BONDUSDT) has increased by 17.60% in the last 120 minutes. Current price: 2.1520
-[2024-07-23 14:13:38] BSV/USDT (BINANCE:BSVUSDT) has increased by 6.61% in the last 120 minutes. Current price: 58.9000
-[2024-07-23 14:13:39] WAVES/USDT (BINANCE:WAVESUSDT) has increased by 6.32% in the last 120 minutes. Current price: 1.0760
-[2024-07-23 14:13:41] XMR/USDT (BINANCE:XMRUSDT) has increased by 5.32% in the last 120 minutes. Current price: 118.7000
-[2024-07-23 14:13:48] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 8.74% in the last 120 minutes. Current price: 1.3819
-[2024-07-23 14:14:48] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 10.91% in the last 240 minutes. Current price: 1.3819
-[2024-07-23 14:15:09] PNT/USDT (BINANCE:PNTUSDT) has increased by 20.27% in the last 240 minutes. Current price: 0.0350
-[2024-07-23 14:15:27] UNIUP/USDT (BINANCE:UNIUPUSDT) has increased by 15.43% in the last 240 minutes. Current price: 1.0550
-[2024-07-23 14:15:49] MDX/USDT (BINANCE:MDXUSDT) has increased by 12.63% in the last 240 minutes. Current price: 0.0345
-[2024-07-23 14:15:52] BOND/USDT (BINANCE:BONDUSDT) has increased by 19.56% in the last 240 minutes. Current price: 2.1520
-[2024-07-23 14:16:40] REZ/USDT (BINANCE:REZUSDT) has increased by 12.54% in the last 240 minutes. Current price: 0.0772
-[2024-07-23 14:17:02] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 10.91% in the last 240 minutes. Current price: 1.3819
-[2024-07-23 14:17:20] PNT/USDT (BINANCE:PNTUSDT) has increased by 20.27% in the last 240 minutes. Current price: 0.0350
-[2024-07-23 14:17:39] UNIUP/USDT (BINANCE:UNIUPUSDT) has increased by 15.43% in the last 240 minutes. Current price: 1.0550
-[2024-07-23 14:17:59] MDX/USDT (BINANCE:MDXUSDT) has increased by 12.63% in the last 240 minutes. Current price: 0.0345
-[2024-07-23 14:18:02] BOND/USDT (BINANCE:BONDUSDT) has increased by 19.56% in the last 240 minutes. Current price: 2.1520
-[2024-07-23 14:18:50] REZ/USDT (BINANCE:REZUSDT) has increased by 12.66% in the last 240 minutes. Current price: 0.0774
-[2024-07-23 14:19:12] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 10.91% in the last 240 minutes. Current price: 1.3819
-[2024-07-23 14:19:31] PNT/USDT (BINANCE:PNTUSDT) has increased by 20.27% in the last 240 minutes. Current price: 0.0350
-[2024-07-23 14:19:49] UNIUP/USDT (BINANCE:UNIUPUSDT) has increased by 15.43% in the last 240 minutes. Current price: 1.0550
-[2024-07-23 14:20:12] MDX/USDT (BINANCE:MDXUSDT) has increased by 12.63% in the last 240 minutes. Current price: 0.0345
-[2024-07-23 14:20:15] BOND/USDT (BINANCE:BONDUSDT) has increased by 19.56% in the last 240 minutes. Current price: 2.1520
-[2024-07-23 14:21:03] REZ/USDT (BINANCE:REZUSDT) has increased by 13.12% in the last 240 minutes. Current price: 0.0776
-[2024-07-23 14:21:25] TOMO/USDT (BINANCE:TOMOUSDT) has increased by 10.91% in the last 240 minutes. Current price: 1.3819
-[2024-07-23 14:21:43] PNT/USDT (BINANCE:PNTUSDT) has increased by 20.27% in the last 240 minutes. Current price: 0.0350
-[2024-07-23 14:23:17] GBP/USDT (BINANCE:GBPUSDT) has 3 green candlesticks followed by 1 red candlestick in the last 60 minutes (15m timeframe).
-[2024-07-23 14:24:08] RNDR/USDT (BINANCE:RNDRUSDT) has 3 green candlesticks followed by 1 red candlestick in the last 60 minutes (15m timeframe).
-[2024-07-23 14:24:26] USDT/RON (BINANCE:USDTRON) has 3 green candlesticks followed by 1 red candlestick in the last 60 minutes (15m timeframe).
-[2024-07-23 14:24:42] BANANA/USDT (BINANCE:BANANAUSDT) has 3 green candlesticks followed by 1 red candlestick in the last 60 minutes (15m timeframe).
-[2024-07-23 14:31:38] GBP/USDT (BINANCE:GBPUSDT) has 3 green candlesticks followed by 1 red candlestick in the last 60 minutes (15m timeframe).
-[2024-07-23 14:32:29] RNDR/USDT (BINANCE:RNDRUSDT) has 3 green candlesticks followed by 1 red candlestick in the last 60 minutes (15m timeframe).
-[2024-07-23 14:36:23] BTC/USDT (BINANCE:BTCUSDT) has a current candlestick that is red in the 15m timeframe.
-[2024-07-23 14:36:23] ETH/USDT (BINANCE:ETHUSDT) has a current candlestick that is green in the 15m timeframe.
-[2024-07-23 14:36:23] BNB/USDT (BINANCE:BNBUSDT) has a current candlestick that is green in the 15m timeframe.
-[2024-07-23 14:36:23] NEO/USDT (BINANCE:NEOUSDT) has a current candlestick that is green in the 15m timeframe.
-[2024-07-23 14:36:24] LTC/USDT (BINANCE:LTCUSDT) has a current candlestick that is green in the 15m timeframe.
-[2024-07-23 14:36:24] QTUM/USDT (BINANCE:QTUMUSDT) has a current candlestick that is green in the 15m timeframe.
-[2024-07-23 14:36:24] ADA/USDT (BINANCE:ADAUSDT) has a current candlestick that is green in the 15m timeframe.
-[2024-07-23 14:36:24] XRP/USDT (BINANCE:XRPUSDT) has a current candlestick that is green in the 15m timeframe.
-[2024-07-23 14:36:25] EOS/USDT (BINANCE:EOSUSDT) has a current candlestick that is green in the 15m timeframe.
-[2024-07-23 14:36:25] TUSD/USDT (BINANCE:TUSDUSDT) has a current candlestick that is red in the 15m timeframe.
-[2024-07-23 14:36:25] IOTA/USDT (BINANCE:IOTAUSDT) has a current candlestick that is green in the 15m timeframe.
-[2024-07-23 14:36:25] XLM/USDT (BINANCE:XLMUSDT) has a current candlestick that is green in the 15m timeframe.
-[2024-07-23 14:36:25] ONT/USDT (BINANCE:ONTUSDT) has a current candlestick that is green in the 15m timeframe.
-[2024-07-23 14:36:26] TRX/USDT (BINANCE:TRXUSDT) has a current candlestick that is red in the 15m timeframe.
-[2024-07-23 14:36:26] ICX/USDT (BINANCE:ICXUSDT) has a current candlestick that is green in the 15m timeframe.
-[2024-07-23 14:36:27] NULS/USDT (BINANCE:NULSUSDT) has a current candlestick that is green in the 15m timeframe.
-[2024-07-23 14:36:27] VET/USDT (BINANCE:VETUSDT) has a current candlestick that is green in the 15m timeframe.
-[2024-07-23 14:44:22] BTC/USDT (BINANCE:BTCUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:22] ETH/USDT (BINANCE:ETHUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:22] NEO/USDT (BINANCE:NEOUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:23] QTUM/USDT (BINANCE:QTUMUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:23] ADA/USDT (BINANCE:ADAUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:23] XRP/USDT (BINANCE:XRPUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:24] EOS/USDT (BINANCE:EOSUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:24] IOTA/USDT (BINANCE:IOTAUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:24] XLM/USDT (BINANCE:XLMUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:25] ONT/USDT (BINANCE:ONTUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:25] TRX/USDT (BINANCE:TRXUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:25] ETC/USDT (BINANCE:ETCUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:25] ICX/USDT (BINANCE:ICXUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:26] NULS/USDT (BINANCE:NULSUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:26] VET/USDT (BINANCE:VETUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:26] PAX/USDT (BINANCE:PAXUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:26] BCHABC/USDT (BINANCE:BCHABCUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:27] BSV/USDT (BINANCE:BSVUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:27] LINK/USDT (BINANCE:LINKUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:27] WAVES/USDT (BINANCE:WAVESUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:27] BTT/USDT (BINANCE:BTTUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:28] ONG/USDT (BINANCE:ONGUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:28] HOT/USDT (BINANCE:HOTUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:28] ZIL/USDT (BINANCE:ZILUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:29] ZRX/USDT (BINANCE:ZRXUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:29] FET/USDT (BINANCE:FETUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:29] BAT/USDT (BINANCE:BATUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:29] XMR/USDT (BINANCE:XMRUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:30] ZEC/USDT (BINANCE:ZECUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:30] IOST/USDT (BINANCE:IOSTUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:30] CELR/USDT (BINANCE:CELRUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:30] DASH/USDT (BINANCE:DASHUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:30] NANO/USDT (BINANCE:NANOUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:31] OMG/USDT (BINANCE:OMGUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:31] THETA/USDT (BINANCE:THETAUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:32] ENJ/USDT (BINANCE:ENJUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:32] MITH/USDT (BINANCE:MITHUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:32] MATIC/USDT (BINANCE:MATICUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:32] ATOM/USDT (BINANCE:ATOMUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:32] TFUEL/USDT (BINANCE:TFUELUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:33] ONE/USDT (BINANCE:ONEUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:33] FTM/USDT (BINANCE:FTMUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:33] ALGO/USDT (BINANCE:ALGOUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:34] GTO/USDT (BINANCE:GTOUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:34] ERD/USDT (BINANCE:ERDUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:34] DOGE/USDT (BINANCE:DOGEUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:34] DUSK/USDT (BINANCE:DUSKUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:35] ANKR/USDT (BINANCE:ANKRUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:35] WIN/USDT (BINANCE:WINUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:35] COS/USDT (BINANCE:COSUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:35] NPXS/USDT (BINANCE:NPXSUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:35] COCOS/USDT (BINANCE:COCOSUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:36] MTL/USDT (BINANCE:MTLUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:36] TOMO/USDT (BINANCE:TOMOUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:36] PERL/USDT (BINANCE:PERLUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:36] DENT/USDT (BINANCE:DENTUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:37] MFT/USDT (BINANCE:MFTUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:37] KEY/USDT (BINANCE:KEYUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:37] STORM/USDT (BINANCE:STORMUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:37] DOCK/USDT (BINANCE:DOCKUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:37] WAN/USDT (BINANCE:WANUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:38] FUN/USDT (BINANCE:FUNUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:38] CVC/USDT (BINANCE:CVCUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:38] CHZ/USDT (BINANCE:CHZUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:38] BAND/USDT (BINANCE:BANDUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:39] BUSD/USDT (BINANCE:BUSDUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:39] BEAM/USDT (BINANCE:BEAMUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:39] XTZ/USDT (BINANCE:XTZUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:39] REN/USDT (BINANCE:RENUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:40] RVN/USDT (BINANCE:RVNUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:40] HC/USDT (BINANCE:HCUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:40] HBAR/USDT (BINANCE:HBARUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:40] NKN/USDT (BINANCE:NKNUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:40] STX/USDT (BINANCE:STXUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:41] KAVA/USDT (BINANCE:KAVAUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:41] ARPA/USDT (BINANCE:ARPAUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:41] IOTX/USDT (BINANCE:IOTXUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:41] RLC/USDT (BINANCE:RLCUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:42] MCO/USDT (BINANCE:MCOUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:42] CTXC/USDT (BINANCE:CTXCUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:42] BCH/USDT (BINANCE:BCHUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:42] TROY/USDT (BINANCE:TROYUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:43] VITE/USDT (BINANCE:VITEUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:43] FTT/USDT (BINANCE:FTTUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:43] USDT/TRY (BINANCE:USDTTRY) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:44] USDT/RUB (BINANCE:USDTRUB) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:44] EUR/USDT (BINANCE:EURUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:44] OGN/USDT (BINANCE:OGNUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:44] DREP/USDT (BINANCE:DREPUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:44] BULL/USDT (BINANCE:BULLUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:45] BEAR/USDT (BINANCE:BEARUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:45] ETHBULL/USDT (BINANCE:ETHBULLUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:45] ETHBEAR/USDT (BINANCE:ETHBEARUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:45] TCT/USDT (BINANCE:TCTUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:46] WRX/USDT (BINANCE:WRXUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:46] BTS/USDT (BINANCE:BTSUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:46] LSK/USDT (BINANCE:LSKUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:46] BNT/USDT (BINANCE:BNTUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:47] LTO/USDT (BINANCE:LTOUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:47] EOSBULL/USDT (BINANCE:EOSBULLUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:47] EOSBEAR/USDT (BINANCE:EOSBEARUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:47] XRPBULL/USDT (BINANCE:XRPBULLUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:47] XRPBEAR/USDT (BINANCE:XRPBEARUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:48] STRAT/USDT (BINANCE:STRATUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:48] AION/USDT (BINANCE:AIONUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:48] MBL/USDT (BINANCE:MBLUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:48] COTI/USDT (BINANCE:COTIUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:49] BNBBULL/USDT (BINANCE:BNBBULLUSDT) has a current candlestick that is red in the 1h timeframe.
-[2024-07-23 14:44:49] BNBBEAR/USDT (BINANCE:BNBBEARUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:49] STPT/USDT (BINANCE:STPTUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:44:49] USDT/ZAR (BINANCE:USDTZAR) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:09] BNB/USDT (BINANCE:BNBUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:11] LTC/USDT (BINANCE:LTCUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:14] XLM/USDT (BINANCE:XLMUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:14] TRX/USDT (BINANCE:TRXUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:16] PAX/USDT (BINANCE:PAXUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:16] BSV/USDT (BINANCE:BSVUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:17] WAVES/USDT (BINANCE:WAVESUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:17] BTT/USDT (BINANCE:BTTUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:18] ZRX/USDT (BINANCE:ZRXUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:19] XMR/USDT (BINANCE:XMRUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:19] IOST/USDT (BINANCE:IOSTUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:20] NANO/USDT (BINANCE:NANOUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:20] OMG/USDT (BINANCE:OMGUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:21] MITH/USDT (BINANCE:MITHUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:24] COCOS/USDT (BINANCE:COCOSUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:25] MTL/USDT (BINANCE:MTLUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:25] TOMO/USDT (BINANCE:TOMOUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:26] MFT/USDT (BINANCE:MFTUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:26] KEY/USDT (BINANCE:KEYUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:26] STORM/USDT (BINANCE:STORMUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:27] BAND/USDT (BINANCE:BANDUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:32] USDT/RUB (BINANCE:USDTRUB) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:33] BEAR/USDT (BINANCE:BEARUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:34] ETHBEAR/USDT (BINANCE:ETHBEARUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:34] WRX/USDT (BINANCE:WRXUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:35] BTS/USDT (BINANCE:BTSUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:36] BNT/USDT (BINANCE:BNTUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:36] EOSBEAR/USDT (BINANCE:EOSBEARUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:37] XRPBEAR/USDT (BINANCE:XRPBEARUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:38] MBL/USDT (BINANCE:MBLUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:39] BNBBEAR/USDT (BINANCE:BNBBEARUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:39] USDT/ZAR (BINANCE:USDTZAR) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:49:40] XZC/USDT (BINANCE:XZCUSDT) has a current candlestick that is green in the 1h timeframe.
-[2024-07-23 14:52:33] BNB/USDT (BINANCE:BNBUSDT) has a current candlestick that is green in the 1h timeframe.
-Price evolution: 0.7000 (0.12%)
-[2024-07-23 14:52:34] LTC/USDT (BINANCE:LTCUSDT) has a current candlestick that is green in the 1h timeframe.
-Price evolution: 0.0300 (0.04%)
-[2024-07-23 14:52:36] XLM/USDT (BINANCE:XLMUSDT) has a current candlestick that is green in the 1h timeframe.
-Price evolution: 0.0004 (0.39%)
-[2024-07-23 14:52:36] TRX/USDT (BINANCE:TRXUSDT) has a current candlestick that is green in the 1h timeframe.
-Price evolution: 0.0003 (0.23%)
-[2024-07-23 14:52:38] PAX/USDT (BINANCE:PAXUSDT) has a current candlestick that is green in the 1h timeframe.
-Price evolution: 0.0001 (0.01%)
-[2024-07-23 14:52:38] BSV/USDT (BINANCE:BSVUSDT) has a current candlestick that is green in the 1h timeframe.
-Price evolution: 1.0300 (1.78%)
-[2024-07-23 14:52:39] WAVES/USDT (BINANCE:WAVESUSDT) has a current candlestick that is green in the 1h timeframe.
-Price evolution: 0.0970 (9.91%)
-[2024-07-23 14:55:17] BNB/USDT (BINANCE:BNBUSDT) is currently green in the 1h timeframe. Price evolution: 0.6000 (0.10%)
-[2024-07-23 14:55:20] XLM/USDT (BINANCE:XLMUSDT) is currently green in the 1h timeframe. Price evolution: 0.0003 (0.29%)
-[2024-07-23 14:55:20] TRX/USDT (BINANCE:TRXUSDT) is currently green in the 1h timeframe. Price evolution: 0.0002 (0.15%)
-[2024-07-23 14:55:21] ICX/USDT (BINANCE:ICXUSDT) is currently green in the 1h timeframe. Price evolution: 0.0001 (0.06%)
-[2024-07-23 14:55:21] PAX/USDT (BINANCE:PAXUSDT) is currently green in the 1h timeframe. Price evolution: 0.0001 (0.01%)
-[2024-07-23 14:55:22] BSV/USDT (BINANCE:BSVUSDT) is currently green in the 1h timeframe. Price evolution: 1.0300 (1.78%)
-[2024-07-23 14:55:23] WAVES/USDT (BINANCE:WAVESUSDT) is currently green in the 1h timeframe. Price evolution: 0.0970 (9.91%)
-[2024-07-23 14:55:23] BTT/USDT (BINANCE:BTTUSDT) is currently green in the 1h timeframe. Price evolution: 0.0000 (1.35%)
-[2024-07-23 14:55:24] ZRX/USDT (BINANCE:ZRXUSDT) is currently green in the 1h timeframe. Price evolution: 0.0064 (1.68%)
-[2024-07-23 14:55:25] XMR/USDT (BINANCE:XMRUSDT) is currently green in the 1h timeframe. Price evolution: 4.7000 (4.12%)
-[2024-07-23 14:55:25] ZEC/USDT (BINANCE:ZECUSDT) is currently green in the 1h timeframe. Price evolution: 0.0700 (0.23%)
-[2024-07-23 14:55:25] IOST/USDT (BINANCE:IOSTUSDT) is currently green in the 1h timeframe. Price evolution: 0.0000 (0.16%)
-[2024-07-23 14:55:26] NANO/USDT (BINANCE:NANOUSDT) is currently green in the 1h timeframe. Price evolution: 0.0740 (3.44%)
-[2024-07-23 14:55:26] OMG/USDT (BINANCE:OMGUSDT) is currently green in the 1h timeframe. Price evolution: 0.0080 (2.13%)
-[2024-07-23 14:55:27] MITH/USDT (BINANCE:MITHUSDT) is currently green in the 1h timeframe. Price evolution: 0.0002 (5.18%)
-[2024-07-23 14:56:54] BTC/USDT (BINANCE:BTCUSDT) is currently red in the 1h timeframe. Price evolution: -206.0000 (-0.31%)
-[2024-07-23 14:56:54] ETH/USDT (BINANCE:ETHUSDT) is currently red in the 1h timeframe. Price evolution: -7.5900 (-0.22%)
-[2024-07-23 14:56:54] NEO/USDT (BINANCE:NEOUSDT) is currently red in the 1h timeframe. Price evolution: -0.0400 (-0.35%)
-[2024-07-23 14:56:55] QTUM/USDT (BINANCE:QTUMUSDT) is currently red in the 1h timeframe. Price evolution: -0.0070 (-0.26%)
-[2024-07-23 14:56:55] ADA/USDT (BINANCE:ADAUSDT) is currently red in the 1h timeframe. Price evolution: -0.0038 (-0.89%)
-[2024-07-23 14:56:55] XRP/USDT (BINANCE:XRPUSDT) is currently red in the 1h timeframe. Price evolution: -0.0013 (-0.22%)
-[2024-07-23 14:56:56] EOS/USDT (BINANCE:EOSUSDT) is currently red in the 1h timeframe. Price evolution: -0.0006 (-0.10%)
-[2024-07-23 14:56:56] IOTA/USDT (BINANCE:IOTAUSDT) is currently red in the 1h timeframe. Price evolution: -0.0003 (-0.17%)
-[2024-07-23 14:56:57] ONT/USDT (BINANCE:ONTUSDT) is currently red in the 1h timeframe. Price evolution: -0.0005 (-0.24%)
-[2024-07-23 14:56:58] ETC/USDT (BINANCE:ETCUSDT) is currently red in the 1h timeframe. Price evolution: -0.1200 (-0.49%)
-[2024-07-23 14:56:59] NULS/USDT (BINANCE:NULSUSDT) is currently red in the 1h timeframe. Price evolution: -0.0010 (-0.30%)
-[2024-07-23 14:56:59] VET/USDT (BINANCE:VETUSDT) is currently red in the 1h timeframe. Price evolution: -0.0001 (-0.20%)
-[2024-07-23 14:57:00] BCHABC/USDT (BINANCE:BCHABCUSDT) is currently red in the 1h timeframe. Price evolution: -1.1900 (-0.54%)
-[2024-07-23 14:57:00] LINK/USDT (BINANCE:LINKUSDT) is currently red in the 1h timeframe. Price evolution: -0.0800 (-0.57%)
-[2024-07-23 14:57:53] BNB/USDT (BINANCE:BNBUSDT) is currently green in the 4h timeframe. Price evolution: 0.7000 (0.12%)
-[2024-07-23 14:57:54] LTC/USDT (BINANCE:LTCUSDT) is currently green in the 4h timeframe. Price evolution: 0.1100 (0.15%)
-[2024-07-23 14:57:56] XLM/USDT (BINANCE:XLMUSDT) is currently green in the 4h timeframe. Price evolution: 0.0003 (0.29%)
-[2024-07-23 14:57:57] TRX/USDT (BINANCE:TRXUSDT) is currently green in the 4h timeframe. Price evolution: 0.0003 (0.23%)
-[2024-07-23 14:57:57] ICX/USDT (BINANCE:ICXUSDT) is currently green in the 4h timeframe. Price evolution: 0.0002 (0.12%)
-[2024-07-23 14:57:58] BCHABC/USDT (BINANCE:BCHABCUSDT) is currently green in the 4h timeframe. Price evolution: 0.8800 (0.40%)
-[2024-07-23 14:57:59] BSV/USDT (BINANCE:BSVUSDT) is currently green in the 4h timeframe. Price evolution: 3.6400 (6.59%)
-[2024-07-23 14:58:00] WAVES/USDT (BINANCE:WAVESUSDT) is currently green in the 4h timeframe. Price evolution: 0.0420 (4.06%)
-[2024-07-23 14:58:00] BTT/USDT (BINANCE:BTTUSDT) is currently green in the 4h timeframe. Price evolution: 0.0001 (3.74%)
-[2024-07-23 14:58:01] ZIL/USDT (BINANCE:ZILUSDT) is currently green in the 4h timeframe. Price evolution: 0.0000 (0.17%)
-[2024-07-23 14:58:01] ZRX/USDT (BINANCE:ZRXUSDT) is currently green in the 4h timeframe. Price evolution: 0.0058 (1.52%)
-[2024-07-23 14:58:02] XMR/USDT (BINANCE:XMRUSDT) is currently green in the 4h timeframe. Price evolution: 6.3000 (5.60%)
-[2024-07-23 14:58:02] ZEC/USDT (BINANCE:ZECUSDT) is currently green in the 4h timeframe. Price evolution: 0.1000 (0.33%)
-[2024-07-23 14:58:02] IOST/USDT (BINANCE:IOSTUSDT) is currently green in the 4h timeframe. Price evolution: 0.0000 (0.49%)
-[2024-07-23 14:58:03] NANO/USDT (BINANCE:NANOUSDT) is currently green in the 4h timeframe. Price evolution: 0.0070 (0.32%)
-[2024-07-23 14:58:04] MITH/USDT (BINANCE:MITHUSDT) is currently green in the 4h timeframe. Price evolution: 0.0002 (5.18%)
-[2024-07-23 14:58:04] TFUEL/USDT (BINANCE:TFUELUSDT) is currently green in the 4h timeframe. Price evolution: 0.0000 (0.06%)
-[2024-07-23 15:03:07] ETC/USDT (BINANCE:ETCUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 24.7500, Trendline value: 24.4509
-[2024-07-23 15:03:07] NULS/USDT (BINANCE:NULSUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.3379, Trendline value: 0.3328
-[2024-07-23 15:03:07] BCHABC/USDT (BINANCE:BCHABCUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 221.7200, Trendline value: 215.9147
-[2024-07-23 15:03:07] BSV/USDT (BINANCE:BSVUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 59.4600, Trendline value: 56.7138
-[2024-07-23 15:03:07] WAVES/USDT (BINANCE:WAVESUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.0820, Trendline value: 1.0550
-[2024-07-23 15:03:07] BTT/USDT (BINANCE:BTTUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0028, Trendline value: 0.0026
-[2024-07-23 15:03:07] ZRX/USDT (BINANCE:ZRXUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.3887, Trendline value: 0.3880
-[2024-07-23 15:03:07] XMR/USDT (BINANCE:XMRUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 119.6000, Trendline value: 118.3120
-[2024-07-23 15:03:07] NANO/USDT (BINANCE:NANOUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 2.2590, Trendline value: 1.9818
-[2024-07-23 15:03:07] OMG/USDT (BINANCE:OMGUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.3850, Trendline value: 0.3794
-[2024-07-23 15:03:07] MATIC/USDT (BINANCE:MATICUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.5526, Trendline value: 0.5510
-[2024-07-23 15:03:07] USDSB/USDT (BINANCE:USDSBUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.9997, Trendline value: 0.9969
-[2024-07-23 15:03:07] TOMO/USDT (BINANCE:TOMOUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.3900, Trendline value: 1.2039
-[2024-07-23 15:03:07] PERL/USDT (BINANCE:PERLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0069, Trendline value: 0.0068
-[2024-07-23 15:03:07] STORM/USDT (BINANCE:STORMUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0034, Trendline value: 0.0033
-[2024-07-23 15:03:07] HC/USDT (BINANCE:HCUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.8705, Trendline value: 0.8548
-[2024-07-23 15:04:00] ETC/USDT (BINANCE:ETCUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 24.7500, Trendline value: 24.4509
-[2024-07-23 15:04:00] NULS/USDT (BINANCE:NULSUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.3379, Trendline value: 0.3328
-[2024-07-23 15:04:00] BCHABC/USDT (BINANCE:BCHABCUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 221.7200, Trendline value: 215.9147
-[2024-07-23 15:04:00] BSV/USDT (BINANCE:BSVUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 59.4600, Trendline value: 56.7138
-[2024-07-23 15:04:00] WAVES/USDT (BINANCE:WAVESUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.0820, Trendline value: 1.0550
-[2024-07-23 15:04:00] BTT/USDT (BINANCE:BTTUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0028, Trendline value: 0.0026
-[2024-07-23 15:04:00] ZRX/USDT (BINANCE:ZRXUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.3887, Trendline value: 0.3880
-[2024-07-23 15:04:00] XMR/USDT (BINANCE:XMRUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 119.6000, Trendline value: 118.3120
-[2024-07-23 15:04:00] NANO/USDT (BINANCE:NANOUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 2.2590, Trendline value: 1.9818
-[2024-07-23 15:04:00] OMG/USDT (BINANCE:OMGUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.3850, Trendline value: 0.3794
-[2024-07-23 15:04:00] MATIC/USDT (BINANCE:MATICUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.5526, Trendline value: 0.5510
-[2024-07-23 15:04:00] USDSB/USDT (BINANCE:USDSBUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.9997, Trendline value: 0.9969
-[2024-07-23 15:04:00] TOMO/USDT (BINANCE:TOMOUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.3900, Trendline value: 1.2039
-[2024-07-23 15:04:00] PERL/USDT (BINANCE:PERLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0069, Trendline value: 0.0068
-[2024-07-23 15:04:00] STORM/USDT (BINANCE:STORMUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0034, Trendline value: 0.0033
-[2024-07-23 15:04:00] HC/USDT (BINANCE:HCUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.8705, Trendline value: 0.8548
-[2024-07-23 15:04:00] USDT/RUB (BINANCE:USDTRUB) is currently above the upper trendline in the 4h timeframe. Current price: 91.9000, Trendline value: 91.7498
-[2024-07-23 15:04:00] BULL/USDT (BINANCE:BULLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1427.4200, Trendline value: 1226.8361
-[2024-07-23 15:04:00] ETHBULL/USDT (BINANCE:ETHBULLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 80.8800, Trendline value: 73.5946
-[2024-07-23 15:04:00] EOSBULL/USDT (BINANCE:EOSBULLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 3.9900, Trendline value: 3.6494
-[2024-07-23 15:04:00] XRPBULL/USDT (BINANCE:XRPBULLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 8.9700, Trendline value: 8.5370
-[2024-07-23 15:04:00] MBL/USDT (BINANCE:MBLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0027, Trendline value: 0.0027
-[2024-07-23 15:04:00] BNBBULL/USDT (BINANCE:BNBBULLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 60.8400, Trendline value: 47.9727
-[2024-07-23 15:04:00] USDT/ZAR (BINANCE:USDTZAR) is currently above the upper trendline in the 4h timeframe. Current price: 18.6900, Trendline value: 18.6286
-[2024-07-23 15:04:00] XZC/USDT (BINANCE:XZCUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 4.4810, Trendline value: 4.2474
-[2024-07-23 15:04:00] BTCUP/USDT (BINANCE:BTCUPUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 16.8000, Trendline value: 16.7644
-[2024-07-23 15:04:00] GXS/USDT (BINANCE:GXSUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.9787, Trendline value: 1.8407
-[2024-07-23 15:04:00] STMX/USDT (BINANCE:STMXUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0070, Trendline value: 0.0059
-[2024-07-23 15:04:00] REP/USDT (BINANCE:REPUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 4.7500, Trendline value: 4.6625
-[2024-07-23 15:04:00] BKRW/USDT (BINANCE:BKRWUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0008, Trendline value: 0.0008
-[2024-07-23 15:04:00] ETHDOWN/USDT (BINANCE:ETHDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0462, Trendline value: 0.0457
-[2024-07-23 15:04:00] ADADOWN/USDT (BINANCE:ADADOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0019, Trendline value: 0.0019
-[2024-07-23 15:04:00] DAI/USDT (BINANCE:DAIUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.0192, Trendline value: 1.0184
-[2024-07-23 15:04:00] BNBDOWN/USDT (BINANCE:BNBDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0022, Trendline value: 0.0022
-[2024-07-23 15:04:00] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 2.6800, Trendline value: 2.4459
-[2024-07-23 15:04:00] USDT/BKRW (BINANCE:USDTBKRW) is currently above the upper trendline in the 4h timeframe. Current price: 1132.4000, Trendline value: 1124.7245
-[2024-07-23 15:04:00] KMD/USDT (BINANCE:KMDUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.2861, Trendline value: 0.2834
-[2024-07-23 15:04:00] ANT/USDT (BINANCE:ANTUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 7.4750, Trendline value: 7.3635
-[2024-07-23 15:04:00] CRV/USDT (BINANCE:CRVUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.2851, Trendline value: 0.2843
-[2024-07-23 15:04:00] OCEAN/USDT (BINANCE:OCEANUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.6252, Trendline value: 0.5693
-[2024-07-23 15:04:00] BZRX/USDT (BINANCE:BZRXUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.2168, Trendline value: 0.2072
-[2024-07-23 15:04:00] EOSDOWN/USDT (BINANCE:EOSDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0004, Trendline value: 0.0004
-[2024-07-23 15:04:00] TRXDOWN/USDT (BINANCE:TRXDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.1740, Trendline value: 1.1591
-[2024-07-23 15:04:00] DOTDOWN/USDT (BINANCE:DOTDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 17.3660, Trendline value: 16.9041
-[2024-07-23 15:04:00] HNT/USDT (BINANCE:HNTUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 4.7000, Trendline value: 4.6552
-[2024-07-23 15:04:00] UNIUP/USDT (BINANCE:UNIUPUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.1100, Trendline value: 0.8373
-[2024-07-23 15:04:00] USDT/BRL (BINANCE:USDTBRL) is currently above the upper trendline in the 4h timeframe. Current price: 5.6150, Trendline value: 5.5943
-[2024-07-23 15:04:00] SXPUP/USDT (BINANCE:SXPUPUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.1783, Trendline value: 0.1666
-[2024-07-23 15:04:00] FILDOWN/USDT (BINANCE:FILDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0008, Trendline value: 0.0007
-[2024-07-23 15:04:00] YFIDOWN/USDT (BINANCE:YFIDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.9217, Trendline value: 0.8471
-[2024-07-23 15:04:00] CTK/USDT (BINANCE:CTKUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.8460, Trendline value: 0.7983
-[2024-07-23 15:04:00] BCHDOWN/USDT (BINANCE:BCHDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.2254, Trendline value: 0.2038
-[2024-07-23 15:04:00] DNT/USDT (BINANCE:DNTUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0475, Trendline value: 0.0380
-[2024-07-23 15:04:00] AAVEDOWN/USDT (BINANCE:AAVEDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0048, Trendline value: 0.0040
-[2024-07-23 15:04:00] SUSD/USDT (BINANCE:SUSDUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.9990, Trendline value: 0.9977
-[2024-07-23 15:04:00] XLMDOWN/USDT (BINANCE:XLMDOWNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 4.4770, Trendline value: 4.1653
-[2024-07-23 15:04:00] BTCST/USDT (BINANCE:BTCSTUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 5.6500, Trendline value: 5.5512
-[2024-07-23 15:04:00] ALICE/USDT (BINANCE:ALICEUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.2270, Trendline value: 1.2269
-[2024-07-23 15:04:00] RAMP/USDT (BINANCE:RAMPUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0549, Trendline value: 0.0504
-[2024-07-23 15:04:00] MDX/USDT (BINANCE:MDXUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0383, Trendline value: 0.0290
-[2024-07-23 15:04:00] NU/USDT (BINANCE:NUUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.5588, Trendline value: 0.5305
-[2024-07-23 15:04:00] TORN/USDT (BINANCE:TORNUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 4.3900, Trendline value: 4.3734
-[2024-07-23 15:04:00] KEEP/USDT (BINANCE:KEEPUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.6700, Trendline value: 0.6068
-[2024-07-23 15:04:00] BOND/USDT (BINANCE:BONDUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 2.1700, Trendline value: 1.6870
-[2024-07-23 15:04:00] TVK/USDT (BINANCE:TVKUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0547, Trendline value: 0.0530
-[2024-07-23 15:04:00] POLY/USDT (BINANCE:POLYUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.2730, Trendline value: 0.2672
-[2024-07-23 15:04:00] USDP/USDT (BINANCE:USDPUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.0000, Trendline value: 0.9998
-[2024-07-23 15:04:00] DAR/USDT (BINANCE:DARUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.1966, Trendline value: 0.1909
-[2024-07-23 15:04:00] RGT/USDT (BINANCE:RGTUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 14.5200, Trendline value: 14.3935
-[2024-07-23 15:04:00] ENS/USDT (BINANCE:ENSUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 30.4100, Trendline value: 27.8063
-[2024-07-23 15:04:00] RNDR/USDT (BINANCE:RNDRUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 7.1890, Trendline value: 7.0944
-[2024-07-23 15:04:00] CVX/USDT (BINANCE:CVXUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 2.8060, Trendline value: 2.5425
-[2024-07-23 15:04:00] GAL/USDT (BINANCE:GALUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 2.6000, Trendline value: 2.4453
-[2024-07-23 15:04:00] LDO/USDT (BINANCE:LDOUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.8740, Trendline value: 1.8677
-[2024-07-23 15:04:00] RPL/USDT (BINANCE:RPLUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 18.6400, Trendline value: 18.2516
-[2024-07-23 15:04:00] AGIX/USDT (BINANCE:AGIXUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.6248, Trendline value: 0.5724
-[2024-07-23 15:04:00] GNS/USDT (BINANCE:GNSUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 3.4980, Trendline value: 3.4819
-[2024-07-23 15:04:00] SSV/USDT (BINANCE:SSVUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 34.5400, Trendline value: 33.9705
-[2024-07-23 15:04:00] ARB/USDT (BINANCE:ARBUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.8158, Trendline value: 0.8060
-[2024-07-23 15:04:00] USDT/PLN (BINANCE:USDTPLN) is currently above the upper trendline in the 4h timeframe. Current price: 3.9570, Trendline value: 3.9510
-[2024-07-23 15:04:00] USDT/RON (BINANCE:USDTRON) is currently above the upper trendline in the 4h timeframe. Current price: 4.6030, Trendline value: 4.5781
-[2024-07-23 15:04:00] USDT/ARS (BINANCE:USDTARS) is currently above the upper trendline in the 4h timeframe. Current price: 1366.0000, Trendline value: 1362.9046
-[2024-07-23 15:04:00] PENDLE/USDT (BINANCE:PENDLEUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 4.2360, Trendline value: 4.2140
-[2024-07-23 15:04:00] USDT/VAI (BINANCE:USDTVAI) is currently above the upper trendline in the 4h timeframe. Current price: 1.0130, Trendline value: 1.0123
-[2024-07-23 15:04:00] STRK/USDT (BINANCE:STRKUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.6330, Trendline value: 0.6250
-[2024-07-23 15:04:00] METIS/USDT (BINANCE:METISUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 51.8500, Trendline value: 50.9225
-[2024-07-23 15:04:00] AEVO/USDT (BINANCE:AEVOUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.6030, Trendline value: 0.5820
-[2024-07-23 15:04:00] SAGA/USDT (BINANCE:SAGAUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 1.6152, Trendline value: 1.5431
-[2024-07-23 15:04:00] USDT/MXN (BINANCE:USDTMXN) is currently above the upper trendline in the 4h timeframe. Current price: 18.1100, Trendline value: 17.9700
-[2024-07-23 15:04:00] USDT/CZK (BINANCE:USDTCZK) is currently above the upper trendline in the 4h timeframe. Current price: 23.2400, Trendline value: 23.0019
-[2024-07-23 15:04:00] REZ/USDT (BINANCE:REZUSDT) is currently above the upper trendline in the 4h timeframe. Current price: 0.0782, Trendline value: 0.0728
-[2024-07-23 15:17:56] BTC/USDT (BINANCE:BTCUSDT) Current price: 66431.4500, Candle color: red, Price evolution: 244.5500
-[2024-07-23 15:17:56] ETH/USDT (BINANCE:ETHUSDT) Current price: 3495.9300, Candle color: red, Price evolution: 20.0800
-[2024-07-23 15:17:56] BNB/USDT (BINANCE:BNBUSDT) Current price: 583.3000, Candle color: red, Price evolution: 1.4000
-[2024-07-23 15:17:56] BCC/USDT (BINANCE:BCCUSDT) Current price: 448.7000, Candle color: red, Price evolution: 0.0000
-[2024-07-23 15:17:56] NEO/USDT (BINANCE:NEOUSDT) Current price: 11.4200, Candle color: red, Price evolution: 0.1000
-[2024-07-23 15:17:56] LTC/USDT (BINANCE:LTCUSDT) Current price: 71.9900, Candle color: red, Price evolution: 0.1600
-[2024-07-23 15:17:56] QTUM/USDT (BINANCE:QTUMUSDT) Current price: 2.6470, Candle color: red, Price evolution: 0.0230
-[2024-07-23 15:17:56] ADA/USDT (BINANCE:ADAUSDT) Current price: 0.4188, Candle color: red, Price evolution: 0.0066
-[2024-07-23 15:17:56] XRP/USDT (BINANCE:XRPUSDT) Current price: 0.5948, Candle color: red, Price evolution: 0.0016
-[2024-07-23 15:17:56] EOS/USDT (BINANCE:EOSUSDT) Current price: 0.5826, Candle color: red, Price evolution: 0.0025
-[2024-07-23 15:17:56] TUSD/USDT (BINANCE:TUSDUSDT) Current price: 0.9999, Candle color: red, Price evolution: 0.0000
-[2024-07-23 15:17:56] IOTA/USDT (BINANCE:IOTAUSDT) Current price: 0.1706, Candle color: red, Price evolution: 0.0014
-[2024-07-23 15:17:56] XLM/USDT (BINANCE:XLMUSDT) Current price: 0.1023, Candle color: red, Price evolution: 0.0001
-[2024-07-23 15:17:56] ONT/USDT (BINANCE:ONTUSDT) Current price: 0.2045, Candle color: red, Price evolution: 0.0020
-[2024-07-23 15:17:56] TRX/USDT (BINANCE:TRXUSDT) Current price: 0.1325, Candle color: green, Price evolution: 0.0001
-[2024-07-23 15:19:37] BCHABC/USDT (BINANCE:BCHABCUSDT) Current price: 220.0800, Candle color: green, Price evolution: 0.8800
-[2024-07-23 15:19:37] BSV/USDT (BINANCE:BSVUSDT) Current price: 58.9000, Candle color: green, Price evolution: 3.6400
-[2024-07-23 15:19:37] WAVES/USDT (BINANCE:WAVESUSDT) Current price: 1.0760, Candle color: green, Price evolution: 0.0420
-[2024-07-23 15:19:37] BTT/USDT (BINANCE:BTTUSDT) Current price: 0.0028, Candle color: green, Price evolution: 0.0001
-[2024-07-23 15:19:37] ZRX/USDT (BINANCE:ZRXUSDT) Current price: 0.3818, Candle color: green, Price evolution: 0.0011
-[2024-07-23 15:19:37] XMR/USDT (BINANCE:XMRUSDT) Current price: 118.7000, Candle color: green, Price evolution: 6.3000
-[2024-07-23 15:19:37] IOST/USDT (BINANCE:IOSTUSDT) Current price: 0.0061, Candle color: green, Price evolution: 0.0000
-[2024-07-23 15:19:37] NANO/USDT (BINANCE:NANOUSDT) Current price: 2.2240, Candle color: green, Price evolution: 0.0070
-[2024-07-23 15:19:37] MITH/USDT (BINANCE:MITHUSDT) Current price: 0.0034, Candle color: green, Price evolution: 0.0002
-[2024-07-23 15:19:37] USDSB/USDT (BINANCE:USDSBUSDT) Current price: 0.9997, Candle color: green, Price evolution: 0.0001
-[2024-07-23 15:19:37] ERD/USDT (BINANCE:ERDUSDT) Current price: 0.0197, Candle color: green, Price evolution: 0.0001
-[2024-07-23 15:19:37] TOMO/USDT (BINANCE:TOMOUSDT) Current price: 1.3819, Candle color: green, Price evolution: 0.1101
-[2024-07-23 15:19:37] MFT/USDT (BINANCE:MFTUSDT) Current price: 0.0053, Candle color: green, Price evolution: 0.0000
-[2024-07-23 15:19:37] KEY/USDT (BINANCE:KEYUSDT) Current price: 0.0053, Candle color: green, Price evolution: 0.0000
-[2024-07-23 15:19:37] STORM/USDT (BINANCE:STORMUSDT) Current price: 0.0034, Candle color: green, Price evolution: 0.0001
-[2024-07-23 15:19:37] MCO/USDT (BINANCE:MCOUSDT) Current price: 2.7440, Candle color: green, Price evolution: 0.0090
-[2024-07-23 15:19:37] USDT/RUB (BINANCE:USDTRUB) Current price: 91.1000, Candle color: green, Price evolution: 0.4000
-[2024-07-23 15:19:37] ETHBULL/USDT (BINANCE:ETHBULLUSDT) Current price: 79.1800, Candle color: green, Price evolution: 0.6300
-[2024-07-23 15:19:37] BTS/USDT (BINANCE:BTSUSDT) Current price: 0.0054, Candle color: green, Price evolution: 0.0002
-[2024-07-23 15:19:37] EOSBEAR/USDT (BINANCE:EOSBEARUSDT) Current price: 30.2100, Candle color: green, Price evolution: 0.1100
-[2024-07-23 15:19:37] XRPBEAR/USDT (BINANCE:XRPBEARUSDT) Current price: 548.5500, Candle color: green, Price evolution: 2.4800
-[2024-07-23 15:19:37] MBL/USDT (BINANCE:MBLUSDT) Current price: 0.0027, Candle color: green, Price evolution: 0.0000
-[2024-07-23 15:19:37] BNBBEAR/USDT (BINANCE:BNBBEARUSDT) Current price: 58.6100, Candle color: green, Price evolution: 0.1900
-[2024-07-23 15:19:37] USDT/ZAR (BINANCE:USDTZAR) Current price: 18.7100, Candle color: green, Price evolution: 0.0400
-[2024-07-23 15:19:37] XZC/USDT (BINANCE:XZCUSDT) Current price: 4.4460, Candle color: green, Price evolution: 0.0990
-[2024-07-23 15:19:37] BTCUP/USDT (BINANCE:BTCUPUSDT) Current price: 16.6000, Candle color: green, Price evolution: 0.0310
-[2024-07-23 15:19:37] LEND/USDT (BINANCE:LENDUSDT) Current price: 0.5143, Candle color: green, Price evolution: 0.0121
-[2024-07-23 15:19:37] STMX/USDT (BINANCE:STMXUSDT) Current price: 0.0067, Candle color: green, Price evolution: 0.0004
-[2024-07-23 15:19:37] REP/USDT (BINANCE:REPUSDT) Current price: 4.7300, Candle color: green, Price evolution: 0.0300
-[2024-07-23 15:19:37] PNT/USDT (BINANCE:PNTUSDT) Current price: 0.0350, Candle color: green, Price evolution: 0.0056
-[2024-07-23 15:19:37] USDT/BIDR (BINANCE:USDTBIDR) Current price: 15980.0000, Candle color: green, Price evolution: 4.0000
-[2024-07-23 15:19:37] SC/USDT (BINANCE:SCUSDT) Current price: 0.0053, Candle color: green, Price evolution: 0.0001
-[2024-07-23 15:19:37] LINKDOWN/USDT (BINANCE:LINKDOWNUSDT) Current price: 0.0009, Candle color: green, Price evolution: 0.0000
-[2024-07-23 15:19:37] DAI/USDT (BINANCE:DAIUSDT) Current price: 1.0189, Candle color: green, Price evolution: 0.0013
-[2024-07-23 15:19:37] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) Current price: 2.6001, Candle color: green, Price evolution: 0.2521
-[2024-07-23 15:19:37] USDT/BKRW (BINANCE:USDTBKRW) Current price: 1125.0000, Candle color: green, Price evolution: 9.9700
-[2024-07-23 15:19:37] USDT/DAI (BINANCE:USDTDAI) Current price: 1.0004, Candle color: green, Price evolution: 0.0004
-[2024-07-23 15:19:37] BZRX/USDT (BINANCE:BZRXUSDT) Current price: 0.2156, Candle color: green, Price evolution: 0.0073
-[2024-07-23 15:19:37] YFII/USDT (BINANCE:YFIIUSDT) Current price: 435.5000, Candle color: green, Price evolution: 3.0000
-[2024-07-23 15:19:37] TRXUP/USDT (BINANCE:TRXUPUSDT) Current price: 0.0385, Candle color: green, Price evolution: 0.0007
-[2024-07-23 15:19:37] XRPDOWN/USDT (BINANCE:XRPDOWNUSDT) Current price: 0.0001, Candle color: green, Price evolution: 0.0000
-[2024-07-23 15:19:37] DOTUP/USDT (BINANCE:DOTUPUSDT) Current price: 0.0960, Candle color: green, Price evolution: 0.0008
-[2024-07-23 15:19:37] LTCDOWN/USDT (BINANCE:LTCDOWNUSDT) Current price: 2.2279, Candle color: green, Price evolution: 0.0710
-[2024-07-23 15:19:37] NBS/USDT (BINANCE:NBSUSDT) Current price: 0.0017, Candle color: green, Price evolution: 0.0000
-[2024-07-23 15:19:37] HNT/USDT (BINANCE:HNTUSDT) Current price: 4.6700, Candle color: green, Price evolution: 0.0700
-[2024-07-23 15:19:37] UNIUP/USDT (BINANCE:UNIUPUSDT) Current price: 1.0550, Candle color: green, Price evolution: 0.0830
-[2024-07-23 15:19:37] USDT/BRL (BINANCE:USDTBRL) Current price: 5.6100, Candle color: green, Price evolution: 0.0240
-[2024-07-23 15:19:37] SXPUP/USDT (BINANCE:SXPUPUSDT) Current price: 0.1743, Candle color: green, Price evolution: 0.0036
-[2024-07-23 15:19:37] FILDOWN/USDT (BINANCE:FILDOWNUSDT) Current price: 0.0008, Candle color: green, Price evolution: 0.0000
-[2024-07-23 15:19:37] YFIDOWN/USDT (BINANCE:YFIDOWNUSDT) Current price: 0.9009, Candle color: green, Price evolution: 0.0024
-[2024-07-23 15:19:37] AUDIO/USDT (BINANCE:AUDIOUSDT) Current price: 0.1474, Candle color: green, Price evolution: 0.0019
-[2024-07-23 15:19:37] BCHDOWN/USDT (BINANCE:BCHDOWNUSDT) Current price: 0.2247, Candle color: green, Price evolution: 0.0077
-[2024-07-23 15:19:37] DNT/USDT (BINANCE:DNTUSDT) Current price: 0.0360, Candle color: green, Price evolution: 0.0035
-[2024-07-23 15:19:37] AAVEDOWN/USDT (BINANCE:AAVEDOWNUSDT) Current price: 0.0047, Candle color: green, Price evolution: 0.0001
-[2024-07-23 15:19:37] SUSHIUP/USDT (BINANCE:SUSHIUPUSDT) Current price: 0.0047, Candle color: green, Price evolution: 0.0001
-[2024-07-23 15:19:37] XLMUP/USDT (BINANCE:XLMUPUSDT) Current price: 0.0243, Candle color: green, Price evolution: 0.0006
-[2024-07-23 15:19:37] SFP/USDT (BINANCE:SFPUSDT) Current price: 0.8307, Candle color: green, Price evolution: 0.0030
-[2024-07-23 15:19:37] RAMP/USDT (BINANCE:RAMPUSDT) Current price: 0.0524, Candle color: green, Price evolution: 0.0021
-[2024-07-23 15:19:37] 1INCHDOWN/USDT (BINANCE:1INCHDOWNUSDT) Current price: 0.0061, Candle color: green, Price evolution: 0.0003
-[2024-07-23 15:20:57] TRX/USDT (BINANCE:TRXUSDT) Current price: 0.1325, Candle color: green, Price evolution: 0.08%
-[2024-07-23 15:20:57] BCHABC/USDT (BINANCE:BCHABCUSDT) Current price: 220.0800, Candle color: green, Price evolution: 0.40%
-[2024-07-23 15:20:57] BSV/USDT (BINANCE:BSVUSDT) Current price: 58.9000, Candle color: green, Price evolution: 6.59%
-[2024-07-23 15:20:57] WAVES/USDT (BINANCE:WAVESUSDT) Current price: 1.0760, Candle color: green, Price evolution: 4.06%
-[2024-07-23 15:20:57] BTT/USDT (BINANCE:BTTUSDT) Current price: 0.0028, Candle color: green, Price evolution: 3.74%
-[2024-07-23 15:20:57] ZRX/USDT (BINANCE:ZRXUSDT) Current price: 0.3819, Candle color: green, Price evolution: 0.32%
-[2024-07-23 15:20:57] XMR/USDT (BINANCE:XMRUSDT) Current price: 118.7000, Candle color: green, Price evolution: 5.60%
-[2024-07-23 15:20:57] IOST/USDT (BINANCE:IOSTUSDT) Current price: 0.0061, Candle color: green, Price evolution: 0.16%
-[2024-07-23 15:20:57] NANO/USDT (BINANCE:NANOUSDT) Current price: 2.2240, Candle color: green, Price evolution: 0.32%
-[2024-07-23 15:20:57] MITH/USDT (BINANCE:MITHUSDT) Current price: 0.0034, Candle color: green, Price evolution: 5.18%
-[2024-07-23 15:20:57] USDSB/USDT (BINANCE:USDSBUSDT) Current price: 0.9997, Candle color: green, Price evolution: 0.01%
-[2024-07-23 15:20:57] ERD/USDT (BINANCE:ERDUSDT) Current price: 0.0197, Candle color: green, Price evolution: 0.57%
-[2024-07-23 15:20:57] TOMO/USDT (BINANCE:TOMOUSDT) Current price: 1.3819, Candle color: green, Price evolution: 8.66%
-[2024-07-23 15:20:57] MFT/USDT (BINANCE:MFTUSDT) Current price: 0.0053, Candle color: green, Price evolution: 0.67%
-[2024-07-23 15:20:57] KEY/USDT (BINANCE:KEYUSDT) Current price: 0.0053, Candle color: green, Price evolution: 0.11%
-[2024-07-23 15:20:57] STORM/USDT (BINANCE:STORMUSDT) Current price: 0.0034, Candle color: green, Price evolution: 1.95%
-[2024-07-23 15:20:57] BAND/USDT (BINANCE:BANDUSDT) Current price: 1.4100, Candle color: green, Price evolution: 0.07%
-[2024-07-23 15:20:57] MCO/USDT (BINANCE:MCOUSDT) Current price: 2.7440, Candle color: green, Price evolution: 0.33%
-[2024-07-23 15:20:57] USDT/RUB (BINANCE:USDTRUB) Current price: 91.1000, Candle color: green, Price evolution: 0.44%
-[2024-07-23 15:20:57] ETHBULL/USDT (BINANCE:ETHBULLUSDT) Current price: 79.1800, Candle color: green, Price evolution: 0.80%
-[2024-07-23 15:20:57] BTS/USDT (BINANCE:BTSUSDT) Current price: 0.0054, Candle color: green, Price evolution: 3.45%
-[2024-07-23 15:20:57] EOSBEAR/USDT (BINANCE:EOSBEARUSDT) Current price: 30.2100, Candle color: green, Price evolution: 0.37%
-[2024-07-23 15:20:57] XRPBEAR/USDT (BINANCE:XRPBEARUSDT) Current price: 548.5500, Candle color: green, Price evolution: 0.45%
-[2024-07-23 15:20:57] MBL/USDT (BINANCE:MBLUSDT) Current price: 0.0027, Candle color: green, Price evolution: 1.46%
-[2024-07-23 15:20:57] BNBBEAR/USDT (BINANCE:BNBBEARUSDT) Current price: 58.6100, Candle color: green, Price evolution: 0.33%
-[2024-07-23 15:20:57] USDT/ZAR (BINANCE:USDTZAR) Current price: 18.6900, Candle color: green, Price evolution: 0.11%
-[2024-07-23 15:20:57] XZC/USDT (BINANCE:XZCUSDT) Current price: 4.4460, Candle color: green, Price evolution: 2.28%
-[2024-07-23 15:20:57] BTCUP/USDT (BINANCE:BTCUPUSDT) Current price: 16.6000, Candle color: green, Price evolution: 0.19%
-[2024-07-23 15:20:57] LEND/USDT (BINANCE:LENDUSDT) Current price: 0.5143, Candle color: green, Price evolution: 2.40%
-[2024-07-23 15:20:57] STMX/USDT (BINANCE:STMXUSDT) Current price: 0.0067, Candle color: green, Price evolution: 5.71%
-[2024-07-23 15:20:57] REP/USDT (BINANCE:REPUSDT) Current price: 4.7300, Candle color: green, Price evolution: 0.64%
-[2024-07-23 15:20:57] PNT/USDT (BINANCE:PNTUSDT) Current price: 0.0350, Candle color: green, Price evolution: 19.05%
-[2024-07-23 15:20:57] USDT/BIDR (BINANCE:USDTBIDR) Current price: 15980.0000, Candle color: green, Price evolution: 0.03%
-[2024-07-23 15:20:57] SC/USDT (BINANCE:SCUSDT) Current price: 0.0053, Candle color: green, Price evolution: 2.34%
-[2024-07-23 15:20:57] LINKDOWN/USDT (BINANCE:LINKDOWNUSDT) Current price: 0.0009, Candle color: green, Price evolution: 0.90%
-[2024-07-23 15:20:57] DAI/USDT (BINANCE:DAIUSDT) Current price: 1.0189, Candle color: green, Price evolution: 0.13%
-[2024-07-23 15:20:57] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) Current price: 2.6001, Candle color: green, Price evolution: 10.74%
-[2024-07-23 15:20:57] USDT/BKRW (BINANCE:USDTBKRW) Current price: 1125.0000, Candle color: green, Price evolution: 0.89%
-[2024-07-23 15:20:57] USDT/DAI (BINANCE:USDTDAI) Current price: 1.0005, Candle color: green, Price evolution: 0.05%
-[2024-07-23 15:20:57] JST/USDT (BINANCE:JSTUSDT) Current price: 0.0287, Candle color: green, Price evolution: 0.03%
-[2024-07-23 15:20:57] BZRX/USDT (BINANCE:BZRXUSDT) Current price: 0.2156, Candle color: green, Price evolution: 3.50%
-[2024-07-23 15:20:57] YFII/USDT (BINANCE:YFIIUSDT) Current price: 435.5000, Candle color: green, Price evolution: 0.69%
-[2024-07-23 15:20:57] TRXUP/USDT (BINANCE:TRXUPUSDT) Current price: 0.0385, Candle color: green, Price evolution: 1.82%
-[2024-07-23 15:23:48] ETH/USDT (BINANCE:ETHUSDT) Current price: 3505.4000, Candle color: green, Price evolution: 1.91%
-[2024-07-23 15:23:48] LTC/USDT (BINANCE:LTCUSDT) Current price: 72.2700, Candle color: green, Price evolution: 1.43%
-[2024-07-23 15:23:48] EOS/USDT (BINANCE:EOSUSDT) Current price: 0.5842, Candle color: green, Price evolution: 0.27%
-[2024-07-23 15:23:48] TRX/USDT (BINANCE:TRXUSDT) Current price: 0.1325, Candle color: green, Price evolution: 0.08%
-[2024-07-23 15:23:48] ETC/USDT (BINANCE:ETCUSDT) Current price: 24.4600, Candle color: green, Price evolution: 4.40%
-[2024-07-23 15:23:48] NULS/USDT (BINANCE:NULSUSDT) Current price: 0.3331, Candle color: green, Price evolution: 0.79%
-[2024-07-23 15:23:48] BCHABC/USDT (BINANCE:BCHABCUSDT) Current price: 220.0800, Candle color: green, Price evolution: 0.40%
-[2024-07-23 15:23:48] BSV/USDT (BINANCE:BSVUSDT) Current price: 58.9000, Candle color: green, Price evolution: 4.99%
-[2024-07-23 15:23:48] USDC/USDT (BINANCE:USDCUSDT) Current price: 0.9999, Candle color: green, Price evolution: 0.04%
-[2024-07-23 15:23:48] WAVES/USDT (BINANCE:WAVESUSDT) Current price: 1.0760, Candle color: green, Price evolution: 4.06%
-[2024-07-23 15:23:48] BTT/USDT (BINANCE:BTTUSDT) Current price: 0.0028, Candle color: green, Price evolution: 3.74%
-[2024-07-23 15:23:48] ZRX/USDT (BINANCE:ZRXUSDT) Current price: 0.3832, Candle color: green, Price evolution: 2.51%
-[2024-07-23 15:23:48] BAT/USDT (BINANCE:BATUSDT) Current price: 0.1949, Candle color: green, Price evolution: 0.46%
-[2024-07-23 15:23:48] XMR/USDT (BINANCE:XMRUSDT) Current price: 118.7000, Candle color: green, Price evolution: 5.60%
-[2024-07-23 15:23:48] ZEC/USDT (BINANCE:ZECUSDT) Current price: 30.4800, Candle color: green, Price evolution: 0.43%
-[2024-07-23 15:23:48] IOST/USDT (BINANCE:IOSTUSDT) Current price: 0.0061, Candle color: green, Price evolution: 0.66%
-[2024-07-23 15:23:48] NANO/USDT (BINANCE:NANOUSDT) Current price: 2.2240, Candle color: green, Price evolution: 0.32%
-[2024-07-23 15:23:48] MATIC/USDT (BINANCE:MATICUSDT) Current price: 0.5491, Candle color: green, Price evolution: 3.51%
-[2024-07-23 15:23:48] ONE/USDT (BINANCE:ONEUSDT) Current price: 0.0149, Candle color: green, Price evolution: 0.40%
-[2024-07-23 15:23:48] USDSB/USDT (BINANCE:USDSBUSDT) Current price: 0.9997, Candle color: green, Price evolution: 0.39%
-[2024-07-23 15:23:48] ERD/USDT (BINANCE:ERDUSDT) Current price: 0.0197, Candle color: green, Price evolution: 0.57%
-[2024-07-23 15:23:48] TOMO/USDT (BINANCE:TOMOUSDT) Current price: 1.3819, Candle color: green, Price evolution: 8.66%
-[2024-07-23 15:23:48] DENT/USDT (BINANCE:DENTUSDT) Current price: 0.0010, Candle color: green, Price evolution: 0.41%
-[2024-07-23 15:23:48] MFT/USDT (BINANCE:MFTUSDT) Current price: 0.0053, Candle color: green, Price evolution: 0.67%
-[2024-07-23 15:23:48] STORM/USDT (BINANCE:STORMUSDT) Current price: 0.0034, Candle color: green, Price evolution: 1.95%
-[2024-07-23 15:23:48] WAN/USDT (BINANCE:WANUSDT) Current price: 0.1978, Candle color: green, Price evolution: 0.71%
-[2024-07-23 15:23:48] BAND/USDT (BINANCE:BANDUSDT) Current price: 1.4120, Candle color: green, Price evolution: 1.58%
-[2024-07-23 15:23:48] REN/USDT (BINANCE:RENUSDT) Current price: 0.0505, Candle color: green, Price evolution: 1.12%
-[2024-07-23 15:23:48] RVN/USDT (BINANCE:RVNUSDT) Current price: 0.0198, Candle color: green, Price evolution: 1.74%
-[2024-07-23 15:23:48] USDT/RUB (BINANCE:USDTRUB) Current price: 91.1000, Candle color: green, Price evolution: 0.41%
-[2024-07-23 15:23:48] OGN/USDT (BINANCE:OGNUSDT) Current price: 0.0988, Candle color: green, Price evolution: 0.10%
-[2024-07-23 15:23:48] BULL/USDT (BINANCE:BULLUSDT) Current price: 1370.2800, Candle color: green, Price evolution: 0.83%
-[2024-07-23 15:23:48] ETHBULL/USDT (BINANCE:ETHBULLUSDT) Current price: 79.1800, Candle color: green, Price evolution: 0.42%
-[2024-07-23 15:23:48] WRX/USDT (BINANCE:WRXUSDT) Current price: 0.1266, Candle color: green, Price evolution: 0.24%
-[2024-07-23 15:23:48] BTS/USDT (BINANCE:BTSUSDT) Current price: 0.0054, Candle color: green, Price evolution: 3.45%
-[2024-07-23 15:23:48] BNT/USDT (BINANCE:BNTUSDT) Current price: 0.6334, Candle color: green, Price evolution: 1.07%
-[2024-07-23 15:23:48] EOSBEAR/USDT (BINANCE:EOSBEARUSDT) Current price: 30.2100, Candle color: green, Price evolution: 3.00%
-[2024-07-23 15:23:48] XRPBULL/USDT (BINANCE:XRPBULLUSDT) Current price: 8.7400, Candle color: green, Price evolution: 1.27%
-[2024-07-23 15:23:48] MBL/USDT (BINANCE:MBLUSDT) Current price: 0.0027, Candle color: green, Price evolution: 1.39%
-[2024-07-23 15:23:48] BNBBULL/USDT (BINANCE:BNBBULLUSDT) Current price: 57.2100, Candle color: green, Price evolution: 8.78%
-[2024-07-23 15:23:48] USDT/ZAR (BINANCE:USDTZAR) Current price: 18.6900, Candle color: green, Price evolution: 0.86%
-[2024-07-23 15:23:48] XZC/USDT (BINANCE:XZCUSDT) Current price: 4.4460, Candle color: green, Price evolution: 2.28%
-[2024-07-23 15:23:48] BTCUP/USDT (BINANCE:BTCUPUSDT) Current price: 16.6000, Candle color: green, Price evolution: 0.52%
-[2024-07-23 15:23:48] ARDR/USDT (BINANCE:ARDRUSDT) Current price: 0.0711, Candle color: green, Price evolution: 0.28%
-[2024-07-23 15:23:48] LEND/USDT (BINANCE:LENDUSDT) Current price: 0.5143, Candle color: green, Price evolution: 2.40%
-[2024-07-23 15:23:48] STMX/USDT (BINANCE:STMXUSDT) Current price: 0.0066, Candle color: green, Price evolution: 19.60%
-[2024-07-23 15:23:48] PNT/USDT (BINANCE:PNTUSDT) Current price: 0.0350, Candle color: green, Price evolution: 19.05%
-[2024-07-23 15:23:48] COMP/USDT (BINANCE:COMPUSDT) Current price: 50.8700, Candle color: green, Price evolution: 0.71%
-[2024-07-23 15:23:48] USDT/BIDR (BINANCE:USDTBIDR) Current price: 15980.0000, Candle color: green, Price evolution: 0.03%
-[2024-07-23 15:23:48] SC/USDT (BINANCE:SCUSDT) Current price: 0.0053, Candle color: green, Price evolution: 3.03%
-[2024-07-23 15:23:48] ETHUP/USDT (BINANCE:ETHUPUSDT) Current price: 11.6510, Candle color: green, Price evolution: 0.41%
-[2024-07-23 15:23:48] LINKDOWN/USDT (BINANCE:LINKDOWNUSDT) Current price: 0.0009, Candle color: green, Price evolution: 0.90%
-[2024-07-23 15:23:48] DAI/USDT (BINANCE:DAIUSDT) Current price: 1.0189, Candle color: green, Price evolution: 0.13%
-[2024-07-23 15:23:48] BNBUP/USDT (BINANCE:BNBUPUSDT) Current price: 61.8000, Candle color: green, Price evolution: 1.26%
-[2024-07-23 15:23:48] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) Current price: 2.6001, Candle color: green, Price evolution: 10.74%
-[2024-07-23 15:23:48] USDT/BKRW (BINANCE:USDTBKRW) Current price: 1125.0000, Candle color: green, Price evolution: 1.02%
-[2024-07-23 15:23:48] YFI/USDT (BINANCE:YFIUSDT) Current price: 5831.0000, Candle color: green, Price evolution: 0.15%
-[2024-07-23 15:23:48] BAL/USDT (BINANCE:BALUSDT) Current price: 2.6420, Candle color: green, Price evolution: 1.34%
-[2024-07-23 15:23:48] BLZ/USDT (BINANCE:BLZUSDT) Current price: 0.1775, Candle color: green, Price evolution: 1.02%
-[2024-07-23 15:23:48] CRV/USDT (BINANCE:CRVUSDT) Current price: 0.2813, Candle color: green, Price evolution: 3.80%
-[2024-07-23 15:23:48] PAXG/USDT (BINANCE:PAXGUSDT) Current price: 2397.0000, Candle color: green, Price evolution: 0.25%
-[2024-07-23 15:23:48] TRB/USDT (BINANCE:TRBUSDT) Current price: 74.9900, Candle color: green, Price evolution: 1.92%
-[2024-07-23 15:23:48] BZRX/USDT (BINANCE:BZRXUSDT) Current price: 0.2156, Candle color: green, Price evolution: 3.50%
-[2024-07-23 15:23:48] YFII/USDT (BINANCE:YFIIUSDT) Current price: 435.5000, Candle color: green, Price evolution: 0.69%
-[2024-07-23 15:23:48] RUNE/USDT (BINANCE:RUNEUSDT) Current price: 4.6800, Candle color: green, Price evolution: 0.97%
-[2024-07-23 15:23:48] FIO/USDT (BINANCE:FIOUSDT) Current price: 0.0237, Candle color: green, Price evolution: 0.47%
-[2024-07-23 15:23:48] UMA/USDT (BINANCE:UMAUSDT) Current price: 2.3820, Candle color: green, Price evolution: 0.63%
-[2024-07-23 15:23:48] TRXUP/USDT (BINANCE:TRXUPUSDT) Current price: 0.0385, Candle color: green, Price evolution: 1.82%
-[2024-07-23 15:23:48] XRPDOWN/USDT (BINANCE:XRPDOWNUSDT) Current price: 0.0001, Candle color: green, Price evolution: 1.09%
-[2024-07-23 15:23:48] DOTUP/USDT (BINANCE:DOTUPUSDT) Current price: 0.0960, Candle color: green, Price evolution: 0.84%
-[2024-07-23 15:23:48] LTCDOWN/USDT (BINANCE:LTCDOWNUSDT) Current price: 2.2279, Candle color: green, Price evolution: 3.29%
-[2024-07-23 15:23:48] UNI/USDT (BINANCE:UNIUSDT) Current price: 7.8690, Candle color: green, Price evolution: 0.70%
-[2024-07-23 15:23:48] HNT/USDT (BINANCE:HNTUSDT) Current price: 4.6700, Candle color: green, Price evolution: 1.52%
-[2024-07-23 15:23:48] FLM/USDT (BINANCE:FLMUSDT) Current price: 0.0701, Candle color: green, Price evolution: 0.72%
-[2024-07-23 15:23:48] UNIUP/USDT (BINANCE:UNIUPUSDT) Current price: 1.0550, Candle color: green, Price evolution: 8.54%
-[2024-07-23 15:23:48] ORN/USDT (BINANCE:ORNUSDT) Current price: 1.4780, Candle color: green, Price evolution: 0.61%
-[2024-07-23 15:23:48] USDT/BRL (BINANCE:USDTBRL) Current price: 5.6090, Candle color: green, Price evolution: 0.59%
-[2024-07-23 15:23:48] AAVE/USDT (BINANCE:AAVEUSDT) Current price: 95.1200, Candle color: green, Price evolution: 1.02%
-[2024-07-23 15:23:48] SXPUP/USDT (BINANCE:SXPUPUSDT) Current price: 0.1743, Candle color: green, Price evolution: 2.12%
-[2024-07-23 15:23:48] FILDOWN/USDT (BINANCE:FILDOWNUSDT) Current price: 0.0008, Candle color: green, Price evolution: 3.18%
-[2024-07-23 15:23:48] YFIDOWN/USDT (BINANCE:YFIDOWNUSDT) Current price: 0.9009, Candle color: green, Price evolution: 0.27%
-[2024-07-23 15:23:48] AUDIO/USDT (BINANCE:AUDIOUSDT) Current price: 0.1476, Candle color: green, Price evolution: 0.68%
-[2024-07-23 15:23:48] CTK/USDT (BINANCE:CTKUSDT) Current price: 0.8202, Candle color: green, Price evolution: 0.35%
-[2024-07-23 15:23:48] BCHDOWN/USDT (BINANCE:BCHDOWNUSDT) Current price: 0.2247, Candle color: green, Price evolution: 3.55%
-[2024-07-23 15:23:48] AKRO/USDT (BINANCE:AKROUSDT) Current price: 0.0055, Candle color: green, Price evolution: 0.24%
-[2024-07-23 15:23:48] DNT/USDT (BINANCE:DNTUSDT) Current price: 0.0360, Candle color: green, Price evolution: 18.03%
-[2024-07-23 15:23:48] UNFI/USDT (BINANCE:UNFIUSDT) Current price: 3.8920, Candle color: green, Price evolution: 0.10%
-[2024-07-23 15:23:48] AAVEDOWN/USDT (BINANCE:AAVEDOWNUSDT) Current price: 0.0047, Candle color: green, Price evolution: 1.70%
-[2024-07-23 15:23:48] SUSD/USDT (BINANCE:SUSDUSDT) Current price: 0.9960, Candle color: green, Price evolution: 0.10%
-[2024-07-23 15:23:48] SUSHIUP/USDT (BINANCE:SUSHIUPUSDT) Current price: 0.0047, Candle color: green, Price evolution: 2.03%
-[2024-07-23 15:23:48] XLMUP/USDT (BINANCE:XLMUPUSDT) Current price: 0.0243, Candle color: green, Price evolution: 2.40%
-[2024-07-23 15:23:48] CELO/USDT (BINANCE:CELOUSDT) Current price: 0.5860, Candle color: green, Price evolution: 0.02%
-[2024-07-23 15:23:48] LIT/USDT (BINANCE:LITUSDT) Current price: 0.7480, Candle color: green, Price evolution: 0.94%
-[2024-07-23 15:23:48] SFP/USDT (BINANCE:SFPUSDT) Current price: 0.8297, Candle color: green, Price evolution: 1.48%
-[2024-07-23 15:23:48] POND/USDT (BINANCE:PONDUSDT) Current price: 0.0183, Candle color: green, Price evolution: 0.38%
-[2024-07-23 15:23:48] DEGO/USDT (BINANCE:DEGOUSDT) Current price: 1.5910, Candle color: green, Price evolution: 1.21%
-[2024-07-23 15:23:48] ALICE/USDT (BINANCE:ALICEUSDT) Current price: 1.2140, Candle color: green, Price evolution: 1.08%
-[2024-07-23 15:23:48] PERP/USDT (BINANCE:PERPUSDT) Current price: 0.6710, Candle color: green, Price evolution: 0.68%
-[2024-07-23 15:23:48] RAMP/USDT (BINANCE:RAMPUSDT) Current price: 0.0524, Candle color: green, Price evolution: 4.17%
-[2024-07-23 15:23:48] SUPER/USDT (BINANCE:SUPERUSDT) Current price: 0.6642, Candle color: green, Price evolution: 0.14%
-[2024-07-23 15:23:48] TKO/USDT (BINANCE:TKOUSDT) Current price: 0.3101, Candle color: green, Price evolution: 0.13%
-[2024-07-23 15:23:48] 1INCHDOWN/USDT (BINANCE:1INCHDOWNUSDT) Current price: 0.0061, Candle color: green, Price evolution: 5.06%
-[2024-07-23 15:23:48] FORTH/USDT (BINANCE:FORTHUSDT) Current price: 3.3670, Candle color: green, Price evolution: 0.54%
-[2024-07-23 15:23:48] SLP/USDT (BINANCE:SLPUSDT) Current price: 0.0031, Candle color: green, Price evolution: 0.23%
-[2024-07-23 15:23:48] MDX/USDT (BINANCE:MDXUSDT) Current price: 0.0345, Candle color: green, Price evolution: 17.79%
-[2024-07-23 15:23:48] KEEP/USDT (BINANCE:KEEPUSDT) Current price: 0.6251, Candle color: green, Price evolution: 0.43%
-[2024-07-23 15:23:48] BOND/USDT (BINANCE:BONDUSDT) Current price: 2.1520, Candle color: green, Price evolution: 20.02%
-[2024-07-23 15:23:48] MLN/USDT (BINANCE:MLNUSDT) Current price: 19.2900, Candle color: green, Price evolution: 0.05%
-[2024-07-23 15:23:48] DEXE/USDT (BINANCE:DEXEUSDT) Current price: 9.8880, Candle color: green, Price evolution: 0.80%
-[2024-07-23 15:23:48] TVK/USDT (BINANCE:TVKUSDT) Current price: 0.0541, Candle color: green, Price evolution: 2.97%
-[2024-07-23 15:23:48] ALPACA/USDT (BINANCE:ALPACAUSDT) Current price: 0.1274, Candle color: green, Price evolution: 0.87%
-[2024-07-23 15:23:48] QUICK/USDT (BINANCE:QUICKUSDT) Current price: 0.0416, Candle color: green, Price evolution: 1.17%
-[2024-07-23 15:23:48] FOR/USDT (BINANCE:FORUSDT) Current price: 0.0134, Candle color: green, Price evolution: 0.90%
-[2024-07-23 15:23:48] REQ/USDT (BINANCE:REQUSDT) Current price: 0.1109, Candle color: green, Price evolution: 0.27%
-[2024-07-23 15:23:48] GHST/USDT (BINANCE:GHSTUSDT) Current price: 1.0690, Candle color: green, Price evolution: 1.14%
-[2024-07-23 15:23:48] TRIBE/USDT (BINANCE:TRIBEUSDT) Current price: 0.2018, Candle color: green, Price evolution: 0.10%
-[2024-07-23 15:23:48] POLY/USDT (BINANCE:POLYUSDT) Current price: 0.2696, Candle color: green, Price evolution: 2.70%
-[2024-07-23 15:23:48] VIDT/USDT (BINANCE:VIDTUSDT) Current price: 0.0213, Candle color: green, Price evolution: 0.57%
-[2024-07-23 15:23:48] USDP/USDT (BINANCE:USDPUSDT) Current price: 1.0000, Candle color: green, Price evolution: 0.05%
-[2024-07-23 15:23:48] YGG/USDT (BINANCE:YGGUSDT) Current price: 0.4983, Candle color: green, Price evolution: 0.42%
-[2024-07-23 15:23:48] SYS/USDT (BINANCE:SYSUSDT) Current price: 0.1084, Candle color: green, Price evolution: 1.03%
-[2024-07-23 15:23:48] DF/USDT (BINANCE:DFUSDT) Current price: 0.0336, Candle color: green, Price evolution: 0.69%
-[2024-07-23 15:23:48] FRONT/USDT (BINANCE:FRONTUSDT) Current price: 0.9040, Candle color: green, Price evolution: 0.44%
-[2024-07-23 15:23:48] CHESS/USDT (BINANCE:CHESSUSDT) Current price: 0.1388, Candle color: green, Price evolution: 1.54%
-[2024-07-23 15:23:48] ADX/USDT (BINANCE:ADXUSDT) Current price: 0.1685, Candle color: green, Price evolution: 0.30%
-[2024-07-23 15:23:48] AUCTION/USDT (BINANCE:AUCTIONUSDT) Current price: 16.0500, Candle color: green, Price evolution: 2.16%
-[2024-07-23 15:23:48] RGT/USDT (BINANCE:RGTUSDT) Current price: 14.4400, Candle color: green, Price evolution: 0.91%
-[2024-07-23 15:23:48] ENS/USDT (BINANCE:ENSUSDT) Current price: 29.5500, Candle color: green, Price evolution: 15.16%
-[2024-07-23 15:23:48] PLA/USDT (BINANCE:PLAUSDT) Current price: 0.2347, Candle color: green, Price evolution: 3.76%
-[2024-07-23 15:23:48] PYR/USDT (BINANCE:PYRUSDT) Current price: 3.4040, Candle color: green, Price evolution: 0.32%
-[2024-07-23 15:23:48] CVX/USDT (BINANCE:CVXUSDT) Current price: 2.7390, Candle color: green, Price evolution: 14.99%
-[2024-07-23 15:23:48] ACH/USDT (BINANCE:ACHUSDT) Current price: 0.0244, Candle color: green, Price evolution: 0.70%
-[2024-07-23 15:23:48] IMX/USDT (BINANCE:IMXUSDT) Current price: 1.5680, Candle color: green, Price evolution: 1.23%
-[2024-07-23 15:23:48] SCRT/USDT (BINANCE:SCRTUSDT) Current price: 0.2773, Candle color: green, Price evolution: 0.22%
-[2024-07-23 15:23:48] WOO/USDT (BINANCE:WOOUSDT) Current price: 0.2083, Candle color: green, Price evolution: 0.43%
-[2024-07-23 15:23:48] ALPINE/USDT (BINANCE:ALPINEUSDT) Current price: 1.3230, Candle color: green, Price evolution: 0.53%
-[2024-07-23 15:23:48] APE/USDT (BINANCE:APEUSDT) Current price: 0.8110, Candle color: green, Price evolution: 0.25%
-[2024-07-23 15:23:48] BIFI/USDT (BINANCE:BIFIUSDT) Current price: 330.4000, Candle color: green, Price evolution: 0.24%
-[2024-07-23 15:23:48] STEEM/USDT (BINANCE:STEEMUSDT) Current price: 0.1998, Candle color: green, Price evolution: 0.15%
-[2024-07-23 15:23:48] NEXO/USDT (BINANCE:NEXOUSDT) Current price: 1.2250, Candle color: green, Price evolution: 0.66%
-[2024-07-23 15:23:48] GAL/USDT (BINANCE:GALUSDT) Current price: 2.5420, Candle color: green, Price evolution: 0.04%
-[2024-07-23 15:23:48] LDO/USDT (BINANCE:LDOUSDT) Current price: 1.8460, Candle color: green, Price evolution: 3.42%
-[2024-07-23 15:23:48] OP/USDT (BINANCE:OPUSDT) Current price: 1.9070, Candle color: green, Price evolution: 1.76%
-[2024-07-23 15:23:48] HFT/USDT (BINANCE:HFTUSDT) Current price: 0.2151, Candle color: green, Price evolution: 2.09%
-[2024-07-23 15:23:48] HOOK/USDT (BINANCE:HOOKUSDT) Current price: 0.5833, Candle color: green, Price evolution: 0.40%
-[2024-07-23 15:23:48] HIFI/USDT (BINANCE:HIFIUSDT) Current price: 0.4970, Candle color: green, Price evolution: 0.85%
-[2024-07-23 15:23:48] RPL/USDT (BINANCE:RPLUSDT) Current price: 18.4200, Candle color: green, Price evolution: 4.90%
-[2024-07-23 15:23:48] PROS/USDT (BINANCE:PROSUSDT) Current price: 0.3793, Candle color: green, Price evolution: 0.34%
-[2024-07-23 15:23:48] GNS/USDT (BINANCE:GNSUSDT) Current price: 3.4640, Candle color: green, Price evolution: 2.27%
-[2024-07-23 15:23:48] VIB/USDT (BINANCE:VIBUSDT) Current price: 0.0735, Candle color: green, Price evolution: 0.10%
-[2024-07-23 15:23:48] SSV/USDT (BINANCE:SSVUSDT) Current price: 33.6400, Candle color: green, Price evolution: 3.70%
-[2024-07-23 15:23:48] PROM/USDT (BINANCE:PROMUSDT) Current price: 7.0900, Candle color: green, Price evolution: 0.84%
-[2024-07-23 15:23:48] QKC/USDT (BINANCE:QKCUSDT) Current price: 0.0079, Candle color: green, Price evolution: 0.19%
-[2024-07-23 15:23:48] ID/USDT (BINANCE:IDUSDT) Current price: 0.4678, Candle color: green, Price evolution: 1.26%
-[2024-07-23 15:23:48] ARB/USDT (BINANCE:ARBUSDT) Current price: 0.8030, Candle color: green, Price evolution: 5.69%
-[2024-07-23 15:23:48] OAX/USDT (BINANCE:OAXUSDT) Current price: 0.1703, Candle color: green, Price evolution: 1.67%
-[2024-07-23 15:23:48] USDT/PLN (BINANCE:USDTPLN) Current price: 3.9590, Candle color: green, Price evolution: 0.35%
-[2024-07-23 15:23:48] USDT/RON (BINANCE:USDTRON) Current price: 4.6020, Candle color: green, Price evolution: 0.99%
-[2024-07-23 15:23:48] USDT/ARS (BINANCE:USDTARS) Current price: 1361.0000, Candle color: green, Price evolution: 0.37%
-[2024-07-23 15:23:48] EDU/USDT (BINANCE:EDUUSDT) Current price: 0.7056, Candle color: green, Price evolution: 0.73%
-[2024-07-23 15:23:48] SUI/USDT (BINANCE:SUIUSDT) Current price: 0.8315, Candle color: green, Price evolution: 0.01%
-[2024-07-23 15:23:48] AERGO/USDT (BINANCE:AERGOUSDT) Current price: 0.0979, Candle color: green, Price evolution: 0.20%
-[2024-07-23 15:23:48] PEPE/USDT (BINANCE:PEPEUSDT) Current price: 0.0000, Candle color: green, Price evolution: 0.84%
-[2024-07-23 15:23:48] PENDLE/USDT (BINANCE:PENDLEUSDT) Current price: 4.1970, Candle color: green, Price evolution: 2.42%
-[2024-07-23 15:23:48] ARKM/USDT (BINANCE:ARKMUSDT) Current price: 1.4970, Candle color: green, Price evolution: 0.34%
-[2024-07-23 15:23:48] WBETH/USDT (BINANCE:WBETHUSDT) Current price: 3658.6200, Candle color: green, Price evolution: 1.99%
-[2024-07-23 15:23:48] WLD/USDT (BINANCE:WLDUSDT) Current price: 2.2790, Candle color: green, Price evolution: 0.40%
-[2024-07-23 15:23:48] FDUSD/USDT (BINANCE:FDUSDUSDT) Current price: 0.9997, Candle color: green, Price evolution: 0.01%
-[2024-07-23 15:23:48] CYBER/USDT (BINANCE:CYBERUSDT) Current price: 4.4950, Candle color: green, Price evolution: 0.51%
-[2024-07-23 15:23:48] USDT/VAI (BINANCE:USDTVAI) Current price: 1.0130, Candle color: green, Price evolution: 1.30%
-[2024-07-23 15:23:48] VIC/USDT (BINANCE:VICUSDT) Current price: 0.3924, Candle color: green, Price evolution: 2.27%
-[2024-07-23 15:23:48] XAI/USDT (BINANCE:XAIUSDT) Current price: 0.3610, Candle color: green, Price evolution: 2.82%
-[2024-07-23 15:23:48] MANTA/USDT (BINANCE:MANTAUSDT) Current price: 1.0190, Candle color: green, Price evolution: 1.29%
-[2024-07-23 15:23:48] ALT/USDT (BINANCE:ALTUSDT) Current price: 0.1447, Candle color: green, Price evolution: 1.19%
-[2024-07-23 15:23:48] RONIN/USDT (BINANCE:RONINUSDT) Current price: 2.2700, Candle color: green, Price evolution: 1.16%
-[2024-07-23 15:26:08] XZC/USDT (BINANCE:XZCUSDT) Previous candle: Doji, Current price: 4.4460, Candle color: green, Price evolution: 2.28%
-[2024-07-23 15:26:08] USDT/BIDR (BINANCE:USDTBIDR) Previous candle: Doji, Current price: 15980.0000, Candle color: green, Price evolution: 0.03%
-[2024-07-23 15:26:08] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) Previous candle: Doji, Current price: 2.6001, Candle color: green, Price evolution: 10.74%
-[2024-07-23 15:26:08] HNT/USDT (BINANCE:HNTUSDT) Previous candle: Doji, Current price: 4.6700, Candle color: green, Price evolution: 1.52%
-[2024-07-23 15:26:08] USDT/BRL (BINANCE:USDTBRL) Previous candle: Doji, Current price: 5.6090, Candle color: green, Price evolution: 0.59%
-[2024-07-23 15:26:08] AKRO/USDT (BINANCE:AKROUSDT) Previous candle: Doji, Current price: 0.0055, Candle color: green, Price evolution: 0.29%
-[2024-07-23 15:26:08] DNT/USDT (BINANCE:DNTUSDT) Previous candle: Doji, Current price: 0.0360, Candle color: green, Price evolution: 18.03%
-[2024-07-23 15:26:08] USDT/VAI (BINANCE:USDTVAI) Previous candle: Doji, Current price: 1.0130, Candle color: green, Price evolution: 1.30%
-[2024-07-23 15:26:08] USDT/COP (BINANCE:USDTCOP) Previous candle: Doji, Current price: 3946.0000, Candle color: green, Price evolution: 0.15%
-[2024-07-23 15:32:04] ETH/USDT (BINANCE:ETHUSDT) Previous candle: Doji, Current price: 3466.5500, Current color: green, Price evolution: 0.78%
-[2024-07-23 15:32:04] LTC/USDT (BINANCE:LTCUSDT) Previous candle: Doji, Current price: 71.6900, Current color: green, Price evolution: 0.62%
-[2024-07-23 15:32:04] ETC/USDT (BINANCE:ETCUSDT) Previous candle: Doji, Current price: 24.1900, Current color: green, Price evolution: 3.24%
-[2024-07-23 15:32:04] NULS/USDT (BINANCE:NULSUSDT) Previous candle: Doji, Current price: 0.3308, Current color: green, Price evolution: 0.09%
-[2024-07-23 15:32:04] BCHABC/USDT (BINANCE:BCHABCUSDT) Previous candle: Doji, Current price: 220.0800, Current color: green, Price evolution: 0.40%
-[2024-07-23 15:32:04] BSV/USDT (BINANCE:BSVUSDT) Previous candle: Doji, Current price: 58.9000, Current color: green, Price evolution: 4.99%
-[2024-07-23 15:32:04] USDC/USDT (BINANCE:USDCUSDT) Previous candle: Doji, Current price: 0.9998, Current color: green, Price evolution: 0.03%
-[2024-07-23 15:32:04] WAVES/USDT (BINANCE:WAVESUSDT) Previous candle: Doji, Current price: 1.0760, Current color: green, Price evolution: 4.06%
-[2024-07-23 15:32:04] BTT/USDT (BINANCE:BTTUSDT) Previous candle: Doji, Current price: 0.0028, Current color: green, Price evolution: 3.74%
-[2024-07-23 15:32:04] ZRX/USDT (BINANCE:ZRXUSDT) Previous candle: Doji, Current price: 0.3789, Current color: green, Price evolution: 1.36%
-[2024-07-23 15:32:04] XMR/USDT (BINANCE:XMRUSDT) Previous candle: Doji, Current price: 118.7000, Current color: green, Price evolution: 5.60%
-[2024-07-23 15:32:04] NANO/USDT (BINANCE:NANOUSDT) Previous candle: Doji, Current price: 2.2240, Current color: green, Price evolution: 0.32%
-[2024-07-23 15:32:04] MATIC/USDT (BINANCE:MATICUSDT) Previous candle: Doji, Current price: 0.5434, Current color: green, Price evolution: 2.43%
-[2024-07-23 15:32:04] USDSB/USDT (BINANCE:USDSBUSDT) Previous candle: Doji, Current price: 0.9997, Current color: green, Price evolution: 0.39%
-[2024-07-23 15:32:04] ERD/USDT (BINANCE:ERDUSDT) Previous candle: Doji, Current price: 0.0197, Current color: green, Price evolution: 0.57%
-[2024-07-23 15:32:35] ETH/USDT (BINANCE:ETHUSDT) Previous candle: Doji, Current price: 3466.5500, Current color: green, Price evolution: 0.78%
-[2024-07-23 15:32:35] LTC/USDT (BINANCE:LTCUSDT) Previous candle: Doji, Current price: 71.6400, Current color: green, Price evolution: 0.55%
-[2024-07-23 15:32:35] ETC/USDT (BINANCE:ETCUSDT) Previous candle: Doji, Current price: 24.1700, Current color: green, Price evolution: 3.16%
-[2024-07-23 15:32:35] NULS/USDT (BINANCE:NULSUSDT) Previous candle: Doji, Current price: 0.3308, Current color: green, Price evolution: 0.09%
-[2024-07-23 15:32:35] BCHABC/USDT (BINANCE:BCHABCUSDT) Previous candle: Doji, Current price: 220.0800, Current color: green, Price evolution: 0.40%
-[2024-07-23 15:32:35] BSV/USDT (BINANCE:BSVUSDT) Previous candle: Doji, Current price: 58.9000, Current color: green, Price evolution: 4.99%
-[2024-07-23 15:32:35] USDC/USDT (BINANCE:USDCUSDT) Previous candle: Doji, Current price: 0.9997, Current color: green, Price evolution: 0.02%
-[2024-07-23 15:32:35] WAVES/USDT (BINANCE:WAVESUSDT) Previous candle: Doji, Current price: 1.0760, Current color: green, Price evolution: 4.06%
-[2024-07-23 15:32:35] BTT/USDT (BINANCE:BTTUSDT) Previous candle: Doji, Current price: 0.0028, Current color: green, Price evolution: 3.74%
-[2024-07-23 15:32:35] ZRX/USDT (BINANCE:ZRXUSDT) Previous candle: Doji, Current price: 0.3786, Current color: green, Price evolution: 1.28%
-[2024-07-23 15:32:35] XMR/USDT (BINANCE:XMRUSDT) Previous candle: Doji, Current price: 118.7000, Current color: green, Price evolution: 5.60%
-[2024-07-23 15:32:35] NANO/USDT (BINANCE:NANOUSDT) Previous candle: Doji, Current price: 2.2240, Current color: green, Price evolution: 0.32%
-[2024-07-23 15:32:35] MATIC/USDT (BINANCE:MATICUSDT) Previous candle: Doji, Current price: 0.5424, Current color: green, Price evolution: 2.24%
-[2024-07-23 15:32:35] USDSB/USDT (BINANCE:USDSBUSDT) Previous candle: Doji, Current price: 0.9997, Current color: green, Price evolution: 0.39%
-[2024-07-23 15:32:35] ERD/USDT (BINANCE:ERDUSDT) Previous candle: Doji, Current price: 0.0197, Current color: green, Price evolution: 0.57%
-[2024-07-23 15:32:35] TOMO/USDT (BINANCE:TOMOUSDT) Previous candle: Doji, Current price: 1.3819, Current color: green, Price evolution: 8.66%
-[2024-07-23 15:32:35] MFT/USDT (BINANCE:MFTUSDT) Previous candle: Doji, Current price: 0.0053, Current color: green, Price evolution: 0.67%
-[2024-07-23 15:32:35] STORM/USDT (BINANCE:STORMUSDT) Previous candle: Doji, Current price: 0.0034, Current color: green, Price evolution: 1.95%
-[2024-07-23 15:32:35] BAND/USDT (BINANCE:BANDUSDT) Previous candle: Doji, Current price: 1.3910, Current color: green, Price evolution: 0.07%
-[2024-07-23 15:32:35] RVN/USDT (BINANCE:RVNUSDT) Previous candle: Doji, Current price: 0.0196, Current color: green, Price evolution: 0.56%
-[2024-07-23 15:32:35] USDT/RUB (BINANCE:USDTRUB) Previous candle: Doji, Current price: 91.1000, Current color: green, Price evolution: 0.41%
-[2024-07-23 15:32:35] BULL/USDT (BINANCE:BULLUSDT) Previous candle: Doji, Current price: 1370.2800, Current color: green, Price evolution: 0.83%
-[2024-07-23 15:32:35] ETHBULL/USDT (BINANCE:ETHBULLUSDT) Previous candle: Doji, Current price: 79.1800, Current color: green, Price evolution: 0.42%
-[2024-07-23 15:32:35] BTS/USDT (BINANCE:BTSUSDT) Previous candle: Doji, Current price: 0.0054, Current color: green, Price evolution: 3.45%
-[2024-07-23 15:32:35] EOSBEAR/USDT (BINANCE:EOSBEARUSDT) Previous candle: Doji, Current price: 30.2100, Current color: green, Price evolution: 3.00%
-[2024-07-23 15:32:35] XRPBULL/USDT (BINANCE:XRPBULLUSDT) Previous candle: Doji, Current price: 8.7400, Current color: green, Price evolution: 1.27%
-[2024-07-23 15:32:35] MBL/USDT (BINANCE:MBLUSDT) Previous candle: Doji, Current price: 0.0027, Current color: green, Price evolution: 0.41%
-[2024-07-23 15:32:35] BNBBULL/USDT (BINANCE:BNBBULLUSDT) Previous candle: Doji, Current price: 57.2100, Current color: green, Price evolution: 8.78%
-[2024-07-23 15:32:35] USDT/ZAR (BINANCE:USDTZAR) Previous candle: Doji, Current price: 18.7200, Current color: green, Price evolution: 1.03%
-[2024-07-23 15:32:35] XZC/USDT (BINANCE:XZCUSDT) Previous candle: Doji, Current price: 4.4460, Current color: green, Price evolution: 2.28%
-[2024-07-23 15:32:35] BTCUP/USDT (BINANCE:BTCUPUSDT) Previous candle: Doji, Current price: 16.6000, Current color: green, Price evolution: 0.52%
-[2024-07-23 15:34:21] ETH/USDT (BINANCE:ETHUSDT) Previous candle: Not Doji, Current price: 3476.5900, Current color: green, Price evolution: 1.08%
-[2024-07-23 15:34:21] LTC/USDT (BINANCE:LTCUSDT) Previous candle: Not Doji, Current price: 71.8800, Current color: green, Price evolution: 0.88%
-[2024-07-23 15:34:21] ETC/USDT (BINANCE:ETCUSDT) Previous candle: Not Doji, Current price: 24.3300, Current color: green, Price evolution: 3.84%
-[2024-07-23 15:34:21] NULS/USDT (BINANCE:NULSUSDT) Previous candle: Not Doji, Current price: 0.3309, Current color: green, Price evolution: 0.12%
-[2024-07-23 15:34:21] BCHABC/USDT (BINANCE:BCHABCUSDT) Previous candle: Not Doji, Current price: 220.0800, Current color: green, Price evolution: 0.40%
-[2024-07-23 15:34:21] BSV/USDT (BINANCE:BSVUSDT) Previous candle: Not Doji, Current price: 58.9000, Current color: green, Price evolution: 4.99%
-[2024-07-23 15:34:21] USDC/USDT (BINANCE:USDCUSDT) Previous candle: Not Doji, Current price: 0.9998, Current color: green, Price evolution: 0.03%
-[2024-07-23 15:34:21] WAVES/USDT (BINANCE:WAVESUSDT) Previous candle: Not Doji, Current price: 1.0760, Current color: green, Price evolution: 4.06%
-[2024-07-23 15:34:21] BTT/USDT (BINANCE:BTTUSDT) Previous candle: Not Doji, Current price: 0.0028, Current color: green, Price evolution: 3.74%
-[2024-07-23 15:34:21] ZRX/USDT (BINANCE:ZRXUSDT) Previous candle: Not Doji, Current price: 0.3814, Current color: green, Price evolution: 2.03%
-[2024-07-23 15:34:21] XMR/USDT (BINANCE:XMRUSDT) Previous candle: Not Doji, Current price: 118.7000, Current color: green, Price evolution: 5.60%
-[2024-07-23 15:34:21] ZEC/USDT (BINANCE:ZECUSDT) Previous candle: Not Doji, Current price: 30.4200, Current color: green, Price evolution: 0.23%
-[2024-07-23 15:34:21] IOST/USDT (BINANCE:IOSTUSDT) Previous candle: Not Doji, Current price: 0.0061, Current color: green, Price evolution: 0.16%
-[2024-07-23 15:34:21] NANO/USDT (BINANCE:NANOUSDT) Previous candle: Not Doji, Current price: 2.2240, Current color: green, Price evolution: 0.32%
-[2024-07-23 15:34:21] MATIC/USDT (BINANCE:MATICUSDT) Previous candle: Not Doji, Current price: 0.5449, Current color: green, Price evolution: 2.71%
-[2024-07-23 15:34:21] USDSB/USDT (BINANCE:USDSBUSDT) Previous candle: Not Doji, Current price: 0.9997, Current color: green, Price evolution: 0.39%
-[2024-07-23 15:34:21] ERD/USDT (BINANCE:ERDUSDT) Previous candle: Not Doji, Current price: 0.0197, Current color: green, Price evolution: 0.57%
-[2024-07-23 15:34:21] TOMO/USDT (BINANCE:TOMOUSDT) Previous candle: Not Doji, Current price: 1.3819, Current color: green, Price evolution: 8.66%
-[2024-07-23 15:34:21] DENT/USDT (BINANCE:DENTUSDT) Previous candle: Not Doji, Current price: 0.0010, Current color: green, Price evolution: 0.10%
-[2024-07-23 15:34:21] MFT/USDT (BINANCE:MFTUSDT) Previous candle: Not Doji, Current price: 0.0053, Current color: green, Price evolution: 0.67%
-[2024-07-23 15:34:21] STORM/USDT (BINANCE:STORMUSDT) Previous candle: Not Doji, Current price: 0.0034, Current color: green, Price evolution: 1.95%
-[2024-07-23 15:34:21] WAN/USDT (BINANCE:WANUSDT) Previous candle: Not Doji, Current price: 0.1968, Current color: green, Price evolution: 0.20%
-[2024-07-23 15:34:21] BAND/USDT (BINANCE:BANDUSDT) Previous candle: Not Doji, Current price: 1.4000, Current color: green, Price evolution: 0.72%
-[2024-07-23 15:34:21] REN/USDT (BINANCE:RENUSDT) Previous candle: Not Doji, Current price: 0.0503, Current color: green, Price evolution: 0.68%
-[2024-07-23 15:34:21] RVN/USDT (BINANCE:RVNUSDT) Previous candle: Not Doji, Current price: 0.0198, Current color: green, Price evolution: 1.33%
-[2024-07-23 15:34:21] KAVA/USDT (BINANCE:KAVAUSDT) Previous candle: Not Doji, Current price: 0.4128, Current color: green, Price evolution: 0.12%
-[2024-07-23 15:34:21] USDT/RUB (BINANCE:USDTRUB) Previous candle: Not Doji, Current price: 91.1000, Current color: green, Price evolution: 0.41%
-[2024-07-23 15:34:21] BULL/USDT (BINANCE:BULLUSDT) Previous candle: Not Doji, Current price: 1370.2800, Current color: green, Price evolution: 0.83%
-[2024-07-23 15:34:21] ETHBULL/USDT (BINANCE:ETHBULLUSDT) Previous candle: Not Doji, Current price: 79.1800, Current color: green, Price evolution: 0.42%
-[2024-07-23 15:34:21] BTS/USDT (BINANCE:BTSUSDT) Previous candle: Not Doji, Current price: 0.0054, Current color: green, Price evolution: 3.45%
-[2024-07-23 15:34:21] BNT/USDT (BINANCE:BNTUSDT) Previous candle: Not Doji, Current price: 0.6320, Current color: green, Price evolution: 0.85%
-[2024-07-23 15:34:21] EOSBEAR/USDT (BINANCE:EOSBEARUSDT) Previous candle: Not Doji, Current price: 30.2100, Current color: green, Price evolution: 3.00%
-[2024-07-23 15:34:21] XRPBULL/USDT (BINANCE:XRPBULLUSDT) Previous candle: Not Doji, Current price: 8.7400, Current color: green, Price evolution: 1.27%
-[2024-07-23 15:34:21] MBL/USDT (BINANCE:MBLUSDT) Previous candle: Not Doji, Current price: 0.0027, Current color: green, Price evolution: 0.86%
-[2024-07-23 15:34:21] BNBBULL/USDT (BINANCE:BNBBULLUSDT) Previous candle: Not Doji, Current price: 57.2100, Current color: green, Price evolution: 8.78%
-[2024-07-23 15:34:21] USDT/ZAR (BINANCE:USDTZAR) Previous candle: Not Doji, Current price: 18.7100, Current color: green, Price evolution: 0.97%
-[2024-07-23 15:34:21] XZC/USDT (BINANCE:XZCUSDT) Previous candle: Doji, Current price: 4.4460, Current color: green, Price evolution: 2.28%
-[2024-07-23 15:34:21] BTCUP/USDT (BINANCE:BTCUPUSDT) Previous candle: Not Doji, Current price: 16.6000, Current color: green, Price evolution: 0.52%
-[2024-07-23 15:34:21] ARDR/USDT (BINANCE:ARDRUSDT) Previous candle: Not Doji, Current price: 0.0711, Current color: green, Price evolution: 0.32%
-[2024-07-23 15:34:21] LEND/USDT (BINANCE:LENDUSDT) Previous candle: Not Doji, Current price: 0.5143, Current color: green, Price evolution: 2.40%
-[2024-07-23 15:34:21] STMX/USDT (BINANCE:STMXUSDT) Previous candle: Not Doji, Current price: 0.0067, Current color: green, Price evolution: 19.91%
-[2024-07-23 15:34:21] PNT/USDT (BINANCE:PNTUSDT) Previous candle: Not Doji, Current price: 0.0350, Current color: green, Price evolution: 19.05%
-[2024-07-23 15:34:21] COMP/USDT (BINANCE:COMPUSDT) Previous candle: Not Doji, Current price: 50.8100, Current color: green, Price evolution: 0.59%
-[2024-07-23 15:34:21] USDT/BIDR (BINANCE:USDTBIDR) Previous candle: Doji, Current price: 15980.0000, Current color: green, Price evolution: 0.03%
-[2024-07-23 15:34:21] SC/USDT (BINANCE:SCUSDT) Previous candle: Not Doji, Current price: 0.0053, Current color: green, Price evolution: 2.28%
-[2024-07-23 15:34:21] ETHUP/USDT (BINANCE:ETHUPUSDT) Previous candle: Not Doji, Current price: 11.6510, Current color: green, Price evolution: 0.41%
-[2024-07-23 15:34:21] LINKDOWN/USDT (BINANCE:LINKDOWNUSDT) Previous candle: Not Doji, Current price: 0.0009, Current color: green, Price evolution: 0.90%
-[2024-07-23 15:35:05] BTC/USDT (BINANCE:BTCUSDT) Previous candle: Not Doji, Current price: 66604.0100, Current color: red, Price evolution: -1.37%
-[2024-07-23 15:35:05] ETH/USDT (BINANCE:ETHUSDT) Previous candle: Not Doji, Current price: 3493.1200, Current color: green, Price evolution: 1.56%
-[2024-07-23 15:35:05] BNB/USDT (BINANCE:BNBUSDT) Previous candle: Not Doji, Current price: 584.2000, Current color: red, Price evolution: -0.53%
-[2024-07-23 15:35:05] BCC/USDT (BINANCE:BCCUSDT) Previous candle: Doji, Current price: 448.7000, Current color: red, Price evolution: 0.00%
-[2024-07-23 15:35:05] NEO/USDT (BINANCE:NEOUSDT) Previous candle: Not Doji, Current price: 11.4500, Current color: red, Price evolution: -0.43%
-[2024-07-23 15:35:05] LTC/USDT (BINANCE:LTCUSDT) Previous candle: Not Doji, Current price: 72.3800, Current color: green, Price evolution: 1.59%
-[2024-07-23 15:35:05] QTUM/USDT (BINANCE:QTUMUSDT) Previous candle: Not Doji, Current price: 2.6560, Current color: red, Price evolution: -0.56%
-[2024-07-23 15:35:05] ADA/USDT (BINANCE:ADAUSDT) Previous candle: Not Doji, Current price: 0.4201, Current color: red, Price evolution: -1.41%
-[2024-07-23 15:35:05] XRP/USDT (BINANCE:XRPUSDT) Previous candle: Not Doji, Current price: 0.5968, Current color: red, Price evolution: -1.84%
-[2024-07-23 15:35:05] EOS/USDT (BINANCE:EOSUSDT) Previous candle: Not Doji, Current price: 0.5841, Current color: green, Price evolution: 0.26%
-[2024-07-23 15:35:05] TUSD/USDT (BINANCE:TUSDUSDT) Previous candle: Not Doji, Current price: 1.0000, Current color: red, Price evolution: -0.05%
-[2024-07-23 15:35:05] IOTA/USDT (BINANCE:IOTAUSDT) Previous candle: Not Doji, Current price: 0.1714, Current color: red, Price evolution: -0.87%
-[2024-07-23 15:35:05] XLM/USDT (BINANCE:XLMUSDT) Previous candle: Not Doji, Current price: 0.1024, Current color: red, Price evolution: -1.06%
-[2024-07-23 15:35:05] ONT/USDT (BINANCE:ONTUSDT) Previous candle: Not Doji, Current price: 0.2058, Current color: red, Price evolution: -0.44%
-[2024-07-23 15:35:05] TRX/USDT (BINANCE:TRXUSDT) Previous candle: Not Doji, Current price: 0.1327, Current color: green, Price evolution: 0.23%
-[2024-07-23 15:35:05] ETC/USDT (BINANCE:ETCUSDT) Previous candle: Not Doji, Current price: 24.5700, Current color: green, Price evolution: 4.87%
-[2024-07-23 15:35:05] ICX/USDT (BINANCE:ICXUSDT) Previous candle: Not Doji, Current price: 0.1609, Current color: red, Price evolution: -1.47%
-[2024-07-23 15:35:05] VEN/USDT (BINANCE:VENUSDT) Previous candle: Not Doji, Current price: 0.0001, Current color: red, Price evolution: 0.00%
-[2024-07-23 15:35:05] NULS/USDT (BINANCE:NULSUSDT) Previous candle: Not Doji, Current price: 0.3338, Current color: green, Price evolution: 1.00%
-[2024-07-23 15:35:05] VET/USDT (BINANCE:VETUSDT) Previous candle: Not Doji, Current price: 0.0293, Current color: red, Price evolution: -0.31%
-[2024-07-23 15:35:05] PAX/USDT (BINANCE:PAXUSDT) Previous candle: Not Doji, Current price: 0.9996, Current color: red, Price evolution: 0.00%
-[2024-07-23 15:35:05] BCHABC/USDT (BINANCE:BCHABCUSDT) Previous candle: Not Doji, Current price: 220.0800, Current color: green, Price evolution: 0.40%
-[2024-07-23 15:35:05] BSV/USDT (BINANCE:BSVUSDT) Previous candle: Not Doji, Current price: 58.9000, Current color: green, Price evolution: 4.99%
-[2024-07-23 15:35:05] USDC/USDT (BINANCE:USDCUSDT) Previous candle: Not Doji, Current price: 0.9998, Current color: green, Price evolution: 0.03%
-[2024-07-23 15:35:05] LINK/USDT (BINANCE:LINKUSDT) Previous candle: Not Doji, Current price: 13.8700, Current color: red, Price evolution: -0.43%
-[2024-07-23 15:35:05] WAVES/USDT (BINANCE:WAVESUSDT) Previous candle: Not Doji, Current price: 1.0760, Current color: green, Price evolution: 4.06%
-[2024-07-23 15:35:05] BTT/USDT (BINANCE:BTTUSDT) Previous candle: Not Doji, Current price: 0.0028, Current color: green, Price evolution: 3.74%
-[2024-07-23 15:35:05] USDS/USDT (BINANCE:USDSUSDT) Previous candle: Not Doji, Current price: 0.9968, Current color: red, Price evolution: -0.12%
-[2024-07-23 15:35:05] ONG/USDT (BINANCE:ONGUSDT) Previous candle: Doji, Current price: 0.3516, Current color: red, Price evolution: -2.68%
-[2024-07-23 15:35:05] HOT/USDT (BINANCE:HOTUSDT) Previous candle: Not Doji, Current price: 0.0018, Current color: red, Price evolution: -0.83%
-[2024-07-23 15:35:05] ZIL/USDT (BINANCE:ZILUSDT) Previous candle: Not Doji, Current price: 0.0173, Current color: red, Price evolution: -0.29%
-[2024-07-23 15:35:05] ZRX/USDT (BINANCE:ZRXUSDT) Previous candle: Not Doji, Current price: 0.3854, Current color: green, Price evolution: 3.10%
-[2024-07-23 15:35:05] FET/USDT (BINANCE:FETUSDT) Previous candle: Not Doji, Current price: 1.3290, Current color: red, Price evolution: -2.99%
-[2024-07-23 15:35:05] BAT/USDT (BINANCE:BATUSDT) Previous candle: Not Doji, Current price: 0.1955, Current color: green, Price evolution: 0.77%
-[2024-07-23 15:35:05] XMR/USDT (BINANCE:XMRUSDT) Previous candle: Not Doji, Current price: 118.7000, Current color: green, Price evolution: 5.60%
-[2024-07-23 15:35:05] ZEC/USDT (BINANCE:ZECUSDT) Previous candle: Not Doji, Current price: 30.7000, Current color: green, Price evolution: 1.15%
-[2024-07-23 15:35:05] IOST/USDT (BINANCE:IOSTUSDT) Previous candle: Not Doji, Current price: 0.0061, Current color: green, Price evolution: 0.82%
-[2024-07-23 15:35:05] CELR/USDT (BINANCE:CELRUSDT) Previous candle: Not Doji, Current price: 0.0144, Current color: red, Price evolution: -0.62%
-[2024-07-23 15:35:05] DASH/USDT (BINANCE:DASHUSDT) Previous candle: Not Doji, Current price: 26.8500, Current color: green, Price evolution: 0.22%
-[2024-07-23 15:35:05] NANO/USDT (BINANCE:NANOUSDT) Previous candle: Not Doji, Current price: 2.2240, Current color: green, Price evolution: 0.32%
-[2024-07-23 15:35:05] OMG/USDT (BINANCE:OMGUSDT) Previous candle: Not Doji, Current price: 0.3830, Current color: red, Price evolution: 0.00%
-[2024-07-23 15:35:05] THETA/USDT (BINANCE:THETAUSDT) Previous candle: Not Doji, Current price: 1.4860, Current color: red, Price evolution: -3.19%
-[2024-07-23 15:35:05] ENJ/USDT (BINANCE:ENJUSDT) Previous candle: Not Doji, Current price: 0.1896, Current color: red, Price evolution: -2.27%
-[2024-07-23 15:35:05] MITH/USDT (BINANCE:MITHUSDT) Previous candle: Not Doji, Current price: 0.0034, Current color: red, Price evolution: -7.01%
-[2024-07-23 15:35:05] MATIC/USDT (BINANCE:MATICUSDT) Previous candle: Not Doji, Current price: 0.5499, Current color: green, Price evolution: 3.66%
-[2024-07-23 15:35:05] ATOM/USDT (BINANCE:ATOMUSDT) Previous candle: Not Doji, Current price: 6.2590, Current color: red, Price evolution: -0.14%
-[2024-07-23 15:36:21] BCC/USDT (BINANCE:BCCUSDT) Previous candle: Doji, Current price: 448.7000, Current color: red, Price evolution: 0.00%
-[2024-07-23 15:36:21] ONG/USDT (BINANCE:ONGUSDT) Previous candle: Doji, Current price: 0.3504, Current color: red, Price evolution: -3.02%
-[2024-07-23 15:36:21] GTO/USDT (BINANCE:GTOUSDT) Previous candle: Doji, Current price: 0.0123, Current color: red, Price evolution: -3.52%
-[2024-07-23 15:36:21] NPXS/USDT (BINANCE:NPXSUSDT) Previous candle: Doji, Current price: 0.0070, Current color: red, Price evolution: -1.45%
-[2024-07-23 15:36:21] TCT/USDT (BINANCE:TCTUSDT) Previous candle: Doji, Current price: 0.0031, Current color: red, Price evolution: -6.87%
-[2024-07-23 15:36:21] STRAT/USDT (BINANCE:STRATUSDT) Previous candle: Doji, Current price: 0.4904, Current color: red, Price evolution: -8.78%
-[2024-07-23 15:36:21] XZC/USDT (BINANCE:XZCUSDT) Previous candle: Doji, Current price: 4.4460, Current color: green, Price evolution: 2.28%
-[2024-07-23 15:36:21] USDT/BIDR (BINANCE:USDTBIDR) Previous candle: Doji, Current price: 15980.0000, Current color: green, Price evolution: 0.03%
-[2024-07-23 15:36:21] XTZUP/USDT (BINANCE:XTZUPUSDT) Previous candle: Doji, Current price: 0.0026, Current color: red, Price evolution: -13.53%
-[2024-07-23 15:36:21] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) Previous candle: Doji, Current price: 2.6001, Current color: green, Price evolution: 10.74%
-[2024-07-23 15:36:21] SRM/USDT (BINANCE:SRMUSDT) Previous candle: Doji, Current price: 0.2444, Current color: red, Price evolution: -4.80%
-[2024-07-23 15:36:21] WNXM/USDT (BINANCE:WNXMUSDT) Previous candle: Doji, Current price: 73.2600, Current color: red, Price evolution: -3.91%
-[2024-07-23 15:36:21] USDT/NGN (BINANCE:USDTNGN) Previous candle: Doji, Current price: 1518.4000, Current color: red, Price evolution: -0.09%
-[2024-07-23 15:36:21] HNT/USDT (BINANCE:HNTUSDT) Previous candle: Doji, Current price: 4.6700, Current color: green, Price evolution: 1.52%
-[2024-07-23 15:36:21] USDT/BRL (BINANCE:USDTBRL) Previous candle: Doji, Current price: 5.6140, Current color: green, Price evolution: 0.68%
-[2024-07-23 15:36:21] AKRO/USDT (BINANCE:AKROUSDT) Previous candle: Doji, Current price: 0.0054, Current color: red, Price evolution: -0.22%
-[2024-07-23 15:36:21] DNT/USDT (BINANCE:DNTUSDT) Previous candle: Doji, Current price: 0.0360, Current color: green, Price evolution: 18.03%
-[2024-07-23 15:36:21] USDT/BVND (BINANCE:USDTBVND) Previous candle: Doji, Current price: 23710.0000, Current color: red, Price evolution: -0.02%
-[2024-07-23 15:36:21] EPS/USDT (BINANCE:EPSUSDT) Previous candle: Doji, Current price: 0.1679, Current color: red, Price evolution: -7.75%
-[2024-07-23 15:36:21] BTG/USDT (BINANCE:BTGUSDT) Previous candle: Doji, Current price: 17.6500, Current color: red, Price evolution: -5.87%
-[2024-07-23 15:36:21] TORN/USDT (BINANCE:TORNUSDT) Previous candle: Doji, Current price: 4.0600, Current color: red, Price evolution: -2.17%
-[2024-07-23 15:36:21] MC/USDT (BINANCE:MCUSDT) Previous candle: Doji, Current price: 0.4861, Current color: red, Price evolution: -0.45%
-[2024-07-23 15:36:21] RDNT/USDT (BINANCE:RDNTUSDT) Previous candle: Doji, Current price: 0.1040, Current color: red, Price evolution: -0.86%
-[2024-07-23 15:36:21] SEI/USDT (BINANCE:SEIUSDT) Previous candle: Doji, Current price: 0.3804, Current color: red, Price evolution: -3.40%
-[2024-07-23 15:36:21] USDT/VAI (BINANCE:USDTVAI) Previous candle: Doji, Current price: 1.0130, Current color: green, Price evolution: 1.30%
-[2024-07-23 15:36:21] MEME/USDT (BINANCE:MEMEUSDT) Previous candle: Doji, Current price: 0.0165, Current color: red, Price evolution: -4.30%
-[2024-07-23 15:36:21] BEAMX/USDT (BINANCE:BEAMXUSDT) Previous candle: Doji, Current price: 0.0186, Current color: red, Price evolution: -4.77%
-[2024-07-23 15:36:21] ACE/USDT (BINANCE:ACEUSDT) Previous candle: Doji, Current price: 3.0490, Current color: red, Price evolution: -2.71%
-[2024-07-23 15:36:21] USDT/COP (BINANCE:USDTCOP) Previous candle: Doji, Current price: 3946.0000, Current color: green, Price evolution: 0.15%
-[2024-07-23 15:36:21] BANANA/USDT (BINANCE:BANANAUSDT) Previous candle: Doji, Current price: 60.5000, Current color: red, Price evolution: -2.01%
-[2024-07-23 15:39:49] XZC/USDT (BINANCE:XZCUSDT) Previous candle: Doji, Current price: 4.4460, Current color: green, Price evolution: 2.28%
-[2024-07-23 15:39:49] USDT/BIDR (BINANCE:USDTBIDR) Previous candle: Doji, Current price: 15980.0000, Current color: green, Price evolution: 0.03%
-[2024-07-23 15:39:49] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) Previous candle: Doji, Current price: 2.6001, Current color: green, Price evolution: 10.74%
-[2024-07-23 15:39:49] HNT/USDT (BINANCE:HNTUSDT) Previous candle: Doji, Current price: 4.6700, Current color: green, Price evolution: 1.52%
-[2024-07-23 15:39:49] USDT/BRL (BINANCE:USDTBRL) Previous candle: Doji, Current price: 5.6070, Current color: green, Price evolution: 0.56%
-[2024-07-23 15:39:49] DNT/USDT (BINANCE:DNTUSDT) Previous candle: Doji, Current price: 0.0360, Current color: green, Price evolution: 18.03%
-[2024-07-23 15:48:25] BCC/USDT (BINANCE:BCCUSDT) Previous candle: Hammer, Current price: 448.7000, Current color: red, Price evolution: 0.00%
-[2024-07-23 15:48:25] ONG/USDT (BINANCE:ONGUSDT) Previous candle: Hammer, Current price: 0.3458, Current color: red, Price evolution: -4.29%
-[2024-07-23 15:48:25] GTO/USDT (BINANCE:GTOUSDT) Previous candle: Hammer, Current price: 0.0123, Current color: red, Price evolution: -3.52%
-[2024-07-23 15:48:25] NPXS/USDT (BINANCE:NPXSUSDT) Previous candle: Hammer, Current price: 0.0070, Current color: red, Price evolution: -1.45%
-[2024-07-23 15:48:25] TCT/USDT (BINANCE:TCTUSDT) Previous candle: Hammer, Current price: 0.0031, Current color: red, Price evolution: -6.87%
-[2024-07-23 15:48:25] STRAT/USDT (BINANCE:STRATUSDT) Previous candle: Hammer, Current price: 0.4904, Current color: red, Price evolution: -8.78%
-[2024-07-23 15:48:25] XZC/USDT (BINANCE:XZCUSDT) Previous candle: Hammer, Current price: 4.4460, Current color: green, Price evolution: 2.28%
-[2024-07-23 15:48:25] USDT/BIDR (BINANCE:USDTBIDR) Previous candle: Hammer, Current price: 15980.0000, Current color: green, Price evolution: 0.03%
-[2024-07-23 15:48:25] XTZUP/USDT (BINANCE:XTZUPUSDT) Previous candle: Hammer, Current price: 0.0026, Current color: red, Price evolution: -13.53%
-[2024-07-23 15:48:25] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) Previous candle: Hammer, Current price: 2.6001, Current color: green, Price evolution: 10.74%
-[2024-07-23 15:48:25] SRM/USDT (BINANCE:SRMUSDT) Previous candle: Hammer, Current price: 0.2444, Current color: red, Price evolution: -4.80%
-[2024-07-23 15:48:25] WNXM/USDT (BINANCE:WNXMUSDT) Previous candle: Hammer, Current price: 73.2600, Current color: red, Price evolution: -3.91%
-[2024-07-23 15:48:25] HNT/USDT (BINANCE:HNTUSDT) Previous candle: Hammer, Current price: 4.6700, Current color: green, Price evolution: 1.52%
-[2024-07-23 15:48:25] USDT/BRL (BINANCE:USDTBRL) Previous candle: Hammer, Current price: 5.6100, Current color: green, Price evolution: 0.61%
-[2024-07-23 15:48:25] AKRO/USDT (BINANCE:AKROUSDT) Previous candle: Hammer, Current price: 0.0054, Current color: red, Price evolution: -1.54%
-[2024-07-23 15:48:25] DNT/USDT (BINANCE:DNTUSDT) Previous candle: Hammer, Current price: 0.0360, Current color: green, Price evolution: 18.03%
-[2024-07-23 15:48:25] USDT/BVND (BINANCE:USDTBVND) Previous candle: Hammer, Current price: 23710.0000, Current color: red, Price evolution: -0.02%
-[2024-07-23 15:48:25] EPS/USDT (BINANCE:EPSUSDT) Previous candle: Hammer, Current price: 0.1679, Current color: red, Price evolution: -7.75%
-[2024-07-23 15:48:25] BTG/USDT (BINANCE:BTGUSDT) Previous candle: Hammer, Current price: 17.6500, Current color: red, Price evolution: -5.87%
-[2024-07-23 15:48:25] TORN/USDT (BINANCE:TORNUSDT) Previous candle: Hammer, Current price: 4.0600, Current color: red, Price evolution: -2.17%
-[2024-07-23 15:48:25] RDNT/USDT (BINANCE:RDNTUSDT) Previous candle: Hammer, Current price: 0.1024, Current color: red, Price evolution: -2.38%
-[2024-07-23 15:48:25] SEI/USDT (BINANCE:SEIUSDT) Previous candle: Hammer, Current price: 0.3766, Current color: red, Price evolution: -4.37%
-[2024-07-23 15:48:25] USDT/VAI (BINANCE:USDTVAI) Previous candle: Hammer, Current price: 1.0130, Current color: green, Price evolution: 1.30%
-[2024-07-23 15:48:25] MEME/USDT (BINANCE:MEMEUSDT) Previous candle: Hammer, Current price: 0.0163, Current color: red, Price evolution: -5.23%
-[2024-07-23 15:48:25] BEAMX/USDT (BINANCE:BEAMXUSDT) Previous candle: Hammer, Current price: 0.0184, Current color: red, Price evolution: -5.54%
-[2024-07-23 15:48:25] ACE/USDT (BINANCE:ACEUSDT) Previous candle: Hammer, Current price: 3.0340, Current color: red, Price evolution: -3.19%
-[2024-07-23 15:48:25] USDT/COP (BINANCE:USDTCOP) Previous candle: Hammer, Current price: 3949.0000, Current color: green, Price evolution: 0.23%
-[2024-07-23 15:52:08] BCC/USDT (BINANCE:BCCUSDT) Previous candle: Hammer, Current price: 448.7000, Current color: red, Price evolution: 0.00%
-[2024-07-23 15:52:08] ONG/USDT (BINANCE:ONGUSDT) Previous candle: Hammer, Current price: 0.3460, Current color: red, Price evolution: -4.23%
-[2024-07-23 15:52:08] GTO/USDT (BINANCE:GTOUSDT) Previous candle: Hammer, Current price: 0.0123, Current color: red, Price evolution: -3.52%
-[2024-07-23 15:52:08] NPXS/USDT (BINANCE:NPXSUSDT) Previous candle: Hammer, Current price: 0.0070, Current color: red, Price evolution: -1.45%
-[2024-07-23 15:52:08] TCT/USDT (BINANCE:TCTUSDT) Previous candle: Hammer, Current price: 0.0031, Current color: red, Price evolution: -6.87%
-[2024-07-23 15:52:08] STRAT/USDT (BINANCE:STRATUSDT) Previous candle: Hammer, Current price: 0.4904, Current color: red, Price evolution: -8.78%
-[2024-07-23 15:52:08] XZC/USDT (BINANCE:XZCUSDT) Previous candle: Hammer, Current price: 4.4460, Current color: green, Price evolution: 2.28%
-[2024-07-23 15:52:08] USDT/BIDR (BINANCE:USDTBIDR) Previous candle: Hammer, Current price: 15980.0000, Current color: green, Price evolution: 0.03%
-[2024-07-23 15:52:08] XTZUP/USDT (BINANCE:XTZUPUSDT) Previous candle: Hammer, Current price: 0.0026, Current color: red, Price evolution: -13.53%
-[2024-07-23 15:52:08] XTZDOWN/USDT (BINANCE:XTZDOWNUSDT) Previous candle: Hammer, Current price: 2.6001, Current color: green, Price evolution: 10.74%
-[2024-07-23 15:52:08] SRM/USDT (BINANCE:SRMUSDT) Previous candle: Hammer, Current price: 0.2444, Current color: red, Price evolution: -4.80%
-[2024-07-23 15:52:08] WNXM/USDT (BINANCE:WNXMUSDT) Previous candle: Hammer, Current price: 73.2600, Current color: red, Price evolution: -3.91%
-[2024-07-23 15:54:17] BCC/USDT (BINANCE:BCCUSDT) Previous candle: Hammer (Possible Downtrend), Current price: 448.7000, Current color: red, Price evolution: 0.00%
-[2024-07-23 15:54:17] ONG/USDT (BINANCE:ONGUSDT) Previous candle: Hammer (Possible Downtrend), Current price: 0.3458, Current color: red, Price evolution: -4.29%
-[2024-07-23 15:54:17] GTO/USDT (BINANCE:GTOUSDT) Previous candle: Hammer (Possible Downtrend), Current price: 0.0123, Current color: red, Price evolution: -3.52%
-[2024-07-23 15:54:17] NPXS/USDT (BINANCE:NPXSUSDT) Previous candle: Hammer (Possible Downtrend), Current price: 0.0070, Current color: red, Price evolution: -1.45%
-[2024-07-23 15:54:17] TCT/USDT (BINANCE:TCTUSDT) Previous candle: Hammer (Possible Downtrend), Current price: 0.0031, Current color: red, Price evolution: -6.87%
-[2024-07-23 15:54:17] STRAT/USDT (BINANCE:STRATUSDT) Previous candle: Hammer (Possible Downtrend), Current price: 0.4904, Current color: red, Price evolution: -8.78%
-[2024-07-23 15:54:17] XZC/USDT (BINANCE:XZCUSDT) Previous candle: Hammer (Possible Downtrend), Current price: 4.4460, Current color: green, Price evolution: 2.28%
-[2024-07-23 15:54:55] BTC/USDT (BINANCE:BTCUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 66031.5300, Current color: red, Price evolution: -2.22%
-[2024-07-23 15:54:55] ETH/USDT (BINANCE:ETHUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 3435.8200, Current color: red, Price evolution: -0.11%
-[2024-07-23 15:54:55] BNB/USDT (BINANCE:BNBUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 579.0000, Current color: red, Price evolution: -1.41%
-[2024-07-23 15:54:55] BCC/USDT (BINANCE:BCCUSDT) Previous candle: Hammer (Uptrend or Downtrend), Current price: 448.7000, Current color: red, Price evolution: 0.00%
-[2024-07-23 15:54:55] NEO/USDT (BINANCE:NEOUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 11.3400, Current color: red, Price evolution: -1.39%
-[2024-07-23 15:54:55] LTC/USDT (BINANCE:LTCUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 71.6600, Current color: green, Price evolution: 0.58%
-[2024-07-23 15:54:55] QTUM/USDT (BINANCE:QTUMUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 2.6300, Current color: red, Price evolution: -1.54%
-[2024-07-23 15:54:55] ADA/USDT (BINANCE:ADAUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 0.4158, Current color: red, Price evolution: -2.42%
-[2024-07-23 15:54:55] XRP/USDT (BINANCE:XRPUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 0.5889, Current color: red, Price evolution: -3.14%
-[2024-07-23 15:54:55] EOS/USDT (BINANCE:EOSUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 0.5797, Current color: red, Price evolution: -0.50%
-[2024-07-23 15:54:55] TUSD/USDT (BINANCE:TUSDUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 0.9997, Current color: red, Price evolution: -0.08%
-[2024-07-23 15:54:55] IOTA/USDT (BINANCE:IOTAUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 0.1691, Current color: red, Price evolution: -2.20%
-[2024-07-23 15:54:55] XLM/USDT (BINANCE:XLMUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 0.1014, Current color: red, Price evolution: -2.03%
-[2024-07-23 15:54:55] ONT/USDT (BINANCE:ONTUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 0.2025, Current color: red, Price evolution: -2.03%
-[2024-07-23 15:54:55] TRX/USDT (BINANCE:TRXUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 0.1323, Current color: red, Price evolution: -0.08%
-[2024-07-23 15:54:55] ETC/USDT (BINANCE:ETCUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 24.0500, Current color: green, Price evolution: 2.65%
-[2024-07-23 15:54:55] ICX/USDT (BINANCE:ICXUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 0.1587, Current color: red, Price evolution: -2.82%
-[2024-07-23 15:54:55] VEN/USDT (BINANCE:VENUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 0.0001, Current color: red, Price evolution: 0.00%
-[2024-07-23 15:54:55] NULS/USDT (BINANCE:NULSUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 0.3285, Current color: red, Price evolution: -0.61%
-[2024-07-23 15:54:55] VET/USDT (BINANCE:VETUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 0.0289, Current color: red, Price evolution: -1.50%
-[2024-07-23 15:54:55] PAX/USDT (BINANCE:PAXUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 0.9996, Current color: red, Price evolution: 0.00%
-[2024-07-23 15:54:55] BCHABC/USDT (BINANCE:BCHABCUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 220.0800, Current color: green, Price evolution: 0.40%
-[2024-07-23 15:54:55] BSV/USDT (BINANCE:BSVUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 58.9000, Current color: green, Price evolution: 4.99%
-[2024-07-23 15:54:55] USDC/USDT (BINANCE:USDCUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 0.9998, Current color: green, Price evolution: 0.03%
-[2024-07-23 15:54:55] LINK/USDT (BINANCE:LINKUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 13.6700, Current color: red, Price evolution: -1.87%
-[2024-07-23 15:54:55] WAVES/USDT (BINANCE:WAVESUSDT) Previous candle: Not Hammer or Hanging Man (Uptrend or Downtrend), Current price: 1.0760, Current color: green, Price evolution: 4.06%
-[2024-07-23 15:55:16] BCC/USDT (BINANCE:BCCUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 448.7000, Current color: red, Price evolution: 0.00%
-[2024-07-23 15:55:16] ONG/USDT (BINANCE:ONGUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 0.3462, Current color: red, Price evolution: -4.18%
-[2024-07-23 15:55:16] GTO/USDT (BINANCE:GTOUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 0.0123, Current color: red, Price evolution: -3.52%
-[2024-07-23 15:55:16] NPXS/USDT (BINANCE:NPXSUSDT) Previous candle: Hammer (Possible Uptrend), Current price: 0.0070, Current color: red, Price evolution: -1.45%
+[2024-07-23 21:04:50] BTC/USDT (BINANCE:BTCUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 65804.0100, Current candle evolution: -2.56%
+
+
+[2024-07-23 21:04:54] USDC/USDT (BINANCE:USDCUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.9997, Current candle evolution: 0.02%
+
+
+[2024-07-23 21:04:56] ETH/USDT (BINANCE:ETHUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 3481.2400, Current candle evolution: 1.21%
+
+
+[2024-07-23 21:04:58] VET/USDT (BINANCE:VETUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0288, Current candle evolution: -2.04%
+
+
+[2024-07-23 21:04:58] LINK/USDT (BINANCE:LINKUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 13.8800, Current candle evolution: -0.36%
+
+
+[2024-07-23 21:05:00] HOT/USDT (BINANCE:HOTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0017, Current candle evolution: -4.42%
+
+
+[2024-07-23 21:05:01] ZRX/USDT (BINANCE:ZRXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.3763, Current candle evolution: 0.67%
+
+
+[2024-07-23 21:05:00] ICX/USDT (BINANCE:ICXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1573, Current candle evolution: -3.67%
+
+
+[2024-07-23 21:05:01] ZIL/USDT (BINANCE:ZILUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0170, Current candle evolution: -1.90%
+
+
+[2024-07-23 21:05:01] ONT/USDT (BINANCE:ONTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.2014, Current candle evolution: -2.56%
+
+
+[2024-07-23 21:05:01] FET/USDT (BINANCE:FETUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.2850, Current candle evolution: -6.13%
+
+
+[2024-07-23 21:05:02] BAT/USDT (BINANCE:BATUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1921, Current candle evolution: -0.98%
+
+
+[2024-07-23 21:05:02] IOTA/USDT (BINANCE:IOTAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1685, Current candle evolution: -2.54%
+
+
+[2024-07-23 21:05:02] NULS/USDT (BINANCE:NULSUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.3303, Current candle evolution: -0.06%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 21:05:02] NEO/USDT (BINANCE:NEOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 11.3500, Current candle evolution: -1.30%
+
+
+[2024-07-23 21:05:02] ZEC/USDT (BINANCE:ZECUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 29.9000, Current candle evolution: -1.48%
+
+
+[2024-07-23 21:05:02] LTC/USDT (BINANCE:LTCUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 72.4300, Current candle evolution: 1.66%
+
+
+[2024-07-23 21:05:02] ADA/USDT (BINANCE:ADAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.4102, Current candle evolution: -3.73%
+
+
+[2024-07-23 21:05:02] BNB/USDT (BINANCE:BNBUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 582.0000, Current candle evolution: -0.90%
+
+
+[2024-07-23 21:05:03] CELR/USDT (BINANCE:CELRUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0139, Current candle evolution: -4.21%
+
+
+[2024-07-23 21:05:03] DASH/USDT (BINANCE:DASHUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 26.5900, Current candle evolution: -0.75%
+
+
+[2024-07-23 21:05:03] TUSD/USDT (BINANCE:TUSDUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.9996, Current candle evolution: -0.09%
+
+
+[2024-07-23 21:05:03] ETC/USDT (BINANCE:ETCUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 24.1200, Current candle evolution: 2.94%
+
+
+[2024-07-23 21:05:03] MATIC/USDT (BINANCE:MATICUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.5342, Current candle evolution: 0.70%
+
+
+[2024-07-23 21:05:03] XLM/USDT (BINANCE:XLMUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1009, Current candle evolution: -2.51%
+
+
+[2024-07-23 21:05:03] ATOM/USDT (BINANCE:ATOMUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 6.1980, Current candle evolution: -1.12%
+
+
+[2024-07-23 21:05:03] QTUM/USDT (BINANCE:QTUMUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 2.6020, Current candle evolution: -2.58%
+
+
+[2024-07-23 21:05:03] ALGO/USDT (BINANCE:ALGOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1434, Current candle evolution: -5.10%
+
+
+[2024-07-23 21:05:03] EOS/USDT (BINANCE:EOSUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.5826, Current candle evolution: 0.00%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 21:05:03] THETA/USDT (BINANCE:THETAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.4590, Current candle evolution: -4.95%
+
+
+[2024-07-23 21:05:03] ENJ/USDT (BINANCE:ENJUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1828, Current candle evolution: -5.77%
+
+
+[2024-07-23 21:05:03] TFUEL/USDT (BINANCE:TFUELUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0685, Current candle evolution: -3.64%
+
+
+[2024-07-23 21:05:03] DUSK/USDT (BINANCE:DUSKUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.2381, Current candle evolution: -6.99%
+
+
+[2024-07-23 21:05:03] ONE/USDT (BINANCE:ONEUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0146, Current candle evolution: -1.82%
+
+
+[2024-07-23 21:05:04] FTM/USDT (BINANCE:FTMUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.4916, Current candle evolution: -3.44%
+
+
+[2024-07-23 21:05:04] ANKR/USDT (BINANCE:ANKRUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0306, Current candle evolution: -3.59%
+
+
+[2024-07-23 21:05:04] COS/USDT (BINANCE:COSUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0082, Current candle evolution: 0.16%
+
+
+[2024-07-23 21:05:04] DENT/USDT (BINANCE:DENTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0009, Current candle evolution: -4.36%
+
+
+[2024-07-23 21:05:04] WAN/USDT (BINANCE:WANUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1955, Current candle evolution: -0.46%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 21:05:04] CHZ/USDT (BINANCE:CHZUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0695, Current candle evolution: -2.93%
+
+
+[2024-07-23 21:05:04] BAND/USDT (BINANCE:BANDUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.3440, Current candle evolution: -3.31%
+
+
+[2024-07-23 21:05:04] RVN/USDT (BINANCE:RVNUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0194, Current candle evolution: -0.51%
+
+
+[2024-07-23 21:05:04] REN/USDT (BINANCE:RENUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0493, Current candle evolution: -1.30%
+
+
+[2024-07-23 21:05:04] HBAR/USDT (BINANCE:HBARUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0684, Current candle evolution: -3.39%
+
+
+[2024-07-23 21:05:04] NKN/USDT (BINANCE:NKNUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0780, Current candle evolution: -1.52%
+
+
+[2024-07-23 21:05:04] KAVA/USDT (BINANCE:KAVAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.4112, Current candle evolution: -0.27%
+
+
+[2024-07-23 21:05:04] ARPA/USDT (BINANCE:ARPAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0412, Current candle evolution: -3.76%
+
+
+[2024-07-23 21:05:04] RLC/USDT (BINANCE:RLCUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.8160, Current candle evolution: -5.52%
+
+
+[2024-07-23 21:05:04] FUN/USDT (BINANCE:FUNUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0036, Current candle evolution: -4.39%
+
+
+[2024-07-23 21:05:04] MTL/USDT (BINANCE:MTLUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.0870, Current candle evolution: -1.54%
+
+
+[2024-07-23 21:05:04] XTZ/USDT (BINANCE:XTZUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.7590, Current candle evolution: -1.68%
+
+
+[2024-07-23 21:05:05] BCH/USDT (BINANCE:BCHUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 365.6000, Current candle evolution: -5.26%
+
+
+[2024-07-23 21:05:05] TROY/USDT (BINANCE:TROYUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0016, Current candle evolution: -6.19%
+
+
+[2024-07-23 21:05:05] FTT/USDT (BINANCE:FTTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.3569, Current candle evolution: -3.74%
+
+
+[2024-07-23 21:05:05] STX/USDT (BINANCE:STXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.7670, Current candle evolution: -3.76%
+
+
+[2024-07-23 21:05:05] IOTX/USDT (BINANCE:IOTXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0455, Current candle evolution: -6.10%
+
+
+[2024-07-23 21:05:05] OGN/USDT (BINANCE:OGNUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0965, Current candle evolution: -2.23%
+
+
+[2024-07-23 21:05:05] WRX/USDT (BINANCE:WRXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1238, Current candle evolution: -1.98%
+
+
+[2024-07-23 21:05:05] LSK/USDT (BINANCE:LSKUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.0080, Current candle evolution: -3.08%
+
+
+[2024-07-23 21:05:05] LTO/USDT (BINANCE:LTOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1186, Current candle evolution: -1.33%
+
+
+[2024-07-23 21:05:05] EUR/USDT (BINANCE:EURUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.0874, Current candle evolution: -0.08%
+
+
+[2024-07-23 21:05:05] COTI/USDT (BINANCE:COTIUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1108, Current candle evolution: 9.40%
+
+
+[2024-07-23 21:05:05] DATA/USDT (BINANCE:DATAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0361, Current candle evolution: -1.96%
+
+
+[2024-07-23 21:05:05] STPT/USDT (BINANCE:STPTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0457, Current candle evolution: -0.46%
+
+
+[2024-07-23 21:05:05] SOL/USDT (BINANCE:SOLUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 173.7700, Current candle evolution: -2.87%
+
+
+[2024-07-23 21:05:05] CTSI/USDT (BINANCE:CTSIUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1564, Current candle evolution: -2.49%
+
+
+[2024-07-23 21:05:05] CHR/USDT (BINANCE:CHRUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.2314, Current candle evolution: -5.28%
+
+
+[2024-07-23 21:05:05] BNT/USDT (BINANCE:BNTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.6231, Current candle evolution: -0.57%
+
+
+[2024-07-23 21:05:06] MBL/USDT (BINANCE:MBLUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0027, Current candle evolution: -0.07%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 21:05:06] ARDR/USDT (BINANCE:ARDRUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0712, Current candle evolution: 0.51%
+
+
+[2024-07-23 21:05:06] MDT/USDT (BINANCE:MDTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0430, Current candle evolution: -3.17%
+
+
+[2024-07-23 21:05:06] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.5299, Current candle evolution: -2.34%
+
+
+[2024-07-23 21:05:06] LRC/USDT (BINANCE:LRCUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1594, Current candle evolution: -3.39%
+
+
+[2024-07-23 21:05:06] USDT/IDRT (BINANCE:USDTIDRT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 16261.0000, Current candle evolution: -0.11%
+
+
+[2024-07-23 21:05:06] COMP/USDT (BINANCE:COMPUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 49.7900, Current candle evolution: -1.43%
+
+
+[2024-07-23 21:05:06] SC/USDT (BINANCE:SCUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0053, Current candle evolution: 1.83%
+
+
+[2024-07-23 21:05:06] SNX/USDT (BINANCE:SNXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.7730, Current candle evolution: -2.26%
+
+
+[2024-07-23 21:05:06] VTHO/USDT (BINANCE:VTHOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0026, Current candle evolution: -2.73%
+
+
+[2024-07-23 21:05:06] DGB/USDT (BINANCE:DGBUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0075, Current candle evolution: -7.28%
+
+
+[2024-07-23 21:05:06] MKR/USDT (BINANCE:MKRUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 2822.0000, Current candle evolution: 4.99%
+
+
+[2024-07-23 21:05:06] STORJ/USDT (BINANCE:STORJUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.3923, Current candle evolution: -2.07%
+
+
+[2024-07-23 21:05:06] DCR/USDT (BINANCE:DCRUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 12.1900, Current candle evolution: -4.47%
+
+
+[2024-07-23 21:05:06] MANA/USDT (BINANCE:MANAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.3310, Current candle evolution: -3.64%
+
+
+[2024-07-23 21:05:06] YFI/USDT (BINANCE:YFIUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 5741.0000, Current candle evolution: -1.39%
+
+
+[2024-07-23 21:05:06] BAL/USDT (BINANCE:BALUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 2.7020, Current candle evolution: 3.64%
+
+
+[2024-07-23 21:05:07] BLZ/USDT (BINANCE:BLZUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1724, Current candle evolution: -1.88%
+
+
+[2024-07-23 21:05:07] IRIS/USDT (BINANCE:IRISUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0132, Current candle evolution: -3.73%
+
+
+[2024-07-23 21:05:07] KMD/USDT (BINANCE:KMDUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.2792, Current candle evolution: -1.45%
+
+
+[2024-07-23 21:05:07] SAND/USDT (BINANCE:SANDUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.3217, Current candle evolution: -3.07%
+
+
+[2024-07-23 21:05:07] SXP/USDT (BINANCE:SXPUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.2552, Current candle evolution: -1.31%
+
+
+[2024-07-23 21:05:07] NMR/USDT (BINANCE:NMRUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 14.2000, Current candle evolution: -3.66%
+
+
+[2024-07-23 21:05:07] DOT/USDT (BINANCE:DOTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 5.9420, Current candle evolution: -2.51%
+
+
+[2024-07-23 21:05:07] RSR/USDT (BINANCE:RSRUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0054, Current candle evolution: -2.88%
+
+
+[2024-07-23 21:05:07] LUNA/USDT (BINANCE:LUNAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.4171, Current candle evolution: -3.02%
+
+
+[2024-07-23 21:05:07] PAXG/USDT (BINANCE:PAXGUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 2396.0000, Current candle evolution: 0.21%
+
+
+[2024-07-23 21:05:07] TRB/USDT (BINANCE:TRBUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 74.0200, Current candle evolution: 0.60%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 21:05:07] SUSHI/USDT (BINANCE:SUSHIUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.7030, Current candle evolution: -2.23%
+
+
+[2024-07-23 21:05:07] JST/USDT (BINANCE:JSTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Three Black Crows
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0285, Current candle evolution: -1.14%
+Pattern confirmation: Current candle confirms the pattern.
+
+[2024-07-23 21:05:07] KSM/USDT (BINANCE:KSMUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 21.0900, Current candle evolution: -4.09%
+
+
+[2024-07-23 21:05:07] EGLD/USDT (BINANCE:EGLDUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 34.1300, Current candle evolution: -4.74%
+
+
+[2024-07-23 21:05:07] RUNE/USDT (BINANCE:RUNEUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 4.6630, Current candle evolution: 0.60%
+
+
+[2024-07-23 21:05:07] UMA/USDT (BINANCE:UMAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 2.3110, Current candle evolution: -2.37%
+
+
+[2024-07-23 21:05:08] BEL/USDT (BINANCE:BELUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.5252, Current candle evolution: -4.14%
+
+
+[2024-07-23 21:05:08] UNI/USDT (BINANCE:UNIUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 7.7440, Current candle evolution: -0.90%
+
+
+[2024-07-23 21:05:08] FLM/USDT (BINANCE:FLMUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0685, Current candle evolution: -1.58%
+
+
+[2024-07-23 21:05:08] ORN/USDT (BINANCE:ORNUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.4600, Current candle evolution: -0.61%
+
+
+[2024-07-23 21:05:08] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0508, Current candle evolution: -3.73%
+
+
+[2024-07-23 21:05:08] ALPHA/USDT (BINANCE:ALPHAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0725, Current candle evolution: -3.33%
+
+
+[2024-07-23 21:05:08] XVS/USDT (BINANCE:XVSUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 7.1400, Current candle evolution: -0.14%
+
+
+[2024-07-23 21:05:08] NEAR/USDT (BINANCE:NEARUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 5.7620, Current candle evolution: -4.51%
+
+
+[2024-07-23 21:05:08] FIL/USDT (BINANCE:FILUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 4.4450, Current candle evolution: -1.42%
+
+
+[2024-07-23 21:05:08] OXT/USDT (BINANCE:OXTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0794, Current candle evolution: -4.45%
+
+
+[2024-07-23 21:05:08] AUDIO/USDT (BINANCE:AUDIOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1419, Current candle evolution: -3.21%
+
+
+[2024-07-23 21:05:08] HARD/USDT (BINANCE:HARDUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0938, Current candle evolution: -3.40%
+
+
+[2024-07-23 21:05:08] ROSE/USDT (BINANCE:ROSEUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0886, Current candle evolution: -3.93%
+
+
+[2024-07-23 21:05:08] AVA/USDT (BINANCE:AVAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.6157, Current candle evolution: -2.13%
+
+
+[2024-07-23 21:05:09] SKL/USDT (BINANCE:SKLUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0484, Current candle evolution: -1.79%
+
+
+[2024-07-23 21:05:09] AKRO/USDT (BINANCE:AKROUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Inverted Hammer
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0053, Current candle evolution: -3.22%
+Pattern confirmation: Current candle confirms the Inverted Hammer pattern.
+
+[2024-07-23 21:05:09] GRT/USDT (BINANCE:GRTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1987, Current candle evolution: -3.82%
+
+
+[2024-07-23 21:05:09] JUV/USDT (BINANCE:JUVUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.8010, Current candle evolution: -2.33%
+
+
+[2024-07-23 21:05:09] PSG/USDT (BINANCE:PSGUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 2.7060, Current candle evolution: -1.74%
+
+
+[2024-07-23 21:05:09] 1INCH/USDT (BINANCE:1INCHUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.4033, Current candle evolution: -3.42%
+
+
+[2024-07-23 21:05:09] ATM/USDT (BINANCE:ATMUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 2.1490, Current candle evolution: -1.92%
+
+
+[2024-07-23 21:05:09] REEF/USDT (BINANCE:REEFUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0015, Current candle evolution: -1.35%
+
+
+[2024-07-23 21:05:09] CELO/USDT (BINANCE:CELOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.5800, Current candle evolution: -1.01%
+
+
+[2024-07-23 21:05:09] OG/USDT (BINANCE:OGUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 3.1280, Current candle evolution: -2.65%
+
+
+[2024-07-23 21:05:09] RIF/USDT (BINANCE:RIFUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0837, Current candle evolution: -3.35%
+
+
+[2024-07-23 21:05:09] ASR/USDT (BINANCE:ASRUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 2.2920, Current candle evolution: -2.01%
+
+
+[2024-07-23 21:05:09] TRU/USDT (BINANCE:TRUUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1186, Current candle evolution: -7.27%
+
+
+[2024-07-23 21:05:09] CKB/USDT (BINANCE:CKBUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0116, Current candle evolution: -3.84%
+
+
+[2024-07-23 21:05:09] FIRO/USDT (BINANCE:FIROUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.2940, Current candle evolution: -1.90%
+
+
+[2024-07-23 21:05:09] LIT/USDT (BINANCE:LITUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.7150, Current candle evolution: -3.51%
+
+
+[2024-07-23 21:05:09] DODO/USDT (BINANCE:DODOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1170, Current candle evolution: -4.72%
+
+
+[2024-07-23 21:05:09] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.9860, Current candle evolution: -2.07%
+
+
+[2024-07-23 21:05:09] ACM/USDT (BINANCE:ACMUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.6180, Current candle evolution: -2.47%
+
+
+[2024-07-23 21:05:09] BADGER/USDT (BINANCE:BADGERUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 3.1410, Current candle evolution: -3.83%
+
+
+[2024-07-23 21:05:09] FIS/USDT (BINANCE:FISUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.3653, Current candle evolution: -2.17%
+
+
+[2024-07-23 21:05:09] OM/USDT (BINANCE:OMUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.2623, Current candle evolution: -2.01%
+
+
+[2024-07-23 21:05:09] POND/USDT (BINANCE:PONDUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0182, Current candle evolution: -0.05%
+
+
+[2024-07-23 21:05:09] DEGO/USDT (BINANCE:DEGOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.5590, Current candle evolution: -0.83%
+
+
+[2024-07-23 21:05:09] LINA/USDT (BINANCE:LINAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Three Black Crows
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0056, Current candle evolution: -3.82%
+Pattern confirmation: Current candle confirms the pattern.
+
+[2024-07-23 21:05:09] ALICE/USDT (BINANCE:ALICEUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Three Black Crows
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.1840, Current candle evolution: -1.42%
+Pattern confirmation: Current candle confirms the pattern.
+
+[2024-07-23 21:05:09] PERP/USDT (BINANCE:PERPUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.6571, Current candle evolution: -1.41%
+
+
+[2024-07-23 21:05:09] SUPER/USDT (BINANCE:SUPERUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.6669, Current candle evolution: 0.54%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 21:05:09] CFX/USDT (BINANCE:CFXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1580, Current candle evolution: -5.22%
+
+
+[2024-07-23 21:05:10] PUNDIX/USDT (BINANCE:PUNDIXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.4164, Current candle evolution: -3.32%
+
+
+[2024-07-23 21:05:10] TLM/USDT (BINANCE:TLMUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0120, Current candle evolution: -3.30%
+
+
+[2024-07-23 21:05:10] BAR/USDT (BINANCE:BARUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.9170, Current candle evolution: -2.79%
+
+
+[2024-07-23 21:05:10] FORTH/USDT (BINANCE:FORTHUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 3.3510, Current candle evolution: 0.06%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 21:05:10] BAKE/USDT (BINANCE:BAKEUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.2580, Current candle evolution: -5.32%
+
+
+[2024-07-23 21:05:10] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0031, Current candle evolution: -0.77%
+
+
+[2024-07-23 21:05:10] SHIB/USDT (BINANCE:SHIBUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0000, Current candle evolution: -2.33%
+
+
+[2024-07-23 21:05:10] ICP/USDT (BINANCE:ICPUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 9.6500, Current candle evolution: -4.90%
+
+
+[2024-07-23 21:05:10] AR/USDT (BINANCE:ARUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 30.5600, Current candle evolution: -2.52%
+
+
+[2024-07-23 21:05:10] LPT/USDT (BINANCE:LPTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 15.2700, Current candle evolution: -3.94%
+
+
+[2024-07-23 21:05:10] ATA/USDT (BINANCE:ATAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0991, Current candle evolution: -2.27%
+
+
+[2024-07-23 21:05:10] XVG/USDT (BINANCE:XVGUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0042, Current candle evolution: -4.86%
+
+
+[2024-07-23 21:05:10] GTC/USDT (BINANCE:GTCUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.8930, Current candle evolution: 4.08%
+
+
+[2024-07-23 21:05:10] ERN/USDT (BINANCE:ERNUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 2.2740, Current candle evolution: -3.77%
+
+
+[2024-07-23 21:05:10] PHA/USDT (BINANCE:PHAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1251, Current candle evolution: -3.17%
+
+
+[2024-07-23 21:05:10] MLN/USDT (BINANCE:MLNUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 19.2600, Current candle evolution: -0.10%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 21:05:10] DEXE/USDT (BINANCE:DEXEUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 9.8180, Current candle evolution: 0.04%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 21:05:10] C98/USDT (BINANCE:C98USDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1609, Current candle evolution: -2.96%
+
+
+[2024-07-23 21:05:10] CLV/USDT (BINANCE:CLVUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0495, Current candle evolution: -4.85%
+
+
+[2024-07-23 21:05:10] MASK/USDT (BINANCE:MASKUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 2.3430, Current candle evolution: -2.54%
+
+
+[2024-07-23 21:05:10] QNT/USDT (BINANCE:QNTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 73.3000, Current candle evolution: -0.41%
+
+
+[2024-07-23 21:05:11] FLOW/USDT (BINANCE:FLOWUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.6040, Current candle evolution: -3.67%
+
+
+[2024-07-23 21:05:11] MINA/USDT (BINANCE:MINAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.5359, Current candle evolution: -4.32%
+
+
+[2024-07-23 21:05:11] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 2.1420, Current candle evolution: -9.77%
+
+
+[2024-07-23 21:05:11] ALPACA/USDT (BINANCE:ALPACAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1240, Current candle evolution: -1.82%
+
+
+[2024-07-23 21:05:11] FARM/USDT (BINANCE:FARMUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 47.0200, Current candle evolution: -1.45%
+
+
+[2024-07-23 21:05:11] MBOX/USDT (BINANCE:MBOXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.2352, Current candle evolution: -4.12%
+
+
+[2024-07-23 21:05:11] QUICK/USDT (BINANCE:QUICKUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0409, Current candle evolution: -0.61%
+
+
+[2024-07-23 21:05:11] FOR/USDT (BINANCE:FORUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0134, Current candle evolution: 0.83%
+
+
+[2024-07-23 21:05:11] REQ/USDT (BINANCE:REQUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1098, Current candle evolution: -0.72%
+
+
+[2024-07-23 21:05:11] GHST/USDT (BINANCE:GHSTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.0590, Current candle evolution: 0.19%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 21:05:11] WAXP/USDT (BINANCE:WAXPUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0394, Current candle evolution: -3.07%
+
+
+[2024-07-23 21:05:11] XEC/USDT (BINANCE:XECUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0000, Current candle evolution: -3.24%
+
+
+[2024-07-23 21:05:11] GNO/USDT (BINANCE:GNOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 240.4000, Current candle evolution: -1.72%
+
+
+[2024-07-23 21:05:11] ELF/USDT (BINANCE:ELFUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.3909, Current candle evolution: -2.40%
+
+
+[2024-07-23 21:05:11] DYDX/USDT (BINANCE:DYDXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.2920, Current candle evolution: -7.58%
+
+
+[2024-07-23 21:05:11] IDEX/USDT (BINANCE:IDEXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0409, Current candle evolution: -3.15%
+
+
+[2024-07-23 21:05:11] VIDT/USDT (BINANCE:VIDTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0210, Current candle evolution: -0.90%
+
+
+[2024-07-23 21:05:11] USDP/USDT (BINANCE:USDPUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.9997, Current candle evolution: 0.02%
+
+
+[2024-07-23 21:05:11] GALA/USDT (BINANCE:GALAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0237, Current candle evolution: -3.54%
+
+
+[2024-07-23 21:05:11] YGG/USDT (BINANCE:YGGUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.4753, Current candle evolution: -4.21%
+
+
+[2024-07-23 21:05:11] SYS/USDT (BINANCE:SYSUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1055, Current candle evolution: -1.68%
+
+
+[2024-07-23 21:05:11] DF/USDT (BINANCE:DFUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0328, Current candle evolution: -1.62%
+
+
+[2024-07-23 21:05:11] FIDA/USDT (BINANCE:FIDAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.2744, Current candle evolution: -2.10%
+
+
+[2024-07-23 21:05:11] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.9380, Current candle evolution: -2.70%
+
+
+[2024-07-23 21:05:11] RARE/USDT (BINANCE:RAREUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0850, Current candle evolution: -8.21%
+
+
+[2024-07-23 21:05:12] CHESS/USDT (BINANCE:CHESSUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1334, Current candle evolution: -2.41%
+
+
+[2024-07-23 21:05:12] CITY/USDT (BINANCE:CITYUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 2.1420, Current candle evolution: -2.15%
+
+
+[2024-07-23 21:05:12] MOVR/USDT (BINANCE:MOVRUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 11.1100, Current candle evolution: -1.63%
+
+
+[2024-07-23 21:05:12] ENS/USDT (BINANCE:ENSUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 29.4200, Current candle evolution: 14.69%
+
+
+[2024-07-23 21:05:12] RAD/USDT (BINANCE:RADUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.2090, Current candle evolution: -3.05%
+
+
+[2024-07-23 21:05:12] KP3R/USDT (BINANCE:KP3RUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 55.8600, Current candle evolution: -1.69%
+
+
+[2024-07-23 21:05:12] QI/USDT (BINANCE:QIUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0159, Current candle evolution: -3.46%
+
+
+[2024-07-23 21:05:12] VGX/USDT (BINANCE:VGXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0731, Current candle evolution: -1.35%
+
+
+[2024-07-23 21:05:12] POWR/USDT (BINANCE:POWRUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.2156, Current candle evolution: -3.36%
+
+
+[2024-07-23 21:05:12] AMP/USDT (BINANCE:AMPUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0043, Current candle evolution: -2.38%
+
+
+[2024-07-23 21:05:12] JASMY/USDT (BINANCE:JASMYUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0274, Current candle evolution: -4.56%
+
+
+[2024-07-23 21:05:12] PYR/USDT (BINANCE:PYRUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 3.3430, Current candle evolution: -1.47%
+
+
+[2024-07-23 21:05:12] AUCTION/USDT (BINANCE:AUCTIONUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Inverted Hammer
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 16.0000, Current candle evolution: 1.85%
+Pattern confirmation: Current candle confirms the Inverted Hammer pattern.
+
+[2024-07-23 21:05:12] BICO/USDT (BINANCE:BICOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.3115, Current candle evolution: -3.98%
+
+
+[2024-07-23 21:05:12] FLUX/USDT (BINANCE:FLUXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.6766, Current candle evolution: -2.47%
+
+
+[2024-07-23 21:05:12] VOXEL/USDT (BINANCE:VOXELUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1593, Current candle evolution: -3.75%
+
+
+[2024-07-23 21:05:12] PEOPLE/USDT (BINANCE:PEOPLEUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0775, Current candle evolution: -3.17%
+
+
+[2024-07-23 21:05:13] SPELL/USDT (BINANCE:SPELLUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0007, Current candle evolution: -2.49%
+
+
+[2024-07-23 21:05:13] ACH/USDT (BINANCE:ACHUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0238, Current candle evolution: -1.94%
+
+
+[2024-07-23 21:05:13] IMX/USDT (BINANCE:IMXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.5430, Current candle evolution: -0.39%
+
+
+[2024-07-23 21:05:13] LOKA/USDT (BINANCE:LOKAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1886, Current candle evolution: -3.43%
+
+
+[2024-07-23 21:05:13] SCRT/USDT (BINANCE:SCRTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.2722, Current candle evolution: -1.63%
+
+
+[2024-07-23 21:05:13] ACA/USDT (BINANCE:ACAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0691, Current candle evolution: -4.82%
+
+
+[2024-07-23 21:05:13] XNO/USDT (BINANCE:XNOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.9580, Current candle evolution: -2.34%
+
+
+[2024-07-23 21:05:13] WOO/USDT (BINANCE:WOOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1982, Current candle evolution: -4.44%
+
+
+[2024-07-23 21:05:13] ALPINE/USDT (BINANCE:ALPINEUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.3050, Current candle evolution: -0.84%
+
+
+[2024-07-23 21:05:13] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Three Black Crows
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0732, Current candle evolution: -3.81%
+Pattern confirmation: Current candle confirms the pattern.
+
+[2024-07-23 21:05:13] KDA/USDT (BINANCE:KDAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.5970, Current candle evolution: -3.40%
+
+
+[2024-07-23 21:05:13] GMT/USDT (BINANCE:GMTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1477, Current candle evolution: -3.59%
+
+
+[2024-07-23 21:05:13] JOE/USDT (BINANCE:JOEUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.3763, Current candle evolution: -4.22%
+
+
+[2024-07-23 21:05:13] APE/USDT (BINANCE:APEUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.7890, Current candle evolution: -2.47%
+
+
+[2024-07-23 21:05:13] BSW/USDT (BINANCE:BSWUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0624, Current candle evolution: -2.04%
+
+
+[2024-07-23 21:05:13] BIFI/USDT (BINANCE:BIFIUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 325.7000, Current candle evolution: -1.18%
+
+
+[2024-07-23 21:05:13] STEEM/USDT (BINANCE:STEEMUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1984, Current candle evolution: -0.55%
+
+
+[2024-07-23 21:05:13] NEXO/USDT (BINANCE:NEXOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.2280, Current candle evolution: 0.90%
+
+
+[2024-07-23 21:05:13] REI/USDT (BINANCE:REIUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0508, Current candle evolution: -3.27%
+
+
+[2024-07-23 21:05:13] LDO/USDT (BINANCE:LDOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.7700, Current candle evolution: -0.84%
+
+
+[2024-07-23 21:05:13] EPX/USDT (BINANCE:EPXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0001, Current candle evolution: -0.41%
+
+
+[2024-07-23 21:05:13] OP/USDT (BINANCE:OPUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.8790, Current candle evolution: 0.27%
+
+
+[2024-07-23 21:05:13] LEVER/USDT (BINANCE:LEVERUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0022, Current candle evolution: -3.06%
+
+
+[2024-07-23 21:05:13] LUNC/USDT (BINANCE:LUNCUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0001, Current candle evolution: -3.85%
+
+
+[2024-07-23 21:05:14] POLYX/USDT (BINANCE:POLYXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.2639, Current candle evolution: -4.38%
+
+
+[2024-07-23 21:05:14] APT/USDT (BINANCE:APTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 7.1300, Current candle evolution: -1.11%
+
+
+[2024-07-23 21:05:14] PHB/USDT (BINANCE:PHBUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.6940, Current candle evolution: -3.64%
+
+
+[2024-07-23 21:05:14] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.5008, Current candle evolution: -2.61%
+
+
+[2024-07-23 21:05:14] HIFI/USDT (BINANCE:HIFIUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.4774, Current candle evolution: -3.13%
+
+
+[2024-07-23 21:05:14] RPL/USDT (BINANCE:RPLUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Inverted Hammer
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 17.0500, Current candle evolution: -2.90%
+Pattern confirmation: Current candle confirms the Inverted Hammer pattern.
+
+[2024-07-23 21:05:14] GNS/USDT (BINANCE:GNSUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 3.3970, Current candle evolution: 0.30%
+
+
+[2024-07-23 21:05:14] PROS/USDT (BINANCE:PROSUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.3722, Current candle evolution: -1.53%
+
+
+[2024-07-23 21:05:14] VIB/USDT (BINANCE:VIBUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0716, Current candle evolution: -2.43%
+
+
+[2024-07-23 21:05:14] SSV/USDT (BINANCE:SSVUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 32.9100, Current candle evolution: 1.45%
+
+
+[2024-07-23 21:05:14] AMB/USDT (BINANCE:AMBUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0061, Current candle evolution: -6.19%
+
+
+[2024-07-23 21:05:14] GLM/USDT (BINANCE:GLMUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.3355, Current candle evolution: -2.89%
+
+
+[2024-07-23 21:05:14] GAS/USDT (BINANCE:GASUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 3.7510, Current candle evolution: -2.65%
+
+
+[2024-07-23 21:05:14] PROM/USDT (BINANCE:PROMUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 6.9720, Current candle evolution: -0.84%
+
+
+[2024-07-23 21:05:14] QKC/USDT (BINANCE:QKCUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0078, Current candle evolution: -0.95%
+
+
+[2024-07-23 21:05:14] UFT/USDT (BINANCE:UFTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.2620, Current candle evolution: -1.39%
+
+
+[2024-07-23 21:05:14] ID/USDT (BINANCE:IDUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.4650, Current candle evolution: 0.65%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 21:05:14] ARB/USDT (BINANCE:ARBUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.8018, Current candle evolution: 5.53%
+
+
+[2024-07-23 21:05:14] OAX/USDT (BINANCE:OAXUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1673, Current candle evolution: -0.12%
+
+
+[2024-07-23 21:05:14] USDT/ARS (BINANCE:USDTARS) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1362.0000, Current candle evolution: 0.44%
+
+
+[2024-07-23 21:05:15] WBTC/USDT (BINANCE:WBTCUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 65917.6600, Current candle evolution: -2.32%
+
+
+[2024-07-23 21:05:15] EDU/USDT (BINANCE:EDUUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.7068, Current candle evolution: 0.90%
+
+
+[2024-07-23 21:05:15] SUI/USDT (BINANCE:SUIUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.8196, Current candle evolution: -1.43%
+
+
+[2024-07-23 21:05:15] PEPE/USDT (BINANCE:PEPEUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0000, Current candle evolution: 3.95%
+
+
+[2024-07-23 21:05:15] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0973, Current candle evolution: -0.41%
+
+
+[2024-07-23 21:05:15] FLOKI/USDT (BINANCE:FLOKIUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0002, Current candle evolution: -4.37%
+
+
+[2024-07-23 21:05:15] AST/USDT (BINANCE:ASTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0885, Current candle evolution: -2.96%
+
+
+[2024-07-23 21:05:15] SNT/USDT (BINANCE:SNTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0248, Current candle evolution: -1.35%
+
+
+[2024-07-23 21:05:15] COMBO/USDT (BINANCE:COMBOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.5001, Current candle evolution: -5.36%
+
+
+[2024-07-23 21:05:15] MAV/USDT (BINANCE:MAVUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.2055, Current candle evolution: -4.42%
+
+
+[2024-07-23 21:05:15] ARKM/USDT (BINANCE:ARKMUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.4550, Current candle evolution: -2.48%
+
+
+[2024-07-23 21:05:15] WBETH/USDT (BINANCE:WBETHUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 3630.3500, Current candle evolution: 1.21%
+
+
+[2024-07-23 21:05:15] FDUSD/USDT (BINANCE:FDUSDUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.9991, Current candle evolution: -0.05%
+
+
+[2024-07-23 21:05:15] CYBER/USDT (BINANCE:CYBERUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 4.3110, Current candle evolution: -3.60%
+
+
+[2024-07-23 21:05:15] CREAM/USDT (BINANCE:CREAMUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 37.4700, Current candle evolution: -2.35%
+
+
+[2024-07-23 21:05:15] GFT/USDT (BINANCE:GFTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0195, Current candle evolution: -0.96%
+
+
+[2024-07-23 21:05:15] NTRN/USDT (BINANCE:NTRNUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.4755, Current candle evolution: -5.17%
+
+
+[2024-07-23 21:05:15] VIC/USDT (BINANCE:VICUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.3821, Current candle evolution: -0.42%
+
+
+[2024-07-23 21:05:15] BLUR/USDT (BINANCE:BLURUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1986, Current candle evolution: -2.65%
+
+
+[2024-07-23 21:05:15] AEUR/USDT (BINANCE:AEURUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.0865, Current candle evolution: -0.13%
+
+
+[2024-07-23 21:05:15] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1264, Current candle evolution: -4.17%
+
+
+[2024-07-23 21:05:16] JTO/USDT (BINANCE:JTOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 2.4760, Current candle evolution: -7.37%
+
+
+[2024-07-23 21:05:16] BONK/USDT (BINANCE:BONKUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0000, Current candle evolution: -5.50%
+
+
+[2024-07-23 21:05:16] NFP/USDT (BINANCE:NFPUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.2845, Current candle evolution: -3.10%
+
+
+[2024-07-23 21:05:16] 1000SATS/USDT (BINANCE:1000SATSUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0003, Current candle evolution: -3.87%
+
+
+[2024-07-23 21:05:16] XAI/USDT (BINANCE:XAIUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.3445, Current candle evolution: -1.88%
+
+
+[2024-07-23 21:05:16] MANTA/USDT (BINANCE:MANTAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.9780, Current candle evolution: -2.78%
+
+
+[2024-07-23 21:05:16] ALT/USDT (BINANCE:ALTUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Inverted Hammer
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1469, Current candle evolution: 2.73%
+Pattern confirmation: Current candle confirms the Inverted Hammer pattern.
+
+[2024-07-23 21:05:16] PYTH/USDT (BINANCE:PYTHUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.3356, Current candle evolution: -4.00%
+
+
+[2024-07-23 21:05:16] JUP/USDT (BINANCE:JUPUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.9531, Current candle evolution: -5.45%
+
+
+[2024-07-23 21:05:16] PIXEL/USDT (BINANCE:PIXELUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.2042, Current candle evolution: -3.63%
+
+
+[2024-07-23 21:05:16] RONIN/USDT (BINANCE:RONINUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Doji
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 2.2360, Current candle evolution: -0.36%
+Pattern confirmation: Current candle confirms the Doji pattern.
+
+[2024-07-23 21:05:16] STRK/USDT (BINANCE:STRKUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.5800, Current candle evolution: 0.52%
+
+
+[2024-07-23 21:05:16] PORTAL/USDT (BINANCE:PORTALUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.4001, Current candle evolution: -4.90%
+
+
+[2024-07-23 21:05:16] METIS/USDT (BINANCE:METISUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 50.1500, Current candle evolution: 3.57%
+
+
+[2024-07-23 21:05:16] ETHFI/USDT (BINANCE:ETHFIUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 2.4380, Current candle evolution: -0.53%
+
+
+[2024-07-23 21:05:16] W/USDT (BINANCE:WUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.3133, Current candle evolution: -2.43%
+
+
+[2024-07-23 21:05:16] SAGA/USDT (BINANCE:SAGAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Three Black Crows
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 1.4971, Current candle evolution: -2.52%
+Pattern confirmation: Current candle confirms the pattern.
+
+[2024-07-23 21:05:16] TNSR/USDT (BINANCE:TNSRUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.4869, Current candle evolution: -4.13%
+
+
+[2024-07-23 21:05:16] USDT/MXN (BINANCE:USDTMXN) Timeframe: 1d, Number of candles: 3, Pattern detected: Bullish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 18.3600, Current candle evolution: 2.40%
+
+
+[2024-07-23 21:05:17] ZK/USDT (BINANCE:ZKUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.1778, Current candle evolution: -1.00%
+
+
+[2024-07-23 21:05:17] LISTA/USDT (BINANCE:LISTAUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Inverted Hammer
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.5454, Current candle evolution: -1.27%
+Pattern confirmation: Current candle confirms the Inverted Hammer pattern.
+
+[2024-07-23 21:05:17] BOME/USDT (BINANCE:BOMEUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0084, Current candle evolution: -5.89%
+
+
+[2024-07-23 21:05:17] G/USDT (BINANCE:GUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Dark Cloud Cover
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.0540, Current candle evolution: -6.76%
+
+
+[2024-07-23 21:05:17] TAO/USDT (BINANCE:TAOUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 306.9000, Current candle evolution: -5.66%
+
+
+[2024-07-23 21:05:17] BB/USDT (BINANCE:BBUSDT) Timeframe: 1d, Number of candles: 3, Pattern detected: Bearish Engulfing
+Detected on candle:
+  1. 2024-07-22 00:00:00
+Current price: 0.4046, Current candle evolution: -5.97%
+
+
