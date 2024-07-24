@@ -1,0 +1,756 @@
+[2024-07-24 12:19:37] MANA/USDT (BINANCE:MANAUSDT) Timeframe: 4h, Current price: 0.3393, Current candle evolution: 0.06%
+
+[2024-07-24 12:19:39] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 4h, Current price: 2.3690, Current candle evolution: -0.25%
+
+[2024-07-24 12:19:42] FARM/USDT (BINANCE:FARMUSDT) Timeframe: 4h, Current price: 46.7400, Current candle evolution: 0.06%
+
+[2024-07-24 12:19:43] YFI/USDT (BINANCE:YFIUSDT) Timeframe: 4h, Current price: 5776.0000, Current candle evolution: -0.17%
+
+[2024-07-24 12:19:43] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 4h, Current price: 0.3784, Current candle evolution: 0.19%
+
+[2024-07-24 12:19:44] ALPACA/USDT (BINANCE:ALPACAUSDT) Timeframe: 4h, Current price: 0.1226, Current candle evolution: 0.25%
+
+[2024-07-24 12:19:45] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 4h, Current price: 1.9980, Current candle evolution: 0.05%
+
+[2024-07-24 12:19:46] BAL/USDT (BINANCE:BALUSDT) Timeframe: 4h, Current price: 2.7870, Current candle evolution: 0.14%
+
+[2024-07-24 12:19:46] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 4h, Current price: 0.0993, Current candle evolution: -0.10%
+
+[2024-07-24 12:19:46] RUNE/USDT (BINANCE:RUNEUSDT) Timeframe: 4h, Current price: 4.6830, Current candle evolution: -0.23%
+
+[2024-07-24 12:19:47] QUICK/USDT (BINANCE:QUICKUSDT) Timeframe: 4h, Current price: 0.0410, Current candle evolution: 0.05%
+
+[2024-07-24 12:19:47] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 4h, Current price: 0.4962, Current candle evolution: -0.18%
+
+[2024-07-24 12:19:47] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 4h, Current price: 0.1274, Current candle evolution: -0.23%
+
+[2024-07-24 12:19:47] DOGE/USDT (BINANCE:DOGEUSDT) Timeframe: 4h, Current price: 0.1328, Current candle evolution: -0.31%
+
+[2024-07-24 12:19:48] BLZ/USDT (BINANCE:BLZUSDT) Timeframe: 4h, Current price: 0.1761, Current candle evolution: 0.28%
+
+[2024-07-24 12:19:48] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 4h, Current price: 0.0744, Current candle evolution: 0.13%
+
+[2024-07-24 12:19:48] PEPE/USDT (BINANCE:PEPEUSDT) Timeframe: 4h, Current price: 0.0000, Current candle evolution: 0.16%
+
+[2024-07-24 12:19:48] ONG/USDT (BINANCE:ONGUSDT) Timeframe: 4h, Current price: 0.3520, Current candle evolution: -0.54%
+
+[2024-07-24 12:19:48] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 4h, Current price: 0.0031, Current candle evolution: -0.39%
+
+[2024-07-24 12:19:48] FIO/USDT (BINANCE:FIOUSDT) Timeframe: 4h, Current price: 0.0235, Current candle evolution: 0.09%
+
+[2024-07-24 12:19:48] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 4h, Current price: 0.0492, Current candle evolution: 0.43%
+
+[2024-07-24 12:19:48] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 4h, Current price: 0.9460, Current candle evolution: -0.32%
+
+[2024-07-24 12:19:48] AEUR/USDT (BINANCE:AEURUSDT) Timeframe: 4h, Current price: 1.0844, Current candle evolution: 0.06%
+
+[2024-07-24 12:19:48] W/USDT (BINANCE:WUSDT) Timeframe: 4h, Current price: 0.3172, Current candle evolution: -0.28%
+
+[2024-07-24 12:19:48] MBOX/USDT (BINANCE:MBOXUSDT) Timeframe: 4h, Current price: 0.2314, Current candle evolution: 0.13%
+
+[2024-07-24 12:19:48] ACM/USDT (BINANCE:ACMUSDT) Timeframe: 4h, Current price: 1.6330, Current candle evolution: 0.18%
+
+[2024-07-24 12:19:49] GMT/USDT (BINANCE:GMTUSDT) Timeframe: 4h, Current price: 0.1504, Current candle evolution: 0.20%
+
+[2024-07-24 12:19:49] DUSK/USDT (BINANCE:DUSKUSDT) Timeframe: 4h, Current price: 0.2379, Current candle evolution: -0.21%
+
+[2024-07-24 12:19:49] SKL/USDT (BINANCE:SKLUSDT) Timeframe: 4h, Current price: 0.0476, Current candle evolution: 0.49%
+
+[2024-07-24 12:19:49] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 4h, Current price: 0.5428, Current candle evolution: 0.18%
+
+[2024-07-24 12:19:49] IRIS/USDT (BINANCE:IRISUSDT) Timeframe: 4h, Current price: 0.0134, Current candle evolution: 0.45%
+
+[2024-07-24 12:19:49] BTC/USDT (BINANCE:BTCUSDT) Timeframe: 4h, Current price: 66352.0100, Current candle evolution: -0.02%
+
+[2024-07-24 12:19:49] FLOKI/USDT (BINANCE:FLOKIUSDT) Timeframe: 4h, Current price: 0.0002, Current candle evolution: -0.47%
+
+[2024-07-24 12:19:49] HIFI/USDT (BINANCE:HIFIUSDT) Timeframe: 4h, Current price: 0.5209, Current candle evolution: 1.30%
+
+[2024-07-24 12:19:49] LTO/USDT (BINANCE:LTOUSDT) Timeframe: 4h, Current price: 0.1219, Current candle evolution: 0.25%
+
+[2024-07-24 12:19:49] FOR/USDT (BINANCE:FORUSDT) Timeframe: 4h, Current price: 0.0134, Current candle evolution: -0.07%
+
+[2024-07-24 12:19:49] SHIB/USDT (BINANCE:SHIBUSDT) Timeframe: 4h, Current price: 0.0000, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:49] UMA/USDT (BINANCE:UMAUSDT) Timeframe: 4h, Current price: 2.3230, Current candle evolution: -0.21%
+
+[2024-07-24 12:19:49] TNSR/USDT (BINANCE:TNSRUSDT) Timeframe: 4h, Current price: 0.4981, Current candle evolution: -0.18%
+
+[2024-07-24 12:19:49] XVS/USDT (BINANCE:XVSUSDT) Timeframe: 4h, Current price: 7.1600, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:49] HOT/USDT (BINANCE:HOTUSDT) Timeframe: 4h, Current price: 0.0018, Current candle evolution: 0.11%
+
+[2024-07-24 12:19:49] BADGER/USDT (BINANCE:BADGERUSDT) Timeframe: 4h, Current price: 3.2010, Current candle evolution: -0.31%
+
+[2024-07-24 12:19:50] ETH/USDT (BINANCE:ETHUSDT) Timeframe: 4h, Current price: 3456.2700, Current candle evolution: -0.10%
+
+[2024-07-24 12:19:50] JTO/USDT (BINANCE:JTOUSDT) Timeframe: 4h, Current price: 2.5730, Current candle evolution: 0.27%
+
+[2024-07-24 12:19:50] HBAR/USDT (BINANCE:HBARUSDT) Timeframe: 4h, Current price: 0.0693, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:50] RPL/USDT (BINANCE:RPLUSDT) Timeframe: 4h, Current price: 17.0400, Current candle evolution: 0.06%
+
+[2024-07-24 12:19:50] KDA/USDT (BINANCE:KDAUSDT) Timeframe: 4h, Current price: 0.6080, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:50] ANKR/USDT (BINANCE:ANKRUSDT) Timeframe: 4h, Current price: 0.0313, Current candle evolution: 0.10%
+
+[2024-07-24 12:19:50] KMD/USDT (BINANCE:KMDUSDT) Timeframe: 4h, Current price: 0.2815, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:50] RAD/USDT (BINANCE:RADUSDT) Timeframe: 4h, Current price: 1.2240, Current candle evolution: -0.24%
+
+[2024-07-24 12:19:50] ALPHA/USDT (BINANCE:ALPHAUSDT) Timeframe: 4h, Current price: 0.0727, Current candle evolution: -0.27%
+
+[2024-07-24 12:19:50] ZIL/USDT (BINANCE:ZILUSDT) Timeframe: 4h, Current price: 0.0172, Current candle evolution: 0.23%
+
+[2024-07-24 12:19:50] AST/USDT (BINANCE:ASTUSDT) Timeframe: 4h, Current price: 0.0881, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:50] ICP/USDT (BINANCE:ICPUSDT) Timeframe: 4h, Current price: 10.0280, Current candle evolution: 0.18%
+
+[2024-07-24 12:19:50] SAGA/USDT (BINANCE:SAGAUSDT) Timeframe: 4h, Current price: 1.5178, Current candle evolution: 0.34%
+
+[2024-07-24 12:19:50] BICO/USDT (BINANCE:BICOUSDT) Timeframe: 4h, Current price: 0.3130, Current candle evolution: 0.06%
+
+[2024-07-24 12:19:50] REQ/USDT (BINANCE:REQUSDT) Timeframe: 4h, Current price: 0.1077, Current candle evolution: 0.09%
+
+[2024-07-24 12:19:50] FIS/USDT (BINANCE:FISUSDT) Timeframe: 4h, Current price: 0.3680, Current candle evolution: -0.03%
+
+[2024-07-24 12:19:50] APE/USDT (BINANCE:APEUSDT) Timeframe: 4h, Current price: 0.8210, Current candle evolution: -0.36%
+
+[2024-07-24 12:19:50] NKN/USDT (BINANCE:NKNUSDT) Timeframe: 4h, Current price: 0.0780, Current candle evolution: -0.13%
+
+[2024-07-24 12:19:51] 1000SATS/USDT (BINANCE:1000SATSUSDT) Timeframe: 4h, Current price: 0.0003, Current candle evolution: 0.60%
+
+[2024-07-24 12:19:51] PROS/USDT (BINANCE:PROSUSDT) Timeframe: 4h, Current price: 0.3744, Current candle evolution: 0.78%
+
+[2024-07-24 12:19:51] JST/USDT (BINANCE:JSTUSDT) Timeframe: 4h, Current price: 0.0287, Current candle evolution: -0.14%
+
+[2024-07-24 12:19:51] TAO/USDT (BINANCE:TAOUSDT) Timeframe: 4h, Current price: 341.2000, Current candle evolution: -0.73%
+
+[2024-07-24 12:19:51] GHST/USDT (BINANCE:GHSTUSDT) Timeframe: 4h, Current price: 1.0790, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:51] SNT/USDT (BINANCE:SNTUSDT) Timeframe: 4h, Current price: 0.0250, Current candle evolution: -0.04%
+
+[2024-07-24 12:19:51] OM/USDT (BINANCE:OMUSDT) Timeframe: 4h, Current price: 1.2448, Current candle evolution: 0.27%
+
+[2024-07-24 12:19:51] FLUX/USDT (BINANCE:FLUXUSDT) Timeframe: 4h, Current price: 0.6851, Current candle evolution: -0.04%
+
+[2024-07-24 12:19:51] WIN/USDT (BINANCE:WINUSDT) Timeframe: 4h, Current price: 0.0001, Current candle evolution: 0.11%
+
+[2024-07-24 12:19:51] AR/USDT (BINANCE:ARUSDT) Timeframe: 4h, Current price: 31.6000, Current candle evolution: -0.41%
+
+[2024-07-24 12:19:51] AAVE/USDT (BINANCE:AAVEUSDT) Timeframe: 4h, Current price: 93.3500, Current candle evolution: -0.07%
+
+[2024-07-24 12:19:51] BETA/USDT (BINANCE:BETAUSDT) Timeframe: 4h, Current price: 0.0561, Current candle evolution: -0.81%
+
+[2024-07-24 12:19:51] BNB/USDT (BINANCE:BNBUSDT) Timeframe: 4h, Current price: 583.4000, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:51] ZRX/USDT (BINANCE:ZRXUSDT) Timeframe: 4h, Current price: 0.3732, Current candle evolution: 0.21%
+
+[2024-07-24 12:19:51] STX/USDT (BINANCE:STXUSDT) Timeframe: 4h, Current price: 1.8070, Current candle evolution: 0.11%
+
+[2024-07-24 12:19:52] LRC/USDT (BINANCE:LRCUSDT) Timeframe: 4h, Current price: 0.1607, Current candle evolution: -0.12%
+
+[2024-07-24 12:19:52] BONK/USDT (BINANCE:BONKUSDT) Timeframe: 4h, Current price: 0.0000, Current candle evolution: -0.42%
+
+[2024-07-24 12:19:52] BSW/USDT (BINANCE:BSWUSDT) Timeframe: 4h, Current price: 0.0623, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:52] COMBO/USDT (BINANCE:COMBOUSDT) Timeframe: 4h, Current price: 0.5066, Current candle evolution: 0.20%
+
+[2024-07-24 12:19:52] NEAR/USDT (BINANCE:NEARUSDT) Timeframe: 4h, Current price: 5.9530, Current candle evolution: -0.37%
+
+[2024-07-24 12:19:52] POND/USDT (BINANCE:PONDUSDT) Timeframe: 4h, Current price: 0.0169, Current candle evolution: -0.18%
+
+[2024-07-24 12:19:52] FXS/USDT (BINANCE:FXSUSDT) Timeframe: 4h, Current price: 2.3140, Current candle evolution: -0.17%
+
+[2024-07-24 12:19:52] COS/USDT (BINANCE:COSUSDT) Timeframe: 4h, Current price: 0.0081, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:52] WAXP/USDT (BINANCE:WAXPUSDT) Timeframe: 4h, Current price: 0.0399, Current candle evolution: 0.20%
+
+[2024-07-24 12:19:52] RARE/USDT (BINANCE:RAREUSDT) Timeframe: 4h, Current price: 0.0865, Current candle evolution: -0.23%
+
+[2024-07-24 12:19:52] BIFI/USDT (BINANCE:BIFIUSDT) Timeframe: 4h, Current price: 313.3000, Current candle evolution: -0.03%
+
+[2024-07-24 12:19:52] KAVA/USDT (BINANCE:KAVAUSDT) Timeframe: 4h, Current price: 0.4128, Current candle evolution: 0.10%
+
+[2024-07-24 12:19:53] OMNI/USDT (BINANCE:OMNIUSDT) Timeframe: 4h, Current price: 12.5500, Current candle evolution: 0.08%
+
+[2024-07-24 12:19:53] FET/USDT (BINANCE:FETUSDT) Timeframe: 4h, Current price: 1.2700, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:53] ACE/USDT (BINANCE:ACEUSDT) Timeframe: 4h, Current price: 2.9370, Current candle evolution: 0.07%
+
+[2024-07-24 12:19:53] LAZIO/USDT (BINANCE:LAZIOUSDT) Timeframe: 4h, Current price: 1.4500, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:53] VOXEL/USDT (BINANCE:VOXELUSDT) Timeframe: 4h, Current price: 0.1509, Current candle evolution: -0.07%
+
+[2024-07-24 12:19:53] NEO/USDT (BINANCE:NEOUSDT) Timeframe: 4h, Current price: 11.7600, Current candle evolution: -0.17%
+
+[2024-07-24 12:19:53] MAV/USDT (BINANCE:MAVUSDT) Timeframe: 4h, Current price: 0.2074, Current candle evolution: 0.39%
+
+[2024-07-24 12:19:53] DEGO/USDT (BINANCE:DEGOUSDT) Timeframe: 4h, Current price: 1.5650, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:53] ARPA/USDT (BINANCE:ARPAUSDT) Timeframe: 4h, Current price: 0.0417, Current candle evolution: -0.14%
+
+[2024-07-24 12:19:53] REZ/USDT (BINANCE:REZUSDT) Timeframe: 4h, Current price: 0.0731, Current candle evolution: -0.27%
+
+[2024-07-24 12:19:54] COMP/USDT (BINANCE:COMPUSDT) Timeframe: 4h, Current price: 49.8800, Current candle evolution: 0.20%
+
+[2024-07-24 12:19:54] GNS/USDT (BINANCE:GNSUSDT) Timeframe: 4h, Current price: 3.3910, Current candle evolution: 0.06%
+
+[2024-07-24 12:19:54] HIGH/USDT (BINANCE:HIGHUSDT) Timeframe: 4h, Current price: 1.7060, Current candle evolution: -0.35%
+
+[2024-07-24 12:19:54] MASK/USDT (BINANCE:MASKUSDT) Timeframe: 4h, Current price: 2.3720, Current candle evolution: -0.04%
+
+[2024-07-24 12:19:54] LTC/USDT (BINANCE:LTCUSDT) Timeframe: 4h, Current price: 73.3500, Current candle evolution: -0.04%
+
+[2024-07-24 12:19:54] NFP/USDT (BINANCE:NFPUSDT) Timeframe: 4h, Current price: 0.2916, Current candle evolution: -0.03%
+
+[2024-07-24 12:19:54] ALICE/USDT (BINANCE:ALICEUSDT) Timeframe: 4h, Current price: 1.1890, Current candle evolution: 0.08%
+
+[2024-07-24 12:19:54] CRV/USDT (BINANCE:CRVUSDT) Timeframe: 4h, Current price: 0.2687, Current candle evolution: -0.07%
+
+[2024-07-24 12:19:54] PENDLE/USDT (BINANCE:PENDLEUSDT) Timeframe: 4h, Current price: 4.1050, Current candle evolution: -0.05%
+
+[2024-07-24 12:19:54] GNO/USDT (BINANCE:GNOUSDT) Timeframe: 4h, Current price: 237.9000, Current candle evolution: -0.25%
+
+[2024-07-24 12:19:54] BAT/USDT (BINANCE:BATUSDT) Timeframe: 4h, Current price: 0.2050, Current candle evolution: 0.54%
+
+[2024-07-24 12:19:54] CHESS/USDT (BINANCE:CHESSUSDT) Timeframe: 4h, Current price: 0.1359, Current candle evolution: 0.52%
+
+[2024-07-24 12:19:54] IOTX/USDT (BINANCE:IOTXUSDT) Timeframe: 4h, Current price: 0.0462, Current candle evolution: 0.28%
+
+[2024-07-24 12:19:54] SYN/USDT (BINANCE:SYNUSDT) Timeframe: 4h, Current price: 0.5328, Current candle evolution: 0.93%
+
+[2024-07-24 12:19:55] STEEM/USDT (BINANCE:STEEMUSDT) Timeframe: 4h, Current price: 0.2012, Current candle evolution: 0.25%
+
+[2024-07-24 12:19:55] MTL/USDT (BINANCE:MTLUSDT) Timeframe: 4h, Current price: 1.0820, Current candle evolution: -0.18%
+
+[2024-07-24 12:19:55] LINA/USDT (BINANCE:LINAUSDT) Timeframe: 4h, Current price: 0.0056, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:55] XEC/USDT (BINANCE:XECUSDT) Timeframe: 4h, Current price: 0.0000, Current candle evolution: -0.20%
+
+[2024-07-24 12:19:55] CVX/USDT (BINANCE:CVXUSDT) Timeframe: 4h, Current price: 3.0240, Current candle evolution: 3.70%
+
+[2024-07-24 12:19:55] BB/USDT (BINANCE:BBUSDT) Timeframe: 4h, Current price: 0.4029, Current candle evolution: 0.12%
+
+[2024-07-24 12:19:55] ADX/USDT (BINANCE:ADXUSDT) Timeframe: 4h, Current price: 0.1651, Current candle evolution: 0.43%
+
+[2024-07-24 12:19:55] QTUM/USDT (BINANCE:QTUMUSDT) Timeframe: 4h, Current price: 2.6720, Current candle evolution: 0.75%
+
+[2024-07-24 12:19:55] LPT/USDT (BINANCE:LPTUSDT) Timeframe: 4h, Current price: 15.6140, Current candle evolution: 0.01%
+
+[2024-07-24 12:19:55] SAND/USDT (BINANCE:SANDUSDT) Timeframe: 4h, Current price: 0.3283, Current candle evolution: 0.12%
+
+[2024-07-24 12:19:55] SC/USDT (BINANCE:SCUSDT) Timeframe: 4h, Current price: 0.0053, Current candle evolution: 0.28%
+
+[2024-07-24 12:19:55] AI/USDT (BINANCE:AIUSDT) Timeframe: 4h, Current price: 0.5650, Current candle evolution: 0.36%
+
+[2024-07-24 12:19:55] GRT/USDT (BINANCE:GRTUSDT) Timeframe: 4h, Current price: 0.2008, Current candle evolution: -0.15%
+
+[2024-07-24 12:19:55] MBL/USDT (BINANCE:MBLUSDT) Timeframe: 4h, Current price: 0.0027, Current candle evolution: -0.11%
+
+[2024-07-24 12:19:55] VIB/USDT (BINANCE:VIBUSDT) Timeframe: 4h, Current price: 0.0725, Current candle evolution: 0.19%
+
+[2024-07-24 12:19:56] FIL/USDT (BINANCE:FILUSDT) Timeframe: 4h, Current price: 4.5170, Current candle evolution: -0.20%
+
+[2024-07-24 12:19:56] NOT/USDT (BINANCE:NOTUSDT) Timeframe: 4h, Current price: 0.0142, Current candle evolution: 0.14%
+
+[2024-07-24 12:19:56] ARKM/USDT (BINANCE:ARKMUSDT) Timeframe: 4h, Current price: 1.4330, Current candle evolution: -0.28%
+
+[2024-07-24 12:19:56] PERP/USDT (BINANCE:PERPUSDT) Timeframe: 4h, Current price: 0.6486, Current candle evolution: 0.02%
+
+[2024-07-24 12:19:56] RLC/USDT (BINANCE:RLCUSDT) Timeframe: 4h, Current price: 1.8230, Current candle evolution: -0.05%
+
+[2024-07-24 12:19:56] ELF/USDT (BINANCE:ELFUSDT) Timeframe: 4h, Current price: 0.3956, Current candle evolution: -0.23%
+
+[2024-07-24 12:19:56] ADA/USDT (BINANCE:ADAUSDT) Timeframe: 4h, Current price: 0.4183, Current candle evolution: -0.21%
+
+[2024-07-24 12:19:56] ZEC/USDT (BINANCE:ZECUSDT) Timeframe: 4h, Current price: 30.2100, Current candle evolution: 0.63%
+
+[2024-07-24 12:19:56] AUCTION/USDT (BINANCE:AUCTIONUSDT) Timeframe: 4h, Current price: 16.6300, Current candle evolution: -0.24%
+
+[2024-07-24 12:19:56] XAI/USDT (BINANCE:XAIUSDT) Timeframe: 4h, Current price: 0.3438, Current candle evolution: -0.09%
+
+[2024-07-24 12:19:56] NEXO/USDT (BINANCE:NEXOUSDT) Timeframe: 4h, Current price: 1.2340, Current candle evolution: 0.73%
+
+[2024-07-24 12:19:56] COTI/USDT (BINANCE:COTIUSDT) Timeframe: 4h, Current price: 0.1131, Current candle evolution: 0.54%
+
+[2024-07-24 12:19:56] ZEN/USDT (BINANCE:ZENUSDT) Timeframe: 4h, Current price: 11.3400, Current candle evolution: 0.27%
+
+[2024-07-24 12:19:56] SSV/USDT (BINANCE:SSVUSDT) Timeframe: 4h, Current price: 32.7100, Current candle evolution: -0.09%
+
+[2024-07-24 12:19:56] JUV/USDT (BINANCE:JUVUSDT) Timeframe: 4h, Current price: 1.8210, Current candle evolution: 0.05%
+
+[2024-07-24 12:19:56] PEOPLE/USDT (BINANCE:PEOPLEUSDT) Timeframe: 4h, Current price: 0.0789, Current candle evolution: 0.01%
+
+[2024-07-24 12:19:57] IOST/USDT (BINANCE:IOSTUSDT) Timeframe: 4h, Current price: 0.0061, Current candle evolution: 0.49%
+
+[2024-07-24 12:19:57] WBETH/USDT (BINANCE:WBETHUSDT) Timeframe: 4h, Current price: 3607.3900, Current candle evolution: -0.11%
+
+[2024-07-24 12:19:57] NMR/USDT (BINANCE:NMRUSDT) Timeframe: 4h, Current price: 14.3500, Current candle evolution: -0.07%
+
+[2024-07-24 12:19:57] XRP/USDT (BINANCE:XRPUSDT) Timeframe: 4h, Current price: 0.6261, Current candle evolution: -0.38%
+
+[2024-07-24 12:19:57] DYDX/USDT (BINANCE:DYDXUSDT) Timeframe: 4h, Current price: 1.3390, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:57] DAR/USDT (BINANCE:DARUSDT) Timeframe: 4h, Current price: 0.1883, Current candle evolution: 0.35%
+
+[2024-07-24 12:19:57] IO/USDT (BINANCE:IOUSDT) Timeframe: 4h, Current price: 2.7990, Current candle evolution: 0.65%
+
+[2024-07-24 12:19:57] MANTA/USDT (BINANCE:MANTAUSDT) Timeframe: 4h, Current price: 0.9700, Current candle evolution: 0.10%
+
+[2024-07-24 12:19:57] XVG/USDT (BINANCE:XVGUSDT) Timeframe: 4h, Current price: 0.0044, Current candle evolution: -0.18%
+
+[2024-07-24 12:19:57] PSG/USDT (BINANCE:PSGUSDT) Timeframe: 4h, Current price: 2.7730, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:57] LQTY/USDT (BINANCE:LQTYUSDT) Timeframe: 4h, Current price: 0.8120, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:57] REI/USDT (BINANCE:REIUSDT) Timeframe: 4h, Current price: 0.0514, Current candle evolution: -0.16%
+
+[2024-07-24 12:19:58] SNX/USDT (BINANCE:SNXUSDT) Timeframe: 4h, Current price: 1.7890, Current candle evolution: -0.22%
+
+[2024-07-24 12:19:58] CELR/USDT (BINANCE:CELRUSDT) Timeframe: 4h, Current price: 0.0142, Current candle evolution: -0.14%
+
+[2024-07-24 12:19:58] DENT/USDT (BINANCE:DENTUSDT) Timeframe: 4h, Current price: 0.0010, Current candle evolution: 0.21%
+
+[2024-07-24 12:19:58] BNX/USDT (BINANCE:BNXUSDT) Timeframe: 4h, Current price: 1.5565, Current candle evolution: -0.48%
+
+[2024-07-24 12:19:58] ZK/USDT (BINANCE:ZKUSDT) Timeframe: 4h, Current price: 0.1764, Current candle evolution: -0.11%
+
+[2024-07-24 12:19:58] BEL/USDT (BINANCE:BELUSDT) Timeframe: 4h, Current price: 0.5327, Current candle evolution: -0.15%
+
+[2024-07-24 12:19:58] OOKI/USDT (BINANCE:OOKIUSDT) Timeframe: 4h, Current price: 0.0016, Current candle evolution: 0.31%
+
+[2024-07-24 12:19:58] DOT/USDT (BINANCE:DOTUSDT) Timeframe: 4h, Current price: 5.9800, Current candle evolution: -0.12%
+
+[2024-07-24 12:19:58] SUPER/USDT (BINANCE:SUPERUSDT) Timeframe: 4h, Current price: 0.7195, Current candle evolution: 0.49%
+
+[2024-07-24 12:19:58] EOS/USDT (BINANCE:EOSUSDT) Timeframe: 4h, Current price: 0.5946, Current candle evolution: -0.22%
+
+[2024-07-24 12:19:58] WLD/USDT (BINANCE:WLDUSDT) Timeframe: 4h, Current price: 2.2080, Current candle evolution: 0.41%
+
+[2024-07-24 12:19:58] CTXC/USDT (BINANCE:CTXCUSDT) Timeframe: 4h, Current price: 0.1487, Current candle evolution: 0.47%
+
+[2024-07-24 12:19:58] ATA/USDT (BINANCE:ATAUSDT) Timeframe: 4h, Current price: 0.0999, Current candle evolution: -0.10%
+
+[2024-07-24 12:19:58] ALT/USDT (BINANCE:ALTUSDT) Timeframe: 4h, Current price: 0.1460, Current candle evolution: 0.07%
+
+[2024-07-24 12:19:58] 1INCH/USDT (BINANCE:1INCHUSDT) Timeframe: 4h, Current price: 0.3949, Current candle evolution: -0.18%
+
+[2024-07-24 12:19:59] LUNA/USDT (BINANCE:LUNAUSDT) Timeframe: 4h, Current price: 0.4221, Current candle evolution: -0.07%
+
+[2024-07-24 12:19:59] SPELL/USDT (BINANCE:SPELLUSDT) Timeframe: 4h, Current price: 0.0007, Current candle evolution: -0.42%
+
+[2024-07-24 12:19:59] AMB/USDT (BINANCE:AMBUSDT) Timeframe: 4h, Current price: 0.0061, Current candle evolution: -0.16%
+
+[2024-07-24 12:19:59] IDEX/USDT (BINANCE:IDEXUSDT) Timeframe: 4h, Current price: 0.0408, Current candle evolution: 0.37%
+
+[2024-07-24 12:19:59] LISTA/USDT (BINANCE:LISTAUSDT) Timeframe: 4h, Current price: 0.5665, Current candle evolution: 0.44%
+
+[2024-07-24 12:19:59] DASH/USDT (BINANCE:DASHUSDT) Timeframe: 4h, Current price: 27.3100, Current candle evolution: 0.11%
+
+[2024-07-24 12:19:59] WING/USDT (BINANCE:WINGUSDT) Timeframe: 4h, Current price: 4.9300, Current candle evolution: 0.20%
+
+[2024-07-24 12:19:59] TUSD/USDT (BINANCE:TUSDUSDT) Timeframe: 4h, Current price: 1.0016, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:59] CFX/USDT (BINANCE:CFXUSDT) Timeframe: 4h, Current price: 0.1603, Current candle evolution: 0.00%
+
+[2024-07-24 12:19:59] REEF/USDT (BINANCE:REEFUSDT) Timeframe: 4h, Current price: 0.0015, Current candle evolution: -0.41%
+
+[2024-07-24 12:19:59] JUP/USDT (BINANCE:JUPUSDT) Timeframe: 4h, Current price: 0.9968, Current candle evolution: -0.37%
+
+[2024-07-24 12:19:59] BCH/USDT (BINANCE:BCHUSDT) Timeframe: 4h, Current price: 370.9000, Current candle evolution: -0.08%
+
+[2024-07-24 12:19:59] GTC/USDT (BINANCE:GTCUSDT) Timeframe: 4h, Current price: 0.9280, Current candle evolution: 0.11%
+
+[2024-07-24 12:19:59] LDO/USDT (BINANCE:LDOUSDT) Timeframe: 4h, Current price: 1.7440, Current candle evolution: -0.29%
+
+[2024-07-24 12:19:59] STPT/USDT (BINANCE:STPTUSDT) Timeframe: 4h, Current price: 0.0457, Current candle evolution: -0.17%
+
+[2024-07-24 12:19:59] FDUSD/USDT (BINANCE:FDUSDUSDT) Timeframe: 4h, Current price: 0.9996, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:00] ZRO/USDT (BINANCE:ZROUSDT) Timeframe: 4h, Current price: 4.7930, Current candle evolution: 0.23%
+
+[2024-07-24 12:20:00] IOTA/USDT (BINANCE:IOTAUSDT) Timeframe: 4h, Current price: 0.1705, Current candle evolution: -1.22%
+
+[2024-07-24 12:20:00] RSR/USDT (BINANCE:RSRUSDT) Timeframe: 4h, Current price: 0.0055, Current candle evolution: 0.09%
+
+[2024-07-24 12:20:00] VIDT/USDT (BINANCE:VIDTUSDT) Timeframe: 4h, Current price: 0.0210, Current candle evolution: 0.10%
+
+[2024-07-24 12:20:00] MOVR/USDT (BINANCE:MOVRUSDT) Timeframe: 4h, Current price: 11.1950, Current candle evolution: -0.36%
+
+[2024-07-24 12:20:00] OG/USDT (BINANCE:OGUSDT) Timeframe: 4h, Current price: 3.1520, Current candle evolution: 0.13%
+
+[2024-07-24 12:20:00] TROY/USDT (BINANCE:TROYUSDT) Timeframe: 4h, Current price: 0.0016, Current candle evolution: 0.12%
+
+[2024-07-24 12:20:00] EPX/USDT (BINANCE:EPXUSDT) Timeframe: 4h, Current price: 0.0001, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:00] SEI/USDT (BINANCE:SEIUSDT) Timeframe: 4h, Current price: 0.3781, Current candle evolution: 0.42%
+
+[2024-07-24 12:20:00] PYTH/USDT (BINANCE:PYTHUSDT) Timeframe: 4h, Current price: 0.3546, Current candle evolution: 0.80%
+
+[2024-07-24 12:20:01] KEY/USDT (BINANCE:KEYUSDT) Timeframe: 4h, Current price: 0.0052, Current candle evolution: -0.17%
+
+[2024-07-24 12:20:01] PAXG/USDT (BINANCE:PAXGUSDT) Timeframe: 4h, Current price: 2409.0000, Current candle evolution: 0.04%
+
+[2024-07-24 12:20:01] USDP/USDT (BINANCE:USDPUSDT) Timeframe: 4h, Current price: 1.0000, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:01] USTC/USDT (BINANCE:USTCUSDT) Timeframe: 4h, Current price: 0.0201, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:01] XLM/USDT (BINANCE:XLMUSDT) Timeframe: 4h, Current price: 0.1052, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:01] JOE/USDT (BINANCE:JOEUSDT) Timeframe: 4h, Current price: 0.4015, Current candle evolution: 0.50%
+
+[2024-07-24 12:20:01] G/USDT (BINANCE:GUSDT) Timeframe: 4h, Current price: 0.0530, Current candle evolution: 0.42%
+
+[2024-07-24 12:20:01] RONIN/USDT (BINANCE:RONINUSDT) Timeframe: 4h, Current price: 2.2250, Current candle evolution: 0.23%
+
+[2024-07-24 12:20:01] CITY/USDT (BINANCE:CITYUSDT) Timeframe: 4h, Current price: 2.1780, Current candle evolution: 0.09%
+
+[2024-07-24 12:20:01] ATM/USDT (BINANCE:ATMUSDT) Timeframe: 4h, Current price: 2.1680, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:01] VITE/USDT (BINANCE:VITEUSDT) Timeframe: 4h, Current price: 0.0145, Current candle evolution: 0.28%
+
+[2024-07-24 12:20:02] CYBER/USDT (BINANCE:CYBERUSDT) Timeframe: 4h, Current price: 4.3560, Current candle evolution: -0.05%
+
+[2024-07-24 12:20:02] BANANA/USDT (BINANCE:BANANAUSDT) Timeframe: 4h, Current price: 64.8800, Current candle evolution: -0.37%
+
+[2024-07-24 12:20:02] INJ/USDT (BINANCE:INJUSDT) Timeframe: 4h, Current price: 25.2200, Current candle evolution: -0.24%
+
+[2024-07-24 12:20:02] ACH/USDT (BINANCE:ACHUSDT) Timeframe: 4h, Current price: 0.0245, Current candle evolution: -0.53%
+
+[2024-07-24 12:20:02] OP/USDT (BINANCE:OPUSDT) Timeframe: 4h, Current price: 1.8720, Current candle evolution: -0.05%
+
+[2024-07-24 12:20:02] THETA/USDT (BINANCE:THETAUSDT) Timeframe: 4h, Current price: 1.5030, Current candle evolution: -0.13%
+
+[2024-07-24 12:20:02] DATA/USDT (BINANCE:DATAUSDT) Timeframe: 4h, Current price: 0.0365, Current candle evolution: 0.27%
+
+[2024-07-24 12:20:02] ONT/USDT (BINANCE:ONTUSDT) Timeframe: 4h, Current price: 0.2054, Current candle evolution: -0.05%
+
+[2024-07-24 12:20:02] GAS/USDT (BINANCE:GASUSDT) Timeframe: 4h, Current price: 3.8120, Current candle evolution: -0.16%
+
+[2024-07-24 12:20:03] DYM/USDT (BINANCE:DYMUSDT) Timeframe: 4h, Current price: 1.6780, Current candle evolution: -0.24%
+
+[2024-07-24 12:20:03] ENS/USDT (BINANCE:ENSUSDT) Timeframe: 4h, Current price: 28.0000, Current candle evolution: 0.32%
+
+[2024-07-24 12:20:03] GALA/USDT (BINANCE:GALAUSDT) Timeframe: 4h, Current price: 0.0243, Current candle evolution: -0.41%
+
+[2024-07-24 12:20:03] ASR/USDT (BINANCE:ASRUSDT) Timeframe: 4h, Current price: 2.3150, Current candle evolution: 0.13%
+
+[2024-07-24 12:20:03] UNI/USDT (BINANCE:UNIUSDT) Timeframe: 4h, Current price: 7.6520, Current candle evolution: -0.22%
+
+[2024-07-24 12:20:03] IMX/USDT (BINANCE:IMXUSDT) Timeframe: 4h, Current price: 1.5640, Current candle evolution: -0.13%
+
+[2024-07-24 12:20:03] AUDIO/USDT (BINANCE:AUDIOUSDT) Timeframe: 4h, Current price: 0.1448, Current candle evolution: -0.34%
+
+[2024-07-24 12:20:03] FTT/USDT (BINANCE:FTTUSDT) Timeframe: 4h, Current price: 1.3989, Current candle evolution: -0.32%
+
+[2024-07-24 12:20:03] LEVER/USDT (BINANCE:LEVERUSDT) Timeframe: 4h, Current price: 0.0022, Current candle evolution: 0.31%
+
+[2024-07-24 12:20:04] ARK/USDT (BINANCE:ARKUSDT) Timeframe: 4h, Current price: 0.3792, Current candle evolution: 0.80%
+
+[2024-07-24 12:20:04] KP3R/USDT (BINANCE:KP3RUSDT) Timeframe: 4h, Current price: 56.2300, Current candle evolution: -0.12%
+
+[2024-07-24 12:20:04] PIXEL/USDT (BINANCE:PIXELUSDT) Timeframe: 4h, Current price: 0.2075, Current candle evolution: -0.38%
+
+[2024-07-24 12:20:04] TRX/USDT (BINANCE:TRXUSDT) Timeframe: 4h, Current price: 0.1343, Current candle evolution: 0.07%
+
+[2024-07-24 12:20:04] GLM/USDT (BINANCE:GLMUSDT) Timeframe: 4h, Current price: 0.3564, Current candle evolution: -0.45%
+
+[2024-07-24 12:20:04] ERN/USDT (BINANCE:ERNUSDT) Timeframe: 4h, Current price: 2.2450, Current candle evolution: -0.53%
+
+[2024-07-24 12:20:04] TRB/USDT (BINANCE:TRBUSDT) Timeframe: 4h, Current price: 73.4000, Current candle evolution: -0.04%
+
+[2024-07-24 12:20:04] TKO/USDT (BINANCE:TKOUSDT) Timeframe: 4h, Current price: 0.3069, Current candle evolution: 0.26%
+
+[2024-07-24 12:20:04] ENJ/USDT (BINANCE:ENJUSDT) Timeframe: 4h, Current price: 0.1889, Current candle evolution: -0.42%
+
+[2024-07-24 12:20:04] STG/USDT (BINANCE:STGUSDT) Timeframe: 4h, Current price: 0.3802, Current candle evolution: 0.11%
+
+[2024-07-24 12:20:04] GLMR/USDT (BINANCE:GLMRUSDT) Timeframe: 4h, Current price: 0.2038, Current candle evolution: 0.34%
+
+[2024-07-24 12:20:04] CELO/USDT (BINANCE:CELOUSDT) Timeframe: 4h, Current price: 0.5787, Current candle evolution: -0.14%
+
+[2024-07-24 12:20:04] EUR/USDT (BINANCE:EURUSDT) Timeframe: 4h, Current price: 1.0842, Current candle evolution: 0.02%
+
+[2024-07-24 12:20:04] ILV/USDT (BINANCE:ILVUSDT) Timeframe: 4h, Current price: 71.7200, Current candle evolution: -0.25%
+
+[2024-07-24 12:20:05] PUNDIX/USDT (BINANCE:PUNDIXUSDT) Timeframe: 4h, Current price: 0.4202, Current candle evolution: 0.02%
+
+[2024-07-24 12:20:05] CTK/USDT (BINANCE:CTKUSDT) Timeframe: 4h, Current price: 0.7649, Current candle evolution: -0.17%
+
+[2024-07-24 12:20:05] PROM/USDT (BINANCE:PROMUSDT) Timeframe: 4h, Current price: 6.9510, Current candle evolution: 0.07%
+
+[2024-07-24 12:20:05] SOL/USDT (BINANCE:SOLUSDT) Timeframe: 4h, Current price: 177.0500, Current candle evolution: -0.41%
+
+[2024-07-24 12:20:05] WAN/USDT (BINANCE:WANUSDT) Timeframe: 4h, Current price: 0.1852, Current candle evolution: 0.16%
+
+[2024-07-24 12:20:05] QI/USDT (BINANCE:QIUSDT) Timeframe: 4h, Current price: 0.0162, Current candle evolution: -0.31%
+
+[2024-07-24 12:20:05] ETC/USDT (BINANCE:ETCUSDT) Timeframe: 4h, Current price: 23.6600, Current candle evolution: -0.04%
+
+[2024-07-24 12:20:05] CREAM/USDT (BINANCE:CREAMUSDT) Timeframe: 4h, Current price: 37.9600, Current candle evolution: 0.64%
+
+[2024-07-24 12:20:05] LOKA/USDT (BINANCE:LOKAUSDT) Timeframe: 4h, Current price: 0.1872, Current candle evolution: 0.32%
+
+[2024-07-24 12:20:05] LUNC/USDT (BINANCE:LUNCUSDT) Timeframe: 4h, Current price: 0.0001, Current candle evolution: 0.18%
+
+[2024-07-24 12:20:05] OXT/USDT (BINANCE:OXTUSDT) Timeframe: 4h, Current price: 0.0809, Current candle evolution: -0.12%
+
+[2024-07-24 12:20:05] STRK/USDT (BINANCE:STRKUSDT) Timeframe: 4h, Current price: 0.5740, Current candle evolution: -0.17%
+
+[2024-07-24 12:20:05] KLAY/USDT (BINANCE:KLAYUSDT) Timeframe: 4h, Current price: 0.1439, Current candle evolution: -0.14%
+
+[2024-07-24 12:20:06] OGN/USDT (BINANCE:OGNUSDT) Timeframe: 4h, Current price: 0.0978, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:06] YGG/USDT (BINANCE:YGGUSDT) Timeframe: 4h, Current price: 0.4862, Current candle evolution: -0.04%
+
+[2024-07-24 12:20:06] QKC/USDT (BINANCE:QKCUSDT) Timeframe: 4h, Current price: 0.0079, Current candle evolution: 0.16%
+
+[2024-07-24 12:20:06] RIF/USDT (BINANCE:RIFUSDT) Timeframe: 4h, Current price: 0.0843, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:06] CTSI/USDT (BINANCE:CTSIUSDT) Timeframe: 4h, Current price: 0.1554, Current candle evolution: -0.26%
+
+[2024-07-24 12:20:06] PORTAL/USDT (BINANCE:PORTALUSDT) Timeframe: 4h, Current price: 0.4006, Current candle evolution: 0.02%
+
+[2024-07-24 12:20:06] VTHO/USDT (BINANCE:VTHOUSDT) Timeframe: 4h, Current price: 0.0026, Current candle evolution: -0.49%
+
+[2024-07-24 12:20:06] TLM/USDT (BINANCE:TLMUSDT) Timeframe: 4h, Current price: 0.0123, Current candle evolution: 0.41%
+
+[2024-07-24 12:20:06] PHA/USDT (BINANCE:PHAUSDT) Timeframe: 4h, Current price: 0.1281, Current candle evolution: -0.08%
+
+[2024-07-24 12:20:06] MATIC/USDT (BINANCE:MATICUSDT) Timeframe: 4h, Current price: 0.5360, Current candle evolution: -0.19%
+
+[2024-07-24 12:20:06] SUN/USDT (BINANCE:SUNUSDT) Timeframe: 4h, Current price: 0.0106, Current candle evolution: 0.09%
+
+[2024-07-24 12:20:06] FUN/USDT (BINANCE:FUNUSDT) Timeframe: 4h, Current price: 0.0036, Current candle evolution: -0.17%
+
+[2024-07-24 12:20:06] PORTO/USDT (BINANCE:PORTOUSDT) Timeframe: 4h, Current price: 1.4970, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:06] SUSHI/USDT (BINANCE:SUSHIUSDT) Timeframe: 4h, Current price: 0.7010, Current candle evolution: 0.14%
+
+[2024-07-24 12:20:06] GFT/USDT (BINANCE:GFTUSDT) Timeframe: 4h, Current price: 0.0203, Current candle evolution: 0.35%
+
+[2024-07-24 12:20:06] ICX/USDT (BINANCE:ICXUSDT) Timeframe: 4h, Current price: 0.1581, Current candle evolution: -0.32%
+
+[2024-07-24 12:20:07] UFT/USDT (BINANCE:UFTUSDT) Timeframe: 4h, Current price: 0.2641, Current candle evolution: 0.34%
+
+[2024-07-24 12:20:07] SCRT/USDT (BINANCE:SCRTUSDT) Timeframe: 4h, Current price: 0.2806, Current candle evolution: 0.07%
+
+[2024-07-24 12:20:07] HIVE/USDT (BINANCE:HIVEUSDT) Timeframe: 4h, Current price: 0.2234, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:07] SYS/USDT (BINANCE:SYSUSDT) Timeframe: 4h, Current price: 0.1061, Current candle evolution: 0.09%
+
+[2024-07-24 12:20:07] GMX/USDT (BINANCE:GMXUSDT) Timeframe: 4h, Current price: 31.1900, Current candle evolution: -0.42%
+
+[2024-07-24 12:20:07] DGB/USDT (BINANCE:DGBUSDT) Timeframe: 4h, Current price: 0.0075, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:07] AVAX/USDT (BINANCE:AVAXUSDT) Timeframe: 4h, Current price: 30.0600, Current candle evolution: -0.40%
+
+[2024-07-24 12:20:07] PDA/USDT (BINANCE:PDAUSDT) Timeframe: 4h, Current price: 0.0656, Current candle evolution: 0.31%
+
+[2024-07-24 12:20:07] ATOM/USDT (BINANCE:ATOMUSDT) Timeframe: 4h, Current price: 6.2700, Current candle evolution: -0.11%
+
+[2024-07-24 12:20:07] POWR/USDT (BINANCE:POWRUSDT) Timeframe: 4h, Current price: 0.2201, Current candle evolution: 0.14%
+
+[2024-07-24 12:20:07] IQ/USDT (BINANCE:IQUSDT) Timeframe: 4h, Current price: 0.0063, Current candle evolution: 0.13%
+
+[2024-07-24 12:20:08] CVC/USDT (BINANCE:CVCUSDT) Timeframe: 4h, Current price: 0.1027, Current candle evolution: -0.19%
+
+[2024-07-24 12:20:08] CHR/USDT (BINANCE:CHRUSDT) Timeframe: 4h, Current price: 0.2331, Current candle evolution: 0.09%
+
+[2024-07-24 12:20:08] DF/USDT (BINANCE:DFUSDT) Timeframe: 4h, Current price: 0.0331, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:08] ID/USDT (BINANCE:IDUSDT) Timeframe: 4h, Current price: 0.4623, Current candle evolution: -0.06%
+
+[2024-07-24 12:20:08] AKRO/USDT (BINANCE:AKROUSDT) Timeframe: 4h, Current price: 0.0053, Current candle evolution: 0.15%
+
+[2024-07-24 12:20:08] API3/USDT (BINANCE:API3USDT) Timeframe: 4h, Current price: 1.9140, Current candle evolution: 0.16%
+
+[2024-07-24 12:20:08] AXL/USDT (BINANCE:AXLUSDT) Timeframe: 4h, Current price: 0.6830, Current candle evolution: 0.31%
+
+[2024-07-24 12:20:08] VGX/USDT (BINANCE:VGXUSDT) Timeframe: 4h, Current price: 0.0746, Current candle evolution: -0.27%
+
+[2024-07-24 12:20:08] NTRN/USDT (BINANCE:NTRNUSDT) Timeframe: 4h, Current price: 0.4783, Current candle evolution: -0.31%
+
+[2024-07-24 12:20:08] KSM/USDT (BINANCE:KSMUSDT) Timeframe: 4h, Current price: 21.3500, Current candle evolution: -0.28%
+
+[2024-07-24 12:20:08] NULS/USDT (BINANCE:NULSUSDT) Timeframe: 4h, Current price: 0.3318, Current candle evolution: -0.30%
+
+[2024-07-24 12:20:08] MLN/USDT (BINANCE:MLNUSDT) Timeframe: 4h, Current price: 18.9600, Current candle evolution: 0.32%
+
+[2024-07-24 12:20:08] TFUEL/USDT (BINANCE:TFUELUSDT) Timeframe: 4h, Current price: 0.0710, Current candle evolution: 0.45%
+
+[2024-07-24 12:20:08] TRU/USDT (BINANCE:TRUUSDT) Timeframe: 4h, Current price: 0.1236, Current candle evolution: 0.57%
+
+[2024-07-24 12:20:09] CHZ/USDT (BINANCE:CHZUSDT) Timeframe: 4h, Current price: 0.0712, Current candle evolution: 0.42%
+
+[2024-07-24 12:20:09] FIDA/USDT (BINANCE:FIDAUSDT) Timeframe: 4h, Current price: 0.2775, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:09] AXS/USDT (BINANCE:AXSUSDT) Timeframe: 4h, Current price: 6.1450, Current candle evolution: 0.20%
+
+[2024-07-24 12:20:09] SXP/USDT (BINANCE:SXPUSDT) Timeframe: 4h, Current price: 0.2579, Current candle evolution: -0.15%
+
+[2024-07-24 12:20:09] JASMY/USDT (BINANCE:JASMYUSDT) Timeframe: 4h, Current price: 0.0288, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:09] BTTC/USDT (BINANCE:BTTCUSDT) Timeframe: 4h, Current price: 0.0000, Current candle evolution: 2.33%
+
+[2024-07-24 12:20:09] ONE/USDT (BINANCE:ONEUSDT) Timeframe: 4h, Current price: 0.0145, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:09] FLM/USDT (BINANCE:FLMUSDT) Timeframe: 4h, Current price: 0.0693, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:09] TIA/USDT (BINANCE:TIAUSDT) Timeframe: 4h, Current price: 6.4150, Current candle evolution: 0.08%
+
+[2024-07-24 12:20:09] ARB/USDT (BINANCE:ARBUSDT) Timeframe: 4h, Current price: 0.7774, Current candle evolution: -0.27%
+
+[2024-07-24 12:20:09] WIF/USDT (BINANCE:WIFUSDT) Timeframe: 4h, Current price: 2.5670, Current candle evolution: -1.23%
+
+[2024-07-24 12:20:09] DEXE/USDT (BINANCE:DEXEUSDT) Timeframe: 4h, Current price: 9.7300, Current candle evolution: 0.06%
+
+[2024-07-24 12:20:09] CKB/USDT (BINANCE:CKBUSDT) Timeframe: 4h, Current price: 0.0120, Current candle evolution: 0.31%
+
+[2024-07-24 12:20:09] EGLD/USDT (BINANCE:EGLDUSDT) Timeframe: 4h, Current price: 34.5300, Current candle evolution: 0.03%
+
+[2024-07-24 12:20:09] POLYX/USDT (BINANCE:POLYXUSDT) Timeframe: 4h, Current price: 0.2722, Current candle evolution: 0.04%
+
+[2024-07-24 12:20:10] HARD/USDT (BINANCE:HARDUSDT) Timeframe: 4h, Current price: 0.0934, Current candle evolution: 0.11%
+
+[2024-07-24 12:20:10] FRONT/USDT (BINANCE:FRONTUSDT) Timeframe: 4h, Current price: 0.8950, Current candle evolution: -0.44%
+
+[2024-07-24 12:20:10] VET/USDT (BINANCE:VETUSDT) Timeframe: 4h, Current price: 0.0290, Current candle evolution: 0.03%
+
+[2024-07-24 12:20:10] BAND/USDT (BINANCE:BANDUSDT) Timeframe: 4h, Current price: 1.3840, Current candle evolution: -0.14%
+
+[2024-07-24 12:20:10] MKR/USDT (BINANCE:MKRUSDT) Timeframe: 4h, Current price: 2825.0000, Current candle evolution: 0.75%
+
+[2024-07-24 12:20:10] APT/USDT (BINANCE:APTUSDT) Timeframe: 4h, Current price: 7.0800, Current candle evolution: -0.14%
+
+[2024-07-24 12:20:10] C98/USDT (BINANCE:C98USDT) Timeframe: 4h, Current price: 0.1596, Current candle evolution: -0.06%
+
+[2024-07-24 12:20:10] FTM/USDT (BINANCE:FTMUSDT) Timeframe: 4h, Current price: 0.4940, Current candle evolution: -0.40%
+
+[2024-07-24 12:20:10] METIS/USDT (BINANCE:METISUSDT) Timeframe: 4h, Current price: 49.3100, Current candle evolution: -0.10%
+
+[2024-07-24 12:20:10] TWT/USDT (BINANCE:TWTUSDT) Timeframe: 4h, Current price: 1.0037, Current candle evolution: -0.36%
+
+[2024-07-24 12:20:10] LOOM/USDT (BINANCE:LOOMUSDT) Timeframe: 4h, Current price: 0.0639, Current candle evolution: -0.11%
+
+[2024-07-24 12:20:11] MEME/USDT (BINANCE:MEMEUSDT) Timeframe: 4h, Current price: 0.0160, Current candle evolution: -0.25%
+
+[2024-07-24 12:20:11] ACA/USDT (BINANCE:ACAUSDT) Timeframe: 4h, Current price: 0.0703, Current candle evolution: 0.14%
+
+[2024-07-24 12:20:11] AMP/USDT (BINANCE:AMPUSDT) Timeframe: 4h, Current price: 0.0044, Current candle evolution: 0.02%
+
+[2024-07-24 12:20:11] CVP/USDT (BINANCE:CVPUSDT) Timeframe: 4h, Current price: 0.2426, Current candle evolution: -0.08%
+
+[2024-07-24 12:20:11] ALGO/USDT (BINANCE:ALGOUSDT) Timeframe: 4h, Current price: 0.1460, Current candle evolution: 0.21%
+
+[2024-07-24 12:20:11] BAR/USDT (BINANCE:BARUSDT) Timeframe: 4h, Current price: 1.9340, Current candle evolution: -0.05%
+
+[2024-07-24 12:20:11] FIRO/USDT (BINANCE:FIROUSDT) Timeframe: 4h, Current price: 1.2960, Current candle evolution: -0.08%
+
+[2024-07-24 12:20:11] CLV/USDT (BINANCE:CLVUSDT) Timeframe: 4h, Current price: 0.0494, Current candle evolution: 0.02%
+
+[2024-07-24 12:20:11] OAX/USDT (BINANCE:OAXUSDT) Timeframe: 4h, Current price: 0.1647, Current candle evolution: -0.12%
+
+[2024-07-24 12:20:12] OSMO/USDT (BINANCE:OSMOUSDT) Timeframe: 4h, Current price: 0.5072, Current candle evolution: 0.14%
+
+[2024-07-24 12:20:12] AEVO/USDT (BINANCE:AEVOUSDT) Timeframe: 4h, Current price: 0.5420, Current candle evolution: 0.56%
+
+[2024-07-24 12:20:12] STRAX/USDT (BINANCE:STRAXUSDT) Timeframe: 4h, Current price: 0.0532, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:12] ORDI/USDT (BINANCE:ORDIUSDT) Timeframe: 4h, Current price: 37.5500, Current candle evolution: 0.13%
+
+[2024-07-24 12:20:12] LIT/USDT (BINANCE:LITUSDT) Timeframe: 4h, Current price: 0.7320, Current candle evolution: -0.27%
+
+[2024-07-24 12:20:12] FORTH/USDT (BINANCE:FORTHUSDT) Timeframe: 4h, Current price: 3.3620, Current candle evolution: -0.03%
+
+[2024-07-24 12:20:12] QNT/USDT (BINANCE:QNTUSDT) Timeframe: 4h, Current price: 72.5000, Current candle evolution: 0.14%
+
+[2024-07-24 12:20:12] ARDR/USDT (BINANCE:ARDRUSDT) Timeframe: 4h, Current price: 0.0706, Current candle evolution: 0.07%
+
+[2024-07-24 12:20:12] DCR/USDT (BINANCE:DCRUSDT) Timeframe: 4h, Current price: 12.3800, Current candle evolution: 0.57%
+
+[2024-07-24 12:20:13] ORN/USDT (BINANCE:ORNUSDT) Timeframe: 4h, Current price: 1.4700, Current candle evolution: 2.37%
+
+[2024-07-24 12:20:13] WRX/USDT (BINANCE:WRXUSDT) Timeframe: 4h, Current price: 0.1301, Current candle evolution: 1.17%
+
+[2024-07-24 12:20:13] BOME/USDT (BINANCE:BOMEUSDT) Timeframe: 4h, Current price: 0.0087, Current candle evolution: -0.32%
+
+[2024-07-24 12:20:13] BEAMX/USDT (BINANCE:BEAMXUSDT) Timeframe: 4h, Current price: 0.0179, Current candle evolution: 0.39%
+
+[2024-07-24 12:20:13] XNO/USDT (BINANCE:XNOUSDT) Timeframe: 4h, Current price: 0.9720, Current candle evolution: 0.31%
+
+[2024-07-24 12:20:13] UNFI/USDT (BINANCE:UNFIUSDT) Timeframe: 4h, Current price: 3.8880, Current candle evolution: -0.15%
+
+[2024-07-24 12:20:13] RDNT/USDT (BINANCE:RDNTUSDT) Timeframe: 4h, Current price: 0.0989, Current candle evolution: 0.20%
+
+[2024-07-24 12:20:13] PYR/USDT (BINANCE:PYRUSDT) Timeframe: 4h, Current price: 3.3310, Current candle evolution: -0.18%
+
+[2024-07-24 12:20:13] HFT/USDT (BINANCE:HFTUSDT) Timeframe: 4h, Current price: 0.2088, Current candle evolution: 0.05%
+
+[2024-07-24 12:20:13] XTZ/USDT (BINANCE:XTZUSDT) Timeframe: 4h, Current price: 0.7690, Current candle evolution: -0.26%
+
+[2024-07-24 12:20:13] SFP/USDT (BINANCE:SFPUSDT) Timeframe: 4h, Current price: 0.8184, Current candle evolution: 0.34%
+
+[2024-07-24 12:20:13] STORJ/USDT (BINANCE:STORJUSDT) Timeframe: 4h, Current price: 0.3945, Current candle evolution: 0.10%
+
+[2024-07-24 12:20:13] BAKE/USDT (BINANCE:BAKEUSDT) Timeframe: 4h, Current price: 0.2618, Current candle evolution: -0.11%
+
+[2024-07-24 12:20:13] FLOW/USDT (BINANCE:FLOWUSDT) Timeframe: 4h, Current price: 0.6400, Current candle evolution: 0.47%
+
+[2024-07-24 12:20:14] PIVX/USDT (BINANCE:PIVXUSDT) Timeframe: 4h, Current price: 0.2334, Current candle evolution: 0.26%
+
+[2024-07-24 12:20:14] USDC/USDT (BINANCE:USDCUSDT) Timeframe: 4h, Current price: 0.9999, Current candle evolution: 0.01%
+
+[2024-07-24 12:20:14] ROSE/USDT (BINANCE:ROSEUSDT) Timeframe: 4h, Current price: 0.0913, Current candle evolution: -0.04%
+
+[2024-07-24 12:20:14] ETHFI/USDT (BINANCE:ETHFIUSDT) Timeframe: 4h, Current price: 2.3840, Current candle evolution: 0.21%
+
+[2024-07-24 12:20:14] WBTC/USDT (BINANCE:WBTCUSDT) Timeframe: 4h, Current price: 66398.6700, Current candle evolution: 0.06%
+
+[2024-07-24 12:20:14] PHB/USDT (BINANCE:PHBUSDT) Timeframe: 4h, Current price: 1.7040, Current candle evolution: 0.24%
+
+[2024-07-24 12:20:14] WOO/USDT (BINANCE:WOOUSDT) Timeframe: 4h, Current price: 0.2034, Current candle evolution: 0.05%
+
+[2024-07-24 12:20:14] DODO/USDT (BINANCE:DODOUSDT) Timeframe: 4h, Current price: 0.1204, Current candle evolution: 0.50%
+
+[2024-07-24 12:20:14] BURGER/USDT (BINANCE:BURGERUSDT) Timeframe: 4h, Current price: 0.3976, Current candle evolution: 0.20%
+
+[2024-07-24 12:20:15] ALCX/USDT (BINANCE:ALCXUSDT) Timeframe: 4h, Current price: 16.4300, Current candle evolution: -0.24%
+
+[2024-07-24 12:20:15] AVA/USDT (BINANCE:AVAUSDT) Timeframe: 4h, Current price: 0.6305, Current candle evolution: 0.54%
+
+[2024-07-24 12:20:15] EDU/USDT (BINANCE:EDUUSDT) Timeframe: 4h, Current price: 0.7150, Current candle evolution: 0.38%
+
+[2024-07-24 12:20:15] ENA/USDT (BINANCE:ENAUSDT) Timeframe: 4h, Current price: 0.5090, Current candle evolution: 2.41%
+
+[2024-07-24 12:20:15] MDT/USDT (BINANCE:MDTUSDT) Timeframe: 4h, Current price: 0.0435, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:15] REN/USDT (BINANCE:RENUSDT) Timeframe: 4h, Current price: 0.0498, Current candle evolution: 0.14%
+
+[2024-07-24 12:20:15] LINK/USDT (BINANCE:LINKUSDT) Timeframe: 4h, Current price: 13.8600, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:15] HOOK/USDT (BINANCE:HOOKUSDT) Timeframe: 4h, Current price: 0.5768, Current candle evolution: 0.49%
+
+[2024-07-24 12:20:15] LSK/USDT (BINANCE:LSKUSDT) Timeframe: 4h, Current price: 1.0320, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:15] VIC/USDT (BINANCE:VICUSDT) Timeframe: 4h, Current price: 0.3805, Current candle evolution: -0.26%
+
+[2024-07-24 12:20:15] MINA/USDT (BINANCE:MINAUSDT) Timeframe: 4h, Current price: 0.5287, Current candle evolution: 0.11%
+
+[2024-07-24 12:20:15] ALPINE/USDT (BINANCE:ALPINEUSDT) Timeframe: 4h, Current price: 1.3160, Current candle evolution: 0.08%
+
+[2024-07-24 12:20:16] BLUR/USDT (BINANCE:BLURUSDT) Timeframe: 4h, Current price: 0.1997, Current candle evolution: 0.15%
+
+[2024-07-24 12:20:16] STMX/USDT (BINANCE:STMXUSDT) Timeframe: 4h, Current price: 0.0077, Current candle evolution: -1.02%
+
+[2024-07-24 12:20:16] BNT/USDT (BINANCE:BNTUSDT) Timeframe: 4h, Current price: 0.6251, Current candle evolution: -0.18%
+
+[2024-07-24 12:20:16] SUI/USDT (BINANCE:SUIUSDT) Timeframe: 4h, Current price: 0.8134, Current candle evolution: 0.00%
+
+[2024-07-24 12:20:16] RVN/USDT (BINANCE:RVNUSDT) Timeframe: 4h, Current price: 0.0195, Current candle evolution: 0.21%
+
+[2024-07-24 12:20:16] SANTOS/USDT (BINANCE:SANTOSUSDT) Timeframe: 4h, Current price: 2.8930, Current candle evolution: 0.45%
+
+[2024-07-24 12:20:16] T/USDT (BINANCE:TUSDT) Timeframe: 4h, Current price: 0.0233, Current candle evolution: -0.04%
+
