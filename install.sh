@@ -13,3 +13,8 @@ pip install pandas-datareader
 pip install yfinance
 pip install websocket-client
 pip install yahoofinancials
+pip install sklearn
+pip install scikit-learn
+pip install keras
+pip install tensorflow
+pip install matplotlib

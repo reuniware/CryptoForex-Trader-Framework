@@ -1,0 +1,25 @@
+//@version=5
+strategy("Stratégie basée sur la Kijun Sen", overlay=true)
+
+// Définition des périodes
+conversionPeriod = input(9, "Période de conversion")
+basePeriod = input(26, "Période de base")
+laggingSpanPeriod = input(52, "Période du lagging span")
+
+// Calcul de la Kijun Sen
+kijunSen = ta.sma(high + low, basePeriod) / 2
+
+// Détection des signaux d'achat et de vente
+triggerBuy = ta.crossover(close, kijunSen)
+triggerSell = ta.crossunder(close, kijunSen)
+
+// Entrée en position
+if triggerBuy
+    strategy.entry("Achat", strategy.long, qty=10000)
+if triggerSell
+    strategy.entry("Vente", strategy.short)
+
+// Sortie de position
+if ta.crossover(close, kijunSen) or ta.crossunder(close, kijunSen)
+    strategy.close_all()
+

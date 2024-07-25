@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <title>Cours de tous les actifs en temps réel</title>
+</head>
+<body>
+  <div ng-controller="MainController">
+    <h1>Cours de tous les actifs en temps réel</h1>
+    <input type="text" ng-model="filterText" placeholder="Filtrer les actifs">
+    <label for="sortDescendingCheckbox">Trier par % d'évolution décroissant :</label>
+    <input type="checkbox" id="sortDescendingCheckbox" ng-model="sortDescending">
+    <label for="sortAscendingCheckbox">Trier par % d'évolution croissant :</label>
+    <input type="checkbox" id="sortAscendingCheckbox" ng-model="sortAscending">
+    <table>
+      <tr>
+        <th>Actif</th>
+        <th>Prix actuel</th>
+        <th>Prix d'ouverture</th>
+        <th>% d'évolution</th>
+      </tr>
+      <tr ng-repeat="asset in sortedAssets | filter: filterText">
+        <td>{{ asset.s }}</td>
+        <td>{{ asset.c }}</td>
+        <td>{{ asset.o }}</td>
+        <td>{{ getPercentageChange(asset.c, asset.o) }}</td>
+      </tr>
+    </table>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
