@@ -1,0 +1,3 @@
+[2024-07-24 21:49:26] BTC/USDT (BINANCE:BTCUSDT) Timeframe: 1m, Current price: 65559.5600
+Symbol: BTC/USDT, Timeframe: 1m, Open: 44962.2100, Close: 46216.7800, High: 48915.6200, Low: 44961.0600, Range: 3954.5600, Greatest Candle DateTime: 2021-09-07 15:12:00
+
