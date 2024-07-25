@@ -165,6 +165,19 @@ def analyze_symbol(exchange, symbol, timeframe, output_file):
     except Exception as e:
         print(f"Error analyzing symbol {symbol}: {str(e)}")
 
+def write_predictions_to_file(output_file, predictions):
+    with open(output_file, 'a') as f:
+        for symbol, last_timestamp, timeframe, prediction in predictions:
+            # Convert integer timestamp to datetime if needed
+            if isinstance(last_timestamp, int):
+                last_timestamp = datetime.fromtimestamp(last_timestamp / 1000, tz=timezone.utc)
+            
+            last_timestamp_str = last_timestamp.strftime('%Y-%m-%d %H:%M:%S')
+            f.write(f"Prediction for {symbol} ({timeframe}):\n")
+            f.write(f"- Last Timestamp: {last_timestamp_str}\n")
+            f.write(f"- Predicted Value: {prediction[-1]:.4f}\n")  # Show the last prediction value
+            f.write("\n")
+
 def worker(exchange, symbols, timeframe, output_file):
     for symbol in symbols:
         if symbol in fetch_markets(exchange):
@@ -235,11 +248,7 @@ def main():
             next_candle_prediction = predict_next_candle(model, scaler, symbol_data)
             predictions.append((symbol, last_timestamp, timeframe, next_candle_prediction))
 
-        for symbol, last_timestamp, timeframe, prediction in predictions:
-            last_timestamp_str = last_timestamp.strftime('%Y-%m-%d %H:%M:%S')
-            print(f"Prediction for {symbol} ({timeframe}):")
-            print(f"- Last Timestamp: {last_timestamp_str}")
-            print(f"- Predicted Value: {prediction[-1]:.4f}")  # Show the last prediction value
+        write_predictions_to_file(output_file, predictions)
 
     else:
         exchange = ccxt.binance()

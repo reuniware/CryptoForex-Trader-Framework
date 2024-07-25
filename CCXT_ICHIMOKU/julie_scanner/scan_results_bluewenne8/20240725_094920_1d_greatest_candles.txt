@@ -1,0 +1,4 @@
+Prediction for BTC (USDT):
+- Last Timestamp: 1970-01-01 00:11:31
+- Predicted Value: 65490.7644
+
