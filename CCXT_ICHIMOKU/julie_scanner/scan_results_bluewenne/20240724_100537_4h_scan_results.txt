@@ -1,0 +1,316 @@
+[2024-07-24 10:06:03] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.9490, Current candle evolution: 0.53%
+
+[2024-07-24 10:06:04] TNSR/USDT (BINANCE:TNSRUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.4959, Current candle evolution: -0.24%
+
+[2024-07-24 10:06:04] BTC/USDT (BINANCE:BTCUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 66382.0200, Current candle evolution: 0.46%
+
+[2024-07-24 10:06:04] ONG/USDT (BINANCE:ONGUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.3505, Current candle evolution: 0.92%
+
+[2024-07-24 10:06:04] RUNE/USDT (BINANCE:RUNEUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 4.7290, Current candle evolution: -0.53%
+
+[2024-07-24 10:06:05] RAD/USDT (BINANCE:RADUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Three White Soldiers
+Detected on candle: 2024-07-24 04:00:00
+Current price: 1.2260, Current candle evolution: -0.89%
+
+[2024-07-24 10:06:05] PEPE/USDT (BINANCE:PEPEUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0000, Current candle evolution: 3.03%
+
+[2024-07-24 10:06:05] ETH/USDT (BINANCE:ETHUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 3458.1200, Current candle evolution: 0.33%
+
+[2024-07-24 10:06:06] DUSK/USDT (BINANCE:DUSKUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.2390, Current candle evolution: 0.00%
+
+[2024-07-24 10:06:06] FLOKI/USDT (BINANCE:FLOKIUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0002, Current candle evolution: 0.42%
+
+[2024-07-24 10:06:06] ALPACA/USDT (BINANCE:ALPACAUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.1218, Current candle evolution: -0.16%
+
+[2024-07-24 10:06:07] TAO/USDT (BINANCE:TAOUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 337.6000, Current candle evolution: 2.86%
+
+[2024-07-24 10:06:08] AST/USDT (BINANCE:ASTUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0882, Current candle evolution: 0.46%
+
+[2024-07-24 10:06:08] ALICE/USDT (BINANCE:ALICEUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 1.1910, Current candle evolution: 0.42%
+
+[2024-07-24 10:06:08] KAVA/USDT (BINANCE:KAVAUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.4124, Current candle evolution: 0.19%
+
+[2024-07-24 10:06:08] QUICK/USDT (BINANCE:QUICKUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0409, Current candle evolution: 0.27%
+
+[2024-07-24 10:06:08] AAVE/USDT (BINANCE:AAVEUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 93.6200, Current candle evolution: -0.22%
+
+[2024-07-24 10:06:10] BONK/USDT (BINANCE:BONKUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0000, Current candle evolution: 0.18%
+
+[2024-07-24 10:06:10] BAL/USDT (BINANCE:BALUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 2.8420, Current candle evolution: 2.75%
+
+[2024-07-24 10:06:11] COS/USDT (BINANCE:COSUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0081, Current candle evolution: 0.69%
+
+[2024-07-24 10:06:11] PERP/USDT (BINANCE:PERPUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.6529, Current candle evolution: 0.51%
+
+[2024-07-24 10:06:11] LTC/USDT (BINANCE:LTCUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 73.2100, Current candle evolution: 0.36%
+
+[2024-07-24 10:06:11] IOTX/USDT (BINANCE:IOTXUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0466, Current candle evolution: 0.78%
+
+[2024-07-24 10:06:11] BB/USDT (BINANCE:BBUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.4014, Current candle evolution: -0.27%
+
+[2024-07-24 10:06:11] ACE/USDT (BINANCE:ACEUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 2.9400, Current candle evolution: 0.38%
+
+[2024-07-24 10:06:12] ZEN/USDT (BINANCE:ZENUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 11.4100, Current candle evolution: 1.33%
+
+[2024-07-24 10:06:13] CVX/USDT (BINANCE:CVXUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Three Black Crows
+Detected on candle: 2024-07-24 04:00:00
+Current price: 2.8320, Current candle evolution: 1.76%
+
+[2024-07-24 10:06:13] MAV/USDT (BINANCE:MAVUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.2072, Current candle evolution: 1.17%
+
+[2024-07-24 10:06:13] SUPER/USDT (BINANCE:SUPERUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.7242, Current candle evolution: 2.72%
+
+[2024-07-24 10:06:14] SNX/USDT (BINANCE:SNXUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 1.7900, Current candle evolution: 0.96%
+
+[2024-07-24 10:06:14] ZEC/USDT (BINANCE:ZECUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 30.2100, Current candle evolution: 1.44%
+
+[2024-07-24 10:06:15] MTL/USDT (BINANCE:MTLUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 1.0860, Current candle evolution: 0.37%
+
+[2024-07-24 10:06:16] EPX/USDT (BINANCE:EPXUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0001, Current candle evolution: 0.82%
+
+[2024-07-24 10:06:17] JST/USDT (BINANCE:JSTUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0286, Current candle evolution: -0.10%
+
+[2024-07-24 10:06:17] LQTY/USDT (BINANCE:LQTYUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.8160, Current candle evolution: 0.74%
+
+[2024-07-24 10:06:18] WBETH/USDT (BINANCE:WBETHUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 3610.9900, Current candle evolution: 0.27%
+
+[2024-07-24 10:06:18] OP/USDT (BINANCE:OPUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 1.8720, Current candle evolution: 0.43%
+
+[2024-07-24 10:06:18] LISTA/USDT (BINANCE:LISTAUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.5643, Current candle evolution: 2.56%
+
+[2024-07-24 10:06:19] TUSD/USDT (BINANCE:TUSDUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 1.0015, Current candle evolution: -0.04%
+
+[2024-07-24 10:06:21] FDUSD/USDT (BINANCE:FDUSDUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.9996, Current candle evolution: 0.01%
+
+[2024-07-24 10:06:21] JUP/USDT (BINANCE:JUPUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.9941, Current candle evolution: 1.95%
+
+[2024-07-24 10:06:22] G/USDT (BINANCE:GUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0527, Current candle evolution: 0.00%
+
+[2024-07-24 10:06:23] UNI/USDT (BINANCE:UNIUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Three Black Crows
+Detected on candle: 2024-07-24 04:00:00
+Current price: 7.6190, Current candle evolution: 0.13%
+
+[2024-07-24 10:06:23] BANANA/USDT (BINANCE:BANANAUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 62.4400, Current candle evolution: -0.84%
+
+[2024-07-24 10:06:24] CTSI/USDT (BINANCE:CTSIUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.1553, Current candle evolution: 0.00%
+
+[2024-07-24 10:06:25] TRX/USDT (BINANCE:TRXUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.1339, Current candle evolution: -0.15%
+
+[2024-07-24 10:06:25] GLM/USDT (BINANCE:GLMUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Three White Soldiers
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.3556, Current candle evolution: 3.55%
+
+[2024-07-24 10:06:25] IDEX/USDT (BINANCE:IDEXUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0407, Current candle evolution: 0.42%
+
+[2024-07-24 10:06:26] OXT/USDT (BINANCE:OXTUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0815, Current candle evolution: -0.24%
+
+[2024-07-24 10:06:26] DYM/USDT (BINANCE:DYMUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 1.6940, Current candle evolution: 0.77%
+
+[2024-07-24 10:06:27] VIDT/USDT (BINANCE:VIDTUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0209, Current candle evolution: 0.24%
+
+[2024-07-24 10:06:27] SUN/USDT (BINANCE:SUNUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0106, Current candle evolution: 0.19%
+
+[2024-07-24 10:06:27] LUNA/USDT (BINANCE:LUNAUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Three White Soldiers
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.4244, Current candle evolution: -0.52%
+
+[2024-07-24 10:06:29] ICX/USDT (BINANCE:ICXUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.1577, Current candle evolution: -0.06%
+
+[2024-07-24 10:06:29] APT/USDT (BINANCE:APTUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 7.0600, Current candle evolution: 0.28%
+
+[2024-07-24 10:06:29] GFT/USDT (BINANCE:GFTUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Three White Soldiers
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0204, Current candle evolution: 0.30%
+
+[2024-07-24 10:06:30] DCR/USDT (BINANCE:DCRUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Three White Soldiers
+Detected on candle: 2024-07-24 04:00:00
+Current price: 12.3800, Current candle evolution: 0.65%
+
+[2024-07-24 10:06:31] TFUEL/USDT (BINANCE:TFUELUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0706, Current candle evolution: 2.07%
+
+[2024-07-24 10:06:31] VGX/USDT (BINANCE:VGXUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0745, Current candle evolution: 2.76%
+
+[2024-07-24 10:06:33] HFT/USDT (BINANCE:HFTUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.2109, Current candle evolution: 1.01%
+
+[2024-07-24 10:06:33] ARB/USDT (BINANCE:ARBUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.7801, Current candle evolution: 0.42%
+
+[2024-07-24 10:06:34] TRB/USDT (BINANCE:TRBUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 73.6600, Current candle evolution: -0.23%
+
+[2024-07-24 10:06:34] YGG/USDT (BINANCE:YGGUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.4879, Current candle evolution: 0.37%
+
+[2024-07-24 10:06:34] AMP/USDT (BINANCE:AMPUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0044, Current candle evolution: -0.41%
+
+[2024-07-24 10:06:35] MEME/USDT (BINANCE:MEMEUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0160, Current candle evolution: -0.43%
+
+[2024-07-24 10:06:36] LIT/USDT (BINANCE:LITUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.7350, Current candle evolution: 3.67%
+
+[2024-07-24 10:06:36] SUSHI/USDT (BINANCE:SUSHIUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.6990, Current candle evolution: -0.14%
+
+[2024-07-24 10:06:36] REN/USDT (BINANCE:RENUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0499, Current candle evolution: 0.79%
+
+[2024-07-24 10:06:37] PYR/USDT (BINANCE:PYRUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 3.3670, Current candle evolution: -0.88%
+
+[2024-07-24 10:06:37] METIS/USDT (BINANCE:METISUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Evening Star
+Detected on candle: 2024-07-24 04:00:00
+Current price: 49.1800, Current candle evolution: 0.16%
+
+[2024-07-24 10:06:37] STMX/USDT (BINANCE:STMXUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.0071, Current candle evolution: -2.46%
+
+[2024-07-24 10:06:38] AVA/USDT (BINANCE:AVAUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Three White Soldiers
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.6268, Current candle evolution: 0.69%
+
+[2024-07-24 10:06:39] LINK/USDT (BINANCE:LINKUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 13.8500, Current candle evolution: 0.00%
+
+[2024-07-24 10:06:40] PIVX/USDT (BINANCE:PIVXUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.2329, Current candle evolution: 0.82%
+
+[2024-07-24 10:06:40] WBTC/USDT (BINANCE:WBTCUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 66447.7300, Current candle evolution: 0.51%
+
+[2024-07-24 10:06:40] FRONT/USDT (BINANCE:FRONTUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.9010, Current candle evolution: 1.81%
+
+[2024-07-24 10:06:41] VIC/USDT (BINANCE:VICUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.3797, Current candle evolution: 0.98%
+
+[2024-07-24 10:06:42] ETHFI/USDT (BINANCE:ETHFIUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Doji
+Detected on candle: 2024-07-24 04:00:00
+Current price: 2.3900, Current candle evolution: 0.38%
+
+[2024-07-24 10:06:43] ENA/USDT (BINANCE:ENAUSDT) Timeframe: 4h, Number of candles: 4, Pattern detected: Harami Cross
+Detected on candle: 2024-07-24 04:00:00
+Current price: 0.4950, Current candle evolution: 2.70%
+

@@ -44,21 +44,15 @@ def calculate_percentage_evolution(open_price, current_price):
 def is_evening_star(candles):
     if len(candles) != 3:
         return False
-    
     first, second, third = candles
-    
-    # Extracting open, high, low, close prices for each candle
     first_open, first_high, first_low, first_close = first[1], first[2], first[3], first[4]
     second_open, second_high, second_low, second_close = second[1], second[2], second[3], second[4]
     third_open, third_high, third_low, third_close = third[1], third[2], third[3], third[4]
-    
-    # Define criteria for an Evening Star
     is_first_bullish = first_close > first_open
     is_second_small_body = abs(second_close - second_open) < (second_high - second_low) * 0.3
     is_second_gap_up = second_open > first_close
     is_third_bearish = third_close < third_open
     is_third_closes_below_mid = third_close < (first_open + first_close) / 2
-    
     return (is_first_bullish and
             is_second_small_body and
             is_second_gap_up and
@@ -72,10 +66,6 @@ def is_morning_star(candles):
     first_body = first[1] - first[4]
     second_body = abs(second[4] - second[1])
     third_body = third[4] - third[1]
-
-    # Check first candle is bearish
-    # Check second candle is small and gaps down from the first
-    # Check third candle is bullish and closes above the midpoint of the first candle
     return (first_body > 0 and
             second_body > 0 and
             third_body > 0 and
@@ -201,12 +191,17 @@ def analyze_symbol(exchange, symbol, timeframe, output_file):
         if not ohlcv:
             return
 
-        # Check if we have enough candles
-        if len(ohlcv) < 3:
+        # Check if symbol is tradable
+        current_price = fetch_current_price(exchange, symbol)
+        if current_price is None:
             return
 
-        # Check if candles are complete
-        completed_candles = ohlcv[-3:]
+        # Check if we have enough candles
+        if len(ohlcv) < 4:
+            return
+
+        # Exclude the current candlestick from pattern detection
+        completed_candles = ohlcv[-4:-1]
         current_candle = ohlcv[-1]
         current_price = fetch_current_price(exchange, symbol)
         if current_price is None:
@@ -215,99 +210,48 @@ def analyze_symbol(exchange, symbol, timeframe, output_file):
         last_candle = completed_candles[-1]
         
         pattern_detected = False
-        confirmation_message = ""
+        pattern_type = ""
 
+        # Pattern detection logic
         if is_evening_star(completed_candles):
             pattern_detected = True
             pattern_type = "Evening Star"
-            if current_price < last_candle[1]:
-                confirmation_message = "Pattern confirmation: Current price confirms the Evening Star pattern."
-            else:
-                return
         elif is_morning_star(completed_candles):
             pattern_detected = True
             pattern_type = "Morning Star"
-            if current_price > last_candle[1]:
-                confirmation_message = "Pattern confirmation: Current price confirms the Morning Star pattern."
-            else:
-                return
         elif is_bullish_engulfing(completed_candles):
             pattern_detected = True
             pattern_type = "Bullish Engulfing"
-            if current_price > last_candle[1]:
-                confirmation_message = "Pattern confirmation: Current price confirms the Bullish Engulfing pattern."
-            else:
-                return
         elif is_bearish_engulfing(completed_candles):
             pattern_detected = True
             pattern_type = "Bearish Engulfing"
-            if current_price < last_candle[1]:
-                confirmation_message = "Pattern confirmation: Current price confirms the Bearish Engulfing pattern."
-            else:
-                return
         elif is_doji(last_candle):
             pattern_detected = True
             pattern_type = "Doji"
-            if abs(current_price - last_candle[1]) < 0.01:  # Adjust confirmation condition if needed
-                confirmation_message = "Pattern confirmation: Current price confirms the Doji pattern."
-            else:
-                return
         elif is_hammer(last_candle):
             pattern_detected = True
             pattern_type = "Hammer"
-            if current_price > last_candle[1]:
-                confirmation_message = "Pattern confirmation: Current price confirms the Hammer pattern."
-            else:
-                return
         elif is_hanging_man(last_candle):
             pattern_detected = True
             pattern_type = "Hanging Man"
-            if current_price < last_candle[1]:
-                confirmation_message = "Pattern confirmation: Current price confirms the Hanging Man pattern."
-            else:
-                return
         elif is_inverted_hammer(last_candle):
             pattern_detected = True
             pattern_type = "Inverted Hammer"
-            if current_price > last_candle[1]:
-                confirmation_message = "Pattern confirmation: Current price confirms the Inverted Hammer pattern."
-            else:
-                return
         elif is_dark_cloud_cover(completed_candles):
             pattern_detected = True
             pattern_type = "Dark Cloud Cover"
-            if current_price < last_candle[1]:
-                confirmation_message = "Pattern confirmation: Current price confirms the Dark Cloud Cover pattern."
-            else:
-                return
         elif is_three_white_soldiers(completed_candles):
             pattern_detected = True
             pattern_type = "Three White Soldiers"
-            if current_price > last_candle[1]:
-                confirmation_message = "Pattern confirmation: Current price confirms the Three White Soldiers pattern."
-            else:
-                return
         elif is_three_black_crows(completed_candles):
             pattern_detected = True
             pattern_type = "Three Black Crows"
-            if current_price < last_candle[1]:
-                confirmation_message = "Pattern confirmation: Current price confirms the Three Black Crows pattern."
-            else:
-                return
         elif is_rising_three_methods(completed_candles):
             pattern_detected = True
             pattern_type = "Rising Three Methods"
-            if current_price > last_candle[1]:
-                confirmation_message = "Pattern confirmation: Current price confirms the Rising Three Methods pattern."
-            else:
-                return
         elif is_falling_three_methods(completed_candles):
             pattern_detected = True
             pattern_type = "Falling Three Methods"
-            if current_price < last_candle[1]:
-                confirmation_message = "Pattern confirmation: Current price confirms the Falling Three Methods pattern."
-            else:
-                return
 
         if pattern_detected:
             current_time = datetime.now(pytz.UTC).strftime('%Y-%m-%d %H:%M:%S')
@@ -317,14 +261,14 @@ def analyze_symbol(exchange, symbol, timeframe, output_file):
                 f"[{current_time}] {symbol} (BINANCE:{symbol.replace('/', '')}) "
                 f"Timeframe: {timeframe}, Number of candles: {len(ohlcv)}, Pattern detected: {pattern_type}\n"
                 f"Detected on candle: {format_candle_time(completed_candles[-1][0])}\n"
-                f"Current price: {current_price:.4f}, Current candle evolution: {evolution:.2f}%\n"
-                f"{confirmation_message}\n\n"
+                f"Current price: {current_price:.4f}, Current candle evolution: {evolution:.2f}%\n\n"
             )
             print(result.strip())
             
             # Write the result to the file
             with open(output_file, 'a') as f:
                 f.write(result)
+
     except Exception as e:
         print(f"Error analyzing symbol {symbol}: {str(e)}")
 

@@ -1,0 +1,670 @@
+ https://www.tradingview.com/chart/?symbol=BINANCE%3ABTCUSDT
+
+[2024-07-24 19:34:22] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:23] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:25] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:26] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:28] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:29] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1270, Current candle evolution: 0.24%
+
+[2024-07-24 19:34:31] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:32] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:34] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:35] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:36] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:38] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:39] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:41] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:42] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:44] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:45] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:47] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:48] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:50] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:51] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:52] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:54] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:55] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:57] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:34:58] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:00] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:02] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:03] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:05] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:06] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:07] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:09] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:10] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:12] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:13] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:15] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:17] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:18] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1270, Current candle evolution: 0.24%
+
+[2024-07-24 19:35:20] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1270, Current candle evolution: 0.24%
+
+[2024-07-24 19:35:21] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1270, Current candle evolution: 0.24%
+
+[2024-07-24 19:35:21] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:22] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1270, Current candle evolution: 0.24%
+
+[2024-07-24 19:35:22] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:23] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:24] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:24] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1270, Current candle evolution: 0.24%
+
+[2024-07-24 19:35:24] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:25] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:26] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:26] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1270, Current candle evolution: 0.24%
+
+[2024-07-24 19:35:27] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5450, Current candle evolution: 0.17%
+
+[2024-07-24 19:35:27] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:27] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9870, Current candle evolution: 0.15%
+
+[2024-07-24 19:35:27] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4909, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:27] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:27] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 19:35:27] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1271, Current candle evolution: 0.32%
+
+[2024-07-24 19:35:28] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0739, Current candle evolution: 0.27%
+
+[2024-07-24 19:35:28] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4909, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:28] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:28] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9870, Current candle evolution: 0.15%
+
+[2024-07-24 19:35:28] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5450, Current candle evolution: 0.17%
+
+[2024-07-24 19:35:29] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1271, Current candle evolution: 0.32%
+
+[2024-07-24 19:35:29] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 19:35:29] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:29] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0739, Current candle evolution: 0.27%
+
+[2024-07-24 19:35:30] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5450, Current candle evolution: 0.17%
+
+[2024-07-24 19:35:30] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:30] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9870, Current candle evolution: 0.15%
+
+[2024-07-24 19:35:30] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4910, Current candle evolution: 0.18%
+
+[2024-07-24 19:35:30] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 19:35:30] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1271, Current candle evolution: 0.32%
+
+[2024-07-24 19:35:31] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:31] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5450, Current candle evolution: 0.17%
+
+[2024-07-24 19:35:31] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4910, Current candle evolution: 0.18%
+
+[2024-07-24 19:35:31] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:31] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9870, Current candle evolution: 0.15%
+
+[2024-07-24 19:35:32] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 19:35:32] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1271, Current candle evolution: 0.32%
+
+[2024-07-24 19:35:32] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:33] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4910, Current candle evolution: 0.18%
+
+[2024-07-24 19:35:33] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9870, Current candle evolution: 0.15%
+
+[2024-07-24 19:35:33] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:33] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 19:35:33] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1271, Current candle evolution: 0.32%
+
+[2024-07-24 19:35:34] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:34] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4909, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:34] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9870, Current candle evolution: 0.15%
+
+[2024-07-24 19:35:34] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:35] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1271, Current candle evolution: 0.32%
+
+[2024-07-24 19:35:35] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 19:35:35] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:36] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:36] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5450, Current candle evolution: 0.17%
+
+[2024-07-24 19:35:36] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9870, Current candle evolution: 0.15%
+
+[2024-07-24 19:35:36] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1271, Current candle evolution: 0.32%
+
+[2024-07-24 19:35:36] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 19:35:36] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:37] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9870, Current candle evolution: 0.15%
+
+[2024-07-24 19:35:37] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:37] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1271, Current candle evolution: 0.32%
+
+[2024-07-24 19:35:37] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 19:35:38] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:38] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5450, Current candle evolution: 0.17%
+
+[2024-07-24 19:35:38] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:38] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9870, Current candle evolution: 0.15%
+
+[2024-07-24 19:35:39] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1271, Current candle evolution: 0.32%
+
+[2024-07-24 19:35:39] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 19:35:39] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0030, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:39] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:40] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5450, Current candle evolution: 0.17%
+
+[2024-07-24 19:35:40] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9870, Current candle evolution: 0.15%
+
+[2024-07-24 19:35:40] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:40] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1271, Current candle evolution: 0.32%
+
+[2024-07-24 19:35:40] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 19:35:41] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:41] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0030, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:41] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5450, Current candle evolution: 0.17%
+
+[2024-07-24 19:35:41] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9870, Current candle evolution: 0.15%
+
+[2024-07-24 19:35:41] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:42] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1271, Current candle evolution: 0.32%
+
+[2024-07-24 19:35:42] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 19:35:42] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:42] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0030, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:43] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:43] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9870, Current candle evolution: 0.15%
+
+[2024-07-24 19:35:43] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5450, Current candle evolution: 0.17%
+
+[2024-07-24 19:35:43] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 19:35:43] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1271, Current candle evolution: 0.32%
+
+[2024-07-24 19:35:44] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:44] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0030, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:44] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5450, Current candle evolution: 0.17%
+
+[2024-07-24 19:35:44] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:44] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9870, Current candle evolution: 0.15%
+
+[2024-07-24 19:35:45] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 19:35:45] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1271, Current candle evolution: 0.32%
+
+[2024-07-24 19:35:45] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0030, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:45] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:46] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:46] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5450, Current candle evolution: 0.17%
+
+[2024-07-24 19:35:46] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9870, Current candle evolution: 0.15%
+
+[2024-07-24 19:35:46] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1271, Current candle evolution: 0.32%
+
+[2024-07-24 19:35:46] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 19:35:47] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0030, Current candle evolution: 0.16%
+
+[2024-07-24 19:35:47] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:47] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0486, Current candle evolution: 0.19%
+
+[2024-07-24 19:35:47] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9870, Current candle evolution: 0.15%
+
+[2024-07-24 19:35:48] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1271, Current candle evolution: 0.32%
+
+[2024-07-24 19:35:48] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 19:35:48] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:35:48] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0030, Current candle evolution: 0.16%
+
+[2024-07-24 19:36:20] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:36:21] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:36:22] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:36:24] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:36:25] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1270, Current candle evolution: 0.24%
+
+[2024-07-24 19:36:27] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1270, Current candle evolution: 0.24%
+
+[2024-07-24 19:36:28] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1270, Current candle evolution: 0.24%
+
+[2024-07-24 19:36:30] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1270, Current candle evolution: 0.24%
+
+[2024-07-24 19:36:31] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1270, Current candle evolution: 0.24%
+
+[2024-07-24 19:36:33] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1270, Current candle evolution: 0.24%
+
+[2024-07-24 19:36:33] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:36:34] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:36:35] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:36:36] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:36:37] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:36:37] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:36:38] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:36:39] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:36:40] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:36:42] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3390, Current candle evolution: -0.17%
+
+[2024-07-24 19:36:44] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:36:45] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:36:47] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3390, Current candle evolution: -0.17%
+
+[2024-07-24 19:36:48] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3390, Current candle evolution: -0.17%
+
+[2024-07-24 19:36:50] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3380, Current candle evolution: -0.21%
+
+[2024-07-24 19:36:52] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:36:52] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3380, Current candle evolution: -0.21%
+
+[2024-07-24 19:36:53] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:36:54] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3380, Current candle evolution: -0.21%
+
+[2024-07-24 19:36:54] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:36:55] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:36:56] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:36:57] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:36:57] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:36:58] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3380, Current candle evolution: -0.21%
+
+[2024-07-24 19:36:59] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:00] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3380, Current candle evolution: -0.21%
+
+[2024-07-24 19:37:00] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:02] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3380, Current candle evolution: -0.21%
+
+[2024-07-24 19:37:02] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:03] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3380, Current candle evolution: -0.21%
+
+[2024-07-24 19:37:04] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:05] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3380, Current candle evolution: -0.21%
+
+[2024-07-24 19:37:05] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:06] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:37:07] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:07] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3380, Current candle evolution: -0.21%
+
+[2024-07-24 19:37:08] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:09] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3380, Current candle evolution: -0.21%
+
+[2024-07-24 19:37:10] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:10] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3380, Current candle evolution: -0.21%
+
+[2024-07-24 19:37:12] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3380, Current candle evolution: -0.21%
+
+[2024-07-24 19:37:13] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3390, Current candle evolution: -0.17%
+
+[2024-07-24 19:37:15] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3380, Current candle evolution: -0.21%
+
+[2024-07-24 19:37:16] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:16] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3390, Current candle evolution: -0.17%
+
+[2024-07-24 19:37:17] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:17] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:18] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3390, Current candle evolution: -0.17%
+
+[2024-07-24 19:37:18] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:19] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:19] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3390, Current candle evolution: -0.17%
+
+[2024-07-24 19:37:20] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:20] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:21] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3390, Current candle evolution: -0.17%
+
+[2024-07-24 19:37:21] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:22] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:22] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3390, Current candle evolution: -0.17%
+
+[2024-07-24 19:37:22] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:23] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:23] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3380, Current candle evolution: -0.21%
+
+[2024-07-24 19:37:24] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:24] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:25] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:37:26] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:26] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:26] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:37:27] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:27] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:28] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:37:29] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:29] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:29] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:37:30] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:30] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:31] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:37:32] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:32] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:32] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3360, Current candle evolution: -0.30%
+
+[2024-07-24 19:37:33] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:34] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:34] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3360, Current candle evolution: -0.30%
+
+[2024-07-24 19:37:35] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:35] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:35] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3360, Current candle evolution: -0.30%
+
+[2024-07-24 19:37:36] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:37] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:37] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3360, Current candle evolution: -0.30%
+
+[2024-07-24 19:37:37] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:38] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:37:38] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:39] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:39] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:37:39] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:40] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:41] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:37:41] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:42] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:42] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:37:42] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:43] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:44] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:37:44] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:45] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:45] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:37:45] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:47] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:47] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:37:47] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:48] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:48] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:37:48] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:50] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:50] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:37:50] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:51] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:51] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3360, Current candle evolution: -0.30%
+
+[2024-07-24 19:37:51] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:52] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3360, Current candle evolution: -0.30%
+
+[2024-07-24 19:37:52] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:52] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:54] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3360, Current candle evolution: -0.30%
+
+[2024-07-24 19:37:54] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:54] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:55] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:55] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3360, Current candle evolution: -0.30%
+
+[2024-07-24 19:37:55] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:57] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:37:57] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3360, Current candle evolution: -0.30%
+
+[2024-07-24 19:37:57] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:58] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:37:58] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:37:59] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:38:00] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:38:00] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:38:01] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:38:01] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:38:01] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:38:02] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:38:03] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:38:03] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3370, Current candle evolution: -0.26%
+
+[2024-07-24 19:38:04] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0984, Current candle evolution: 0.20%
+
+[2024-07-24 19:38:04] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3360, Current candle evolution: -0.30%
+
+[2024-07-24 19:38:04] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:38:06] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:38:06] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3360, Current candle evolution: -0.30%
+
+[2024-07-24 19:38:07] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:38:07] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3360, Current candle evolution: -0.30%
+
+[2024-07-24 19:38:08] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:38:08] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3360, Current candle evolution: -0.30%
+
+[2024-07-24 19:38:10] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3350, Current candle evolution: -0.34%
+
+[2024-07-24 19:38:11] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3350, Current candle evolution: -0.34%
+
+[2024-07-24 19:38:13] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3350, Current candle evolution: -0.34%
+
+[2024-07-24 19:38:14] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3350, Current candle evolution: -0.34%
+
+[2024-07-24 19:38:16] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3340, Current candle evolution: -0.38%
+
+[2024-07-24 19:38:17] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3340, Current candle evolution: -0.38%
+
+[2024-07-24 19:38:19] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3340, Current candle evolution: -0.38%
+
+[2024-07-24 19:38:20] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3350, Current candle evolution: -0.34%
+
+[2024-07-24 19:38:22] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3350, Current candle evolution: -0.34%
+
+[2024-07-24 19:38:23] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3350, Current candle evolution: -0.34%
+
+[2024-07-24 19:38:23] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:38:24] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:38:24] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3350, Current candle evolution: -0.34%
+
+[2024-07-24 19:38:26] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:38:26] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3350, Current candle evolution: -0.34%
+
+[2024-07-24 19:38:27] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3350, Current candle evolution: -0.34%
+
+[2024-07-24 19:38:27] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:38:29] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:38:29] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3350, Current candle evolution: -0.34%
+
+[2024-07-24 19:38:30] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3350, Current candle evolution: -0.34%
+
+[2024-07-24 19:38:32] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1269, Current candle evolution: 0.16%
+
+[2024-07-24 19:38:32] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3350, Current candle evolution: -0.34%
+

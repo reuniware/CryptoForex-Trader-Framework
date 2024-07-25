@@ -1,0 +1,24 @@
+[2024-07-24 21:37:19] BTC/USDT (BINANCE:BTCUSDT) Timeframe: 15m, Current price: 65487.4000
+Symbol: BTC/USDT, Timeframe: 15m, Open: 48861.5100, Close: 45559.4700, High: 49133.5100, Low: 42000.3000, Range: 7133.2100, Greatest Candle DateTime: 2021-12-04 05:15:00
+
+[2024-07-24 21:38:06] ETH/USDT (BINANCE:ETHUSDT) Timeframe: 15m, Current price: 3327.0100
+Symbol: ETH/USDT, Timeframe: 15m, Open: 2425.9800, Close: 2365.1800, High: 2580.9900, Low: 1960.0000, Range: 620.9900, Greatest Candle DateTime: 2021-05-19 12:45:00
+
+[2024-07-24 21:38:55] BNB/USDT (BINANCE:BNBUSDT) Timeframe: 15m, Current price: 574.2000
+Symbol: BNB/USDT, Timeframe: 15m, Open: 342.7100, Close: 335.5000, High: 361.4300, Low: 280.8800, Range: 80.5500, Greatest Candle DateTime: 2021-05-19 12:45:00
+
+[2024-07-24 21:39:45] NEO/USDT (BINANCE:NEOUSDT) Timeframe: 15m, Current price: 11.4000
+Symbol: NEO/USDT, Timeframe: 15m, Open: 55.8450, Close: 49.5360, High: 61.9520, Low: 40.4130, Range: 21.5390, Greatest Candle DateTime: 2021-05-19 12:45:00
+
+[2024-07-24 21:40:34] LTC/USDT (BINANCE:LTCUSDT) Timeframe: 15m, Current price: 71.3100
+Symbol: LTC/USDT, Timeframe: 15m, Open: 175.3000, Close: 234.1000, High: 235.1500, Low: 175.1000, Range: 60.0500, Greatest Candle DateTime: 2021-09-13 13:30:00
+
+[2024-07-24 21:41:20] QTUM/USDT (BINANCE:QTUMUSDT) Timeframe: 15m, Current price: 2.5970
+Symbol: QTUM/USDT, Timeframe: 15m, Open: 27.7790, Close: 31.3770, High: 31.4870, Low: 27.7580, Range: 3.7290, Greatest Candle DateTime: 2021-05-07 01:15:00
+
+[2024-07-24 21:42:06] ADA/USDT (BINANCE:ADAUSDT) Timeframe: 15m, Current price: 0.4096
+Symbol: ADA/USDT, Timeframe: 15m, Open: 1.3083, Close: 1.2509, High: 1.4480, Low: 1.0100, Range: 0.4380, Greatest Candle DateTime: 2021-05-19 12:45:00
+
+[2024-07-24 21:42:52] XRP/USDT (BINANCE:XRPUSDT) Timeframe: 15m, Current price: 0.6154
+Symbol: XRP/USDT, Timeframe: 15m, Open: 1.1063, Close: 1.0833, High: 1.1710, Low: 0.8500, Range: 0.3210, Greatest Candle DateTime: 2021-05-19 12:45:00
+
