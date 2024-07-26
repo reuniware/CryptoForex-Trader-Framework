@@ -1,0 +1,6 @@
+[2024-07-24 21:29:16] BTC/USDT (BINANCE:BTCUSDT) Timeframe: 15m, Current price: 65700.2900
+Symbol: BTC/USDT, Timeframe: 15m, Open: 48861.5100, Close: 45559.4700, High: 49133.5100, Low: 42000.3000, Range: 7133.2100, Greatest Candle DateTime: 2021-12-04 05:15:00
+
+[2024-07-24 21:30:01] ETH/USDT (BINANCE:ETHUSDT) Timeframe: 15m, Current price: 3337.4100
+Symbol: ETH/USDT, Timeframe: 15m, Open: 2425.9800, Close: 2365.1800, High: 2580.9900, Low: 1960.0000, Range: 620.9900, Greatest Candle DateTime: 2021-05-19 12:45:00
+

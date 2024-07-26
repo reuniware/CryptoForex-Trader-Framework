@@ -1,0 +1,1134 @@
+[2024-07-24 19:44:34] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1d, Current price: 0.9360
+Symbol: AGLD/USDT, Timeframe: 1d, Open: 2.9510, Close: 4.7300, High: 5.4370, Low: 2.9510, Range: 2.4860, Greatest Candle DateTime: 2021-10-05 00:00:00
+
+[2024-07-24 19:44:35] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1d, Current price: 0.0485
+Symbol: UTK/USDT, Timeframe: 1d, Open: 0.6689, Close: 0.8964, High: 1.0650, Low: 0.6512, Range: 0.4138, Greatest Candle DateTime: 2021-05-05 00:00:00
+
+[2024-07-24 19:44:40] XVS/USDT (BINANCE:XVSUSDT) Timeframe: 1d, Current price: 7.0800
+Symbol: XVS/USDT, Timeframe: 1d, Open: 84.0450, Close: 79.6570, High: 144.5400, Low: 70.0000, Range: 74.5400, Greatest Candle DateTime: 2021-05-18 00:00:00
+
+[2024-07-24 19:44:41] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1d, Current price: 0.0736
+Symbol: ASTR/USDT, Timeframe: 1d, Open: 0.0783, Close: 0.1012, High: 0.2300, Low: 0.0740, Range: 0.1560, Greatest Candle DateTime: 2023-12-18 00:00:00
+
+[2024-07-24 19:44:42] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1d, Current price: 0.0982
+Symbol: AERGO/USDT, Timeframe: 1d, Open: 0.2085, Close: 0.1591, High: 0.3373, Low: 0.1380, Range: 0.1993, Greatest Candle DateTime: 2024-04-13 00:00:00
+
+[2024-07-24 19:44:43] RAD/USDT (BINANCE:RADUSDT) Timeframe: 1d, Current price: 1.2110
+Symbol: RAD/USDT, Timeframe: 1d, Open: 9.7010, Close: 17.9820, High: 30.5000, Low: 9.7010, Range: 20.7990, Greatest Candle DateTime: 2021-10-07 00:00:00
+
+[2024-07-24 19:44:43] MANA/USDT (BINANCE:MANAUSDT) Timeframe: 1d, Current price: 0.3342
+Symbol: MANA/USDT, Timeframe: 1d, Open: 1.3958, Close: 3.5880, High: 4.9455, Low: 1.2855, Range: 3.6600, Greatest Candle DateTime: 2021-10-30 00:00:00
+
+[2024-07-24 19:44:44] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1d, Current price: 0.1269
+Symbol: VANRY/USDT, Timeframe: 1d, Open: 0.2730, Close: 0.3410, High: 0.3837, Low: 0.2516, Range: 0.1321, Greatest Candle DateTime: 2024-03-13 00:00:00
+
+[2024-07-24 19:44:44] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1d, Current price: 0.5439
+Symbol: KNC/USDT, Timeframe: 1d, Open: 2.8060, Close: 1.8890, High: 2.8980, Low: 1.3800, Range: 1.5180, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:44] GMT/USDT (BINANCE:GMTUSDT) Timeframe: 1d, Current price: 0.1502
+Symbol: GMT/USDT, Timeframe: 1d, Open: 2.4227, Close: 3.1922, High: 3.3031, Low: 2.2414, Range: 1.0617, Greatest Candle DateTime: 2022-04-18 00:00:00
+
+[2024-07-24 19:44:44] PEPE/USDT (BINANCE:PEPEUSDT) Timeframe: 1d, Current price: 0.0000
+Symbol: PEPE/USDT, Timeframe: 1d, Open: 0.0000, Close: 0.0000, High: 0.0000, Low: 0.0000, Range: 0.0000, Greatest Candle DateTime: 2024-03-05 00:00:00
+
+[2024-07-24 19:44:44] W/USDT (BINANCE:WUSDT) Timeframe: 1d, Current price: 0.3069
+Symbol: W/USDT, Timeframe: 1d, Open: 0.0500, Close: 1.3100, High: 1.8600, Low: 0.0500, Range: 1.8100, Greatest Candle DateTime: 2024-04-03 00:00:00
+
+[2024-07-24 19:44:44] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1d, Current price: 0.4886
+Symbol: MAGIC/USDT, Timeframe: 1d, Open: 0.3821, Close: 0.7649, High: 1.0333, Low: 0.3821, Range: 0.6512, Greatest Candle DateTime: 2022-12-12 00:00:00
+
+[2024-07-24 19:44:45] LTO/USDT (BINANCE:LTOUSDT) Timeframe: 1d, Current price: 0.1192
+Symbol: LTO/USDT, Timeframe: 1d, Open: 0.5377, Close: 0.6079, High: 0.8181, Low: 0.5228, Range: 0.2953, Greatest Candle DateTime: 2021-11-21 00:00:00
+
+[2024-07-24 19:44:45] BTC/USDT (BINANCE:BTCUSDT) Timeframe: 1d, Current price: 65974.0000
+Symbol: BTC/USDT, Timeframe: 1d, Open: 42849.7800, Close: 36690.0900, High: 43584.9000, Low: 30000.0000, Range: 13584.9000, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:45] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1d, Current price: 0.3698
+Symbol: DIA/USDT, Timeframe: 1d, Open: 3.7020, Close: 2.2040, High: 3.7760, Low: 1.4100, Range: 2.3660, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:45] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1d, Current price: 2.3370
+Symbol: RAY/USDT, Timeframe: 1d, Open: 10.1240, Close: 11.2860, High: 17.8000, Low: 9.6010, Range: 8.1990, Greatest Candle DateTime: 2021-08-28 00:00:00
+
+[2024-07-24 19:44:45] BETA/USDT (BINANCE:BETAUSDT) Timeframe: 1d, Current price: 0.0559
+Symbol: BETA/USDT, Timeframe: 1d, Open: 0.0600, Close: 3.2300, High: 4.7500, Low: 0.0600, Range: 4.6900, Greatest Candle DateTime: 2021-10-08 00:00:00
+
+[2024-07-24 19:44:45] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1d, Current price: 1.9810
+Symbol: CAKE/USDT, Timeframe: 1d, Open: 9.5500, Close: 18.9340, High: 30.0000, Low: 9.5500, Range: 20.4500, Greatest Candle DateTime: 2021-02-19 00:00:00
+
+[2024-07-24 19:44:45] ALPHA/USDT (BINANCE:ALPHAUSDT) Timeframe: 1d, Current price: 0.0717
+Symbol: ALPHA/USDT, Timeframe: 1d, Open: 1.8878, Close: 1.1441, High: 1.9215, Low: 1.0200, Range: 0.9015, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:45] KDA/USDT (BINANCE:KDAUSDT) Timeframe: 1d, Current price: 0.5940
+Symbol: KDA/USDT, Timeframe: 1d, Open: 6.2110, Close: 6.5230, High: 9.6750, Low: 6.2110, Range: 3.4640, Greatest Candle DateTime: 2022-03-11 00:00:00
+
+[2024-07-24 19:44:45] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1d, Current price: 0.0030
+Symbol: SLP/USDT, Timeframe: 1d, Open: 0.1128, Close: 0.2166, High: 0.3570, Low: 0.1128, Range: 0.2442, Greatest Candle DateTime: 2021-04-30 00:00:00
+
+[2024-07-24 19:44:45] AEUR/USDT (BINANCE:AEURUSDT) Timeframe: 1d, Current price: 1.0837
+Symbol: AEUR/USDT, Timeframe: 1d, Open: 1.0774, Close: 1.0736, High: 3.5000, Low: 1.0724, Range: 2.4276, Greatest Candle DateTime: 2023-12-08 00:00:00
+
+[2024-07-24 19:44:45] TNSR/USDT (BINANCE:TNSRUSDT) Timeframe: 1d, Current price: 0.4988
+Symbol: TNSR/USDT, Timeframe: 1d, Open: 0.0300, Close: 1.6558, High: 2.6890, Low: 0.0300, Range: 2.6590, Greatest Candle DateTime: 2024-04-08 00:00:00
+
+[2024-07-24 19:44:45] ONG/USDT (BINANCE:ONGUSDT) Timeframe: 1d, Current price: 0.3472
+Symbol: ONG/USDT, Timeframe: 1d, Open: 0.5164, Close: 2.4318, High: 3.3000, Low: 0.4639, Range: 2.8361, Greatest Candle DateTime: 2021-05-20 00:00:00
+
+[2024-07-24 19:44:46] HIFI/USDT (BINANCE:HIFIUSDT) Timeframe: 1d, Current price: 0.5108
+Symbol: HIFI/USDT, Timeframe: 1d, Open: 2.3195, Close: 0.9030, High: 2.4844, Low: 0.8560, Range: 1.6284, Greatest Candle DateTime: 2023-09-17 00:00:00
+
+[2024-07-24 19:44:46] FLOKI/USDT (BINANCE:FLOKIUSDT) Timeframe: 1d, Current price: 0.0002
+Symbol: FLOKI/USDT, Timeframe: 1d, Open: 0.0001, Close: 0.0002, High: 0.0002, Low: 0.0001, Range: 0.0001, Greatest Candle DateTime: 2024-03-08 00:00:00
+
+[2024-07-24 19:44:47] SAGA/USDT (BINANCE:SAGAUSDT) Timeframe: 1d, Current price: 1.5100
+Symbol: SAGA/USDT, Timeframe: 1d, Open: 0.0400, Close: 6.5562, High: 7.8900, Low: 0.0400, Range: 7.8500, Greatest Candle DateTime: 2024-04-09 00:00:00
+
+[2024-07-24 19:44:47] BICO/USDT (BINANCE:BICOUSDT) Timeframe: 1d, Current price: 0.3090
+Symbol: BICO/USDT, Timeframe: 1d, Open: 5.6310, Close: 6.0660, High: 7.9990, Low: 5.6310, Range: 2.3680, Greatest Candle DateTime: 2021-12-09 00:00:00
+
+[2024-07-24 19:44:47] APE/USDT (BINANCE:APEUSDT) Timeframe: 1d, Current price: 0.8030
+Symbol: APE/USDT, Timeframe: 1d, Open: 1.0000, Close: 8.5192, High: 28.0000, Low: 1.0000, Range: 27.0000, Greatest Candle DateTime: 2022-03-17 00:00:00
+
+[2024-07-24 19:44:47] ACM/USDT (BINANCE:ACMUSDT) Timeframe: 1d, Current price: 1.6130
+Symbol: ACM/USDT, Timeframe: 1d, Open: 6.5000, Close: 17.8220, High: 25.4600, Low: 6.5000, Range: 18.9600, Greatest Candle DateTime: 2021-02-24 00:00:00
+
+[2024-07-24 19:44:47] DOGE/USDT (BINANCE:DOGEUSDT) Timeframe: 1d, Current price: 0.1303
+Symbol: DOGE/USDT, Timeframe: 1d, Open: 0.6371, Close: 0.5706, High: 0.7001, Low: 0.4160, Range: 0.2841, Greatest Candle DateTime: 2021-05-09 00:00:00
+
+[2024-07-24 19:44:47] RPL/USDT (BINANCE:RPLUSDT) Timeframe: 1d, Current price: 16.5300
+Symbol: RPL/USDT, Timeframe: 1d, Open: 18.7900, Close: 24.1600, High: 36.0000, Low: 18.5400, Range: 17.4600, Greatest Candle DateTime: 2024-06-14 00:00:00
+
+[2024-07-24 19:44:47] JTO/USDT (BINANCE:JTOUSDT) Timeframe: 1d, Current price: 2.8040
+Symbol: JTO/USDT, Timeframe: 1d, Open: 0.1500, Close: 2.3936, High: 4.9400, Low: 0.1500, Range: 4.7900, Greatest Candle DateTime: 2023-12-07 00:00:00
+
+[2024-07-24 19:44:47] FARM/USDT (BINANCE:FARMUSDT) Timeframe: 1d, Current price: 46.1900
+Symbol: FARM/USDT, Timeframe: 1d, Open: 196.2000, Close: 290.8000, High: 958.4000, Low: 196.2000, Range: 762.2000, Greatest Candle DateTime: 2021-08-11 00:00:00
+
+[2024-07-24 19:44:47] HOT/USDT (BINANCE:HOTUSDT) Timeframe: 1d, Current price: 0.0017
+Symbol: HOT/USDT, Timeframe: 1d, Open: 0.0286, Close: 0.0227, High: 0.0288, Low: 0.0192, Range: 0.0096, Greatest Candle DateTime: 2021-04-06 00:00:00
+
+[2024-07-24 19:44:47] AST/USDT (BINANCE:ASTUSDT) Timeframe: 1d, Current price: 0.0878
+Symbol: AST/USDT, Timeframe: 1d, Open: 0.1051, Close: 0.1930, High: 0.2800, Low: 0.1051, Range: 0.1749, Greatest Candle DateTime: 2023-05-19 00:00:00
+
+[2024-07-24 19:44:47] RUNE/USDT (BINANCE:RUNEUSDT) Timeframe: 1d, Current price: 4.6030
+Symbol: RUNE/USDT, Timeframe: 1d, Open: 20.3360, Close: 11.5750, High: 21.2800, Low: 10.0000, Range: 11.2800, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:48] HBAR/USDT (BINANCE:HBARUSDT) Timeframe: 1d, Current price: 0.0676
+Symbol: HBAR/USDT, Timeframe: 1d, Open: 0.3369, Close: 0.2147, High: 0.3447, Low: 0.1600, Range: 0.1847, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:48] ETH/USDT (BINANCE:ETHUSDT) Timeframe: 1d, Current price: 3388.4700
+Symbol: ETH/USDT, Timeframe: 1d, Open: 3375.0800, Close: 2438.9200, High: 3441.7300, Low: 1888.0000, Range: 1553.7300, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:48] RARE/USDT (BINANCE:RAREUSDT) Timeframe: 1d, Current price: 0.0852
+Symbol: RARE/USDT, Timeframe: 1d, Open: 1.4810, Close: 2.5590, High: 5.0000, Low: 1.4810, Range: 3.5190, Greatest Candle DateTime: 2021-10-11 00:00:00
+
+[2024-07-24 19:44:48] TAO/USDT (BINANCE:TAOUSDT) Timeframe: 1d, Current price: 336.3000
+Symbol: TAO/USDT, Timeframe: 1d, Open: 439.8000, Close: 623.4000, High: 1249.0000, Low: 439.8000, Range: 809.2000, Greatest Candle DateTime: 2024-04-11 00:00:00
+
+[2024-07-24 19:44:48] LRC/USDT (BINANCE:LRCUSDT) Timeframe: 1d, Current price: 0.1569
+Symbol: LRC/USDT, Timeframe: 1d, Open: 2.9231, Close: 3.0347, High: 3.8500, Low: 2.6600, Range: 1.1900, Greatest Candle DateTime: 2021-11-10 00:00:00
+
+[2024-07-24 19:44:48] AAVE/USDT (BINANCE:AAVEUSDT) Timeframe: 1d, Current price: 91.8600
+Symbol: AAVE/USDT, Timeframe: 1d, Open: 628.3700, Close: 414.3600, High: 649.8600, Low: 350.0000, Range: 299.8600, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:48] FLUX/USDT (BINANCE:FLUXUSDT) Timeframe: 1d, Current price: 0.6781
+Symbol: FLUX/USDT, Timeframe: 1d, Open: 1.2200, Close: 1.8260, High: 5.0000, Low: 1.2200, Range: 3.7800, Greatest Candle DateTime: 2021-12-10 00:00:00
+
+[2024-07-24 19:44:48] 1000SATS/USDT (BINANCE:1000SATSUSDT) Timeframe: 1d, Current price: 0.0003
+Symbol: 1000SATS/USDT, Timeframe: 1d, Open: 0.0002, Close: 0.0006, High: 0.0007, Low: 0.0002, Range: 0.0004, Greatest Candle DateTime: 2023-12-12 00:00:00
+
+[2024-07-24 19:44:48] SHIB/USDT (BINANCE:SHIBUSDT) Timeframe: 1d, Current price: 0.0000
+Symbol: SHIB/USDT, Timeframe: 1d, Open: 0.0000, Close: 0.0001, High: 0.0001, Low: 0.0000, Range: 0.0000, Greatest Candle DateTime: 2021-10-27 00:00:00
+
+[2024-07-24 19:44:48] SKL/USDT (BINANCE:SKLUSDT) Timeframe: 1d, Current price: 0.0467
+Symbol: SKL/USDT, Timeframe: 1d, Open: 0.7837, Close: 0.8804, High: 1.2444, Low: 0.7827, Range: 0.4618, Greatest Candle DateTime: 2021-03-12 00:00:00
+
+[2024-07-24 19:44:48] BSW/USDT (BINANCE:BSWUSDT) Timeframe: 1d, Current price: 0.0613
+Symbol: BSW/USDT, Timeframe: 1d, Open: 0.7461, Close: 1.6985, High: 1.9777, Low: 0.7275, Range: 1.2502, Greatest Candle DateTime: 2022-04-01 00:00:00
+
+[2024-07-24 19:44:48] YFI/USDT (BINANCE:YFIUSDT) Timeframe: 1d, Current price: 5758.0000
+Symbol: YFI/USDT, Timeframe: 1d, Open: 72885.4100, Close: 45704.9800, High: 74565.2000, Low: 34070.2600, Range: 40494.9400, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:49] SNT/USDT (BINANCE:SNTUSDT) Timeframe: 1d, Current price: 0.0249
+Symbol: SNT/USDT, Timeframe: 1d, Open: 0.0294, Close: 0.0536, High: 0.0598, Low: 0.0279, Range: 0.0319, Greatest Candle DateTime: 2023-10-31 00:00:00
+
+[2024-07-24 19:44:49] OMNI/USDT (BINANCE:OMNIUSDT) Timeframe: 1d, Current price: 12.3200
+Symbol: OMNI/USDT, Timeframe: 1d, Open: 1.0000, Close: 27.1400, High: 55.5000, Low: 1.0000, Range: 54.5000, Greatest Candle DateTime: 2024-04-17 00:00:00
+
+[2024-07-24 19:44:49] FXS/USDT (BINANCE:FXSUSDT) Timeframe: 1d, Current price: 2.2830
+Symbol: FXS/USDT, Timeframe: 1d, Open: 25.6530, Close: 37.7250, High: 42.2000, Low: 25.4530, Range: 16.7470, Greatest Candle DateTime: 2022-04-02 00:00:00
+
+[2024-07-24 19:44:49] PROS/USDT (BINANCE:PROSUSDT) Timeframe: 1d, Current price: 0.3672
+Symbol: PROS/USDT, Timeframe: 1d, Open: 0.4516, Close: 0.5834, High: 0.6779, Low: 0.4214, Range: 0.2565, Greatest Candle DateTime: 2024-01-12 00:00:00
+
+[2024-07-24 19:44:49] DUSK/USDT (BINANCE:DUSKUSDT) Timeframe: 1d, Current price: 0.2325
+Symbol: DUSK/USDT, Timeframe: 1d, Open: 0.7891, Close: 0.9819, High: 1.1743, Low: 0.7500, Range: 0.4243, Greatest Candle DateTime: 2021-12-29 00:00:00
+
+[2024-07-24 19:44:49] ALPACA/USDT (BINANCE:ALPACAUSDT) Timeframe: 1d, Current price: 0.1203
+Symbol: ALPACA/USDT, Timeframe: 1d, Open: 1.1328, Close: 1.3948, High: 1.7885, Low: 1.0888, Range: 0.6997, Greatest Candle DateTime: 2021-08-17 00:00:00
+
+[2024-07-24 19:44:49] BADGER/USDT (BINANCE:BADGERUSDT) Timeframe: 1d, Current price: 3.1720
+Symbol: BADGER/USDT, Timeframe: 1d, Open: 28.5900, Close: 39.1200, High: 56.9150, Low: 27.4300, Range: 29.4850, Greatest Candle DateTime: 2021-11-03 00:00:00
+
+[2024-07-24 19:44:50] ZIL/USDT (BINANCE:ZILUSDT) Timeframe: 1d, Current price: 0.0170
+Symbol: ZIL/USDT, Timeframe: 1d, Open: 0.1752, Close: 0.1108, High: 0.1778, Low: 0.0608, Range: 0.1170, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:50] BONK/USDT (BINANCE:BONKUSDT) Timeframe: 1d, Current price: 0.0000
+Symbol: BONK/USDT, Timeframe: 1d, Open: 0.0000, Close: 0.0000, High: 0.0000, Low: 0.0000, Range: 0.0000, Greatest Candle DateTime: 2024-03-04 00:00:00
+
+[2024-07-24 19:44:50] FIO/USDT (BINANCE:FIOUSDT) Timeframe: 1d, Current price: 0.0230
+Symbol: FIO/USDT, Timeframe: 1d, Open: 0.2084, Close: 0.3408, High: 0.4430, Low: 0.1949, Range: 0.2481, Greatest Candle DateTime: 2021-03-13 00:00:00
+
+[2024-07-24 19:44:50] BIFI/USDT (BINANCE:BIFIUSDT) Timeframe: 1d, Current price: 307.2000
+Symbol: BIFI/USDT, Timeframe: 1d, Open: 1700.0000, Close: 1611.9000, High: 2765.0000, Low: 1576.1000, Range: 1188.9000, Greatest Candle DateTime: 2022-04-01 00:00:00
+
+[2024-07-24 19:44:50] NKN/USDT (BINANCE:NKNUSDT) Timeframe: 1d, Current price: 0.0780
+Symbol: NKN/USDT, Timeframe: 1d, Open: 0.9291, Close: 1.2912, High: 1.4890, Low: 0.8560, Range: 0.6330, Greatest Candle DateTime: 2021-04-09 00:00:00
+
+[2024-07-24 19:44:50] COMBO/USDT (BINANCE:COMBOUSDT) Timeframe: 1d, Current price: 0.5020
+Symbol: COMBO/USDT, Timeframe: 1d, Open: 1.7300, Close: 1.8100, High: 1.9700, Low: 1.5280, Range: 0.4420, Greatest Candle DateTime: 2023-06-02 00:00:00
+
+[2024-07-24 19:44:50] LAZIO/USDT (BINANCE:LAZIOUSDT) Timeframe: 1d, Current price: 1.4230
+Symbol: LAZIO/USDT, Timeframe: 1d, Open: 1.0000, Close: 23.2500, High: 100.0000, Low: 1.0000, Range: 99.0000, Greatest Candle DateTime: 2021-10-21 00:00:00
+
+[2024-07-24 19:44:50] REZ/USDT (BINANCE:REZUSDT) Timeframe: 1d, Current price: 0.0712
+Symbol: REZ/USDT, Timeframe: 1d, Open: 0.0100, Close: 0.1600, High: 0.2989, Low: 0.0100, Range: 0.2889, Greatest Candle DateTime: 2024-04-30 00:00:00
+
+[2024-07-24 19:44:50] ICP/USDT (BINANCE:ICPUSDT) Timeframe: 1d, Current price: 9.7250
+Symbol: ICP/USDT, Timeframe: 1d, Open: 249.2800, Close: 364.0100, High: 2831.0200, Low: 249.2800, Range: 2581.7400, Greatest Candle DateTime: 2021-05-11 00:00:00
+
+[2024-07-24 19:44:50] NEAR/USDT (BINANCE:NEARUSDT) Timeframe: 1d, Current price: 5.7260
+Symbol: NEAR/USDT, Timeframe: 1d, Open: 9.3290, Close: 9.8450, High: 17.9500, Low: 9.0500, Range: 8.9000, Greatest Candle DateTime: 2021-12-15 00:00:00
+
+[2024-07-24 19:44:50] BNB/USDT (BINANCE:BNBUSDT) Timeframe: 1d, Current price: 581.1000
+Symbol: BNB/USDT, Timeframe: 1d, Open: 507.9000, Close: 334.8000, High: 516.5000, Low: 280.0000, Range: 236.5000, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:50] VOXEL/USDT (BINANCE:VOXELUSDT) Timeframe: 1d, Current price: 0.1447
+Symbol: VOXEL/USDT, Timeframe: 1d, Open: 0.2000, Close: 2.8350, High: 6.9500, Low: 0.2000, Range: 6.7500, Greatest Candle DateTime: 2021-12-14 00:00:00
+
+[2024-07-24 19:44:51] BAL/USDT (BINANCE:BALUSDT) Timeframe: 1d, Current price: 2.7110
+Symbol: BAL/USDT, Timeframe: 1d, Open: 49.6650, Close: 33.6810, High: 50.8700, Low: 24.9390, Range: 25.9310, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:51] ACE/USDT (BINANCE:ACEUSDT) Timeframe: 1d, Current price: 2.8720
+Symbol: ACE/USDT, Timeframe: 1d, Open: 0.3571, Close: 13.8760, High: 16.3799, Low: 0.3571, Range: 16.0228, Greatest Candle DateTime: 2023-12-18 00:00:00
+
+[2024-07-24 19:44:51] QUICK/USDT (BINANCE:QUICKUSDT) Timeframe: 1d, Current price: 0.0402
+Symbol: QUICK/USDT, Timeframe: 1d, Open: 264.3000, Close: 445.8000, High: 570.0000, Low: 251.0000, Range: 319.0000, Greatest Candle DateTime: 2021-12-28 00:00:00
+
+[2024-07-24 19:44:51] BB/USDT (BINANCE:BBUSDT) Timeframe: 1d, Current price: 0.3999
+Symbol: BB/USDT, Timeframe: 1d, Open: 0.0238, Close: 0.4495, High: 0.6000, Low: 0.0238, Range: 0.5762, Greatest Candle DateTime: 2024-05-13 00:00:00
+
+[2024-07-24 19:44:51] ANKR/USDT (BINANCE:ANKRUSDT) Timeframe: 1d, Current price: 0.0309
+Symbol: ANKR/USDT, Timeframe: 1d, Open: 0.1553, Close: 0.1085, High: 0.1630, Low: 0.0702, Range: 0.0928, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:51] MAV/USDT (BINANCE:MAVUSDT) Timeframe: 1d, Current price: 0.2065
+Symbol: MAV/USDT, Timeframe: 1d, Open: 0.0500, Close: 0.5228, High: 1.9800, Low: 0.0500, Range: 1.9300, Greatest Candle DateTime: 2023-06-28 00:00:00
+
+[2024-07-24 19:44:52] HIGH/USDT (BINANCE:HIGHUSDT) Timeframe: 1d, Current price: 1.7200
+Symbol: HIGH/USDT, Timeframe: 1d, Open: 24.4000, Close: 19.4900, High: 44.0000, Low: 17.5000, Range: 26.5000, Greatest Candle DateTime: 2021-12-17 00:00:00
+
+[2024-07-24 19:44:52] FIS/USDT (BINANCE:FISUSDT) Timeframe: 1d, Current price: 0.3562
+Symbol: FIS/USDT, Timeframe: 1d, Open: 1.9980, Close: 2.7260, High: 4.0610, Low: 1.8440, Range: 2.2170, Greatest Candle DateTime: 2021-08-06 00:00:00
+
+[2024-07-24 19:44:52] ZRX/USDT (BINANCE:ZRXUSDT) Timeframe: 1d, Current price: 0.3739
+Symbol: ZRX/USDT, Timeframe: 1d, Open: 1.0339, Close: 1.5939, High: 1.9900, Low: 1.0011, Range: 0.9889, Greatest Candle DateTime: 2021-02-05 00:00:00
+
+[2024-07-24 19:44:52] UMA/USDT (BINANCE:UMAUSDT) Timeframe: 1d, Current price: 2.2540
+Symbol: UMA/USDT, Timeframe: 1d, Open: 16.6990, Close: 27.8990, High: 36.7350, Low: 14.3100, Range: 22.4250, Greatest Candle DateTime: 2021-02-03 00:00:00
+
+[2024-07-24 19:44:52] STEEM/USDT (BINANCE:STEEMUSDT) Timeframe: 1d, Current price: 0.2008
+Symbol: STEEM/USDT, Timeframe: 1d, Open: 0.2263, Close: 0.2545, High: 0.4800, Low: 0.2253, Range: 0.2547, Greatest Candle DateTime: 2022-07-09 00:00:00
+
+[2024-07-24 19:44:52] NFP/USDT (BINANCE:NFPUSDT) Timeframe: 1d, Current price: 0.2873
+Symbol: NFP/USDT, Timeframe: 1d, Open: 0.0200, Close: 1.1536, High: 1.8800, Low: 0.0200, Range: 1.8600, Greatest Candle DateTime: 2023-12-27 00:00:00
+
+[2024-07-24 19:44:52] GNS/USDT (BINANCE:GNSUSDT) Timeframe: 1d, Current price: 3.3700
+Symbol: GNS/USDT, Timeframe: 1d, Open: 6.0320, Close: 10.2790, High: 13.8800, Low: 6.0320, Range: 7.8480, Greatest Candle DateTime: 2023-02-17 00:00:00
+
+[2024-07-24 19:44:52] COMP/USDT (BINANCE:COMPUSDT) Timeframe: 1d, Current price: 49.4200
+Symbol: COMP/USDT, Timeframe: 1d, Open: 665.7500, Close: 472.4700, High: 673.3900, Low: 355.0000, Range: 318.3900, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:52] STX/USDT (BINANCE:STXUSDT) Timeframe: 1d, Current price: 1.7690
+Symbol: STX/USDT, Timeframe: 1d, Open: 1.1550, Close: 2.5572, High: 2.8499, Low: 1.1291, Range: 1.7208, Greatest Candle DateTime: 2021-04-05 00:00:00
+
+[2024-07-24 19:44:53] NOT/USDT (BINANCE:NOTUSDT) Timeframe: 1d, Current price: 0.0142
+Symbol: NOT/USDT, Timeframe: 1d, Open: 0.0008, Close: 0.0076, High: 0.0370, Low: 0.0008, Range: 0.0362, Greatest Candle DateTime: 2024-05-16 00:00:00
+
+[2024-07-24 19:44:53] AR/USDT (BINANCE:ARUSDT) Timeframe: 1d, Current price: 31.3300
+Symbol: AR/USDT, Timeframe: 1d, Open: 27.1800, Close: 29.2120, High: 77.8000, Low: 27.1800, Range: 50.6200, Greatest Candle DateTime: 2021-05-14 00:00:00
+
+[2024-07-24 19:44:53] PENDLE/USDT (BINANCE:PENDLEUSDT) Timeframe: 1d, Current price: 3.9020
+Symbol: PENDLE/USDT, Timeframe: 1d, Open: 4.8627, Close: 6.2506, High: 6.6700, Low: 4.7979, Range: 1.8721, Greatest Candle DateTime: 2024-04-04 00:00:00
+
+[2024-07-24 19:44:53] CHESS/USDT (BINANCE:CHESSUSDT) Timeframe: 1d, Current price: 0.1350
+Symbol: CHESS/USDT, Timeframe: 1d, Open: 2.7210, Close: 4.6170, High: 9.2000, Low: 2.7210, Range: 6.4790, Greatest Candle DateTime: 2021-10-22 00:00:00
+
+[2024-07-24 19:44:53] NEO/USDT (BINANCE:NEOUSDT) Timeframe: 1d, Current price: 11.5700
+Symbol: NEO/USDT, Timeframe: 1d, Open: 87.4580, Close: 55.1240, High: 89.1680, Low: 40.0000, Range: 49.1680, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:53] BLZ/USDT (BINANCE:BLZUSDT) Timeframe: 1d, Current price: 0.1743
+Symbol: BLZ/USDT, Timeframe: 1d, Open: 0.3939, Close: 0.2342, High: 0.3988, Low: 0.1400, Range: 0.2588, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:53] AI/USDT (BINANCE:AIUSDT) Timeframe: 1d, Current price: 0.5490
+Symbol: AI/USDT, Timeframe: 1d, Open: 0.0300, Close: 1.2399, High: 2.5800, Low: 0.0300, Range: 2.5500, Greatest Candle DateTime: 2024-01-04 00:00:00
+
+[2024-07-24 19:44:53] OM/USDT (BINANCE:OMUSDT) Timeframe: 1d, Current price: 1.2389
+Symbol: OM/USDT, Timeframe: 1d, Open: 0.7387, Close: 0.7217, High: 0.8876, Low: 0.5353, Range: 0.3523, Greatest Candle DateTime: 2021-03-15 00:00:00
+
+[2024-07-24 19:44:53] SYN/USDT (BINANCE:SYNUSDT) Timeframe: 1d, Current price: 0.5212
+Symbol: SYN/USDT, Timeframe: 1d, Open: 0.9840, Close: 1.6401, High: 1.8899, Low: 0.9840, Range: 0.9059, Greatest Candle DateTime: 2023-02-22 00:00:00
+
+[2024-07-24 19:44:54] MBOX/USDT (BINANCE:MBOXUSDT) Timeframe: 1d, Current price: 0.2269
+Symbol: MBOX/USDT, Timeframe: 1d, Open: 7.4490, Close: 12.6460, High: 14.6320, Low: 7.0600, Range: 7.5720, Greatest Candle DateTime: 2021-11-30 00:00:00
+
+[2024-07-24 19:44:54] IO/USDT (BINANCE:IOUSDT) Timeframe: 1d, Current price: 2.7670
+Symbol: IO/USDT, Timeframe: 1d, Open: 0.0600, Close: 4.1690, High: 5.8800, Low: 0.0600, Range: 5.8200, Greatest Candle DateTime: 2024-06-11 00:00:00
+
+[2024-07-24 19:44:54] WIN/USDT (BINANCE:WINUSDT) Timeframe: 1d, Current price: 0.0001
+Symbol: WIN/USDT, Timeframe: 1d, Open: 0.0011, Close: 0.0023, High: 0.0023, Low: 0.0011, Range: 0.0012, Greatest Candle DateTime: 2021-04-04 00:00:00
+
+[2024-07-24 19:44:54] CVX/USDT (BINANCE:CVXUSDT) Timeframe: 1d, Current price: 2.8320
+Symbol: CVX/USDT, Timeframe: 1d, Open: 41.5600, Close: 49.1400, High: 61.0000, Low: 40.2700, Range: 20.7300, Greatest Candle DateTime: 2021-12-27 00:00:00
+
+[2024-07-24 19:44:54] FET/USDT (BINANCE:FETUSDT) Timeframe: 1d, Current price: 1.2490
+Symbol: FET/USDT, Timeframe: 1d, Open: 1.7360, Close: 2.4280, High: 2.4780, Low: 1.6925, Range: 0.7855, Greatest Candle DateTime: 2024-03-06 00:00:00
+
+[2024-07-24 19:44:54] FIL/USDT (BINANCE:FILUSDT) Timeframe: 1d, Current price: 4.3320
+Symbol: FIL/USDT, Timeframe: 1d, Open: 10.0000, Close: 62.5418, High: 430.0000, Low: 10.0000, Range: 420.0000, Greatest Candle DateTime: 2020-10-15 00:00:00
+
+[2024-07-24 19:44:54] XAI/USDT (BINANCE:XAIUSDT) Timeframe: 1d, Current price: 0.3404
+Symbol: XAI/USDT, Timeframe: 1d, Open: 0.0200, Close: 0.6010, High: 1.2000, Low: 0.0200, Range: 1.1800, Greatest Candle DateTime: 2024-01-09 00:00:00
+
+[2024-07-24 19:44:54] ARKM/USDT (BINANCE:ARKMUSDT) Timeframe: 1d, Current price: 1.4060
+Symbol: ARKM/USDT, Timeframe: 1d, Open: 2.8742, Close: 3.9833, High: 3.9900, Low: 2.7926, Range: 1.1974, Greatest Candle DateTime: 2024-03-09 00:00:00
+
+[2024-07-24 19:44:55] ZK/USDT (BINANCE:ZKUSDT) Timeframe: 1d, Current price: 0.1698
+Symbol: ZK/USDT, Timeframe: 1d, Open: 0.0950, Close: 0.2130, High: 0.2950, Low: 0.0950, Range: 0.2000, Greatest Candle DateTime: 2024-06-17 00:00:00
+
+[2024-07-24 19:44:55] LTC/USDT (BINANCE:LTCUSDT) Timeframe: 1d, Current price: 72.6500
+Symbol: LTC/USDT, Timeframe: 1d, Open: 293.9800, Close: 185.9300, High: 300.3100, Low: 147.0000, Range: 153.3100, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:55] ADX/USDT (BINANCE:ADXUSDT) Timeframe: 1d, Current price: 0.1639
+Symbol: ADX/USDT, Timeframe: 1d, Open: 0.5348, Close: 1.1633, High: 1.9266, Low: 0.5348, Range: 1.3918, Greatest Candle DateTime: 2021-10-29 00:00:00
+
+[2024-07-24 19:44:55] POND/USDT (BINANCE:PONDUSDT) Timeframe: 1d, Current price: 0.0167
+Symbol: POND/USDT, Timeframe: 1d, Open: 0.2227, Close: 0.2608, High: 0.3180, Low: 0.2075, Range: 0.1105, Greatest Candle DateTime: 2021-04-05 00:00:00
+
+[2024-07-24 19:44:55] PEOPLE/USDT (BINANCE:PEOPLEUSDT) Timeframe: 1d, Current price: 0.0818
+Symbol: PEOPLE/USDT, Timeframe: 1d, Open: 0.0134, Close: 0.0219, High: 0.0729, Low: 0.0106, Range: 0.0624, Greatest Candle DateTime: 2024-01-03 00:00:00
+
+[2024-07-24 19:44:55] VIB/USDT (BINANCE:VIBUSDT) Timeframe: 1d, Current price: 0.0715
+Symbol: VIB/USDT, Timeframe: 1d, Open: 0.0838, Close: 0.1368, High: 0.1567, Low: 0.0824, Range: 0.0743, Greatest Candle DateTime: 2024-03-08 00:00:00
+
+[2024-07-24 19:44:55] NEXO/USDT (BINANCE:NEXOUSDT) Timeframe: 1d, Current price: 1.2140
+Symbol: NEXO/USDT, Timeframe: 1d, Open: 2.2000, Close: 2.3440, High: 5.0500, Low: 2.1040, Range: 2.9460, Greatest Candle DateTime: 2022-04-29 00:00:00
+
+[2024-07-24 19:44:55] MBL/USDT (BINANCE:MBLUSDT) Timeframe: 1d, Current price: 0.0027
+Symbol: MBL/USDT, Timeframe: 1d, Open: 0.0302, Close: 0.0347, High: 0.0434, Low: 0.0302, Range: 0.0132, Greatest Candle DateTime: 2021-04-02 00:00:00
+
+[2024-07-24 19:44:55] KAVA/USDT (BINANCE:KAVAUSDT) Timeframe: 1d, Current price: 0.4071
+Symbol: KAVA/USDT, Timeframe: 1d, Open: 5.0411, Close: 3.1498, High: 5.0798, Low: 2.1090, Range: 2.9708, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:55] IRIS/USDT (BINANCE:IRISUSDT) Timeframe: 1d, Current price: 0.0131
+Symbol: IRIS/USDT, Timeframe: 1d, Open: 0.2090, Close: 0.2687, High: 0.3200, Low: 0.1898, Range: 0.1302, Greatest Candle DateTime: 2021-04-11 00:00:00
+
+[2024-07-24 19:44:56] BAT/USDT (BINANCE:BATUSDT) Timeframe: 1d, Current price: 0.1957
+Symbol: BAT/USDT, Timeframe: 1d, Open: 0.8533, Close: 1.2418, High: 1.4685, Low: 0.7863, Range: 0.6822, Greatest Candle DateTime: 2021-10-30 00:00:00
+
+[2024-07-24 19:44:56] FOR/USDT (BINANCE:FORUSDT) Timeframe: 1d, Current price: 0.0133
+Symbol: FOR/USDT, Timeframe: 1d, Open: 0.0598, Close: 0.0965, High: 0.1396, Low: 0.0598, Range: 0.0798, Greatest Candle DateTime: 2021-08-20 00:00:00
+
+[2024-07-24 19:44:56] MANTA/USDT (BINANCE:MANTAUSDT) Timeframe: 1d, Current price: 0.9490
+Symbol: MANTA/USDT, Timeframe: 1d, Open: 0.0500, Close: 2.1709, High: 3.3330, Low: 0.0500, Range: 3.2830, Greatest Candle DateTime: 2024-01-18 00:00:00
+
+[2024-07-24 19:44:56] WBETH/USDT (BINANCE:WBETHUSDT) Timeframe: 1d, Current price: 3536.7600
+Symbol: WBETH/USDT, Timeframe: 1d, Open: 1913.1500, Close: 1906.3400, High: 7666.6600, Low: 1901.4200, Range: 5765.2400, Greatest Candle DateTime: 2023-07-19 00:00:00
+
+[2024-07-24 19:44:56] LISTA/USDT (BINANCE:LISTAUSDT) Timeframe: 1d, Current price: 0.5708
+Symbol: LISTA/USDT, Timeframe: 1d, Open: 0.0200, Close: 0.6729, High: 0.8161, Low: 0.0200, Range: 0.7961, Greatest Candle DateTime: 2024-06-20 00:00:00
+
+[2024-07-24 19:44:56] OOKI/USDT (BINANCE:OOKIUSDT) Timeframe: 1d, Current price: 0.0016
+Symbol: OOKI/USDT, Timeframe: 1d, Open: 0.0216, Close: 0.0437, High: 1.8000, Low: 0.0100, Range: 1.7900, Greatest Candle DateTime: 2021-12-24 00:00:00
+
+[2024-07-24 19:44:56] SC/USDT (BINANCE:SCUSDT) Timeframe: 1d, Current price: 0.0053
+Symbol: SC/USDT, Timeframe: 1d, Open: 0.0426, Close: 0.0529, High: 0.0640, Low: 0.0426, Range: 0.0214, Greatest Candle DateTime: 2021-04-17 00:00:00
+
+[2024-07-24 19:44:57] ALT/USDT (BINANCE:ALTUSDT) Timeframe: 1d, Current price: 0.1429
+Symbol: ALT/USDT, Timeframe: 1d, Open: 0.0060, Close: 0.3227, High: 0.3500, Low: 0.0060, Range: 0.3440, Greatest Candle DateTime: 2024-01-25 00:00:00
+
+[2024-07-24 19:44:57] SSV/USDT (BINANCE:SSVUSDT) Timeframe: 1d, Current price: 32.2000
+Symbol: SSV/USDT, Timeframe: 1d, Open: 36.4600, Close: 37.8500, High: 98.0000, Low: 35.9000, Range: 62.1000, Greatest Candle DateTime: 2023-02-24 00:00:00
+
+[2024-07-24 19:44:57] REI/USDT (BINANCE:REIUSDT) Timeframe: 1d, Current price: 0.0507
+Symbol: REI/USDT, Timeframe: 1d, Open: 0.3237, Close: 0.1653, High: 0.3552, Low: 0.1600, Range: 0.1952, Greatest Candle DateTime: 2024-03-29 00:00:00
+
+[2024-07-24 19:44:57] WLD/USDT (BINANCE:WLDUSDT) Timeframe: 1d, Current price: 2.2350
+Symbol: WLD/USDT, Timeframe: 1d, Open: 0.1500, Close: 2.1610, High: 5.2900, Low: 0.1500, Range: 5.1400, Greatest Candle DateTime: 2023-07-24 00:00:00
+
+[2024-07-24 19:44:57] AUCTION/USDT (BINANCE:AUCTIONUSDT) Timeframe: 1d, Current price: 16.2100
+Symbol: AUCTION/USDT, Timeframe: 1d, Open: 44.5300, Close: 31.4800, High: 47.2000, Low: 30.9700, Range: 16.2300, Greatest Candle DateTime: 2023-12-28 00:00:00
+
+[2024-07-24 19:44:57] SPELL/USDT (BINANCE:SPELLUSDT) Timeframe: 1d, Current price: 0.0007
+Symbol: SPELL/USDT, Timeframe: 1d, Open: 0.0220, Close: 0.0261, High: 0.0281, Low: 0.0210, Range: 0.0071, Greatest Candle DateTime: 2021-12-27 00:00:00
+
+[2024-07-24 19:44:57] QTUM/USDT (BINANCE:QTUMUSDT) Timeframe: 1d, Current price: 2.6270
+Symbol: QTUM/USDT, Timeframe: 1d, Open: 24.7760, Close: 26.7320, High: 35.6850, Low: 23.1500, Range: 12.5350, Greatest Candle DateTime: 2021-05-07 00:00:00
+
+[2024-07-24 19:44:57] COS/USDT (BINANCE:COSUSDT) Timeframe: 1d, Current price: 0.0080
+Symbol: COS/USDT, Timeframe: 1d, Open: 0.0244, Close: 0.0497, High: 0.0650, Low: 0.0227, Range: 0.0423, Greatest Candle DateTime: 2021-12-03 00:00:00
+
+[2024-07-24 19:44:57] ZRO/USDT (BINANCE:ZROUSDT) Timeframe: 1d, Current price: 4.8190
+Symbol: ZRO/USDT, Timeframe: 1d, Open: 1.0000, Close: 3.4320, High: 5.6200, Low: 1.0000, Range: 4.6200, Greatest Candle DateTime: 2024-06-20 00:00:00
+
+[2024-07-24 19:44:57] DEGO/USDT (BINANCE:DEGOUSDT) Timeframe: 1d, Current price: 1.5410
+Symbol: DEGO/USDT, Timeframe: 1d, Open: 19.7240, Close: 25.5100, High: 34.7000, Low: 19.6890, Range: 15.0110, Greatest Candle DateTime: 2021-03-14 00:00:00
+
+[2024-07-24 19:44:58] REQ/USDT (BINANCE:REQUSDT) Timeframe: 1d, Current price: 0.1060
+Symbol: REQ/USDT, Timeframe: 1d, Open: 0.2048, Close: 0.7793, High: 0.9800, Low: 0.2048, Range: 0.7752, Greatest Candle DateTime: 2021-11-25 00:00:00
+
+[2024-07-24 19:44:58] KMD/USDT (BINANCE:KMDUSDT) Timeframe: 1d, Current price: 0.2752
+Symbol: KMD/USDT, Timeframe: 1d, Open: 2.5507, Close: 3.8864, High: 3.9400, Low: 2.5407, Range: 1.3993, Greatest Candle DateTime: 2021-04-07 00:00:00
+
+[2024-07-24 19:44:58] COTI/USDT (BINANCE:COTIUSDT) Timeframe: 1d, Current price: 0.1121
+Symbol: COTI/USDT, Timeframe: 1d, Open: 0.3279, Close: 0.4410, High: 0.6000, Low: 0.3211, Range: 0.2788, Greatest Candle DateTime: 2021-03-08 00:00:00
+
+[2024-07-24 19:44:58] JUP/USDT (BINANCE:JUPUSDT) Timeframe: 1d, Current price: 1.0165
+Symbol: JUP/USDT, Timeframe: 1d, Open: 0.0300, Close: 0.6617, High: 0.8720, Low: 0.0300, Range: 0.8420, Greatest Candle DateTime: 2024-01-31 00:00:00
+
+[2024-07-24 19:44:58] ARPA/USDT (BINANCE:ARPAUSDT) Timeframe: 1d, Current price: 0.0412
+Symbol: ARPA/USDT, Timeframe: 1d, Open: 0.1442, Close: 0.1899, High: 0.2427, Low: 0.1422, Range: 0.1005, Greatest Candle DateTime: 2021-11-02 00:00:00
+
+[2024-07-24 19:44:58] GRT/USDT (BINANCE:GRTUSDT) Timeframe: 1d, Current price: 0.1980
+Symbol: GRT/USDT, Timeframe: 1d, Open: 1.2684, Close: 2.0371, High: 2.2000, Low: 1.1974, Range: 1.0026, Greatest Candle DateTime: 2021-02-11 00:00:00
+
+[2024-07-24 19:44:58] LQTY/USDT (BINANCE:LQTYUSDT) Timeframe: 1d, Current price: 0.8010
+Symbol: LQTY/USDT, Timeframe: 1d, Open: 1.0000, Close: 2.1660, High: 2.8670, Low: 1.0000, Range: 1.8670, Greatest Candle DateTime: 2023-02-28 00:00:00
+
+[2024-07-24 19:44:58] DAR/USDT (BINANCE:DARUSDT) Timeframe: 1d, Current price: 0.1873
+Symbol: DAR/USDT, Timeframe: 1d, Open: 0.0230, Close: 3.3043, High: 16.8000, Low: 0.0230, Range: 16.7770, Greatest Candle DateTime: 2021-11-04 00:00:00
+
+[2024-07-24 19:44:58] FDUSD/USDT (BINANCE:FDUSDUSDT) Timeframe: 1d, Current price: 0.9994
+Symbol: FDUSD/USDT, Timeframe: 1d, Open: 0.9978, Close: 0.9964, High: 0.9984, Low: 0.9200, Range: 0.0784, Greatest Candle DateTime: 2024-03-05 00:00:00
+
+[2024-07-24 19:44:58] G/USDT (BINANCE:GUSDT) Timeframe: 1d, Current price: 0.0511
+Symbol: G/USDT, Timeframe: 1d, Open: 0.0424, Close: 0.0641, High: 0.0800, Low: 0.0424, Range: 0.0376, Greatest Candle DateTime: 2024-07-19 00:00:00
+
+[2024-07-24 19:44:59] ALICE/USDT (BINANCE:ALICEUSDT) Timeframe: 1d, Current price: 1.1610
+Symbol: ALICE/USDT, Timeframe: 1d, Open: 0.1000, Close: 20.7403, High: 60.0000, Low: 0.1000, Range: 59.9000, Greatest Candle DateTime: 2021-03-15 00:00:00
+
+[2024-07-24 19:44:59] PYTH/USDT (BINANCE:PYTHUSDT) Timeframe: 1d, Current price: 0.3582
+Symbol: PYTH/USDT, Timeframe: 1d, Open: 0.5898, Close: 0.7324, High: 0.8365, Low: 0.5810, Range: 0.2555, Greatest Candle DateTime: 2024-02-27 00:00:00
+
+[2024-07-24 19:44:59] ZEN/USDT (BINANCE:ZENUSDT) Timeframe: 1d, Current price: 11.5000
+Symbol: ZEN/USDT, Timeframe: 1d, Open: 115.1000, Close: 72.4700, High: 117.8500, Low: 53.3300, Range: 64.5200, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:59] ADA/USDT (BINANCE:ADAUSDT) Timeframe: 1d, Current price: 0.4120
+Symbol: ADA/USDT, Timeframe: 1d, Open: 2.0036, Close: 1.4663, High: 2.0317, Low: 1.0100, Range: 1.0217, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:59] ZEC/USDT (BINANCE:ZECUSDT) Timeframe: 1d, Current price: 29.9300
+Symbol: ZEC/USDT, Timeframe: 1d, Open: 254.9900, Close: 146.2200, High: 262.9500, Low: 100.0000, Range: 162.9500, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:44:59] GHST/USDT (BINANCE:GHSTUSDT) Timeframe: 1d, Current price: 1.0640
+Symbol: GHST/USDT, Timeframe: 1d, Open: 1.9440, Close: 3.2270, High: 3.8670, Low: 1.9150, Range: 1.9520, Greatest Candle DateTime: 2024-04-01 00:00:00
+
+[2024-07-24 19:44:59] SEI/USDT (BINANCE:SEIUSDT) Timeframe: 1d, Current price: 0.3649
+Symbol: SEI/USDT, Timeframe: 1d, Open: 0.0640, Close: 0.1789, High: 0.4800, Low: 0.0640, Range: 0.4160, Greatest Candle DateTime: 2023-08-15 00:00:00
+
+[2024-07-24 19:44:59] IOTX/USDT (BINANCE:IOTXUSDT) Timeframe: 1d, Current price: 0.0458
+Symbol: IOTX/USDT, Timeframe: 1d, Open: 0.1072, Close: 0.2368, High: 0.2488, Low: 0.1072, Range: 0.1416, Greatest Candle DateTime: 2021-11-10 00:00:00
+
+[2024-07-24 19:44:59] BANANA/USDT (BINANCE:BANANAUSDT) Timeframe: 1d, Current price: 61.1500
+Symbol: BANANA/USDT, Timeframe: 1d, Open: 40.0000, Close: 64.1700, High: 78.6800, Low: 40.0000, Range: 38.6800, Greatest Candle DateTime: 2024-07-20 00:00:00
+
+[2024-07-24 19:44:59] LDO/USDT (BINANCE:LDOUSDT) Timeframe: 1d, Current price: 1.6710
+Symbol: LDO/USDT, Timeframe: 1d, Open: 2.8100, Close: 2.0000, High: 3.8900, Low: 1.8020, Range: 2.0880, Greatest Candle DateTime: 2022-05-09 00:00:00
+
+[2024-07-24 19:44:59] MASK/USDT (BINANCE:MASKUSDT) Timeframe: 1d, Current price: 2.3400
+Symbol: MASK/USDT, Timeframe: 1d, Open: 9.4960, Close: 10.6040, High: 18.4590, Low: 9.4070, Range: 9.0520, Greatest Candle DateTime: 2021-10-27 00:00:00
+
+[2024-07-24 19:44:59] BNX/USDT (BINANCE:BNXUSDT) Timeframe: 1d, Current price: 1.4647
+Symbol: BNX/USDT, Timeframe: 1d, Open: 109.7000, Close: 131.4000, High: 230.0000, Low: 109.7000, Range: 120.3000, Greatest Candle DateTime: 2021-11-04 00:00:00
+
+[2024-07-24 19:45:00] AMB/USDT (BINANCE:AMBUSDT) Timeframe: 1d, Current price: 0.0060
+Symbol: AMB/USDT, Timeframe: 1d, Open: 0.0243, Close: 0.0217, High: 0.0273, Low: 0.0051, Range: 0.0222, Greatest Candle DateTime: 2023-03-03 00:00:00
+
+[2024-07-24 19:45:00] JUV/USDT (BINANCE:JUVUSDT) Timeframe: 1d, Current price: 1.8040
+Symbol: JUV/USDT, Timeframe: 1d, Open: 14.6600, Close: 25.2000, High: 43.4300, Low: 12.0000, Range: 31.4300, Greatest Candle DateTime: 2020-12-21 00:00:00
+
+[2024-07-24 19:45:00] RONIN/USDT (BINANCE:RONINUSDT) Timeframe: 1d, Current price: 2.1750
+Symbol: RONIN/USDT, Timeframe: 1d, Open: 3.6640, Close: 3.1850, High: 3.7150, Low: 2.8200, Range: 0.8950, Greatest Candle DateTime: 2024-04-12 00:00:00
+
+[2024-07-24 19:45:00] JOE/USDT (BINANCE:JOEUSDT) Timeframe: 1d, Current price: 0.3760
+Symbol: JOE/USDT, Timeframe: 1d, Open: 2.2100, Close: 2.3640, High: 2.7900, Low: 2.2020, Range: 0.5880, Greatest Candle DateTime: 2021-12-28 00:00:00
+
+[2024-07-24 19:45:00] JST/USDT (BINANCE:JSTUSDT) Timeframe: 1d, Current price: 0.0287
+Symbol: JST/USDT, Timeframe: 1d, Open: 0.1000, Close: 0.1331, High: 0.1499, Low: 0.0969, Range: 0.0530, Greatest Candle DateTime: 2021-03-31 00:00:00
+
+[2024-07-24 19:45:00] EPX/USDT (BINANCE:EPXUSDT) Timeframe: 1d, Current price: 0.0001
+Symbol: EPX/USDT, Timeframe: 1d, Open: 0.0020, Close: 0.0017, High: 0.0032, Low: 0.0016, Range: 0.0016, Greatest Candle DateTime: 2022-05-23 00:00:00
+
+[2024-07-24 19:45:00] CYBER/USDT (BINANCE:CYBERUSDT) Timeframe: 1d, Current price: 4.2480
+Symbol: CYBER/USDT, Timeframe: 1d, Open: 1.4400, Close: 4.6870, High: 17.7900, Low: 1.4400, Range: 16.3500, Greatest Candle DateTime: 2023-08-15 00:00:00
+
+[2024-07-24 19:45:01] LINA/USDT (BINANCE:LINAUSDT) Timeframe: 1d, Current price: 0.0055
+Symbol: LINA/USDT, Timeframe: 1d, Open: 0.0850, Close: 0.2054, High: 1.0000, Low: 0.0850, Range: 0.9150, Greatest Candle DateTime: 2021-03-18 00:00:00
+
+[2024-07-24 19:45:01] INJ/USDT (BINANCE:INJUSDT) Timeframe: 1d, Current price: 24.4300
+Symbol: INJ/USDT, Timeframe: 1d, Open: 42.5900, Close: 51.8500, High: 52.1700, Low: 41.3000, Range: 10.8700, Greatest Candle DateTime: 2024-03-12 00:00:00
+
+[2024-07-24 19:45:01] IOST/USDT (BINANCE:IOSTUSDT) Timeframe: 1d, Current price: 0.0061
+Symbol: IOST/USDT, Timeframe: 1d, Open: 0.0541, Close: 0.0787, High: 0.0820, Low: 0.0514, Range: 0.0306, Greatest Candle DateTime: 2021-09-08 00:00:00
+
+[2024-07-24 19:45:01] SNX/USDT (BINANCE:SNXUSDT) Timeframe: 1d, Current price: 1.7280
+Symbol: SNX/USDT, Timeframe: 1d, Open: 23.3810, Close: 14.3010, High: 24.0500, Low: 10.6640, Range: 13.3860, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:01] XRP/USDT (BINANCE:XRPUSDT) Timeframe: 1d, Current price: 0.6241
+Symbol: XRP/USDT, Timeframe: 1d, Open: 1.5893, Close: 1.0568, High: 1.6448, Low: 0.8500, Range: 0.7948, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:01] WAXP/USDT (BINANCE:WAXPUSDT) Timeframe: 1d, Current price: 0.0392
+Symbol: WAXP/USDT, Timeframe: 1d, Open: 0.1852, Close: 0.3946, High: 0.6120, Low: 0.1852, Range: 0.4268, Greatest Candle DateTime: 2021-08-23 00:00:00
+
+[2024-07-24 19:45:01] RLC/USDT (BINANCE:RLCUSDT) Timeframe: 1d, Current price: 1.7970
+Symbol: RLC/USDT, Timeframe: 1d, Open: 10.0535, Close: 11.5462, High: 16.5000, Low: 8.9441, Range: 7.5559, Greatest Candle DateTime: 2021-05-10 00:00:00
+
+[2024-07-24 19:45:01] DYM/USDT (BINANCE:DYMUSDT) Timeframe: 1d, Current price: 1.6700
+Symbol: DYM/USDT, Timeframe: 1d, Open: 0.2000, Close: 4.9240, High: 6.3210, Low: 0.2000, Range: 6.1210, Greatest Candle DateTime: 2024-02-06 00:00:00
+
+[2024-07-24 19:45:01] MOVR/USDT (BINANCE:MOVRUSDT) Timeframe: 1d, Current price: 11.0340
+Symbol: MOVR/USDT, Timeframe: 1d, Open: 386.2000, Close: 394.1000, High: 540.0000, Low: 386.2000, Range: 153.8000, Greatest Candle DateTime: 2021-11-08 00:00:00
+
+[2024-07-24 19:45:01] OP/USDT (BINANCE:OPUSDT) Timeframe: 1d, Current price: 1.7960
+Symbol: OP/USDT, Timeframe: 1d, Open: 1.4400, Close: 1.2320, High: 2.2000, Low: 1.0390, Range: 1.1610, Greatest Candle DateTime: 2022-06-01 00:00:00
+
+[2024-07-24 19:45:01] MTL/USDT (BINANCE:MTLUSDT) Timeframe: 1d, Current price: 1.0760
+Symbol: MTL/USDT, Timeframe: 1d, Open: 1.8826, Close: 6.0244, High: 10.3637, Low: 1.8821, Range: 8.4816, Greatest Candle DateTime: 2021-03-29 00:00:00
+
+[2024-07-24 19:45:01] ACH/USDT (BINANCE:ACHUSDT) Timeframe: 1d, Current price: 0.0250
+Symbol: ACH/USDT, Timeframe: 1d, Open: 0.0646, Close: 0.0812, High: 0.0980, Low: 0.0646, Range: 0.0334, Greatest Candle DateTime: 2022-01-10 00:00:00
+
+[2024-07-24 19:45:01] ARK/USDT (BINANCE:ARKUSDT) Timeframe: 1d, Current price: 0.3782
+Symbol: ARK/USDT, Timeframe: 1d, Open: 0.4729, Close: 0.6122, High: 2.3645, Low: 0.4729, Range: 1.8916, Greatest Candle DateTime: 2023-09-22 00:00:00
+
+[2024-07-24 19:45:02] STPT/USDT (BINANCE:STPTUSDT) Timeframe: 1d, Current price: 0.0456
+Symbol: STPT/USDT, Timeframe: 1d, Open: 0.1481, Close: 0.1907, High: 0.2938, Low: 0.1160, Range: 0.1778, Greatest Candle DateTime: 2021-10-06 00:00:00
+
+[2024-07-24 19:45:02] LPT/USDT (BINANCE:LPTUSDT) Timeframe: 1d, Current price: 15.3990
+Symbol: LPT/USDT, Timeframe: 1d, Open: 49.3700, Close: 71.6300, High: 101.8000, Low: 46.0200, Range: 55.7800, Greatest Candle DateTime: 2021-11-09 00:00:00
+
+[2024-07-24 19:45:02] USTC/USDT (BINANCE:USTCUSDT) Timeframe: 1d, Current price: 0.0200
+Symbol: USTC/USDT, Timeframe: 1d, Open: 0.0402, Close: 0.0452, High: 0.0780, Low: 0.0303, Range: 0.0477, Greatest Candle DateTime: 2023-11-27 00:00:00
+
+[2024-07-24 19:45:03] PSG/USDT (BINANCE:PSGUSDT) Timeframe: 1d, Current price: 2.6880
+Symbol: PSG/USDT, Timeframe: 1d, Open: 12.8800, Close: 29.9360, High: 43.5000, Low: 10.0000, Range: 33.5000, Greatest Candle DateTime: 2020-12-21 00:00:00
+
+[2024-07-24 19:45:03] PERP/USDT (BINANCE:PERPUSDT) Timeframe: 1d, Current price: 0.6434
+Symbol: PERP/USDT, Timeframe: 1d, Open: 9.3800, Close: 9.6130, High: 17.6000, Low: 9.3800, Range: 8.2200, Greatest Candle DateTime: 2021-03-19 00:00:00
+
+[2024-07-24 19:45:03] AUDIO/USDT (BINANCE:AUDIOUSDT) Timeframe: 1d, Current price: 0.1418
+Symbol: AUDIO/USDT, Timeframe: 1d, Open: 2.9920, Close: 4.0300, High: 4.9900, Low: 2.9173, Range: 2.0728, Greatest Candle DateTime: 2021-03-27 00:00:00
+
+[2024-07-24 19:45:03] PIXEL/USDT (BINANCE:PIXELUSDT) Timeframe: 1d, Current price: 0.1999
+Symbol: PIXEL/USDT, Timeframe: 1d, Open: 0.0400, Close: 0.5475, High: 0.6947, Low: 0.0400, Range: 0.6547, Greatest Candle DateTime: 2024-02-19 00:00:00
+
+[2024-07-24 19:45:03] LEVER/USDT (BINANCE:LEVERUSDT) Timeframe: 1d, Current price: 0.0022
+Symbol: LEVER/USDT, Timeframe: 1d, Open: 0.0013, Close: 0.0029, High: 0.0042, Low: 0.0013, Range: 0.0029, Greatest Candle DateTime: 2022-07-14 00:00:00
+
+[2024-07-24 19:45:03] IMX/USDT (BINANCE:IMXUSDT) Timeframe: 1d, Current price: 1.5190
+Symbol: IMX/USDT, Timeframe: 1d, Open: 2.8610, Close: 2.7790, High: 3.8900, Low: 2.6060, Range: 1.2840, Greatest Candle DateTime: 2022-02-08 00:00:00
+
+[2024-07-24 19:45:03] CELR/USDT (BINANCE:CELRUSDT) Timeframe: 1d, Current price: 0.0139
+Symbol: CELR/USDT, Timeframe: 1d, Open: 0.1393, Close: 0.1785, High: 0.1920, Low: 0.1194, Range: 0.0726, Greatest Candle DateTime: 2021-09-24 00:00:00
+
+[2024-07-24 19:45:03] CITY/USDT (BINANCE:CITYUSDT) Timeframe: 1d, Current price: 2.1480
+Symbol: CITY/USDT, Timeframe: 1d, Open: 14.4400, Close: 16.3600, High: 53.0000, Low: 14.4400, Range: 38.5600, Greatest Candle DateTime: 2021-11-10 00:00:00
+
+[2024-07-24 19:45:03] GAS/USDT (BINANCE:GASUSDT) Timeframe: 1d, Current price: 3.7710
+Symbol: GAS/USDT, Timeframe: 1d, Open: 22.7350, Close: 10.8850, High: 23.2620, Low: 10.6330, Range: 12.6290, Greatest Candle DateTime: 2023-11-11 00:00:00
+
+[2024-07-24 19:45:03] CREAM/USDT (BINANCE:CREAMUSDT) Timeframe: 1d, Current price: 36.2500
+Symbol: CREAM/USDT, Timeframe: 1d, Open: 11.4900, Close: 11.4700, High: 57.4500, Low: 11.1200, Range: 46.3300, Greatest Candle DateTime: 2023-09-22 00:00:00
+
+[2024-07-24 19:45:04] STRK/USDT (BINANCE:STRKUSDT) Timeframe: 1d, Current price: 0.5590
+Symbol: STRK/USDT, Timeframe: 1d, Open: 0.2000, Close: 1.9650, High: 7.7100, Low: 0.2000, Range: 7.5100, Greatest Candle DateTime: 2024-02-20 00:00:00
+
+[2024-07-24 19:45:04] STG/USDT (BINANCE:STGUSDT) Timeframe: 1d, Current price: 0.3760
+Symbol: STG/USDT, Timeframe: 1d, Open: 0.3364, Close: 0.8429, High: 0.9400, Low: 0.3364, Range: 0.6036, Greatest Candle DateTime: 2022-08-19 00:00:00
+
+[2024-07-24 19:45:04] EOS/USDT (BINANCE:EOSUSDT) Timeframe: 1d, Current price: 0.6027
+Symbol: EOS/USDT, Timeframe: 1d, Open: 9.2654, Close: 14.5164, High: 14.5287, Low: 8.7740, Range: 5.7547, Greatest Candle DateTime: 2021-05-11 00:00:00
+
+[2024-07-24 19:45:05] GLM/USDT (BINANCE:GLMUSDT) Timeframe: 1d, Current price: 0.3515
+Symbol: GLM/USDT, Timeframe: 1d, Open: 0.2512, Close: 0.2599, High: 0.6998, Low: 0.2445, Range: 0.4553, Greatest Candle DateTime: 2023-03-17 00:00:00
+
+[2024-07-24 19:45:05] ENS/USDT (BINANCE:ENSUSDT) Timeframe: 1d, Current price: 27.0700
+Symbol: ENS/USDT, Timeframe: 1d, Open: 43.6600, Close: 73.8200, High: 120.0000, Low: 43.6600, Range: 76.3400, Greatest Candle DateTime: 2021-11-10 00:00:00
+
+[2024-07-24 19:45:05] GLMR/USDT (BINANCE:GLMRUSDT) Timeframe: 1d, Current price: 0.1995
+Symbol: GLMR/USDT, Timeframe: 1d, Open: 0.2500, Close: 11.9991, High: 51.0000, Low: 0.2500, Range: 50.7500, Greatest Candle DateTime: 2022-01-11 00:00:00
+
+[2024-07-24 19:45:05] GFT/USDT (BINANCE:GFTUSDT) Timeframe: 1d, Current price: 0.0200
+Symbol: GFT/USDT, Timeframe: 1d, Open: 0.0134, Close: 0.0140, High: 0.0390, Low: 0.0113, Range: 0.0277, Greatest Candle DateTime: 2023-09-22 00:00:00
+
+[2024-07-24 19:45:05] LUNC/USDT (BINANCE:LUNCUSDT) Timeframe: 1d, Current price: 0.0001
+Symbol: LUNC/USDT, Timeframe: 1d, Open: 0.0005, Close: 0.0004, High: 0.0006, Low: 0.0004, Range: 0.0003, Greatest Candle DateTime: 2022-09-09 00:00:00
+
+[2024-07-24 19:45:05] CTK/USDT (BINANCE:CTKUSDT) Timeframe: 1d, Current price: 0.7414
+Symbol: CTK/USDT, Timeframe: 1d, Open: 0.7700, Close: 1.3644, High: 4.8000, Low: 0.7700, Range: 4.0300, Greatest Candle DateTime: 2020-10-27 00:00:00
+
+[2024-07-24 19:45:05] GNO/USDT (BINANCE:GNOUSDT) Timeframe: 1d, Current price: 234.4000
+Symbol: GNO/USDT, Timeframe: 1d, Open: 403.7000, Close: 456.8000, High: 573.5000, Low: 401.8000, Range: 171.7000, Greatest Candle DateTime: 2022-03-28 00:00:00
+
+[2024-07-24 19:45:06] CTXC/USDT (BINANCE:CTXCUSDT) Timeframe: 1d, Current price: 0.1450
+Symbol: CTXC/USDT, Timeframe: 1d, Open: 0.2982, Close: 0.8674, High: 1.3801, Low: 0.2717, Range: 1.1084, Greatest Candle DateTime: 2021-12-03 00:00:00
+
+[2024-07-24 19:45:06] PORTAL/USDT (BINANCE:PORTALUSDT) Timeframe: 1d, Current price: 0.3869
+Symbol: PORTAL/USDT, Timeframe: 1d, Open: 0.0500, Close: 2.3980, High: 4.3000, Low: 0.0500, Range: 4.2500, Greatest Candle DateTime: 2024-02-29 00:00:00
+
+[2024-07-24 19:45:06] TUSD/USDT (BINANCE:TUSDUSDT) Timeframe: 1d, Current price: 1.0012
+Symbol: TUSD/USDT, Timeframe: 1d, Open: 0.9993, Close: 0.9973, High: 3.0000, Low: 0.9860, Range: 2.0140, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:06] PROM/USDT (BINANCE:PROMUSDT) Timeframe: 1d, Current price: 6.8090
+Symbol: PROM/USDT, Timeframe: 1d, Open: 7.5670, Close: 12.6940, High: 14.9500, Low: 7.4800, Range: 7.4700, Greatest Candle DateTime: 2024-02-14 00:00:00
+
+[2024-07-24 19:45:06] XVG/USDT (BINANCE:XVGUSDT) Timeframe: 1d, Current price: 0.0043
+Symbol: XVG/USDT, Timeframe: 1d, Open: 0.0267, Close: 0.0331, High: 0.0800, Low: 0.0267, Range: 0.0533, Greatest Candle DateTime: 2021-06-06 00:00:00
+
+[2024-07-24 19:45:06] DASH/USDT (BINANCE:DASHUSDT) Timeframe: 1d, Current price: 26.8400
+Symbol: DASH/USDT, Timeframe: 1d, Open: 304.6400, Close: 189.0400, High: 310.4000, Low: 140.7300, Range: 169.6700, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:06] BEL/USDT (BINANCE:BELUSDT) Timeframe: 1d, Current price: 0.5333
+Symbol: BEL/USDT, Timeframe: 1d, Open: 0.7500, Close: 6.2073, High: 19.0000, Low: 0.7500, Range: 18.2500, Greatest Candle DateTime: 2020-09-15 00:00:00
+
+[2024-07-24 19:45:06] KP3R/USDT (BINANCE:KP3RUSDT) Timeframe: 1d, Current price: 55.0500
+Symbol: KP3R/USDT, Timeframe: 1d, Open: 1049.3500, Close: 1490.5700, High: 1542.2100, Low: 930.4200, Range: 611.7900, Greatest Candle DateTime: 2021-11-12 00:00:00
+
+[2024-07-24 19:45:06] CRV/USDT (BINANCE:CRVUSDT) Timeframe: 1d, Current price: 0.2654
+Symbol: CRV/USDT, Timeframe: 1d, Open: 5.0000, Close: 6.9100, High: 23.2550, Low: 5.0000, Range: 18.2550, Greatest Candle DateTime: 2020-08-15 00:00:00
+
+[2024-07-24 19:45:06] IQ/USDT (BINANCE:IQUSDT) Timeframe: 1d, Current price: 0.0063
+Symbol: IQ/USDT, Timeframe: 1d, Open: 0.0148, Close: 0.0156, High: 0.0244, Low: 0.0136, Range: 0.0108, Greatest Candle DateTime: 2024-03-10 00:00:00
+
+[2024-07-24 19:45:07] 1INCH/USDT (BINANCE:1INCHUSDT) Timeframe: 1d, Current price: 0.3855
+Symbol: 1INCH/USDT, Timeframe: 1d, Open: 3.9490, Close: 5.7200, High: 7.7300, Low: 3.9130, Range: 3.8170, Greatest Candle DateTime: 2021-10-27 00:00:00
+
+[2024-07-24 19:45:07] GMX/USDT (BINANCE:GMXUSDT) Timeframe: 1d, Current price: 30.1400
+Symbol: GMX/USDT, Timeframe: 1d, Open: 40.9100, Close: 50.9300, High: 67.0000, Low: 40.9100, Range: 26.0900, Greatest Candle DateTime: 2022-10-05 00:00:00
+
+[2024-07-24 19:45:07] SUPER/USDT (BINANCE:SUPERUSDT) Timeframe: 1d, Current price: 0.7183
+Symbol: SUPER/USDT, Timeframe: 1d, Open: 4.2030, Close: 3.5030, High: 4.7700, Low: 3.4560, Range: 1.3140, Greatest Candle DateTime: 2021-03-31 00:00:00
+
+[2024-07-24 19:45:07] LOKA/USDT (BINANCE:LOKAUSDT) Timeframe: 1d, Current price: 0.1818
+Symbol: LOKA/USDT, Timeframe: 1d, Open: 0.1600, Close: 2.3850, High: 3.8400, Low: 0.1600, Range: 3.6800, Greatest Candle DateTime: 2022-01-20 00:00:00
+
+[2024-07-24 19:45:07] PDA/USDT (BINANCE:PDAUSDT) Timeframe: 1d, Current price: 0.0643
+Symbol: PDA/USDT, Timeframe: 1d, Open: 0.2347, Close: 0.3152, High: 0.4250, Low: 0.2347, Range: 0.1903, Greatest Candle DateTime: 2024-03-01 00:00:00
+
+[2024-07-24 19:45:07] QKC/USDT (BINANCE:QKCUSDT) Timeframe: 1d, Current price: 0.0079
+Symbol: QKC/USDT, Timeframe: 1d, Open: 0.0165, Close: 0.0177, High: 0.0215, Low: 0.0164, Range: 0.0051, Greatest Candle DateTime: 2024-03-12 00:00:00
+
+[2024-07-24 19:45:07] BCH/USDT (BINANCE:BCHUSDT) Timeframe: 1d, Current price: 365.5000
+Symbol: BCH/USDT, Timeframe: 1d, Open: 1089.4300, Close: 694.5100, High: 1113.0600, Low: 490.0000, Range: 623.0600, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:07] DATA/USDT (BINANCE:DATAUSDT) Timeframe: 1d, Current price: 0.0360
+Symbol: DATA/USDT, Timeframe: 1d, Open: 0.0901, Close: 0.1403, High: 0.2586, Low: 0.0850, Range: 0.1736, Greatest Candle DateTime: 2021-06-09 00:00:00
+
+[2024-07-24 19:45:07] DENT/USDT (BINANCE:DENTUSDT) Timeframe: 1d, Current price: 0.0010
+Symbol: DENT/USDT, Timeframe: 1d, Open: 0.0193, Close: 0.0171, High: 0.0199, Low: 0.0131, Range: 0.0068, Greatest Candle DateTime: 2021-04-06 00:00:00
+
+[2024-07-24 19:45:08] IOTA/USDT (BINANCE:IOTAUSDT) Timeframe: 1d, Current price: 0.1689
+Symbol: IOTA/USDT, Timeframe: 1d, Open: 1.8862, Close: 1.1294, High: 1.9110, Low: 0.8300, Range: 1.0810, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:08] SCRT/USDT (BINANCE:SCRTUSDT) Timeframe: 1d, Current price: 0.2755
+Symbol: SCRT/USDT, Timeframe: 1d, Open: 7.3040, Close: 6.2490, High: 9.8000, Low: 4.6000, Range: 5.2000, Greatest Candle DateTime: 2022-01-21 00:00:00
+
+[2024-07-24 19:45:08] QI/USDT (BINANCE:QIUSDT) Timeframe: 1d, Current price: 0.0157
+Symbol: QI/USDT, Timeframe: 1d, Open: 0.1923, Close: 0.2582, High: 0.3823, Low: 0.1911, Range: 0.1912, Greatest Candle DateTime: 2021-11-21 00:00:00
+
+[2024-07-24 19:45:08] NTRN/USDT (BINANCE:NTRNUSDT) Timeframe: 1d, Current price: 0.4628
+Symbol: NTRN/USDT, Timeframe: 1d, Open: 1.5900, Close: 1.8462, High: 2.0102, Low: 1.5153, Range: 0.4949, Greatest Candle DateTime: 2024-02-15 00:00:00
+
+[2024-07-24 19:45:08] XEC/USDT (BINANCE:XECUSDT) Timeframe: 1d, Current price: 0.0000
+Symbol: XEC/USDT, Timeframe: 1d, Open: 0.0002, Close: 0.0003, High: 0.0004, Low: 0.0002, Range: 0.0002, Greatest Candle DateTime: 2021-09-03 00:00:00
+
+[2024-07-24 19:45:08] REEF/USDT (BINANCE:REEFUSDT) Timeframe: 1d, Current price: 0.0015
+Symbol: REEF/USDT, Timeframe: 1d, Open: 0.0013, Close: 0.0235, High: 0.3000, Low: 0.0013, Range: 0.2988, Greatest Candle DateTime: 2020-12-29 00:00:00
+
+[2024-07-24 19:45:08] AXL/USDT (BINANCE:AXLUSDT) Timeframe: 1d, Current price: 0.6646
+Symbol: AXL/USDT, Timeframe: 1d, Open: 1.2071, Close: 1.9738, High: 2.7700, Low: 1.2071, Range: 1.5629, Greatest Candle DateTime: 2024-03-01 00:00:00
+
+[2024-07-24 19:45:08] ATA/USDT (BINANCE:ATAUSDT) Timeframe: 1d, Current price: 0.0986
+Symbol: ATA/USDT, Timeframe: 1d, Open: 0.0414, Close: 1.5121, High: 4.5000, Low: 0.0414, Range: 4.4586, Greatest Candle DateTime: 2021-06-07 00:00:00
+
+[2024-07-24 19:45:08] WING/USDT (BINANCE:WINGUSDT) Timeframe: 1d, Current price: 4.8500
+Symbol: WING/USDT, Timeframe: 1d, Open: 20.0000, Close: 92.4960, High: 300.0000, Low: 20.0000, Range: 280.0000, Greatest Candle DateTime: 2020-09-16 00:00:00
+
+[2024-07-24 19:45:08] SAND/USDT (BINANCE:SANDUSDT) Timeframe: 1d, Current price: 0.3253
+Symbol: SAND/USDT, Timeframe: 1d, Open: 5.3495, Close: 7.4708, High: 8.0245, Low: 5.2450, Range: 2.7795, Greatest Candle DateTime: 2021-11-24 00:00:00
+
+[2024-07-24 19:45:09] POLYX/USDT (BINANCE:POLYXUSDT) Timeframe: 1d, Current price: 0.2698
+Symbol: POLYX/USDT, Timeframe: 1d, Open: 0.2397, Close: 0.3326, High: 0.5196, Low: 0.2397, Range: 0.2799, Greatest Candle DateTime: 2022-10-17 00:00:00
+
+[2024-07-24 19:45:09] UFT/USDT (BINANCE:UFTUSDT) Timeframe: 1d, Current price: 0.2590
+Symbol: UFT/USDT, Timeframe: 1d, Open: 0.6795, Close: 0.6237, High: 0.8437, Low: 0.6183, Range: 0.2254, Greatest Candle DateTime: 2024-03-18 00:00:00
+
+[2024-07-24 19:45:09] TROY/USDT (BINANCE:TROYUSDT) Timeframe: 1d, Current price: 0.0016
+Symbol: TROY/USDT, Timeframe: 1d, Open: 0.0094, Close: 0.0142, High: 0.0401, Low: 0.0090, Range: 0.0311, Greatest Candle DateTime: 2021-09-20 00:00:00
+
+[2024-07-24 19:45:09] CFX/USDT (BINANCE:CFXUSDT) Timeframe: 1d, Current price: 0.1589
+Symbol: CFX/USDT, Timeframe: 1d, Open: 0.2622, Close: 0.6319, High: 0.8389, Low: 0.2536, Range: 0.5853, Greatest Candle DateTime: 2021-09-18 00:00:00
+
+[2024-07-24 19:45:09] PORTO/USDT (BINANCE:PORTOUSDT) Timeframe: 1d, Current price: 1.4640
+Symbol: PORTO/USDT, Timeframe: 1d, Open: 1.0000, Close: 8.3030, High: 41.1100, Low: 1.0000, Range: 40.1100, Greatest Candle DateTime: 2021-11-16 00:00:00
+
+[2024-07-24 19:45:09] API3/USDT (BINANCE:API3USDT) Timeframe: 1d, Current price: 1.8920
+Symbol: API3/USDT, Timeframe: 1d, Open: 6.0070, Close: 7.4540, High: 9.7620, Low: 6.0010, Range: 3.7610, Greatest Candle DateTime: 2022-02-19 00:00:00
+
+[2024-07-24 19:45:09] XLM/USDT (BINANCE:XLMUSDT) Timeframe: 1d, Current price: 0.1039
+Symbol: XLM/USDT, Timeframe: 1d, Open: 0.6455, Close: 0.4431, High: 0.6558, Low: 0.2850, Range: 0.3708, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:09] WIF/USDT (BINANCE:WIFUSDT) Timeframe: 1d, Current price: 2.5870
+Symbol: WIF/USDT, Timeframe: 1d, Open: 3.4561, Close: 2.6583, High: 3.5620, Low: 2.4048, Range: 1.1572, Greatest Candle DateTime: 2024-04-12 00:00:00
+
+[2024-07-24 19:45:10] APT/USDT (BINANCE:APTUSDT) Timeframe: 1d, Current price: 6.9800
+Symbol: APT/USDT, Timeframe: 1d, Open: 1.0000, Close: 7.3207, High: 100.0000, Low: 1.0000, Range: 99.0000, Greatest Candle DateTime: 2022-10-19 00:00:00
+
+[2024-07-24 19:45:10] ID/USDT (BINANCE:IDUSDT) Timeframe: 1d, Current price: 0.4575
+Symbol: ID/USDT, Timeframe: 1d, Open: 0.0250, Close: 0.4065, High: 2.5000, Low: 0.0250, Range: 2.4750, Greatest Candle DateTime: 2023-03-22 00:00:00
+
+[2024-07-24 19:45:10] OG/USDT (BINANCE:OGUSDT) Timeframe: 1d, Current price: 3.1210
+Symbol: OG/USDT, Timeframe: 1d, Open: 13.8800, Close: 8.9260, High: 31.4150, Low: 6.1620, Range: 25.2530, Greatest Candle DateTime: 2020-12-30 00:00:00
+
+[2024-07-24 19:45:10] TIA/USDT (BINANCE:TIAUSDT) Timeframe: 1d, Current price: 6.3370
+Symbol: TIA/USDT, Timeframe: 1d, Open: 12.1895, Close: 15.6324, High: 16.8135, Low: 11.9152, Range: 4.8983, Greatest Candle DateTime: 2024-01-04 00:00:00
+
+[2024-07-24 19:45:10] BTTC/USDT (BINANCE:BTTCUSDT) Timeframe: 1d, Current price: 0.0000
+Symbol: BTTC/USDT, Timeframe: 1d, Open: 0.0000, Close: 0.0000, High: 0.0000, Low: 0.0000, Range: 0.0000, Greatest Candle DateTime: 2022-01-25 00:00:00
+
+[2024-07-24 19:45:10] SOL/USDT (BINANCE:SOLUSDT) Timeframe: 1d, Current price: 179.1500
+Symbol: SOL/USDT, Timeframe: 1d, Open: 164.1900, Close: 173.4600, High: 195.4800, Low: 128.0100, Range: 67.4700, Greatest Candle DateTime: 2021-09-07 00:00:00
+
+[2024-07-24 19:45:11] GTC/USDT (BINANCE:GTCUSDT) Timeframe: 1d, Current price: 0.9310
+Symbol: GTC/USDT, Timeframe: 1d, Open: 9.5620, Close: 24.3090, High: 24.8570, Low: 9.3330, Range: 15.5240, Greatest Candle DateTime: 2021-11-26 00:00:00
+
+[2024-07-24 19:45:11] METIS/USDT (BINANCE:METISUSDT) Timeframe: 1d, Current price: 49.8400
+Symbol: METIS/USDT, Timeframe: 1d, Open: 87.4600, Close: 133.7800, High: 156.9200, Low: 87.4600, Range: 69.4600, Greatest Candle DateTime: 2024-03-11 00:00:00
+
+[2024-07-24 19:45:11] AKRO/USDT (BINANCE:AKROUSDT) Timeframe: 1d, Current price: 0.0052
+Symbol: AKRO/USDT, Timeframe: 1d, Open: 0.0238, Close: 0.0406, High: 0.0720, Low: 0.0225, Range: 0.0495, Greatest Candle DateTime: 2021-02-04 00:00:00
+
+[2024-07-24 19:45:11] VITE/USDT (BINANCE:VITEUSDT) Timeframe: 1d, Current price: 0.0143
+Symbol: VITE/USDT, Timeframe: 1d, Open: 0.0620, Close: 0.1255, High: 0.1782, Low: 0.0620, Range: 0.1162, Greatest Candle DateTime: 2021-03-10 00:00:00
+
+[2024-07-24 19:45:11] ELF/USDT (BINANCE:ELFUSDT) Timeframe: 1d, Current price: 0.3954
+Symbol: ELF/USDT, Timeframe: 1d, Open: 0.7746, Close: 1.0007, High: 1.3800, Low: 0.7556, Range: 0.6244, Greatest Candle DateTime: 2021-09-17 00:00:00
+
+[2024-07-24 19:45:11] ARB/USDT (BINANCE:ARBUSDT) Timeframe: 1d, Current price: 0.7577
+Symbol: ARB/USDT, Timeframe: 1d, Open: 0.5000, Close: 1.3217, High: 1.6000, Low: 0.5000, Range: 1.1000, Greatest Candle DateTime: 2023-03-23 00:00:00
+
+[2024-07-24 19:45:11] OSMO/USDT (BINANCE:OSMOUSDT) Timeframe: 1d, Current price: 0.4946
+Symbol: OSMO/USDT, Timeframe: 1d, Open: 0.9010, Close: 1.0410, High: 12.5000, Low: 0.8820, Range: 11.6180, Greatest Candle DateTime: 2022-12-10 00:00:00
+
+[2024-07-24 19:45:11] POWR/USDT (BINANCE:POWRUSDT) Timeframe: 1d, Current price: 0.2190
+Symbol: POWR/USDT, Timeframe: 1d, Open: 0.9657, Close: 0.4938, High: 1.2100, Low: 0.4686, Range: 0.7414, Greatest Candle DateTime: 2024-01-07 00:00:00
+
+[2024-07-24 19:45:11] ONT/USDT (BINANCE:ONTUSDT) Timeframe: 1d, Current price: 0.2023
+Symbol: ONT/USDT, Timeframe: 1d, Open: 1.8722, Close: 1.1288, High: 1.9042, Low: 0.7650, Range: 1.1392, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:11] MEME/USDT (BINANCE:MEMEUSDT) Timeframe: 1d, Current price: 0.0157
+Symbol: MEME/USDT, Timeframe: 1d, Open: 0.0010, Close: 0.0262, High: 0.1000, Low: 0.0010, Range: 0.0990, Greatest Candle DateTime: 2023-11-03 00:00:00
+
+[2024-07-24 19:45:11] THETA/USDT (BINANCE:THETAUSDT) Timeframe: 1d, Current price: 1.4810
+Symbol: THETA/USDT, Timeframe: 1d, Open: 9.7790, Close: 5.8440, High: 9.8920, Low: 3.8500, Range: 6.0420, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:12] AEVO/USDT (BINANCE:AEVOUSDT) Timeframe: 1d, Current price: 0.5180
+Symbol: AEVO/USDT, Timeframe: 1d, Open: 1.0000, Close: 3.2500, High: 3.5000, Low: 1.0000, Range: 2.5000, Greatest Candle DateTime: 2024-03-13 00:00:00
+
+[2024-07-24 19:45:12] ATM/USDT (BINANCE:ATMUSDT) Timeframe: 1d, Current price: 2.1490
+Symbol: ATM/USDT, Timeframe: 1d, Open: 52.0860, Close: 26.1320, High: 56.6500, Low: 24.4330, Range: 32.2170, Greatest Candle DateTime: 2021-05-22 00:00:00
+
+[2024-07-24 19:45:12] CTSI/USDT (BINANCE:CTSIUSDT) Timeframe: 1d, Current price: 0.1516
+Symbol: CTSI/USDT, Timeframe: 1d, Open: 0.4885, Close: 0.8387, High: 1.2700, Low: 0.4601, Range: 0.8099, Greatest Candle DateTime: 2021-08-09 00:00:00
+
+[2024-07-24 19:45:12] LOOM/USDT (BINANCE:LOOMUSDT) Timeframe: 1d, Current price: 0.0623
+Symbol: LOOM/USDT, Timeframe: 1d, Open: 0.3432, Close: 0.3411, High: 0.5000, Low: 0.3388, Range: 0.1612, Greatest Candle DateTime: 2023-10-15 00:00:00
+
+[2024-07-24 19:45:12] KEY/USDT (BINANCE:KEYUSDT) Timeframe: 1d, Current price: 0.0051
+Symbol: KEY/USDT, Timeframe: 1d, Open: 0.0110, Close: 0.0225, High: 0.0239, Low: 0.0109, Range: 0.0130, Greatest Candle DateTime: 2021-11-20 00:00:00
+
+[2024-07-24 19:45:12] HFT/USDT (BINANCE:HFTUSDT) Timeframe: 1d, Current price: 0.2065
+Symbol: HFT/USDT, Timeframe: 1d, Open: 0.1500, Close: 1.0307, High: 35.0000, Low: 0.1500, Range: 34.8500, Greatest Candle DateTime: 2022-11-07 00:00:00
+
+[2024-07-24 19:45:12] ACA/USDT (BINANCE:ACAUSDT) Timeframe: 1d, Current price: 0.0689
+Symbol: ACA/USDT, Timeframe: 1d, Open: 2.0000, Close: 2.0110, High: 2.8000, Low: 1.8200, Range: 0.9800, Greatest Candle DateTime: 2022-01-25 00:00:00
+
+[2024-07-24 19:45:12] NMR/USDT (BINANCE:NMRUSDT) Timeframe: 1d, Current price: 13.8700
+Symbol: NMR/USDT, Timeframe: 1d, Open: 54.2880, Close: 76.2000, High: 97.7000, Low: 54.1830, Range: 43.5170, Greatest Candle DateTime: 2021-05-16 00:00:00
+
+[2024-07-24 19:45:12] DYDX/USDT (BINANCE:DYDXUSDT) Timeframe: 1d, Current price: 1.3160
+Symbol: DYDX/USDT, Timeframe: 1d, Open: 3.0000, Close: 12.9710, High: 16.4350, Low: 3.0000, Range: 13.4350, Greatest Candle DateTime: 2021-09-09 00:00:00
+
+[2024-07-24 19:45:12] ORDI/USDT (BINANCE:ORDIUSDT) Timeframe: 1d, Current price: 37.8100
+Symbol: ORDI/USDT, Timeframe: 1d, Open: 87.2030, Close: 75.4500, High: 97.0000, Low: 65.0000, Range: 32.0000, Greatest Candle DateTime: 2024-03-05 00:00:00
+
+[2024-07-24 19:45:12] TKO/USDT (BINANCE:TKOUSDT) Timeframe: 1d, Current price: 0.3006
+Symbol: TKO/USDT, Timeframe: 1d, Open: 0.1000, Close: 2.9857, High: 10.0000, Low: 0.1000, Range: 9.9000, Greatest Candle DateTime: 2021-04-07 00:00:00
+
+[2024-07-24 19:45:13] PHB/USDT (BINANCE:PHBUSDT) Timeframe: 1d, Current price: 1.6680
+Symbol: PHB/USDT, Timeframe: 1d, Open: 2.5959, Close: 3.4603, High: 3.9499, Low: 2.5791, Range: 1.3708, Greatest Candle DateTime: 2024-03-07 00:00:00
+
+[2024-07-24 19:45:13] UNI/USDT (BINANCE:UNIUSDT) Timeframe: 1d, Current price: 7.5000
+Symbol: UNI/USDT, Timeframe: 1d, Open: 35.0090, Close: 23.1690, High: 35.5000, Low: 16.0000, Range: 19.5000, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:13] AXS/USDT (BINANCE:AXSUSDT) Timeframe: 1d, Current price: 6.0330
+Symbol: AXS/USDT, Timeframe: 1d, Open: 74.6600, Close: 110.2800, High: 117.7900, Low: 74.0900, Range: 43.7000, Greatest Candle DateTime: 2021-10-01 00:00:00
+
+[2024-07-24 19:45:13] VGX/USDT (BINANCE:VGXUSDT) Timeframe: 1d, Current price: 0.0736
+Symbol: VGX/USDT, Timeframe: 1d, Open: 3.7810, Close: 5.1790, High: 5.8000, Low: 1.0500, Range: 4.7500, Greatest Candle DateTime: 2021-11-22 00:00:00
+
+[2024-07-24 19:45:13] OAX/USDT (BINANCE:OAXUSDT) Timeframe: 1d, Current price: 0.1625
+Symbol: OAX/USDT, Timeframe: 1d, Open: 0.1837, Close: 0.4462, High: 0.5134, Low: 0.1837, Range: 0.3297, Greatest Candle DateTime: 2023-03-24 00:00:00
+
+[2024-07-24 19:45:13] BOME/USDT (BINANCE:BOMEUSDT) Timeframe: 1d, Current price: 0.0087
+Symbol: BOME/USDT, Timeframe: 1d, Open: 0.0073, Close: 0.0208, High: 0.0294, Low: 0.0073, Range: 0.0221, Greatest Candle DateTime: 2024-03-16 00:00:00
+
+[2024-07-24 19:45:13] DOT/USDT (BINANCE:DOTUSDT) Timeframe: 1d, Current price: 5.8490
+Symbol: DOT/USDT, Timeframe: 1d, Open: 40.6030, Close: 25.0440, High: 41.4030, Low: 18.0000, Range: 23.4030, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:13] BEAMX/USDT (BINANCE:BEAMXUSDT) Timeframe: 1d, Current price: 0.0174
+Symbol: BEAMX/USDT, Timeframe: 1d, Open: 0.0264, Close: 0.0285, High: 0.0384, Low: 0.0258, Range: 0.0126, Greatest Candle DateTime: 2024-05-31 00:00:00
+
+[2024-07-24 19:45:13] ENJ/USDT (BINANCE:ENJUSDT) Timeframe: 1d, Current price: 0.1862
+Symbol: ENJ/USDT, Timeframe: 1d, Open: 3.0980, Close: 3.0140, High: 3.1100, Low: 2.0000, Range: 1.1100, Greatest Candle DateTime: 2021-12-04 00:00:00
+
+[2024-07-24 19:45:13] HIVE/USDT (BINANCE:HIVEUSDT) Timeframe: 1d, Current price: 0.2221
+Symbol: HIVE/USDT, Timeframe: 1d, Open: 2.5823, Close: 2.0431, High: 3.4141, Low: 2.0127, Range: 1.4014, Greatest Candle DateTime: 2021-11-26 00:00:00
+
+[2024-07-24 19:45:13] FTT/USDT (BINANCE:FTTUSDT) Timeframe: 1d, Current price: 1.3911
+Symbol: FTT/USDT, Timeframe: 1d, Open: 73.3600, Close: 71.1100, High: 83.5000, Low: 56.6800, Range: 26.8200, Greatest Candle DateTime: 2021-09-07 00:00:00
+
+[2024-07-24 19:45:14] ASR/USDT (BINANCE:ASRUSDT) Timeframe: 1d, Current price: 2.2800
+Symbol: ASR/USDT, Timeframe: 1d, Open: 20.1800, Close: 9.5990, High: 29.8800, Low: 7.6020, Range: 22.2780, Greatest Candle DateTime: 2020-12-30 00:00:00
+
+[2024-07-24 19:45:14] ETHFI/USDT (BINANCE:ETHFIUSDT) Timeframe: 1d, Current price: 2.3030
+Symbol: ETHFI/USDT, Timeframe: 1d, Open: 0.2300, Close: 3.1200, High: 5.3200, Low: 0.2300, Range: 5.0900, Greatest Candle DateTime: 2024-03-18 00:00:00
+
+[2024-07-24 19:45:14] RDNT/USDT (BINANCE:RDNTUSDT) Timeframe: 1d, Current price: 0.0979
+Symbol: RDNT/USDT, Timeframe: 1d, Open: 0.2745, Close: 0.3894, High: 0.4480, Low: 0.2745, Range: 0.1735, Greatest Candle DateTime: 2023-03-30 00:00:00
+
+[2024-07-24 19:45:14] ERN/USDT (BINANCE:ERNUSDT) Timeframe: 1d, Current price: 2.2020
+Symbol: ERN/USDT, Timeframe: 1d, Open: 10.3440, Close: 14.8400, High: 17.5000, Low: 10.2740, Range: 7.2260, Greatest Candle DateTime: 2021-10-14 00:00:00
+
+[2024-07-24 19:45:14] PUNDIX/USDT (BINANCE:PUNDIXUSDT) Timeframe: 1d, Current price: 0.4180
+Symbol: PUNDIX/USDT, Timeframe: 1d, Open: 7.0300, Close: 5.5290, High: 9.6990, Low: 5.2010, Range: 4.4980, Greatest Candle DateTime: 2021-04-09 00:00:00
+
+[2024-07-24 19:45:14] TRX/USDT (BINANCE:TRXUSDT) Timeframe: 1d, Current price: 0.1343
+Symbol: TRX/USDT, Timeframe: 1d, Open: 0.1163, Close: 0.0788, High: 0.1179, Low: 0.0625, Range: 0.0554, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:14] HOOK/USDT (BINANCE:HOOKUSDT) Timeframe: 1d, Current price: 0.5772
+Symbol: HOOK/USDT, Timeframe: 1d, Open: 0.1000, Close: 2.5466, High: 5.0000, Low: 0.1000, Range: 4.9000, Greatest Candle DateTime: 2022-12-01 00:00:00
+
+[2024-07-24 19:45:14] PIVX/USDT (BINANCE:PIVXUSDT) Timeframe: 1d, Current price: 0.2297
+Symbol: PIVX/USDT, Timeframe: 1d, Open: 0.4303, Close: 0.5644, High: 0.6425, Low: 0.4303, Range: 0.2122, Greatest Candle DateTime: 2023-11-16 00:00:00
+
+[2024-07-24 19:45:14] XNO/USDT (BINANCE:XNOUSDT) Timeframe: 1d, Current price: 0.9500
+Symbol: XNO/USDT, Timeframe: 1d, Open: 2.2240, Close: 2.2840, High: 3.8900, Low: 2.1260, Range: 1.7640, Greatest Candle DateTime: 2022-01-28 00:00:00
+
+[2024-07-24 19:45:14] JASMY/USDT (BINANCE:JASMYUSDT) Timeframe: 1d, Current price: 0.0280
+Symbol: JASMY/USDT, Timeframe: 1d, Open: 0.1451, Close: 0.2366, High: 0.3649, Low: 0.1451, Range: 0.2198, Greatest Candle DateTime: 2021-11-22 00:00:00
+
+[2024-07-24 19:45:15] HARD/USDT (BINANCE:HARDUSDT) Timeframe: 1d, Current price: 0.0903
+Symbol: HARD/USDT, Timeframe: 1d, Open: 0.8500, Close: 0.8440, High: 6.0000, Low: 0.5500, Range: 5.4500, Greatest Candle DateTime: 2020-11-06 00:00:00
+
+[2024-07-24 19:45:15] ENA/USDT (BINANCE:ENAUSDT) Timeframe: 1d, Current price: 0.4700
+Symbol: ENA/USDT, Timeframe: 1d, Open: 0.7750, Close: 1.1340, High: 1.3200, Low: 0.7030, Range: 0.6170, Greatest Candle DateTime: 2024-04-03 00:00:00
+
+[2024-07-24 19:45:15] EUR/USDT (BINANCE:EURUSDT) Timeframe: 1d, Current price: 1.0835
+Symbol: EUR/USDT, Timeframe: 1d, Open: 1.1162, Close: 1.1179, High: 4.9500, Low: 1.1155, Range: 3.8345, Greatest Candle DateTime: 2020-01-06 00:00:00
+
+[2024-07-24 19:45:15] LUNA/USDT (BINANCE:LUNAUSDT) Timeframe: 1d, Current price: 0.4185
+Symbol: LUNA/USDT, Timeframe: 1d, Open: 64.2700, Close: 30.2900, High: 65.2900, Low: 30.0000, Range: 35.2900, Greatest Candle DateTime: 2022-05-09 00:00:00
+
+[2024-07-24 19:45:15] VTHO/USDT (BINANCE:VTHOUSDT) Timeframe: 1d, Current price: 0.0025
+Symbol: VTHO/USDT, Timeframe: 1d, Open: 0.0010, Close: 0.0016, High: 0.0130, Low: 0.0010, Range: 0.0120, Greatest Candle DateTime: 2020-07-17 00:00:00
+
+[2024-07-24 19:45:15] VIC/USDT (BINANCE:VICUSDT) Timeframe: 1d, Current price: 0.3790
+Symbol: VIC/USDT, Timeframe: 1d, Open: 0.9269, Close: 1.1469, High: 1.3600, Low: 0.9223, Range: 0.4377, Greatest Candle DateTime: 2024-03-28 00:00:00
+
+[2024-07-24 19:45:15] IDEX/USDT (BINANCE:IDEXUSDT) Timeframe: 1d, Current price: 0.0401
+Symbol: IDEX/USDT, Timeframe: 1d, Open: 0.5271, Close: 0.4987, High: 1.6900, Low: 0.4600, Range: 1.2300, Greatest Candle DateTime: 2021-09-09 00:00:00
+
+[2024-07-24 19:45:15] WBTC/USDT (BINANCE:WBTCUSDT) Timeframe: 1d, Current price: 65956.5600
+Symbol: WBTC/USDT, Timeframe: 1d, Open: 68058.0800, Close: 63963.2700, High: 69001.8500, Low: 58584.3400, Range: 10417.5100, Greatest Candle DateTime: 2024-03-05 00:00:00
+
+[2024-07-24 19:45:15] KLAY/USDT (BINANCE:KLAYUSDT) Timeframe: 1d, Current price: 0.1431
+Symbol: KLAY/USDT, Timeframe: 1d, Open: 1.5780, Close: 1.9130, High: 4.4000, Low: 1.5720, Range: 2.8280, Greatest Candle DateTime: 2021-10-09 00:00:00
+
+[2024-07-24 19:45:15] ETC/USDT (BINANCE:ETCUSDT) Timeframe: 1d, Current price: 23.1100
+Symbol: ETC/USDT, Timeframe: 1d, Open: 93.9620, Close: 133.8640, High: 179.8300, Low: 86.6270, Range: 93.2030, Greatest Candle DateTime: 2021-05-06 00:00:00
+
+[2024-07-24 19:45:15] WOO/USDT (BINANCE:WOOUSDT) Timeframe: 1d, Current price: 0.1984
+Symbol: WOO/USDT, Timeframe: 1d, Open: 0.6868, Close: 0.7626, High: 0.8790, Low: 0.6868, Range: 0.1922, Greatest Candle DateTime: 2022-02-08 00:00:00
+
+[2024-07-24 19:45:15] CHR/USDT (BINANCE:CHRUSDT) Timeframe: 1d, Current price: 0.2343
+Symbol: CHR/USDT, Timeframe: 1d, Open: 0.7735, Close: 1.1201, High: 1.2838, Low: 0.7718, Range: 0.5120, Greatest Candle DateTime: 2021-11-10 00:00:00
+
+[2024-07-24 19:45:15] TLM/USDT (BINANCE:TLMUSDT) Timeframe: 1d, Current price: 0.0120
+Symbol: TLM/USDT, Timeframe: 1d, Open: 0.1000, Close: 0.7269, High: 5.9500, Low: 0.1000, Range: 5.8500, Greatest Candle DateTime: 2021-04-13 00:00:00
+
+[2024-07-24 19:45:15] OXT/USDT (BINANCE:OXTUSDT) Timeframe: 1d, Current price: 0.0798
+Symbol: OXT/USDT, Timeframe: 1d, Open: 0.3015, Close: 0.3621, High: 0.7710, Low: 0.3015, Range: 0.4695, Greatest Candle DateTime: 2020-09-21 00:00:00
+
+[2024-07-24 19:45:16] CELO/USDT (BINANCE:CELOUSDT) Timeframe: 1d, Current price: 0.5696
+Symbol: CELO/USDT, Timeframe: 1d, Open: 4.2640, Close: 7.1280, High: 10.9570, Low: 4.0500, Range: 6.9070, Greatest Candle DateTime: 2021-08-30 00:00:00
+
+[2024-07-24 19:45:16] AMP/USDT (BINANCE:AMPUSDT) Timeframe: 1d, Current price: 0.0043
+Symbol: AMP/USDT, Timeframe: 1d, Open: 0.0498, Close: 0.0706, High: 0.0800, Low: 0.0498, Range: 0.0302, Greatest Candle DateTime: 2021-11-23 00:00:00
+
+[2024-07-24 19:45:16] BLUR/USDT (BINANCE:BLURUSDT) Timeframe: 1d, Current price: 0.1964
+Symbol: BLUR/USDT, Timeframe: 1d, Open: 0.4067, Close: 0.6484, High: 0.7900, Low: 0.4067, Range: 0.3833, Greatest Candle DateTime: 2023-11-24 00:00:00
+
+[2024-07-24 19:45:16] MATIC/USDT (BINANCE:MATICUSDT) Timeframe: 1d, Current price: 0.5280
+Symbol: MATIC/USDT, Timeframe: 1d, Open: 2.4412, Close: 1.6198, High: 2.6472, Low: 1.0345, Range: 1.6127, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:16] EDU/USDT (BINANCE:EDUUSDT) Timeframe: 1d, Current price: 0.6913
+Symbol: EDU/USDT, Timeframe: 1d, Open: 0.0500, Close: 1.3724, High: 1.4900, Low: 0.0500, Range: 1.4400, Greatest Candle DateTime: 2023-04-28 00:00:00
+
+[2024-07-24 19:45:16] ALPINE/USDT (BINANCE:ALPINEUSDT) Timeframe: 1d, Current price: 1.2920
+Symbol: ALPINE/USDT, Timeframe: 1d, Open: 1.0000, Close: 5.4437, High: 18.9995, Low: 1.0000, Range: 17.9995, Greatest Candle DateTime: 2022-02-21 00:00:00
+
+[2024-07-24 19:45:16] OGN/USDT (BINANCE:OGNUSDT) Timeframe: 1d, Current price: 0.0968
+Symbol: OGN/USDT, Timeframe: 1d, Open: 2.3221, Close: 2.9137, High: 3.1800, Low: 2.0100, Range: 1.1700, Greatest Candle DateTime: 2021-04-07 00:00:00
+
+[2024-07-24 19:45:16] WAN/USDT (BINANCE:WANUSDT) Timeframe: 1d, Current price: 0.1821
+Symbol: WAN/USDT, Timeframe: 1d, Open: 1.4648, Close: 0.9628, High: 1.4916, Low: 0.7343, Range: 0.7573, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:17] PHA/USDT (BINANCE:PHAUSDT) Timeframe: 1d, Current price: 0.1243
+Symbol: PHA/USDT, Timeframe: 1d, Open: 0.1603, Close: 0.3278, High: 0.4845, Low: 0.1377, Range: 0.3468, Greatest Candle DateTime: 2022-10-15 00:00:00
+
+[2024-07-24 19:45:17] SUN/USDT (BINANCE:SUNUSDT) Timeframe: 1d, Current price: 0.0106
+Symbol: SUN/USDT, Timeframe: 1d, Open: 28.7640, Close: 40.9990, High: 44.7520, Low: 28.5830, Range: 16.1690, Greatest Candle DateTime: 2021-06-03 00:00:00
+
+[2024-07-24 19:45:17] DGB/USDT (BINANCE:DGBUSDT) Timeframe: 1d, Current price: 0.0074
+Symbol: DGB/USDT, Timeframe: 1d, Open: 0.1084, Close: 0.0733, High: 0.1098, Low: 0.0500, Range: 0.0598, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:17] RSR/USDT (BINANCE:RSRUSDT) Timeframe: 1d, Current price: 0.0053
+Symbol: RSR/USDT, Timeframe: 1d, Open: 0.0655, Close: 0.0411, High: 0.0673, Low: 0.0216, Range: 0.0457, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:18] SUI/USDT (BINANCE:SUIUSDT) Timeframe: 1d, Current price: 0.7996
+Symbol: SUI/USDT, Timeframe: 1d, Open: 0.1000, Close: 1.4016, High: 2.0000, Low: 0.1000, Range: 1.9000, Greatest Candle DateTime: 2023-05-03 00:00:00
+
+[2024-07-24 19:45:18] VIDT/USDT (BINANCE:VIDTUSDT) Timeframe: 1d, Current price: 0.0205
+Symbol: VIDT/USDT, Timeframe: 1d, Open: 0.8671, Close: 1.3091, High: 1.4200, Low: 0.8563, Range: 0.5637, Greatest Candle DateTime: 2021-10-10 00:00:00
+
+[2024-07-24 19:45:18] PYR/USDT (BINANCE:PYRUSDT) Timeframe: 1d, Current price: 3.2330
+Symbol: PYR/USDT, Timeframe: 1d, Open: 30.3900, Close: 36.0000, High: 50.0000, Low: 28.5900, Range: 21.4100, Greatest Candle DateTime: 2021-11-26 00:00:00
+
+[2024-07-24 19:45:18] STRAX/USDT (BINANCE:STRAXUSDT) Timeframe: 1d, Current price: 0.0525
+Symbol: STRAX/USDT, Timeframe: 1d, Open: 3.2896, Close: 3.7372, High: 4.5500, Low: 3.0900, Range: 1.4600, Greatest Candle DateTime: 2021-05-10 00:00:00
+
+[2024-07-24 19:45:18] ICX/USDT (BINANCE:ICXUSDT) Timeframe: 1d, Current price: 0.1573
+Symbol: ICX/USDT, Timeframe: 1d, Open: 1.9106, Close: 1.1823, High: 1.9592, Low: 0.8374, Range: 1.1218, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:18] T/USDT (BINANCE:TUSDT) Timeframe: 1d, Current price: 0.0232
+Symbol: T/USDT, Timeframe: 1d, Open: 0.1396, Close: 0.1711, High: 0.1891, Low: 0.1241, Range: 0.0650, Greatest Candle DateTime: 2022-02-27 00:00:00
+
+[2024-07-24 19:45:18] RIF/USDT (BINANCE:RIFUSDT) Timeframe: 1d, Current price: 0.0828
+Symbol: RIF/USDT, Timeframe: 1d, Open: 0.1936, Close: 0.2005, High: 0.5000, Low: 0.1429, Range: 0.3571, Greatest Candle DateTime: 2021-01-07 00:00:00
+
+[2024-07-24 19:45:18] FUN/USDT (BINANCE:FUNUSDT) Timeframe: 1d, Current price: 0.0035
+Symbol: FUN/USDT, Timeframe: 1d, Open: 0.0432, Close: 0.0522, High: 0.0687, Low: 0.0425, Range: 0.0262, Greatest Candle DateTime: 2021-04-04 00:00:00
+
+[2024-07-24 19:45:19] ATOM/USDT (BINANCE:ATOMUSDT) Timeframe: 1d, Current price: 6.1560
+Symbol: ATOM/USDT, Timeframe: 1d, Open: 22.8400, Close: 13.7570, High: 23.5000, Low: 9.5510, Range: 13.9490, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:19] PAXG/USDT (BINANCE:PAXGUSDT) Timeframe: 1d, Current price: 2399.0000
+Symbol: PAXG/USDT, Timeframe: 1d, Open: 2354.0000, Close: 2452.0000, High: 3295.0000, Low: 2323.0000, Range: 972.0000, Greatest Candle DateTime: 2024-04-13 00:00:00
+
+[2024-07-24 19:45:19] USDP/USDT (BINANCE:USDPUSDT) Timeframe: 1d, Current price: 1.0000
+Symbol: USDP/USDT, Timeframe: 1d, Open: 1.0000, Close: 1.0000, High: 2.0000, Low: 0.9993, Range: 1.0007, Greatest Candle DateTime: 2021-09-10 00:00:00
+
+[2024-07-24 19:45:20] AVAX/USDT (BINANCE:AVAXUSDT) Timeframe: 1d, Current price: 28.9600
+Symbol: AVAX/USDT, Timeframe: 1d, Open: 108.3600, Close: 93.0500, High: 108.8100, Low: 76.5700, Range: 32.2400, Greatest Candle DateTime: 2021-12-04 00:00:00
+
+[2024-07-24 19:45:20] NULS/USDT (BINANCE:NULSUSDT) Timeframe: 1d, Current price: 0.3308
+Symbol: NULS/USDT, Timeframe: 1d, Open: 0.5160, Close: 1.0919, High: 1.8303, Low: 0.4998, Range: 1.3305, Greatest Candle DateTime: 2021-12-02 00:00:00
+
+[2024-07-24 19:45:20] TFUEL/USDT (BINANCE:TFUELUSDT) Timeframe: 1d, Current price: 0.0690
+Symbol: TFUEL/USDT, Timeframe: 1d, Open: 0.4770, Close: 0.3929, High: 0.5686, Low: 0.3702, Range: 0.1984, Greatest Candle DateTime: 2021-03-24 00:00:00
+
+[2024-07-24 19:45:21] ALCX/USDT (BINANCE:ALCXUSDT) Timeframe: 1d, Current price: 16.1800
+Symbol: ALCX/USDT, Timeframe: 1d, Open: 295.5000, Close: 364.6000, High: 394.5000, Low: 295.5000, Range: 99.0000, Greatest Candle DateTime: 2022-01-05 00:00:00
+
+[2024-07-24 19:45:21] UNFI/USDT (BINANCE:UNFIUSDT) Timeframe: 1d, Current price: 3.8850
+Symbol: UNFI/USDT, Timeframe: 1d, Open: 3.4190, Close: 18.8760, High: 41.7940, Low: 3.1500, Range: 38.6440, Greatest Candle DateTime: 2022-06-07 00:00:00
+
+[2024-07-24 19:45:21] MLN/USDT (BINANCE:MLNUSDT) Timeframe: 1d, Current price: 18.6800
+Symbol: MLN/USDT, Timeframe: 1d, Open: 103.4000, Close: 158.7000, High: 188.1000, Low: 98.8000, Range: 89.3000, Greatest Candle DateTime: 2021-09-21 00:00:00
+
+[2024-07-24 19:45:21] SXP/USDT (BINANCE:SXPUSDT) Timeframe: 1d, Current price: 0.2531
+Symbol: SXP/USDT, Timeframe: 1d, Open: 3.8220, Close: 1.9680, High: 3.8880, Low: 1.7270, Range: 2.1610, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:21] CVC/USDT (BINANCE:CVCUSDT) Timeframe: 1d, Current price: 0.1019
+Symbol: CVC/USDT, Timeframe: 1d, Open: 0.3940, Close: 0.9443, High: 0.9734, Low: 0.3916, Range: 0.5818, Greatest Candle DateTime: 2021-09-04 00:00:00
+
+[2024-07-24 19:45:21] TRU/USDT (BINANCE:TRUUSDT) Timeframe: 1d, Current price: 0.1249
+Symbol: TRU/USDT, Timeframe: 1d, Open: 0.1801, Close: 0.6216, High: 1.0000, Low: 0.1770, Range: 0.8230, Greatest Candle DateTime: 2021-08-05 00:00:00
+
+[2024-07-24 19:45:21] GALA/USDT (BINANCE:GALAUSDT) Timeframe: 1d, Current price: 0.0240
+Symbol: GALA/USDT, Timeframe: 1d, Open: 0.5826, Close: 0.7422, High: 0.7853, Low: 0.5234, Range: 0.2619, Greatest Candle DateTime: 2021-11-25 00:00:00
+
+[2024-07-24 19:45:22] BAR/USDT (BINANCE:BARUSDT) Timeframe: 1d, Current price: 1.8950
+Symbol: BAR/USDT, Timeframe: 1d, Open: 38.1900, Close: 46.8880, High: 73.8000, Low: 38.1900, Range: 35.6100, Greatest Candle DateTime: 2021-04-21 00:00:00
+
+[2024-07-24 19:45:22] VET/USDT (BINANCE:VETUSDT) Timeframe: 1d, Current price: 0.0284
+Symbol: VET/USDT, Timeframe: 1d, Open: 0.1618, Close: 0.1053, High: 0.1645, Low: 0.0520, Range: 0.1125, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:22] SANTOS/USDT (BINANCE:SANTOSUSDT) Timeframe: 1d, Current price: 2.8340
+Symbol: SANTOS/USDT, Timeframe: 1d, Open: 2.5000, Close: 10.4100, High: 35.9930, Low: 2.5000, Range: 33.4930, Greatest Candle DateTime: 2021-12-01 00:00:00
+
+[2024-07-24 19:45:22] FLM/USDT (BINANCE:FLMUSDT) Timeframe: 1d, Current price: 0.0683
+Symbol: FLM/USDT, Timeframe: 1d, Open: 0.3000, Close: 0.9530, High: 4.5000, Low: 0.3000, Range: 4.2000, Greatest Candle DateTime: 2020-09-28 00:00:00
+
+[2024-07-24 19:45:22] ONE/USDT (BINANCE:ONEUSDT) Timeframe: 1d, Current price: 0.0139
+Symbol: ONE/USDT, Timeframe: 1d, Open: 0.1755, Close: 0.1076, High: 0.1774, Low: 0.0700, Range: 0.1074, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:23] TRB/USDT (BINANCE:TRBUSDT) Timeframe: 1d, Current price: 73.0600
+Symbol: TRB/USDT, Timeframe: 1d, Open: 262.0400, Close: 192.9100, High: 629.0400, Low: 183.5100, Range: 445.5300, Greatest Candle DateTime: 2023-12-31 00:00:00
+
+[2024-07-24 19:45:23] ROSE/USDT (BINANCE:ROSEUSDT) Timeframe: 1d, Current price: 0.0883
+Symbol: ROSE/USDT, Timeframe: 1d, Open: 0.2963, Close: 0.4152, High: 0.4663, Low: 0.2869, Range: 0.1794, Greatest Candle DateTime: 2021-11-21 00:00:00
+
+[2024-07-24 19:45:23] CHZ/USDT (BINANCE:CHZUSDT) Timeframe: 1d, Current price: 0.0702
+Symbol: CHZ/USDT, Timeframe: 1d, Open: 0.3577, Close: 0.7277, High: 0.9449, Low: 0.3553, Range: 0.5896, Greatest Candle DateTime: 2021-03-12 00:00:00
+
+[2024-07-24 19:45:23] ILV/USDT (BINANCE:ILVUSDT) Timeframe: 1d, Current price: 71.3000
+Symbol: ILV/USDT, Timeframe: 1d, Open: 1283.2000, Close: 1502.3000, High: 1628.3000, Low: 1277.2000, Range: 351.1000, Greatest Candle DateTime: 2021-11-24 00:00:00
+
+[2024-07-24 19:45:23] CKB/USDT (BINANCE:CKBUSDT) Timeframe: 1d, Current price: 0.0122
+Symbol: CKB/USDT, Timeframe: 1d, Open: 0.0240, Close: 0.0344, High: 0.0420, Low: 0.0230, Range: 0.0190, Greatest Candle DateTime: 2021-05-10 00:00:00
+
+[2024-07-24 19:45:23] FTM/USDT (BINANCE:FTMUSDT) Timeframe: 1d, Current price: 0.4785
+Symbol: FTM/USDT, Timeframe: 1d, Open: 1.9836, Close: 1.7198, High: 1.9920, Low: 1.1538, Range: 0.8382, Greatest Candle DateTime: 2021-12-04 00:00:00
+
+[2024-07-24 19:45:23] MKR/USDT (BINANCE:MKRUSDT) Timeframe: 1d, Current price: 2672.0000
+Symbol: MKR/USDT, Timeframe: 1d, Open: 4646.1100, Close: 3462.0800, High: 4740.0700, Low: 2435.0000, Range: 2305.0700, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:23] DEXE/USDT (BINANCE:DEXEUSDT) Timeframe: 1d, Current price: 9.6240
+Symbol: DEXE/USDT, Timeframe: 1d, Open: 3.9670, Close: 7.1650, High: 33.0000, Low: 3.9670, Range: 29.0330, Greatest Candle DateTime: 2021-07-23 00:00:00
+
+[2024-07-24 19:45:24] ARDR/USDT (BINANCE:ARDRUSDT) Timeframe: 1d, Current price: 0.0710
+Symbol: ARDR/USDT, Timeframe: 1d, Open: 0.4451, Close: 0.4028, High: 0.7160, Low: 0.3977, Range: 0.3183, Greatest Candle DateTime: 2021-09-05 00:00:00
+
+[2024-07-24 19:45:24] FORTH/USDT (BINANCE:FORTHUSDT) Timeframe: 1d, Current price: 3.2850
+Symbol: FORTH/USDT, Timeframe: 1d, Open: 35.5100, Close: 45.1450, High: 59.0000, Low: 33.4510, Range: 25.5490, Greatest Candle DateTime: 2021-04-23 00:00:00
+
+[2024-07-24 19:45:25] ALGO/USDT (BINANCE:ALGOUSDT) Timeframe: 1d, Current price: 0.1433
+Symbol: ALGO/USDT, Timeframe: 1d, Open: 1.6585, Close: 1.8499, High: 2.9900, Low: 1.6471, Range: 1.3429, Greatest Candle DateTime: 2021-11-18 00:00:00
+
+[2024-07-24 19:45:25] YGG/USDT (BINANCE:YGGUSDT) Timeframe: 1d, Current price: 0.4773
+Symbol: YGG/USDT, Timeframe: 1d, Open: 7.7410, Close: 9.6710, High: 11.5000, Low: 7.6910, Range: 3.8090, Greatest Candle DateTime: 2021-11-20 00:00:00
+
+[2024-07-24 19:45:25] C98/USDT (BINANCE:C98USDT) Timeframe: 1d, Current price: 0.1571
+Symbol: C98/USDT, Timeframe: 1d, Open: 0.0754, Close: 0.7453, High: 3.0000, Low: 0.0754, Range: 2.9246, Greatest Candle DateTime: 2021-07-23 00:00:00
+
+[2024-07-24 19:45:25] AVA/USDT (BINANCE:AVAUSDT) Timeframe: 1d, Current price: 0.6204
+Symbol: AVA/USDT, Timeframe: 1d, Open: 4.2365, Close: 3.0439, High: 4.3187, Low: 2.3150, Range: 2.0037, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:25] SUSHI/USDT (BINANCE:SUSHIUSDT) Timeframe: 1d, Current price: 0.6970
+Symbol: SUSHI/USDT, Timeframe: 1d, Open: 21.4440, Close: 13.1320, High: 21.9770, Low: 10.2500, Range: 11.7270, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:25] USDC/USDT (BINANCE:USDCUSDT) Timeframe: 1d, Current price: 0.9999
+Symbol: USDC/USDT, Timeframe: 1d, Open: 1.0004, Close: 1.0060, High: 3.9900, Low: 1.0002, Range: 2.9898, Greatest Candle DateTime: 2022-05-11 00:00:00
+
+[2024-07-24 19:45:25] BAKE/USDT (BINANCE:BAKEUSDT) Timeframe: 1d, Current price: 0.2592
+Symbol: BAKE/USDT, Timeframe: 1d, Open: 6.5401, Close: 4.0439, High: 6.6495, Low: 3.3000, Range: 3.3495, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:26] BAND/USDT (BINANCE:BANDUSDT) Timeframe: 1d, Current price: 1.3860
+Symbol: BAND/USDT, Timeframe: 1d, Open: 19.8051, Close: 17.1340, High: 20.0000, Low: 11.0091, Range: 8.9909, Greatest Candle DateTime: 2021-04-18 00:00:00
+
+[2024-07-24 19:45:26] ORN/USDT (BINANCE:ORNUSDT) Timeframe: 1d, Current price: 1.4150
+Symbol: ORN/USDT, Timeframe: 1d, Open: 11.6780, Close: 7.9880, High: 11.8810, Low: 4.9220, Range: 6.9590, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:26] DCR/USDT (BINANCE:DCRUSDT) Timeframe: 1d, Current price: 12.2700
+Symbol: DCR/USDT, Timeframe: 1d, Open: 181.2100, Close: 123.6800, High: 182.3600, Low: 105.0000, Range: 77.3600, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:26] CLV/USDT (BINANCE:CLVUSDT) Timeframe: 1d, Current price: 0.0481
+Symbol: CLV/USDT, Timeframe: 1d, Open: 1.2090, Close: 1.2820, High: 2.4850, Low: 1.2090, Range: 1.2760, Greatest Candle DateTime: 2021-07-29 00:00:00
+
+[2024-07-24 19:45:26] TWT/USDT (BINANCE:TWTUSDT) Timeframe: 1d, Current price: 0.9939
+Symbol: TWT/USDT, Timeframe: 1d, Open: 1.4478, Close: 1.9234, High: 2.3400, Low: 1.3893, Range: 0.9507, Greatest Candle DateTime: 2022-11-13 00:00:00
+
+[2024-07-24 19:45:27] SYS/USDT (BINANCE:SYSUSDT) Timeframe: 1d, Current price: 0.1054
+Symbol: SYS/USDT, Timeframe: 1d, Open: 0.2789, Close: 0.4694, High: 0.7582, Low: 0.2754, Range: 0.4828, Greatest Candle DateTime: 2021-10-17 00:00:00
+
+[2024-07-24 19:45:27] BURGER/USDT (BINANCE:BURGERUSDT) Timeframe: 1d, Current price: 0.3922
+Symbol: BURGER/USDT, Timeframe: 1d, Open: 20.7100, Close: 18.6600, High: 29.0000, Low: 18.2000, Range: 10.8000, Greatest Candle DateTime: 2021-05-03 00:00:00
+
+[2024-07-24 19:45:27] LINK/USDT (BINANCE:LINKUSDT) Timeframe: 1d, Current price: 13.6500
+Symbol: LINK/USDT, Timeframe: 1d, Open: 42.5550, Close: 26.2270, High: 43.5000, Low: 21.0000, Range: 22.5000, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:27] STORJ/USDT (BINANCE:STORJUSDT) Timeframe: 1d, Current price: 0.3883
+Symbol: STORJ/USDT, Timeframe: 1d, Open: 1.5678, Close: 3.1520, High: 3.2800, Low: 1.5663, Range: 1.7137, Greatest Candle DateTime: 2021-03-27 00:00:00
+
+[2024-07-24 19:45:28] WRX/USDT (BINANCE:WRXUSDT) Timeframe: 1d, Current price: 0.1255
+Symbol: WRX/USDT, Timeframe: 1d, Open: 1.5449, Close: 3.9909, High: 6.6666, Low: 1.4937, Range: 5.1729, Greatest Candle DateTime: 2021-04-04 00:00:00
+
+[2024-07-24 19:45:28] MDT/USDT (BINANCE:MDTUSDT) Timeframe: 1d, Current price: 0.0428
+Symbol: MDT/USDT, Timeframe: 1d, Open: 0.1248, Close: 0.1544, High: 0.1789, Low: 0.1180, Range: 0.0609, Greatest Candle DateTime: 2021-12-25 00:00:00
+
+[2024-07-24 19:45:28] QNT/USDT (BINANCE:QNTUSDT) Timeframe: 1d, Current price: 72.8000
+Symbol: QNT/USDT, Timeframe: 1d, Open: 223.5000, Close: 319.2000, High: 331.8000, Low: 220.0000, Range: 111.8000, Greatest Candle DateTime: 2021-09-05 00:00:00
+
+[2024-07-24 19:45:29] FIRO/USDT (BINANCE:FIROUSDT) Timeframe: 1d, Current price: 1.2700
+Symbol: FIRO/USDT, Timeframe: 1d, Open: 15.0360, Close: 18.7470, High: 25.3000, Low: 15.0000, Range: 10.3000, Greatest Candle DateTime: 2021-05-07 00:00:00
+
+[2024-07-24 19:45:29] KSM/USDT (BINANCE:KSMUSDT) Timeframe: 1d, Current price: 21.0400
+Symbol: KSM/USDT, Timeframe: 1d, Open: 592.5400, Close: 337.6500, High: 620.0000, Low: 158.7500, Range: 461.2500, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:29] DF/USDT (BINANCE:DFUSDT) Timeframe: 1d, Current price: 0.0328
+Symbol: DF/USDT, Timeframe: 1d, Open: 0.0349, Close: 0.0666, High: 0.1950, Low: 0.0343, Range: 0.1607, Greatest Candle DateTime: 2022-10-22 00:00:00
+
+[2024-07-24 19:45:29] STMX/USDT (BINANCE:STMXUSDT) Timeframe: 1d, Current price: 0.0077
+Symbol: STMX/USDT, Timeframe: 1d, Open: 0.0383, Close: 0.0670, High: 0.0728, Low: 0.0380, Range: 0.0348, Greatest Candle DateTime: 2021-03-19 00:00:00
+
+[2024-07-24 19:45:31] LIT/USDT (BINANCE:LITUSDT) Timeframe: 1d, Current price: 0.7150
+Symbol: LIT/USDT, Timeframe: 1d, Open: 0.2500, Close: 3.0605, High: 18.8264, Low: 0.2500, Range: 18.5764, Greatest Candle DateTime: 2021-02-04 00:00:00
+
+[2024-07-24 19:45:31] FLOW/USDT (BINANCE:FLOWUSDT) Timeframe: 1d, Current price: 0.6790
+Symbol: FLOW/USDT, Timeframe: 1d, Open: 18.3100, Close: 23.9000, High: 35.6100, Low: 18.3100, Range: 17.3000, Greatest Candle DateTime: 2021-07-30 00:00:00
+
+[2024-07-24 19:45:31] LSK/USDT (BINANCE:LSKUSDT) Timeframe: 1d, Current price: 1.0160
+Symbol: LSK/USDT, Timeframe: 1d, Open: 6.9109, Close: 9.0463, High: 11.5000, Low: 6.9109, Range: 4.5891, Greatest Candle DateTime: 2021-05-07 00:00:00
+
+[2024-07-24 19:45:31] FIDA/USDT (BINANCE:FIDAUSDT) Timeframe: 1d, Current price: 0.2770
+Symbol: FIDA/USDT, Timeframe: 1d, Open: 8.8560, Close: 10.8190, High: 107.3650, Low: 8.6970, Range: 98.6680, Greatest Candle DateTime: 2021-11-03 00:00:00
+
+[2024-07-24 19:45:31] EGLD/USDT (BINANCE:EGLDUSDT) Timeframe: 1d, Current price: 34.3200
+Symbol: EGLD/USDT, Timeframe: 1d, Open: 345.3200, Close: 309.6100, High: 348.6800, Low: 224.6200, Range: 124.0600, Greatest Candle DateTime: 2021-12-04 00:00:00
+
+[2024-07-24 19:45:32] XTZ/USDT (BINANCE:XTZUSDT) Timeframe: 1d, Current price: 0.7560
+Symbol: XTZ/USDT, Timeframe: 1d, Open: 5.7408, Close: 3.6070, High: 5.8377, Low: 2.6898, Range: 3.1479, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:32] BNT/USDT (BINANCE:BNTUSDT) Timeframe: 1d, Current price: 0.6133
+Symbol: BNT/USDT, Timeframe: 1d, Open: 6.6552, Close: 4.7841, High: 6.7571, Low: 3.7002, Range: 3.0569, Greatest Candle DateTime: 2021-05-19 00:00:00
+
+[2024-07-24 19:45:32] FRONT/USDT (BINANCE:FRONTUSDT) Timeframe: 1d, Current price: 0.8770
+Symbol: FRONT/USDT, Timeframe: 1d, Open: 2.0459, Close: 2.7987, High: 3.0798, Low: 1.9999, Range: 1.0799, Greatest Candle DateTime: 2024-03-17 00:00:00
+
+[2024-07-24 19:45:33] SFP/USDT (BINANCE:SFPUSDT) Timeframe: 1d, Current price: 0.8058
+Symbol: SFP/USDT, Timeframe: 1d, Open: 1.2901, Close: 3.4637, High: 4.4500, Low: 1.2897, Range: 3.1603, Greatest Candle DateTime: 2021-02-09 00:00:00
+
+[2024-07-24 19:45:33] REN/USDT (BINANCE:RENUSDT) Timeframe: 1d, Current price: 0.0489
+Symbol: REN/USDT, Timeframe: 1d, Open: 1.0935, Close: 0.9597, High: 1.1060, Low: 0.0151, Range: 1.0909, Greatest Candle DateTime: 2021-04-18 00:00:00
+
+[2024-07-24 19:45:34] CVP/USDT (BINANCE:CVPUSDT) Timeframe: 1d, Current price: 0.2349
+Symbol: CVP/USDT, Timeframe: 1d, Open: 1.6670, Close: 1.8090, High: 3.1370, Low: 1.5820, Range: 1.5550, Greatest Candle DateTime: 2021-10-30 00:00:00
+
+[2024-07-24 19:45:34] MINA/USDT (BINANCE:MINAUSDT) Timeframe: 1d, Current price: 0.5212
+Symbol: MINA/USDT, Timeframe: 1d, Open: 4.0080, Close: 5.7670, High: 5.8600, Low: 3.9330, Range: 1.9270, Greatest Candle DateTime: 2021-09-09 00:00:00
+
+[2024-07-24 19:45:35] DODO/USDT (BINANCE:DODOUSDT) Timeframe: 1d, Current price: 0.1170
+Symbol: DODO/USDT, Timeframe: 1d, Open: 2.7880, Close: 6.2250, High: 10.0000, Low: 2.7880, Range: 7.2120, Greatest Candle DateTime: 2021-02-19 00:00:00
+
+[2024-07-24 19:45:35] RVN/USDT (BINANCE:RVNUSDT) Timeframe: 1d, Current price: 0.0190
+Symbol: RVN/USDT, Timeframe: 1d, Open: 0.1453, Close: 0.2256, High: 0.2929, Low: 0.1389, Range: 0.1540, Greatest Candle DateTime: 2021-02-20 00:00:00
+

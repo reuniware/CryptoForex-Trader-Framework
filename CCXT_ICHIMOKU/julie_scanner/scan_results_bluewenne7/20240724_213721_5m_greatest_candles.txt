@@ -1,0 +1,15 @@
+[2024-07-24 21:39:43] BTC/USDT (BINANCE:BTCUSDT) Timeframe: 5m, Current price: 65432.3200
+Symbol: BTC/USDT, Timeframe: 5m, Open: 43086.5800, Close: 45859.8500, High: 48915.6200, Low: 42843.0500, Range: 6072.5700, Greatest Candle DateTime: 2021-09-07 15:10:00
+
+[2024-07-24 21:41:55] ETH/USDT (BINANCE:ETHUSDT) Timeframe: 5m, Current price: 3327.4200
+Symbol: ETH/USDT, Timeframe: 5m, Open: 3491.4000, Close: 3038.1700, High: 3494.3700, Low: 3005.0000, Range: 489.3700, Greatest Candle DateTime: 2021-09-07 15:05:00
+
+[2024-07-24 21:44:07] BNB/USDT (BINANCE:BNBUSDT) Timeframe: 5m, Current price: 574.5000
+Symbol: BNB/USDT, Timeframe: 5m, Open: 640.4000, Close: 636.2000, High: 644.0000, Low: 577.0000, Range: 67.0000, Greatest Candle DateTime: 2021-11-26 03:25:00
+
+[2024-07-24 21:46:21] NEO/USDT (BINANCE:NEOUSDT) Timeframe: 5m, Current price: 11.4100
+Symbol: NEO/USDT, Timeframe: 5m, Open: 40.1670, Close: 41.2690, High: 56.9500, Low: 39.3190, Range: 17.6310, Greatest Candle DateTime: 2021-05-23 13:10:00
+
+[2024-07-24 21:48:32] LTC/USDT (BINANCE:LTCUSDT) Timeframe: 5m, Current price: 71.4000
+Symbol: LTC/USDT, Timeframe: 5m, Open: 231.7400, Close: 194.9100, High: 232.4100, Low: 194.5800, Range: 37.8300, Greatest Candle DateTime: 2021-05-19 12:40:00
+

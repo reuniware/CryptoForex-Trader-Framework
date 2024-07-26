@@ -1,0 +1,9 @@
+[2024-07-24 21:17:05] BTC/USDT (BINANCE:BTCUSDT) Timeframe: 1h, Current price: 65744.0100
+Symbol: BTC/USDT, Timeframe: 1h, Open: 50256.6100, Close: 47538.0300, High: 50537.8500, Low: 42000.3000, Range: 8537.5500, Greatest Candle DateTime: 2021-12-04 05:00:00
+
+[2024-07-24 21:17:21] ETH/USDT (BINANCE:ETHUSDT) Timeframe: 1h, Current price: 3344.9100
+Symbol: ETH/USDT, Timeframe: 1h, Open: 2721.0800, Close: 2365.1800, High: 2773.5200, Low: 1960.0000, Range: 813.5200, Greatest Candle DateTime: 2021-05-19 12:00:00
+
+[2024-07-24 21:17:35] BNB/USDT (BINANCE:BNBUSDT) Timeframe: 1h, Current price: 579.7000
+Symbol: BNB/USDT, Timeframe: 1h, Open: 394.5000, Close: 335.5000, High: 408.6800, Low: 280.8800, Range: 127.8000, Greatest Candle DateTime: 2021-05-19 12:00:00
+

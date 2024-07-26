@@ -1,0 +1,1238 @@
+[2024-07-24 15:59:43] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9410, Current candle evolution: 0.11%
+
+[2024-07-24 15:59:46] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9410, Current candle evolution: 0.11%
+
+[2024-07-24 15:59:47] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 15:59:48] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5420, Current candle evolution: -0.11%
+
+[2024-07-24 15:59:48] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4914, Current candle evolution: -0.10%
+
+[2024-07-24 15:59:48] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 15:59:48] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9410, Current candle evolution: 0.11%
+
+[2024-07-24 15:59:49] W/USDT (BINANCE:WUSDT) Timeframe: 1m, Current price: 0.3108, Current candle evolution: -0.13%
+
+[2024-07-24 15:59:49] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4914, Current candle evolution: -0.10%
+
+[2024-07-24 15:59:50] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5420, Current candle evolution: -0.11%
+
+[2024-07-24 15:59:50] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 15:59:50] W/USDT (BINANCE:WUSDT) Timeframe: 1m, Current price: 0.3108, Current candle evolution: -0.13%
+
+[2024-07-24 15:59:51] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4910, Current candle evolution: -0.18%
+
+[2024-07-24 15:59:51] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3705, Current candle evolution: -0.11%
+
+[2024-07-24 15:59:52] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5420, Current candle evolution: -0.11%
+
+[2024-07-24 15:59:52] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 15:59:53] W/USDT (BINANCE:WUSDT) Timeframe: 1m, Current price: 0.3108, Current candle evolution: -0.13%
+
+[2024-07-24 15:59:53] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4910, Current candle evolution: -0.18%
+
+[2024-07-24 15:59:53] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0491, Current candle evolution: 0.12%
+
+[2024-07-24 15:59:53] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3705, Current candle evolution: -0.11%
+
+[2024-07-24 15:59:53] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5420, Current candle evolution: -0.11%
+
+[2024-07-24 15:59:54] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4910, Current candle evolution: -0.18%
+
+[2024-07-24 15:59:55] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0491, Current candle evolution: 0.12%
+
+[2024-07-24 15:59:55] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5420, Current candle evolution: -0.11%
+
+[2024-07-24 15:59:55] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3705, Current candle evolution: -0.11%
+
+[2024-07-24 15:59:55] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4911, Current candle evolution: -0.16%
+
+[2024-07-24 15:59:56] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 15:59:57] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4911, Current candle evolution: -0.16%
+
+[2024-07-24 15:59:57] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3705, Current candle evolution: -0.11%
+
+[2024-07-24 15:59:58] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4911, Current candle evolution: -0.16%
+
+[2024-07-24 15:59:59] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:00] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4911, Current candle evolution: -0.16%
+
+[2024-07-24 16:00:00] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:02] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4911, Current candle evolution: -0.16%
+
+[2024-07-24 16:00:02] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:03] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4909, Current candle evolution: -0.20%
+
+[2024-07-24 16:00:03] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9390, Current candle evolution: -0.11%
+
+[2024-07-24 16:00:04] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3705, Current candle evolution: -0.11%
+
+[2024-07-24 16:00:05] BTC/USDT (BINANCE:BTCUSDT) Timeframe: 1m, Current price: 66146.5900, Current candle evolution: -0.12%
+
+[2024-07-24 16:00:05] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9390, Current candle evolution: -0.11%
+
+[2024-07-24 16:00:05] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4908, Current candle evolution: -0.22%
+
+[2024-07-24 16:00:06] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3703, Current candle evolution: -0.16%
+
+[2024-07-24 16:00:06] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4910, Current candle evolution: -0.18%
+
+[2024-07-24 16:00:06] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9390, Current candle evolution: -0.11%
+
+[2024-07-24 16:00:07] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:08] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9390, Current candle evolution: -0.11%
+
+[2024-07-24 16:00:08] BTC/USDT (BINANCE:BTCUSDT) Timeframe: 1m, Current price: 66156.4600, Current candle evolution: -0.10%
+
+[2024-07-24 16:00:08] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4910, Current candle evolution: -0.18%
+
+[2024-07-24 16:00:09] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:09] BTC/USDT (BINANCE:BTCUSDT) Timeframe: 1m, Current price: 66156.4600, Current candle evolution: -0.10%
+
+[2024-07-24 16:00:09] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9390, Current candle evolution: -0.11%
+
+[2024-07-24 16:00:09] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4910, Current candle evolution: -0.18%
+
+[2024-07-24 16:00:10] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:11] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9390, Current candle evolution: -0.11%
+
+[2024-07-24 16:00:11] BTC/USDT (BINANCE:BTCUSDT) Timeframe: 1m, Current price: 66158.0100, Current candle evolution: -0.10%
+
+[2024-07-24 16:00:11] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4910, Current candle evolution: -0.18%
+
+[2024-07-24 16:00:12] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:12] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9390, Current candle evolution: -0.11%
+
+[2024-07-24 16:00:12] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4911, Current candle evolution: -0.16%
+
+[2024-07-24 16:00:13] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9390, Current candle evolution: -0.11%
+
+[2024-07-24 16:00:13] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:14] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4913, Current candle evolution: -0.12%
+
+[2024-07-24 16:00:15] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:15] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:16] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4913, Current candle evolution: -0.12%
+
+[2024-07-24 16:00:16] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:16] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:17] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4912, Current candle evolution: -0.14%
+
+[2024-07-24 16:00:18] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:19] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4912, Current candle evolution: -0.14%
+
+[2024-07-24 16:00:19] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:19] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:20] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4912, Current candle evolution: -0.14%
+
+[2024-07-24 16:00:21] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:21] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:22] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4912, Current candle evolution: -0.14%
+
+[2024-07-24 16:00:22] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:23] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:23] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4911, Current candle evolution: -0.16%
+
+[2024-07-24 16:00:24] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9390, Current candle evolution: -0.11%
+
+[2024-07-24 16:00:24] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:24] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:25] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4912, Current candle evolution: -0.14%
+
+[2024-07-24 16:00:25] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:25] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9390, Current candle evolution: -0.11%
+
+[2024-07-24 16:00:26] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:26] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4911, Current candle evolution: -0.16%
+
+[2024-07-24 16:00:26] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:26] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9390, Current candle evolution: -0.11%
+
+[2024-07-24 16:00:27] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:27] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4912, Current candle evolution: -0.14%
+
+[2024-07-24 16:00:28] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:28] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9390, Current candle evolution: -0.11%
+
+[2024-07-24 16:00:28] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:29] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4912, Current candle evolution: -0.14%
+
+[2024-07-24 16:00:29] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9390, Current candle evolution: -0.11%
+
+[2024-07-24 16:00:29] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:30] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:30] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4912, Current candle evolution: -0.14%
+
+[2024-07-24 16:00:31] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:31] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:32] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4911, Current candle evolution: -0.16%
+
+[2024-07-24 16:00:32] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:33] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:33] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4911, Current candle evolution: -0.16%
+
+[2024-07-24 16:00:34] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:34] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:35] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4911, Current candle evolution: -0.16%
+
+[2024-07-24 16:00:35] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:36] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:36] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4911, Current candle evolution: -0.16%
+
+[2024-07-24 16:00:37] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:37] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:38] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4911, Current candle evolution: -0.16%
+
+[2024-07-24 16:00:38] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:39] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:39] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4912, Current candle evolution: -0.14%
+
+[2024-07-24 16:00:40] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:40] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:00:40] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:41] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4913, Current candle evolution: -0.12%
+
+[2024-07-24 16:00:41] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:41] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:00:41] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:42] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4913, Current candle evolution: -0.12%
+
+[2024-07-24 16:00:42] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:00:42] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:43] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:43] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4913, Current candle evolution: -0.12%
+
+[2024-07-24 16:00:44] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:00:44] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:44] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:45] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4913, Current candle evolution: -0.12%
+
+[2024-07-24 16:00:45] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:45] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:00:46] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:46] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4914, Current candle evolution: -0.10%
+
+[2024-07-24 16:00:47] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:00:47] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:47] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:48] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4914, Current candle evolution: -0.10%
+
+[2024-07-24 16:00:48] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:48] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:00:49] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:49] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4914, Current candle evolution: -0.10%
+
+[2024-07-24 16:00:50] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:00:50] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:50] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:51] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4914, Current candle evolution: -0.10%
+
+[2024-07-24 16:00:51] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:51] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:00:52] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:52] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4914, Current candle evolution: -0.10%
+
+[2024-07-24 16:00:53] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:53] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:00:53] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:54] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4914, Current candle evolution: -0.10%
+
+[2024-07-24 16:00:54] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:00:54] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:55] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:55] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4914, Current candle evolution: -0.10%
+
+[2024-07-24 16:00:56] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:00:56] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:56] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:57] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4914, Current candle evolution: -0.10%
+
+[2024-07-24 16:00:57] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:57] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:00:57] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:58] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4914, Current candle evolution: -0.10%
+
+[2024-07-24 16:00:58] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:00:58] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:00:59] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:00:59] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4914, Current candle evolution: -0.10%
+
+[2024-07-24 16:01:00] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3703, Current candle evolution: -0.16%
+
+[2024-07-24 16:01:00] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:01:00] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:01] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4914, Current candle evolution: -0.10%
+
+[2024-07-24 16:01:01] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3703, Current candle evolution: -0.16%
+
+[2024-07-24 16:01:01] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:01:02] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:02] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4914, Current candle evolution: -0.10%
+
+[2024-07-24 16:01:03] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:01:03] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3703, Current candle evolution: -0.16%
+
+[2024-07-24 16:01:03] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:04] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3703, Current candle evolution: -0.16%
+
+[2024-07-24 16:01:05] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9420, Current candle evolution: 0.21%
+
+[2024-07-24 16:01:05] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0490, Current candle evolution: -0.14%
+
+[2024-07-24 16:01:05] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:05] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4914, Current candle evolution: -0.10%
+
+[2024-07-24 16:01:06] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3703, Current candle evolution: -0.16%
+
+[2024-07-24 16:01:06] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:06] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:07] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9890, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:07] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:07] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:08] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:08] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3703, Current candle evolution: -0.16%
+
+[2024-07-24 16:01:08] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:09] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:09] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:09] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:09] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0490, Current candle evolution: -0.14%
+
+[2024-07-24 16:01:09] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3703, Current candle evolution: -0.16%
+
+[2024-07-24 16:01:10] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:10] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9890, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:10] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:10] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:11] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:11] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.16%
+
+[2024-07-24 16:01:11] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3703, Current candle evolution: -0.16%
+
+[2024-07-24 16:01:11] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9890, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:11] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:11] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:12] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:12] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:12] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:01:12] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.16%
+
+[2024-07-24 16:01:12] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9890, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:12] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:13] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:13] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:13] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3703, Current candle evolution: -0.16%
+
+[2024-07-24 16:01:13] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:14] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0490, Current candle evolution: -0.10%
+
+[2024-07-24 16:01:14] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:14] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9890, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:14] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:14] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:15] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:15] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:01:15] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0490, Current candle evolution: -0.10%
+
+[2024-07-24 16:01:15] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9890, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:15] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:16] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:16] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:16] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:16] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:01:17] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:17] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9890, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:17] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0490, Current candle evolution: -0.10%
+
+[2024-07-24 16:01:17] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:17] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:18] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:18] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:01:18] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:18] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9890, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:19] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:19] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0490, Current candle evolution: -0.10%
+
+[2024-07-24 16:01:19] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:19] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:19] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:01:20] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9890, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:20] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:20] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:20] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0490, Current candle evolution: -0.10%
+
+[2024-07-24 16:01:20] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:21] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:21] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9890, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:21] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:22] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:22] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:22] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0490, Current candle evolution: -0.10%
+
+[2024-07-24 16:01:22] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1278, Current candle evolution: 0.16%
+
+[2024-07-24 16:01:22] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:23] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:23] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9890, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:23] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.16%
+
+[2024-07-24 16:01:23] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1278, Current candle evolution: 0.16%
+
+[2024-07-24 16:01:23] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:23] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.16%
+
+[2024-07-24 16:01:24] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:24] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3703, Current candle evolution: -0.16%
+
+[2024-07-24 16:01:24] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:24] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:01:25] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1278, Current candle evolution: 0.16%
+
+[2024-07-24 16:01:25] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:25] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.16%
+
+[2024-07-24 16:01:25] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.16%
+
+[2024-07-24 16:01:25] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:25] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3705, Current candle evolution: -0.11%
+
+[2024-07-24 16:01:26] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:26] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:01:26] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.16%
+
+[2024-07-24 16:01:26] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1278, Current candle evolution: 0.16%
+
+[2024-07-24 16:01:26] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:26] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:27] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3705, Current candle evolution: -0.11%
+
+[2024-07-24 16:01:27] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:27] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:01:27] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:27] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:27] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:27] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.16%
+
+[2024-07-24 16:01:28] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1278, Current candle evolution: 0.16%
+
+[2024-07-24 16:01:28] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:28] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:28] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:01:29] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0490, Current candle evolution: -0.12%
+
+[2024-07-24 16:01:29] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1278, Current candle evolution: 0.16%
+
+[2024-07-24 16:01:29] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:29] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:29] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:30] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:01:30] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:30] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0490, Current candle evolution: -0.14%
+
+[2024-07-24 16:01:30] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:30] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1278, Current candle evolution: 0.16%
+
+[2024-07-24 16:01:31] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:31] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:31] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:31] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:01:32] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1278, Current candle evolution: 0.16%
+
+[2024-07-24 16:01:32] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:32] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0490, Current candle evolution: -0.14%
+
+[2024-07-24 16:01:32] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:32] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:33] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:33] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:01:33] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1278, Current candle evolution: 0.16%
+
+[2024-07-24 16:01:33] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0490, Current candle evolution: -0.14%
+
+[2024-07-24 16:01:33] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:34] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:34] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:34] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:01:34] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:35] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:35] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1278, Current candle evolution: 0.16%
+
+[2024-07-24 16:01:35] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.20%
+
+[2024-07-24 16:01:35] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:35] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:35] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:01:36] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:01:36] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:36] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:36] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.20%
+
+[2024-07-24 16:01:36] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:01:37] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:37] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:01:37] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:37] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:01:37] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:38] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:01:38] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.20%
+
+[2024-07-24 16:01:38] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:38] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:38] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3704, Current candle evolution: -0.13%
+
+[2024-07-24 16:01:39] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:39] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:39] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:01:39] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:01:39] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:39] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.20%
+
+[2024-07-24 16:01:40] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3705, Current candle evolution: -0.11%
+
+[2024-07-24 16:01:40] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:40] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:40] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:01:40] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:41] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:01:41] KNC/USDT (BINANCE:KNCUSDT) Timeframe: 1m, Current price: 0.5420, Current candle evolution: -0.11%
+
+[2024-07-24 16:01:41] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:41] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.20%
+
+[2024-07-24 16:01:41] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:42] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:42] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:42] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:01:42] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.24%
+
+[2024-07-24 16:01:42] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:01:42] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:42] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:43] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:43] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:01:43] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:43] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:43] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.24%
+
+[2024-07-24 16:01:43] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:01:44] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3705, Current candle evolution: -0.11%
+
+[2024-07-24 16:01:44] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:44] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:01:44] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:44] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:45] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:01:45] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:45] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.24%
+
+[2024-07-24 16:01:45] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:45] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3705, Current candle evolution: -0.11%
+
+[2024-07-24 16:01:46] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:46] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:46] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:46] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3340, Current candle evolution: 0.17%
+
+[2024-07-24 16:01:46] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:46] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:01:47] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.24%
+
+[2024-07-24 16:01:47] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:47] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:47] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:47] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:47] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3340, Current candle evolution: 0.17%
+
+[2024-07-24 16:01:48] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:01:48] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:48] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:48] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.24%
+
+[2024-07-24 16:01:49] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:49] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3340, Current candle evolution: 0.17%
+
+[2024-07-24 16:01:49] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:49] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:49] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:49] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:01:50] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.24%
+
+[2024-07-24 16:01:50] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:50] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:50] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:50] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3340, Current candle evolution: 0.17%
+
+[2024-07-24 16:01:50] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:51] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:01:51] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:51] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.24%
+
+[2024-07-24 16:01:51] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:52] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:52] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:52] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:52] AERGO/USDT (BINANCE:AERGOUSDT) Timeframe: 1m, Current price: 0.0987, Current candle evolution: 0.10%
+
+[2024-07-24 16:01:52] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:01:53] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.24%
+
+[2024-07-24 16:01:53] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:53] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:53] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:53] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:54] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:01:54] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:54] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.24%
+
+[2024-07-24 16:01:55] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:55] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:55] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:56] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:01:56] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.24%
+
+[2024-07-24 16:01:56] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:56] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:56] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:56] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:57] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:57] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:01:57] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0488, Current candle evolution: -0.35%
+
+[2024-07-24 16:01:58] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:58] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:58] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:01:58] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:58] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:01:59] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:59] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3330, Current candle evolution: 0.13%
+
+[2024-07-24 16:01:59] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:01:59] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0488, Current candle evolution: -0.35%
+
+[2024-07-24 16:01:59] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:01:59] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4924, Current candle evolution: 0.10%
+
+[2024-07-24 16:02:00] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0744, Current candle evolution: 0.27%
+
+[2024-07-24 16:02:00] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1280, Current candle evolution: 0.31%
+
+[2024-07-24 16:02:00] RAY/USDT (BINANCE:RAYUSDT) Timeframe: 1m, Current price: 2.3330, Current candle evolution: 0.13%
+
+[2024-07-24 16:02:00] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:02:00] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:00] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0488, Current candle evolution: -0.37%
+
+[2024-07-24 16:02:00] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.23%
+
+[2024-07-24 16:02:01] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:02] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0488, Current candle evolution: -0.37%
+
+[2024-07-24 16:02:02] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0744, Current candle evolution: 0.27%
+
+[2024-07-24 16:02:02] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:02:02] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3705, Current candle evolution: -0.11%
+
+[2024-07-24 16:02:02] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.23%
+
+[2024-07-24 16:02:02] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1280, Current candle evolution: 0.31%
+
+[2024-07-24 16:02:02] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:02] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:03] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:02:03] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:03] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0488, Current candle evolution: -0.37%
+
+[2024-07-24 16:02:04] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0744, Current candle evolution: 0.27%
+
+[2024-07-24 16:02:04] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:04] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:04] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:02:05] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.23%
+
+[2024-07-24 16:02:05] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:02:05] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0488, Current candle evolution: -0.37%
+
+[2024-07-24 16:02:05] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:05] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:02:05] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:05] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0744, Current candle evolution: 0.27%
+
+[2024-07-24 16:02:06] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:02:06] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.26%
+
+[2024-07-24 16:02:06] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0488, Current candle evolution: -0.35%
+
+[2024-07-24 16:02:07] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:07] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0744, Current candle evolution: 0.27%
+
+[2024-07-24 16:02:07] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:07] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:02:08] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:02:08] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0488, Current candle evolution: -0.35%
+
+[2024-07-24 16:02:08] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.26%
+
+[2024-07-24 16:02:08] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:08] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0744, Current candle evolution: 0.27%
+
+[2024-07-24 16:02:08] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:09] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:02:09] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0488, Current candle evolution: -0.35%
+
+[2024-07-24 16:02:09] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9430, Current candle evolution: 0.32%
+
+[2024-07-24 16:02:09] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.26%
+
+[2024-07-24 16:02:10] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:10] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:10] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0744, Current candle evolution: 0.27%
+
+[2024-07-24 16:02:10] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:02:11] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.26%
+
+[2024-07-24 16:02:11] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0488, Current candle evolution: -0.35%
+
+[2024-07-24 16:02:11] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:02:11] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:11] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:11] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:02:12] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:02:12] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.26%
+
+[2024-07-24 16:02:12] W/USDT (BINANCE:WUSDT) Timeframe: 1m, Current price: 0.3117, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:12] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0488, Current candle evolution: -0.35%
+
+[2024-07-24 16:02:13] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:13] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:02:13] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:02:13] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:13] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:02:13] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0488, Current candle evolution: -0.35%
+
+[2024-07-24 16:02:13] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.26%
+
+[2024-07-24 16:02:13] W/USDT (BINANCE:WUSDT) Timeframe: 1m, Current price: 0.3117, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:14] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:02:14] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:14] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:14] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:02:14] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:02:15] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0488, Current candle evolution: -0.35%
+
+[2024-07-24 16:02:15] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.26%
+
+[2024-07-24 16:02:15] W/USDT (BINANCE:WUSDT) Timeframe: 1m, Current price: 0.3117, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:15] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:15] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:15] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:02:15] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3705, Current candle evolution: -0.11%
+
+[2024-07-24 16:02:15] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:02:16] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:02:16] W/USDT (BINANCE:WUSDT) Timeframe: 1m, Current price: 0.3117, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:16] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0488, Current candle evolution: -0.35%
+
+[2024-07-24 16:02:16] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.26%
+
+[2024-07-24 16:02:17] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:02:17] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:02:17] DIA/USDT (BINANCE:DIAUSDT) Timeframe: 1m, Current price: 0.3705, Current candle evolution: -0.11%
+
+[2024-07-24 16:02:17] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:17] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:18] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:02:18] W/USDT (BINANCE:WUSDT) Timeframe: 1m, Current price: 0.3117, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:18] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0488, Current candle evolution: -0.35%
+
+[2024-07-24 16:02:18] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.26%
+
+[2024-07-24 16:02:18] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:18] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:02:18] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:02:18] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:19] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.26%
+
+[2024-07-24 16:02:19] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:02:19] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0488, Current candle evolution: -0.35%
+
+[2024-07-24 16:02:19] W/USDT (BINANCE:WUSDT) Timeframe: 1m, Current price: 0.3117, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:20] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:02:20] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:02:20] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:20] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4926, Current candle evolution: 0.14%
+
+[2024-07-24 16:02:21] W/USDT (BINANCE:WUSDT) Timeframe: 1m, Current price: 0.3117, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:21] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:02:21] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.26%
+
+[2024-07-24 16:02:21] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.27%
+
+[2024-07-24 16:02:21] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:21] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:02:21] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:02:21] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:22] W/USDT (BINANCE:WUSDT) Timeframe: 1m, Current price: 0.3117, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:22] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:02:22] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.27%
+
+[2024-07-24 16:02:23] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.26%
+
+[2024-07-24 16:02:23] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:02:23] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:23] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:02:23] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:24] W/USDT (BINANCE:WUSDT) Timeframe: 1m, Current price: 0.3117, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:24] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.27%
+
+[2024-07-24 16:02:24] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:02:24] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.23%
+
+[2024-07-24 16:02:24] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:02:24] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:24] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:02:24] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:25] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.27%
+
+[2024-07-24 16:02:25] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:02:26] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:26] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:02:26] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:26] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:02:26] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:27] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.27%
+
+[2024-07-24 16:02:27] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1279, Current candle evolution: 0.24%
+
+[2024-07-24 16:02:27] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:02:27] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9910, Current candle evolution: 0.20%
+
+[2024-07-24 16:02:27] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:27] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:27] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:02:28] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.27%
+
+[2024-07-24 16:02:28] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1278, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:28] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4924, Current candle evolution: 0.10%
+
+[2024-07-24 16:02:28] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:28] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:02:29] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:02:29] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:02:29] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.27%
+
+[2024-07-24 16:02:30] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:02:30] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:02:30] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1278, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:30] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:30] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
+[2024-07-24 16:02:30] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4925, Current candle evolution: 0.12%
+
+[2024-07-24 16:02:31] UTK/USDT (BINANCE:UTKUSDT) Timeframe: 1m, Current price: 0.0489, Current candle evolution: -0.27%
+
+[2024-07-24 16:02:31] MAGIC/USDT (BINANCE:MAGICUSDT) Timeframe: 1m, Current price: 0.4924, Current candle evolution: 0.10%
+
+[2024-07-24 16:02:31] SLP/USDT (BINANCE:SLPUSDT) Timeframe: 1m, Current price: 0.0031, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:31] CAKE/USDT (BINANCE:CAKEUSDT) Timeframe: 1m, Current price: 1.9900, Current candle evolution: 0.15%
+
+[2024-07-24 16:02:31] VANRY/USDT (BINANCE:VANRYUSDT) Timeframe: 1m, Current price: 0.1278, Current candle evolution: 0.16%
+
+[2024-07-24 16:02:31] ASTR/USDT (BINANCE:ASTRUSDT) Timeframe: 1m, Current price: 0.0743, Current candle evolution: 0.13%
+
+[2024-07-24 16:02:31] AGLD/USDT (BINANCE:AGLDUSDT) Timeframe: 1m, Current price: 0.9440, Current candle evolution: 0.43%
+
