@@ -2,7 +2,7 @@
 //|                                          IchimokuBreakoutStrategy.mq5|
 //|                                Copyright 2024, Reuniware Systems |
 //|                                     https://github.com/reuniware |
-//| This strategy makes +30% from 01/01/2024 to 26/07/2024           |
+//| This strategy makes +30% from 01/01/2024 to 26/07/2024 on XAUEUR |
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2024, Reuniware Systems"
 #property link      "https://github.com/reuniware"
