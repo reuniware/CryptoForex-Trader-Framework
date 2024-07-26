@@ -13,3 +13,43 @@ https://www.tradingview.com/x/WUEFfzyE/
 A 23h15 le cours attent 65500 <=> LE COURS PREDIT A ETE ATTEINT ENVIRONS 12H APRES LA PREDICTION
 https://www.tradingview.com/x/jEjHgHKC/ 
 
+
+
+
+
+
+Travaux du 26/07/2024
+
+Prediction for BTC (USDT):
+- Last Timestamp: 1970-01-01 00:51:30
+- Predicted Value: 64903.8037
+
+Date heure prédiction environs 26/07/2024 10h25 : Cours actuel = 67080
+https://www.tradingview.com/x/LWmnhQFi/
+
+
+
+
+
+gitpod /workspace/CryptoForex-Trader-Framework/CCXT_ICHIMOKU (main) $ cd julie_scanner/
+gitpod /workspace/CryptoForex-Trader-Framework/CCXT_ICHIMOKU/julie_scanner (main) $ python bluewenne8.py --timeframe 1d --train
+Training model using the following BTC-related files:
+- downloaded_history/BTC_USDT_15m_2020-01-01_2024-07-25.csv
+- downloaded_history/BTC_USDT_1d_2020-01-01_2024-07-25.csv
+- downloaded_history/BTC_USDT_1h_2020-01-01_2024-07-25.csv
+- downloaded_history/BTC_USDT_1m_2020-01-01_2024-07-25.csv
+- downloaded_history/BTC_USDT_4h_2020-01-01_2024-07-25.csv
+- downloaded_history/BTC_USDT_5m_2020-01-01_2024-07-25.csv
+Model trained. RMSE: 77.3184
+gitpod /workspace/CryptoForex-Trader-Framework/CCXT_ICHIMOKU/julie_scanner (main) $ python bluewenne8.py --timeframe 1d --use-existing
+Using the following BTC-related files for prediction:
+- downloaded_history/BTC_USDT_15m_2020-01-01_2024-07-25.csv
+- downloaded_history/BTC_USDT_1d_2020-01-01_2024-07-25.csv
+- downloaded_history/BTC_USDT_1h_2020-01-01_2024-07-25.csv
+- downloaded_history/BTC_USDT_1m_2020-01-01_2024-07-25.csv
+- downloaded_history/BTC_USDT_4h_2020-01-01_2024-07-25.csv
+- downloaded_history/BTC_USDT_5m_2020-01-01_2024-07-25.csv
+gitpod /workspace/CryptoForex-Trader-Framework/CCXT_ICHIMOKU/julie_scanner (main) $ 
+
+
+
