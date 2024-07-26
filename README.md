@@ -1,4 +1,4 @@
-# My first published AI Model on HuggingFace :
+# My first published AI Model on HuggingFace
 https://huggingface.co/solanaexpert/RandomForestBTCUSDTModel
 
 
