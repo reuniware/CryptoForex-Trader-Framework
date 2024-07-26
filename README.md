@@ -1,3 +1,7 @@
+# My first published AI Model on HuggingFace :
+https://huggingface.co/solanaexpert/RandomForestBTCUSDTModel
+
+
 # Binance-API-Work (Laboratoire de Recherche en Finance de Marché)
 Experimental research around Binance API and FTX API (mainly Python)
 
