@@ -3,6 +3,7 @@
 //|                                Copyright 2024, Reuniware Systems |
 //|                                     https://github.com/reuniware |
 //| This strategy makes +30% from 01/01/2024 to 26/07/2024 on XAUEUR |
+//| in 15m timeframe                                                 |
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2024, Reuniware Systems"
 #property link      "https://github.com/reuniware"
