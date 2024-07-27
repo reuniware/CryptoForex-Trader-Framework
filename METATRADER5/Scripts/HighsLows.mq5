@@ -1,12 +1,13 @@
 //+------------------------------------------------------------------+
 //| Paramètres d'entrée                                              |
 //+------------------------------------------------------------------+
-input int DaysCount = 30; // Nombre de jours
-input ENUM_TIMEFRAMES Timeframe = PERIOD_M15; // Période
+input int BarCount = 30; // Nombre de barres
+input ENUM_TIMEFRAMES Timeframe = PERIOD_M5; // Période
+input string SoundFile = "alert.wav"; // Fichier sonore à jouer
 //+------------------------------------------------------------------+
 //| Variables globales                                              |
 //+------------------------------------------------------------------+
-int daysCount;
+int barCount;
 ENUM_TIMEFRAMES timeframe;
 //+------------------------------------------------------------------+
 //| Script program start function                                    |
@@ -14,7 +15,7 @@ ENUM_TIMEFRAMES timeframe;
 void OnStart()
   {
    // Initialiser les variables globales avec les paramètres d'entrée
-   daysCount = DaysCount;
+   barCount = BarCount;
    timeframe = Timeframe;
 
    // Tracer les lignes horizontales pour les points hauts et bas
@@ -31,15 +32,15 @@ void DrawHorizontalLines()
    // Obtenir le nombre de barres sur la période sélectionnée
    int bars = Bars(_Symbol, timeframe);
 
-   // Vérifier que nous avons suffisamment de barres pour le nombre de jours sélectionné
-   if(bars < daysCount)
+   // Vérifier que nous avons suffisamment de barres pour le nombre de barres sélectionné
+   if(bars < barCount)
      {
-      Print("Pas assez de barres pour les ", daysCount, " derniers jours.");
+      Print("Pas assez de barres pour les ", barCount, " dernières barres.");
       return;
      }
 
-   // Parcourir les jours sélectionnés
-   for(int i = 1; i <= daysCount; i++)
+   // Parcourir les barres sélectionnées
+   for(int i = 1; i <= barCount; i++)
      {
       double high = iHigh(_Symbol, timeframe, i);
       double highPrev = iHigh(_Symbol, timeframe, i - 1);
@@ -75,7 +76,7 @@ void DrawHorizontalLines()
 //+------------------------------------------------------------------+
 void DeleteHorizontalLines()
   {
-   for(int i = 1; i <= daysCount; i++)
+   for(int i = 1; i <= barCount; i++)
      {
       string highLineName = "HighLine_" + IntegerToString(i);
       string lowLineName = "LowLine_" + IntegerToString(i);
@@ -92,15 +93,29 @@ void OnChartEvent(const int id, const long &lparam, const double &dparam, const 
      {
       if(lparam == 38) // Flèche haut
         {
-         daysCount++;
+         barCount++;
          DrawHorizontalLines();
          ChartRedraw();
         }
-      else if(lparam == 40 && daysCount > 1) // Flèche bas
+      else if(lparam == 40 && barCount > 1) // Flèche bas
         {
-         daysCount--;
+         barCount--;
          DrawHorizontalLines();
          ChartRedraw();
+        }
+     }
+   else if(id == CHARTEVENT_OBJECT_CLICK)
+     {
+      // Vérifier si une ligne horizontale a été touchée
+      for(int i = 1; i <= barCount; i++)
+        {
+         string highLineName = "HighLine_" + IntegerToString(i);
+         string lowLineName = "LowLine_" + IntegerToString(i);
+         if(sparam == highLineName || sparam == lowLineName)
+           {
+            PlaySound(SoundFile);
+            break;
+           }
         }
      }
   }
