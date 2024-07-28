@@ -1,6 +1,6 @@
 //+------------------------------------------------------------------+
 //|                                          HighsLowsHorizontal.mq5 |
-//|                        Reuniware Systems 2024                    |
+//|                      Reuniware Systems / DVASyst                 |
 //+------------------------------------------------------------------+
 #property strict
 
@@ -31,8 +31,8 @@ int OnInit()
 void OnDeinit(const int reason)
   {
    // Delete graphical objects created by EA upon deinitialization
-   ObjectsDeleteAll(0, "HighLine_");
-   ObjectsDeleteAll(0, "LowLine_");
+   //ObjectsDeleteAll(0, "HighLine_");
+   //ObjectsDeleteAll(0, "LowLine_");
    
    // Stop the timer
    EventKillTimer();
@@ -50,9 +50,10 @@ void OnTick()
 //+------------------------------------------------------------------+
 void UpdateLines()
   {
+  Print("UpdateLines()");
    // Delete old lines
-   ObjectsDeleteAll(0, "HighLine_");
-   ObjectsDeleteAll(0, "LowLine_");
+   //ObjectsDeleteAll(0, "HighLine_");
+   //ObjectsDeleteAll(0, "LowLine_");
 
    // Loop through bars to find highs and lows over the specified period
    for(int i = 1; i <= DaysToCheck; i++)
@@ -63,6 +64,7 @@ void UpdateLines()
       
       // Create horizontal lines for each high
       string highLineName = "HighLine_" + IntegerToString(highLineCount++);
+      Print(highLineName);
       ObjectCreate(0, highLineName, OBJ_HLINE, 0, 0, high);
       ObjectSetInteger(0, highLineName, OBJPROP_COLOR, clrRed);
       ObjectSetInteger(0, highLineName, OBJPROP_WIDTH, 1);
@@ -70,6 +72,7 @@ void UpdateLines()
 
       // Create horizontal lines for each low
       string lowLineName = "LowLine_" + IntegerToString(lowLineCount++);
+      Print(lowLineName);
       ObjectCreate(0, lowLineName, OBJ_HLINE, 0, 0, low);
       ObjectSetInteger(0, lowLineName, OBJPROP_COLOR, clrBlue);
       ObjectSetInteger(0, lowLineName, OBJPROP_WIDTH, 1);
