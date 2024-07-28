@@ -66,12 +66,14 @@ void UpdateLines()
       ObjectCreate(0, highLineName, OBJ_HLINE, 0, 0, high);
       ObjectSetInteger(0, highLineName, OBJPROP_COLOR, clrRed);
       ObjectSetInteger(0, highLineName, OBJPROP_WIDTH, 1);
+      ObjectSetInteger(0, highLineName, OBJPROP_STYLE, STYLE_DOT);
 
       // Create horizontal lines for each low
       string lowLineName = "LowLine_" + IntegerToString(lowLineCount++);
       ObjectCreate(0, lowLineName, OBJ_HLINE, 0, 0, low);
       ObjectSetInteger(0, lowLineName, OBJPROP_COLOR, clrBlue);
       ObjectSetInteger(0, lowLineName, OBJPROP_WIDTH, 1);
+      ObjectSetInteger(0, lowLineName, OBJPROP_STYLE, STYLE_DOT);
      }
   }
 //+------------------------------------------------------------------+
