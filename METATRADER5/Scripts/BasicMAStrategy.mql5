@@ -1,0 +1,106 @@
+#include <Trade\Trade.mqh>
+
+datetime lastTradeExitBarTime = 0; // Global variable to store the last trade exit bar time
+
+int OnInit()
+{
+   return(INIT_SUCCEEDED);
+}
+
+void OnDeinit(const int reason)
+{
+}
+
+double CalculateMA(int period, int shift)
+{
+   double sum = 0;
+   for(int i = 0; i < period; i++)
+   {
+      sum += iClose(NULL, 0, i + shift);
+   }
+   return sum / period;
+}
+
+void ClosePositions(string symbol, int operation)
+{
+   CTrade trade;
+   for(int i = PositionsTotal() - 1; i >= 0; i--)
+   {
+      if (PositionGetTicket(i) != 0)
+      {
+         if (PositionGetInteger(POSITION_TYPE) == operation && PositionGetString(POSITION_SYMBOL) == symbol)
+         {
+            if (operation == POSITION_TYPE_BUY)
+            {
+               trade.Sell(PositionGetDouble(POSITION_VOLUME), symbol);
+            }
+            else if (operation == POSITION_TYPE_SELL)
+            {
+               trade.Buy(PositionGetDouble(POSITION_VOLUME), symbol);
+            }
+         }
+      }
+   }
+}
+
+bool CanTrade()
+{
+   // Get the time of the current bar
+   datetime currentBarTime = iTime(NULL, 0, 0);
+
+   // Check if we are on a new bar
+   return (currentBarTime > lastTradeExitBarTime);
+}
+
+void OnTick()
+{
+   CTrade trade;
+   int fastPeriod = 20;
+   int slowPeriod = 50;
+   double takeProfitPoints = 100; // Take profit in points
+   double stopLossPoints = 50;    // Stop loss in points
+
+   double maFast = CalculateMA(fastPeriod, 0);
+   double maSlow = CalculateMA(slowPeriod, 0);
+   double maFastPrev = CalculateMA(fastPeriod, 1);
+   double maSlowPrev = CalculateMA(slowPeriod, 1);
+
+   double bid = SymbolInfoDouble(Symbol(), SYMBOL_BID);
+   double ask = SymbolInfoDouble(Symbol(), SYMBOL_ASK);
+
+   if (CanTrade())
+   {
+      if (maFast > maSlow && maFastPrev <= maSlowPrev)
+      {
+         // Close existing sell positions before buying
+         ClosePositions(Symbol(), POSITION_TYPE_SELL);
+
+         // Buy signal
+         if (PositionSelect(Symbol()) == false)
+         {
+            double takeProfitPrice = ask + takeProfitPoints * Point();
+            double stopLossPrice = ask - stopLossPoints * Point();
+            if (trade.Buy(0.1, Symbol(), ask, stopLossPrice, takeProfitPrice))
+            {
+               lastTradeExitBarTime = iTime(NULL, 0, 0); // Update last trade exit bar time on successful trade
+            }
+         }
+      }
+      else if (maFast < maSlow && maFastPrev >= maSlowPrev)
+      {
+         // Close existing buy positions before selling
+         ClosePositions(Symbol(), POSITION_TYPE_BUY);
+
+         // Sell signal
+         if (PositionSelect(Symbol()) == false)
+         {
+            double takeProfitPrice = bid - takeProfitPoints * Point();
+            double stopLossPrice = bid + stopLossPoints * Point();
+            if (trade.Sell(0.1, Symbol(), bid, stopLossPrice, takeProfitPrice))
+            {
+               lastTradeExitBarTime = iTime(NULL, 0, 0); // Update last trade exit bar time on successful trade
+            }
+         }
+      }
+   }
+}
