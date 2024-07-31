@@ -23,6 +23,7 @@ Travaux du 26/07/2024
 Prediction for BTC (USDT):
 - Last Timestamp: 1970-01-01 00:51:30
 - Predicted Value: 64903.8037
+- Valeur atteinte le 31/07/2024 vers 21h soit 5j après : https://www.tradingview.com/x/botJQQul/
 
 Date heure prédiction environs 26/07/2024 10h25 : Cours actuel = 67080
 https://www.tradingview.com/x/LWmnhQFi/
