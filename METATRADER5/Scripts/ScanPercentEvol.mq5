@@ -7,12 +7,23 @@
 
 input double PercentThreshold = 1.0; // Seuil de pourcentage pour détecter un mouvement
 
+// Déclaration d'un tableau global pour stocker les prix précédents
+double previousPrices[];
+
 //+------------------------------------------------------------------+
 //| Expert initialization function                                   |
 //+------------------------------------------------------------------+
 int OnInit()
   {
    //--- initialisation
+   int total = SymbolsTotal(true); // Nombre de symboles visibles
+   ArrayResize(previousPrices, total); // Redimensionner le tableau pour les symboles visibles
+   for(int i = 0; i < total; i++)
+     {
+      string symbol = SymbolName(i, true);
+      Print("processing " + symbol);
+      previousPrices[i] = SymbolInfoDouble(symbol, SYMBOL_BID); // Stocker le prix actuel comme prix précédent initial
+     }
    EventSetTimer(10); // Définir un timer pour scanner toutes les 10 secondes
    return(INIT_SUCCEEDED);
   }
@@ -36,16 +47,18 @@ void OnTimer()
       string symbol = SymbolName(i, true);
       if(SymbolSelect(symbol, true))
         {
-         double prevClose = iClose(symbol, PERIOD_D1, 1);
          double currentPrice = SymbolInfoDouble(symbol, SYMBOL_BID);
+         double prevPrice = previousPrices[i];
 
-         if(prevClose > 0 && currentPrice > 0)
+         if(prevPrice > 0 && currentPrice > 0)
            {
-            double changePercent = (currentPrice - prevClose) / prevClose * 100;
+            double changePercent = (currentPrice - prevPrice) / prevPrice * 100;
             if(MathAbs(changePercent) >= PercentThreshold)
               {
                Print("Mouvement de ", changePercent, "% détecté sur ", symbol);
               }
+            // Mettre à jour le prix précédent avec le prix actuel pour le prochain passage
+            previousPrices[i] = currentPrice;
            }
         }
      }
