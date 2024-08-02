@@ -5,7 +5,7 @@
 //+------------------------------------------------------------------+
 #property strict
 
-input double PercentThreshold = 1.0; // Seuil de pourcentage pour détecter un mouvement
+input double PercentThreshold = 0.19; // Seuil de pourcentage pour détecter un mouvement
 
 // Déclaration d'un tableau global pour stocker les prix précédents
 double previousPrices[];
