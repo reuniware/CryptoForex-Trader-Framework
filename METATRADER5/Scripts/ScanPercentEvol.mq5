@@ -21,7 +21,7 @@ int OnInit()
    for(int i = 0; i < total; i++)
      {
       string symbol = SymbolName(i, true);
-      Print("processing " + symbol);
+      //Print("processing " + symbol);
       previousPrices[i] = SymbolInfoDouble(symbol, SYMBOL_BID); // Stocker le prix actuel comme prix précédent initial
      }
    EventSetTimer(10); // Définir un timer pour scanner toutes les 10 secondes
