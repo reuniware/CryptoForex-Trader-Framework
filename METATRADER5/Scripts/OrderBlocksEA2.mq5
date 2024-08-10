@@ -1,7 +1,7 @@
 //+------------------------------------------------------------------+
-//|                                                      OrderBlockEA |
-//|                        Copyright 2023, MetaQuotes Software Corp. |
-//|                                       http://www.metaquotes.net/ |
+//|                                                     OrderBlockEA |
+//|                        Copyright 2024, Reuniware/DVASoft         |
+//|                            https://ichimoku-expert.blogspot.com/ |
 //+------------------------------------------------------------------+
 #include <Trade\Trade.mqh>
 
