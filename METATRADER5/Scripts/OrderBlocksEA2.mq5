@@ -1,5 +1,5 @@
 //+------------------------------------------------------------------+
-//|                                                     OrderBlockEA |
+//|                                                   OrderBlocksEA2 |
 //|                        Copyright 2024, Reuniware/DVASoft         |
 //|                            https://ichimoku-expert.blogspot.com/ |
 //+------------------------------------------------------------------+
@@ -58,7 +58,7 @@ void CheckOrderBlocks()
    CopyHigh(_Symbol, PERIOD_M1, 0, OrderBlockLookback, high);
    CopyLow(_Symbol, PERIOD_M1, 0, OrderBlockLookback, low);
 
-   for(int i = 1; i < OrderBlockLookback; i++)
+   for(int i = 1; i < OrderBlockLookback - 1; i++)
      {
       if(high[i] > high[i-1] && high[i] > high[i+1])
         {
