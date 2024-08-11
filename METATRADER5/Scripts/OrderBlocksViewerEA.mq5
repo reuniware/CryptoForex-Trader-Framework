@@ -2,6 +2,8 @@
 // © LuxAlgo : Original work by LuxAlgp ; I tried to convert to MQL5... But it seems not to show the same info visually.
 // how to use this experimental EA : compile it in metaeditor, run it on a chart in metatrader 5, switch from the lowest timeframe to the higher one then come back to the lower timeframe
 // you will then see all the detected blocks of all timeframes
+// Original work by LuxAlgo (TradingView)
+// Additional experimental work by me InvestDataSystems@Yahoo.Com / SolanaExpert@ProtonMail.com / Reuniware DVASoft / August 2024
 
 #property indicator_chart_window
 #property indicator_buffers 2
