@@ -64,7 +64,6 @@ int OnInit()
 
    for(int i = ObjectsTotal(0, 0, OBJ_ARROW_BUY) - 1; i >= 0; i--)
      {
-      Print(i);
       // Get the name of the object
       string objName = ObjectName(0, i, 0, OBJ_ARROW_BUY);
 
@@ -74,7 +73,6 @@ int OnInit()
 
    for(int i = ObjectsTotal(0, 0, OBJ_ARROW_SELL) - 1; i >= 0; i--)
      {
-      Print(i);
       // Get the name of the object
       string objName = ObjectName(0, i, 0, OBJ_ARROW_SELL);
 
