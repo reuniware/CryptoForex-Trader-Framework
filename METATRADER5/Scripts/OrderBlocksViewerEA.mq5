@@ -1,5 +1,7 @@
 // This work is licensed under a Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) https://creativecommons.org/licenses/by-nc-sa/4.0/
 // © LuxAlgo : Original work by LuxAlgp ; I tried to convert to MQL5... But it seems not to show the same info visually.
+// how to use this experimental EA : compile it in metaeditor, run it on a chart in metatrader 5, switch from the lowest timeframe to the higher one then come back to the lower timeframe
+// you will then see all the detected blocks of all timeframes
 
 #property indicator_chart_window
 #property indicator_buffers 2
