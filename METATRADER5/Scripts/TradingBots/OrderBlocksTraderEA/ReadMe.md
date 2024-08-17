@@ -130,3 +130,6 @@ If the pattern is detected, the bot opens a long trade (buy order) with a specif
 
 ### Summary
 This trading bot is designed to detect a specific candle pattern and execute a long trade when the pattern is identified. It uses basic technical analysis and predefined thresholds to make trading decisions. The bot is intended to be run on the MetaTrader 5 platform and uses the MQL5 programming language.
+
+![image](https://github.com/user-attachments/assets/b9aafb1c-cf2f-46f3-845c-86676ea65337)
+
