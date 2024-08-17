@@ -1,3 +1,7 @@
+//+-------------------------------------------------------------------------------------------+
+//| Trading bot by InvestDataSystems@Yahoo.com / SolanaExpert@ProtonMail.com / DVASoft 2024   |
+//+-------------------------------------------------------------------------------------------+
+
 #include <Trade\Trade.mqh>
 
 CTrade trade;
