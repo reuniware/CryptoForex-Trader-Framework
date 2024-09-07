@@ -1,7 +1,7 @@
 //+------------------------------------------------------------------------------------------------------------------------------------+
 //| Script program start function                                                                                                      |
 //| Inspired by ICT - Mastering High Probability Scalping Vol. 1 of 3 - Huddleston                                                     |
-//|https://www.youtube.com/watch?v=uE-aaP16nOw&list=PLVgHx4Z63paYdrA3rupIlFhsYFA07GJGP                                                 |
+//| https://www.youtube.com/watch?v=uE-aaP16nOw&list=PLVgHx4Z63paYdrA3rupIlFhsYFA07GJGP                                                |
 //+------------------------------------------------------------------------------------------------------------------------------------+
 void OnStart()
   {
