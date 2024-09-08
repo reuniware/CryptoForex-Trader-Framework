@@ -1,3 +1,15 @@
+// Simulation : Open position on a DAILY SWING HIGH and close it on a DAILY SWING LOW
+// There is no logic to use this code. I just created it out of curiosity. 
+// It simulates entering a position when a "daily swing high" is detected 
+// and closes the position when a "daily swing low" is detected. Nothing
+// in this code is derived from ICT work. It's just out of curiosity. Do
+// not use or integrate into an EA for real trading unless you know what 
+// you are doing. What stands out from this code is that it works better on BTCUSD.
+// I'm actually using it on a demo account but on 1m timeframe.
+// This is pure randomness and this has nothing to do with what Huddleston teaches
+// in term of trading according to "ICT" principles.
+// *** THIS IS NOT ICT AND THIS IS A PURE RANDOM TEST ***
+
 //+------------------------------------------------------------------+
 //| Expert initialization function                                   |
 //+------------------------------------------------------------------+
