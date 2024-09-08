@@ -1,6 +1,6 @@
-//+------------------------------------------------------------------+
-//| Script program start function                                    |
-//+------------------------------------------------------------------+
+//+-------------------------------------------------------------------------------------+
+//| https://www.youtube.com/watch?v=uE-aaP16nOw&list=PLVgHx4Z63paYdrA3rupIlFhsYFA07GJGP |
+//+-------------------------------------------------------------------------------------+
 void OnStart()
 {
     int nbcandles = 100;
@@ -73,7 +73,7 @@ void OnStart()
                     double arrowY = candle2.low - 0.5 * avgCandleHeight; // Position arrow below the candle
                     if(ObjectCreate(chartId, arrowName, OBJ_ARROW_UP, 0, candle2.time, arrowY))
                     {
-                        ObjectSetInteger(chartId, arrowName, OBJPROP_COLOR, clrRed); // Set arrow color
+                        ObjectSetInteger(chartId, arrowName, OBJPROP_COLOR, clrGreen); // Set arrow color
                         ObjectSetInteger(chartId, arrowName, OBJPROP_WIDTH, 2); // Set arrow width
                     }
                 }
@@ -104,10 +104,10 @@ void OnStart()
                 {
                     // Draw an arrow above the middle candle (candle2)
                     string arrowName = symbol + "_Arrow2_" + IntegerToString(candle2.time);
-                    double arrowY = candle2.high + 0.7 * avgCandleHeight; // Position arrow above the candle
+                    double arrowY = candle2.high + 0.8 * avgCandleHeight; // Position arrow above the candle
                     if(ObjectCreate(chartId, arrowName, OBJ_ARROW_DOWN, 0, candle2.time, arrowY))
                     {
-                        ObjectSetInteger(chartId, arrowName, OBJPROP_COLOR, clrBlue); // Set arrow color
+                        ObjectSetInteger(chartId, arrowName, OBJPROP_COLOR, clrRed); // Set arrow color
                         ObjectSetInteger(chartId, arrowName, OBJPROP_WIDTH, 2); // Set arrow width
                     }
                 }
