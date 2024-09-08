@@ -28,17 +28,26 @@ void OnDeinit(const int reason)
 //+------------------------------------------------------------------+
 //| Expert tick function                                             |
 //+------------------------------------------------------------------+
+datetime lastDetectedTime = 0; // Global variable to store the last detected time
+
 void OnTick()
 {
     string symbol = Symbol(); // Get the current symbol
-    
-    // Get the last 3 candles
+        
+    // Get the last 3 completed candles (excluding the current open candle)
     MqlRates rates[];
     int copied = CopyRates(symbol, PERIOD_CURRENT, 0, 3, rates);
     
     if(copied != 3)
     {
         Print("Failed to copy rates for symbol: ", symbol);
+        return;
+    }
+    
+    // Check if the last detected time is the same as the current time
+    if(lastDetectedTime == rates[0].time)
+    {
+        // Same pattern detected, do nothing
         return;
     }
     
@@ -50,6 +59,9 @@ void OnTick()
               TimeToString(rates[0].time), ", ", 
               TimeToString(rates[1].time), ", ", 
               TimeToString(rates[2].time));
+        
+        // Update the last detected time
+        lastDetectedTime = rates[0].time;
         
         // Enter long if not already in a long position
         if(!PositionSelect(symbol))
@@ -71,21 +83,25 @@ void OnTick()
               TimeToString(rates[1].time), ", ", 
               TimeToString(rates[2].time));
         
+        // Update the last detected time
+        lastDetectedTime = rates[0].time;
+        
         // Close long if in a long position
         if(PositionSelect(symbol))
         {
+            ulong positionTicket = PositionGetInteger(POSITION_TICKET);
             double exitPrice = rates[2].close; // Exit long at the close of the third candle
             Print("Exited long at ", exitPrice, " on ", symbol);
             
-            // Execute real trade
-            ExecuteTrade(symbol, ORDER_TYPE_SELL, exitPrice);
+            // Execute real trade to close the position
+            ExecuteTrade(symbol, ORDER_TYPE_SELL, exitPrice, positionTicket);
         }
     }
 }
 //+------------------------------------------------------------------+
 //| Execute Trade Function                                           |
 //+------------------------------------------------------------------+
-void ExecuteTrade(string symbol, int orderType, double price)
+void ExecuteTrade(string symbol, int orderType, double price, ulong positionTicket = 0)
 {
     double lotSize = 5; // Define your lot size here
     int slippage = 10; // Define your slippage here
@@ -98,7 +114,6 @@ void ExecuteTrade(string symbol, int orderType, double price)
     ZeroMemory(request);
     ZeroMemory(result);
     
-    request.action = TRADE_ACTION_DEAL;
     request.symbol = symbol;
     request.volume = lotSize;
     request.type = orderType;
@@ -107,6 +122,32 @@ void ExecuteTrade(string symbol, int orderType, double price)
     request.tp = takeProfit;
     request.deviation = slippage;
     request.type_filling = ORDER_FILLING_FOK;
+    
+    // Validate the price
+    double bidPrice = SymbolInfoDouble(symbol, SYMBOL_BID);
+    double askPrice = SymbolInfoDouble(symbol, SYMBOL_ASK);
+    
+    if(orderType == ORDER_TYPE_BUY)
+    {
+        // For buy orders, use the ask price
+        request.price = askPrice;
+    }
+    else if(orderType == ORDER_TYPE_SELL)
+    {
+        // For sell orders, use the bid price
+        request.price = bidPrice;
+    }
+    
+    // If positionTicket is provided, it means we are closing a position
+    if(positionTicket != 0)
+    {
+        request.action = TRADE_ACTION_DEAL;
+        request.position = positionTicket;
+    }
+    else
+    {
+        request.action = TRADE_ACTION_DEAL;
+    }
     
     if(!OrderSend(request, result))
     {
