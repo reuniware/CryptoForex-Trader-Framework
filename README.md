@@ -3,7 +3,7 @@ https://huggingface.co/solanaexpert/RandomForestBTCUSDTModel
 
 
 # Binance-API-Work (Laboratoire de Recherche en Finance de Marché)
-Experimental research around Binance API and FTX API (mainly Python)
+Experimental research around trading APIs and automated market analysis systems.
 
 Error ciso8601 compilation try (Windows) :
 
