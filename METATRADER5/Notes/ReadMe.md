@@ -41,4 +41,4 @@ HugoFX
 
 https://www.youtube.com/watch?v=2gBbFnZnwk8
 
-"Session London connue pour créer le plus et le plus bas de la journée."
+"Session London connue pour créer le plus haut et le plus bas de la journée."
