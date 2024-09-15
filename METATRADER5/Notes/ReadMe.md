@@ -27,3 +27,11 @@
 ![image](tanja011.png)
 
 ![image](tanja012.png)
+
+
+
+From https://x.com/infinitytradeIO/status/1666837026673393667
+
+ICT2022MentorshipModelFlowCharts01.jpg
+
+ICT2022MentorshipModelFlowCharts02.jpg
