@@ -32,6 +32,10 @@
 
 From https://x.com/infinitytradeIO/status/1666837026673393667
 
-ICT2022MentorshipModelFlowCharts01.jpg
+![image](ICT2022MentorshipModelFlowCharts01.jpg)
+
+![image](ICT2022MentorshipModelFlowCharts02.jpg)
+
+
 
 ICT2022MentorshipModelFlowCharts02.jpg
