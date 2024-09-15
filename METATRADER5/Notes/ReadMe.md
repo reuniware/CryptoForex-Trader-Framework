@@ -37,5 +37,8 @@ From https://x.com/infinitytradeIO/status/1666837026673393667
 ![image](ICT2022MentorshipModelFlowCharts02.jpg)
 
 
+HugoFX
 
-ICT2022MentorshipModelFlowCharts02.jpg
+https://www.youtube.com/watch?v=2gBbFnZnwk8
+
+"Session London connue pour créer le plus et le plus bas de la journée."
