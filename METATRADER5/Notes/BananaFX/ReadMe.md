@@ -23,3 +23,8 @@ Ne pas être revenu dans l'OB = TROISIEME CONFIRMATION
 Prise de position OB baissier
 
 ![image](https://github.com/user-attachments/assets/8173f520-24fa-4420-9cca-a6c017b92672)
+
+Prise de position OB haussier
+
+![image](https://github.com/user-attachments/assets/bf6832d4-160c-4bb0-b3c3-fa1a786783ea)
+
