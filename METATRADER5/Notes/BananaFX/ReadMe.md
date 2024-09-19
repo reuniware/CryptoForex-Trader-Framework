@@ -15,3 +15,7 @@ FVG après un OB baissier = PREMIERE VALIDATION
 BOS avant OB baissier = DEUXIEME CONFIRMATION
 
 ![image](https://github.com/user-attachments/assets/21ff3f85-d0f0-4b1c-84ec-76bde24a8063)
+
+Ne pas être revenu dans l'OB = TROISIEME CONFIRMATION
+
+![image](https://github.com/user-attachments/assets/1fb6623d-aca9-4cf3-a12a-b63229c7d5be)
