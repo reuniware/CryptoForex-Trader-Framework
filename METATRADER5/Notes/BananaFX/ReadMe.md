@@ -8,3 +8,7 @@ Order Block haussier
 
 ![image](https://github.com/user-attachments/assets/106f5aa9-15d3-4b80-855e-61bd4d590625)
 
+FVG après un OB baissier
+
+![image](https://github.com/user-attachments/assets/9142e37d-fb04-4fb5-ac74-4f677a911864)
+
