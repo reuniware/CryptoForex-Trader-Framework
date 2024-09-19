@@ -28,3 +28,6 @@ Prise de position OB haussier
 
 ![image](https://github.com/user-attachments/assets/bf6832d4-160c-4bb0-b3c3-fa1a786783ea)
 
+OB Valide si
+
+![image](https://github.com/user-attachments/assets/d64746c4-562c-4c42-bcd4-502b9247879d)
