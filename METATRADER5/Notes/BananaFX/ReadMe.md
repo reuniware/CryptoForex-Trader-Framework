@@ -19,3 +19,7 @@ BOS avant OB baissier = DEUXIEME CONFIRMATION
 Ne pas être revenu dans l'OB = TROISIEME CONFIRMATION
 
 ![image](https://github.com/user-attachments/assets/1fb6623d-aca9-4cf3-a12a-b63229c7d5be)
+
+Prise de position OB baissier
+
+![image](https://github.com/user-attachments/assets/8173f520-24fa-4420-9cca-a6c017b92672)
