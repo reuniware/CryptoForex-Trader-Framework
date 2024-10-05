@@ -13,3 +13,9 @@ https://x.com/LumiTraders/status/1842004312341479889
 ![image](https://github.com/user-attachments/assets/aae80868-11ae-46c1-8fe0-381cab8a48ff)
 
 ![image](https://github.com/user-attachments/assets/c55fa8de-2a19-44cd-a1b2-055f60d00f21)
+
+![image](https://github.com/user-attachments/assets/8e662ec9-cb9b-4a22-b013-ad258388d2cd)
+
+![image](https://github.com/user-attachments/assets/08273ebc-9dd7-48e1-b626-1c435adddc64)
+
+![image](https://github.com/user-attachments/assets/0802befe-a028-40c6-b3c8-68cd4ec2039c)
