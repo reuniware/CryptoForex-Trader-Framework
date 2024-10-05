@@ -2,6 +2,8 @@ Recommendation to study the ICT YouTube channel
 
 https://x.com/LumiTraders/status/1842004312341479889
 
+https://www.youtube.com/watch?v=mjVHmE1gVMg&list=PLVgHx4Z63paZvjqerfbn320myZ06L1MOB
+
 ![image](https://github.com/user-attachments/assets/9f854e91-0173-436a-9f29-fdf386301e14)
 
 ![image](https://github.com/user-attachments/assets/cb28e136-6bad-4f6a-bc31-14dd5381a1cf)
@@ -35,4 +37,32 @@ https://x.com/LumiTraders/status/1842004312341479889
 ![image](https://github.com/user-attachments/assets/474be5d5-3995-4995-876d-6722f008cc20)
 
 ![image](https://github.com/user-attachments/assets/0296c73d-3f8b-46dc-8c8d-68537a630d05)
+
+![image](https://github.com/user-attachments/assets/1f13a9cf-9eb5-4bc7-b8fd-ed2a1f8987cd)
+
+![image](https://github.com/user-attachments/assets/5d43a3c5-0f6c-4496-abf3-91b3fb0e4faa)
+
+![image](https://github.com/user-attachments/assets/a62567b7-1c0a-4641-940e-9c9e6f8c4713)
+
+![image](https://github.com/user-attachments/assets/e7548bbf-dc20-4c56-a0f4-d6245dc6c0a9)
+
+![image](https://github.com/user-attachments/assets/aea778a9-0430-48fd-b1f5-abd8ebb1df3a)
+
+![image](https://github.com/user-attachments/assets/25294a15-f0fb-4215-860d-131a9c95fbd9)
+
+![image](https://github.com/user-attachments/assets/ec2c2ebb-70f5-43c7-83d0-f222c8bbff23)
+
+![image](https://github.com/user-attachments/assets/10c2b763-bbe7-4f53-ade6-b7137fe25178)
+
+![image](https://github.com/user-attachments/assets/ed21d4b9-b6ed-4735-b8f2-84c7b1e373dc)
+
+![image](https://github.com/user-attachments/assets/df81c293-8254-446c-a88e-b89ad92d1b98)
+
+![image](https://github.com/user-attachments/assets/63d953a5-5a49-4c55-ad5b-f1b8730a9730)
+
+![image](https://github.com/user-attachments/assets/38a63522-bb32-4efe-b942-d44a058e9ee0)
+
+![image](https://github.com/user-attachments/assets/e465e44a-7c9a-46e5-8529-f02fcfe9606e)
+
+![image](https://github.com/user-attachments/assets/db52c69b-3423-479a-a09a-0982581753dc)
 
