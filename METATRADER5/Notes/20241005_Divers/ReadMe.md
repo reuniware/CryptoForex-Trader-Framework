@@ -19,3 +19,12 @@ https://x.com/LumiTraders/status/1842004312341479889
 ![image](https://github.com/user-attachments/assets/08273ebc-9dd7-48e1-b626-1c435adddc64)
 
 ![image](https://github.com/user-attachments/assets/0802befe-a028-40c6-b3c8-68cd4ec2039c)
+
+![image](https://github.com/user-attachments/assets/7a3ddd4b-2566-45ad-ad09-5ea2fd4aca23)
+
+![image](https://github.com/user-attachments/assets/bf432f52-e016-4901-89d9-e44f5ba6e112)
+
+![image](https://github.com/user-attachments/assets/dbf7a975-34aa-4977-bd52-cc17ce24db14)
+
+![image](https://github.com/user-attachments/assets/3a5b769b-d3f6-4892-b688-81c18052cab9)
+
