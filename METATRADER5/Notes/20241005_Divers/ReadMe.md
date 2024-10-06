@@ -66,3 +66,12 @@ https://www.youtube.com/watch?v=mjVHmE1gVMg&list=PLVgHx4Z63paZvjqerfbn320myZ06L1
 
 ![image](https://github.com/user-attachments/assets/db52c69b-3423-479a-a09a-0982581753dc)
 
+![image](https://github.com/user-attachments/assets/4e72dd6c-181a-47df-b14f-4e46bf3d85fa)
+
+![image](https://github.com/user-attachments/assets/2d70ea7b-813d-4cf8-a4a1-4788bf75265c)
+
+![image](https://github.com/user-attachments/assets/338c3d84-bce2-4357-9be9-0b2ee9980649)
+
+![image](https://github.com/user-attachments/assets/1598124f-f71d-4c80-b775-fa575292adb9)
+
+![image](https://github.com/user-attachments/assets/fe054464-62ee-4f86-9773-3a1bdda303f2)
