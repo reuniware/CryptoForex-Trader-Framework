@@ -1,3 +1,6 @@
+#python ml_ichimoku_scanner.py -e binance -f USDT -tf 1h --train
+#python ml_ichimoku_scanner.py -e binance -f USDT -tf 1h
+
 import sys
 import os
 import ccxt
